@@ -112,3 +112,54 @@
 [2023-06-18 00:08:38] INFO root fetch - processPackages [kithon]: Remove: archive file [/home/abi/fetcher/tmp/kithon-0.6.0.post1.tar.gz]
 [2023-06-18 00:08:38] INFO root fetch - main [MainThread]: End processing [kithon]: success
 [2023-06-18 00:08:38] INFO root fetch - main [MainThread]: Store serial: [18546112]
+[2023-06-18 00:13:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546112]
+[2023-06-18 00:13:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 00:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyBibX
+[2023-06-18 00:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypothesis
+[2023-06-18 00:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: berserk
+[2023-06-18 00:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airflow-provider-anomaly-detection
+[2023-06-18 00:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Python-Monitoring-Agent
+[2023-06-18 00:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boardgen
+[2023-06-18 00:13:47] INFO root fetch - processPackages [pyBibX]: New version: [3.1.4] Old Version: [3.0.7]
+[2023-06-18 00:13:47] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 00:13:47] INFO root fetch - processPackages [berserk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 00:13:47] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-18 00:13:47] WARNING root fetch - processPackages [Python-Monitoring-Agent]: Skipping, unable to determine old version
+[2023-06-18 00:13:47] INFO root fetch - main [MainThread]: End processing [Python-Monitoring-Agent] error
+[2023-06-18 00:13:47] INFO root fetch - processPackages [boardgen]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-18 00:13:48] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/09/50/6b084375e446e30ecd753063df31514c7862304f290a742694a2d6067ab5/airflow_provider_anomaly_detection-0.0.8.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [berserk]: Downloading https://files.pythonhosted.org/packages/83/7d/ca6332b8aa17ff24603b5ac7c9f4432397e7bc81c59ae2097dfb33df5d03/berserk-0.8.0.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/6a/ef/6a14c6f17aa64c5fd5f15ab602eb183edcbe6e06dd3eed4445d6ae0ea170/airflow_provider_anomaly_detection-0.0.9.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/cc/1c/9adf626aba2ad87fa027edd0eb2a9953ae6717ae87f920e9062c6f43f5b1/pyBibX-3.0.7.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [boardgen]: Downloading https://files.pythonhosted.org/packages/7a/b3/4d393dab9ac4c79d6c973d4b9cd9fac24799c70633e406466cfad6ad7646/boardgen-0.7.2.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: executing diffoscope
+[2023-06-18 00:13:48] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz --markdown 20230618/a/airflow-provider-anomaly-detection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 00:13:48] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-06-18 00:13:48] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230618/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-18 00:13:48] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/e1/ee/211f9ee5820d4862d8118a1f0876511369184243bd5389347f5869bdcd6c/pyBibX-3.1.4.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [boardgen]: Downloading https://files.pythonhosted.org/packages/b1/83/4f8ba948e33509639c252930aaedb1a24edb5f420a6cdad8ba111988bd82/boardgen-0.7.3.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [pyBibX]: executing diffoscope
+[2023-06-18 00:13:48] INFO root fetch - processPackages [pyBibX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBibX-3.0.7.tar.gz tmp/pyBibX-3.1.4.tar.gz --markdown 20230618/p/pyBibX/3.0.7-3.1.4/diff.md --exclude *.pyd
+[2023-06-18 00:13:48] INFO root fetch - processPackages [berserk]: Downloading https://files.pythonhosted.org/packages/75/5d/9bc9866bce95ef40cd39bf641c210021beb83c2c4c3034eb543754a79767/berserk-0.9.0.tar.gz
+[2023-06-18 00:13:48] INFO root fetch - processPackages [berserk]: executing diffoscope
+[2023-06-18 00:13:48] INFO root fetch - processPackages [berserk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berserk-0.8.0.tar.gz tmp/berserk-0.9.0.tar.gz --markdown 20230618/b/berserk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 00:13:48] INFO root fetch - processPackages [boardgen]: executing diffoscope
+[2023-06-18 00:13:48] INFO root fetch - processPackages [boardgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boardgen-0.7.2.tar.gz tmp/boardgen-0.7.3.tar.gz --markdown 20230618/b/boardgen/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-18 00:13:49] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz]
+[2023-06-18 00:13:49] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz]
+[2023-06-18 00:13:49] INFO root fetch - main [MainThread]: End processing [airflow-provider-anomaly-detection]: success
+[2023-06-18 00:13:49] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.0.7.tar.gz]
+[2023-06-18 00:13:49] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.1.4.tar.gz]
+[2023-06-18 00:13:49] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
+[2023-06-18 00:13:49] INFO root fetch - processPackages [berserk]: Remove: archive file [/home/abi/fetcher/tmp/berserk-0.8.0.tar.gz]
+[2023-06-18 00:13:49] INFO root fetch - processPackages [berserk]: Remove: archive file [/home/abi/fetcher/tmp/berserk-0.9.0.tar.gz]
+[2023-06-18 00:13:49] INFO root fetch - main [MainThread]: End processing [berserk]: success
+[2023-06-18 00:13:50] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-06-18 00:13:50] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-06-18 00:13:50] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-06-18 00:14:45] INFO root fetch - processPackages [boardgen]: Remove: archive file [/home/abi/fetcher/tmp/boardgen-0.7.2.tar.gz]
+[2023-06-18 00:14:45] INFO root fetch - processPackages [boardgen]: Remove: archive file [/home/abi/fetcher/tmp/boardgen-0.7.3.tar.gz]
+[2023-06-18 00:14:45] INFO root fetch - main [MainThread]: End processing [boardgen]: success
+[2023-06-18 00:14:45] INFO root fetch - main [MainThread]: Store serial: [18546138]
