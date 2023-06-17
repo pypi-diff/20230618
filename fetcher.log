@@ -1,0 +1,75 @@
+[2023-06-18 00:03:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546062]
+[2023-06-18 00:03:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 00:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charactergpt-prompts
+[2023-06-18 00:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skmetpy
+[2023-06-18 00:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kraken-build
+[2023-06-18 00:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kraken-common
+[2023-06-18 00:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kraken-core
+[2023-06-18 00:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kraken-std
+[2023-06-18 00:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kraken-wrapper
+[2023-06-18 00:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-formset
+[2023-06-18 00:03:21] INFO root fetch - processPackages [charactergpt-prompts]: New version: [0.0.12] Old Version: [0.0.1]
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-build]: New version: [0.24.2] Old Version: [0.24.1]
+[2023-06-18 00:03:21] INFO root fetch - processPackages [skmetpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-18 00:03:21] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/71/ae/ca3e6e0d3854924fb784deed298643a9f7d4cf7212573d656beb290c35d5/skmetpy-0.0.6.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [django-formset]: New version: [1.0.dev5] Old Version: [1.0.dev4]
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.24.2] Old Version: [0.24.1]
+[2023-06-18 00:03:21] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/02/85/136cc3211b6549220c3cb2e30b6167df0fafc2bf5a41fc8f87a5b20c5645/charactergpt-prompts-0.0.1.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/d0/97/7971744c85b47864d1fb63c6994aa1c78f99f0ef0d0efef4e5e1fb6d81f7/kraken_build-0.24.1.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [django-formset]: Downloading https://files.pythonhosted.org/packages/f6/7d/c5b261973afebfc9390f203c95ac45cfacfa901ecf7596851c3e1acb2549/django-formset-1.0.dev4.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/b8/c9/f527b3c13b61645b4e17914ceea84fd7ef6bcc90848f57742695f9f0057f/kraken_wrapper-0.24.1.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/7b/2d/74d80fa98e73c70dd9b5fe364641496ca917c2ecd2c072597505b31589f1/charactergpt-prompts-0.0.12.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [charactergpt-prompts]: executing diffoscope
+[2023-06-18 00:03:21] INFO root fetch - processPackages [charactergpt-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charactergpt-prompts-0.0.1.tar.gz tmp/charactergpt-prompts-0.0.12.tar.gz --markdown 20230618/c/charactergpt-prompts/0.0.1-0.0.12/diff.md --exclude *.pyd
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/a4/07/4c520669f88967ab4e9b51c8f556054badb8441e3fc08cb53ba5612e2f8f/skmetpy-0.0.7.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/c1/1c/fc4fcf3828294a15f01509348b4cd3fd6f96beb36d7ac4a8c23aa5a6a506/kraken_build-0.24.2.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/58/48/8bf0b534f1f9646abbe9f433580ad2fa1a1fc8d704421c15c559b07dce0f/kraken_wrapper-0.24.2.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-18 00:03:21] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.0.6.tar.gz tmp/skmetpy-0.0.7.tar.gz --markdown 20230618/s/skmetpy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 00:03:21] INFO root fetch - processPackages [django-formset]: Downloading https://files.pythonhosted.org/packages/00/83/8be1e3880d7f49663fa98beb39c9be9fbbc81c70226036f4ab7c6cfe6cff/django-formset-1.0.dev5.tar.gz
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230618/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230618/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.24.1.tar.gz tmp/kraken_build-0.24.2.tar.gz --markdown 20230618/k/kraken-build/0.24.1-0.24.2/diff.md --exclude *.pyd
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.24.1.tar.gz tmp/kraken_wrapper-0.24.2.tar.gz --markdown 20230618/k/kraken-wrapper/0.24.1-0.24.2/diff.md --exclude *.pyd
+[2023-06-18 00:03:21] INFO root fetch - processPackages [django-formset]: executing diffoscope
+[2023-06-18 00:03:21] INFO root fetch - processPackages [django-formset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-formset-1.0.dev4.tar.gz tmp/django-formset-1.0.dev5.tar.gz --markdown 20230618/d/django-formset/1.0.dev4-1.0.dev5/diff.md --exclude *.pyd
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-06-18 00:03:21] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230618/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-18 00:03:23] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.6.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.7.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-06-18 00:03:23] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.0.1.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.0.12.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - main [MainThread]: End processing [charactergpt-prompts]: success
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.24.1.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.24.2.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.24.1.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.24.2.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-06-18 00:03:23] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-06-18 00:03:27] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django-formset-1.0.dev4.tar.gz]
+[2023-06-18 00:03:27] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django-formset-1.0.dev5.tar.gz]
+[2023-06-18 00:03:27] INFO root fetch - main [MainThread]: End processing [django-formset]: success
+[2023-06-18 00:03:27] INFO root fetch - main [MainThread]: Store serial: [18546089]
