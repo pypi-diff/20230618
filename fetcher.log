@@ -467,3 +467,60 @@
 [2023-06-18 00:42:46] INFO root fetch - processPackages [vl-convert-python]: Remove: archive file [/home/abi/fetcher/tmp/vl_convert_python-0.9.0.tar.gz]
 [2023-06-18 00:42:46] INFO root fetch - main [MainThread]: End processing [vl-convert-python]: success
 [2023-06-18 00:42:46] INFO root fetch - main [MainThread]: Store serial: [18546287]
+[2023-06-18 00:47:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546287]
+[2023-06-18 00:48:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 00:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xflow-net
+[2023-06-18 00:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kultimate
+[2023-06-18 00:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echolog
+[2023-06-18 00:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cropnet
+[2023-06-18 00:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-github
+[2023-06-18 00:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foundationdb
+[2023-06-18 00:48:02] INFO root fetch - processPackages [cropnet]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 00:48:02] INFO root fetch - processPackages [kultimate]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 00:48:02] INFO root fetch - processPackages [xflow-net]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-18 00:48:02] INFO root fetch - processPackages [foundationdb]: New version: [7.3.5] Old Version: [7.3.4]
+[2023-06-18 00:48:02] INFO root fetch - processPackages [echolog]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 00:48:02] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-18 00:48:02] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/ab/ab/af6eb88533310bbba589fe475d99ab7927780b0d38e0479d64fdd1dab28a/foundationdb-7.3.4.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/8c/ee/cd4785a679e603e78600a94728e40f066afae48c567e2fb3aecd6c17c42a/cropnet-0.1.1.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [echolog]: Downloading https://files.pythonhosted.org/packages/82/ec/c4af5c84f69a39d8d03f2ca6231e51f05a74b7921954e2f742aa63d505b1/echolog-0.0.2.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/c7/17/5b3daceedb4168c2c3e68fc1a87023efc1133946d90f58c7b32f8bf82d79/kultimate-0.2.8.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/c2/1f/16a196943a3ec72ef610b3f6a8749ebb6593e8f1bb6f1eb6c822c8487bb7/xflow-net-0.0.9.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/0d/5e/eee0103c6d9f18deb361fbf26f0d8c01297a6881ef39acaf7f705449e3da/foundationdb-7.3.5.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/f4/28/af1b4b75aa7c3919782de1eac96c3c82cb3cde9434dcd09906fd529a3f01/cropnet-0.1.2.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/74/94/0ab4025411af492391784e863e1aba51e7c0ea7abd7c0bf52d41af7c6079/kultimate-0.2.9.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2023-06-18 00:48:03] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.4.tar.gz tmp/foundationdb-7.3.5.tar.gz --markdown 20230618/f/foundationdb/7.3.4-7.3.5/diff.md --exclude *.pyd
+[2023-06-18 00:48:03] INFO root fetch - processPackages [echolog]: Downloading https://files.pythonhosted.org/packages/32/11/84b983d36ec7bcac80e64d88b32fd98ca4fc9a853873fac52898f0ec7355/echolog-0.0.3.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/b1/e9/ef02c913fe7aaa407ccfcc92153f53a2e01c532db26218c384ba33fc5179/xflow-net-0.1.0.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [cropnet]: executing diffoscope
+[2023-06-18 00:48:03] INFO root fetch - processPackages [cropnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropnet-0.1.1.tar.gz tmp/cropnet-0.1.2.tar.gz --markdown 20230618/c/cropnet/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 00:48:03] INFO root fetch - processPackages [kultimate]: executing diffoscope
+[2023-06-18 00:48:03] INFO root fetch - processPackages [kultimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kultimate-0.2.8.tar.gz tmp/kultimate-0.2.9.tar.gz --markdown 20230618/k/kultimate/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 00:48:03] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-06-18 00:48:03] INFO root fetch - processPackages [echolog]: executing diffoscope
+[2023-06-18 00:48:03] INFO root fetch - processPackages [echolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echolog-0.0.2.tar.gz tmp/echolog-0.0.3.tar.gz --markdown 20230618/e/echolog/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 00:48:03] INFO root fetch - processPackages [xflow-net]: executing diffoscope
+[2023-06-18 00:48:03] INFO root fetch - processPackages [xflow-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xflow-net-0.0.9.tar.gz tmp/xflow-net-0.1.0.tar.gz --markdown 20230618/x/xflow-net/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-18 00:48:03] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-18 00:48:03] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230618/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-18 00:48:04] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.1.tar.gz]
+[2023-06-18 00:48:04] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.2.tar.gz]
+[2023-06-18 00:48:04] INFO root fetch - main [MainThread]: End processing [cropnet]: success
+[2023-06-18 00:48:04] INFO root fetch - processPackages [echolog]: Remove: archive file [/home/abi/fetcher/tmp/echolog-0.0.2.tar.gz]
+[2023-06-18 00:48:04] INFO root fetch - processPackages [echolog]: Remove: archive file [/home/abi/fetcher/tmp/echolog-0.0.3.tar.gz]
+[2023-06-18 00:48:04] INFO root fetch - main [MainThread]: End processing [echolog]: success
+[2023-06-18 00:48:04] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.8.tar.gz]
+[2023-06-18 00:48:04] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.9.tar.gz]
+[2023-06-18 00:48:04] INFO root fetch - main [MainThread]: End processing [kultimate]: success
+[2023-06-18 00:48:04] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.0.9.tar.gz]
+[2023-06-18 00:48:04] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.1.0.tar.gz]
+[2023-06-18 00:48:04] INFO root fetch - main [MainThread]: End processing [xflow-net]: success
+[2023-06-18 00:48:05] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-06-18 00:48:05] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-06-18 00:48:05] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-18 00:48:05] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.4.tar.gz]
+[2023-06-18 00:48:05] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.5.tar.gz]
+[2023-06-18 00:48:05] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2023-06-18 00:48:05] INFO root fetch - main [MainThread]: Store serial: [18546307]
