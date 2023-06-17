@@ -545,3 +545,30 @@
 [2023-06-18 00:53:15] INFO root fetch - processPackages [ehw]: Remove: archive file [/home/abi/fetcher/tmp/ehw-1.0.0.tar.gz]
 [2023-06-18 00:53:15] INFO root fetch - main [MainThread]: End processing [ehw]: success
 [2023-06-18 00:53:15] INFO root fetch - main [MainThread]: Store serial: [18546321]
+[2023-06-18 00:58:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546321]
+[2023-06-18 00:58:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 00:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echolog
+[2023-06-18 00:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LwmaL_mess_client
+[2023-06-18 00:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LwmaL_mess_server
+[2023-06-18 00:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqltrie
+[2023-06-18 00:58:24] INFO root fetch - processPackages [echolog]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 00:58:24] WARNING root fetch - processPackages [LwmaL_mess_client]: Skipping, unable to determine old version
+[2023-06-18 00:58:24] INFO root fetch - main [MainThread]: End processing [LwmaL_mess_client] error
+[2023-06-18 00:58:24] INFO root fetch - processPackages [sqltrie]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-18 00:58:24] WARNING root fetch - processPackages [LwmaL_mess_server]: Skipping, unable to determine old version
+[2023-06-18 00:58:24] INFO root fetch - main [MainThread]: End processing [LwmaL_mess_server] error
+[2023-06-18 00:58:24] INFO root fetch - processPackages [echolog]: Downloading https://files.pythonhosted.org/packages/32/11/84b983d36ec7bcac80e64d88b32fd98ca4fc9a853873fac52898f0ec7355/echolog-0.0.3.tar.gz
+[2023-06-18 00:58:24] INFO root fetch - processPackages [sqltrie]: Downloading https://files.pythonhosted.org/packages/2f/8d/73a58d77efd29e693766bc27b645b0aed9d276e169598c133b436c0c19f7/sqltrie-0.6.0.tar.gz
+[2023-06-18 00:58:24] INFO root fetch - processPackages [echolog]: Downloading https://files.pythonhosted.org/packages/74/16/31aa51a1158699fac3cb103ee33b3c2eeb941796c233ccef431b20951ccb/echolog-0.0.4.tar.gz
+[2023-06-18 00:58:25] INFO root fetch - processPackages [echolog]: executing diffoscope
+[2023-06-18 00:58:25] INFO root fetch - processPackages [echolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echolog-0.0.3.tar.gz tmp/echolog-0.0.4.tar.gz --markdown 20230618/e/echolog/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 00:58:25] INFO root fetch - processPackages [sqltrie]: Downloading https://files.pythonhosted.org/packages/94/54/09841420734d11497f511652b2080b6bd43ec26ad8e47956edecad5064ee/sqltrie-0.7.0.tar.gz
+[2023-06-18 00:58:25] INFO root fetch - processPackages [sqltrie]: executing diffoscope
+[2023-06-18 00:58:25] INFO root fetch - processPackages [sqltrie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqltrie-0.6.0.tar.gz tmp/sqltrie-0.7.0.tar.gz --markdown 20230618/s/sqltrie/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-18 00:58:26] INFO root fetch - processPackages [echolog]: Remove: archive file [/home/abi/fetcher/tmp/echolog-0.0.3.tar.gz]
+[2023-06-18 00:58:26] INFO root fetch - processPackages [echolog]: Remove: archive file [/home/abi/fetcher/tmp/echolog-0.0.4.tar.gz]
+[2023-06-18 00:58:26] INFO root fetch - main [MainThread]: End processing [echolog]: success
+[2023-06-18 00:58:26] INFO root fetch - processPackages [sqltrie]: Remove: archive file [/home/abi/fetcher/tmp/sqltrie-0.6.0.tar.gz]
+[2023-06-18 00:58:26] INFO root fetch - processPackages [sqltrie]: Remove: archive file [/home/abi/fetcher/tmp/sqltrie-0.7.0.tar.gz]
+[2023-06-18 00:58:26] INFO root fetch - main [MainThread]: End processing [sqltrie]: success
+[2023-06-18 00:58:26] INFO root fetch - main [MainThread]: Store serial: [18546339]
