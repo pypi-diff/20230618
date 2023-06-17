@@ -875,3 +875,36 @@
 [2023-06-18 01:40:02] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.388.tar.gz]
 [2023-06-18 01:40:02] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
 [2023-06-18 01:40:02] INFO root fetch - main [MainThread]: Store serial: [18546480]
+[2023-06-18 01:45:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546480]
+[2023-06-18 01:45:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 01:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web-sand
+[2023-06-18 01:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wonderfull
+[2023-06-18 01:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quick-trade
+[2023-06-18 01:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aerosol-functions
+[2023-06-18 01:45:10] INFO root fetch - processPackages [web-sand]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-18 01:45:10] INFO root fetch - processPackages [aerosol-functions]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 01:45:10] WARNING root fetch - processPackages [wonderfull]: Skipping, unable to determine old version
+[2023-06-18 01:45:10] INFO root fetch - main [MainThread]: End processing [wonderfull] error
+[2023-06-18 01:45:10] INFO root fetch - processPackages [quick-trade]: New version: [7.9.7] Old Version: [7.9.6]
+[2023-06-18 01:45:11] INFO root fetch - processPackages [web-sand]: Downloading https://files.pythonhosted.org/packages/78/20/c2e5281b16a66b0fc5583476802e20cf7e5df812bdd506f5efab7db98b0e/web-sand-2.1.8.tar.gz
+[2023-06-18 01:45:11] INFO root fetch - processPackages [aerosol-functions]: Downloading https://files.pythonhosted.org/packages/55/d9/67fe3b843ee12576e12bf24b03d40598cc459b98d058dda33d549ad1f55f/aerosol-functions-0.0.8.tar.gz
+[2023-06-18 01:45:11] INFO root fetch - processPackages [quick-trade]: Downloading https://files.pythonhosted.org/packages/9b/a9/0d3ff158caea2f161f47785dd8ac0401be6a796343184c71eac48b5ebfc8/quick_trade-7.9.6.tar.gz
+[2023-06-18 01:45:11] INFO root fetch - processPackages [quick-trade]: Downloading https://files.pythonhosted.org/packages/c0/52/2240b521deb479ba461fd91f552bfb3793d56e0ef7a589ba58b2afdad956/quick_trade-7.9.7.tar.gz
+[2023-06-18 01:45:11] INFO root fetch - processPackages [aerosol-functions]: Downloading https://files.pythonhosted.org/packages/c5/a6/067c63afe777d94ab1cc46f0cdeb12ab79159cb6f6f7e0286b09547f08c0/aerosol-functions-0.0.9.tar.gz
+[2023-06-18 01:45:11] INFO root fetch - processPackages [quick-trade]: executing diffoscope
+[2023-06-18 01:45:11] INFO root fetch - processPackages [quick-trade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_trade-7.9.6.tar.gz tmp/quick_trade-7.9.7.tar.gz --markdown 20230618/q/quick-trade/7.9.6-7.9.7/diff.md --exclude *.pyd
+[2023-06-18 01:45:11] INFO root fetch - processPackages [aerosol-functions]: executing diffoscope
+[2023-06-18 01:45:11] INFO root fetch - processPackages [aerosol-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerosol-functions-0.0.8.tar.gz tmp/aerosol-functions-0.0.9.tar.gz --markdown 20230618/a/aerosol-functions/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 01:45:12] INFO root fetch - processPackages [web-sand]: Downloading https://files.pythonhosted.org/packages/1b/7d/bcca9127e4e0ffb6964ec772eef09e7544dc0750b6083aabb4a84b61d8e0/web_sand-2.1.9.tar.gz
+[2023-06-18 01:45:12] INFO root fetch - processPackages [quick-trade]: Remove: archive file [/home/abi/fetcher/tmp/quick_trade-7.9.6.tar.gz]
+[2023-06-18 01:45:12] INFO root fetch - processPackages [quick-trade]: Remove: archive file [/home/abi/fetcher/tmp/quick_trade-7.9.7.tar.gz]
+[2023-06-18 01:45:12] INFO root fetch - main [MainThread]: End processing [quick-trade]: success
+[2023-06-18 01:45:13] INFO root fetch - processPackages [web-sand]: executing diffoscope
+[2023-06-18 01:45:13] INFO root fetch - processPackages [web-sand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-sand-2.1.8.tar.gz tmp/web_sand-2.1.9.tar.gz --markdown 20230618/w/web-sand/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-18 01:45:13] INFO root fetch - processPackages [aerosol-functions]: Remove: archive file [/home/abi/fetcher/tmp/aerosol-functions-0.0.8.tar.gz]
+[2023-06-18 01:45:13] INFO root fetch - processPackages [aerosol-functions]: Remove: archive file [/home/abi/fetcher/tmp/aerosol-functions-0.0.9.tar.gz]
+[2023-06-18 01:45:13] INFO root fetch - main [MainThread]: End processing [aerosol-functions]: success
+[2023-06-18 01:45:16] INFO root fetch - processPackages [web-sand]: Remove: archive file [/home/abi/fetcher/tmp/web-sand-2.1.8.tar.gz]
+[2023-06-18 01:45:16] INFO root fetch - processPackages [web-sand]: Remove: archive file [/home/abi/fetcher/tmp/web_sand-2.1.9.tar.gz]
+[2023-06-18 01:45:16] INFO root fetch - main [MainThread]: End processing [web-sand]: success
+[2023-06-18 01:45:16] INFO root fetch - main [MainThread]: Store serial: [18546493]
