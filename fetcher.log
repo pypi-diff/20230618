@@ -709,3 +709,27 @@
 [2023-06-18 01:19:18] INFO root fetch - processPackages [inkscape-layer-utils]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_layer_utils-0.1.0.tar.gz]
 [2023-06-18 01:19:18] INFO root fetch - main [MainThread]: End processing [inkscape-layer-utils]: success
 [2023-06-18 01:19:18] INFO root fetch - main [MainThread]: Store serial: [18546392]
+[2023-06-18 01:24:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546392]
+[2023-06-18 01:24:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inkscape-layer-utils
+[2023-06-18 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: history-matching
+[2023-06-18 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramdisk
+[2023-06-18 01:24:26] INFO root fetch - processPackages [inkscape-layer-utils]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-18 01:24:26] INFO root fetch - processPackages [history-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 01:24:26] INFO root fetch - processPackages [history-matching]: Downloading https://files.pythonhosted.org/packages/e4/77/90b297b67960f0a3eb57dbbb67b98675997bd8c8d28e32c8f7739469a0c7/history_matching-0.0.8.tar.gz
+[2023-06-18 01:24:26] WARNING root fetch - processPackages [ramdisk]: Skipping, unable to determine old version
+[2023-06-18 01:24:26] INFO root fetch - main [MainThread]: End processing [ramdisk] error
+[2023-06-18 01:24:26] INFO root fetch - processPackages [inkscape-layer-utils]: Downloading https://files.pythonhosted.org/packages/7d/46/37c104bfabe3e155f1929eb1422646ab2629c1d25bde65cbfeb0ac044c40/inkscape_layer_utils-0.0.1.tar.gz
+[2023-06-18 01:24:27] INFO root fetch - processPackages [history-matching]: Downloading https://files.pythonhosted.org/packages/51/7a/aecea878a8db43097ff42b488ce497a6ac7e2b88c55ca73635b563d85e49/history_matching-0.0.9.tar.gz
+[2023-06-18 01:24:27] INFO root fetch - processPackages [inkscape-layer-utils]: Downloading https://files.pythonhosted.org/packages/ca/47/3777f571063c4b5c3e5c59b361a3374687c6907e813afa7d04395fe6d2cc/inkscape_layer_utils-0.1.0.tar.gz
+[2023-06-18 01:24:27] INFO root fetch - processPackages [history-matching]: executing diffoscope
+[2023-06-18 01:24:27] INFO root fetch - processPackages [history-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/history_matching-0.0.8.tar.gz tmp/history_matching-0.0.9.tar.gz --markdown 20230618/h/history-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 01:24:27] INFO root fetch - processPackages [inkscape-layer-utils]: executing diffoscope
+[2023-06-18 01:24:27] INFO root fetch - processPackages [inkscape-layer-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inkscape_layer_utils-0.0.1.tar.gz tmp/inkscape_layer_utils-0.1.0.tar.gz --markdown 20230618/i/inkscape-layer-utils/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-18 01:24:28] INFO root fetch - processPackages [history-matching]: Remove: archive file [/home/abi/fetcher/tmp/history_matching-0.0.8.tar.gz]
+[2023-06-18 01:24:28] INFO root fetch - processPackages [history-matching]: Remove: archive file [/home/abi/fetcher/tmp/history_matching-0.0.9.tar.gz]
+[2023-06-18 01:24:28] INFO root fetch - main [MainThread]: End processing [history-matching]: success
+[2023-06-18 01:24:28] INFO root fetch - processPackages [inkscape-layer-utils]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_layer_utils-0.0.1.tar.gz]
+[2023-06-18 01:24:28] INFO root fetch - processPackages [inkscape-layer-utils]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_layer_utils-0.1.0.tar.gz]
+[2023-06-18 01:24:28] INFO root fetch - main [MainThread]: End processing [inkscape-layer-utils]: success
+[2023-06-18 01:24:28] INFO root fetch - main [MainThread]: Store serial: [18546403]
