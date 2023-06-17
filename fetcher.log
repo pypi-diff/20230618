@@ -73,3 +73,42 @@
 [2023-06-18 00:03:27] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django-formset-1.0.dev5.tar.gz]
 [2023-06-18 00:03:27] INFO root fetch - main [MainThread]: End processing [django-formset]: success
 [2023-06-18 00:03:27] INFO root fetch - main [MainThread]: Store serial: [18546089]
+[2023-06-18 00:08:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546089]
+[2023-06-18 00:08:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 00:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kithon
+[2023-06-18 00:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paraxial
+[2023-06-18 00:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: y2mate-api
+[2023-06-18 00:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xenosite-fragment
+[2023-06-18 00:08:36] INFO root fetch - processPackages [paraxial]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-18 00:08:36] INFO root fetch - processPackages [kithon]: New version: [0.6.0.post1] Old Version: [0.6.0]
+[2023-06-18 00:08:36] INFO root fetch - processPackages [y2mate-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 00:08:36] INFO root fetch - processPackages [xenosite-fragment]: New version: [0a7] Old Version: [0a5]
+[2023-06-18 00:08:36] INFO root fetch - processPackages [kithon]: Downloading https://files.pythonhosted.org/packages/17/b0/bc35950c2f95f86a72a222441e6ba401783de4b79ffa0a8eced828be6a17/kithon-0.6.0.tar.gz
+[2023-06-18 00:08:36] INFO root fetch - processPackages [paraxial]: Downloading https://files.pythonhosted.org/packages/7b/5c/beec2533b88fc2f7d8914f5a7e197614ee81f087227976886a7ce5f132b9/paraxial-0.9.0.tar.gz
+[2023-06-18 00:08:36] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/e7/9a/a23fc3a67a88c1ba6be6bbd25ed9dc1a357cb4dbb7e210a6a36df7530c37/y2mate-api-0.0.2.tar.gz
+[2023-06-18 00:08:36] INFO root fetch - processPackages [xenosite-fragment]: Downloading https://files.pythonhosted.org/packages/67/40/8fa57a1a55d5c7704820e594158e4c96533737c4de56f2c39e26d23533a8/xenosite-fragment-0a5.tar.gz
+[2023-06-18 00:08:36] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/27/23/6324f97b6636da824ada0a7c8ff43bfb672593c7246daf1061c084c18a83/y2mate-api-0.0.3.tar.gz
+[2023-06-18 00:08:36] INFO root fetch - processPackages [paraxial]: Downloading https://files.pythonhosted.org/packages/12/c6/99bfe344d26f59dcb2c678561c81b2bb461e42b1bfd4ffe7640caadf33dd/paraxial-0.9.1.tar.gz
+[2023-06-18 00:08:36] INFO root fetch - processPackages [xenosite-fragment]: Downloading https://files.pythonhosted.org/packages/b8/9b/4e23f8bbe5150844def772301c548ff91e4093d6d7107a23515a8c3cd9be/xenosite-fragment-0a7.tar.gz
+[2023-06-18 00:08:36] INFO root fetch - processPackages [y2mate-api]: executing diffoscope
+[2023-06-18 00:08:36] INFO root fetch - processPackages [y2mate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y2mate-api-0.0.2.tar.gz tmp/y2mate-api-0.0.3.tar.gz --markdown 20230618/y/y2mate-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 00:08:36] INFO root fetch - processPackages [kithon]: Downloading https://files.pythonhosted.org/packages/5c/40/3574c1921f7800b12a3b1709d7ad9e3a031cad4b447ddc2d42a9aefbb547/kithon-0.6.0.post1.tar.gz
+[2023-06-18 00:08:37] INFO root fetch - processPackages [paraxial]: executing diffoscope
+[2023-06-18 00:08:37] INFO root fetch - processPackages [paraxial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paraxial-0.9.0.tar.gz tmp/paraxial-0.9.1.tar.gz --markdown 20230618/p/paraxial/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-18 00:08:37] INFO root fetch - processPackages [xenosite-fragment]: executing diffoscope
+[2023-06-18 00:08:37] INFO root fetch - processPackages [xenosite-fragment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenosite-fragment-0a5.tar.gz tmp/xenosite-fragment-0a7.tar.gz --markdown 20230618/x/xenosite-fragment/0a5-0a7/diff.md --exclude *.pyd
+[2023-06-18 00:08:37] INFO root fetch - processPackages [kithon]: executing diffoscope
+[2023-06-18 00:08:37] INFO root fetch - processPackages [kithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kithon-0.6.0.tar.gz tmp/kithon-0.6.0.post1.tar.gz --markdown 20230618/k/kithon/0.6.0-0.6.0.post1/diff.md --exclude *.pyd
+[2023-06-18 00:08:38] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-0.0.2.tar.gz]
+[2023-06-18 00:08:38] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-0.0.3.tar.gz]
+[2023-06-18 00:08:38] INFO root fetch - main [MainThread]: End processing [y2mate-api]: success
+[2023-06-18 00:08:38] INFO root fetch - processPackages [paraxial]: Remove: archive file [/home/abi/fetcher/tmp/paraxial-0.9.0.tar.gz]
+[2023-06-18 00:08:38] INFO root fetch - processPackages [paraxial]: Remove: archive file [/home/abi/fetcher/tmp/paraxial-0.9.1.tar.gz]
+[2023-06-18 00:08:38] INFO root fetch - main [MainThread]: End processing [paraxial]: success
+[2023-06-18 00:08:38] INFO root fetch - processPackages [xenosite-fragment]: Remove: archive file [/home/abi/fetcher/tmp/xenosite-fragment-0a5.tar.gz]
+[2023-06-18 00:08:38] INFO root fetch - processPackages [xenosite-fragment]: Remove: archive file [/home/abi/fetcher/tmp/xenosite-fragment-0a7.tar.gz]
+[2023-06-18 00:08:38] INFO root fetch - main [MainThread]: End processing [xenosite-fragment]: success
+[2023-06-18 00:08:38] INFO root fetch - processPackages [kithon]: Remove: archive file [/home/abi/fetcher/tmp/kithon-0.6.0.tar.gz]
+[2023-06-18 00:08:38] INFO root fetch - processPackages [kithon]: Remove: archive file [/home/abi/fetcher/tmp/kithon-0.6.0.post1.tar.gz]
+[2023-06-18 00:08:38] INFO root fetch - main [MainThread]: End processing [kithon]: success
+[2023-06-18 00:08:38] INFO root fetch - main [MainThread]: Store serial: [18546112]
