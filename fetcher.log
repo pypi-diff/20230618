@@ -572,3 +572,51 @@
 [2023-06-18 00:58:26] INFO root fetch - processPackages [sqltrie]: Remove: archive file [/home/abi/fetcher/tmp/sqltrie-0.7.0.tar.gz]
 [2023-06-18 00:58:26] INFO root fetch - main [MainThread]: End processing [sqltrie]: success
 [2023-06-18 00:58:26] INFO root fetch - main [MainThread]: Store serial: [18546339]
+[2023-06-18 01:03:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546339]
+[2023-06-18 01:03:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docx2python
+[2023-06-18 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-06-18 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: history-matching
+[2023-06-18 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2023-06-18 01:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whisper-autosrt
+[2023-06-18 01:03:35] INFO root fetch - processPackages [history-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 01:03:35] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-18 01:03:35] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230617] Old Version: [0.7.0b20230616]
+[2023-06-18 01:03:35] INFO root fetch - processPackages [docx2python]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-06-18 01:03:35] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230617] Old Version: [0.7.0b20230616]
+[2023-06-18 01:03:35] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/2d/97/55c368b861030af844c2497532d81e5bf801cb286f57021d45d2e1dcf929/whisper_autosrt-0.1.2.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [history-matching]: Downloading https://files.pythonhosted.org/packages/e4/77/90b297b67960f0a3eb57dbbb67b98675997bd8c8d28e32c8f7739469a0c7/history_matching-0.0.8.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [docx2python]: Downloading https://files.pythonhosted.org/packages/90/95/e8ce62e64764bbe471f72c80a45ac89e450789143031e8e5b284ace92c80/docx2python-2.7.2.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/17/05/21c8b8bdae816596f201d8f95b8b7d265684fc7c8e43214d3de1e51b2896/tmnt-cu101-0.7.0b20230616.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/da/24/a1231cea1e6d085678426db69c8580bbf6894be6741bacfb9e42f1ad2d76/tmnt-0.7.0b20230616.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/79/35/4cc2454444b74140d3f0b7d591b8b43d2ec06e194d0bc6c95a850420b4ee/tmnt-cu101-0.7.0b20230617.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [docx2python]: Downloading https://files.pythonhosted.org/packages/e1/01/173445d4c7ec9e443c1dca89dae9abde487985792eb94fd1f33f7370c662/docx2python-2.7.3.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/5a/f1/7793150621bd098d7dafe4da946d1a33c3f5b62f30887e3d74c0087d8074/whisper_autosrt-0.1.4.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/4c/dc/239c51de9709778712cd88b3fd6bed16a595f0e788fd1c898450eb432743/tmnt-0.7.0b20230617.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [history-matching]: Downloading https://files.pythonhosted.org/packages/51/7a/aecea878a8db43097ff42b488ce497a6ac7e2b88c55ca73635b563d85e49/history_matching-0.0.9.tar.gz
+[2023-06-18 01:03:35] INFO root fetch - processPackages [whisper-autosrt]: executing diffoscope
+[2023-06-18 01:03:35] INFO root fetch - processPackages [whisper-autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_autosrt-0.1.2.tar.gz tmp/whisper_autosrt-0.1.4.tar.gz --markdown 20230618/w/whisper-autosrt/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 01:03:35] INFO root fetch - processPackages [docx2python]: executing diffoscope
+[2023-06-18 01:03:35] INFO root fetch - processPackages [docx2python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx2python-2.7.2.tar.gz tmp/docx2python-2.7.3.tar.gz --markdown 20230618/d/docx2python/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-06-18 01:03:35] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-18 01:03:35] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230616.tar.gz tmp/tmnt-cu101-0.7.0b20230617.tar.gz --markdown 20230618/t/tmnt-cu101/0.7.0b20230616-0.7.0b20230617/diff.md --exclude *.pyd
+[2023-06-18 01:03:36] INFO root fetch - processPackages [history-matching]: executing diffoscope
+[2023-06-18 01:03:36] INFO root fetch - processPackages [history-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/history_matching-0.0.8.tar.gz tmp/history_matching-0.0.9.tar.gz --markdown 20230618/h/history-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 01:03:36] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-18 01:03:36] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230616.tar.gz tmp/tmnt-0.7.0b20230617.tar.gz --markdown 20230618/t/tmnt/0.7.0b20230616-0.7.0b20230617/diff.md --exclude *.pyd
+[2023-06-18 01:03:36] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.2.tar.gz]
+[2023-06-18 01:03:36] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.4.tar.gz]
+[2023-06-18 01:03:36] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
+[2023-06-18 01:03:37] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230616.tar.gz]
+[2023-06-18 01:03:37] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230617.tar.gz]
+[2023-06-18 01:03:37] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-18 01:03:37] INFO root fetch - processPackages [history-matching]: Remove: archive file [/home/abi/fetcher/tmp/history_matching-0.0.8.tar.gz]
+[2023-06-18 01:03:37] INFO root fetch - processPackages [history-matching]: Remove: archive file [/home/abi/fetcher/tmp/history_matching-0.0.9.tar.gz]
+[2023-06-18 01:03:37] INFO root fetch - main [MainThread]: End processing [history-matching]: success
+[2023-06-18 01:03:37] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230616.tar.gz]
+[2023-06-18 01:03:37] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230617.tar.gz]
+[2023-06-18 01:03:37] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-18 01:03:37] INFO root fetch - processPackages [docx2python]: Remove: archive file [/home/abi/fetcher/tmp/docx2python-2.7.2.tar.gz]
+[2023-06-18 01:03:37] INFO root fetch - processPackages [docx2python]: Remove: archive file [/home/abi/fetcher/tmp/docx2python-2.7.3.tar.gz]
+[2023-06-18 01:03:37] INFO root fetch - main [MainThread]: End processing [docx2python]: success
+[2023-06-18 01:03:37] INFO root fetch - main [MainThread]: Store serial: [18546354]
