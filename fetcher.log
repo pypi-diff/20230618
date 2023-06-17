@@ -305,3 +305,63 @@
 [2023-06-18 00:26:02] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1550.tar.gz]
 [2023-06-18 00:26:02] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-06-18 00:26:02] INFO root fetch - main [MainThread]: Store serial: [18546202]
+[2023-06-18 00:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546202]
+[2023-06-18 00:31:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Python-Monitoring-Agent
+[2023-06-18 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dockery
+[2023-06-18 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chainladder
+[2023-06-18 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: echolog
+[2023-06-18 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airflow-provider-anomaly-detection
+[2023-06-18 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: charactergpt-prompts
+[2023-06-18 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matbench-genmetrics
+[2023-06-18 00:31:11] INFO root fetch - processPackages [Python-Monitoring-Agent]: New version: [0.2.2rc1] Old Version: [0.2.1rc1]
+[2023-06-18 00:31:11] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 00:31:11] INFO root fetch - processPackages [dockery]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-18 00:31:11] INFO root fetch - processPackages [charactergpt-prompts]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-06-18 00:31:11] INFO root fetch - processPackages [chainladder]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-18 00:31:11] WARNING root fetch - processPackages [echolog]: Skipping, unable to determine old version
+[2023-06-18 00:31:11] INFO root fetch - main [MainThread]: End processing [echolog] error
+[2023-06-18 00:31:11] INFO root fetch - processPackages [matbench-genmetrics]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-18 00:31:11] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/a3/fa/9b0a933bed7f8a21e4c75657dd9b8fec44a39bc027bbd913eb973c383601/charactergpt-prompts-0.0.13.tar.gz
+[2023-06-18 00:31:11] INFO root fetch - processPackages [Python-Monitoring-Agent]: Downloading https://files.pythonhosted.org/packages/e0/cc/b80bbfe64f33546566e913fb74c4328a33b0b5e77d4146c5b0ca453d0ba3/Python%20Monitoring%20Agent-0.2.1rc1.tar.gz
+[2023-06-18 00:31:11] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/b9/4b/be11c66095ad64207e04179e33c7afc8515951fd5570625d2bbfd643e6fd/dockery-0.2.3.tar.gz
+[2023-06-18 00:31:11] INFO root fetch - processPackages [chainladder]: Downloading https://files.pythonhosted.org/packages/b3/70/000cf34c7973cd999ae2d6d12e15689b7b80d24f365da8227ef4139c6356/chainladder-0.8.8.tar.gz
+[2023-06-18 00:31:11] INFO root fetch - processPackages [matbench-genmetrics]: Downloading https://files.pythonhosted.org/packages/b8/a7/c4cc4ffe9f09ec2d78cf08a18c99d463cad56207728e74ba5968e55b66ee/matbench-genmetrics-0.6.0.tar.gz
+[2023-06-18 00:31:11] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/f1/b3/dbedd0ae190a03f6b9d2f861b4d31ca23fd1d3d0ba352fa8f524e955a842/charactergpt-prompts-0.0.14.tar.gz
+[2023-06-18 00:31:11] INFO root fetch - processPackages [Python-Monitoring-Agent]: Downloading https://files.pythonhosted.org/packages/8f/df/b31d9ab461a51833b4379a3d457bd3bfa9aefba0528975497306e3e4504a/Python%20Monitoring%20Agent-0.2.2rc1.linux-x86_64.tar.gz
+[2023-06-18 00:31:11] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/09/50/6b084375e446e30ecd753063df31514c7862304f290a742694a2d6067ab5/airflow_provider_anomaly_detection-0.0.8.tar.gz
+[2023-06-18 00:31:11] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/b1/5e/3291fa91211a2a6ca6c9b80adc4087862e629daf8db9da4cd3e8b6b53559/dockery-0.2.4.tar.gz
+[2023-06-18 00:31:11] INFO root fetch - processPackages [charactergpt-prompts]: executing diffoscope
+[2023-06-18 00:31:11] INFO root fetch - processPackages [charactergpt-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charactergpt-prompts-0.0.13.tar.gz tmp/charactergpt-prompts-0.0.14.tar.gz --markdown 20230618/c/charactergpt-prompts/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-06-18 00:31:11] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-06-18 00:31:11] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.2.3.tar.gz tmp/dockery-0.2.4.tar.gz --markdown 20230618/d/dockery/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-18 00:31:11] INFO root fetch - processPackages [Python-Monitoring-Agent]: executing diffoscope
+[2023-06-18 00:31:11] INFO root fetch - processPackages [Python-Monitoring-Agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python Monitoring Agent-0.2.1rc1.tar.gz tmp/Python Monitoring Agent-0.2.2rc1.linux-x86_64.tar.gz --markdown 20230618/P/Python-Monitoring-Agent/0.2.1rc1-0.2.2rc1/diff.md --exclude *.pyd
+[2023-06-18 00:31:11] INFO root fetch - processPackages [matbench-genmetrics]: Downloading https://files.pythonhosted.org/packages/a1/b2/eff4581b33ffb2cad31ca66a7d98046dda1a0322398cdac5823bcbb9287c/matbench-genmetrics-0.6.1.tar.gz
+[2023-06-18 00:31:12] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/6a/ef/6a14c6f17aa64c5fd5f15ab602eb183edcbe6e06dd3eed4445d6ae0ea170/airflow_provider_anomaly_detection-0.0.9.tar.gz
+[2023-06-18 00:31:12] INFO root fetch - processPackages [chainladder]: Downloading https://files.pythonhosted.org/packages/48/91/2ad1f8e65c0f74d15ffd4179eb2febb9cd516da7c7efaa2adbbcf69eaefb/chainladder-0.8.9.tar.gz
+[2023-06-18 00:31:12] INFO root fetch - processPackages [matbench-genmetrics]: executing diffoscope
+[2023-06-18 00:31:12] INFO root fetch - processPackages [matbench-genmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matbench-genmetrics-0.6.0.tar.gz tmp/matbench-genmetrics-0.6.1.tar.gz --markdown 20230618/m/matbench-genmetrics/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-18 00:31:12] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: executing diffoscope
+[2023-06-18 00:31:12] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz --markdown 20230618/a/airflow-provider-anomaly-detection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 00:31:12] INFO root fetch - processPackages [chainladder]: executing diffoscope
+[2023-06-18 00:31:12] INFO root fetch - processPackages [chainladder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainladder-0.8.8.tar.gz tmp/chainladder-0.8.9.tar.gz --markdown 20230618/c/chainladder/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-18 00:31:12] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.2.3.tar.gz]
+[2023-06-18 00:31:12] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.2.4.tar.gz]
+[2023-06-18 00:31:12] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-06-18 00:31:13] INFO root fetch - processPackages [Python-Monitoring-Agent]: Remove: archive file [/home/abi/fetcher/tmp/Python Monitoring Agent-0.2.1rc1.tar.gz]
+[2023-06-18 00:31:13] INFO root fetch - processPackages [Python-Monitoring-Agent]: Remove: archive file [/home/abi/fetcher/tmp/Python Monitoring Agent-0.2.2rc1.linux-x86_64.tar.gz]
+[2023-06-18 00:31:13] INFO root fetch - main [MainThread]: End processing [Python-Monitoring-Agent]: success
+[2023-06-18 00:31:13] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.0.13.tar.gz]
+[2023-06-18 00:31:13] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.0.14.tar.gz]
+[2023-06-18 00:31:13] INFO root fetch - main [MainThread]: End processing [charactergpt-prompts]: success
+[2023-06-18 00:31:13] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.8.tar.gz]
+[2023-06-18 00:31:13] INFO root fetch - processPackages [airflow-provider-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_anomaly_detection-0.0.9.tar.gz]
+[2023-06-18 00:31:13] INFO root fetch - main [MainThread]: End processing [airflow-provider-anomaly-detection]: success
+[2023-06-18 00:31:13] INFO root fetch - processPackages [matbench-genmetrics]: Remove: archive file [/home/abi/fetcher/tmp/matbench-genmetrics-0.6.0.tar.gz]
+[2023-06-18 00:31:13] INFO root fetch - processPackages [matbench-genmetrics]: Remove: archive file [/home/abi/fetcher/tmp/matbench-genmetrics-0.6.1.tar.gz]
+[2023-06-18 00:31:13] INFO root fetch - main [MainThread]: End processing [matbench-genmetrics]: success
+[2023-06-18 00:31:14] INFO root fetch - processPackages [chainladder]: Remove: archive file [/home/abi/fetcher/tmp/chainladder-0.8.8.tar.gz]
+[2023-06-18 00:31:14] INFO root fetch - processPackages [chainladder]: Remove: archive file [/home/abi/fetcher/tmp/chainladder-0.8.9.tar.gz]
+[2023-06-18 00:31:14] INFO root fetch - main [MainThread]: End processing [chainladder]: success
+[2023-06-18 00:31:14] INFO root fetch - main [MainThread]: Store serial: [18546223]
