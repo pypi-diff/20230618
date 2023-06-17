@@ -650,3 +650,41 @@
 [2023-06-18 01:08:53] INFO root fetch - processPackages [flower]: Remove: archive file [/home/abi/fetcher/tmp/flower-2.0.0.tar.gz]
 [2023-06-18 01:08:53] INFO root fetch - main [MainThread]: End processing [flower]: success
 [2023-06-18 01:08:53] INFO root fetch - main [MainThread]: Store serial: [18546365]
+[2023-06-18 01:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546365]
+[2023-06-18 01:14:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 01:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyXAB
+[2023-06-18 01:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bs5
+[2023-06-18 01:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rattail
+[2023-06-18 01:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vosk-autosrt
+[2023-06-18 01:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Tailbone
+[2023-06-18 01:14:02] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-18 01:14:02] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 01:14:02] WARNING root fetch - processPackages [bs5]: Skipping, unable to determine old version
+[2023-06-18 01:14:02] INFO root fetch - main [MainThread]: End processing [bs5] error
+[2023-06-18 01:14:02] INFO root fetch - processPackages [PyXAB]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-06-18 01:14:02] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-18 01:14:02] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2023-06-18 01:14:02] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-06-18 01:14:03] INFO root fetch - processPackages [PyXAB]: Downloading https://files.pythonhosted.org/packages/56/c7/74e1e6045ce4c5c7413c0ba0d7ffffbe3e2f3403131664e166b519dc76a7/PyXAB-0.2.4.tar.gz
+[2023-06-18 01:14:03] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/75/2a/a94dadce71a8dea5a616eb4972311e43af88489daaf846736ebdbcc54564/vosk_autosrt-0.0.6.tar.gz
+[2023-06-18 01:14:03] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-06-18 01:14:03] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2023-06-18 01:14:03] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-06-18 01:14:03] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230618/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-18 01:14:03] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-06-18 01:14:03] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230618/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-18 01:14:03] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21466114>=10485760
+[2023-06-18 01:14:03] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-06-18 01:14:03] INFO root fetch - processPackages [PyXAB]: Downloading https://files.pythonhosted.org/packages/01/80/e2a57267708fe523d7f11995487e8e2ff5fa8c2c0ff085b5ff300bf2a7ce/PyXAB-0.3.0.tar.gz
+[2023-06-18 01:14:03] INFO root fetch - processPackages [PyXAB]: executing diffoscope
+[2023-06-18 01:14:03] INFO root fetch - processPackages [PyXAB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyXAB-0.2.4.tar.gz tmp/PyXAB-0.3.0.tar.gz --markdown 20230618/P/PyXAB/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 01:14:04] INFO root fetch - processPackages [PyXAB]: Remove: archive file [/home/abi/fetcher/tmp/PyXAB-0.2.4.tar.gz]
+[2023-06-18 01:14:04] INFO root fetch - processPackages [PyXAB]: Remove: archive file [/home/abi/fetcher/tmp/PyXAB-0.3.0.tar.gz]
+[2023-06-18 01:14:04] INFO root fetch - main [MainThread]: End processing [PyXAB]: success
+[2023-06-18 01:14:07] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.8.tar.gz]
+[2023-06-18 01:14:07] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.9.tar.gz]
+[2023-06-18 01:14:07] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-06-18 01:14:07] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2023-06-18 01:14:07] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2023-06-18 01:14:07] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-06-18 01:14:07] INFO root fetch - main [MainThread]: Store serial: [18546389]
