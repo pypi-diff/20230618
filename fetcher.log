@@ -733,3 +733,36 @@
 [2023-06-18 01:24:28] INFO root fetch - processPackages [inkscape-layer-utils]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_layer_utils-0.1.0.tar.gz]
 [2023-06-18 01:24:28] INFO root fetch - main [MainThread]: End processing [inkscape-layer-utils]: success
 [2023-06-18 01:24:28] INFO root fetch - main [MainThread]: Store serial: [18546403]
+[2023-06-18 01:29:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546403]
+[2023-06-18 01:29:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 01:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sixth-python
+[2023-06-18 01:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evalify
+[2023-06-18 01:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powervaultpy
+[2023-06-18 01:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moptipy
+[2023-06-18 01:29:36] WARNING root fetch - processPackages [sixth-python]: Skipping, unable to determine old version
+[2023-06-18 01:29:36] INFO root fetch - main [MainThread]: End processing [sixth-python] error
+[2023-06-18 01:29:36] INFO root fetch - processPackages [powervaultpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 01:29:36] INFO root fetch - processPackages [evalify]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 01:29:36] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/db/f4/bd9f06bcdf3ede1b0d2d743302f39e81de71047140ef7e26fb0ec249931f/powervaultpy-0.0.1.tar.gz
+[2023-06-18 01:29:36] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-18 01:29:37] INFO root fetch - processPackages [evalify]: Downloading https://files.pythonhosted.org/packages/55/52/1bb0ed427b602fab4cb37f26e76acdea05c39222dede899a94bba0b6bbac/evalify-0.1.3.tar.gz
+[2023-06-18 01:29:37] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/d1/d1/e06303d883cfef15530f315450e42af5c30777716fc90ee6c8c6961d4346/powervaultpy-0.0.2.tar.gz
+[2023-06-18 01:29:37] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/be/7f/5279c5a66253c3acc29a2b1baa2ae5e5c13f14d8ed5e613af26af0568f80/moptipy-0.9.8.tar.gz
+[2023-06-18 01:29:37] INFO root fetch - processPackages [powervaultpy]: executing diffoscope
+[2023-06-18 01:29:37] INFO root fetch - processPackages [powervaultpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powervaultpy-0.0.1.tar.gz tmp/powervaultpy-0.0.2.tar.gz --markdown 20230618/p/powervaultpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 01:29:37] INFO root fetch - processPackages [evalify]: Downloading https://files.pythonhosted.org/packages/59/e5/80ee03dfda596f5f2bde7a3f5cc0b03a2110e99582ee68a4eb3b0a07f99a/evalify-0.1.4.tar.gz
+[2023-06-18 01:29:37] INFO root fetch - processPackages [evalify]: executing diffoscope
+[2023-06-18 01:29:37] INFO root fetch - processPackages [evalify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalify-0.1.3.tar.gz tmp/evalify-0.1.4.tar.gz --markdown 20230618/e/evalify/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 01:29:37] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-06-18 01:29:37] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-06-18 01:29:37] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.8.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230618/m/moptipy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-18 01:29:38] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.1.tar.gz]
+[2023-06-18 01:29:38] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.2.tar.gz]
+[2023-06-18 01:29:38] INFO root fetch - main [MainThread]: End processing [powervaultpy]: success
+[2023-06-18 01:29:38] INFO root fetch - processPackages [evalify]: Remove: archive file [/home/abi/fetcher/tmp/evalify-0.1.3.tar.gz]
+[2023-06-18 01:29:38] INFO root fetch - processPackages [evalify]: Remove: archive file [/home/abi/fetcher/tmp/evalify-0.1.4.tar.gz]
+[2023-06-18 01:29:38] INFO root fetch - main [MainThread]: End processing [evalify]: success
+[2023-06-18 01:29:40] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.8.tar.gz]
+[2023-06-18 01:29:40] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-06-18 01:29:40] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-06-18 01:29:40] INFO root fetch - main [MainThread]: Store serial: [18546417]
