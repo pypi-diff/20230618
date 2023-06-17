@@ -620,3 +620,33 @@
 [2023-06-18 01:03:37] INFO root fetch - processPackages [docx2python]: Remove: archive file [/home/abi/fetcher/tmp/docx2python-2.7.3.tar.gz]
 [2023-06-18 01:03:37] INFO root fetch - main [MainThread]: End processing [docx2python]: success
 [2023-06-18 01:03:37] INFO root fetch - main [MainThread]: Store serial: [18546354]
+[2023-06-18 01:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546354]
+[2023-06-18 01:08:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 01:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flower
+[2023-06-18 01:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychicapi
+[2023-06-18 01:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powervaultpy
+[2023-06-18 01:08:46] INFO root fetch - processPackages [psychicapi]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-06-18 01:08:46] INFO root fetch - processPackages [flower]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-06-18 01:08:46] INFO root fetch - processPackages [powervaultpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 01:08:46] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/11/42/ddb35317ea7f2f31a1ce3bce9cac1561f65d5ea5b3d771e414f168008566/psychicapi-0.7.5.tar.gz
+[2023-06-18 01:08:46] INFO root fetch - processPackages [flower]: Downloading https://files.pythonhosted.org/packages/6b/d4/d50e8937e3eeb7736285f81f17b0190b0c30f4249336e507364bbfd2fb97/flower-1.2.0.tar.gz
+[2023-06-18 01:08:46] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/db/f4/bd9f06bcdf3ede1b0d2d743302f39e81de71047140ef7e26fb0ec249931f/powervaultpy-0.0.1.tar.gz
+[2023-06-18 01:08:46] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/28/95/e79a12f1a12c8709303a363daf7a145bba000cdcbb6667567f67602b2bda/psychicapi-0.7.6.tar.gz
+[2023-06-18 01:08:46] INFO root fetch - processPackages [psychicapi]: executing diffoscope
+[2023-06-18 01:08:46] INFO root fetch - processPackages [psychicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychicapi-0.7.5.tar.gz tmp/psychicapi-0.7.6.tar.gz --markdown 20230618/p/psychicapi/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-06-18 01:08:46] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/d1/d1/e06303d883cfef15530f315450e42af5c30777716fc90ee6c8c6961d4346/powervaultpy-0.0.2.tar.gz
+[2023-06-18 01:08:46] INFO root fetch - processPackages [powervaultpy]: executing diffoscope
+[2023-06-18 01:08:46] INFO root fetch - processPackages [powervaultpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powervaultpy-0.0.1.tar.gz tmp/powervaultpy-0.0.2.tar.gz --markdown 20230618/p/powervaultpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 01:08:46] INFO root fetch - processPackages [flower]: Downloading https://files.pythonhosted.org/packages/15/e9/2e8405104def81ac30cee88dbf4215ee91d95113da3ede21e403f5085130/flower-2.0.0.tar.gz
+[2023-06-18 01:08:47] INFO root fetch - processPackages [flower]: executing diffoscope
+[2023-06-18 01:08:47] INFO root fetch - processPackages [flower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flower-1.2.0.tar.gz tmp/flower-2.0.0.tar.gz --markdown 20230618/f/flower/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-18 01:08:47] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.7.5.tar.gz]
+[2023-06-18 01:08:47] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.7.6.tar.gz]
+[2023-06-18 01:08:47] INFO root fetch - main [MainThread]: End processing [psychicapi]: success
+[2023-06-18 01:08:47] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.1.tar.gz]
+[2023-06-18 01:08:47] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.2.tar.gz]
+[2023-06-18 01:08:47] INFO root fetch - main [MainThread]: End processing [powervaultpy]: success
+[2023-06-18 01:08:53] INFO root fetch - processPackages [flower]: Remove: archive file [/home/abi/fetcher/tmp/flower-1.2.0.tar.gz]
+[2023-06-18 01:08:53] INFO root fetch - processPackages [flower]: Remove: archive file [/home/abi/fetcher/tmp/flower-2.0.0.tar.gz]
+[2023-06-18 01:08:53] INFO root fetch - main [MainThread]: End processing [flower]: success
+[2023-06-18 01:08:53] INFO root fetch - main [MainThread]: Store serial: [18546365]
