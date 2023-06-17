@@ -211,3 +211,97 @@
 [2023-06-18 00:20:02] INFO root fetch - processPackages [pyhelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyhelpers-1.5.1.tar.gz]
 [2023-06-18 00:20:02] INFO root fetch - main [MainThread]: End processing [pyhelpers]: success
 [2023-06-18 00:20:02] INFO root fetch - main [MainThread]: Store serial: [18546154]
+[2023-06-18 00:25:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546154]
+[2023-06-18 00:25:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: github-rest-api
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpteasy
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databurst
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: charactergpt-prompts
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-core
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whisper-autosrt
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-runtime
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-embed
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flet
+[2023-06-18 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Python-Monitoring-Agent
+[2023-06-18 00:25:11] WARNING root fetch - processPackages [databurst]: Skipping, unable to determine old version
+[2023-06-18 00:25:11] INFO root fetch - processPackages [databurst]: Start processing: flet-pyodide
+[2023-06-18 00:25:11] INFO root fetch - main [MainThread]: End processing [databurst] error
+[2023-06-18 00:25:11] INFO root fetch - processPackages [github-rest-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 00:25:11] INFO root fetch - processPackages [gpteasy]: New version: [1.1.1] Old Version: [1.1]
+[2023-06-18 00:25:11] INFO root fetch - processPackages [charactergpt-prompts]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-06-18 00:25:11] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-runtime]: New version: [0.8.0.dev1550] Old Version: [0.8.0.dev1538]
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1550] Old Version: [0.8.0.dev1538]
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-embed]: New version: [0.8.0.dev1550] Old Version: [0.8.0.dev1538]
+[2023-06-18 00:25:11] WARNING root fetch - processPackages [Python-Monitoring-Agent]: Skipping, unable to determine old version
+[2023-06-18 00:25:11] INFO root fetch - processPackages [Python-Monitoring-Agent]: Start processing: tree-sitter-apertium
+[2023-06-18 00:25:11] INFO root fetch - main [MainThread]: End processing [Python-Monitoring-Agent] error
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1538] Old Version: [0.8.0.dev1537]
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1550] Old Version: [0.8.0.dev1538]
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/05/89/940165bda49dc369d932eb4248c1e8bc543127d10c8baf2cdb1799e6f3fd/flet_core-0.8.0.dev1538.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/7b/2d/74d80fa98e73c70dd9b5fe364641496ca917c2ecd2c072597505b31589f1/charactergpt-prompts-0.0.12.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/af/cc/5cdd3cc2c46ff9d25ccf89eab4199f1683b14f663d552a005e18e9aa47c5/flet_runtime-0.8.0.dev1538.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/3e/ec/6cc8e34e5cd452502fa08abfd9c41d06df0b8cb9325d596239a85433b9d0/flet_embed-0.8.0.dev1538.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/4b/28/b9e10d5b85c6f8fd10c10c50397ed1d6e5676f6a7867a7b155ee12a78e8a/flet_pyodide-0.8.0.dev1537.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/cf/df/51d81fb39b41e75b3b2c39b3555ecf73ab946da26f79cc2f50fa5c7c0be6/gpteasy-1.1.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/4f/7b/fa72e7e5865f9f58077854512f1ef78aac6d9befaef19b4f7fcdf3ae87b4/flet-0.8.0.dev1538.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [tree-sitter-apertium]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-18 00:25:11] INFO root fetch - processPackages [github-rest-api]: Downloading https://files.pythonhosted.org/packages/9a/37/e35f3f3de327dd29fb97ea75d37963d721d970fed66f20453397e2692178/github_rest_api-0.8.0.tar.gz
+[2023-06-18 00:25:11] ERROR root fetch - processPackages [whisper-autosrt]: Unable to fetch info: No such project/version 'whisper-autosrt' 0.1.3
+[2023-06-18 00:25:11] INFO root fetch - main [MainThread]: End processing [whisper-autosrt] error
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/47/6d/f506f3f91b75c80dc834d0ed39622782a85ea418c98186255ea25a8a04c6/flet_pyodide-0.8.0.dev1538.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/a3/fa/9b0a933bed7f8a21e4c75657dd9b8fec44a39bc027bbd913eb973c383601/charactergpt-prompts-0.0.13.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/8e/9b/c26995790f1443c0f22a2c023c9ab405a05b4b8ca7da2810237a0f028381/flet_core-0.8.0.dev1550.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/52/df/04795af6a9cccb859b7c9ddc3221464cfaf0406cf9ca60348ef65135f0ef/gpteasy-1.1.1.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/ba/dc/3a3a608104b7fe276dc74f875afee412ff567bb506f94e24c8191466761b/flet_embed-0.8.0.dev1550.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/09/83/1e1a58aaa2f80eeb5c59ea6041249ec9ded91b3b2bec5f4a686b730b1837/flet_runtime-0.8.0.dev1550.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/b2/eb/a330df678070817015b580943b07bcd9daae3d967667344f4a661971dd2d/tree-sitter-apertium-0.1.6.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1537.tar.gz tmp/flet_pyodide-0.8.0.dev1538.tar.gz --markdown 20230618/f/flet-pyodide/0.8.0.dev1537-0.8.0.dev1538/diff.md --exclude *.pyd
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/f4/79/28d7dca1f393b118e764bbf49efc1a55c71ec7e8393f4e35d899d793c4db/flet-0.8.0.dev1550.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [gpteasy]: executing diffoscope
+[2023-06-18 00:25:11] INFO root fetch - processPackages [gpteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpteasy-1.1.tar.gz tmp/gpteasy-1.1.1.tar.gz --markdown 20230618/g/gpteasy/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-18 00:25:11] INFO root fetch - processPackages [charactergpt-prompts]: executing diffoscope
+[2023-06-18 00:25:11] INFO root fetch - processPackages [charactergpt-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charactergpt-prompts-0.0.12.tar.gz tmp/charactergpt-prompts-0.0.13.tar.gz --markdown 20230618/c/charactergpt-prompts/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-06-18 00:25:11] INFO root fetch - processPackages [github-rest-api]: Downloading https://files.pythonhosted.org/packages/3b/fa/7e69f72f1bbfcaff9eff251e9a0a8334ff6b6c352fc8bf80be1314eb9650/github_rest_api-0.9.0.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1538.tar.gz tmp/flet_core-0.8.0.dev1550.tar.gz --markdown 20230618/f/flet-core/0.8.0.dev1538-0.8.0.dev1550/diff.md --exclude *.pyd
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.8.0.dev1538.tar.gz tmp/flet_runtime-0.8.0.dev1550.tar.gz --markdown 20230618/f/flet-runtime/0.8.0.dev1538-0.8.0.dev1550/diff.md --exclude *.pyd
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.8.0.dev1538.tar.gz tmp/flet_embed-0.8.0.dev1550.tar.gz --markdown 20230618/f/flet-embed/0.8.0.dev1538-0.8.0.dev1550/diff.md --exclude *.pyd
+[2023-06-18 00:25:11] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/6b/4a/4f056d45eae914092ed3ae53e7140572266f01734f4ad5697af3b82c0db1/tree-sitter-apertium-0.1.7.tar.gz
+[2023-06-18 00:25:11] INFO root fetch - processPackages [github-rest-api]: executing diffoscope
+[2023-06-18 00:25:11] INFO root fetch - processPackages [github-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_rest_api-0.8.0.tar.gz tmp/github_rest_api-0.9.0.tar.gz --markdown 20230618/g/github-rest-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-06-18 00:25:11] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.0.dev1538.tar.gz tmp/flet-0.8.0.dev1550.tar.gz --markdown 20230618/f/flet/0.8.0.dev1538-0.8.0.dev1550/diff.md --exclude *.pyd
+[2023-06-18 00:25:12] INFO root fetch - processPackages [tree-sitter-apertium]: executing diffoscope
+[2023-06-18 00:25:12] INFO root fetch - processPackages [tree-sitter-apertium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-apertium-0.1.6.tar.gz tmp/tree-sitter-apertium-0.1.7.tar.gz --markdown 20230618/t/tree-sitter-apertium/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-18 00:25:12] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1537.tar.gz]
+[2023-06-18 00:25:12] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1538.tar.gz]
+[2023-06-18 00:25:12] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-06-18 00:25:13] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-1.1.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-1.1.1.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - main [MainThread]: End processing [gpteasy]: success
+[2023-06-18 00:25:13] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1538.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1550.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-06-18 00:25:13] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.0.12.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.0.13.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - main [MainThread]: End processing [charactergpt-prompts]: success
+[2023-06-18 00:25:13] INFO root fetch - processPackages [github-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/github_rest_api-0.8.0.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - processPackages [github-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/github_rest_api-0.9.0.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - main [MainThread]: End processing [github-rest-api]: success
+[2023-06-18 00:25:13] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1538.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1550.tar.gz]
+[2023-06-18 00:25:13] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-06-18 00:25:14] INFO root fetch - processPackages [tree-sitter-apertium]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-apertium-0.1.6.tar.gz]
+[2023-06-18 00:25:14] INFO root fetch - processPackages [tree-sitter-apertium]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-apertium-0.1.7.tar.gz]
+[2023-06-18 00:25:14] INFO root fetch - main [MainThread]: End processing [tree-sitter-apertium]: success
+[2023-06-18 00:25:14] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1538.tar.gz]
+[2023-06-18 00:25:14] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1550.tar.gz]
+[2023-06-18 00:25:14] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-06-18 00:26:02] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1538.tar.gz]
+[2023-06-18 00:26:02] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1550.tar.gz]
+[2023-06-18 00:26:02] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-06-18 00:26:02] INFO root fetch - main [MainThread]: Store serial: [18546202]
