@@ -365,3 +365,48 @@
 [2023-06-18 00:31:14] INFO root fetch - processPackages [chainladder]: Remove: archive file [/home/abi/fetcher/tmp/chainladder-0.8.9.tar.gz]
 [2023-06-18 00:31:14] INFO root fetch - main [MainThread]: End processing [chainladder]: success
 [2023-06-18 00:31:14] INFO root fetch - main [MainThread]: Store serial: [18546223]
+[2023-06-18 00:36:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546223]
+[2023-06-18 00:36:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 00:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charactergpt-prompts
+[2023-06-18 00:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-monitoring-agent
+[2023-06-18 00:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echolog
+[2023-06-18 00:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: powervaultpy
+[2023-06-18 00:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywemo
+[2023-06-18 00:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyter-utility-widgets
+[2023-06-18 00:36:23] WARNING root fetch - processPackages [powervaultpy]: Skipping, unable to determine old version
+[2023-06-18 00:36:23] INFO root fetch - main [MainThread]: End processing [powervaultpy] error
+[2023-06-18 00:36:23] INFO root fetch - processPackages [jupyter-utility-widgets]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-06-18 00:36:23] INFO root fetch - processPackages [charactergpt-prompts]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-06-18 00:36:23] WARNING root fetch - processPackages [echolog]: Skipping, unable to determine old version
+[2023-06-18 00:36:23] INFO root fetch - processPackages [python-monitoring-agent]: New version: [0.2.2rc2] Old Version: [0.2.2rc1]
+[2023-06-18 00:36:23] INFO root fetch - main [MainThread]: End processing [echolog] error
+[2023-06-18 00:36:23] INFO root fetch - processPackages [pywemo]: New version: [1.0.0] Old Version: [0.9.2]
+[2023-06-18 00:36:23] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/f1/b3/dbedd0ae190a03f6b9d2f861b4d31ca23fd1d3d0ba352fa8f524e955a842/charactergpt-prompts-0.0.14.tar.gz
+[2023-06-18 00:36:23] INFO root fetch - processPackages [python-monitoring-agent]: Downloading https://files.pythonhosted.org/packages/8f/df/b31d9ab461a51833b4379a3d457bd3bfa9aefba0528975497306e3e4504a/Python%20Monitoring%20Agent-0.2.2rc1.linux-x86_64.tar.gz
+[2023-06-18 00:36:23] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/42/fb/973f1fdb6d59de53c867c827dbfc2e79de3cfc3db53f0bc4635fa6f6254a/jupyter-utility-widgets-0.0.1a0.tar.gz
+[2023-06-18 00:36:23] INFO root fetch - processPackages [pywemo]: Downloading https://files.pythonhosted.org/packages/75/44/d8556b3647e140c61d449dfaf775fb0d928a403fb7b96269bc8d3fb3a625/pywemo-0.9.2.tar.gz
+[2023-06-18 00:36:23] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/a0/a0/41c362dfda211dff4a6dd65f809563acd20ad5596cb91cae8686fa50ed84/charactergpt-prompts-0.0.15.tar.gz
+[2023-06-18 00:36:23] INFO root fetch - processPackages [python-monitoring-agent]: Downloading https://files.pythonhosted.org/packages/b8/1a/ac81ae4be5a9315b8799d8a04b666626bf418078b731d18ac32049bc676c/python_monitoring_agent-0.2.2rc2.tar.gz
+[2023-06-18 00:36:24] INFO root fetch - processPackages [charactergpt-prompts]: executing diffoscope
+[2023-06-18 00:36:24] INFO root fetch - processPackages [charactergpt-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charactergpt-prompts-0.0.14.tar.gz tmp/charactergpt-prompts-0.0.15.tar.gz --markdown 20230618/c/charactergpt-prompts/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-06-18 00:36:24] INFO root fetch - processPackages [python-monitoring-agent]: executing diffoscope
+[2023-06-18 00:36:24] INFO root fetch - processPackages [python-monitoring-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python Monitoring Agent-0.2.2rc1.linux-x86_64.tar.gz tmp/python_monitoring_agent-0.2.2rc2.tar.gz --markdown 20230618/p/python-monitoring-agent/0.2.2rc1-0.2.2rc2/diff.md --exclude *.pyd
+[2023-06-18 00:36:24] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/17/f6/95ae3fc8143d174c7d6d5d0789df2d134bcfd5a9fa74869cca2fd4aa1c91/jupyter-utility-widgets-0.0.1a1.tar.gz
+[2023-06-18 00:36:24] INFO root fetch - processPackages [pywemo]: Downloading https://files.pythonhosted.org/packages/ee/88/27ade484d753cf5dba3be1f9873d678ecd59be4d422b0f741164c592a259/pywemo-1.0.0.tar.gz
+[2023-06-18 00:36:24] INFO root fetch - processPackages [pywemo]: executing diffoscope
+[2023-06-18 00:36:24] INFO root fetch - processPackages [pywemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywemo-0.9.2.tar.gz tmp/pywemo-1.0.0.tar.gz --markdown 20230618/p/pywemo/0.9.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-18 00:36:24] INFO root fetch - processPackages [jupyter-utility-widgets]: executing diffoscope
+[2023-06-18 00:36:24] INFO root fetch - processPackages [jupyter-utility-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-utility-widgets-0.0.1a0.tar.gz tmp/jupyter-utility-widgets-0.0.1a1.tar.gz --markdown 20230618/j/jupyter-utility-widgets/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-06-18 00:36:25] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.0.14.tar.gz]
+[2023-06-18 00:36:25] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.0.15.tar.gz]
+[2023-06-18 00:36:25] INFO root fetch - main [MainThread]: End processing [charactergpt-prompts]: success
+[2023-06-18 00:36:25] INFO root fetch - processPackages [python-monitoring-agent]: Remove: archive file [/home/abi/fetcher/tmp/Python Monitoring Agent-0.2.2rc1.linux-x86_64.tar.gz]
+[2023-06-18 00:36:25] INFO root fetch - processPackages [python-monitoring-agent]: Remove: archive file [/home/abi/fetcher/tmp/python_monitoring_agent-0.2.2rc2.tar.gz]
+[2023-06-18 00:36:25] INFO root fetch - main [MainThread]: End processing [python-monitoring-agent]: success
+[2023-06-18 00:36:25] INFO root fetch - processPackages [jupyter-utility-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-utility-widgets-0.0.1a0.tar.gz]
+[2023-06-18 00:36:25] INFO root fetch - processPackages [jupyter-utility-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-utility-widgets-0.0.1a1.tar.gz]
+[2023-06-18 00:36:25] INFO root fetch - main [MainThread]: End processing [jupyter-utility-widgets]: success
+[2023-06-18 00:36:25] INFO root fetch - processPackages [pywemo]: Remove: archive file [/home/abi/fetcher/tmp/pywemo-0.9.2.tar.gz]
+[2023-06-18 00:36:25] INFO root fetch - processPackages [pywemo]: Remove: archive file [/home/abi/fetcher/tmp/pywemo-1.0.0.tar.gz]
+[2023-06-18 00:36:25] INFO root fetch - main [MainThread]: End processing [pywemo]: success
+[2023-06-18 00:36:25] INFO root fetch - main [MainThread]: Store serial: [18546243]
