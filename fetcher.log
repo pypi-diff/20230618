@@ -766,3 +766,94 @@
 [2023-06-18 01:29:40] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
 [2023-06-18 01:29:40] INFO root fetch - main [MainThread]: End processing [moptipy]: success
 [2023-06-18 01:29:40] INFO root fetch - main [MainThread]: Store serial: [18546417]
+[2023-06-18 01:34:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546417]
+[2023-06-18 01:34:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getmodelspec
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: history-matching
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ToontownUtils
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xflow-net
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtfield
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: legendary-gl
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: test-pkg-askirin
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llmfuncs
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: getmodelspec
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dtmodel
+[2023-06-18 01:34:49] INFO root fetch - processPackages [history-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtfield]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.387] Old Version: [1.0.386]
+[2023-06-18 01:34:49] INFO root fetch - processPackages [legendary-gl]: New version: [0.20.9] Old Version: [0.20.8]
+[2023-06-18 01:34:49] INFO root fetch - processPackages [llmfuncs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 01:34:49] WARNING root fetch - processPackages [ToontownUtils]: Skipping, unable to determine old version
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.387] Old Version: [1.0.386]
+[2023-06-18 01:34:49] WARNING root fetch - processPackages [test-pkg-askirin]: Skipping, unable to determine old version
+[2023-06-18 01:34:49] INFO root fetch - processPackages [ToontownUtils]: Start processing: meow-sim
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtmodel]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 01:34:49] INFO root fetch - processPackages [xflow-net]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 01:34:49] INFO root fetch - main [MainThread]: End processing [ToontownUtils] error
+[2023-06-18 01:34:49] INFO root fetch - processPackages [test-pkg-askirin]: Start processing: humano
+[2023-06-18 01:34:49] INFO root fetch - main [MainThread]: End processing [test-pkg-askirin] error
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/10/f3/889350bba490b3f934295e0a2fe3ac6af85d8c8969e3fc69d63b853473dd/dtfield-0.2.2.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [meow-sim]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-18 01:34:49] INFO root fetch - processPackages [history-matching]: Downloading https://files.pythonhosted.org/packages/e4/77/90b297b67960f0a3eb57dbbb67b98675997bd8c8d28e32c8f7739469a0c7/history_matching-0.0.8.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/25/8f/f606cd38e171ae23f9c5249940269b23711d41626cda56f00d3573446747/dtmodel-0.1.3.tar.gz
+[2023-06-18 01:34:49] ERROR root fetch - processPackages [humano]: Unable to get metadata: No such project 'humano'
+[2023-06-18 01:34:49] INFO root fetch - main [MainThread]: End processing [humano] error
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/95/5d/b1039f142691fedfb32a489914d52ed5eab37e88511bb1d6699f99819ede/getmodelspec-1.0.386.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/95/5d/b1039f142691fedfb32a489914d52ed5eab37e88511bb1d6699f99819ede/getmodelspec-1.0.386.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/27/5a/80e59d03f828d99a04a88d7a32c5ddf4c37a83daa6baab74ab1c7f9773c2/xflow-net-0.1.2.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [history-matching]: Downloading https://files.pythonhosted.org/packages/51/7a/aecea878a8db43097ff42b488ce497a6ac7e2b88c55ca73635b563d85e49/history_matching-0.0.9.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [legendary-gl]: Downloading https://files.pythonhosted.org/packages/f3/50/23b7d06f1e7461f680894c74e4e8f49394586bcadd508eb78e66dbcff8d1/legendary-gl-0.20.8.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [history-matching]: executing diffoscope
+[2023-06-18 01:34:49] INFO root fetch - processPackages [history-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/history_matching-0.0.8.tar.gz tmp/history_matching-0.0.9.tar.gz --markdown 20230618/h/history-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 01:34:49] INFO root fetch - processPackages [llmfuncs]: Downloading https://files.pythonhosted.org/packages/2d/7d/0064c5dceddffa80f4b6988e73666918a4cb579426644c33e358e70aefc5/llmfuncs-0.1.0.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/5e/a2/8cfc0b48ccb5211c300097ce5cff93301d14d9684cf61eb1c02e4f5e698a/dtmodel-0.1.4.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/42/97/693bd8c85126274b58c0567a9c2f8a60eb56dc26bf3269e31a979073b73b/dtfield-0.2.3.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/d6/29/a2a4842103b057a3db0bb1ab0ca6c43a5e3f05261496a0f453a43e9b2d19/meow-sim-0.6.0.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/38/5b/ca391cabe5685cc5e638ebefaa93f1fed4e6f5b67b42e8fd7141235a3206/getmodelspec-1.0.387.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/c6/45/a0d4bcaf987968040e2e096d75aaa423f2d029327b72831ba68dfbd29a75/xflow-net-0.1.3.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtfield]: executing diffoscope
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfield-0.2.2.tar.gz tmp/dtfield-0.2.3.tar.gz --markdown 20230618/d/dtfield/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/38/5b/ca391cabe5685cc5e638ebefaa93f1fed4e6f5b67b42e8fd7141235a3206/getmodelspec-1.0.387.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [llmfuncs]: Downloading https://files.pythonhosted.org/packages/02/ff/4d877d7f72e738f952c27c3a9ea60d1676730425dcf582590009660309bc/llmfuncs-0.1.1.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtmodel]: executing diffoscope
+[2023-06-18 01:34:49] INFO root fetch - processPackages [dtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtmodel-0.1.3.tar.gz tmp/dtmodel-0.1.4.tar.gz --markdown 20230618/d/dtmodel/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 01:34:49] INFO root fetch - processPackages [xflow-net]: executing diffoscope
+[2023-06-18 01:34:49] INFO root fetch - processPackages [xflow-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xflow-net-0.1.2.tar.gz tmp/xflow-net-0.1.3.tar.gz --markdown 20230618/x/xflow-net/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 01:34:49] INFO root fetch - processPackages [llmfuncs]: executing diffoscope
+[2023-06-18 01:34:49] INFO root fetch - processPackages [llmfuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmfuncs-0.1.0.tar.gz tmp/llmfuncs-0.1.1.tar.gz --markdown 20230618/l/llmfuncs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.386.tar.gz tmp/getmodelspec-1.0.387.tar.gz --markdown 20230618/g/getmodelspec/1.0.386-1.0.387/diff.md --exclude *.pyd
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-18 01:34:49] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.386.tar.gz tmp/getmodelspec-1.0.387.tar.gz --markdown 20230618/g/getmodelspec/1.0.386-1.0.387/diff.md --exclude *.pyd
+[2023-06-18 01:34:49] INFO root fetch - processPackages [legendary-gl]: Downloading https://files.pythonhosted.org/packages/56/d6/6507c194ab9088bc3dedd209d5c557b496cba2a552a256d7cfbb35744199/legendary-gl-0.20.9.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/2d/dd/3ac2697fa6046a56eda4ffbf04244b9d8b6a42bc4eeae87b8193cefa08a6/meow-sim-0.6.1.tar.gz
+[2023-06-18 01:34:49] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-18 01:34:49] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.6.0.tar.gz tmp/meow-sim-0.6.1.tar.gz --markdown 20230618/m/meow-sim/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-18 01:34:49] INFO root fetch - processPackages [legendary-gl]: executing diffoscope
+[2023-06-18 01:34:49] INFO root fetch - processPackages [legendary-gl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legendary-gl-0.20.8.tar.gz tmp/legendary-gl-0.20.9.tar.gz --markdown 20230618/l/legendary-gl/0.20.8-0.20.9/diff.md --exclude *.pyd
+[2023-06-18 01:34:50] INFO root fetch - processPackages [history-matching]: Remove: archive file [/home/abi/fetcher/tmp/history_matching-0.0.8.tar.gz]
+[2023-06-18 01:34:50] INFO root fetch - processPackages [history-matching]: Remove: archive file [/home/abi/fetcher/tmp/history_matching-0.0.9.tar.gz]
+[2023-06-18 01:34:50] INFO root fetch - main [MainThread]: End processing [history-matching]: success
+[2023-06-18 01:34:51] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.3.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.4.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [dtmodel]: success
+[2023-06-18 01:34:51] INFO root fetch - processPackages [llmfuncs]: Remove: archive file [/home/abi/fetcher/tmp/llmfuncs-0.1.0.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - processPackages [llmfuncs]: Remove: archive file [/home/abi/fetcher/tmp/llmfuncs-0.1.1.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [llmfuncs]: success
+[2023-06-18 01:34:51] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.2.2.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.2.3.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [dtfield]: success
+[2023-06-18 01:34:51] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.1.2.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.1.3.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [xflow-net]: success
+[2023-06-18 01:34:51] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.6.0.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.6.1.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-18 01:34:51] INFO root fetch - processPackages [legendary-gl]: Remove: archive file [/home/abi/fetcher/tmp/legendary-gl-0.20.8.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - processPackages [legendary-gl]: Remove: archive file [/home/abi/fetcher/tmp/legendary-gl-0.20.9.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [legendary-gl]: success
+[2023-06-18 01:34:51] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.386.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.387.tar.gz]
+[2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-18 01:34:51] INFO root fetch - main [MainThread]: Store serial: [18546460]
