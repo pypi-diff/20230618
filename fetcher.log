@@ -857,3 +857,21 @@
 [2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
 [2023-06-18 01:34:51] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
 [2023-06-18 01:34:51] INFO root fetch - main [MainThread]: Store serial: [18546460]
+[2023-06-18 01:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546460]
+[2023-06-18 01:40:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 01:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: humano
+[2023-06-18 01:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tangens
+[2023-06-18 01:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getmodelspec
+[2023-06-18 01:40:01] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.388] Old Version: [1.0.386]
+[2023-06-18 01:40:01] WARNING root fetch - processPackages [tangens]: Skipping, unable to determine old version
+[2023-06-18 01:40:01] INFO root fetch - main [MainThread]: End processing [tangens] error
+[2023-06-18 01:40:01] WARNING root fetch - processPackages [humano]: Skipping, unable to determine old version
+[2023-06-18 01:40:01] INFO root fetch - main [MainThread]: End processing [humano] error
+[2023-06-18 01:40:01] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/95/5d/b1039f142691fedfb32a489914d52ed5eab37e88511bb1d6699f99819ede/getmodelspec-1.0.386.tar.gz
+[2023-06-18 01:40:01] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/f7/a9/8bc0d8ea9f73fdd952ea3849f13caf77340d7a490f4289d7d0cd43567bb8/getmodelspec-1.0.388.tar.gz
+[2023-06-18 01:40:01] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-18 01:40:01] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.386.tar.gz tmp/getmodelspec-1.0.388.tar.gz --markdown 20230618/g/getmodelspec/1.0.386-1.0.388/diff.md --exclude *.pyd
+[2023-06-18 01:40:02] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.386.tar.gz]
+[2023-06-18 01:40:02] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.388.tar.gz]
+[2023-06-18 01:40:02] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-18 01:40:02] INFO root fetch - main [MainThread]: Store serial: [18546480]
