@@ -163,3 +163,51 @@
 [2023-06-18 00:14:45] INFO root fetch - processPackages [boardgen]: Remove: archive file [/home/abi/fetcher/tmp/boardgen-0.7.3.tar.gz]
 [2023-06-18 00:14:45] INFO root fetch - main [MainThread]: End processing [boardgen]: success
 [2023-06-18 00:14:45] INFO root fetch - main [MainThread]: Store serial: [18546138]
+[2023-06-18 00:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546138]
+[2023-06-18 00:19:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 00:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhelpers
+[2023-06-18 00:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-dapr-helper
+[2023-06-18 00:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-datax-tools
+[2023-06-18 00:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpteasy
+[2023-06-18 00:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prefecto
+[2023-06-18 00:19:54] INFO root fetch - processPackages [spark-datax-tools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-18 00:19:54] INFO root fetch - processPackages [fastapi-dapr-helper]: New version: [0.1.1a0] Old Version: [0.1.0]
+[2023-06-18 00:19:54] INFO root fetch - processPackages [pyhelpers]: New version: [1.5.1] Old Version: [1.5.0rc2]
+[2023-06-18 00:19:54] INFO root fetch - processPackages [gpteasy]: New version: [1.1] Old Version: [1.0.3]
+[2023-06-18 00:19:54] INFO root fetch - processPackages [prefecto]: New version: [0.0.1.post0] Old Version: [0.0.1]
+[2023-06-18 00:19:54] INFO root fetch - processPackages [spark-datax-tools]: Downloading https://files.pythonhosted.org/packages/4c/5b/c196568cabbb7878315fcdb7388cf8778093e634b916cc907a07be43ae3b/spark_datax_tools-0.3.0.tar.gz
+[2023-06-18 00:19:54] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/40/3a/f884f88ccb397c0d1c24d8df3d07b2082074ca40facd29fba83b0216c6cc/gpteasy-1.0.3.tar.gz
+[2023-06-18 00:19:54] INFO root fetch - processPackages [fastapi-dapr-helper]: Downloading https://files.pythonhosted.org/packages/32/e8/ca413f8720e7506fcb8ec886d89092397aa8f1c604b3984e0efa9c2bd500/fastapi-dapr-helper-0.1.0.tar.gz
+[2023-06-18 00:19:54] INFO root fetch - processPackages [pyhelpers]: Downloading https://files.pythonhosted.org/packages/cf/86/88ea87225dd5e32e05e3e0e2de32e62557027ddbc70c637bbf770e943eaa/pyhelpers-1.5.0rc2.tar.gz
+[2023-06-18 00:19:54] INFO root fetch - processPackages [prefecto]: Downloading https://files.pythonhosted.org/packages/b7/6d/575caca166ad03c2b8b557d7ee2e108ac1c47b1e4e192caeab8e0ce56b91/prefecto-0.0.1.tar.gz
+[2023-06-18 00:19:54] INFO root fetch - processPackages [fastapi-dapr-helper]: Downloading https://files.pythonhosted.org/packages/73/58/aee460b7f20d248d7d6a99b5c062968f4d339f99420f19d6503bf3f64cb0/fastapi-dapr-helper-0.1.1a0.tar.gz
+[2023-06-18 00:19:54] INFO root fetch - processPackages [spark-datax-tools]: Downloading https://files.pythonhosted.org/packages/38/95/7bc12dbb1db40bdd8d7e14dca758f2d29223c40cee48da6d398691d48510/spark_datax_tools-0.3.1.tar.gz
+[2023-06-18 00:19:54] INFO root fetch - processPackages [gpteasy]: Downloading https://files.pythonhosted.org/packages/cf/df/51d81fb39b41e75b3b2c39b3555ecf73ab946da26f79cc2f50fa5c7c0be6/gpteasy-1.1.tar.gz
+[2023-06-18 00:19:54] INFO root fetch - processPackages [prefecto]: Downloading https://files.pythonhosted.org/packages/47/8f/e57dbf777835d1a442563b27509253516e0cb62c45adc451287f6ec6f753/prefecto-0.0.1.post0.tar.gz
+[2023-06-18 00:19:55] INFO root fetch - processPackages [gpteasy]: executing diffoscope
+[2023-06-18 00:19:55] INFO root fetch - processPackages [gpteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpteasy-1.0.3.tar.gz tmp/gpteasy-1.1.tar.gz --markdown 20230618/g/gpteasy/1.0.3-1.1/diff.md --exclude *.pyd
+[2023-06-18 00:19:55] INFO root fetch - processPackages [prefecto]: executing diffoscope
+[2023-06-18 00:19:55] INFO root fetch - processPackages [prefecto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefecto-0.0.1.tar.gz tmp/prefecto-0.0.1.post0.tar.gz --markdown 20230618/p/prefecto/0.0.1-0.0.1.post0/diff.md --exclude *.pyd
+[2023-06-18 00:19:55] INFO root fetch - processPackages [pyhelpers]: Downloading https://files.pythonhosted.org/packages/93/9c/eb04b89bbd9652bcdaa75982bc7aa2c53e75787aae6f0f6644d9bde269db/pyhelpers-1.5.1.tar.gz
+[2023-06-18 00:19:55] INFO root fetch - processPackages [fastapi-dapr-helper]: executing diffoscope
+[2023-06-18 00:19:55] INFO root fetch - processPackages [fastapi-dapr-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-dapr-helper-0.1.0.tar.gz tmp/fastapi-dapr-helper-0.1.1a0.tar.gz --markdown 20230618/f/fastapi-dapr-helper/0.1.0-0.1.1a0/diff.md --exclude *.pyd
+[2023-06-18 00:19:55] INFO root fetch - processPackages [spark-datax-tools]: executing diffoscope
+[2023-06-18 00:19:55] INFO root fetch - processPackages [spark-datax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_datax_tools-0.3.0.tar.gz tmp/spark_datax_tools-0.3.1.tar.gz --markdown 20230618/s/spark-datax-tools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-18 00:19:55] INFO root fetch - processPackages [pyhelpers]: executing diffoscope
+[2023-06-18 00:19:55] INFO root fetch - processPackages [pyhelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelpers-1.5.0rc2.tar.gz tmp/pyhelpers-1.5.1.tar.gz --markdown 20230618/p/pyhelpers/1.5.0rc2-1.5.1/diff.md --exclude *.pyd
+[2023-06-18 00:19:56] INFO root fetch - processPackages [prefecto]: Remove: archive file [/home/abi/fetcher/tmp/prefecto-0.0.1.tar.gz]
+[2023-06-18 00:19:56] INFO root fetch - processPackages [prefecto]: Remove: archive file [/home/abi/fetcher/tmp/prefecto-0.0.1.post0.tar.gz]
+[2023-06-18 00:19:56] INFO root fetch - main [MainThread]: End processing [prefecto]: success
+[2023-06-18 00:19:56] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-1.0.3.tar.gz]
+[2023-06-18 00:19:56] INFO root fetch - processPackages [gpteasy]: Remove: archive file [/home/abi/fetcher/tmp/gpteasy-1.1.tar.gz]
+[2023-06-18 00:19:56] INFO root fetch - main [MainThread]: End processing [gpteasy]: success
+[2023-06-18 00:19:56] INFO root fetch - processPackages [fastapi-dapr-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-dapr-helper-0.1.0.tar.gz]
+[2023-06-18 00:19:56] INFO root fetch - processPackages [fastapi-dapr-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-dapr-helper-0.1.1a0.tar.gz]
+[2023-06-18 00:19:56] INFO root fetch - main [MainThread]: End processing [fastapi-dapr-helper]: success
+[2023-06-18 00:19:56] INFO root fetch - processPackages [spark-datax-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_datax_tools-0.3.0.tar.gz]
+[2023-06-18 00:19:56] INFO root fetch - processPackages [spark-datax-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_datax_tools-0.3.1.tar.gz]
+[2023-06-18 00:19:56] INFO root fetch - main [MainThread]: End processing [spark-datax-tools]: success
+[2023-06-18 00:20:02] INFO root fetch - processPackages [pyhelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyhelpers-1.5.0rc2.tar.gz]
+[2023-06-18 00:20:02] INFO root fetch - processPackages [pyhelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyhelpers-1.5.1.tar.gz]
+[2023-06-18 00:20:02] INFO root fetch - main [MainThread]: End processing [pyhelpers]: success
+[2023-06-18 00:20:02] INFO root fetch - main [MainThread]: Store serial: [18546154]
