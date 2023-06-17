@@ -908,3 +908,24 @@
 [2023-06-18 01:45:16] INFO root fetch - processPackages [web-sand]: Remove: archive file [/home/abi/fetcher/tmp/web_sand-2.1.9.tar.gz]
 [2023-06-18 01:45:16] INFO root fetch - main [MainThread]: End processing [web-sand]: success
 [2023-06-18 01:45:16] INFO root fetch - main [MainThread]: Store serial: [18546493]
+[2023-06-18 01:50:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546493]
+[2023-06-18 01:50:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 01:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charactergpt-prompts
+[2023-06-18 01:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inkscape-layer-utils
+[2023-06-18 01:50:25] INFO root fetch - processPackages [inkscape-layer-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 01:50:25] INFO root fetch - processPackages [charactergpt-prompts]: New version: [0.1.0] Old Version: [0.0.15]
+[2023-06-18 01:50:25] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/a0/a0/41c362dfda211dff4a6dd65f809563acd20ad5596cb91cae8686fa50ed84/charactergpt-prompts-0.0.15.tar.gz
+[2023-06-18 01:50:25] INFO root fetch - processPackages [inkscape-layer-utils]: Downloading https://files.pythonhosted.org/packages/ca/47/3777f571063c4b5c3e5c59b361a3374687c6907e813afa7d04395fe6d2cc/inkscape_layer_utils-0.1.0.tar.gz
+[2023-06-18 01:50:25] INFO root fetch - processPackages [charactergpt-prompts]: Downloading https://files.pythonhosted.org/packages/1a/1a/85291168775dbbc9f6e9acf8171bfa8fc60f67b75f29731435ec8e65dfda/charactergpt-prompts-0.1.0.tar.gz
+[2023-06-18 01:50:25] INFO root fetch - processPackages [charactergpt-prompts]: executing diffoscope
+[2023-06-18 01:50:25] INFO root fetch - processPackages [charactergpt-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charactergpt-prompts-0.0.15.tar.gz tmp/charactergpt-prompts-0.1.0.tar.gz --markdown 20230618/c/charactergpt-prompts/0.0.15-0.1.0/diff.md --exclude *.pyd
+[2023-06-18 01:50:25] INFO root fetch - processPackages [inkscape-layer-utils]: Downloading https://files.pythonhosted.org/packages/48/cf/6b1f5d05d59506b2789302a6469ac62a635c9a989290880c7d86c3c9185d/inkscape_layer_utils-0.1.1.tar.gz
+[2023-06-18 01:50:25] INFO root fetch - processPackages [inkscape-layer-utils]: executing diffoscope
+[2023-06-18 01:50:25] INFO root fetch - processPackages [inkscape-layer-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inkscape_layer_utils-0.1.0.tar.gz tmp/inkscape_layer_utils-0.1.1.tar.gz --markdown 20230618/i/inkscape-layer-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 01:50:26] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.0.15.tar.gz]
+[2023-06-18 01:50:26] INFO root fetch - processPackages [charactergpt-prompts]: Remove: archive file [/home/abi/fetcher/tmp/charactergpt-prompts-0.1.0.tar.gz]
+[2023-06-18 01:50:26] INFO root fetch - main [MainThread]: End processing [charactergpt-prompts]: success
+[2023-06-18 01:50:26] INFO root fetch - processPackages [inkscape-layer-utils]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_layer_utils-0.1.0.tar.gz]
+[2023-06-18 01:50:26] INFO root fetch - processPackages [inkscape-layer-utils]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_layer_utils-0.1.1.tar.gz]
+[2023-06-18 01:50:26] INFO root fetch - main [MainThread]: End processing [inkscape-layer-utils]: success
+[2023-06-18 01:50:26] INFO root fetch - main [MainThread]: Store serial: [18546498]
