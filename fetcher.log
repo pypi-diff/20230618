@@ -4925,3 +4925,18 @@
 [2023-06-18 07:52:47] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.3.tar.gz]
 [2023-06-18 07:52:47] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
 [2023-06-18 07:52:47] INFO root fetch - main [MainThread]: Store serial: [18548325]
+[2023-06-18 07:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548325]
+[2023-06-18 07:57:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 07:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: connect-python
+[2023-06-18 07:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clld-morphology-plugin
+[2023-06-18 07:57:56] WARNING root fetch - processPackages [connect-python]: Skipping, unable to determine old version
+[2023-06-18 07:57:56] INFO root fetch - main [MainThread]: End processing [connect-python] error
+[2023-06-18 07:57:56] INFO root fetch - processPackages [clld-morphology-plugin]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 07:57:56] INFO root fetch - processPackages [clld-morphology-plugin]: Downloading https://files.pythonhosted.org/packages/1c/4f/01565ac63d11e05f034c004f60bd22c2fe65617211916c420c27c1f1b58d/clld_morphology_plugin-0.0.7.tar.gz
+[2023-06-18 07:57:56] INFO root fetch - processPackages [clld-morphology-plugin]: Downloading https://files.pythonhosted.org/packages/b4/7a/afe5d920ad1e82ee9f740ded669a7bc165471783ca58645adadecea5acf3/clld_morphology_plugin-0.0.8.tar.gz
+[2023-06-18 07:57:56] INFO root fetch - processPackages [clld-morphology-plugin]: executing diffoscope
+[2023-06-18 07:57:56] INFO root fetch - processPackages [clld-morphology-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clld_morphology_plugin-0.0.7.tar.gz tmp/clld_morphology_plugin-0.0.8.tar.gz --markdown 20230618/c/clld-morphology-plugin/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 07:57:58] INFO root fetch - processPackages [clld-morphology-plugin]: Remove: archive file [/home/abi/fetcher/tmp/clld_morphology_plugin-0.0.7.tar.gz]
+[2023-06-18 07:57:58] INFO root fetch - processPackages [clld-morphology-plugin]: Remove: archive file [/home/abi/fetcher/tmp/clld_morphology_plugin-0.0.8.tar.gz]
+[2023-06-18 07:57:58] INFO root fetch - main [MainThread]: End processing [clld-morphology-plugin]: success
+[2023-06-18 07:57:58] INFO root fetch - main [MainThread]: Store serial: [18548331]
