@@ -2072,3 +2072,50 @@
 [2023-06-18 03:20:24] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
 [2023-06-18 03:20:24] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-06-18 03:20:24] INFO root fetch - main [MainThread]: Store serial: [18546983]
+[2023-06-18 03:25:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546983]
+[2023-06-18 03:25:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 03:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2023-06-18 03:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: split-markdown4gpt
+[2023-06-18 03:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-hugo-deploy
+[2023-06-18 03:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-ns1
+[2023-06-18 03:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-06-18 03:25:32] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev15] Old Version: [0.8.2.dev11]
+[2023-06-18 03:25:32] INFO root fetch - processPackages [split-markdown4gpt]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 03:25:32] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.1.0a1687050371] Old Version: [3.1.0a1686930571]
+[2023-06-18 03:25:32] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:25:32] INFO root fetch - processPackages [split-markdown4gpt]: Downloading https://files.pythonhosted.org/packages/eb/41/114037c0a9b3f2e6153aeea75f5021d118aafa5b3e46af183ed26b5f3cbc/split_markdown4gpt-1.0.2.tar.gz
+[2023-06-18 03:25:32] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/4e/55/b5cbf6b18c9607f8e1e4d851909bf5c8875e919ceb4ba021fbe243e706c3/pulumi_ns1-3.1.0a1686930571.tar.gz
+[2023-06-18 03:25:32] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-18 03:25:33] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-18 03:25:33] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/84/f8/efb62fd510a31ab0430b753d5e5c3f1655b5b3901d0e21829a92d020fde6/duckdb-0.8.2.dev15.tar.gz
+[2023-06-18 03:25:33] INFO root fetch - processPackages [split-markdown4gpt]: Downloading https://files.pythonhosted.org/packages/8c/35/d8382c9ffd217b44ad3ebfc08dacf87c7d7231a59c15703df7192e6a8ea9/split_markdown4gpt-1.0.3.tar.gz
+[2023-06-18 03:25:33] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/b5/fb/79fee471dd69dc38b5f18914f71f06adb7a5119d55e98fc8f6d3ab11087a/pulumi_ns1-3.1.0a1687050371.tar.gz
+[2023-06-18 03:25:33] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-18 03:25:33] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-18 03:25:33] INFO root fetch - processPackages [split-markdown4gpt]: executing diffoscope
+[2023-06-18 03:25:33] INFO root fetch - processPackages [split-markdown4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/split_markdown4gpt-1.0.2.tar.gz tmp/split_markdown4gpt-1.0.3.tar.gz --markdown 20230618/s/split-markdown4gpt/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 03:25:33] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-06-18 03:25:33] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.2.dev11.tar.gz tmp/duckdb-0.8.2.dev15.tar.gz --markdown 20230618/d/duckdb/0.8.2.dev11-0.8.2.dev15/diff.md --exclude *.pyd
+[2023-06-18 03:25:33] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-18 03:25:33] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230618/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:25:33] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2023-06-18 03:25:33] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.1.0a1686930571.tar.gz tmp/pulumi_ns1-3.1.0a1687050371.tar.gz --markdown 20230618/p/pulumi-ns1/3.1.0a1686930571-3.1.0a1687050371/diff.md --exclude *.pyd
+[2023-06-18 03:25:33] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-18 03:25:33] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-18 03:25:33] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230618/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-18 03:25:34] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-18 03:25:34] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-18 03:25:34] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-18 03:25:34] INFO root fetch - processPackages [split-markdown4gpt]: Remove: archive file [/home/abi/fetcher/tmp/split_markdown4gpt-1.0.2.tar.gz]
+[2023-06-18 03:25:34] INFO root fetch - processPackages [split-markdown4gpt]: Remove: archive file [/home/abi/fetcher/tmp/split_markdown4gpt-1.0.3.tar.gz]
+[2023-06-18 03:25:34] INFO root fetch - main [MainThread]: End processing [split-markdown4gpt]: success
+[2023-06-18 03:25:34] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1686930571.tar.gz]
+[2023-06-18 03:25:34] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1687050371.tar.gz]
+[2023-06-18 03:25:34] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2023-06-18 03:25:35] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-18 03:25:35] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-18 03:25:35] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-18 03:28:00] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev11.tar.gz]
+[2023-06-18 03:28:00] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev15.tar.gz]
+[2023-06-18 03:28:00] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-06-18 03:28:00] INFO root fetch - main [MainThread]: Store serial: [18546993]
