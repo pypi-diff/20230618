@@ -956,3 +956,57 @@
 [2023-06-18 02:00:50] INFO root fetch - processPackages [SenseLink]: Remove: archive file [/home/abi/fetcher/tmp/SenseLink-2.2.0.tar.gz]
 [2023-06-18 02:00:50] INFO root fetch - main [MainThread]: End processing [SenseLink]: success
 [2023-06-18 02:00:50] INFO root fetch - main [MainThread]: Store serial: [18546514]
+[2023-06-18 02:05:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546514]
+[2023-06-18 02:05:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 02:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qvatel-sms-api
+[2023-06-18 02:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getmodelspec
+[2023-06-18 02:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HandGestureRec
+[2023-06-18 02:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-06-18 02:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibis-framework
+[2023-06-18 02:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2023-06-18 02:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mct-nightly
+[2023-06-18 02:05:59] INFO root fetch - processPackages [HandGestureRec]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-18 02:05:59] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-18 02:05:59] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-18 02:05:59] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-18 02:05:59] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-18 02:05:59] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1686960219] Old Version: [1686873807]
+[2023-06-18 02:05:59] INFO root fetch - processPackages [HandGestureRec]: Downloading https://files.pythonhosted.org/packages/2f/de/7e5eae8bbf6cf0af75906f41f47cc6c3c5b42afdcadb50506d500669640a/HandGestureRec-0.1.5.tar.gz
+[2023-06-18 02:05:59] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-18 02:05:59] INFO root fetch - processPackages [ibis-framework]: New version: [v0.6.0] Old Version: [5.1.1.dev516]
+[2023-06-18 02:05:59] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-06-18 02:05:59] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/72/67/c41d66aacecdcd2266d9cc8b33971c58687b315c880c7c5fddd058aee5ce/torchdatasets-nightly-1686873807.tar.gz
+[2023-06-18 02:05:59] INFO root fetch - processPackages [HandGestureRec]: Downloading https://files.pythonhosted.org/packages/b6/b5/3d84e929967cd95645f8c720a004fc1f914e629455385ced0bdeae74b261/HandGestureRec-0.1.6.tar.gz
+[2023-06-18 02:05:59] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/22/4a/3ecbcac4e5229014fd0f13a7db58e8b4b0fa1906302af5e267df6c7479b8/ibis_framework-5.1.1.dev516.tar.gz
+[2023-06-18 02:05:59] WARNING root fetch - processPackages [qvatel-sms-api]: Skipping, unable to determine old version
+[2023-06-18 02:05:59] INFO root fetch - main [MainThread]: End processing [qvatel-sms-api] error
+[2023-06-18 02:05:59] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/39/fa/63c23125514f4ccbde477ead4854e4d29c9cacdb45efe98739c07a78a9a1/mct-nightly-1.8.0.9052023.post348.tar.gz
+[2023-06-18 02:05:59] INFO root fetch - processPackages [HandGestureRec]: executing diffoscope
+[2023-06-18 02:05:59] INFO root fetch - processPackages [HandGestureRec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandGestureRec-0.1.5.tar.gz tmp/HandGestureRec-0.1.6.tar.gz --markdown 20230618/H/HandGestureRec/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-18 02:05:59] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-18 02:05:59] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230618/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-18 02:05:59] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/34/06/b2ee212b34b0c8b829350c637e31930b5cbce18d51b8cf155508aa29f8b5/torchdatasets-nightly-1686960219.tar.gz
+[2023-06-18 02:05:59] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-18 02:05:59] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-18 02:05:59] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1686873807.tar.gz tmp/torchdatasets-nightly-1686960219.tar.gz --markdown 20230618/t/torchdatasets-nightly/1686873807-1686960219/diff.md --exclude *.pyd
+[2023-06-18 02:05:59] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-18 02:05:59] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230618/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-18 02:06:00] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/0b/3d/fbf4278e9e436717a6fe476a81d1abec511869bba1cf642b601472bf6408/ibis-framework-v0.6.0.tar.gz
+[2023-06-18 02:06:00] INFO root fetch - processPackages [ibis-framework]: executing diffoscope
+[2023-06-18 02:06:00] INFO root fetch - processPackages [ibis-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibis_framework-5.1.1.dev516.tar.gz tmp/ibis-framework-v0.6.0.tar.gz --markdown 20230618/i/ibis-framework/5.1.1.dev516-v0.6.0/diff.md --exclude *.pyd
+[2023-06-18 02:06:00] INFO root fetch - processPackages [HandGestureRec]: Remove: archive file [/home/abi/fetcher/tmp/HandGestureRec-0.1.5.tar.gz]
+[2023-06-18 02:06:00] INFO root fetch - processPackages [HandGestureRec]: Remove: archive file [/home/abi/fetcher/tmp/HandGestureRec-0.1.6.tar.gz]
+[2023-06-18 02:06:00] INFO root fetch - main [MainThread]: End processing [HandGestureRec]: success
+[2023-06-18 02:06:00] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686873807.tar.gz]
+[2023-06-18 02:06:00] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686960219.tar.gz]
+[2023-06-18 02:06:00] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-18 02:06:00] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-18 02:06:00] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-18 02:06:00] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-18 02:06:05] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis_framework-5.1.1.dev516.tar.gz]
+[2023-06-18 02:06:05] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis-framework-v0.6.0.tar.gz]
+[2023-06-18 02:06:05] INFO root fetch - main [MainThread]: End processing [ibis-framework]: success
+[2023-06-18 02:06:07] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9042023.post411.tar.gz]
+[2023-06-18 02:06:07] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
+[2023-06-18 02:06:07] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-18 02:06:07] INFO root fetch - main [MainThread]: Store serial: [18546542]
