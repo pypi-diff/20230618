@@ -13483,3 +13483,49 @@ EOFError: EOF read where object expected
 [2023-06-18 20:28:49] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.9.tar.gz]
 [2023-06-18 20:28:49] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
 [2023-06-18 20:28:49] INFO root fetch - main [MainThread]: Store serial: [18552027]
+[2023-06-18 20:33:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552027]
+[2023-06-18 20:33:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompt4all
+[2023-06-18 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-06-18 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aacommpy
+[2023-06-18 20:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-pypi-security
+[2023-06-18 20:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lollms
+[2023-06-18 20:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoptimum
+[2023-06-18 20:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DMWT
+[2023-06-18 20:33:59] INFO root fetch - processPackages [prompt4all]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 20:33:59] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230618.18.30.36457] Old Version: [20230618.17.37.185390]
+[2023-06-18 20:33:59] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:33:59] INFO root fetch - processPackages [pyoptimum]: New version: [0.4] Old Version: [0.3]
+[2023-06-18 20:33:59] WARNING root fetch - processPackages [test-pypi-security]: Skipping, unable to determine old version
+[2023-06-18 20:33:59] INFO root fetch - main [MainThread]: End processing [test-pypi-security] error
+[2023-06-18 20:33:59] INFO root fetch - processPackages [lollms]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-18 20:33:59] INFO root fetch - processPackages [pyoptimum]: Downloading https://files.pythonhosted.org/packages/73/04/c531088d8d159f14680bd6f8038a3eac816d2a9e413fbd5ee361013f3e56/pyoptimum-0.3.tar.gz
+[2023-06-18 20:33:59] WARNING root fetch - processPackages [DMWT]: Skipping, unable to determine old version
+[2023-06-18 20:33:59] INFO root fetch - main [MainThread]: End processing [DMWT] error
+[2023-06-18 20:33:59] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/cc/84/119419f68fa685857690cc3988e6a0509a9f8a40da053b9e158cc56e4f9b/aacommpy-0.1.8.tar.gz
+[2023-06-18 20:33:59] INFO root fetch - processPackages [prompt4all]: Downloading https://files.pythonhosted.org/packages/5b/3c/daec3643ed4c1c50dfb5021232c2fe9ff14a3421b591a65f017e3c9d6283/prompt4all-0.0.1.tar.gz
+[2023-06-18 20:33:59] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/32/9a/411cd0db116d85c23ea361d01aaa66a784cb88d2bd2cc5068ba0cf95e871/lollms-1.2.0.tar.gz
+[2023-06-18 20:33:59] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/0f/ee/d2401e7e60e9ad4ac1fc57c88f280857e3d50dd84d727bb2aa897f1e61df/certora-cli-alpha-master-20230618.17.37.185390.tar.gz
+[2023-06-18 20:33:59] INFO root fetch - processPackages [pyoptimum]: Downloading https://files.pythonhosted.org/packages/30/87/f1f1e3d5bd25255480ec8bba5c8e2acbe131966cb986657cb998c0e3d28d/pyoptimum-0.4.tar.gz
+[2023-06-18 20:33:59] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31794620>=10485760
+[2023-06-18 20:33:59] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 20:33:59] INFO root fetch - processPackages [pyoptimum]: executing diffoscope
+[2023-06-18 20:33:59] INFO root fetch - processPackages [pyoptimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoptimum-0.3.tar.gz tmp/pyoptimum-0.4.tar.gz --markdown 20230618/p/pyoptimum/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-18 20:33:59] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/14/6d/defc6d745b118f6b34275d3b3990a2a53be8d450e9ef0cec09d3ea855372/aacommpy-0.1.9.tar.gz
+[2023-06-18 20:33:59] INFO root fetch - processPackages [prompt4all]: Downloading https://files.pythonhosted.org/packages/3b/33/6bf0a24afef63c7c1d950c3c7dc09ff5983b55e752a321d0a5c40f533fae/prompt4all-0.0.2-py3-none-any.whl
+[2023-06-18 20:33:59] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37054162>=10485760
+[2023-06-18 20:33:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-18 20:33:59] INFO root fetch - processPackages [prompt4all]: executing diffoscope
+[2023-06-18 20:33:59] INFO root fetch - processPackages [prompt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt4all-0.0.1.tar.gz tmp/prompt4all-0.0.2-py3-none-any.whl.zip --markdown 20230618/p/prompt4all/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 20:33:59] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-06-18 20:33:59] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230618/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:34:00] INFO root fetch - processPackages [pyoptimum]: Remove: archive file [/home/abi/fetcher/tmp/pyoptimum-0.3.tar.gz]
+[2023-06-18 20:34:00] INFO root fetch - processPackages [pyoptimum]: Remove: archive file [/home/abi/fetcher/tmp/pyoptimum-0.4.tar.gz]
+[2023-06-18 20:34:00] INFO root fetch - main [MainThread]: End processing [pyoptimum]: success
+[2023-06-18 20:34:00] INFO root fetch - processPackages [aacommpy]: Remove: archive file [/home/abi/fetcher/tmp/aacommpy-0.1.8.tar.gz]
+[2023-06-18 20:34:00] INFO root fetch - processPackages [aacommpy]: Remove: archive file [/home/abi/fetcher/tmp/aacommpy-0.1.9.tar.gz]
+[2023-06-18 20:34:00] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-06-18 20:34:00] INFO root fetch - processPackages [prompt4all]: Remove: archive file [/home/abi/fetcher/tmp/prompt4all-0.0.1.tar.gz]
+[2023-06-18 20:34:00] INFO root fetch - processPackages [prompt4all]: Remove: archive file [/home/abi/fetcher/tmp/prompt4all-0.0.2-py3-none-any.whl.zip]
+[2023-06-18 20:34:00] INFO root fetch - main [MainThread]: End processing [prompt4all]: success
+[2023-06-18 20:34:00] INFO root fetch - main [MainThread]: Store serial: [18552055]
