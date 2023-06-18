@@ -5258,3 +5258,65 @@
 [2023-06-18 09:11:36] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.6.0.tar.gz]
 [2023-06-18 09:11:36] INFO root fetch - main [MainThread]: End processing [callbackin]: success
 [2023-06-18 09:11:36] INFO root fetch - main [MainThread]: Store serial: [18548492]
+[2023-06-18 09:16:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548492]
+[2023-06-18 09:16:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 09:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bambooai
+[2023-06-18 09:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyRYD
+[2023-06-18 09:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: angola
+[2023-06-18 09:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: callbackin
+[2023-06-18 09:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfq-nightly
+[2023-06-18 09:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yid-langchain-extensions
+[2023-06-18 09:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webhooklib
+[2023-06-18 09:16:45] INFO root fetch - processPackages [bambooai]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-18 09:16:45] INFO root fetch - processPackages [angola]: New version: [0.12.3] Old Version: [0.12.2]
+[2023-06-18 09:16:45] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-18 09:16:45] INFO root fetch - processPackages [PyRYD]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 09:16:45] INFO root fetch - processPackages [webhooklib]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-18 09:16:45] INFO root fetch - processPackages [callbackin]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-18 09:16:45] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230617] Old Version: [0.7.3.dev20230616]
+[2023-06-18 09:16:45] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/73/37/36f1020f197eef146615dcff64184f86703d2edb7503f84d91e14a4e0026/webhooklib-0.6.0.tar.gz
+[2023-06-18 09:16:45] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/e4/bd/c91eefe2c4385bbddad3249d566fdbd1e011427cbd4cf48e9c2b7034f42d/angola-0.12.2.tar.gz
+[2023-06-18 09:16:45] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/0b/63/28bb8af805f17008db16a22d782ff1096e4a0992756651c6841e22fd3280/callbackin-0.6.0.tar.gz
+[2023-06-18 09:16:45] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/f7/fe/496ea05e8ad1afa920ecbd3d1f51ce616bfd9c88108da3c4796d4e20cea4/bambooai-0.3.4.tar.gz
+[2023-06-18 09:16:45] INFO root fetch - processPackages [PyRYD]: Downloading https://files.pythonhosted.org/packages/ef/a0/69063d4624a10c153b0f147239bb9135bfb15826484a81cbd51b6a038afd/PyRYD-0.1.4.tar.gz
+[2023-06-18 09:16:45] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/9b/6f/99f69e56257acaf0ee9a3221e8bf6df7c1b6999154ea710b51c33261402a/yid_langchain_extensions-0.4.6.tar.gz
+[2023-06-18 09:16:45] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/11/3a/92d4fef12edcbaf35e706db4542fe9cbc86dca038d303bc25ee230457583/tfq_nightly-0.7.3.dev20230616-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-18 09:16:45] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822714>=10485760
+[2023-06-18 09:16:45] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-18 09:16:45] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/cd/f0/a585ed1477e7d0b745289ff5bf5d25b6feae5f7bae15fcb96cfb86a40ddd/angola-0.12.3.tar.gz
+[2023-06-18 09:16:45] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/05/eb/aadd2ac67aee452c158d53a62562930474ece3b8885f929695dbd76211a9/callbackin-0.7.0.tar.gz
+[2023-06-18 09:16:45] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/1e/2f/b45e5edffb706375d489a60f47cfbc211c47f34900073310db3926626969/bambooai-0.3.5.tar.gz
+[2023-06-18 09:16:46] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-06-18 09:16:46] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.12.2.tar.gz tmp/angola-0.12.3.tar.gz --markdown 20230618/a/angola/0.12.2-0.12.3/diff.md --exclude *.pyd
+[2023-06-18 09:16:46] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-06-18 09:16:46] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.4.tar.gz tmp/bambooai-0.3.5.tar.gz --markdown 20230618/b/bambooai/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-18 09:16:46] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/42/38/57f67dacff99a57a90cdc68467b5ce67c7f6c8328058835623a7cc148482/webhooklib-0.7.0.tar.gz
+[2023-06-18 09:16:46] INFO root fetch - processPackages [PyRYD]: Downloading https://files.pythonhosted.org/packages/fe/c4/bb3ca8f5dbb766a9f70a3443901a39c36e12057702a4419e3003c195a231/PyRYD-0.1.5.tar.gz
+[2023-06-18 09:16:46] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/17/74/3e541aa8e4990065ec2c831b00108e98e3a183ff2c24eaac2cead2d60177/yid_langchain_extensions-0.4.7.tar.gz
+[2023-06-18 09:16:46] INFO root fetch - processPackages [callbackin]: executing diffoscope
+[2023-06-18 09:16:46] INFO root fetch - processPackages [callbackin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callbackin-0.6.0.tar.gz tmp/callbackin-0.7.0.tar.gz --markdown 20230618/c/callbackin/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-18 09:16:46] INFO root fetch - processPackages [PyRYD]: executing diffoscope
+[2023-06-18 09:16:46] INFO root fetch - processPackages [PyRYD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyRYD-0.1.4.tar.gz tmp/PyRYD-0.1.5.tar.gz --markdown 20230618/P/PyRYD/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 09:16:46] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-18 09:16:46] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.6.0.tar.gz tmp/webhooklib-0.7.0.tar.gz --markdown 20230618/w/webhooklib/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-18 09:16:46] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-06-18 09:16:46] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.6.tar.gz tmp/yid_langchain_extensions-0.4.7.tar.gz --markdown 20230618/y/yid-langchain-extensions/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-18 09:16:47] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.12.2.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.12.3.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - main [MainThread]: End processing [angola]: success
+[2023-06-18 09:16:47] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.4.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.5.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-06-18 09:16:47] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.6.0.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.7.0.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - main [MainThread]: End processing [callbackin]: success
+[2023-06-18 09:16:47] INFO root fetch - processPackages [PyRYD]: Remove: archive file [/home/abi/fetcher/tmp/PyRYD-0.1.4.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - processPackages [PyRYD]: Remove: archive file [/home/abi/fetcher/tmp/PyRYD-0.1.5.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - main [MainThread]: End processing [PyRYD]: success
+[2023-06-18 09:16:47] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.6.0.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.7.0.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-18 09:16:47] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.6.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.7.tar.gz]
+[2023-06-18 09:16:47] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-06-18 09:16:47] INFO root fetch - main [MainThread]: Store serial: [18548512]
