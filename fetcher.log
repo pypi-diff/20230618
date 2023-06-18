@@ -3889,3 +3889,57 @@
 [2023-06-18 05:22:20] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
 [2023-06-18 05:22:20] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
 [2023-06-18 05:22:20] INFO root fetch - main [MainThread]: Store serial: [18547794]
+[2023-06-18 05:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547794]
+[2023-06-18 05:27:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-wavefront
+[2023-06-18 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inviz
+[2023-06-18 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-snowflake
+[2023-06-18 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsspkg
+[2023-06-18 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tika-client
+[2023-06-18 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: design-kgex
+[2023-06-18 05:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-tls
+[2023-06-18 05:27:29] INFO root fetch - processPackages [pulumi-wavefront]: New version: [1.5.0a1687057378] Old Version: [1.5.0a1686638980]
+[2023-06-18 05:27:29] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-06-18 05:27:29] WARNING root fetch - processPackages [design-kgex]: Skipping, unable to determine old version
+[2023-06-18 05:27:29] INFO root fetch - main [MainThread]: End processing [design-kgex] error
+[2023-06-18 05:27:29] INFO root fetch - processPackages [inviz]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-18 05:27:29] WARNING root fetch - processPackages [dsspkg]: Skipping, unable to determine old version
+[2023-06-18 05:27:29] INFO root fetch - main [MainThread]: End processing [dsspkg] error
+[2023-06-18 05:27:29] INFO root fetch - processPackages [tika-client]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-18 05:27:29] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1687057369] Old Version: [5.1.0a1686760176]
+[2023-06-18 05:27:29] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/26/02/29c676817134fe588e1d713f9696cae60899888cb89c0d18a19de60eaa65/pulumi_wavefront-1.5.0a1686638980.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/89/a9/433c842697ef48d981db9b0ca793afa87454f1c382d2b2e456dd452fa5d8/inviz-0.0.9.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/c7/94/bb9545b4ddb9173f54aba190b04576519770f0fd50f966150a5a0feaa340/pulumi_tls-5.1.0a1686760176.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [tika-client]: Downloading https://files.pythonhosted.org/packages/2f/d4/0aaa814a4de57c0c5dfc84b4c8e73b6e23adbda1cadc2fa1c6fbd6665ab5/tika_client-0.0.3.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/8c/35/8f0e49f15930e7b5dc0e161cd8f6c1db480632bb2e458e0b956e7c187a00/inviz-0.1.0.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/9d/51/e0195c3e9383bdacfe5a20323f5ead168a09ad6417b8a8256ca63e9acbd1/pulumi_wavefront-1.5.0a1687057378.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/bb/d2/e49545868049ac6ec066641bee6e0d423692a083a26d3f952b6967a6c8cd/pulumi_tls-5.1.0a1687057369.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [tika-client]: Downloading https://files.pythonhosted.org/packages/2b/05/da935fb3e2f3524fe6ef356b1b765d41810053215c094f61ebeb1b6e307d/tika_client-0.1.0.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-06-18 05:27:30] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.0.9.tar.gz tmp/inviz-0.1.0.tar.gz --markdown 20230618/i/inviz/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230618/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1686760176.tar.gz tmp/pulumi_tls-5.1.0a1687057369.tar.gz --markdown 20230618/p/pulumi-tls/5.1.0a1686760176-5.1.0a1687057369/diff.md --exclude *.pyd
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-06-18 05:27:30] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-1.5.0a1686638980.tar.gz tmp/pulumi_wavefront-1.5.0a1687057378.tar.gz --markdown 20230618/p/pulumi-wavefront/1.5.0a1686638980-1.5.0a1687057378/diff.md --exclude *.pyd
+[2023-06-18 05:27:30] INFO root fetch - processPackages [tika-client]: executing diffoscope
+[2023-06-18 05:27:30] INFO root fetch - processPackages [tika-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tika_client-0.0.3.tar.gz tmp/tika_client-0.1.0.tar.gz --markdown 20230618/t/tika-client/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-18 05:27:31] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.0.9.tar.gz]
+[2023-06-18 05:27:31] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.1.0.tar.gz]
+[2023-06-18 05:27:31] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-06-18 05:27:31] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1686638980.tar.gz]
+[2023-06-18 05:27:31] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1687057378.tar.gz]
+[2023-06-18 05:27:31] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-06-18 05:27:32] INFO root fetch - processPackages [tika-client]: Remove: archive file [/home/abi/fetcher/tmp/tika_client-0.0.3.tar.gz]
+[2023-06-18 05:27:32] INFO root fetch - processPackages [tika-client]: Remove: archive file [/home/abi/fetcher/tmp/tika_client-0.1.0.tar.gz]
+[2023-06-18 05:27:32] INFO root fetch - main [MainThread]: End processing [tika-client]: success
+[2023-06-18 05:27:32] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-06-18 05:27:32] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-06-18 05:27:32] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-06-18 05:27:32] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1686760176.tar.gz]
+[2023-06-18 05:27:32] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1687057369.tar.gz]
+[2023-06-18 05:27:32] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2023-06-18 05:27:32] INFO root fetch - main [MainThread]: Store serial: [18547817]
