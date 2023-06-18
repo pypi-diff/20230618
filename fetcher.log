@@ -2945,3 +2945,45 @@
 [2023-06-18 04:16:57] INFO root fetch - processPackages [themoviedb]: Remove: archive file [/home/abi/fetcher/tmp/themoviedb-0.3.4.tar.gz]
 [2023-06-18 04:16:57] INFO root fetch - main [MainThread]: End processing [themoviedb]: success
 [2023-06-18 04:16:57] INFO root fetch - main [MainThread]: Store serial: [18547467]
+[2023-06-18 04:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547467]
+[2023-06-18 04:22:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 04:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure
+[2023-06-18 04:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: themoviedb
+[2023-06-18 04:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Zennin
+[2023-06-18 04:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atksh-utils
+[2023-06-18 04:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atksh-utils
+[2023-06-18 04:22:06] INFO root fetch - processPackages [atksh-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 04:22:06] INFO root fetch - processPackages [themoviedb]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-18 04:22:06] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-06-18 04:22:06] INFO root fetch - processPackages [Zennin]: New version: [1.0.dev20230617] Old Version: [1.0.0]
+[2023-06-18 04:22:06] INFO root fetch - processPackages [atksh-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 04:22:06] INFO root fetch - processPackages [themoviedb]: Downloading https://files.pythonhosted.org/packages/ad/d0/423d6c4c2cf13d862b217caa0e4b3458d8638fa50c9ccdca5f18b99b6390/themoviedb-0.3.4.tar.gz
+[2023-06-18 04:22:06] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/42/3b/7a40531aa823679f439b88261d310b59cc194b7d12cd8f76dca095fc9570/atksh-utils-0.1.2.tar.gz
+[2023-06-18 04:22:06] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/42/3b/7a40531aa823679f439b88261d310b59cc194b7d12cd8f76dca095fc9570/atksh-utils-0.1.2.tar.gz
+[2023-06-18 04:22:06] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-06-18 04:22:06] INFO root fetch - processPackages [themoviedb]: Downloading https://files.pythonhosted.org/packages/df/82/e75bcc9c4234857e77bb3c505e11ec203d584e3dfce6937a80fda7ce9ef6/themoviedb-0.3.5.tar.gz
+[2023-06-18 04:22:07] INFO root fetch - processPackages [themoviedb]: executing diffoscope
+[2023-06-18 04:22:07] INFO root fetch - processPackages [themoviedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/themoviedb-0.3.4.tar.gz tmp/themoviedb-0.3.5.tar.gz --markdown 20230618/t/themoviedb/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-18 04:22:07] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/a6/4a/c5523f0c7f3fc23b5c6ab04af3b492740693174e945a699a10d03bdd13f7/atksh-utils-0.1.3.tar.gz
+[2023-06-18 04:22:07] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/a6/4a/c5523f0c7f3fc23b5c6ab04af3b492740693174e945a699a10d03bdd13f7/atksh-utils-0.1.3.tar.gz
+[2023-06-18 04:22:07] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-18 04:22:07] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.1.2.tar.gz tmp/atksh-utils-0.1.3.tar.gz --markdown 20230618/a/atksh-utils/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 04:22:07] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-18 04:22:07] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.1.2.tar.gz tmp/atksh-utils-0.1.3.tar.gz --markdown 20230618/a/atksh-utils/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 04:22:08] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.2.tar.gz]
+[2023-06-18 04:22:08] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.3.tar.gz]
+[2023-06-18 04:22:08] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-18 04:22:08] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-18 04:22:08] INFO root fetch - processPackages [themoviedb]: Remove: archive file [/home/abi/fetcher/tmp/themoviedb-0.3.4.tar.gz]
+[2023-06-18 04:22:08] INFO root fetch - processPackages [themoviedb]: Remove: archive file [/home/abi/fetcher/tmp/themoviedb-0.3.5.tar.gz]
+[2023-06-18 04:22:08] INFO root fetch - main [MainThread]: End processing [themoviedb]: success
+[2023-06-18 04:22:08] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-06-18 04:22:09] INFO root fetch - processPackages [Zennin]: Downloading https://files.pythonhosted.org/packages/58/a2/03f8afa17c5d90a54cb2d557989aed3138bd7d78adc430d20b0cf5b515c4/Zennin-1.0.0.tar.gz
+[2023-06-18 04:22:09] ERROR root fetch - processPackages [Zennin]: Unable to fetch info: No such project/version 'Zennin' 1.0.dev20230617
+[2023-06-18 04:22:09] INFO root fetch - main [MainThread]: End processing [Zennin] error
+[2023-06-18 04:22:09] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-06-18 04:22:09] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230618/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-06-18 04:22:36] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2023-06-18 04:22:36] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2023-06-18 04:22:36] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-06-18 04:22:36] INFO root fetch - main [MainThread]: Store serial: [18547494]
