@@ -13763,3 +13763,117 @@ EOFError: EOF read where object expected
 [2023-06-18 20:51:23] INFO root fetch - processPackages [boardgen]: Remove: archive file [/home/abi/fetcher/tmp/boardgen-0.8.1.tar.gz]
 [2023-06-18 20:51:23] INFO root fetch - main [MainThread]: End processing [boardgen]: success
 [2023-06-18 20:51:23] INFO root fetch - main [MainThread]: Store serial: [18552135]
+[2023-06-18 20:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552135]
+[2023-06-18 20:56:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdsstools
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandoc-latex-environment
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impala-shell
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: networkcalculator
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meow-sim
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piwaterflow
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arguebuf
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flake8-balanced-wrapping
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: git-init-repo
+[2023-06-18 20:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastervit
+[2023-06-18 20:56:32] INFO root fetch - processPackages [sdsstools]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [meow-sim]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [impala-shell]: New version: [4.3.0a4] Old Version: [4.3.0a3]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [pandoc-latex-environment]: New version: [1.1.6.2] Old Version: [1.1.6.1]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [networkcalculator]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [arguebuf]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [piwaterflow]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [flake8-balanced-wrapping]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [git-init-repo]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [fastervit]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-18 20:56:32] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/ad/57/17c79a00fde32deae406db45ac4fecd956f75931cd5c5263a0c053085290/meow-sim-0.6.2.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [flake8-balanced-wrapping]: Downloading https://files.pythonhosted.org/packages/db/26/ad24d0bcb94264182dc144db2805167bff1b3b3f9b71050ab99ae9fa6e69/flake8-balanced-wrapping-0.1.3.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [pandoc-latex-environment]: Downloading https://files.pythonhosted.org/packages/24/3f/ac9e5ccd0976a6496c79150389880c68787403eca6b4ee2cab5fc26aa0b2/pandoc_latex_environment-1.1.6.1.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [git-init-repo]: Downloading https://files.pythonhosted.org/packages/83/d5/8c0cc5a493787d469a7a4b3025b1154324b591fd95cd15dc901d0af795e8/git_init_repo-1.0.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [sdsstools]: Downloading https://files.pythonhosted.org/packages/02/73/453ed759652c2f46730450548d0b71763d520ac2ccc332973919ea5fd405/sdsstools-1.0.2.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/66/df/85ac908888229e2fd0e73e4714ca152cbccd22e30fb695175410863ca90c/piwaterflow-0.5.8.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/50/12/18e65f38149492e8fffdd88f74242906be4b572d09daf79b5f1b589970e1/networkcalculator-1.0.0.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/23/18/64db4d89b2d8a7c167e9d2845cd9428be664fd55c0d9856d2024e77d64a7/fastervit-0.8.0.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [arguebuf]: Downloading https://files.pythonhosted.org/packages/f3/c9/2ceb71f060cb5d70fb2db5a185b04d96c1f163c317a798a41d68fead5bcc/arguebuf-2.0.0b8.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [impala-shell]: Downloading https://files.pythonhosted.org/packages/2a/e9/9c2829cd38d119cae2d75471185faec854ec07f94fc6956ea636a37302ca/impala_shell-4.3.0a3.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [flake8-balanced-wrapping]: Downloading https://files.pythonhosted.org/packages/34/ba/b6bd3f0e0453f67d35f012d12b57934dd9dff03542dab812c9849c86201c/flake8-balanced-wrapping-0.1.4.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [pandoc-latex-environment]: Downloading https://files.pythonhosted.org/packages/2d/34/4d177739eaa495ce6c0d66a4fa7f549840d8a2006ca14729e85203d2334d/pandoc_latex_environment-1.1.6.2.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/39/76/da1ec2d1e58ab6260b38aeafb32f16014db55bb291ab77d4b6ccf49c4873/meow-sim-0.6.3.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [pandoc-latex-environment]: executing diffoscope
+[2023-06-18 20:56:32] INFO root fetch - processPackages [pandoc-latex-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc_latex_environment-1.1.6.1.tar.gz tmp/pandoc_latex_environment-1.1.6.2.tar.gz --markdown 20230618/p/pandoc-latex-environment/1.1.6.1-1.1.6.2/diff.md --exclude *.pyd
+[2023-06-18 20:56:32] INFO root fetch - processPackages [flake8-balanced-wrapping]: executing diffoscope
+[2023-06-18 20:56:32] INFO root fetch - processPackages [flake8-balanced-wrapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-balanced-wrapping-0.1.3.tar.gz tmp/flake8-balanced-wrapping-0.1.4.tar.gz --markdown 20230618/f/flake8-balanced-wrapping/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 20:56:32] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-18 20:56:32] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.6.2.tar.gz tmp/meow-sim-0.6.3.tar.gz --markdown 20230618/m/meow-sim/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-18 20:56:32] INFO root fetch - processPackages [sdsstools]: Downloading https://files.pythonhosted.org/packages/2e/98/4b8df6caf2a92c88ea12d86eda1f6e646315f6b4526284916d06f139358b/sdsstools-1.1.0.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/82/51/517c4aa51b97a44fef6bad6a62754225b3145ea1eedb4aee131daf72ea1f/piwaterflow-0.5.9.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [git-init-repo]: Downloading https://files.pythonhosted.org/packages/b7/7f/54900e7c715dc9fa43ee3b0f1aac70bb1410c4e21227588900f5e101d4a0/git_init_repo-1.0.1.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [sdsstools]: executing diffoscope
+[2023-06-18 20:56:32] INFO root fetch - processPackages [sdsstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdsstools-1.0.2.tar.gz tmp/sdsstools-1.1.0.tar.gz --markdown 20230618/s/sdsstools/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-18 20:56:32] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/64/fd/f25b3dc06b29ed6c16c6e9268b74149038ac311eeb9ee9161df0bb660da6/fastervit-0.8.1.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [networkcalculator]: Downloading https://files.pythonhosted.org/packages/eb/ac/52330ae809366b247069f70719d614e0456ed408b652c7601d0709512370/networkcalculator-1.1.0-py3-none-any.whl
+[2023-06-18 20:56:32] INFO root fetch - processPackages [piwaterflow]: executing diffoscope
+[2023-06-18 20:56:32] INFO root fetch - processPackages [piwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwaterflow-0.5.8.tar.gz tmp/piwaterflow-0.5.9.tar.gz --markdown 20230618/p/piwaterflow/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-18 20:56:32] INFO root fetch - processPackages [git-init-repo]: executing diffoscope
+[2023-06-18 20:56:32] INFO root fetch - processPackages [git-init-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_init_repo-1.0.tar.gz tmp/git_init_repo-1.0.1.tar.gz --markdown 20230618/g/git-init-repo/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 20:56:32] INFO root fetch - processPackages [fastervit]: executing diffoscope
+[2023-06-18 20:56:32] INFO root fetch - processPackages [fastervit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastervit-0.8.0.tar.gz tmp/fastervit-0.8.1.tar.gz --markdown 20230618/f/fastervit/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-18 20:56:32] INFO root fetch - processPackages [networkcalculator]: executing diffoscope
+[2023-06-18 20:56:32] INFO root fetch - processPackages [networkcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkcalculator-1.0.0.tar.gz tmp/networkcalculator-1.1.0-py3-none-any.whl.zip --markdown 20230618/n/networkcalculator/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-18 20:56:32] INFO root fetch - processPackages [impala-shell]: Downloading https://files.pythonhosted.org/packages/c6/db/5346489ed196dd5ce3ac9b885a4d6c16417f1d03ca7168aeb6f7c85af7d5/impala_shell-4.3.0a4.tar.gz
+[2023-06-18 20:56:32] INFO root fetch - processPackages [arguebuf]: Downloading https://files.pythonhosted.org/packages/48/5f/745fe92b8c0d474fdfffc744780bcaa1f5f88dbca214d8595d78df2b133d/arguebuf-2.0.0b9.tar.gz
+[2023-06-18 20:56:33] INFO root fetch - processPackages [arguebuf]: executing diffoscope
+[2023-06-18 20:56:33] INFO root fetch - processPackages [arguebuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arguebuf-2.0.0b8.tar.gz tmp/arguebuf-2.0.0b9.tar.gz --markdown 20230618/a/arguebuf/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-18 20:56:33] INFO root fetch - processPackages [impala-shell]: executing diffoscope
+[2023-06-18 20:56:33] INFO root fetch - processPackages [impala-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impala_shell-4.3.0a3.tar.gz tmp/impala_shell-4.3.0a4.tar.gz --markdown 20230618/i/impala-shell/4.3.0a3-4.3.0a4/diff.md --exclude *.pyd
+[2023-06-18 20:56:34] INFO root fetch - processPackages [flake8-balanced-wrapping]: Remove: archive file [/home/abi/fetcher/tmp/flake8-balanced-wrapping-0.1.3.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [flake8-balanced-wrapping]: Remove: archive file [/home/abi/fetcher/tmp/flake8-balanced-wrapping-0.1.4.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [flake8-balanced-wrapping]: Start processing: pyhyypapihawkmod
+[2023-06-18 20:56:34] INFO root fetch - main [MainThread]: End processing [flake8-balanced-wrapping]: success
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [1.1.5b1] Old Version: [1.1.4]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/c7/38/5d9062e71bdf129cebdba7202dbef041cf1767729759db9c002c7760fcf4/pyhyypapihawkmod-1.1.4.tar.gz
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pandoc-latex-environment]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_environment-1.1.6.1.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pandoc-latex-environment]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_environment-1.1.6.2.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pandoc-latex-environment]: Start processing: sociallink
+[2023-06-18 20:56:34] INFO root fetch - main [MainThread]: End processing [pandoc-latex-environment]: success
+[2023-06-18 20:56:34] WARNING root fetch - processPackages [sociallink]: Skipping, unable to determine old version
+[2023-06-18 20:56:34] INFO root fetch - processPackages [sociallink]: Start processing: pandoc-beamer-arrow
+[2023-06-18 20:56:34] INFO root fetch - main [MainThread]: End processing [sociallink] error
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pandoc-beamer-arrow]: New version: [1.0.0.0] Old Version: [0.1.2]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pandoc-beamer-arrow]: Downloading https://files.pythonhosted.org/packages/02/b6/c5f5b996167d0d1c7f7625247e88852b88be2864fb1b07446da0848f6aca/pandoc-beamer-arrow-0.1.2.tar.gz
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/13/2b/5b4e1b301b97d0a3bf992037a3fdd54a22213b83457a078e41167fc79087/pyhyypapihawkmod-1.1.5b1.tar.gz
+[2023-06-18 20:56:34] INFO root fetch - processPackages [piwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwaterflow-0.5.8.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [piwaterflow]: Remove: archive file [/home/abi/fetcher/tmp/piwaterflow-0.5.9.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - main [MainThread]: End processing [piwaterflow]: success
+[2023-06-18 20:56:34] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.0.0.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [networkcalculator]: Remove: archive file [/home/abi/fetcher/tmp/networkcalculator-1.1.0-py3-none-any.whl.zip]
+[2023-06-18 20:56:34] INFO root fetch - main [MainThread]: End processing [networkcalculator]: success
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pandoc-beamer-arrow]: Downloading https://files.pythonhosted.org/packages/a7/1f/669574235ea9df160c7f59652ddc56566e0204e48dec46581fc822e949cd/pandoc_beamer_arrow-1.0.0.0.tar.gz
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pandoc-beamer-arrow]: executing diffoscope
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pandoc-beamer-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-beamer-arrow-0.1.2.tar.gz tmp/pandoc_beamer_arrow-1.0.0.0.tar.gz --markdown 20230618/p/pandoc-beamer-arrow/0.1.2-1.0.0.0/diff.md --exclude *.pyd
+[2023-06-18 20:56:34] INFO root fetch - processPackages [git-init-repo]: Remove: archive file [/home/abi/fetcher/tmp/git_init_repo-1.0.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [git-init-repo]: Remove: archive file [/home/abi/fetcher/tmp/git_init_repo-1.0.1.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - main [MainThread]: End processing [git-init-repo]: success
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-06-18 20:56:34] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-1.1.4.tar.gz tmp/pyhyypapihawkmod-1.1.5b1.tar.gz --markdown 20230618/p/pyhyypapihawkmod/1.1.4-1.1.5b1/diff.md --exclude *.pyd
+[2023-06-18 20:56:34] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.6.2.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.6.3.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-18 20:56:34] INFO root fetch - processPackages [sdsstools]: Remove: archive file [/home/abi/fetcher/tmp/sdsstools-1.0.2.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - processPackages [sdsstools]: Remove: archive file [/home/abi/fetcher/tmp/sdsstools-1.1.0.tar.gz]
+[2023-06-18 20:56:34] INFO root fetch - main [MainThread]: End processing [sdsstools]: success
+[2023-06-18 20:56:35] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.0.tar.gz]
+[2023-06-18 20:56:35] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.1.tar.gz]
+[2023-06-18 20:56:35] INFO root fetch - main [MainThread]: End processing [fastervit]: success
+[2023-06-18 20:56:35] INFO root fetch - processPackages [pandoc-beamer-arrow]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-beamer-arrow-0.1.2.tar.gz]
+[2023-06-18 20:56:35] INFO root fetch - processPackages [pandoc-beamer-arrow]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_beamer_arrow-1.0.0.0.tar.gz]
+[2023-06-18 20:56:35] INFO root fetch - main [MainThread]: End processing [pandoc-beamer-arrow]: success
+[2023-06-18 20:56:35] INFO root fetch - processPackages [arguebuf]: Remove: archive file [/home/abi/fetcher/tmp/arguebuf-2.0.0b8.tar.gz]
+[2023-06-18 20:56:35] INFO root fetch - processPackages [arguebuf]: Remove: archive file [/home/abi/fetcher/tmp/arguebuf-2.0.0b9.tar.gz]
+[2023-06-18 20:56:35] INFO root fetch - main [MainThread]: End processing [arguebuf]: success
+[2023-06-18 20:56:35] INFO root fetch - processPackages [impala-shell]: Remove: archive file [/home/abi/fetcher/tmp/impala_shell-4.3.0a3.tar.gz]
+[2023-06-18 20:56:35] INFO root fetch - processPackages [impala-shell]: Remove: archive file [/home/abi/fetcher/tmp/impala_shell-4.3.0a4.tar.gz]
+[2023-06-18 20:56:35] INFO root fetch - main [MainThread]: End processing [impala-shell]: success
+[2023-06-18 20:57:28] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.1.4.tar.gz]
+[2023-06-18 20:57:28] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.1.5b1.tar.gz]
+[2023-06-18 20:57:28] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-06-18 20:57:28] INFO root fetch - main [MainThread]: Store serial: [18552178]
