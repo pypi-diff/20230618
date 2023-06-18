@@ -8656,3 +8656,51 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:45:43] INFO root fetch - processPackages [etiketti]: Remove: archive file [/home/abi/fetcher/tmp/etiketti-2023.6.18.tar.gz]
 [2023-06-18 14:45:43] INFO root fetch - main [MainThread]: End processing [etiketti]: success
 [2023-06-18 14:45:43] INFO root fetch - main [MainThread]: Store serial: [18550050]
+[2023-06-18 14:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550050]
+[2023-06-18 14:50:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 14:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorcircuit-nightly
+[2023-06-18 14:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bfgbidding
+[2023-06-18 14:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiorobonect
+[2023-06-18 14:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandoc-latex-french-spaces
+[2023-06-18 14:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strictdoc
+[2023-06-18 14:50:52] INFO root fetch - processPackages [pandoc-latex-french-spaces]: New version: [1.0.0.1] Old Version: [1.0.0]
+[2023-06-18 14:50:52] INFO root fetch - processPackages [bfgbidding]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 14:50:52] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 14:50:52] INFO root fetch - processPackages [aiorobonect]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-18 14:50:52] INFO root fetch - processPackages [pandoc-latex-french-spaces]: Downloading https://files.pythonhosted.org/packages/32/7e/b76db4d8fe98cc918c8f56aa043cc0c523db825b5437ab98617a0a0fec07/pandoc_latex_french_spaces-1.0.0.tar.gz
+[2023-06-18 14:50:52] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-06-18 14:50:52] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/f0/ca/0e36efedd7e09a02318dc1f9f4af6f5f7c532dd6ddf920f0c0fc749b7a81/aiorobonect-0.2.2.tar.gz
+[2023-06-18 14:50:52] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-18 14:50:52] INFO root fetch - processPackages [bfgbidding]: Downloading https://files.pythonhosted.org/packages/4b/e1/3f788d94544a2d3f9719450dbdce555999e80a45eaabc860b144c92c7193/bfgbidding-0.0.8.tar.gz
+[2023-06-18 14:50:52] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/b1/4c/b58b725116ac6cc5ce06c89ccea4111f4298ce3ced1a765122d520c41c09/aiorobonect-0.2.3.tar.gz
+[2023-06-18 14:50:52] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-18 14:50:52] INFO root fetch - processPackages [pandoc-latex-french-spaces]: Downloading https://files.pythonhosted.org/packages/a7/3c/682b5fc23f783579684edf03301834e15106a9fe1fc9e30fe0a2b6b5fc8e/pandoc_latex_french_spaces-1.0.0.1.tar.gz
+[2023-06-18 14:50:52] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-06-18 14:50:52] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2023-06-18 14:50:52] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-0.2.2.tar.gz tmp/aiorobonect-0.2.3.tar.gz --markdown 20230618/a/aiorobonect/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 14:50:52] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-06-18 14:50:52] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230618/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 14:50:52] INFO root fetch - processPackages [pandoc-latex-french-spaces]: executing diffoscope
+[2023-06-18 14:50:52] INFO root fetch - processPackages [pandoc-latex-french-spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc_latex_french_spaces-1.0.0.tar.gz tmp/pandoc_latex_french_spaces-1.0.0.1.tar.gz --markdown 20230618/p/pandoc-latex-french-spaces/1.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-06-18 14:50:52] INFO root fetch - processPackages [bfgbidding]: Downloading https://files.pythonhosted.org/packages/e6/22/bbf47a6073b57de0e140f4642debe2039c751ecc75f7e98ce065c9fed972/bfgbidding-0.0.9.tar.gz
+[2023-06-18 14:50:52] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-18 14:50:53] INFO root fetch - processPackages [bfgbidding]: executing diffoscope
+[2023-06-18 14:50:53] INFO root fetch - processPackages [bfgbidding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgbidding-0.0.8.tar.gz tmp/bfgbidding-0.0.9.tar.gz --markdown 20230618/b/bfgbidding/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 14:50:53] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-18 14:50:53] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230618/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-18 14:50:53] INFO root fetch - processPackages [pandoc-latex-french-spaces]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_french_spaces-1.0.0.tar.gz]
+[2023-06-18 14:50:53] INFO root fetch - processPackages [pandoc-latex-french-spaces]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_french_spaces-1.0.0.1.tar.gz]
+[2023-06-18 14:50:53] INFO root fetch - main [MainThread]: End processing [pandoc-latex-french-spaces]: success
+[2023-06-18 14:50:53] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.2.tar.gz]
+[2023-06-18 14:50:53] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.3.tar.gz]
+[2023-06-18 14:50:53] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2023-06-18 14:50:54] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-06-18 14:50:54] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-06-18 14:50:54] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-06-18 14:50:54] INFO root fetch - processPackages [bfgbidding]: Remove: archive file [/home/abi/fetcher/tmp/bfgbidding-0.0.8.tar.gz]
+[2023-06-18 14:50:54] INFO root fetch - processPackages [bfgbidding]: Remove: archive file [/home/abi/fetcher/tmp/bfgbidding-0.0.9.tar.gz]
+[2023-06-18 14:50:54] INFO root fetch - main [MainThread]: End processing [bfgbidding]: success
+[2023-06-18 14:50:54] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-18 14:50:54] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-18 14:50:54] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-18 14:50:54] INFO root fetch - main [MainThread]: Store serial: [18550066]
