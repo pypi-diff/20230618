@@ -1840,3 +1840,53 @@
 [2023-06-18 02:54:13] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2437-py3-none-any.whl.zip]
 [2023-06-18 02:54:13] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-06-18 02:54:13] INFO root fetch - main [MainThread]: Store serial: [18546887]
+[2023-06-18 02:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546887]
+[2023-06-18 02:59:21] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-18 03:04:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546887]
+[2023-06-18 03:04:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 03:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataclass-codec
+[2023-06-18 03:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2023-06-18 03:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spatiafi
+[2023-06-18 03:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aifunc
+[2023-06-18 03:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qsonic
+[2023-06-18 03:04:27] INFO root fetch - processPackages [dataclass-codec]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 03:04:27] INFO root fetch - processPackages [spatiafi]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-18 03:04:27] INFO root fetch - processPackages [aifunc]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-18 03:04:27] INFO root fetch - processPackages [qsonic]: New version: [0.7.1] Old Version: [0.6.2]
+[2023-06-18 03:04:27] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-18 03:04:27] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/80/7d/92fcd6492b7de64fd3290be44cd591575bfb1e84ccfa9486cb080ed63f97/dataclass_codec-0.1.1.tar.gz
+[2023-06-18 03:04:27] INFO root fetch - processPackages [spatiafi]: Downloading https://files.pythonhosted.org/packages/5d/40/1f3bbfcb33096d2d3bd8bd537eb244b686e7eb92454feed3ee21b8278243/spatiafi-1.1.3.tar.gz
+[2023-06-18 03:04:27] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/e7/47/66a50751f01de9a91c518f9bfb5d33141cae460e244491c51a742a776c48/aifunc-0.5.3.tar.gz
+[2023-06-18 03:04:27] INFO root fetch - processPackages [qsonic]: Downloading https://files.pythonhosted.org/packages/fb/a0/24ddcd303e778ce37aa3a8cec526d96c1310167259af38ff503ca279b682/qsonic-0.6.2.tar.gz
+[2023-06-18 03:04:27] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-18 03:04:27] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/e1/f0/29c152041e4bf45690926ae19957d5dbc128714f1a17acdc27cd89eff18c/dataclass_codec-0.1.2.tar.gz
+[2023-06-18 03:04:27] INFO root fetch - processPackages [spatiafi]: Downloading https://files.pythonhosted.org/packages/b4/26/434734a00ab0d5cfc8548572675475708379f13e79560fa45c070a882cca/spatiafi-1.1.4.tar.gz
+[2023-06-18 03:04:28] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/b0/b9/e1147765a1b7e06e2b4f31065cd36874f5a1f7442e3c377b6826d57f9139/aifunc-0.5.4.tar.gz
+[2023-06-18 03:04:28] INFO root fetch - processPackages [spatiafi]: executing diffoscope
+[2023-06-18 03:04:28] INFO root fetch - processPackages [spatiafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatiafi-1.1.3.tar.gz tmp/spatiafi-1.1.4.tar.gz --markdown 20230618/s/spatiafi/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-18 03:04:28] INFO root fetch - processPackages [dataclass-codec]: executing diffoscope
+[2023-06-18 03:04:28] INFO root fetch - processPackages [dataclass-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_codec-0.1.1.tar.gz tmp/dataclass_codec-0.1.2.tar.gz --markdown 20230618/d/dataclass-codec/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 03:04:28] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-18 03:04:28] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-18 03:04:28] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.5.3.tar.gz tmp/aifunc-0.5.4.tar.gz --markdown 20230618/a/aifunc/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-18 03:04:28] INFO root fetch - processPackages [qsonic]: Downloading https://files.pythonhosted.org/packages/1e/b8/9054d92889e7345ddaecbe3ca47212c4b608924666b10337c1cbf0d07d87/qsonic-0.7.1.tar.gz
+[2023-06-18 03:04:28] INFO root fetch - processPackages [qsonic]: executing diffoscope
+[2023-06-18 03:04:28] INFO root fetch - processPackages [qsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsonic-0.6.2.tar.gz tmp/qsonic-0.7.1.tar.gz --markdown 20230618/q/qsonic/0.6.2-0.7.1/diff.md --exclude *.pyd
+[2023-06-18 03:04:29] INFO root fetch - processPackages [spatiafi]: Remove: archive file [/home/abi/fetcher/tmp/spatiafi-1.1.3.tar.gz]
+[2023-06-18 03:04:29] INFO root fetch - processPackages [spatiafi]: Remove: archive file [/home/abi/fetcher/tmp/spatiafi-1.1.4.tar.gz]
+[2023-06-18 03:04:29] INFO root fetch - main [MainThread]: End processing [spatiafi]: success
+[2023-06-18 03:04:29] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.5.3.tar.gz]
+[2023-06-18 03:04:29] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.5.4.tar.gz]
+[2023-06-18 03:04:29] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-18 03:04:29] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-18 03:04:29] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230618/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:04:29] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.1.1.tar.gz]
+[2023-06-18 03:04:29] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.1.2.tar.gz]
+[2023-06-18 03:04:29] INFO root fetch - main [MainThread]: End processing [dataclass-codec]: success
+[2023-06-18 03:04:29] INFO root fetch - processPackages [qsonic]: Remove: archive file [/home/abi/fetcher/tmp/qsonic-0.6.2.tar.gz]
+[2023-06-18 03:04:29] INFO root fetch - processPackages [qsonic]: Remove: archive file [/home/abi/fetcher/tmp/qsonic-0.7.1.tar.gz]
+[2023-06-18 03:04:29] INFO root fetch - main [MainThread]: End processing [qsonic]: success
+[2023-06-18 03:04:30] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-18 03:04:30] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-18 03:04:30] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-18 03:04:30] INFO root fetch - main [MainThread]: Store serial: [18546903]
