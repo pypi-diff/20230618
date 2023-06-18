@@ -4223,3 +4223,60 @@
 [2023-06-18 05:59:09] INFO root fetch - processPackages [CharmCord]: Remove: archive file [/home/abi/fetcher/tmp/CharmCord-0.17.0-py3-none-any.whl.zip]
 [2023-06-18 05:59:09] INFO root fetch - main [MainThread]: End processing [CharmCord]: success
 [2023-06-18 05:59:09] INFO root fetch - main [MainThread]: Store serial: [18547936]
+[2023-06-18 06:04:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547936]
+[2023-06-18 06:04:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erniechatbotsdk
+[2023-06-18 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-utilz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evals-nightly
+[2023-06-18 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyCodeBook
+[2023-06-18 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfiredb
+[2023-06-18 06:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nrh-lotr
+[2023-06-18 06:04:18] INFO root fetch - processPackages [nrh-lotr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 06:04:18] INFO root fetch - processPackages [pyfiredb]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 06:04:18] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 06:04:18] INFO root fetch - processPackages [py-utilz]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-06-18 06:04:18] INFO root fetch - processPackages [PyCodeBook]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 06:04:18] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230616] Old Version: [1.0.3.dev20230615]
+[2023-06-18 06:04:18] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/0b/ba/87d1fecb5f39be9310491d1bd1a8655317fc633efc6b29dfc4e561f02606/erniechatbotsdk-0.0.8.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [PyCodeBook]: Downloading https://files.pythonhosted.org/packages/0a/a2/e1c5420073fc0c21eb7cb1c1b176c32e0fbff5821ca132b94dc89c36f997/PyCodeBook-0.0.2.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/ac/52/ddc0e7f277831c80419249adf749512800afe99179c43aa308fdf9c9fab5/evals-nightly-1.0.3.dev20230615.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [py-utilz]: Downloading https://files.pythonhosted.org/packages/24/b4/05357754ecf09a29804a3fa147d0a2c1a4d9ddedbbc37ccd89358e3175fe/py_utilz-0.3.4.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [nrh-lotr]: Downloading https://files.pythonhosted.org/packages/63/31/0c5d41d9149d6822a5c1952d13370249cd26afc61cc353d73bbe2c298730/nrh-lotr-0.0.1.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [pyfiredb]: Downloading https://files.pythonhosted.org/packages/a5/fd/ea278da89553927cfef2294c927e78d01b5e1fdbf746b3236f18d79c0f26/pyfiredb-0.0.2.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/d2/47/9acbb6be835bf604e58c663b9251f83f37a10a32058b6f1171aaa3e6a6aa/erniechatbotsdk-0.0.9.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-18 06:04:18] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.8.tar.gz tmp/erniechatbotsdk-0.0.9.tar.gz --markdown 20230618/e/erniechatbotsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 06:04:18] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/7e/8a/1eac0f75bd6b270c276f2df4e493b44dd49e32bfa5f27d776b2f39e6f5a3/evals-nightly-1.0.3.dev20230616.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [py-utilz]: Downloading https://files.pythonhosted.org/packages/26/f4/63159b01bb5f7127698a056d9b892ca653bb89d1b79f7e87d6e0ccf401cd/py_utilz-0.4.0.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [PyCodeBook]: Downloading https://files.pythonhosted.org/packages/db/46/57ef0e683caecd4268b27e7d1b792f4ca658622413458fba9575c234ad36/PyCodeBook-0.0.3.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [nrh-lotr]: Downloading https://files.pythonhosted.org/packages/0a/90/b2dc5d7f2f77d3bd70f265fd47704cc8e540d3df526c1fadb98f216e2e42/nrh-lotr-0.0.2.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [pyfiredb]: Downloading https://files.pythonhosted.org/packages/93/fd/fa05b08fafda33c4b67bf75ce3ddefa355529ff0f7cb1d05cef9f2ef7700/pyfiredb-0.0.3.tar.gz
+[2023-06-18 06:04:18] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-18 06:04:18] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230615.tar.gz tmp/evals-nightly-1.0.3.dev20230616.tar.gz --markdown 20230618/e/evals-nightly/1.0.3.dev20230615-1.0.3.dev20230616/diff.md --exclude *.pyd
+[2023-06-18 06:04:18] INFO root fetch - processPackages [PyCodeBook]: executing diffoscope
+[2023-06-18 06:04:18] INFO root fetch - processPackages [PyCodeBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCodeBook-0.0.2.tar.gz tmp/PyCodeBook-0.0.3.tar.gz --markdown 20230618/P/PyCodeBook/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 06:04:18] INFO root fetch - processPackages [nrh-lotr]: executing diffoscope
+[2023-06-18 06:04:18] INFO root fetch - processPackages [nrh-lotr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrh-lotr-0.0.1.tar.gz tmp/nrh-lotr-0.0.2.tar.gz --markdown 20230618/n/nrh-lotr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 06:04:18] INFO root fetch - processPackages [py-utilz]: executing diffoscope
+[2023-06-18 06:04:18] INFO root fetch - processPackages [py-utilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_utilz-0.3.4.tar.gz tmp/py_utilz-0.4.0.tar.gz --markdown 20230618/p/py-utilz/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-06-18 06:04:18] INFO root fetch - processPackages [pyfiredb]: executing diffoscope
+[2023-06-18 06:04:18] INFO root fetch - processPackages [pyfiredb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfiredb-0.0.2.tar.gz tmp/pyfiredb-0.0.3.tar.gz --markdown 20230618/p/pyfiredb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 06:04:19] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.8.tar.gz]
+[2023-06-18 06:04:19] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.9.tar.gz]
+[2023-06-18 06:04:19] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-18 06:04:19] INFO root fetch - processPackages [nrh-lotr]: Remove: archive file [/home/abi/fetcher/tmp/nrh-lotr-0.0.1.tar.gz]
+[2023-06-18 06:04:19] INFO root fetch - processPackages [nrh-lotr]: Remove: archive file [/home/abi/fetcher/tmp/nrh-lotr-0.0.2.tar.gz]
+[2023-06-18 06:04:19] INFO root fetch - main [MainThread]: End processing [nrh-lotr]: success
+[2023-06-18 06:04:20] INFO root fetch - processPackages [pyfiredb]: Remove: archive file [/home/abi/fetcher/tmp/pyfiredb-0.0.2.tar.gz]
+[2023-06-18 06:04:20] INFO root fetch - processPackages [pyfiredb]: Remove: archive file [/home/abi/fetcher/tmp/pyfiredb-0.0.3.tar.gz]
+[2023-06-18 06:04:20] INFO root fetch - main [MainThread]: End processing [pyfiredb]: success
+[2023-06-18 06:04:20] INFO root fetch - processPackages [PyCodeBook]: Remove: archive file [/home/abi/fetcher/tmp/PyCodeBook-0.0.2.tar.gz]
+[2023-06-18 06:04:20] INFO root fetch - processPackages [PyCodeBook]: Remove: archive file [/home/abi/fetcher/tmp/PyCodeBook-0.0.3.tar.gz]
+[2023-06-18 06:04:20] INFO root fetch - main [MainThread]: End processing [PyCodeBook]: success
+[2023-06-18 06:04:20] INFO root fetch - processPackages [py-utilz]: Remove: archive file [/home/abi/fetcher/tmp/py_utilz-0.3.4.tar.gz]
+[2023-06-18 06:04:20] INFO root fetch - processPackages [py-utilz]: Remove: archive file [/home/abi/fetcher/tmp/py_utilz-0.4.0.tar.gz]
+[2023-06-18 06:04:20] INFO root fetch - main [MainThread]: End processing [py-utilz]: success
+[2023-06-18 06:04:21] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230615.tar.gz]
+[2023-06-18 06:04:21] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230616.tar.gz]
+[2023-06-18 06:04:21] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-18 06:04:21] INFO root fetch - main [MainThread]: Store serial: [18547956]
