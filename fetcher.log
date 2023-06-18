@@ -2019,3 +2019,56 @@
 [2023-06-18 03:15:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-06-18 03:15:13] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-06-18 03:15:13] INFO root fetch - main [MainThread]: Store serial: [18546953]
+[2023-06-18 03:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546953]
+[2023-06-18 03:20:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 03:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-06-18 03:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aifunc
+[2023-06-18 03:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jarvis-leaderboard
+[2023-06-18 03:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-admin-action-tools
+[2023-06-18 03:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qvatel-sms-api
+[2023-06-18 03:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: denormalize
+[2023-06-18 03:20:21] INFO root fetch - processPackages [aifunc]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-18 03:20:21] INFO root fetch - processPackages [denormalize]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 03:20:21] INFO root fetch - processPackages [jarvis-leaderboard]: New version: [2023.6.13] Old Version: [2023.6.12]
+[2023-06-18 03:20:21] INFO root fetch - processPackages [qvatel-sms-api]: New version: [1.0.5] Old Version: [1.0]
+[2023-06-18 03:20:21] INFO root fetch - processPackages [django-admin-action-tools]: New version: [1.1.6a3] Old Version: [1.1.6a2]
+[2023-06-18 03:20:21] INFO root fetch - processPackages [denormalize]: Downloading https://files.pythonhosted.org/packages/58/b8/26a9fe14c7265f7d24f17c59f527e5edf792f0bd17344b3868e1b5161e77/denormalize-0.0.2.tar.gz
+[2023-06-18 03:20:21] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/61/b0/38ad6927ab359484d910efc3a09676364e6264077bb0e2d1c9e99136ca2a/aifunc-0.5.5.tar.gz
+[2023-06-18 03:20:21] INFO root fetch - processPackages [django-admin-action-tools]: Downloading https://files.pythonhosted.org/packages/2c/27/12e83029ea76255b2a89cd600262ff6301669c7932b31fb15e409c5df090/django_admin_action_tools-1.1.6a2.tar.gz
+[2023-06-18 03:20:22] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-18 03:20:22] INFO root fetch - processPackages [jarvis-leaderboard]: Downloading https://files.pythonhosted.org/packages/ea/a3/d92e005e6fc16fae9c7b209999a5f52b87abb5eb74867f7bd89d51bcb22b/jarvis_leaderboard-2023.6.12.tar.gz
+[2023-06-18 03:20:22] INFO root fetch - processPackages [qvatel-sms-api]: Downloading https://files.pythonhosted.org/packages/19/ab/4d35669358e747f17c9800a578f96cd7855fd93b7dd1faacbb0da35bcd33/qvatel_sms_api-1.0.tar.gz
+[2023-06-18 03:20:22] WARNING root fetch - processPackages [jarvis-leaderboard]: Skipping package: exceeds size limit 72354681>=10485760
+[2023-06-18 03:20:22] INFO root fetch - main [MainThread]: End processing [jarvis-leaderboard] error
+[2023-06-18 03:20:22] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-18 03:20:22] INFO root fetch - processPackages [denormalize]: Downloading https://files.pythonhosted.org/packages/cf/7b/b4e34cae510d6d0a0ff3df63a800d284790f3e04d1e7a61179425dc309df/denormalize-0.0.3.tar.gz
+[2023-06-18 03:20:22] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/82/67/cdc05abbe0bb31296fc39b9e12f0408861ffc0d96a7a9d04709a254ca052/aifunc-0.5.6.tar.gz
+[2023-06-18 03:20:22] INFO root fetch - processPackages [django-admin-action-tools]: Downloading https://files.pythonhosted.org/packages/24/8a/743d082c70216f0db27db4879629fdc97a5ee16e558e8624958b74ffda97/django_admin_action_tools-1.1.6a3.tar.gz
+[2023-06-18 03:20:22] INFO root fetch - processPackages [qvatel-sms-api]: Downloading https://files.pythonhosted.org/packages/ba/2e/90237ec162194ac639cdb835f586cfc34779cf182bbf2c1521ec2beced43/qvatel_sms_api-1.0.5.tar.gz
+[2023-06-18 03:20:22] INFO root fetch - processPackages [denormalize]: executing diffoscope
+[2023-06-18 03:20:22] INFO root fetch - processPackages [denormalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denormalize-0.0.2.tar.gz tmp/denormalize-0.0.3.tar.gz --markdown 20230618/d/denormalize/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 03:20:22] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-18 03:20:22] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.5.5.tar.gz tmp/aifunc-0.5.6.tar.gz --markdown 20230618/a/aifunc/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-18 03:20:22] INFO root fetch - processPackages [django-admin-action-tools]: executing diffoscope
+[2023-06-18 03:20:22] INFO root fetch - processPackages [django-admin-action-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_admin_action_tools-1.1.6a2.tar.gz tmp/django_admin_action_tools-1.1.6a3.tar.gz --markdown 20230618/d/django-admin-action-tools/1.1.6a2-1.1.6a3/diff.md --exclude *.pyd
+[2023-06-18 03:20:22] INFO root fetch - processPackages [qvatel-sms-api]: executing diffoscope
+[2023-06-18 03:20:22] INFO root fetch - processPackages [qvatel-sms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvatel_sms_api-1.0.tar.gz tmp/qvatel_sms_api-1.0.5.tar.gz --markdown 20230618/q/qvatel-sms-api/1.0-1.0.5/diff.md --exclude *.pyd
+[2023-06-18 03:20:22] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-18 03:20:23] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-18 03:20:23] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230618/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-18 03:20:23] INFO root fetch - processPackages [denormalize]: Remove: archive file [/home/abi/fetcher/tmp/denormalize-0.0.2.tar.gz]
+[2023-06-18 03:20:23] INFO root fetch - processPackages [denormalize]: Remove: archive file [/home/abi/fetcher/tmp/denormalize-0.0.3.tar.gz]
+[2023-06-18 03:20:23] INFO root fetch - main [MainThread]: End processing [denormalize]: success
+[2023-06-18 03:20:23] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.5.5.tar.gz]
+[2023-06-18 03:20:23] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.5.6.tar.gz]
+[2023-06-18 03:20:23] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-18 03:20:23] INFO root fetch - processPackages [qvatel-sms-api]: Remove: archive file [/home/abi/fetcher/tmp/qvatel_sms_api-1.0.tar.gz]
+[2023-06-18 03:20:23] INFO root fetch - processPackages [qvatel-sms-api]: Remove: archive file [/home/abi/fetcher/tmp/qvatel_sms_api-1.0.5.tar.gz]
+[2023-06-18 03:20:23] INFO root fetch - main [MainThread]: End processing [qvatel-sms-api]: success
+[2023-06-18 03:20:23] INFO root fetch - processPackages [django-admin-action-tools]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_action_tools-1.1.6a2.tar.gz]
+[2023-06-18 03:20:23] INFO root fetch - processPackages [django-admin-action-tools]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_action_tools-1.1.6a3.tar.gz]
+[2023-06-18 03:20:23] INFO root fetch - main [MainThread]: End processing [django-admin-action-tools]: success
+[2023-06-18 03:20:24] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 03:20:24] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 03:20:24] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-18 03:20:24] INFO root fetch - main [MainThread]: Store serial: [18546983]
