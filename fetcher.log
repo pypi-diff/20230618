@@ -5116,3 +5116,33 @@
 [2023-06-18 08:24:59] INFO root fetch - processPackages [koios-api]: Remove: archive file [/home/abi/fetcher/tmp/koios-api-1.0.10.4.tar.gz]
 [2023-06-18 08:24:59] INFO root fetch - main [MainThread]: End processing [koios-api]: success
 [2023-06-18 08:24:59] INFO root fetch - main [MainThread]: Store serial: [18548415]
+[2023-06-18 08:30:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548415]
+[2023-06-18 08:30:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 08:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spPersist
+[2023-06-18 08:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastgenerateapi
+[2023-06-18 08:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sciform
+[2023-06-18 08:30:08] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-18 08:30:08] INFO root fetch - processPackages [spPersist]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-18 08:30:08] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-18 08:30:08] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-18 08:30:08] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/a5/3a/95b17ee40917a378bfc1f0aa8aef8c669c40014c320135b85eaf85e9142f/sppersist-1.1.7.tar.gz
+[2023-06-18 08:30:08] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/a1/6f/788a9f7ab8dc0edb9f160404c4c50dec2eaaaa93722ad84d3465ec55bbb3/fastgenerateapi-0.0.4.tar.gz
+[2023-06-18 08:30:08] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-18 08:30:08] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-18 08:30:08] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230618/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-18 08:30:08] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/ff/1e/4b0be54ce6fb7c62d19e2122092a089c976ae5b0f96c88bcbc1643f68004/sppersist-1.1.9.tar.gz
+[2023-06-18 08:30:08] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/7f/91/a405456acd3b77c270c049a322420d06af1f82de5a3e7eef455613f9c791/fastgenerateapi-0.0.6.tar.gz
+[2023-06-18 08:30:09] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-18 08:30:09] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.4.tar.gz tmp/fastgenerateapi-0.0.6.tar.gz --markdown 20230618/f/fastgenerateapi/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-18 08:30:09] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-18 08:30:09] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.1.7.tar.gz tmp/sppersist-1.1.9.tar.gz --markdown 20230618/s/spPersist/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-06-18 08:30:09] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-18 08:30:09] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-18 08:30:09] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-18 08:30:10] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.7.tar.gz]
+[2023-06-18 08:30:10] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.9.tar.gz]
+[2023-06-18 08:30:10] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-18 08:30:10] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.4.tar.gz]
+[2023-06-18 08:30:10] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.6.tar.gz]
+[2023-06-18 08:30:10] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-18 08:30:10] INFO root fetch - main [MainThread]: Store serial: [18548430]
