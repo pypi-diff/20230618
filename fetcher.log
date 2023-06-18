@@ -5181,3 +5181,21 @@
 [2023-06-18 08:45:47] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-18 08:45:47] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-18 08:45:47] INFO root fetch - main [MainThread]: Store serial: [18548451]
+[2023-06-18 08:50:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548451]
+[2023-06-18 08:50:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 08:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyGraphica
+[2023-06-18 08:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timenet
+[2023-06-18 08:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bambooai
+[2023-06-18 08:50:56] WARNING root fetch - processPackages [PyGraphica]: Skipping, unable to determine old version
+[2023-06-18 08:50:56] WARNING root fetch - processPackages [timenet]: Skipping, unable to determine old version
+[2023-06-18 08:50:56] INFO root fetch - main [MainThread]: End processing [PyGraphica] error
+[2023-06-18 08:50:56] INFO root fetch - main [MainThread]: End processing [timenet] error
+[2023-06-18 08:50:56] INFO root fetch - processPackages [bambooai]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-18 08:50:56] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/b8/d7/7cff30888d4d04c612ea7d0e9673987d9a174b625bc26204027694259805/bambooai-0.3.3.tar.gz
+[2023-06-18 08:50:57] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/f7/fe/496ea05e8ad1afa920ecbd3d1f51ce616bfd9c88108da3c4796d4e20cea4/bambooai-0.3.4.tar.gz
+[2023-06-18 08:50:57] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-06-18 08:50:57] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.3.tar.gz tmp/bambooai-0.3.4.tar.gz --markdown 20230618/b/bambooai/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-18 08:50:58] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.3.tar.gz]
+[2023-06-18 08:50:58] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.4.tar.gz]
+[2023-06-18 08:50:58] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-06-18 08:50:58] INFO root fetch - main [MainThread]: Store serial: [18548463]
