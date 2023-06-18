@@ -2737,3 +2737,60 @@
 [2023-06-18 03:56:11] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
 [2023-06-18 03:56:11] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-06-18 03:56:11] INFO root fetch - main [MainThread]: Store serial: [18547356]
+[2023-06-18 04:01:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547356]
+[2023-06-18 04:01:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 04:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agixt
+[2023-06-18 04:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atksh-utils
+[2023-06-18 04:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-databricks
+[2023-06-18 04:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtmodel
+[2023-06-18 04:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-datadog
+[2023-06-18 04:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-wordpress
+[2023-06-18 04:01:20] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-06-18 04:01:20] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-18 04:01:20] INFO root fetch - processPackages [atksh-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 04:01:20] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-06-18 04:01:20] INFO root fetch - processPackages [dtmodel]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 04:01:20] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 04:01:20] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/cf/e0/9efe81f1b0f926eec8ded2a95fa9ffb1514fa35f97d02e9b15a5244247a7/atksh-utils-0.1.0.tar.gz
+[2023-06-18 04:01:20] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-06-18 04:01:20] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/5e/a2/8cfc0b48ccb5211c300097ce5cff93301d14d9684cf61eb1c02e4f5e698a/dtmodel-0.1.4.tar.gz
+[2023-06-18 04:01:20] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-18 04:01:20] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2023-06-18 04:01:20] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-18 04:01:20] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-06-18 04:01:21] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-18 04:01:21] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/93/cc/6a697b34e120a6ab5d9c7131a45ee2680c399f8bdabdf0dfe757ae357e25/dtmodel-0.1.5.tar.gz
+[2023-06-18 04:01:21] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/3e/47/ab3da94e2ef59705d8c3a7a8e9f5444477cfbb711c130bc8846e87c07898/atksh-utils-0.1.1.tar.gz
+[2023-06-18 04:01:21] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-06-18 04:01:21] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230618/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-06-18 04:01:21] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-18 04:01:21] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230618/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-18 04:01:21] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-18 04:01:21] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.1.0.tar.gz tmp/atksh-utils-0.1.1.tar.gz --markdown 20230618/a/atksh-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 04:01:21] INFO root fetch - processPackages [dtmodel]: executing diffoscope
+[2023-06-18 04:01:21] INFO root fetch - processPackages [dtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtmodel-0.1.4.tar.gz tmp/dtmodel-0.1.5.tar.gz --markdown 20230618/d/dtmodel/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 04:01:21] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-18 04:01:21] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2023-06-18 04:01:21] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-18 04:01:21] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230618/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 04:01:21] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-06-18 04:01:21] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230618/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-06-18 04:01:22] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.0.tar.gz]
+[2023-06-18 04:01:22] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.1.tar.gz]
+[2023-06-18 04:01:22] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-18 04:01:22] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-18 04:01:22] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-18 04:01:22] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-18 04:01:22] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.4.tar.gz]
+[2023-06-18 04:01:22] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.5.tar.gz]
+[2023-06-18 04:01:22] INFO root fetch - main [MainThread]: End processing [dtmodel]: success
+[2023-06-18 04:01:23] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-18 04:01:23] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-18 04:01:23] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-18 04:01:23] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2023-06-18 04:01:23] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2023-06-18 04:01:23] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-06-18 04:01:25] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2023-06-18 04:01:25] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2023-06-18 04:01:25] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-06-18 04:01:25] INFO root fetch - main [MainThread]: Store serial: [18547373]
