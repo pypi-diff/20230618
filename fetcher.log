@@ -7433,3 +7433,47 @@
 [2023-06-18 13:16:21] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.1.tar.gz]
 [2023-06-18 13:16:21] INFO root fetch - main [MainThread]: End processing [python-on-whales]: success
 [2023-06-18 13:16:21] INFO root fetch - main [MainThread]: Store serial: [18549490]
+[2023-06-18 13:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549490]
+[2023-06-18 13:21:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bs3
+[2023-06-18 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Bigsansar
+[2023-06-18 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inputty
+[2023-06-18 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: towdio-player
+[2023-06-18 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heygptcli
+[2023-06-18 13:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asreview-makita
+[2023-06-18 13:21:31] WARNING root fetch - processPackages [bs3]: Skipping, unable to determine old version
+[2023-06-18 13:21:31] INFO root fetch - main [MainThread]: End processing [bs3] error
+[2023-06-18 13:21:31] WARNING root fetch - processPackages [towdio-player]: Skipping, unable to determine old version
+[2023-06-18 13:21:31] INFO root fetch - main [MainThread]: End processing [towdio-player] error
+[2023-06-18 13:21:31] INFO root fetch - processPackages [heygptcli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 13:21:31] INFO root fetch - processPackages [Bigsansar]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-18 13:21:31] INFO root fetch - processPackages [inputty]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-18 13:21:31] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/da/80/fc991d25aac25ef79cb164f685586626ae10951f3f3baafaf596e39a3206/Bigsansar-1.7.2.tar.gz
+[2023-06-18 13:21:31] INFO root fetch - processPackages [asreview-makita]: New version: [0.7.1] Old Version: [0.7]
+[2023-06-18 13:21:31] INFO root fetch - processPackages [heygptcli]: Downloading https://files.pythonhosted.org/packages/e9/02/4a587795adb01da10f0233212b1c2e9ba8033435a50b3c45e15f7c17ace1/heygptcli-0.1.1.tar.gz
+[2023-06-18 13:21:31] INFO root fetch - processPackages [inputty]: Downloading https://files.pythonhosted.org/packages/f9/3b/dd7cfa47c13fabbf2dc8e232cc95a837279690f6cf6a03a8a41864356401/inputty-1.0.3.tar.gz
+[2023-06-18 13:21:31] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/3d/27/d9deb82c83c97fddbe07b15bb99d9c8712bc6b1d8ddd50f4214dcea47fdc/Bigsansar-1.7.3.tar.gz
+[2023-06-18 13:21:31] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-18 13:21:31] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.7.2.tar.gz tmp/Bigsansar-1.7.3.tar.gz --markdown 20230618/B/Bigsansar/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-18 13:21:31] INFO root fetch - processPackages [heygptcli]: Downloading https://files.pythonhosted.org/packages/8d/80/eff72b38d1d5e3376d860d90829e127631865023f72504a39e5c489d4615/heygptcli-0.1.2.tar.gz
+[2023-06-18 13:21:31] INFO root fetch - processPackages [inputty]: Downloading https://files.pythonhosted.org/packages/e3/fc/a7923bdcd6bf94b14d1bdc0e4c70ff235aaa97eecfe80b34c7b6138bb385/inputty-1.0.4.tar.gz
+[2023-06-18 13:21:31] INFO root fetch - processPackages [heygptcli]: executing diffoscope
+[2023-06-18 13:21:31] INFO root fetch - processPackages [heygptcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heygptcli-0.1.1.tar.gz tmp/heygptcli-0.1.2.tar.gz --markdown 20230618/h/heygptcli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 13:21:31] INFO root fetch - processPackages [asreview-makita]: Downloading https://files.pythonhosted.org/packages/73/b2/f668431c4cae551bc2b7a6c8b543672c90a158159c5328dde16d06f99ae8/asreview_makita-0.7.1-py3-none-any.whl
+[2023-06-18 13:21:31] INFO root fetch - processPackages [inputty]: executing diffoscope
+[2023-06-18 13:21:31] INFO root fetch - processPackages [inputty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inputty-1.0.3.tar.gz tmp/inputty-1.0.4.tar.gz --markdown 20230618/i/inputty/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-18 13:21:32] INFO root fetch - processPackages [asreview-makita]: executing diffoscope
+[2023-06-18 13:21:32] INFO root fetch - processPackages [asreview-makita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asreview-makita-0.7.tar.gz tmp/asreview_makita-0.7.1-py3-none-any.whl.zip --markdown 20230618/a/asreview-makita/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-06-18 13:21:32] INFO root fetch - processPackages [heygptcli]: Remove: archive file [/home/abi/fetcher/tmp/heygptcli-0.1.1.tar.gz]
+[2023-06-18 13:21:32] INFO root fetch - processPackages [heygptcli]: Remove: archive file [/home/abi/fetcher/tmp/heygptcli-0.1.2.tar.gz]
+[2023-06-18 13:21:32] INFO root fetch - main [MainThread]: End processing [heygptcli]: success
+[2023-06-18 13:21:33] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.2.tar.gz]
+[2023-06-18 13:21:33] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.3.tar.gz]
+[2023-06-18 13:21:33] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-18 13:21:33] INFO root fetch - processPackages [asreview-makita]: Remove: archive file [/home/abi/fetcher/tmp/asreview-makita-0.7.tar.gz]
+[2023-06-18 13:21:33] INFO root fetch - processPackages [asreview-makita]: Remove: archive file [/home/abi/fetcher/tmp/asreview_makita-0.7.1-py3-none-any.whl.zip]
+[2023-06-18 13:21:33] INFO root fetch - main [MainThread]: End processing [asreview-makita]: success
+[2023-06-18 13:22:25] INFO root fetch - processPackages [inputty]: Remove: archive file [/home/abi/fetcher/tmp/inputty-1.0.3.tar.gz]
+[2023-06-18 13:22:25] INFO root fetch - processPackages [inputty]: Remove: archive file [/home/abi/fetcher/tmp/inputty-1.0.4.tar.gz]
+[2023-06-18 13:22:25] INFO root fetch - main [MainThread]: End processing [inputty]: success
+[2023-06-18 13:22:25] INFO root fetch - main [MainThread]: Store serial: [18549518]
