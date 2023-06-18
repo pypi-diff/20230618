@@ -8326,3 +8326,27 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:08:21] INFO root fetch - processPackages [litie]: Remove: archive file [/home/abi/fetcher/tmp/litie-0.0.3.tar.gz]
 [2023-06-18 14:08:21] INFO root fetch - main [MainThread]: End processing [litie]: success
 [2023-06-18 14:08:21] INFO root fetch - main [MainThread]: Store serial: [18549888]
+[2023-06-18 14:13:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549888]
+[2023-06-18 14:13:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 14:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-agents-nightly
+[2023-06-18 14:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dynamic-username-generator
+[2023-06-18 14:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: severus
+[2023-06-18 14:13:31] WARNING root fetch - processPackages [dynamic-username-generator]: Skipping, unable to determine old version
+[2023-06-18 14:13:31] INFO root fetch - main [MainThread]: End processing [dynamic-username-generator] error
+[2023-06-18 14:13:31] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-18 14:13:31] INFO root fetch - processPackages [severus]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-18 14:13:31] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-18 14:13:31] INFO root fetch - processPackages [severus]: Downloading https://files.pythonhosted.org/packages/9c/e2/f1de514a23a9969f8d82f8f41851a63627aabbc96e7247fcf8bb765503e3/severus-1.2.1.tar.gz
+[2023-06-18 14:13:32] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-18 14:13:32] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-18 14:13:32] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230618/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-18 14:13:32] INFO root fetch - processPackages [severus]: Downloading https://files.pythonhosted.org/packages/50/32/9bfd1d56491e8516cba74da8c0d66140b8f2a9711576ee9b93f7d3f179ce/severus-1.2.2.tar.gz
+[2023-06-18 14:13:32] INFO root fetch - processPackages [severus]: executing diffoscope
+[2023-06-18 14:13:32] INFO root fetch - processPackages [severus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/severus-1.2.1.tar.gz tmp/severus-1.2.2.tar.gz --markdown 20230618/s/severus/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-18 14:13:33] INFO root fetch - processPackages [severus]: Remove: archive file [/home/abi/fetcher/tmp/severus-1.2.1.tar.gz]
+[2023-06-18 14:13:33] INFO root fetch - processPackages [severus]: Remove: archive file [/home/abi/fetcher/tmp/severus-1.2.2.tar.gz]
+[2023-06-18 14:13:33] INFO root fetch - main [MainThread]: End processing [severus]: success
+[2023-06-18 14:13:40] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-18 14:13:40] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-18 14:13:40] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-18 14:13:40] INFO root fetch - main [MainThread]: Store serial: [18549906]
