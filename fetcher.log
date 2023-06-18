@@ -13408,3 +13408,57 @@ EOFError: EOF read where object expected
 [2023-06-18 20:18:26] INFO root fetch - processPackages [ceffyl]: Remove: archive file [/home/abi/fetcher/tmp/ceffyl-1.26.tar.gz]
 [2023-06-18 20:18:26] INFO root fetch - main [MainThread]: End processing [ceffyl]: success
 [2023-06-18 20:18:26] INFO root fetch - main [MainThread]: Store serial: [18551996]
+[2023-06-18 20:23:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551996]
+[2023-06-18 20:23:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HarmonyDecoder
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-pypi-security
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: math-calculator
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: personal-knowledge-library
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ringgpt
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: creditagricole-particuliers
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kkyCrawler
+[2023-06-18 20:23:35] WARNING root fetch - processPackages [math-calculator]: Skipping, unable to determine old version
+[2023-06-18 20:23:35] INFO root fetch - main [MainThread]: End processing [math-calculator] error
+[2023-06-18 20:23:35] INFO root fetch - processPackages [kkyCrawler]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-18 20:23:35] INFO root fetch - processPackages [test-pypi-security]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:23:35] WARNING root fetch - processPackages [HarmonyDecoder]: Skipping, unable to determine old version
+[2023-06-18 20:23:35] INFO root fetch - processPackages [personal-knowledge-library]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 20:23:35] INFO root fetch - main [MainThread]: End processing [HarmonyDecoder] error
+[2023-06-18 20:23:35] INFO root fetch - processPackages [creditagricole-particuliers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 20:23:35] INFO root fetch - processPackages [test-pypi-security]: Downloading https://files.pythonhosted.org/packages/d5/a6/e5f94c247d78871b6aeedc2b53f727264387e5d4c9b82cfaca7dd492b75f/test_pypi_security-1.0.1.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/31/0f/a99eb82550c2ae2ccc3f6d32ce9386d19b1393ce65364daf25550708bf17/kkyCrawler-1.0.5.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/65/29/9b40f35e185a8203cb3c0e334cea089f0d937be2468850295a0bb32dccf7/personal_knowledge_library-1.0.2.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [creditagricole-particuliers]: Downloading https://files.pythonhosted.org/packages/1f/c5/eda87e48da90f89ebcaa21aae4ebcafca72941837ece446e3d2a722602aa/creditagricole_particuliers-0.8.0.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [test-pypi-security]: Downloading https://files.pythonhosted.org/packages/18/05/9ad2fca392a2b36db2cb0a45e411bdfdf034d41fe8478e3b7e212e67c429/test_pypi_security-1.0.2.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 20:23:35] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:23:35] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/2d/22/4ee83a71dd1fea7d3574ca80610fe62f60f9aa9147cced5be7ba6853dc57/kkyCrawler-1.0.6.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [kkyCrawler]: executing diffoscope
+[2023-06-18 20:23:35] INFO root fetch - processPackages [kkyCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkyCrawler-1.0.5.tar.gz tmp/kkyCrawler-1.0.6.tar.gz --markdown 20230618/k/kkyCrawler/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-18 20:23:35] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/47/97/6e685770e1171cb0652f10044bee9ff53e3607dd8e2c398c06d79bcaf893/personal_knowledge_library-1.0.3.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [creditagricole-particuliers]: Downloading https://files.pythonhosted.org/packages/e0/c2/3e877cce40c2c51eb71a3a198c3fe362ee01801956d858a707f3c3da98c1/creditagricole_particuliers-0.9.0.tar.gz
+[2023-06-18 20:23:35] INFO root fetch - processPackages [test-pypi-security]: executing diffoscope
+[2023-06-18 20:23:35] INFO root fetch - processPackages [test-pypi-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_pypi_security-1.0.1.tar.gz tmp/test_pypi_security-1.0.2.tar.gz --markdown 20230618/t/test-pypi-security/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-18 20:23:35] INFO root fetch - processPackages [personal-knowledge-library]: executing diffoscope
+[2023-06-18 20:23:35] INFO root fetch - processPackages [personal-knowledge-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_knowledge_library-1.0.2.tar.gz tmp/personal_knowledge_library-1.0.3.tar.gz --markdown 20230618/p/personal-knowledge-library/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 20:23:36] INFO root fetch - processPackages [creditagricole-particuliers]: executing diffoscope
+[2023-06-18 20:23:36] INFO root fetch - processPackages [creditagricole-particuliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creditagricole_particuliers-0.8.0.tar.gz tmp/creditagricole_particuliers-0.9.0.tar.gz --markdown 20230618/c/creditagricole-particuliers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 20:23:36] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.8.tar.gz]
+[2023-06-18 20:23:36] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.9.tar.gz]
+[2023-06-18 20:23:36] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 20:23:36] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-1.0.5.tar.gz]
+[2023-06-18 20:23:36] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-1.0.6.tar.gz]
+[2023-06-18 20:23:36] INFO root fetch - main [MainThread]: End processing [kkyCrawler]: success
+[2023-06-18 20:23:36] INFO root fetch - processPackages [test-pypi-security]: Remove: archive file [/home/abi/fetcher/tmp/test_pypi_security-1.0.1.tar.gz]
+[2023-06-18 20:23:36] INFO root fetch - processPackages [test-pypi-security]: Remove: archive file [/home/abi/fetcher/tmp/test_pypi_security-1.0.2.tar.gz]
+[2023-06-18 20:23:36] INFO root fetch - main [MainThread]: End processing [test-pypi-security]: success
+[2023-06-18 20:23:37] INFO root fetch - processPackages [creditagricole-particuliers]: Remove: archive file [/home/abi/fetcher/tmp/creditagricole_particuliers-0.8.0.tar.gz]
+[2023-06-18 20:23:37] INFO root fetch - processPackages [creditagricole-particuliers]: Remove: archive file [/home/abi/fetcher/tmp/creditagricole_particuliers-0.9.0.tar.gz]
+[2023-06-18 20:23:37] INFO root fetch - main [MainThread]: End processing [creditagricole-particuliers]: success
+[2023-06-18 20:23:37] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.2.tar.gz]
+[2023-06-18 20:23:37] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.3.tar.gz]
+[2023-06-18 20:23:37] INFO root fetch - main [MainThread]: End processing [personal-knowledge-library]: success
+[2023-06-18 20:23:37] INFO root fetch - main [MainThread]: Store serial: [18552018]
