@@ -5489,3 +5489,47 @@
 [2023-06-18 09:33:13] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.1.tar.gz]
 [2023-06-18 09:33:13] INFO root fetch - main [MainThread]: End processing [pypdf]: success
 [2023-06-18 09:33:13] INFO root fetch - main [MainThread]: Store serial: [18548583]
+[2023-06-18 09:38:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548583]
+[2023-06-18 09:38:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 09:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Omnicon-DDSDocGen
+[2023-06-18 09:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colored
+[2023-06-18 09:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webhooklib
+[2023-06-18 09:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lollms
+[2023-06-18 09:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stochastic-matching
+[2023-06-18 09:38:22] INFO root fetch - processPackages [Omnicon-DDSDocGen]: New version: [2.2.1] Old Version: [2.1.1]
+[2023-06-18 09:38:22] INFO root fetch - processPackages [lollms]: New version: [1.1.93] Old Version: [1.1.92]
+[2023-06-18 09:38:22] INFO root fetch - processPackages [webhooklib]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-18 09:38:22] INFO root fetch - processPackages [colored]: New version: [1.5.0] Old Version: [1.4.4]
+[2023-06-18 09:38:22] INFO root fetch - processPackages [stochastic-matching]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-18 09:38:22] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/42/38/57f67dacff99a57a90cdc68467b5ce67c7f6c8328058835623a7cc148482/webhooklib-0.7.0.tar.gz
+[2023-06-18 09:38:22] INFO root fetch - processPackages [Omnicon-DDSDocGen]: Downloading https://files.pythonhosted.org/packages/af/87/904c01a4f2aa6909c1a844c9b81d1b266591e77c26eb3b273c1272fd6282/Omnicon_DDSDocGen-2.1.1-0-cp37-cp37m-win_amd64.whl
+[2023-06-18 09:38:22] INFO root fetch - processPackages [colored]: Downloading https://files.pythonhosted.org/packages/f3/d6/00203998f27ab30b2417998006ad0608f236740bb129494dd7c5621861e1/colored-1.4.4.tar.gz
+[2023-06-18 09:38:22] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/4c/45/1bda1a06ebd2f4247c025f7a6ecb5c28da604e22dd8e114179b7cbd2d120/lollms-1.1.92.tar.gz
+[2023-06-18 09:38:22] INFO root fetch - processPackages [stochastic-matching]: Downloading https://files.pythonhosted.org/packages/f7/4f/1f8301e2d4bca93800f2c29f0d74b4b7ed90d9a7c8c4d89780cad39cad0f/stochastic_matching-0.2.1.tar.gz
+[2023-06-18 09:38:22] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/18/f8/16b0359d09d337334d6e1af41dee43765cd510a97424a9105fb291fc56b5/webhooklib-0.8.0.tar.gz
+[2023-06-18 09:38:22] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-18 09:38:22] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.7.0.tar.gz tmp/webhooklib-0.8.0.tar.gz --markdown 20230618/w/webhooklib/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-18 09:38:22] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 28419518>=10485760
+[2023-06-18 09:38:22] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 09:38:22] INFO root fetch - processPackages [colored]: Downloading https://files.pythonhosted.org/packages/27/d5/d983e12371fa68a75c34dc272b5676009126ef7153b307a398657db95730/colored-1.5.0.tar.gz
+[2023-06-18 09:38:22] INFO root fetch - processPackages [Omnicon-DDSDocGen]: Downloading https://files.pythonhosted.org/packages/fd/a1/16b9aa4e8ee0914c17a599f4aaaf3793469d54248be661071ec206b8c072/Omnicon_DDSDocGen-2.2.1-0-py3-none-any.whl
+[2023-06-18 09:38:22] INFO root fetch - processPackages [colored]: executing diffoscope
+[2023-06-18 09:38:22] INFO root fetch - processPackages [colored]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colored-1.4.4.tar.gz tmp/colored-1.5.0.tar.gz --markdown 20230618/c/colored/1.4.4-1.5.0/diff.md --exclude *.pyd
+[2023-06-18 09:38:22] INFO root fetch - processPackages [Omnicon-DDSDocGen]: executing diffoscope
+[2023-06-18 09:38:22] INFO root fetch - processPackages [Omnicon-DDSDocGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Omnicon_DDSDocGen-2.1.1-0-cp37-cp37m-win_amd64.whl.zip tmp/Omnicon_DDSDocGen-2.2.1-0-py3-none-any.whl.zip --markdown 20230618/O/Omnicon-DDSDocGen/2.1.1-2.2.1/diff.md --exclude *.pyd
+[2023-06-18 09:38:22] INFO root fetch - processPackages [stochastic-matching]: Downloading https://files.pythonhosted.org/packages/95/29/5c8975183e70a1d75f1771bb4b9af24b3281761db0b946e13d88dcc02da8/stochastic_matching-0.2.2.tar.gz
+[2023-06-18 09:38:23] INFO root fetch - processPackages [stochastic-matching]: executing diffoscope
+[2023-06-18 09:38:23] INFO root fetch - processPackages [stochastic-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stochastic_matching-0.2.1.tar.gz tmp/stochastic_matching-0.2.2.tar.gz --markdown 20230618/s/stochastic-matching/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-18 09:38:23] INFO root fetch - processPackages [colored]: Remove: archive file [/home/abi/fetcher/tmp/colored-1.4.4.tar.gz]
+[2023-06-18 09:38:23] INFO root fetch - processPackages [colored]: Remove: archive file [/home/abi/fetcher/tmp/colored-1.5.0.tar.gz]
+[2023-06-18 09:38:23] INFO root fetch - main [MainThread]: End processing [colored]: success
+[2023-06-18 09:38:23] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.7.0.tar.gz]
+[2023-06-18 09:38:23] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.8.0.tar.gz]
+[2023-06-18 09:38:23] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-18 09:38:23] INFO root fetch - processPackages [Omnicon-DDSDocGen]: Remove: archive file [/home/abi/fetcher/tmp/Omnicon_DDSDocGen-2.1.1-0-cp37-cp37m-win_amd64.whl.zip]
+[2023-06-18 09:38:23] INFO root fetch - processPackages [Omnicon-DDSDocGen]: Remove: archive file [/home/abi/fetcher/tmp/Omnicon_DDSDocGen-2.2.1-0-py3-none-any.whl.zip]
+[2023-06-18 09:38:23] INFO root fetch - main [MainThread]: End processing [Omnicon-DDSDocGen]: success
+[2023-06-18 09:38:24] INFO root fetch - processPackages [stochastic-matching]: Remove: archive file [/home/abi/fetcher/tmp/stochastic_matching-0.2.1.tar.gz]
+[2023-06-18 09:38:24] INFO root fetch - processPackages [stochastic-matching]: Remove: archive file [/home/abi/fetcher/tmp/stochastic_matching-0.2.2.tar.gz]
+[2023-06-18 09:38:24] INFO root fetch - main [MainThread]: End processing [stochastic-matching]: success
+[2023-06-18 09:38:24] INFO root fetch - main [MainThread]: Store serial: [18548603]
