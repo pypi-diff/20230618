@@ -6370,3 +6370,42 @@
 [2023-06-18 11:30:13] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev65.tar.gz]
 [2023-06-18 11:30:13] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-06-18 11:30:13] INFO root fetch - main [MainThread]: Store serial: [18548989]
+[2023-06-18 11:35:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548989]
+[2023-06-18 11:35:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 11:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipyfilite
+[2023-06-18 11:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adbtool
+[2023-06-18 11:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlexhibit
+[2023-06-18 11:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fschat
+[2023-06-18 11:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CKAstroTools
+[2023-06-18 11:35:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shark-cli
+[2023-06-18 11:35:22] WARNING root fetch - processPackages [mlexhibit]: Skipping, unable to determine old version
+[2023-06-18 11:35:22] INFO root fetch - main [MainThread]: End processing [mlexhibit] error
+[2023-06-18 11:35:22] WARNING root fetch - processPackages [CKAstroTools]: Skipping, unable to determine old version
+[2023-06-18 11:35:22] INFO root fetch - processPackages [fschat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 11:35:22] INFO root fetch - main [MainThread]: End processing [CKAstroTools] error
+[2023-06-18 11:35:22] WARNING root fetch - processPackages [shark-cli]: Skipping, unable to determine old version
+[2023-06-18 11:35:22] INFO root fetch - main [MainThread]: End processing [shark-cli] error
+[2023-06-18 11:35:22] INFO root fetch - processPackages [adbtool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 11:35:22] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 11:35:22] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-18 11:35:23] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/87/62/b4da7a5a785f37c352f8353cd89801af7ae84d326d5f4edc3084d11032dd/fschat-0.2.8.tar.gz
+[2023-06-18 11:35:23] INFO root fetch - processPackages [adbtool]: Downloading https://files.pythonhosted.org/packages/22/56/6faeb5115fa69dddc49e0f139901904692eb09a4b9f3640b21d0716a5a96/adbtool-0.0.8.tar.gz
+[2023-06-18 11:35:23] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/18/31/b0adbea8af6bcaa16f03f075f76932dc7de8309924c9f776c44b136cc88b/ipyfilite-0.1.9.tar.gz
+[2023-06-18 11:35:23] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-18 11:35:23] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.8.tar.gz tmp/ipyfilite-0.1.9.tar.gz --markdown 20230618/i/ipyfilite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 11:35:23] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/c1/b0/505c6a4e83ac92e1871d446b70a468976b4ccdcfd047b5ebd73e5d37ba8b/fschat-0.2.9.tar.gz
+[2023-06-18 11:35:23] INFO root fetch - processPackages [adbtool]: Downloading https://files.pythonhosted.org/packages/e5/68/061f5168a1f7a521db13f40e27c7bc33f6284002f866ec6e4597bc2fcb04/adbtool-0.0.9.tar.gz
+[2023-06-18 11:35:23] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-06-18 11:35:23] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.8.tar.gz tmp/fschat-0.2.9.tar.gz --markdown 20230618/f/fschat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 11:35:23] INFO root fetch - processPackages [adbtool]: executing diffoscope
+[2023-06-18 11:35:23] INFO root fetch - processPackages [adbtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbtool-0.0.8.tar.gz tmp/adbtool-0.0.9.tar.gz --markdown 20230618/a/adbtool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 11:35:24] INFO root fetch - processPackages [adbtool]: Remove: archive file [/home/abi/fetcher/tmp/adbtool-0.0.8.tar.gz]
+[2023-06-18 11:35:24] INFO root fetch - processPackages [adbtool]: Remove: archive file [/home/abi/fetcher/tmp/adbtool-0.0.9.tar.gz]
+[2023-06-18 11:35:24] INFO root fetch - main [MainThread]: End processing [adbtool]: success
+[2023-06-18 11:35:25] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.8.tar.gz]
+[2023-06-18 11:35:25] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.9.tar.gz]
+[2023-06-18 11:35:25] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-06-18 11:35:25] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-18 11:35:25] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
+[2023-06-18 11:35:25] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-18 11:35:25] INFO root fetch - main [MainThread]: Store serial: [18549019]
