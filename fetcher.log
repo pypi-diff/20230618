@@ -9447,3 +9447,96 @@ EOFError: EOF read where object expected
 [2023-06-18 15:38:01] INFO root fetch - processPackages [PyFunceble-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyFunceble-dev-4.2.1.tar.gz]
 [2023-06-18 15:38:01] INFO root fetch - main [MainThread]: End processing [PyFunceble-dev]: success
 [2023-06-18 15:38:01] INFO root fetch - main [MainThread]: Store serial: [18550327]
+[2023-06-18 15:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550327]
+[2023-06-18 15:43:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight-core
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-heat-routes
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight-cgap
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-engineer
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mymodbutton
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyHana
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nomenklatura
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datawise
+[2023-06-18 15:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hurricaneapi
+[2023-06-18 15:43:10] WARNING root fetch - processPackages [gpt-engineer]: Skipping, unable to determine old version
+[2023-06-18 15:43:10] INFO root fetch - processPackages [gpt-engineer]: Start processing: nhl-api-py
+[2023-06-18 15:43:10] INFO root fetch - main [MainThread]: End processing [gpt-engineer] error
+[2023-06-18 15:43:10] WARNING root fetch - processPackages [pyHana]: Skipping, unable to determine old version
+[2023-06-18 15:43:10] INFO root fetch - processPackages [gpt-heat-routes]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-18 15:43:10] INFO root fetch - processPackages [pyHana]: Start processing: pandoc-beamer-block
+[2023-06-18 15:43:10] WARNING root fetch - processPackages [mymodbutton]: Skipping, unable to determine old version
+[2023-06-18 15:43:10] INFO root fetch - main [MainThread]: End processing [pyHana] error
+[2023-06-18 15:43:10] INFO root fetch - main [MainThread]: End processing [mymodbutton] error
+[2023-06-18 15:43:10] INFO root fetch - processPackages [nomenklatura]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-06-18 15:43:10] INFO root fetch - processPackages [hurricaneapi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 15:43:10] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b7] Old Version: [3.5.0.1b6]
+[2023-06-18 15:43:10] INFO root fetch - processPackages [datawise]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 15:43:10] INFO root fetch - processPackages [nhl-api-py]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-18 15:43:10] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-18 15:43:10] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-18 15:43:11] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/9b/30/b6f7bd95bb0acf9fd3db0cc27d0fa981baa7af8fc709e6500fc3afe12f03/hurricaneapi-0.1.4.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/42/b3/b07abeec0d8106bc396622d0098e36463b5b7c4a656f397907be61a94ce9/datawise-0.0.7.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/47/72/7f0ad5e76055c5ddb3931f55e51e6cb729896cb1d115200933d5969d9963/foursight-3.5.0.1b6.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [pandoc-beamer-block]: New version: [1.0.0.0] Old Version: [0.2.0]
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [gpt-heat-routes]: Downloading https://files.pythonhosted.org/packages/23/7e/2a1d57f907e0294393d7fa139f1a77f7a8d508b08826a1b9a9a4affb309a/gpt_heat_routes-0.1.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/d6/7c/480a21ed202527ea8d028b64a9760b7385c31641cf464b0b22278d74fcb4/nhl_api_py-0.4.1.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/d5/89/3016c08ec53ac92bd160b5039daa21de454b570e8376f8f5ce8d43882479/nomenklatura-2.9.4.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b6.tar.gz tmp/foursight-3.5.0.1b7.tar.gz --markdown 20230618/f/foursight/3.5.0.1b6-3.5.0.1b7/diff.md --exclude *.pyd
+[2023-06-18 15:43:11] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/a8/d7/319b01f24ffe1c742391790a3a2c0452856f6ebcc6c33220d4b229e583c7/datawise-0.0.8.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230618/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-18 15:43:11] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230618/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-18 15:43:11] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/96/8e/b030ac97ec41157d3fad82ad96e0e09845550ef663637d73b820cb140481/hurricaneapi-0.1.5.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [pandoc-beamer-block]: Downloading https://files.pythonhosted.org/packages/49/72/f2c6982f504bfbd1572876d7969e63699096ea3cce001c4b4ea633d7d93c/pandoc-beamer-block-0.2.0.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-18 15:43:11] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.7.tar.gz tmp/datawise-0.0.8.tar.gz --markdown 20230618/d/datawise/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 15:43:11] INFO root fetch - processPackages [gpt-heat-routes]: Downloading https://files.pythonhosted.org/packages/30/4e/beb8942c12e0caff5d0973d921a87574c64c364df1dc0a41b4846c350c57/gpt_heat_routes-0.1.1.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [hurricaneapi]: executing diffoscope
+[2023-06-18 15:43:11] INFO root fetch - processPackages [hurricaneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurricaneapi-0.1.4.tar.gz tmp/hurricaneapi-0.1.5.tar.gz --markdown 20230618/h/hurricaneapi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 15:43:11] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/76/92/5fc90c2ba573efa90809af95925bac45c73e7a0ce60606f4076ad972e06f/nhl_api_py-0.4.2.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/54/7d/09aee7f4bad75a794be6bfe071dbfcf5d4737a15ad4809bb9d2fe86e888f/nomenklatura-2.9.5.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [gpt-heat-routes]: executing diffoscope
+[2023-06-18 15:43:11] INFO root fetch - processPackages [gpt-heat-routes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_heat_routes-0.1.tar.gz tmp/gpt_heat_routes-0.1.1.tar.gz --markdown 20230618/g/gpt-heat-routes/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 15:43:11] INFO root fetch - processPackages [pandoc-beamer-block]: Downloading https://files.pythonhosted.org/packages/eb/f3/5ff9c1e1be0517e9a1a0368d568a3df23146b5cbb1f99359ab58605931c9/pandoc_beamer_block-1.0.0.0.tar.gz
+[2023-06-18 15:43:11] INFO root fetch - processPackages [nhl-api-py]: executing diffoscope
+[2023-06-18 15:43:11] INFO root fetch - processPackages [nhl-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhl_api_py-0.4.1.tar.gz tmp/nhl_api_py-0.4.2.tar.gz --markdown 20230618/n/nhl-api-py/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-18 15:43:11] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-06-18 15:43:11] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-2.9.4.tar.gz tmp/nomenklatura-2.9.5.tar.gz --markdown 20230618/n/nomenklatura/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-06-18 15:43:11] INFO root fetch - processPackages [pandoc-beamer-block]: executing diffoscope
+[2023-06-18 15:43:11] INFO root fetch - processPackages [pandoc-beamer-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-beamer-block-0.2.0.tar.gz tmp/pandoc_beamer_block-1.0.0.0.tar.gz --markdown 20230618/p/pandoc-beamer-block/0.2.0-1.0.0.0/diff.md --exclude *.pyd
+[2023-06-18 15:43:12] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.7.tar.gz]
+[2023-06-18 15:43:12] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.8.tar.gz]
+[2023-06-18 15:43:12] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-18 15:43:12] INFO root fetch - processPackages [gpt-heat-routes]: Remove: archive file [/home/abi/fetcher/tmp/gpt_heat_routes-0.1.tar.gz]
+[2023-06-18 15:43:12] INFO root fetch - processPackages [gpt-heat-routes]: Remove: archive file [/home/abi/fetcher/tmp/gpt_heat_routes-0.1.1.tar.gz]
+[2023-06-18 15:43:12] INFO root fetch - main [MainThread]: End processing [gpt-heat-routes]: success
+[2023-06-18 15:43:12] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.4.tar.gz]
+[2023-06-18 15:43:12] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.5.tar.gz]
+[2023-06-18 15:43:12] INFO root fetch - main [MainThread]: End processing [hurricaneapi]: success
+[2023-06-18 15:43:12] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-0.4.1.tar.gz]
+[2023-06-18 15:43:12] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-0.4.2.tar.gz]
+[2023-06-18 15:43:12] INFO root fetch - main [MainThread]: End processing [nhl-api-py]: success
+[2023-06-18 15:43:13] INFO root fetch - processPackages [pandoc-beamer-block]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-beamer-block-0.2.0.tar.gz]
+[2023-06-18 15:43:13] INFO root fetch - processPackages [pandoc-beamer-block]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_beamer_block-1.0.0.0.tar.gz]
+[2023-06-18 15:43:13] INFO root fetch - main [MainThread]: End processing [pandoc-beamer-block]: success
+[2023-06-18 15:43:13] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-2.9.4.tar.gz]
+[2023-06-18 15:43:13] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-2.9.5.tar.gz]
+[2023-06-18 15:43:13] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-06-18 15:43:13] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-18 15:43:13] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-18 15:43:13] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-18 15:43:14] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b6.tar.gz]
+[2023-06-18 15:43:14] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-06-18 15:43:14] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-18 15:43:14] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-18 15:43:14] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-18 15:43:14] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-18 15:43:14] INFO root fetch - main [MainThread]: Store serial: [18550370]
