@@ -5798,3 +5798,9 @@
 [2023-06-18 10:20:29] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b9.tar.gz]
 [2023-06-18 10:20:30] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
 [2023-06-18 10:20:30] INFO root fetch - main [MainThread]: Store serial: [18548711]
+[2023-06-18 10:25:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548711]
+[2023-06-18 10:25:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-18 10:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imreg-dft-nw
+[2023-06-18 10:25:38] WARNING root fetch - processPackages [imreg-dft-nw]: Skipping, unable to determine old version
+[2023-06-18 10:25:38] INFO root fetch - main [MainThread]: End processing [imreg-dft-nw] error
+[2023-06-18 10:25:38] INFO root fetch - main [MainThread]: Store serial: [18548715]
