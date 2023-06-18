@@ -8880,3 +8880,60 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 15:01:29] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.1.tar.gz]
 [2023-06-18 15:01:29] INFO root fetch - main [MainThread]: End processing [hurricaneapi]: success
 [2023-06-18 15:01:29] INFO root fetch - main [MainThread]: Store serial: [18550145]
+[2023-06-18 15:06:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550145]
+[2023-06-18 15:06:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 15:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: img2tags
+[2023-06-18 15:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-18 15:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypipr
+[2023-06-18 15:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: homelab-node-red-backup
+[2023-06-18 15:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-06-18 15:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dhn-med-py
+[2023-06-18 15:06:37] INFO root fetch - processPackages [img2tags]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-18 15:06:37] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-18 15:06:37] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 15:06:37] INFO root fetch - processPackages [homelab-node-red-backup]: New version: [1.3.0] Old Version: [1.1.1]
+[2023-06-18 15:06:37] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-18 15:06:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.18] Old Version: [2023.6.17]
+[2023-06-18 15:06:37] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-06-18 15:06:38] INFO root fetch - processPackages [dhn-med-py]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-18 15:06:38] INFO root fetch - processPackages [img2tags]: Downloading https://files.pythonhosted.org/packages/9b/60/0af7c48eb0c289d4ea64569949967854e891f5dba1c4b64d91ceb81fea5c/img2tags-1.0.0.tar.gz
+[2023-06-18 15:06:38] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-18 15:06:38] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/99/27/11020e9652817c79d069f28be5ea80b3fef429a98622e0c3bfb2c42dd937/fbgemm_gpu_nightly_cpu-2023.6.17-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-18 15:06:38] INFO root fetch - processPackages [homelab-node-red-backup]: Downloading https://files.pythonhosted.org/packages/7d/6d/bf7811cda564a9cff8ded1c95f4a967e1add88bbf7deacc9ce3d82ba73af/homelab_node_red_backup-1.1.1.tar.gz
+[2023-06-18 15:06:38] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-18 15:06:38] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230618/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 15:06:38] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-06-18 15:06:38] INFO root fetch - processPackages [dhn-med-py]: Downloading https://files.pythonhosted.org/packages/d7/92/8b36d912c1a33916979cd6be176ebcf52dadb42cba38dfa5edac62a74af2/dhn_med_py-1.1.0-cp39-cp39-win_amd64.whl
+[2023-06-18 15:06:38] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-18 15:06:38] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230618/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-18 15:06:38] INFO root fetch - processPackages [img2tags]: Downloading https://files.pythonhosted.org/packages/5f/54/3a750a14ff1bb849869c0b5139c8d4bc5bdcc86d9e6f1ed81e60ba510885/img2tags-1.1.0.tar.gz
+[2023-06-18 15:06:38] INFO root fetch - processPackages [img2tags]: executing diffoscope
+[2023-06-18 15:06:38] INFO root fetch - processPackages [img2tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2tags-1.0.0.tar.gz tmp/img2tags-1.1.0.tar.gz --markdown 20230618/i/img2tags/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-18 15:06:38] INFO root fetch - processPackages [homelab-node-red-backup]: Downloading https://files.pythonhosted.org/packages/d6/3d/9879105b766b7aa0157e710b494668f8c9d21d34cbc67ac593c803d84663/homelab_node_red_backup-1.3.0.tar.gz
+[2023-06-18 15:06:38] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/0d/24/edfcd7a05da4f5d43c105ed7534e50cf3464a58c8c15fb85a151802483eb/fbgemm_gpu_nightly_cpu-2023.6.18-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-18 15:06:38] INFO root fetch - processPackages [dhn-med-py]: Downloading https://files.pythonhosted.org/packages/7e/9b/6db6f4f95ec961d6cf81ca83ea19b898a5bbff26a51b016181f6582f9bf7/dhn_med_py-1.1.1-cp311-cp311-macosx_12_0_arm64.whl
+[2023-06-18 15:06:38] INFO root fetch - processPackages [homelab-node-red-backup]: executing diffoscope
+[2023-06-18 15:06:38] INFO root fetch - processPackages [homelab-node-red-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homelab_node_red_backup-1.1.1.tar.gz tmp/homelab_node_red_backup-1.3.0.tar.gz --markdown 20230618/h/homelab-node-red-backup/1.1.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-18 15:06:39] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-18 15:06:39] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.17-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.18-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230618/f/fbgemm-gpu-nightly-cpu/2023.6.17-2023.6.18/diff.md --exclude *.pyd
+[2023-06-18 15:06:39] INFO root fetch - processPackages [dhn-med-py]: executing diffoscope
+[2023-06-18 15:06:39] INFO root fetch - processPackages [dhn-med-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhn_med_py-1.1.0-cp39-cp39-win_amd64.whl.zip tmp/dhn_med_py-1.1.1-cp311-cp311-macosx_12_0_arm64.whl.zip --markdown 20230618/d/dhn-med-py/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-18 15:06:39] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-18 15:06:39] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-18 15:06:39] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-18 15:06:39] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-06-18 15:06:39] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-06-18 15:06:39] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-18 15:06:39] INFO root fetch - processPackages [img2tags]: Remove: archive file [/home/abi/fetcher/tmp/img2tags-1.0.0.tar.gz]
+[2023-06-18 15:06:39] INFO root fetch - processPackages [img2tags]: Remove: archive file [/home/abi/fetcher/tmp/img2tags-1.1.0.tar.gz]
+[2023-06-18 15:06:39] INFO root fetch - main [MainThread]: End processing [img2tags]: success
+[2023-06-18 15:06:39] INFO root fetch - processPackages [homelab-node-red-backup]: Remove: archive file [/home/abi/fetcher/tmp/homelab_node_red_backup-1.1.1.tar.gz]
+[2023-06-18 15:06:39] INFO root fetch - processPackages [homelab-node-red-backup]: Remove: archive file [/home/abi/fetcher/tmp/homelab_node_red_backup-1.3.0.tar.gz]
+[2023-06-18 15:06:39] INFO root fetch - main [MainThread]: End processing [homelab-node-red-backup]: success
+[2023-06-18 15:06:40] INFO root fetch - processPackages [dhn-med-py]: Remove: archive file [/home/abi/fetcher/tmp/dhn_med_py-1.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 15:06:40] INFO root fetch - processPackages [dhn-med-py]: Remove: archive file [/home/abi/fetcher/tmp/dhn_med_py-1.1.1-cp311-cp311-macosx_12_0_arm64.whl.zip]
+[2023-06-18 15:06:40] INFO root fetch - main [MainThread]: End processing [dhn-med-py]: success
+[2023-06-18 15:06:40] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.17-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-18 15:06:40] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.18-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-18 15:06:40] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-18 15:06:40] INFO root fetch - main [MainThread]: Store serial: [18550170]
