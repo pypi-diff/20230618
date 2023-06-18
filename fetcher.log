@@ -13076,3 +13076,45 @@ EOFError: EOF read where object expected
 [2023-06-18 19:52:26] INFO root fetch - processPackages [mvm-smart-metering]: Remove: archive file [/home/abi/fetcher/tmp/mvm_smart_metering-0.0.15.tar.gz]
 [2023-06-18 19:52:26] INFO root fetch - main [MainThread]: End processing [mvm-smart-metering]: success
 [2023-06-18 19:52:26] INFO root fetch - main [MainThread]: Store serial: [18551863]
+[2023-06-18 19:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551863]
+[2023-06-18 19:57:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 19:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdict
+[2023-06-18 19:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flash-attention-jax
+[2023-06-18 19:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boneIO
+[2023-06-18 19:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: export
+[2023-06-18 19:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: git-init-repo
+[2023-06-18 19:57:35] INFO root fetch - processPackages [bigdict]: New version: [22.5.29] Old Version: [21.4.11]
+[2023-06-18 19:57:35] WARNING root fetch - processPackages [git-init-repo]: Skipping, unable to determine old version
+[2023-06-18 19:57:35] INFO root fetch - main [MainThread]: End processing [git-init-repo] error
+[2023-06-18 19:57:35] INFO root fetch - processPackages [export]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-18 19:57:35] INFO root fetch - processPackages [boneIO]: New version: [0.6.3.dev4] Old Version: [0.6.3.dev3]
+[2023-06-18 19:57:35] INFO root fetch - processPackages [flash-attention-jax]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-18 19:57:35] INFO root fetch - processPackages [bigdict]: Downloading https://files.pythonhosted.org/packages/f7/18/33e959e923464987fcf64978bec72af113ca03d0ab606f69a290b00505b0/bigdict-21.4.11.tar.gz
+[2023-06-18 19:57:35] INFO root fetch - processPackages [flash-attention-jax]: Downloading https://files.pythonhosted.org/packages/2f/9b/17951c089ed67bda80aedbd8603e67866c2faf17576d0575c1a207200181/flash-attention-jax-0.2.0.tar.gz
+[2023-06-18 19:57:35] INFO root fetch - processPackages [export]: Downloading https://files.pythonhosted.org/packages/8b/f3/dc5a9fa9fd5dfcabf7b948a1397dd15070d36a8632417984149552b296dd/export-0.2.0.tar.gz
+[2023-06-18 19:57:35] INFO root fetch - processPackages [boneIO]: Downloading https://files.pythonhosted.org/packages/5f/f7/e168f7347ef781e943539e72feb1101da8a3c9ceafa265c071738b71cf90/boneIO-0.6.3.dev3.tar.gz
+[2023-06-18 19:57:35] INFO root fetch - processPackages [bigdict]: Downloading https://files.pythonhosted.org/packages/95/08/4f9bce50947e28ff11db762c8667bcb834a99a7210b487fe9023132dcba0/bigdict-22.5.29.tar.gz
+[2023-06-18 19:57:35] INFO root fetch - processPackages [export]: Downloading https://files.pythonhosted.org/packages/9c/4e/6e9b2a1594d00b138ea8f51007ad73ab646c42f4694b12a0395576d9b9f8/export-0.2.1.tar.gz
+[2023-06-18 19:57:35] INFO root fetch - processPackages [boneIO]: Downloading https://files.pythonhosted.org/packages/c0/c1/e6abbe5d052f7ba5a631cd14e57de81c76dc09f4c4b342090242e1cf6dca/boneIO-0.6.3.dev4.tar.gz
+[2023-06-18 19:57:35] INFO root fetch - processPackages [flash-attention-jax]: Downloading https://files.pythonhosted.org/packages/6b/e9/e44ef25a86c86b113510cb2c5d720ca85484b28d88ee99c08b4bacfc6ff5/flash-attention-jax-0.3.0.tar.gz
+[2023-06-18 19:57:36] INFO root fetch - processPackages [bigdict]: executing diffoscope
+[2023-06-18 19:57:36] INFO root fetch - processPackages [bigdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdict-21.4.11.tar.gz tmp/bigdict-22.5.29.tar.gz --markdown 20230618/b/bigdict/21.4.11-22.5.29/diff.md --exclude *.pyd
+[2023-06-18 19:57:36] INFO root fetch - processPackages [export]: executing diffoscope
+[2023-06-18 19:57:36] INFO root fetch - processPackages [export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/export-0.2.0.tar.gz tmp/export-0.2.1.tar.gz --markdown 20230618/e/export/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-18 19:57:36] INFO root fetch - processPackages [boneIO]: executing diffoscope
+[2023-06-18 19:57:36] INFO root fetch - processPackages [boneIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boneIO-0.6.3.dev3.tar.gz tmp/boneIO-0.6.3.dev4.tar.gz --markdown 20230618/b/boneIO/0.6.3.dev3-0.6.3.dev4/diff.md --exclude *.pyd
+[2023-06-18 19:57:36] INFO root fetch - processPackages [flash-attention-jax]: executing diffoscope
+[2023-06-18 19:57:36] INFO root fetch - processPackages [flash-attention-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash-attention-jax-0.2.0.tar.gz tmp/flash-attention-jax-0.3.0.tar.gz --markdown 20230618/f/flash-attention-jax/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 19:57:37] INFO root fetch - processPackages [export]: Remove: archive file [/home/abi/fetcher/tmp/export-0.2.0.tar.gz]
+[2023-06-18 19:57:37] INFO root fetch - processPackages [export]: Remove: archive file [/home/abi/fetcher/tmp/export-0.2.1.tar.gz]
+[2023-06-18 19:57:37] INFO root fetch - main [MainThread]: End processing [export]: success
+[2023-06-18 19:57:37] INFO root fetch - processPackages [bigdict]: Remove: archive file [/home/abi/fetcher/tmp/bigdict-21.4.11.tar.gz]
+[2023-06-18 19:57:37] INFO root fetch - processPackages [bigdict]: Remove: archive file [/home/abi/fetcher/tmp/bigdict-22.5.29.tar.gz]
+[2023-06-18 19:57:37] INFO root fetch - main [MainThread]: End processing [bigdict]: success
+[2023-06-18 19:57:37] INFO root fetch - processPackages [flash-attention-jax]: Remove: archive file [/home/abi/fetcher/tmp/flash-attention-jax-0.2.0.tar.gz]
+[2023-06-18 19:57:37] INFO root fetch - processPackages [flash-attention-jax]: Remove: archive file [/home/abi/fetcher/tmp/flash-attention-jax-0.3.0.tar.gz]
+[2023-06-18 19:57:37] INFO root fetch - main [MainThread]: End processing [flash-attention-jax]: success
+[2023-06-18 19:57:37] INFO root fetch - processPackages [boneIO]: Remove: archive file [/home/abi/fetcher/tmp/boneIO-0.6.3.dev3.tar.gz]
+[2023-06-18 19:57:37] INFO root fetch - processPackages [boneIO]: Remove: archive file [/home/abi/fetcher/tmp/boneIO-0.6.3.dev4.tar.gz]
+[2023-06-18 19:57:37] INFO root fetch - main [MainThread]: End processing [boneIO]: success
+[2023-06-18 19:57:37] INFO root fetch - main [MainThread]: Store serial: [18551881]
