@@ -15607,3 +15607,33 @@ EOFError: EOF read where object expected
 [2023-06-18 23:01:39] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.3.2.tar.gz]
 [2023-06-18 23:01:39] INFO root fetch - main [MainThread]: End processing [gitmopy]: success
 [2023-06-18 23:01:39] INFO root fetch - main [MainThread]: Store serial: [18552901]
+[2023-06-18 23:06:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552901]
+[2023-06-18 23:06:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 23:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lhp
+[2023-06-18 23:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rew
+[2023-06-18 23:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-decorator
+[2023-06-18 23:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlp-models
+[2023-06-18 23:06:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyogmios
+[2023-06-18 23:06:48] INFO root fetch - processPackages [nlp-models]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-18 23:06:48] WARNING root fetch - processPackages [lhp]: Skipping, unable to determine old version
+[2023-06-18 23:06:48] INFO root fetch - main [MainThread]: End processing [lhp] error
+[2023-06-18 23:06:48] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/a4/8e/34129f68d36a702ce48d0c215f6d5434f53bbf6ce322072742bed14e5942/nlp-models-2.2.0.tar.gz
+[2023-06-18 23:06:48] WARNING root fetch - processPackages [rew]: Skipping, unable to determine old version
+[2023-06-18 23:06:48] INFO root fetch - main [MainThread]: End processing [rew] error
+[2023-06-18 23:06:48] WARNING root fetch - processPackages [pyogmios]: Skipping, unable to determine old version
+[2023-06-18 23:06:48] INFO root fetch - main [MainThread]: End processing [pyogmios] error
+[2023-06-18 23:06:48] INFO root fetch - processPackages [openai-decorator]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 23:06:48] INFO root fetch - processPackages [openai-decorator]: Downloading https://files.pythonhosted.org/packages/ac/f5/73735f6063187bf5cf931cc637a0743d46c39e629a217ff94d2140cf001b/openai_decorator-0.1.2.tar.gz
+[2023-06-18 23:06:48] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/8c/78/5087142dd8b34469fec432c5643e7fdff0baff2d1190a32e8fc1e7925fe6/nlp-models-2.2.1.tar.gz
+[2023-06-18 23:06:48] INFO root fetch - processPackages [nlp-models]: executing diffoscope
+[2023-06-18 23:06:48] INFO root fetch - processPackages [nlp-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp-models-2.2.0.tar.gz tmp/nlp-models-2.2.1.tar.gz --markdown 20230618/n/nlp-models/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-18 23:06:48] INFO root fetch - processPackages [openai-decorator]: Downloading https://files.pythonhosted.org/packages/f1/da/9aa7db7476662661c4854ec047ae41b75a3bf723e95377b82bf2a4ecee9d/openai_decorator-0.1.3.tar.gz
+[2023-06-18 23:06:48] INFO root fetch - processPackages [openai-decorator]: executing diffoscope
+[2023-06-18 23:06:48] INFO root fetch - processPackages [openai-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_decorator-0.1.2.tar.gz tmp/openai_decorator-0.1.3.tar.gz --markdown 20230618/o/openai-decorator/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 23:06:49] INFO root fetch - processPackages [nlp-models]: Remove: archive file [/home/abi/fetcher/tmp/nlp-models-2.2.0.tar.gz]
+[2023-06-18 23:06:49] INFO root fetch - processPackages [nlp-models]: Remove: archive file [/home/abi/fetcher/tmp/nlp-models-2.2.1.tar.gz]
+[2023-06-18 23:06:49] INFO root fetch - main [MainThread]: End processing [nlp-models]: success
+[2023-06-18 23:06:49] INFO root fetch - processPackages [openai-decorator]: Remove: archive file [/home/abi/fetcher/tmp/openai_decorator-0.1.2.tar.gz]
+[2023-06-18 23:06:49] INFO root fetch - processPackages [openai-decorator]: Remove: archive file [/home/abi/fetcher/tmp/openai_decorator-0.1.3.tar.gz]
+[2023-06-18 23:06:49] INFO root fetch - main [MainThread]: End processing [openai-decorator]: success
+[2023-06-18 23:06:49] INFO root fetch - main [MainThread]: Store serial: [18552967]
