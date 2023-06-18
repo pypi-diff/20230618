@@ -3981,3 +3981,54 @@
 [2023-06-18 05:32:45] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678382334.tar.gz]
 [2023-06-18 05:32:45] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2023-06-18 05:32:45] INFO root fetch - main [MainThread]: Store serial: [18547832]
+[2023-06-18 05:37:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547832]
+[2023-06-18 05:37:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 05:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-RealESRGAN
+[2023-06-18 05:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: design-kgex
+[2023-06-18 05:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-rke
+[2023-06-18 05:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-signing
+[2023-06-18 05:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libre-fastapi-jwt
+[2023-06-18 05:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oppoudpsdk
+[2023-06-18 05:37:53] INFO root fetch - processPackages [design-kgex]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 05:37:53] INFO root fetch - processPackages [flask-signing]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-18 05:37:53] INFO root fetch - processPackages [pulumi-rke]: New version: [3.3.0a1687057109] Old Version: [3.3.0a1686638253]
+[2023-06-18 05:37:53] INFO root fetch - processPackages [oppoudpsdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 05:37:53] INFO root fetch - processPackages [nonebot-plugin-RealESRGAN]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-18 05:37:53] WARNING root fetch - processPackages [libre-fastapi-jwt]: Skipping, unable to determine old version
+[2023-06-18 05:37:53] INFO root fetch - main [MainThread]: End processing [libre-fastapi-jwt] error
+[2023-06-18 05:37:53] INFO root fetch - processPackages [oppoudpsdk]: Downloading https://files.pythonhosted.org/packages/e5/1d/a72f85a0fb502322072501e53ec0f02e2be5f5ccb7e5eef58d8047490dea/oppoudpsdk-0.1.8.tar.gz
+[2023-06-18 05:37:53] INFO root fetch - processPackages [design-kgex]: Downloading https://files.pythonhosted.org/packages/bc/07/eb66c5df075a1ef35890f2a818bc29649d82a6bae95a8f1daee5bff0f395/design_kgex-0.0.2.tar.gz
+[2023-06-18 05:37:54] INFO root fetch - processPackages [nonebot-plugin-RealESRGAN]: Downloading https://files.pythonhosted.org/packages/b9/1f/cbd6c6fb203bb0ddb35aca025d355e99b0a8a5f6622bed7280877e12bd8a/nonebot_plugin_RealESRGAN-0.2.5.tar.gz
+[2023-06-18 05:37:54] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/f0/96/aab0d43d7cb18414bde69c6c29c5ba564f9661817d04bb47b278e932f880/pulumi_rke-3.3.0a1686638253.tar.gz
+[2023-06-18 05:37:54] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/bc/2a/b146551ebb3d61277c956c7d0717924efce39875f3ec3f8bf78de947d652/flask_signing-0.6.0.tar.gz
+[2023-06-18 05:37:54] INFO root fetch - processPackages [oppoudpsdk]: Downloading https://files.pythonhosted.org/packages/e5/dc/21e0e6600f79152d7edba01279876615c5f43d9ebbfa165e1a08dd4980d2/oppoudpsdk-0.1.9.tar.gz
+[2023-06-18 05:37:54] INFO root fetch - processPackages [design-kgex]: Downloading https://files.pythonhosted.org/packages/a8/4c/3262458cde60d7762e21eb0b539ba5cb29783590dc6bdee2a9db21ecab25/design_kgex-0.0.3.tar.gz
+[2023-06-18 05:37:54] INFO root fetch - processPackages [oppoudpsdk]: executing diffoscope
+[2023-06-18 05:37:54] INFO root fetch - processPackages [oppoudpsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oppoudpsdk-0.1.8.tar.gz tmp/oppoudpsdk-0.1.9.tar.gz --markdown 20230618/o/oppoudpsdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 05:37:54] INFO root fetch - processPackages [nonebot-plugin-RealESRGAN]: Downloading https://files.pythonhosted.org/packages/b3/9a/cdcbdf97e0cb8e9a099fc9831e8fa1ce40588cd9f192e39e1137da9f276b/nonebot_plugin_RealESRGAN-0.2.6.tar.gz
+[2023-06-18 05:37:54] INFO root fetch - processPackages [design-kgex]: executing diffoscope
+[2023-06-18 05:37:54] INFO root fetch - processPackages [design-kgex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design_kgex-0.0.2.tar.gz tmp/design_kgex-0.0.3.tar.gz --markdown 20230618/d/design-kgex/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 05:37:54] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/05/6a/57e3855bc67ba118f704a19e15eb35d1f6edd7917bfbe297b68f97214d06/pulumi_rke-3.3.0a1687057109.tar.gz
+[2023-06-18 05:37:54] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/32/06/f640de20fe5588d5d0b2ace21980124306e93bf9e2942367a8b9e59206bb/flask_signing-0.7.0.tar.gz
+[2023-06-18 05:37:54] INFO root fetch - processPackages [flask-signing]: executing diffoscope
+[2023-06-18 05:37:54] INFO root fetch - processPackages [flask-signing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_signing-0.6.0.tar.gz tmp/flask_signing-0.7.0.tar.gz --markdown 20230618/f/flask-signing/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-18 05:37:54] INFO root fetch - processPackages [nonebot-plugin-RealESRGAN]: executing diffoscope
+[2023-06-18 05:37:54] INFO root fetch - processPackages [nonebot-plugin-RealESRGAN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_RealESRGAN-0.2.5.tar.gz tmp/nonebot_plugin_RealESRGAN-0.2.6.tar.gz --markdown 20230618/n/nonebot-plugin-RealESRGAN/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-18 05:37:54] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2023-06-18 05:37:54] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.3.0a1686638253.tar.gz tmp/pulumi_rke-3.3.0a1687057109.tar.gz --markdown 20230618/p/pulumi-rke/3.3.0a1686638253-3.3.0a1687057109/diff.md --exclude *.pyd
+[2023-06-18 05:37:55] INFO root fetch - processPackages [oppoudpsdk]: Remove: archive file [/home/abi/fetcher/tmp/oppoudpsdk-0.1.8.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - processPackages [oppoudpsdk]: Remove: archive file [/home/abi/fetcher/tmp/oppoudpsdk-0.1.9.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - main [MainThread]: End processing [oppoudpsdk]: success
+[2023-06-18 05:37:55] INFO root fetch - processPackages [design-kgex]: Remove: archive file [/home/abi/fetcher/tmp/design_kgex-0.0.2.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - processPackages [design-kgex]: Remove: archive file [/home/abi/fetcher/tmp/design_kgex-0.0.3.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - main [MainThread]: End processing [design-kgex]: success
+[2023-06-18 05:37:55] INFO root fetch - processPackages [nonebot-plugin-RealESRGAN]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_RealESRGAN-0.2.5.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - processPackages [nonebot-plugin-RealESRGAN]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_RealESRGAN-0.2.6.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-RealESRGAN]: success
+[2023-06-18 05:37:55] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1686638253.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1687057109.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2023-06-18 05:37:55] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.6.0.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.7.0.tar.gz]
+[2023-06-18 05:37:55] INFO root fetch - main [MainThread]: End processing [flask-signing]: success
+[2023-06-18 05:37:55] INFO root fetch - main [MainThread]: Store serial: [18547852]
