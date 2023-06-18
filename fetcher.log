@@ -5386,3 +5386,67 @@
 [2023-06-18 09:22:50] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.4.tar.gz]
 [2023-06-18 09:22:50] INFO root fetch - main [MainThread]: End processing [cq23]: success
 [2023-06-18 09:22:50] INFO root fetch - main [MainThread]: Store serial: [18548538]
+[2023-06-18 09:27:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548538]
+[2023-06-18 09:27:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 09:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-interpolator
+[2023-06-18 09:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tailwiz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-cmethods
+[2023-06-18 09:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nprompter
+[2023-06-18 09:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyCEURmake
+[2023-06-18 09:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hrbot
+[2023-06-18 09:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tailwiz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [tailwiz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 09:27:59] INFO root fetch - processPackages [simple-interpolator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 09:27:59] INFO root fetch - processPackages [hrbot]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-18 09:27:59] INFO root fetch - processPackages [tailwiz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 09:27:59] INFO root fetch - processPackages [nprompter]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-18 09:27:59] INFO root fetch - processPackages [python-cmethods]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-18 09:27:59] INFO root fetch - processPackages [pyCEURmake]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-18 09:27:59] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/86/09/a75712bc9a4e8d6ad838c6f87c499db8a83397bb7c171c33758030cb98d8/simple-interpolator-0.1.1.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [tailwiz]: Downloading https://files.pythonhosted.org/packages/ac/dc/2e6a871453ee7c587644ad49b147c08bd2abc26e415cecda218d7e5bd52a/tailwiz-0.0.8.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [nprompter]: Downloading https://files.pythonhosted.org/packages/59/db/30526f6ffc46d70288b463b06f86462ab409b839d966edc289ee3960acd2/nprompter-3.8.0.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [hrbot]: Downloading https://files.pythonhosted.org/packages/a4/54/c3b22bb30e8ff14904c11f99d67301827d0d85001f53693a14d8514f9077/hrbot-0.0.2.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [tailwiz]: Downloading https://files.pythonhosted.org/packages/ac/dc/2e6a871453ee7c587644ad49b147c08bd2abc26e415cecda218d7e5bd52a/tailwiz-0.0.8.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [python-cmethods]: Downloading https://files.pythonhosted.org/packages/0c/15/5dda75e6c7125be2b72dc7a5248466f3dbf1ecd0cdc641b260832a2c7400/python_cmethods-1.0.1-py3-none-any.whl
+[2023-06-18 09:27:59] INFO root fetch - processPackages [pyCEURmake]: Downloading https://files.pythonhosted.org/packages/4c/bc/4ce38a3955f2602129ee77a817a77aac2fd17e8eb7889126b2c624280215/pyceurmake-0.2.4.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/ad/f4/7bc5850487642ebccbacbe48e4676aa66d9a943f4aa3d9b5374b8d29c0e9/simple-interpolator-0.1.2.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [hrbot]: Downloading https://files.pythonhosted.org/packages/48/e5/4b8f60ce4599f8b3aca419e140cc4c100d1f9b84e5f66663fdbaead08d29/hrbot-0.1.0.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [tailwiz]: Downloading https://files.pythonhosted.org/packages/06/dd/d25827e45a9c717878ed3f28d86154b413b944f7467ca259e67975b6210b/tailwiz-0.0.9.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [tailwiz]: Downloading https://files.pythonhosted.org/packages/06/dd/d25827e45a9c717878ed3f28d86154b413b944f7467ca259e67975b6210b/tailwiz-0.0.9.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [nprompter]: Downloading https://files.pythonhosted.org/packages/b3/b9/32b009caade8ba5da0dde5f3028ffa0697392bce4e5606994fd94cd86a15/nprompter-3.9.0.tar.gz
+[2023-06-18 09:27:59] INFO root fetch - processPackages [simple-interpolator]: executing diffoscope
+[2023-06-18 09:27:59] INFO root fetch - processPackages [simple-interpolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-interpolator-0.1.1.tar.gz tmp/simple-interpolator-0.1.2.tar.gz --markdown 20230618/s/simple-interpolator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 09:28:00] INFO root fetch - processPackages [python-cmethods]: Downloading https://files.pythonhosted.org/packages/60/53/ca1163fbd7e550ae09dc39c95819393855e4d7c2e8606526dbf97708147f/python_cmethods-1.0.2-py3-none-any.whl
+[2023-06-18 09:28:00] INFO root fetch - processPackages [pyCEURmake]: Downloading https://files.pythonhosted.org/packages/e2/1a/286c880854b16cab45131d2de9388c848ad4dbe1668f2d54e18a80de8235/pyceurmake-0.2.5.tar.gz
+[2023-06-18 09:28:00] INFO root fetch - processPackages [hrbot]: executing diffoscope
+[2023-06-18 09:28:00] INFO root fetch - processPackages [hrbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrbot-0.0.2.tar.gz tmp/hrbot-0.1.0.tar.gz --markdown 20230618/h/hrbot/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-18 09:28:00] INFO root fetch - processPackages [tailwiz]: executing diffoscope
+[2023-06-18 09:28:00] INFO root fetch - processPackages [tailwiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailwiz-0.0.8.tar.gz tmp/tailwiz-0.0.9.tar.gz --markdown 20230618/t/tailwiz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 09:28:00] INFO root fetch - processPackages [tailwiz]: executing diffoscope
+[2023-06-18 09:28:00] INFO root fetch - processPackages [tailwiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailwiz-0.0.8.tar.gz tmp/tailwiz-0.0.9.tar.gz --markdown 20230618/t/tailwiz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 09:28:00] INFO root fetch - processPackages [nprompter]: executing diffoscope
+[2023-06-18 09:28:00] INFO root fetch - processPackages [nprompter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nprompter-3.8.0.tar.gz tmp/nprompter-3.9.0.tar.gz --markdown 20230618/n/nprompter/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-18 09:28:00] INFO root fetch - processPackages [python-cmethods]: executing diffoscope
+[2023-06-18 09:28:00] INFO root fetch - processPackages [python-cmethods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_cmethods-1.0.1-py3-none-any.whl.zip tmp/python_cmethods-1.0.2-py3-none-any.whl.zip --markdown 20230618/p/python-cmethods/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-18 09:28:00] INFO root fetch - processPackages [pyCEURmake]: executing diffoscope
+[2023-06-18 09:28:00] INFO root fetch - processPackages [pyCEURmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyceurmake-0.2.4.tar.gz tmp/pyceurmake-0.2.5.tar.gz --markdown 20230618/p/pyCEURmake/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-18 09:28:01] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.1.1.tar.gz]
+[2023-06-18 09:28:01] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.1.2.tar.gz]
+[2023-06-18 09:28:01] INFO root fetch - main [MainThread]: End processing [simple-interpolator]: success
+[2023-06-18 09:28:01] INFO root fetch - processPackages [tailwiz]: Remove: archive file [/home/abi/fetcher/tmp/tailwiz-0.0.8.tar.gz]
+[2023-06-18 09:28:01] INFO root fetch - processPackages [tailwiz]: Remove: archive file [/home/abi/fetcher/tmp/tailwiz-0.0.9.tar.gz]
+[2023-06-18 09:28:01] INFO root fetch - main [MainThread]: End processing [tailwiz]: success
+[2023-06-18 09:28:01] INFO root fetch - processPackages [hrbot]: Remove: archive file [/home/abi/fetcher/tmp/hrbot-0.0.2.tar.gz]
+[2023-06-18 09:28:01] INFO root fetch - processPackages [hrbot]: Remove: archive file [/home/abi/fetcher/tmp/hrbot-0.1.0.tar.gz]
+[2023-06-18 09:28:01] INFO root fetch - main [MainThread]: End processing [hrbot]: success
+[2023-06-18 09:28:01] INFO root fetch - main [MainThread]: End processing [tailwiz]: success
+[2023-06-18 09:28:01] INFO root fetch - processPackages [python-cmethods]: Remove: archive file [/home/abi/fetcher/tmp/python_cmethods-1.0.1-py3-none-any.whl.zip]
+[2023-06-18 09:28:01] INFO root fetch - processPackages [python-cmethods]: Remove: archive file [/home/abi/fetcher/tmp/python_cmethods-1.0.2-py3-none-any.whl.zip]
+[2023-06-18 09:28:01] INFO root fetch - main [MainThread]: End processing [python-cmethods]: success
+[2023-06-18 09:28:01] INFO root fetch - processPackages [pyCEURmake]: Remove: archive file [/home/abi/fetcher/tmp/pyceurmake-0.2.4.tar.gz]
+[2023-06-18 09:28:01] INFO root fetch - processPackages [pyCEURmake]: Remove: archive file [/home/abi/fetcher/tmp/pyceurmake-0.2.5.tar.gz]
+[2023-06-18 09:28:01] INFO root fetch - main [MainThread]: End processing [pyCEURmake]: success
+[2023-06-18 09:28:02] INFO root fetch - processPackages [nprompter]: Remove: archive file [/home/abi/fetcher/tmp/nprompter-3.8.0.tar.gz]
+[2023-06-18 09:28:02] INFO root fetch - processPackages [nprompter]: Remove: archive file [/home/abi/fetcher/tmp/nprompter-3.9.0.tar.gz]
+[2023-06-18 09:28:02] INFO root fetch - main [MainThread]: End processing [nprompter]: success
+[2023-06-18 09:28:02] INFO root fetch - main [MainThread]: Store serial: [18548567]
