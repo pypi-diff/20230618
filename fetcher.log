@@ -8587,3 +8587,72 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:40:31] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.13-py3-none-any.whl.zip]
 [2023-06-18 14:40:31] INFO root fetch - main [MainThread]: End processing [pdf2txt]: success
 [2023-06-18 14:40:31] INFO root fetch - main [MainThread]: Store serial: [18550025]
+[2023-06-18 14:45:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550025]
+[2023-06-18 14:45:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 14:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dronefly-core
+[2023-06-18 14:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dronefly-discord
+[2023-06-18 14:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: etiketti
+[2023-06-18 14:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manticore
+[2023-06-18 14:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandoc-codeblock-include
+[2023-06-18 14:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hurricaneapi
+[2023-06-18 14:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrestyle
+[2023-06-18 14:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: buteo
+[2023-06-18 14:45:40] INFO root fetch - processPackages [dronefly-core]: New version: [0.3.6.dev2] Old Version: [0.3.6.dev1]
+[2023-06-18 14:45:40] INFO root fetch - processPackages [dronefly-discord]: New version: [0.1.1.dev2] Old Version: [0.1.1.dev1]
+[2023-06-18 14:45:40] INFO root fetch - processPackages [pyrestyle]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 14:45:40] INFO root fetch - processPackages [pandoc-codeblock-include]: New version: [1.0.1.1] Old Version: [1.0.1]
+[2023-06-18 14:45:40] WARNING root fetch - processPackages [hurricaneapi]: Skipping, unable to determine old version
+[2023-06-18 14:45:40] INFO root fetch - main [MainThread]: End processing [hurricaneapi] error
+[2023-06-18 14:45:40] INFO root fetch - processPackages [etiketti]: New version: [2023.6.18] Old Version: [2023.2.13]
+[2023-06-18 14:45:40] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-18 14:45:40] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230618] Old Version: [0.3.8.dev230617]
+[2023-06-18 14:45:40] INFO root fetch - processPackages [dronefly-core]: Downloading https://files.pythonhosted.org/packages/7c/93/222d4dd5a536498bc76771c4b0f88bc6e4afde703db15a04876445d72eec/dronefly_core-0.3.6.dev1.tar.gz
+[2023-06-18 14:45:40] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/14/c1/abab25f84b1429a9f7295153df0654cffd7d11b1013ed4f2d8a85256188b/manticore-0.3.8.dev230617.tar.gz
+[2023-06-18 14:45:40] INFO root fetch - processPackages [pandoc-codeblock-include]: Downloading https://files.pythonhosted.org/packages/0d/f3/ebbcce1deef8e9c5fd85fc60fb45aad397197f72f56a79d218dca0967d0f/pandoc_codeblock_include-1.0.1.tar.gz
+[2023-06-18 14:45:40] INFO root fetch - processPackages [dronefly-discord]: Downloading https://files.pythonhosted.org/packages/e7/9e/84a3bf4b7cde7eda9bde96a18bb026911ab4f584ed2d256db6b8a7337d12/dronefly_discord-0.1.1.dev1.tar.gz
+[2023-06-18 14:45:40] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/7a/9b/23f43095d19b173927eafff54b7cfeca10d58d3f490111b50e2ded9b20d4/pyrestyle-0.0.3.tar.gz
+[2023-06-18 14:45:40] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-18 14:45:40] INFO root fetch - processPackages [etiketti]: Downloading https://files.pythonhosted.org/packages/d1/5c/46cb13cb3cea90aa9920ec81d98192692047e93872950a7034b56d7d1dfe/etiketti-2023.2.13.tar.gz
+[2023-06-18 14:45:41] INFO root fetch - processPackages [dronefly-core]: Downloading https://files.pythonhosted.org/packages/34/b1/78f07aa02ca85543f9f7044b69f189c2afb19165b12f4148a7140fcffaaf/dronefly_core-0.3.6.dev2.tar.gz
+[2023-06-18 14:45:41] INFO root fetch - processPackages [pandoc-codeblock-include]: Downloading https://files.pythonhosted.org/packages/ca/73/8028dbcd3fdd963b18d8ec9fe8cde3d2717d70dfa63bc5b08c4c6a11646b/pandoc_codeblock_include-1.0.1.1.tar.gz
+[2023-06-18 14:45:41] INFO root fetch - processPackages [dronefly-discord]: Downloading https://files.pythonhosted.org/packages/9d/de/a458458b29eedd8c089d83a6823f7c1872fb8a5a7548b0aa92090e0c3df6/dronefly_discord-0.1.1.dev2.tar.gz
+[2023-06-18 14:45:41] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/f6/62/cedbceb15b9f481e6e8b6081f1d759b7b187e5cbc0f8cd91daeb37e24033/manticore-0.3.8.dev230618.tar.gz
+[2023-06-18 14:45:41] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/d2/90/2747abde411fdbea05ccbd686271ba6ef26c92bd3f5bf6c325502cc88ec8/pyrestyle-0.0.4.tar.gz
+[2023-06-18 14:45:41] INFO root fetch - processPackages [dronefly-core]: executing diffoscope
+[2023-06-18 14:45:41] INFO root fetch - processPackages [dronefly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronefly_core-0.3.6.dev1.tar.gz tmp/dronefly_core-0.3.6.dev2.tar.gz --markdown 20230618/d/dronefly-core/0.3.6.dev1-0.3.6.dev2/diff.md --exclude *.pyd
+[2023-06-18 14:45:41] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-18 14:45:41] INFO root fetch - processPackages [dronefly-discord]: executing diffoscope
+[2023-06-18 14:45:41] INFO root fetch - processPackages [dronefly-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronefly_discord-0.1.1.dev1.tar.gz tmp/dronefly_discord-0.1.1.dev2.tar.gz --markdown 20230618/d/dronefly-discord/0.1.1.dev1-0.1.1.dev2/diff.md --exclude *.pyd
+[2023-06-18 14:45:41] INFO root fetch - processPackages [etiketti]: Downloading https://files.pythonhosted.org/packages/e6/5b/812e269df5036ab0550a1729ed2585651905118b16a7d5f4dcb8e7377077/etiketti-2023.6.18.tar.gz
+[2023-06-18 14:45:41] INFO root fetch - processPackages [pandoc-codeblock-include]: executing diffoscope
+[2023-06-18 14:45:41] INFO root fetch - processPackages [pandoc-codeblock-include]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc_codeblock_include-1.0.1.tar.gz tmp/pandoc_codeblock_include-1.0.1.1.tar.gz --markdown 20230618/p/pandoc-codeblock-include/1.0.1-1.0.1.1/diff.md --exclude *.pyd
+[2023-06-18 14:45:41] INFO root fetch - processPackages [pyrestyle]: executing diffoscope
+[2023-06-18 14:45:41] INFO root fetch - processPackages [pyrestyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestyle-0.0.3.tar.gz tmp/pyrestyle-0.0.4.tar.gz --markdown 20230618/p/pyrestyle/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 14:45:41] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-18 14:45:41] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230617.tar.gz tmp/manticore-0.3.8.dev230618.tar.gz --markdown 20230618/m/manticore/0.3.8.dev230617-0.3.8.dev230618/diff.md --exclude *.pyd
+[2023-06-18 14:45:41] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-18 14:45:41] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230618/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-18 14:45:41] INFO root fetch - processPackages [etiketti]: executing diffoscope
+[2023-06-18 14:45:41] INFO root fetch - processPackages [etiketti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiketti-2023.2.13.tar.gz tmp/etiketti-2023.6.18.tar.gz --markdown 20230618/e/etiketti/2023.2.13-2023.6.18/diff.md --exclude *.pyd
+[2023-06-18 14:45:42] INFO root fetch - processPackages [pandoc-codeblock-include]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_codeblock_include-1.0.1.tar.gz]
+[2023-06-18 14:45:42] INFO root fetch - processPackages [pandoc-codeblock-include]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_codeblock_include-1.0.1.1.tar.gz]
+[2023-06-18 14:45:42] INFO root fetch - main [MainThread]: End processing [pandoc-codeblock-include]: success
+[2023-06-18 14:45:42] INFO root fetch - processPackages [dronefly-core]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_core-0.3.6.dev1.tar.gz]
+[2023-06-18 14:45:42] INFO root fetch - processPackages [dronefly-core]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_core-0.3.6.dev2.tar.gz]
+[2023-06-18 14:45:42] INFO root fetch - main [MainThread]: End processing [dronefly-core]: success
+[2023-06-18 14:45:42] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.3.tar.gz]
+[2023-06-18 14:45:42] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.4.tar.gz]
+[2023-06-18 14:45:42] INFO root fetch - main [MainThread]: End processing [pyrestyle]: success
+[2023-06-18 14:45:42] INFO root fetch - processPackages [dronefly-discord]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_discord-0.1.1.dev1.tar.gz]
+[2023-06-18 14:45:42] INFO root fetch - processPackages [dronefly-discord]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_discord-0.1.1.dev2.tar.gz]
+[2023-06-18 14:45:42] INFO root fetch - main [MainThread]: End processing [dronefly-discord]: success
+[2023-06-18 14:45:43] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230617.tar.gz]
+[2023-06-18 14:45:43] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230618.tar.gz]
+[2023-06-18 14:45:43] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-18 14:45:43] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-18 14:45:43] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-18 14:45:43] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-18 14:45:43] INFO root fetch - processPackages [etiketti]: Remove: archive file [/home/abi/fetcher/tmp/etiketti-2023.2.13.tar.gz]
+[2023-06-18 14:45:43] INFO root fetch - processPackages [etiketti]: Remove: archive file [/home/abi/fetcher/tmp/etiketti-2023.6.18.tar.gz]
+[2023-06-18 14:45:43] INFO root fetch - main [MainThread]: End processing [etiketti]: success
+[2023-06-18 14:45:43] INFO root fetch - main [MainThread]: Store serial: [18550050]
