@@ -2794,3 +2794,58 @@
 [2023-06-18 04:01:25] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
 [2023-06-18 04:01:25] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2023-06-18 04:01:25] INFO root fetch - main [MainThread]: Store serial: [18547373]
+[2023-06-18 04:06:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547373]
+[2023-06-18 04:06:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 04:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qvatel-sms-api
+[2023-06-18 04:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Priority1py
+[2023-06-18 04:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acore-server-config
+[2023-06-18 04:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proconip
+[2023-06-18 04:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Priority1py
+[2023-06-18 04:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: megadata
+[2023-06-18 04:06:33] INFO root fetch - processPackages [acore-server-config]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 04:06:33] INFO root fetch - processPackages [qvatel-sms-api]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-18 04:06:33] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 04:06:33] INFO root fetch - processPackages [Priority1py]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-18 04:06:33] INFO root fetch - processPackages [Priority1py]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-18 04:06:33] INFO root fetch - processPackages [proconip]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-18 04:06:33] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/6d/9d/a809462157063c0d2894802ccee5872d26ce1a4de9451bc92376bfea8499/proconip-1.2.4.tar.gz
+[2023-06-18 04:06:33] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/a3/f3/fc5fc00c8e44a701bbcc54fd2ff47885849d5de7f61f41d7b5f308c51768/acore_server_config-0.1.1.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/1b/d2/155ec832e3374e4f5f4fe31ef922b600464186afe9a579c052b91e877786/Priority1py-1.0.3.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/1b/d2/155ec832e3374e4f5f4fe31ef922b600464186afe9a579c052b91e877786/Priority1py-1.0.3.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [qvatel-sms-api]: Downloading https://files.pythonhosted.org/packages/ba/2e/90237ec162194ac639cdb835f586cfc34779cf182bbf2c1521ec2beced43/qvatel_sms_api-1.0.5.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/db/18/1acacd008c750e61bf570a49c63150ce5e2f6f63fc27290d33af9f68c426/megadata-0.0.8.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/a8/87/f7257e1594b8fb6fa04e1f366b651464959cdbe2a620a952ecaf988bdbfb/proconip-1.2.5.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/02/0a/022bac410d42a572a41c0508eebe2633fd5c4daa86cab7f070fcb892c08e/Priority1py-1.0.4.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/02/0a/022bac410d42a572a41c0508eebe2633fd5c4daa86cab7f070fcb892c08e/Priority1py-1.0.4.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [proconip]: executing diffoscope
+[2023-06-18 04:06:34] INFO root fetch - processPackages [proconip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proconip-1.2.4.tar.gz tmp/proconip-1.2.5.tar.gz --markdown 20230618/p/proconip/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-18 04:06:34] INFO root fetch - processPackages [qvatel-sms-api]: Downloading https://files.pythonhosted.org/packages/8b/c9/8ff09369088fb10eadf50649781ddd2c9b1f27d857e7f740b7835d1ea787/qvatel_sms_api-1.0.7.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/b5/2a/ea0dbb33112e3a7198069e130dfab1a654e4c4bd5b257202efe308aa5993/acore_server_config-0.1.2.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/34/d3/1b1e3069204cfd5341c0be3bad7df7e60019431a6959b3182db14b874807/megadata-0.0.9.tar.gz
+[2023-06-18 04:06:34] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-18 04:06:34] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-1.0.3.tar.gz tmp/Priority1py-1.0.4.tar.gz --markdown 20230618/P/Priority1py/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-18 04:06:34] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-18 04:06:34] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-1.0.3.tar.gz tmp/Priority1py-1.0.4.tar.gz --markdown 20230618/P/Priority1py/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-18 04:06:34] INFO root fetch - processPackages [acore-server-config]: executing diffoscope
+[2023-06-18 04:06:34] INFO root fetch - processPackages [acore-server-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_config-0.1.1.tar.gz tmp/acore_server_config-0.1.2.tar.gz --markdown 20230618/a/acore-server-config/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 04:06:34] INFO root fetch - processPackages [qvatel-sms-api]: executing diffoscope
+[2023-06-18 04:06:34] INFO root fetch - processPackages [qvatel-sms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvatel_sms_api-1.0.5.tar.gz tmp/qvatel_sms_api-1.0.7.tar.gz --markdown 20230618/q/qvatel-sms-api/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 04:06:34] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-06-18 04:06:34] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230618/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 04:06:35] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.3.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.4.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-18 04:06:35] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.4.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.5.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - main [MainThread]: End processing [proconip]: success
+[2023-06-18 04:06:35] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-18 04:06:35] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.1.1.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.1.2.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - main [MainThread]: End processing [acore-server-config]: success
+[2023-06-18 04:06:35] INFO root fetch - processPackages [qvatel-sms-api]: Remove: archive file [/home/abi/fetcher/tmp/qvatel_sms_api-1.0.5.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - processPackages [qvatel-sms-api]: Remove: archive file [/home/abi/fetcher/tmp/qvatel_sms_api-1.0.7.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - main [MainThread]: End processing [qvatel-sms-api]: success
+[2023-06-18 04:06:35] INFO root fetch - processPackages [megadata]: Remove: archive file [/home/abi/fetcher/tmp/megadata-0.0.8.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - processPackages [megadata]: Remove: archive file [/home/abi/fetcher/tmp/megadata-0.0.9.tar.gz]
+[2023-06-18 04:06:35] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-06-18 04:06:35] INFO root fetch - main [MainThread]: Store serial: [18547393]
