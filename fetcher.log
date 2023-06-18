@@ -4474,3 +4474,24 @@
 [2023-06-18 06:36:13] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.3.tar.gz]
 [2023-06-18 06:36:13] INFO root fetch - main [MainThread]: End processing [zensvi]: success
 [2023-06-18 06:36:13] INFO root fetch - main [MainThread]: Store serial: [18548088]
+[2023-06-18 06:41:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548088]
+[2023-06-18 06:41:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 06:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dal-python
+[2023-06-18 06:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tile-coder-rs
+[2023-06-18 06:41:21] INFO root fetch - processPackages [dal-python]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-06-18 06:41:21] INFO root fetch - processPackages [tile-coder-rs]: New version: [0.3.1] Old Version: [0.1.0]
+[2023-06-18 06:41:22] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/59/32/1ee66e2351ed15a891615b1761ad3f0befb4118a820e007853a9f749d5f6/dal_python-0.2.6-cp39-none-any.whl
+[2023-06-18 06:41:22] INFO root fetch - processPackages [tile-coder-rs]: Downloading https://files.pythonhosted.org/packages/98/b1/5b20af332e19de6cdf6e0de504a80ff715faa1eb7e7bcce4470e38736647/tile_coder_rs-0.1.0.tar.gz
+[2023-06-18 06:41:22] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/c5/ae/0a2d8a19ef8e962bc4f811d182f03534638038c97bf090ed6789f5354be8/dal_python-0.3.0-cp39-none-any.whl
+[2023-06-18 06:41:22] INFO root fetch - processPackages [tile-coder-rs]: Downloading https://files.pythonhosted.org/packages/27/5d/b9ca74300744412b8eecc2b91be07d5d874a6db3fc6a2a23a5a7fa6eedc2/tile_coder_rs-0.3.1.tar.gz
+[2023-06-18 06:41:22] INFO root fetch - processPackages [tile-coder-rs]: executing diffoscope
+[2023-06-18 06:41:22] INFO root fetch - processPackages [tile-coder-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tile_coder_rs-0.1.0.tar.gz tmp/tile_coder_rs-0.3.1.tar.gz --markdown 20230618/t/tile-coder-rs/0.1.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-18 06:41:23] INFO root fetch - processPackages [dal-python]: executing diffoscope
+[2023-06-18 06:41:23] INFO root fetch - processPackages [dal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dal_python-0.2.6-cp39-none-any.whl.zip tmp/dal_python-0.3.0-cp39-none-any.whl.zip --markdown 20230618/d/dal-python/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 06:41:23] INFO root fetch - processPackages [tile-coder-rs]: Remove: archive file [/home/abi/fetcher/tmp/tile_coder_rs-0.1.0.tar.gz]
+[2023-06-18 06:41:23] INFO root fetch - processPackages [tile-coder-rs]: Remove: archive file [/home/abi/fetcher/tmp/tile_coder_rs-0.3.1.tar.gz]
+[2023-06-18 06:41:23] INFO root fetch - main [MainThread]: End processing [tile-coder-rs]: success
+[2023-06-18 06:41:24] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.6-cp39-none-any.whl.zip]
+[2023-06-18 06:41:24] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.3.0-cp39-none-any.whl.zip]
+[2023-06-18 06:41:24] INFO root fetch - main [MainThread]: End processing [dal-python]: success
+[2023-06-18 06:41:24] INFO root fetch - main [MainThread]: Store serial: [18548113]
