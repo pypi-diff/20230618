@@ -2300,3 +2300,108 @@
 [2023-06-18 03:33:17] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
 [2023-06-18 03:33:17] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
 [2023-06-18 03:33:17] INFO root fetch - main [MainThread]: Store serial: [18547107]
+[2023-06-18 03:38:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547107]
+[2023-06-18 03:38:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-datadog
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hidden-py
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cq23
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proconip
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioregistry
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-stdlib
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdf-docx-pic
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agixt
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sweetrpg-model-core
+[2023-06-18 03:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-numpy
+[2023-06-18 03:38:26] INFO root fetch - processPackages [cq23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-18 03:38:26] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-18 03:38:26] INFO root fetch - processPackages [pdf-docx-pic]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-18 03:38:26] INFO root fetch - processPackages [proconip]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-18 03:38:26] WARNING root fetch - processPackages [hidden-py]: Skipping, unable to determine old version
+[2023-06-18 03:38:26] INFO root fetch - processPackages [hidden-py]: Start processing: harambot
+[2023-06-18 03:38:26] INFO root fetch - main [MainThread]: End processing [hidden-py] error
+[2023-06-18 03:38:26] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-06-18 03:38:26] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-18 03:38:26] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/31/69/204d43b897b4aa9a3d576938819276a0cf13141b673599fd3f1f1065ea26/cq23-1.9.3.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [sweetrpg-model-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:38:26] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/54/73/68efc364cdab595d4e23cfcde75630aab4871f6798a36f66fc068ea0a38e/pdf-docx-pic-3.0.0.zip
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:38:26] INFO root fetch - processPackages [harambot]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-18 03:38:26] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/03/b1/73ca3b19ee28c9e9b40f977a1394ca08603244342ddf7005009b10e6441e/proconip-1.2.3.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/5a/c8/e8c5d6490901c7007d0b3c3d63dcfedcc8fc727786b9d30e69e4cdfba6a8/cq23-1.9.4.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [sweetrpg-model-core]: Downloading https://files.pythonhosted.org/packages/2b/a9/f6d12795fc3f52981f5476c74fd485c2b56fe1911b278640171d94d92bc1/sweetrpg-model-core-0.0.98.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [harambot]: Downloading https://files.pythonhosted.org/packages/0d/96/2b51c6871a756f4e52634db05ac1e3c3f4d437ee52ecffb417b0eefaf550/harambot-0.3.0.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-06-18 03:38:26] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-1.9.3.tar.gz tmp/cq23-1.9.4.tar.gz --markdown 20230618/c/cq23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/01/f3/cdd07e325ae0c582e184863344a40637f8609554e378079734e3af920caa/pdf-docx-pic-3.1.0.zip
+[2023-06-18 03:38:26] INFO root fetch - processPackages [proconip]: Downloading https://files.pythonhosted.org/packages/6d/9d/a809462157063c0d2894802ccee5872d26ce1a4de9451bc92376bfea8499/proconip-1.2.4.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230618/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-18 03:38:26] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230618/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:38:26] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-18 03:38:26] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf-docx-pic-3.0.0.zip tmp/pdf-docx-pic-3.1.0.zip --markdown 20230618/p/pdf-docx-pic/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-18 03:38:26] INFO root fetch - processPackages [proconip]: executing diffoscope
+[2023-06-18 03:38:26] INFO root fetch - processPackages [proconip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proconip-1.2.3.tar.gz tmp/proconip-1.2.4.tar.gz --markdown 20230618/p/proconip/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-18 03:38:26] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-18 03:38:26] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230618/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-18 03:38:26] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-06-18 03:38:27] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-06-18 03:38:27] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230618/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-06-18 03:38:27] INFO root fetch - processPackages [sweetrpg-model-core]: Downloading https://files.pythonhosted.org/packages/45/2f/72ea3ec101547d659b6522d0efd329d98807f3f70bd531b7c55e48836946/sweetrpg-model-core-0.0.99.tar.gz
+[2023-06-18 03:38:27] INFO root fetch - processPackages [sweetrpg-model-core]: executing diffoscope
+[2023-06-18 03:38:27] INFO root fetch - processPackages [sweetrpg-model-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-model-core-0.0.98.tar.gz tmp/sweetrpg-model-core-0.0.99.tar.gz --markdown 20230618/s/sweetrpg-model-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:38:27] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.3.tar.gz]
+[2023-06-18 03:38:27] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.4.tar.gz]
+[2023-06-18 03:38:27] INFO root fetch - processPackages [cq23]: Start processing: omniplot
+[2023-06-18 03:38:27] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-06-18 03:38:27] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.3.tar.gz]
+[2023-06-18 03:38:27] INFO root fetch - processPackages [proconip]: Remove: archive file [/home/abi/fetcher/tmp/proconip-1.2.4.tar.gz]
+[2023-06-18 03:38:27] INFO root fetch - main [MainThread]: End processing [proconip]: success
+[2023-06-18 03:38:28] INFO root fetch - processPackages [omniplot]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-18 03:38:28] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.0.0.zip]
+[2023-06-18 03:38:28] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.0.zip]
+[2023-06-18 03:38:28] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-18 03:38:28] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-18 03:38:28] INFO root fetch - processPackages [harambot]: Downloading https://files.pythonhosted.org/packages/e9/16/07273e1ae43609c58e7c8659ab596f00d687eca4905083d4833ea7de6c10/harambot-0.3.1.tar.gz
+[2023-06-18 03:38:28] INFO root fetch - processPackages [omniplot]: Downloading https://files.pythonhosted.org/packages/ef/97/8a3b04ebd15e7d2a9dd5dade352126c7cc84155b05026d433db18342e79e/omniplot-0.4.8-py3-none-any.whl
+[2023-06-18 03:38:28] INFO root fetch - processPackages [sweetrpg-model-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-model-core-0.0.98.tar.gz]
+[2023-06-18 03:38:28] INFO root fetch - processPackages [sweetrpg-model-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-model-core-0.0.99.tar.gz]
+[2023-06-18 03:38:28] INFO root fetch - main [MainThread]: End processing [sweetrpg-model-core]: success
+[2023-06-18 03:38:28] INFO root fetch - processPackages [omniplot]: Downloading https://files.pythonhosted.org/packages/19/1e/884e42bb2c2a4f1518ffe038e1434a3dea5abf068ca9c0b0aeea0abe48c4/omniplot-0.4.9-py3-none-any.whl
+[2023-06-18 03:38:28] INFO root fetch - processPackages [omniplot]: executing diffoscope
+[2023-06-18 03:38:28] INFO root fetch - processPackages [omniplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniplot-0.4.8-py3-none-any.whl.zip tmp/omniplot-0.4.9-py3-none-any.whl.zip --markdown 20230618/o/omniplot/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-18 03:38:28] INFO root fetch - processPackages [harambot]: executing diffoscope
+[2023-06-18 03:38:28] INFO root fetch - processPackages [harambot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harambot-0.3.0.tar.gz tmp/harambot-0.3.1.tar.gz --markdown 20230618/h/harambot/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-18 03:38:28] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-18 03:38:28] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-18 03:38:28] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-18 03:38:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-18 03:38:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-18 03:38:29] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-18 03:38:29] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-18 03:38:29] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-18 03:38:29] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-18 03:38:29] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-18 03:38:29] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230618/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-18 03:38:30] INFO root fetch - processPackages [omniplot]: Remove: archive file [/home/abi/fetcher/tmp/omniplot-0.4.8-py3-none-any.whl.zip]
+[2023-06-18 03:38:30] INFO root fetch - processPackages [omniplot]: Remove: archive file [/home/abi/fetcher/tmp/omniplot-0.4.9-py3-none-any.whl.zip]
+[2023-06-18 03:38:30] INFO root fetch - main [MainThread]: End processing [omniplot]: success
+[2023-06-18 03:38:30] INFO root fetch - processPackages [harambot]: Remove: archive file [/home/abi/fetcher/tmp/harambot-0.3.0.tar.gz]
+[2023-06-18 03:38:30] INFO root fetch - processPackages [harambot]: Remove: archive file [/home/abi/fetcher/tmp/harambot-0.3.1.tar.gz]
+[2023-06-18 03:38:30] INFO root fetch - main [MainThread]: End processing [harambot]: success
+[2023-06-18 03:38:31] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2023-06-18 03:38:31] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2023-06-18 03:38:31] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-06-18 03:40:29] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-18 03:40:29] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-18 03:40:29] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-18 03:40:29] INFO root fetch - main [MainThread]: Store serial: [18547167]
