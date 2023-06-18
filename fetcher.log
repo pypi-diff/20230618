@@ -15945,3 +15945,44 @@ EOFError: EOF read where object expected
 [2023-06-18 23:49:11] INFO root fetch - processPackages [osm-easy-api]: Remove: archive file [/home/abi/fetcher/tmp/osm_easy_api-1.0.0.tar.gz]
 [2023-06-18 23:49:11] INFO root fetch - main [MainThread]: End processing [osm-easy-api]: success
 [2023-06-18 23:49:11] INFO root fetch - main [MainThread]: Store serial: [18553073]
+[2023-06-18 23:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553073]
+[2023-06-18 23:54:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 23:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drizzutojr-vapi
+[2023-06-18 23:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shellbind
+[2023-06-18 23:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aio-pygo
+[2023-06-18 23:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lollms
+[2023-06-18 23:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foo123
+[2023-06-18 23:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstra
+[2023-06-18 23:54:20] WARNING root fetch - processPackages [shellbind]: Skipping, unable to determine old version
+[2023-06-18 23:54:20] INFO root fetch - main [MainThread]: End processing [shellbind] error
+[2023-06-18 23:54:20] INFO root fetch - processPackages [drizzutojr-vapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 23:54:20] INFO root fetch - processPackages [aio-pygo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 23:54:20] INFO root fetch - processPackages [lollms]: New version: [1.2.6] Old Version: [1.2.4]
+[2023-06-18 23:54:20] WARNING root fetch - processPackages [foo123]: Skipping, unable to determine old version
+[2023-06-18 23:54:20] INFO root fetch - main [MainThread]: End processing [foo123] error
+[2023-06-18 23:54:20] INFO root fetch - processPackages [abstra]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 23:54:20] INFO root fetch - processPackages [aio-pygo]: Downloading https://files.pythonhosted.org/packages/99/01/649a718eba03578c01210bba2b53068c535e43bd8a4cc1072392d0472381/aio-pygo-1.0.0.tar.gz
+[2023-06-18 23:54:20] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/31/1c/14cb1991d91f7d81a9233d3efa0b2209387e14f5df54688b42e18415290f/drizzutojr_vapi-0.0.2-py3-none-any.whl
+[2023-06-18 23:54:20] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/48/e6/b0fb218f19210cd462f5d00195a34f87362ca6ee4b9e69d68fde32e19ea3/lollms-1.2.4.tar.gz
+[2023-06-18 23:54:20] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31795667>=10485760
+[2023-06-18 23:54:20] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 23:54:20] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/05/28/f72832c041e0b2b0b63df0d3511c62d5fcbca5ba96f7d4a263a7454e6806/abstra-0.8.0.tar.gz
+[2023-06-18 23:54:20] INFO root fetch - processPackages [aio-pygo]: Downloading https://files.pythonhosted.org/packages/e3/de/484cbc9ffd3d790dc81529c0a74e33620f51e2a357ff5db1a3d07414c234/aio-pygo-1.0.1.tar.gz
+[2023-06-18 23:54:20] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/cc/3d/d00ac8f0c6c209653a72ac717e6ab9b3f810fd604752613c9ce4ae2315e9/drizzutojr_vapi-0.0.3-py3-none-any.whl
+[2023-06-18 23:54:21] INFO root fetch - processPackages [drizzutojr-vapi]: executing diffoscope
+[2023-06-18 23:54:21] INFO root fetch - processPackages [drizzutojr-vapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vapi-0.0.2-py3-none-any.whl.zip tmp/drizzutojr_vapi-0.0.3-py3-none-any.whl.zip --markdown 20230618/d/drizzutojr-vapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 23:54:21] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/53/b0/210e93eceb08f1666cd15ef523580965cb7020363a0db1d10cd50c9a5b2e/abstra-0.9.0.tar.gz
+[2023-06-18 23:54:21] INFO root fetch - processPackages [aio-pygo]: executing diffoscope
+[2023-06-18 23:54:21] INFO root fetch - processPackages [aio-pygo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-pygo-1.0.0.tar.gz tmp/aio-pygo-1.0.1.tar.gz --markdown 20230618/a/aio-pygo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 23:54:21] INFO root fetch - processPackages [abstra]: executing diffoscope
+[2023-06-18 23:54:21] INFO root fetch - processPackages [abstra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-0.8.0.tar.gz tmp/abstra-0.9.0.tar.gz --markdown 20230618/a/abstra/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 23:54:22] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.2-py3-none-any.whl.zip]
+[2023-06-18 23:54:22] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.3-py3-none-any.whl.zip]
+[2023-06-18 23:54:22] INFO root fetch - main [MainThread]: End processing [drizzutojr-vapi]: success
+[2023-06-18 23:54:22] INFO root fetch - processPackages [aio-pygo]: Remove: archive file [/home/abi/fetcher/tmp/aio-pygo-1.0.0.tar.gz]
+[2023-06-18 23:54:22] INFO root fetch - processPackages [aio-pygo]: Remove: archive file [/home/abi/fetcher/tmp/aio-pygo-1.0.1.tar.gz]
+[2023-06-18 23:54:22] INFO root fetch - main [MainThread]: End processing [aio-pygo]: success
+[2023-06-18 23:54:22] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.8.0.tar.gz]
+[2023-06-18 23:54:22] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.9.0.tar.gz]
+[2023-06-18 23:54:22] INFO root fetch - main [MainThread]: End processing [abstra]: success
+[2023-06-18 23:54:22] INFO root fetch - main [MainThread]: Store serial: [18553092]
