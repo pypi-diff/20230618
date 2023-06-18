@@ -7150,3 +7150,38 @@
 [2023-06-18 12:50:09] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.2.tar.gz]
 [2023-06-18 12:50:09] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
 [2023-06-18 12:50:09] INFO root fetch - main [MainThread]: Store serial: [18549384]
+[2023-06-18 12:55:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549384]
+[2023-06-18 12:55:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 12:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mltlk
+[2023-06-18 12:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-18 12:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-06-18 12:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-base-extras
+[2023-06-18 12:55:18] INFO root fetch - processPackages [lollms]: New version: [1.1.95] Old Version: [1.1.94]
+[2023-06-18 12:55:18] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-18 12:55:18] INFO root fetch - processPackages [kcli]: New version: [99.0.202306181053] Old Version: [99.0.202306172135]
+[2023-06-18 12:55:18] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 12:55:18] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/1c/f8/4f2b48f1dce0135d7ac388c273dba78b9137c0d0d842897e7fc48446879e/lollms-1.1.94.tar.gz
+[2023-06-18 12:55:18] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-18 12:55:18] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c3/73/d17cec0abb01dea2d5846bf05207cd7c6209d8277a09b94a4ba1672899d3/kcli-99.0.202306172135-py3-none-any.whl
+[2023-06-18 12:55:18] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 28895123>=10485760
+[2023-06-18 12:55:18] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 12:55:18] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-06-18 12:55:18] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/93/87/39f7d4b3ea3188a622304ad68a5fb6035e3da94e1d2500966309245d988c/kcli-99.0.202306181053-py3-none-any.whl
+[2023-06-18 12:55:18] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-18 12:55:18] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-06-18 12:55:18] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-06-18 12:55:18] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230618/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 12:55:19] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-18 12:55:19] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306172135-py3-none-any.whl.zip tmp/kcli-99.0.202306181053-py3-none-any.whl.zip --markdown 20230618/k/kcli/99.0.202306172135-99.0.202306181053/diff.md --exclude *.pyd
+[2023-06-18 12:55:19] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-18 12:55:19] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230618/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-18 12:55:20] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-06-18 12:55:20] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-06-18 12:55:20] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-06-18 12:55:20] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-18 12:55:20] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-18 12:55:20] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-18 12:55:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306172135-py3-none-any.whl.zip]
+[2023-06-18 12:55:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306181053-py3-none-any.whl.zip]
+[2023-06-18 12:55:28] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-18 12:55:28] INFO root fetch - main [MainThread]: Store serial: [18549396]
