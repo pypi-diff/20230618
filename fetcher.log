@@ -9175,3 +9175,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 15:17:05] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
 [2023-06-18 15:17:05] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-06-18 15:17:05] INFO root fetch - main [MainThread]: Store serial: [18550238]
+[2023-06-18 15:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550238]
+[2023-06-18 15:22:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 15:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apipulse
+[2023-06-18 15:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-apl
+[2023-06-18 15:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mercury-engine-data-structures
+[2023-06-18 15:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WebtoonScraper
+[2023-06-18 15:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrestyle
+[2023-06-18 15:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finch-clust
+[2023-06-18 15:22:14] INFO root fetch - processPackages [mercury-engine-data-structures]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-18 15:22:14] INFO root fetch - processPackages [pyrestyle]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 15:22:14] WARNING root fetch - processPackages [apipulse]: Skipping, unable to determine old version
+[2023-06-18 15:22:14] INFO root fetch - main [MainThread]: End processing [apipulse] error
+[2023-06-18 15:22:14] INFO root fetch - processPackages [finch-clust]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 15:22:14] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 15:22:14] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.842] Old Version: [0.0.841]
+[2023-06-18 15:22:15] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/e7/f8/eef6c7d92a3a5dd7afa4d320aa7fcdc4580af48e9cb7a9e2cb554d47685d/nbdev-apl-0.0.841.tar.gz
+[2023-06-18 15:22:15] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/d2/90/2747abde411fdbea05ccbd686271ba6ef26c92bd3f5bf6c325502cc88ec8/pyrestyle-0.0.4.tar.gz
+[2023-06-18 15:22:15] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/39/e0/fc744921b150b00c8ddb23acc3afb33cffac60d0ba7554589364c746e51a/mercury-engine-data-structures-0.9.5.tar.gz
+[2023-06-18 15:22:15] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/34/f7/719058aaee4b8e67bbb09317533b519e1753769f19fac8897b90c38e13a5/WebtoonScraper-0.0.8.tar.gz
+[2023-06-18 15:22:15] INFO root fetch - processPackages [finch-clust]: Downloading https://files.pythonhosted.org/packages/bc/98/dd2b8a5e8d88b127fbb77681e70253c38bf91385ebc0b747ca71acda819d/finch-clust-0.1.8.tar.gz
+[2023-06-18 15:22:15] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/df/64/60c7a87c5ed209358493d2cdb1d6cd992f0b829b14dea452a9063754221c/nbdev-apl-0.0.842.tar.gz
+[2023-06-18 15:22:15] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-18 15:22:15] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.841.tar.gz tmp/nbdev-apl-0.0.842.tar.gz --markdown 20230618/n/nbdev-apl/0.0.841-0.0.842/diff.md --exclude *.pyd
+[2023-06-18 15:22:15] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/a7/29/a1cf45b0956e42571286a4cf0c6ae0a8ffc2aa663db962a2c204d6d16a13/pyrestyle-0.0.5.tar.gz
+[2023-06-18 15:22:15] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/56/4d/ab30425426ac22413485f62f51e66b3b5fe0b027c5e4a3466794a86603e9/WebtoonScraper-0.0.9.tar.gz
+[2023-06-18 15:22:15] INFO root fetch - processPackages [finch-clust]: Downloading https://files.pythonhosted.org/packages/0e/8f/efe916b1ee5c67b80d964e1090c3f836458bb156202d60d71c4227c777d2/finch-clust-0.1.9.tar.gz
+[2023-06-18 15:22:15] INFO root fetch - processPackages [pyrestyle]: executing diffoscope
+[2023-06-18 15:22:15] INFO root fetch - processPackages [pyrestyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestyle-0.0.4.tar.gz tmp/pyrestyle-0.0.5.tar.gz --markdown 20230618/p/pyrestyle/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 15:22:15] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-06-18 15:22:15] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.8.tar.gz tmp/WebtoonScraper-0.0.9.tar.gz --markdown 20230618/W/WebtoonScraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 15:22:15] INFO root fetch - processPackages [finch-clust]: executing diffoscope
+[2023-06-18 15:22:15] INFO root fetch - processPackages [finch-clust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch-clust-0.1.8.tar.gz tmp/finch-clust-0.1.9.tar.gz --markdown 20230618/f/finch-clust/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 15:22:16] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/ea/9a/111001b9a671be0e6b9e31841e0e275f2d5098f85da2d1421181c36e046a/mercury-engine-data-structures-0.9.6.tar.gz
+[2023-06-18 15:22:16] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.841.tar.gz]
+[2023-06-18 15:22:16] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.842.tar.gz]
+[2023-06-18 15:22:16] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-18 15:22:16] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.4.tar.gz]
+[2023-06-18 15:22:16] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.5.tar.gz]
+[2023-06-18 15:22:16] INFO root fetch - main [MainThread]: End processing [pyrestyle]: success
+[2023-06-18 15:22:16] INFO root fetch - processPackages [finch-clust]: Remove: archive file [/home/abi/fetcher/tmp/finch-clust-0.1.8.tar.gz]
+[2023-06-18 15:22:16] INFO root fetch - processPackages [finch-clust]: Remove: archive file [/home/abi/fetcher/tmp/finch-clust-0.1.9.tar.gz]
+[2023-06-18 15:22:16] INFO root fetch - main [MainThread]: End processing [finch-clust]: success
+[2023-06-18 15:22:17] INFO root fetch - processPackages [mercury-engine-data-structures]: executing diffoscope
+[2023-06-18 15:22:17] INFO root fetch - processPackages [mercury-engine-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-engine-data-structures-0.9.5.tar.gz tmp/mercury-engine-data-structures-0.9.6.tar.gz --markdown 20230618/m/mercury-engine-data-structures/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-18 15:22:17] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.0.8.tar.gz]
+[2023-06-18 15:22:17] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.0.9.tar.gz]
+[2023-06-18 15:22:17] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-06-18 15:22:19] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.5.tar.gz]
+[2023-06-18 15:22:19] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.6.tar.gz]
+[2023-06-18 15:22:19] INFO root fetch - main [MainThread]: End processing [mercury-engine-data-structures]: success
+[2023-06-18 15:22:19] INFO root fetch - main [MainThread]: Store serial: [18550257]
