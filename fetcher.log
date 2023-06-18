@@ -14575,3 +14575,57 @@ EOFError: EOF read where object expected
 [2023-06-18 21:56:40] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.1a0.tar.gz]
 [2023-06-18 21:56:40] INFO root fetch - main [MainThread]: End processing [dlt]: success
 [2023-06-18 21:56:40] INFO root fetch - main [MainThread]: Store serial: [18552501]
+[2023-06-18 22:01:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552501]
+[2023-06-18 22:01:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlp-models
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timeseriesclustering
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ase2sprkkr
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caddo-file-parser
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dune-iga
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pec-model-master
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsclustering
+[2023-06-18 22:01:50] WARNING root fetch - processPackages [timeseriesclustering]: Skipping, unable to determine old version
+[2023-06-18 22:01:50] INFO root fetch - main [MainThread]: End processing [timeseriesclustering] error
+[2023-06-18 22:01:50] WARNING root fetch - processPackages [pec-model-master]: Skipping, unable to determine old version
+[2023-06-18 22:01:50] INFO root fetch - main [MainThread]: End processing [pec-model-master] error
+[2023-06-18 22:01:50] INFO root fetch - processPackages [dune-iga]: New version: [0.1.6.dev20230618200044] Old Version: [0.1.6.dev20230618094642]
+[2023-06-18 22:01:50] INFO root fetch - processPackages [tsclustering]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-18 22:01:50] INFO root fetch - processPackages [nlp-models]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-18 22:01:50] INFO root fetch - processPackages [caddo-file-parser]: New version: [0.46.1] Old Version: [0.45.1]
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ase2sprkkr]: New version: [2.1.0] Old Version: [2.0.4]
+[2023-06-18 22:01:50] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/e4/2b/ed6a05a1c4ab4833712cb2bb87f69c99fe9f5963e1464a64a00d8be4e151/dune-iga-0.1.6.dev20230618094642.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/a4/8e/34129f68d36a702ce48d0c215f6d5434f53bbf6ce322072742bed14e5942/nlp-models-2.2.0.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [tsclustering]: Downloading https://files.pythonhosted.org/packages/35/07/a217ed8616e620d8a8b7ee97848938f7596565a727ed75c5ce490e332844/tsclustering-1.0.1.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [caddo-file-parser]: Downloading https://files.pythonhosted.org/packages/a9/0e/78a944d9aede32ab0bd0822ea7ec988602607d1045884f121b12bd161966/caddo-file-parser-0.45.1.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ase2sprkkr]: Downloading https://files.pythonhosted.org/packages/fa/22/ae2a63313e16b2250f48cb907c1e8853badf7b8755dbd7b92c70d5184b16/ase2sprkkr-2.0.4.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/94/57/fb224b8ccbf2fc14855796f3f44eaa7968624cdcae668b175b2b5cf1618a/dune-iga-0.1.6.dev20230618200044.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [tsclustering]: Downloading https://files.pythonhosted.org/packages/47/09/353be2f54200dbe62c5429808df0a057ae315c439d93897afa9ff746e88a/tsclustering-1.0.2.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ase2sprkkr]: Downloading https://files.pythonhosted.org/packages/7f/0f/2cc430473174601548f416cdfce4461b6a8f77861bb3d205c058dd6b962f/ase2sprkkr-2.1.0.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [caddo-file-parser]: Downloading https://files.pythonhosted.org/packages/a3/4f/e163835c5f67308765d29f49f5fcab244b01afba7e2d413743d50e8115e1/caddo-file-parser-0.46.1.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/8c/78/5087142dd8b34469fec432c5643e7fdff0baff2d1190a32e8fc1e7925fe6/nlp-models-2.2.1.tar.gz
+[2023-06-18 22:01:50] INFO root fetch - processPackages [dune-iga]: executing diffoscope
+[2023-06-18 22:01:50] INFO root fetch - processPackages [dune-iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune-iga-0.1.6.dev20230618094642.tar.gz tmp/dune-iga-0.1.6.dev20230618200044.tar.gz --markdown 20230618/d/dune-iga/0.1.6.dev20230618094642-0.1.6.dev20230618200044/diff.md --exclude *.pyd
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ase2sprkkr]: executing diffoscope
+[2023-06-18 22:01:50] INFO root fetch - processPackages [ase2sprkkr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ase2sprkkr-2.0.4.tar.gz tmp/ase2sprkkr-2.1.0.tar.gz --markdown 20230618/a/ase2sprkkr/2.0.4-2.1.0/diff.md --exclude *.pyd
+[2023-06-18 22:01:50] INFO root fetch - processPackages [tsclustering]: executing diffoscope
+[2023-06-18 22:01:50] INFO root fetch - processPackages [tsclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsclustering-1.0.1.tar.gz tmp/tsclustering-1.0.2.tar.gz --markdown 20230618/t/tsclustering/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-18 22:01:50] INFO root fetch - processPackages [caddo-file-parser]: executing diffoscope
+[2023-06-18 22:01:50] INFO root fetch - processPackages [caddo-file-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caddo-file-parser-0.45.1.tar.gz tmp/caddo-file-parser-0.46.1.tar.gz --markdown 20230618/c/caddo-file-parser/0.45.1-0.46.1/diff.md --exclude *.pyd
+[2023-06-18 22:01:50] INFO root fetch - processPackages [nlp-models]: executing diffoscope
+[2023-06-18 22:01:50] INFO root fetch - processPackages [nlp-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp-models-2.2.0.tar.gz tmp/nlp-models-2.2.1.tar.gz --markdown 20230618/n/nlp-models/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-18 22:01:51] INFO root fetch - processPackages [tsclustering]: Remove: archive file [/home/abi/fetcher/tmp/tsclustering-1.0.1.tar.gz]
+[2023-06-18 22:01:51] INFO root fetch - processPackages [tsclustering]: Remove: archive file [/home/abi/fetcher/tmp/tsclustering-1.0.2.tar.gz]
+[2023-06-18 22:01:51] INFO root fetch - main [MainThread]: End processing [tsclustering]: success
+[2023-06-18 22:01:51] INFO root fetch - processPackages [caddo-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/caddo-file-parser-0.45.1.tar.gz]
+[2023-06-18 22:01:51] INFO root fetch - processPackages [caddo-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/caddo-file-parser-0.46.1.tar.gz]
+[2023-06-18 22:01:51] INFO root fetch - main [MainThread]: End processing [caddo-file-parser]: success
+[2023-06-18 22:01:52] INFO root fetch - processPackages [nlp-models]: Remove: archive file [/home/abi/fetcher/tmp/nlp-models-2.2.0.tar.gz]
+[2023-06-18 22:01:52] INFO root fetch - processPackages [nlp-models]: Remove: archive file [/home/abi/fetcher/tmp/nlp-models-2.2.1.tar.gz]
+[2023-06-18 22:01:52] INFO root fetch - main [MainThread]: End processing [nlp-models]: success
+[2023-06-18 22:01:52] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.6.dev20230618094642.tar.gz]
+[2023-06-18 22:01:52] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.6.dev20230618200044.tar.gz]
+[2023-06-18 22:01:52] INFO root fetch - main [MainThread]: End processing [dune-iga]: success
+[2023-06-18 22:01:52] INFO root fetch - processPackages [ase2sprkkr]: Remove: archive file [/home/abi/fetcher/tmp/ase2sprkkr-2.0.4.tar.gz]
+[2023-06-18 22:01:52] INFO root fetch - processPackages [ase2sprkkr]: Remove: archive file [/home/abi/fetcher/tmp/ase2sprkkr-2.1.0.tar.gz]
+[2023-06-18 22:01:52] INFO root fetch - main [MainThread]: End processing [ase2sprkkr]: success
+[2023-06-18 22:01:52] INFO root fetch - main [MainThread]: Store serial: [18552523]
