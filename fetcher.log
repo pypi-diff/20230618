@@ -9000,3 +9000,178 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 15:11:51] INFO root fetch - processPackages [foxops]: Remove: archive file [/home/abi/fetcher/tmp/foxops-2.0.0a4.tar.gz]
 [2023-06-18 15:11:51] INFO root fetch - main [MainThread]: End processing [foxops]: success
 [2023-06-18 15:11:51] INFO root fetch - main [MainThread]: Store serial: [18550198]
+[2023-06-18 15:16:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550198]
+[2023-06-18 15:17:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 15:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etrobo-python
+[2023-06-18 15:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: philbot-voice
+[2023-06-18 15:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dmnstnd-http3-client
+[2023-06-18 15:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-06-18 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piel
+[2023-06-18 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dmnstnd-http3-client
+[2023-06-18 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hurricaneapi
+[2023-06-18 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeelight
+[2023-06-18 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-sphinx
+[2023-06-18 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dmnstnd-http3-client
+[2023-06-18 15:17:02] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [etrobo-python]: New version: [0.4] Old Version: [0.3]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [dmnstnd-http3-client]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [dmnstnd-http3-client]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [dmnstnd-http3-client]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [yeelight]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-18 15:17:02] WARNING root fetch - processPackages [hurricaneapi]: Skipping, unable to determine old version
+[2023-06-18 15:17:02] INFO root fetch - processPackages [hurricaneapi]: Start processing: nbdev-django
+[2023-06-18 15:17:02] INFO root fetch - main [MainThread]: End processing [hurricaneapi] error
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-18 15:17:02] ERROR root fetch - processPackages [dmnstnd-http3-client]: Unable to fetch info: No such project/version 'dmnstnd-http3-client' 1.0.27
+[2023-06-18 15:17:02] ERROR root fetch - processPackages [dmnstnd-http3-client]: Unable to fetch info: No such project/version 'dmnstnd-http3-client' 1.0.27
+[2023-06-18 15:17:02] INFO root fetch - processPackages [dmnstnd-http3-client]: Start processing: piel
+[2023-06-18 15:17:02] INFO root fetch - main [MainThread]: End processing [dmnstnd-http3-client] error
+[2023-06-18 15:17:02] ERROR root fetch - processPackages [dmnstnd-http3-client]: Unable to fetch info: No such project/version 'dmnstnd-http3-client' 1.0.27
+[2023-06-18 15:17:02] INFO root fetch - main [MainThread]: End processing [dmnstnd-http3-client] error
+[2023-06-18 15:17:02] INFO root fetch - main [MainThread]: End processing [dmnstnd-http3-client] error
+[2023-06-18 15:17:02] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [etrobo-python]: Downloading https://files.pythonhosted.org/packages/22/37/cdefcf3d5c4c045f1529e988be9184eca462b1cdb84d45593ec5f5fbbdd1/etrobo_python-0.3.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-06-18 15:17:02] INFO root fetch - processPackages [yeelight]: Downloading https://files.pythonhosted.org/packages/e5/01/e91461068a9dc34b7e4570749a1eace991ce901f15f59fe559898e4d8b67/yeelight-0.7.8.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/28/45/8a69d1b353bdb4465df9333b25a223c10c82f704376f5b01bb8ab1907408/piel-0.0.23.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/28/45/8a69d1b353bdb4465df9333b25a223c10c82f704376f5b01bb8ab1907408/piel-0.0.23.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230618/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230618/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-18 15:17:02] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230618/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 15:17:02] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [etrobo-python]: Downloading https://files.pythonhosted.org/packages/84/10/5ad76ce4d6a64e62fc1df406d03539d9724acadc88fc9cd1e2a5ee14e2a2/etrobo_python-0.4.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/6c/20/01d8993526c3ab1740339785137106674d40a695c53764ef408e3c974679/piel-0.0.24.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-06-18 15:17:02] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230618/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-18 15:17:02] INFO root fetch - processPackages [etrobo-python]: executing diffoscope
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/6c/20/01d8993526c3ab1740339785137106674d40a695c53764ef408e3c974679/piel-0.0.24.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [etrobo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etrobo_python-0.3.tar.gz tmp/etrobo_python-0.4.tar.gz --markdown 20230618/e/etrobo-python/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-18 15:17:02] INFO root fetch - processPackages [yeelight]: Downloading https://files.pythonhosted.org/packages/b4/70/c65a115750c17c3d78e1108d0c58ca4c774572ed953a3bd84b11425a418f/yeelight-0.7.9.tar.gz
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.23.tar.gz tmp/piel-0.0.24.tar.gz --markdown 20230618/p/piel/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-06-18 15:17:02] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.23.tar.gz tmp/piel-0.0.24.tar.gz --markdown 20230618/p/piel/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-06-18 15:17:02] INFO root fetch - processPackages [yeelight]: executing diffoscope
+[2023-06-18 15:17:02] INFO root fetch - processPackages [yeelight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeelight-0.7.8.tar.gz tmp/yeelight-0.7.9.tar.gz --markdown 20230618/y/yeelight/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-18 15:17:03] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-18 15:17:03] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-18 15:17:03] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-18 15:17:03] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-06-18 15:17:03] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-06-18 15:17:03] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-06-18 15:17:03] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-18 15:17:03] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-18 15:17:03] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-18 15:17:04] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.23.tar.gz]
+[2023-06-18 15:17:04] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.24.tar.gz]
+[2023-06-18 15:17:04] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-06-18 15:17:04] ERROR root fetch - processPackages [piel]: Diffoscope failed: gzip: tmp/piel-0.0.24.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/piel-0.0.24.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-18 15:17:04] INFO root fetch - main [MainThread]: End processing [piel] error
+[2023-06-18 15:17:04] INFO root fetch - processPackages [etrobo-python]: Remove: archive file [/home/abi/fetcher/tmp/etrobo_python-0.3.tar.gz]
+[2023-06-18 15:17:04] INFO root fetch - processPackages [etrobo-python]: Remove: archive file [/home/abi/fetcher/tmp/etrobo_python-0.4.tar.gz]
+[2023-06-18 15:17:04] INFO root fetch - main [MainThread]: End processing [etrobo-python]: success
+[2023-06-18 15:17:04] INFO root fetch - processPackages [yeelight]: Remove: archive file [/home/abi/fetcher/tmp/yeelight-0.7.8.tar.gz]
+[2023-06-18 15:17:04] INFO root fetch - processPackages [yeelight]: Remove: archive file [/home/abi/fetcher/tmp/yeelight-0.7.9.tar.gz]
+[2023-06-18 15:17:04] INFO root fetch - main [MainThread]: End processing [yeelight]: success
+[2023-06-18 15:17:05] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-18 15:17:05] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-18 15:17:05] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-18 15:17:05] INFO root fetch - main [MainThread]: Store serial: [18550238]
