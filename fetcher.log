@@ -13176,3 +13176,84 @@ EOFError: EOF read where object expected
 [2023-06-18 20:02:48] INFO root fetch - processPackages [pandoc-beamer-arrow]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_beamer_arrow-1.0.0.0-py3-none-any.whl.zip]
 [2023-06-18 20:02:48] INFO root fetch - main [MainThread]: End processing [pandoc-beamer-arrow]: success
 [2023-06-18 20:02:48] INFO root fetch - main [MainThread]: Store serial: [18551902]
+[2023-06-18 20:07:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551902]
+[2023-06-18 20:07:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandoc-beamer-arrow
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ringgpt
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytorch-metric-learning
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rabbitmq-api-admin
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tejim
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proga-ex
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: piperider-nightly
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fb-logging
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bakrialtaif-faq
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: server-chat-pyqt-still190494
+[2023-06-18 20:07:57] INFO root fetch - processPackages [pandoc-beamer-arrow]: New version: [1.0.0.0] Old Version: [0.1.2]
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:07:57] INFO root fetch - processPackages [pytorch-metric-learning]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-06-18 20:07:57] WARNING root fetch - processPackages [server-chat-pyqt-still190494]: Skipping, unable to determine old version
+[2023-06-18 20:07:57] INFO root fetch - processPackages [server-chat-pyqt-still190494]: Start processing: client-chat-pyqt-still190494
+[2023-06-18 20:07:57] INFO root fetch - main [MainThread]: End processing [server-chat-pyqt-still190494] error
+[2023-06-18 20:07:57] WARNING root fetch - processPackages [tejim]: Skipping, unable to determine old version
+[2023-06-18 20:07:57] INFO root fetch - processPackages [tejim]: Start processing: classattr
+[2023-06-18 20:07:57] INFO root fetch - main [MainThread]: End processing [tejim] error
+[2023-06-18 20:07:57] WARNING root fetch - processPackages [proga-ex]: Skipping, unable to determine old version
+[2023-06-18 20:07:57] WARNING root fetch - processPackages [bakrialtaif-faq]: Skipping, unable to determine old version
+[2023-06-18 20:07:57] INFO root fetch - processPackages [rabbitmq-api-admin]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-18 20:07:57] INFO root fetch - main [MainThread]: End processing [proga-ex] error
+[2023-06-18 20:07:57] INFO root fetch - main [MainThread]: End processing [bakrialtaif-faq] error
+[2023-06-18 20:07:57] WARNING root fetch - processPackages [client-chat-pyqt-still190494]: Skipping, unable to determine old version
+[2023-06-18 20:07:57] INFO root fetch - processPackages [fb-logging]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-06-18 20:07:57] INFO root fetch - main [MainThread]: End processing [client-chat-pyqt-still190494] error
+[2023-06-18 20:07:57] INFO root fetch - processPackages [classattr]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 20:07:57] INFO root fetch - processPackages [classattr]: Downloading https://files.pythonhosted.org/packages/90/b6/0d3f79aaa415d3a4615d4b4902f5f272581d086e3acf5edc90ef6786a8d0/classattr-1.0.2.tar.gz
+[2023-06-18 20:07:57] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-06-18 20:07:57] INFO root fetch - processPackages [pytorch-metric-learning]: Downloading https://files.pythonhosted.org/packages/73/3d/85bb54b76370ac705e2c7000fd378706dfc9fa6b3efbde441da94ca16e56/pytorch-metric-learning-2.1.2.tar.gz
+[2023-06-18 20:07:57] INFO root fetch - processPackages [fb-logging]: Downloading https://files.pythonhosted.org/packages/f0/02/af80e21533b60e40495b964b0d2fd33f90266415c5746704578392dd4fc9/fb_logging-0.5.5.tar.gz
+[2023-06-18 20:07:57] INFO root fetch - processPackages [pandoc-beamer-arrow]: Downloading https://files.pythonhosted.org/packages/02/b6/c5f5b996167d0d1c7f7625247e88852b88be2864fb1b07446da0848f6aca/pandoc-beamer-arrow-0.1.2.tar.gz
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 20:07:57] INFO root fetch - processPackages [rabbitmq-api-admin]: Downloading https://files.pythonhosted.org/packages/09/d8/275687b140fe584a3fd19001f2443f98eeaebfd5985fd7a09e9e502a904e/rabbitmq-api-admin-0.3.0.tar.gz
+[2023-06-18 20:07:57] INFO root fetch - processPackages [classattr]: Downloading https://files.pythonhosted.org/packages/e7/41/2a7eb64a815ef4c02ad41157b0f16b3a43a090b332c1fe51a8f00b971e74/classattr-1.0.3.tar.gz
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 20:07:57] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-06-18 20:07:57] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:07:58] INFO root fetch - processPackages [classattr]: executing diffoscope
+[2023-06-18 20:07:58] INFO root fetch - processPackages [classattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classattr-1.0.2.tar.gz tmp/classattr-1.0.3.tar.gz --markdown 20230618/c/classattr/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 20:07:58] INFO root fetch - processPackages [pytorch-metric-learning]: Downloading https://files.pythonhosted.org/packages/6d/56/8b68a719be52c22719d0e56033a4a0e39fc16ca5ac5c7affcdac48641a28/pytorch-metric-learning-2.2.0.tar.gz
+[2023-06-18 20:07:58] INFO root fetch - processPackages [fb-logging]: Downloading https://files.pythonhosted.org/packages/2b/27/77ec32d2667b3867d4418050f83cd54f7b3bd1a5c272c40d3d193a5cf2bf/fb_logging-0.6.0.tar.gz
+[2023-06-18 20:07:58] INFO root fetch - processPackages [pandoc-beamer-arrow]: Downloading https://files.pythonhosted.org/packages/a7/1f/669574235ea9df160c7f59652ddc56566e0204e48dec46581fc822e949cd/pandoc_beamer_arrow-1.0.0.0.tar.gz
+[2023-06-18 20:07:58] INFO root fetch - processPackages [rabbitmq-api-admin]: Downloading https://files.pythonhosted.org/packages/5e/26/aeda8359dc0f5c2181fb226d7fab0cb774eeae8c668c8a5c7bc83a3692aa/rabbitmq_api_admin-0.4.0.tar.gz
+[2023-06-18 20:07:58] INFO root fetch - processPackages [pytorch-metric-learning]: executing diffoscope
+[2023-06-18 20:07:58] INFO root fetch - processPackages [pytorch-metric-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-metric-learning-2.1.2.tar.gz tmp/pytorch-metric-learning-2.2.0.tar.gz --markdown 20230618/p/pytorch-metric-learning/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-06-18 20:07:58] INFO root fetch - processPackages [fb-logging]: executing diffoscope
+[2023-06-18 20:07:58] INFO root fetch - processPackages [fb-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_logging-0.5.5.tar.gz tmp/fb_logging-0.6.0.tar.gz --markdown 20230618/f/fb-logging/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-06-18 20:07:58] INFO root fetch - processPackages [pandoc-beamer-arrow]: executing diffoscope
+[2023-06-18 20:07:58] INFO root fetch - processPackages [pandoc-beamer-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-beamer-arrow-0.1.2.tar.gz tmp/pandoc_beamer_arrow-1.0.0.0.tar.gz --markdown 20230618/p/pandoc-beamer-arrow/0.1.2-1.0.0.0/diff.md --exclude *.pyd
+[2023-06-18 20:07:58] INFO root fetch - processPackages [rabbitmq-api-admin]: executing diffoscope
+[2023-06-18 20:07:58] INFO root fetch - processPackages [rabbitmq-api-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbitmq-api-admin-0.3.0.tar.gz tmp/rabbitmq_api_admin-0.4.0.tar.gz --markdown 20230618/r/rabbitmq-api-admin/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-18 20:07:58] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-06-18 20:07:59] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-06-18 20:07:59] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230618/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-06-18 20:07:59] INFO root fetch - processPackages [classattr]: Remove: archive file [/home/abi/fetcher/tmp/classattr-1.0.2.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - processPackages [classattr]: Remove: archive file [/home/abi/fetcher/tmp/classattr-1.0.3.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - main [MainThread]: End processing [classattr]: success
+[2023-06-18 20:07:59] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.8.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.9.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 20:07:59] INFO root fetch - processPackages [rabbitmq-api-admin]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmq-api-admin-0.3.0.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - processPackages [rabbitmq-api-admin]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmq_api_admin-0.4.0.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - main [MainThread]: End processing [rabbitmq-api-admin]: success
+[2023-06-18 20:07:59] INFO root fetch - processPackages [fb-logging]: Remove: archive file [/home/abi/fetcher/tmp/fb_logging-0.5.5.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - processPackages [fb-logging]: Remove: archive file [/home/abi/fetcher/tmp/fb_logging-0.6.0.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - main [MainThread]: End processing [fb-logging]: success
+[2023-06-18 20:07:59] INFO root fetch - processPackages [pandoc-beamer-arrow]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-beamer-arrow-0.1.2.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - processPackages [pandoc-beamer-arrow]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_beamer_arrow-1.0.0.0.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - main [MainThread]: End processing [pandoc-beamer-arrow]: success
+[2023-06-18 20:07:59] INFO root fetch - processPackages [pytorch-metric-learning]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-metric-learning-2.1.2.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - processPackages [pytorch-metric-learning]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-metric-learning-2.2.0.tar.gz]
+[2023-06-18 20:07:59] INFO root fetch - main [MainThread]: End processing [pytorch-metric-learning]: success
+[2023-06-18 20:08:01] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2023-06-18 20:08:01] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2023-06-18 20:08:01] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-06-18 20:08:01] INFO root fetch - main [MainThread]: Store serial: [18551947]
