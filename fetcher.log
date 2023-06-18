@@ -1691,3 +1691,42 @@
 [2023-06-18 02:37:48] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
 [2023-06-18 02:37:48] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
 [2023-06-18 02:37:48] INFO root fetch - main [MainThread]: Store serial: [18546818]
+[2023-06-18 02:42:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546818]
+[2023-06-18 02:42:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 02:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: propeller-design-tools
+[2023-06-18 02:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2023-06-18 02:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-26
+[2023-06-18 02:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-github
+[2023-06-18 02:42:57] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-18 02:42:57] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-18 02:42:57] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-18 02:42:57] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-18 02:42:57] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-06-18 02:42:57] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230618] Old Version: [0.1.4.dev20230617]
+[2023-06-18 02:42:57] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/42/80/df3c3623a84364e8cf953a044a965bd67eb9c8155161e35e34d139f4b87d/propeller_design_tools-0.3.5.tar.gz
+[2023-06-18 02:42:57] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-06-18 02:42:57] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-18 02:42:57] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/5b/7f/29a77f54fa4aa1e77fefb1a5723b6f796e25b09098985e2c1504db68a61c/aeppl-nightly-0.1.4.dev20230617.tar.gz
+[2023-06-18 02:42:57] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-18 02:42:57] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230618/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-18 02:42:57] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-18 02:42:57] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230618/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-18 02:42:57] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/fd/1a/90c86f97a129b9363a04236d6ce5734afb117b8ea1d55b0163d1038f691f/propeller_design_tools-0.4.0.tar.gz
+[2023-06-18 02:42:57] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-18 02:42:57] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.3.5.tar.gz tmp/propeller_design_tools-0.4.0.tar.gz --markdown 20230618/p/propeller-design-tools/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-18 02:42:57] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/d2/9a/f169558b199701e0686339da6023197c936e3e7542b13a6f41f59e839375/aeppl-nightly-0.1.4.dev20230618.tar.gz
+[2023-06-18 02:42:58] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-06-18 02:42:58] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230617.tar.gz tmp/aeppl-nightly-0.1.4.dev20230618.tar.gz --markdown 20230618/a/aeppl-nightly/0.1.4.dev20230617-0.1.4.dev20230618/diff.md --exclude *.pyd
+[2023-06-18 02:42:59] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230617.tar.gz]
+[2023-06-18 02:42:59] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230618.tar.gz]
+[2023-06-18 02:42:59] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-06-18 02:42:59] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-06-18 02:42:59] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-06-18 02:42:59] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-18 02:42:59] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.3.5.tar.gz]
+[2023-06-18 02:42:59] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.0.tar.gz]
+[2023-06-18 02:42:59] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-18 02:43:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-18 02:43:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-18 02:43:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-18 02:43:01] INFO root fetch - main [MainThread]: Store serial: [18546852]
