@@ -13462,3 +13462,24 @@ EOFError: EOF read where object expected
 [2023-06-18 20:23:37] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.3.tar.gz]
 [2023-06-18 20:23:37] INFO root fetch - main [MainThread]: End processing [personal-knowledge-library]: success
 [2023-06-18 20:23:37] INFO root fetch - main [MainThread]: Store serial: [18552018]
+[2023-06-18 20:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552018]
+[2023-06-18 20:28:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 20:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctransformers
+[2023-06-18 20:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tejim
+[2023-06-18 20:28:46] INFO root fetch - processPackages [ctransformers]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 20:28:46] INFO root fetch - processPackages [tejim]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 20:28:46] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/f8/b5/b244e28dbaa3006d70a3ce502e7ba862384f95cbd5df6718038b58d30bc9/ctransformers-0.2.8.tar.gz
+[2023-06-18 20:28:46] INFO root fetch - processPackages [tejim]: Downloading https://files.pythonhosted.org/packages/2a/4c/21f1fbb2cee904f6345558e5c44bab1138b2ffea6a764831b223117cbe51/tejim-0.0.1.tar.gz
+[2023-06-18 20:28:46] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/6c/6a/51fe0e5f1a8aa79becd03dc0b6c195896d7c8eddfae48dd1190c1c0b7710/ctransformers-0.2.9.tar.gz
+[2023-06-18 20:28:46] INFO root fetch - processPackages [tejim]: Downloading https://files.pythonhosted.org/packages/c6/8a/53b8a4c6c1c8a1caa21108f584f38c4e730389a22a4fdf509bba9d9650c6/tejim-0.0.2.tar.gz
+[2023-06-18 20:28:46] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-06-18 20:28:46] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.8.tar.gz tmp/ctransformers-0.2.9.tar.gz --markdown 20230618/c/ctransformers/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 20:28:47] INFO root fetch - processPackages [tejim]: executing diffoscope
+[2023-06-18 20:28:47] INFO root fetch - processPackages [tejim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tejim-0.0.1.tar.gz tmp/tejim-0.0.2.tar.gz --markdown 20230618/t/tejim/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 20:28:48] INFO root fetch - processPackages [tejim]: Remove: archive file [/home/abi/fetcher/tmp/tejim-0.0.1.tar.gz]
+[2023-06-18 20:28:48] INFO root fetch - processPackages [tejim]: Remove: archive file [/home/abi/fetcher/tmp/tejim-0.0.2.tar.gz]
+[2023-06-18 20:28:48] INFO root fetch - main [MainThread]: End processing [tejim]: success
+[2023-06-18 20:28:49] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.8.tar.gz]
+[2023-06-18 20:28:49] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.9.tar.gz]
+[2023-06-18 20:28:49] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-06-18 20:28:49] INFO root fetch - main [MainThread]: Store serial: [18552027]
