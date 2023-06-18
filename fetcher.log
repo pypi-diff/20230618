@@ -1010,3 +1010,72 @@
 [2023-06-18 02:06:07] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
 [2023-06-18 02:06:07] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-18 02:06:07] INFO root fetch - main [MainThread]: Store serial: [18546542]
+[2023-06-18 02:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546542]
+[2023-06-18 02:11:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake-migrator
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchlayers-nightly
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-common
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aws-discord-notifiers
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-grafana
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yamlgenerator-hook-openai
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yamlgenerator-hook-search
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yamlgenerator-hook-validate
+[2023-06-18 02:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-iot-core-certificates
+[2023-06-18 02:11:16] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230617] Old Version: [0.0.8.dev20230616]
+[2023-06-18 02:11:16] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-18 02:11:16] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1686960437] Old Version: [1686874038]
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-18 02:11:17] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/17/fd/b096f643199c75ffc1a1dba273b1afeda98e64412835de17506682ec7ae6/torchlayers-nightly-1686874038.tar.gz
+[2023-06-18 02:11:17] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/92/b9/9f2a757ebe32b77ed88b33f75c7f67f5842b26be58796b9387fcf33630c2/jaxutils-nightly-0.0.8.dev20230616.tar.gz
+[2023-06-18 02:11:17] WARNING root fetch - processPackages [snowflake-migrator]: Skipping, unable to determine old version
+[2023-06-18 02:11:17] INFO root fetch - main [MainThread]: End processing [snowflake-migrator] error
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-18 02:11:17] WARNING root fetch - processPackages [yamlgenerator-hook-openai]: Skipping, unable to determine old version
+[2023-06-18 02:11:17] INFO root fetch - main [MainThread]: End processing [yamlgenerator-hook-openai] error
+[2023-06-18 02:11:17] WARNING root fetch - processPackages [yamlgenerator-hook-search]: Skipping, unable to determine old version
+[2023-06-18 02:11:17] INFO root fetch - main [MainThread]: End processing [yamlgenerator-hook-search] error
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/3e/c9/ad708d33a5092814ea822f0ef7c80662d58d57685748dfcf174e878990d7/cdk-aws-discord-notifiers-0.0.97.tar.gz
+[2023-06-18 02:11:17] WARNING root fetch - processPackages [yamlgenerator-hook-validate]: Skipping, unable to determine old version
+[2023-06-18 02:11:17] INFO root fetch - main [MainThread]: End processing [yamlgenerator-hook-validate] error
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230618/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-18 02:11:17] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/8c/b6/f3fa506aa6974d8535bfa1379e71cae2d205197ea33ac68ecbe4bf619c60/jaxutils-nightly-0.0.8.dev20230617.tar.gz
+[2023-06-18 02:11:17] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/85/65/1b732efed79d2234f3eb695c1e65b00c9503ee029b0e50d7a5d68ce04f42/torchlayers-nightly-1686960437.tar.gz
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230618/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-18 02:11:17] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-18 02:11:17] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230616.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230617.tar.gz --markdown 20230618/j/jaxutils-nightly/0.0.8.dev20230616-0.0.8.dev20230617/diff.md --exclude *.pyd
+[2023-06-18 02:11:17] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-18 02:11:17] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1686874038.tar.gz tmp/torchlayers-nightly-1686960437.tar.gz --markdown 20230618/t/torchlayers-nightly/1686874038-1686960437/diff.md --exclude *.pyd
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.97.tar.gz tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz --markdown 20230618/c/cdk-aws-discord-notifiers/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-06-18 02:11:17] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-18 02:11:18] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-18 02:11:18] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230618/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-18 02:11:18] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-06-18 02:11:18] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-06-18 02:11:18] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-06-18 02:11:18] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-06-18 02:11:18] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-06-18 02:11:18] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-06-18 02:11:18] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686874038.tar.gz]
+[2023-06-18 02:11:18] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686960437.tar.gz]
+[2023-06-18 02:11:18] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-18 02:11:18] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230616.tar.gz]
+[2023-06-18 02:11:18] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230617.tar.gz]
+[2023-06-18 02:11:18] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-18 02:11:19] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.97.tar.gz]
+[2023-06-18 02:11:19] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-06-18 02:11:19] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-18 02:11:20] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-18 02:11:20] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-18 02:11:20] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-18 02:11:20] INFO root fetch - main [MainThread]: Store serial: [18546579]
