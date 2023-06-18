@@ -13649,3 +13649,69 @@ EOFError: EOF read where object expected
 [2023-06-18 20:40:04] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
 [2023-06-18 20:40:04] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
 [2023-06-18 20:40:04] INFO root fetch - main [MainThread]: Store serial: [18552099]
+[2023-06-18 20:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552099]
+[2023-06-18 20:45:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 20:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-pypi-security
+[2023-06-18 20:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hedgesql
+[2023-06-18 20:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandoc-latex-margin
+[2023-06-18 20:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aacommpy
+[2023-06-18 20:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abd-clam
+[2023-06-18 20:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assisted-service-client
+[2023-06-18 20:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HarmonyDecoder
+[2023-06-18 20:45:13] INFO root fetch - processPackages [pandoc-latex-margin]: New version: [1.0.0.0] Old Version: [0.1.1]
+[2023-06-18 20:45:13] INFO root fetch - processPackages [HarmonyDecoder]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 20:45:13] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:45:13] INFO root fetch - processPackages [hedgesql]: New version: [1.1] Old Version: [1.0]
+[2023-06-18 20:45:13] INFO root fetch - processPackages [test-pypi-security]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 20:45:13] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-06-18 20:45:13] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-18 20:45:13] INFO root fetch - processPackages [HarmonyDecoder]: Downloading https://files.pythonhosted.org/packages/48/98/8ba992c69283121a465fe15e26bdf816ce7e685a4c5d2e5cf5d04daa91e6/HarmonyDecoder-1.0.2.tar.gz
+[2023-06-18 20:45:13] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/cc/84/119419f68fa685857690cc3988e6a0509a9f8a40da053b9e158cc56e4f9b/aacommpy-0.1.8.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [pandoc-latex-margin]: Downloading https://files.pythonhosted.org/packages/42/2a/45508244e2d68ca8e3a391693abd346c6f132ad5df0cfa892029af91eeca/pandoc-latex-margin-0.1.1.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-18 20:45:14] INFO root fetch - processPackages [hedgesql]: Downloading https://files.pythonhosted.org/packages/af/7a/1e7aaed0406af440fd934819f57a64bea76d908b67468f88492574c3ff58/hedgesql-1.0.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [test-pypi-security]: Downloading https://files.pythonhosted.org/packages/00/84/3cc046ab2d0b83875fd5a9b28405844c99982fbaa97025bf2897ed194854/test_pypi_security-0.1.1.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/14/6d/defc6d745b118f6b34275d3b3990a2a53be8d450e9ef0cec09d3ea855372/aacommpy-0.1.9.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-06-18 20:45:14] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230618/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:45:14] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-18 20:45:14] INFO root fetch - processPackages [HarmonyDecoder]: Downloading https://files.pythonhosted.org/packages/50/77/484a36fa74e2f7f9336ca6cb5f846f8ecc75c0ebba3790f7aa2ffe6cfddd/HarmonyDecoder-1.0.3.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [hedgesql]: Downloading https://files.pythonhosted.org/packages/61/6b/af6c88a4a4332c8ff63ba3312abb869fe13d7cb4684f889424f93314d684/hedgesql-1.1.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-18 20:45:14] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230618/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-18 20:45:14] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [pandoc-latex-margin]: Downloading https://files.pythonhosted.org/packages/d8/c7/78e4437cd46e48362c7ae7da5dc0f3fc60eeb2b38525730f3cb52fc4a452/pandoc_latex_margin-1.0.0.0.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [HarmonyDecoder]: executing diffoscope
+[2023-06-18 20:45:14] INFO root fetch - processPackages [HarmonyDecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HarmonyDecoder-1.0.2.tar.gz tmp/HarmonyDecoder-1.0.3.tar.gz --markdown 20230618/H/HarmonyDecoder/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 20:45:14] INFO root fetch - processPackages [hedgesql]: executing diffoscope
+[2023-06-18 20:45:14] INFO root fetch - processPackages [hedgesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedgesql-1.0.tar.gz tmp/hedgesql-1.1.tar.gz --markdown 20230618/h/hedgesql/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-18 20:45:14] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-06-18 20:45:14] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230618/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-06-18 20:45:14] INFO root fetch - processPackages [test-pypi-security]: Downloading https://files.pythonhosted.org/packages/c8/4e/52460427e9a93fa7875dba45d40feac153173b7fdd3208065e83b9285e68/test_pypi_security-0.1.2.tar.gz
+[2023-06-18 20:45:14] INFO root fetch - processPackages [pandoc-latex-margin]: executing diffoscope
+[2023-06-18 20:45:14] INFO root fetch - processPackages [pandoc-latex-margin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-latex-margin-0.1.1.tar.gz tmp/pandoc_latex_margin-1.0.0.0.tar.gz --markdown 20230618/p/pandoc-latex-margin/0.1.1-1.0.0.0/diff.md --exclude *.pyd
+[2023-06-18 20:45:14] INFO root fetch - processPackages [test-pypi-security]: executing diffoscope
+[2023-06-18 20:45:14] INFO root fetch - processPackages [test-pypi-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_pypi_security-0.1.1.tar.gz tmp/test_pypi_security-0.1.2.tar.gz --markdown 20230618/t/test-pypi-security/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 20:45:15] INFO root fetch - processPackages [aacommpy]: Remove: archive file [/home/abi/fetcher/tmp/aacommpy-0.1.8.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - processPackages [aacommpy]: Remove: archive file [/home/abi/fetcher/tmp/aacommpy-0.1.9.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-06-18 20:45:15] INFO root fetch - processPackages [pandoc-latex-margin]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-latex-margin-0.1.1.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - processPackages [pandoc-latex-margin]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_margin-1.0.0.0.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - main [MainThread]: End processing [pandoc-latex-margin]: success
+[2023-06-18 20:45:15] INFO root fetch - processPackages [hedgesql]: Remove: archive file [/home/abi/fetcher/tmp/hedgesql-1.0.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - processPackages [hedgesql]: Remove: archive file [/home/abi/fetcher/tmp/hedgesql-1.1.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - main [MainThread]: End processing [hedgesql]: success
+[2023-06-18 20:45:15] INFO root fetch - processPackages [HarmonyDecoder]: Remove: archive file [/home/abi/fetcher/tmp/HarmonyDecoder-1.0.2.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - processPackages [HarmonyDecoder]: Remove: archive file [/home/abi/fetcher/tmp/HarmonyDecoder-1.0.3.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - main [MainThread]: End processing [HarmonyDecoder]: success
+[2023-06-18 20:45:15] INFO root fetch - processPackages [test-pypi-security]: Remove: archive file [/home/abi/fetcher/tmp/test_pypi_security-0.1.1.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - processPackages [test-pypi-security]: Remove: archive file [/home/abi/fetcher/tmp/test_pypi_security-0.1.2.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - main [MainThread]: End processing [test-pypi-security]: success
+[2023-06-18 20:45:15] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-06-18 20:45:15] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-06-18 20:45:19] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-18 20:45:19] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-18 20:45:19] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-18 20:45:19] INFO root fetch - main [MainThread]: Store serial: [18552120]
