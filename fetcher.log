@@ -11789,3 +11789,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 18:25:47] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
 [2023-06-18 18:25:47] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-06-18 18:25:47] INFO root fetch - main [MainThread]: Store serial: [18551355]
+[2023-06-18 18:30:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551355]
+[2023-06-18 18:30:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-mcqq
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-xvirt
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stql
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meoww
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-xvirt
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readthis
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stql
+[2023-06-18 18:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kfish
+[2023-06-18 18:30:55] INFO root fetch - processPackages [stql]: New version: [2.2] Old Version: [2.1]
+[2023-06-18 18:30:55] INFO root fetch - processPackages [pytest-xvirt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 18:30:55] INFO root fetch - processPackages [nonebot-plugin-mcqq]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-18 18:30:55] WARNING root fetch - processPackages [meoww]: Skipping, unable to determine old version
+[2023-06-18 18:30:55] INFO root fetch - processPackages [meoww]: Start processing: kkyCrawler
+[2023-06-18 18:30:55] INFO root fetch - main [MainThread]: End processing [meoww] error
+[2023-06-18 18:30:55] INFO root fetch - processPackages [readthis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 18:30:55] INFO root fetch - processPackages [stql]: New version: [2.2] Old Version: [2.1]
+[2023-06-18 18:30:55] INFO root fetch - processPackages [pytest-xvirt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 18:30:55] INFO root fetch - processPackages [lollms]: New version: [1.2.0] Old Version: [1.1.99]
+[2023-06-18 18:30:55] INFO root fetch - processPackages [kfish]: New version: [99.0.202306181056] Old Version: [99.0.202306172137]
+[2023-06-18 18:30:55] INFO root fetch - processPackages [kcli]: New version: [99.0.202306181627] Old Version: [99.0.202306181053]
+[2023-06-18 18:30:55] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/bf/db/13ba567bc4beb3451e5706972632a022fcd453a4f37dbef9897e137bcbec/readthis-0.0.8.tar.gz
+[2023-06-18 18:30:55] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/95/c9/8e87e9aca61fb7f333d9f6f8b543fd603cf0c23066cf4c76b10deb74b469/stql-2.1.tar.gz
+[2023-06-18 18:30:55] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/95/c9/8e87e9aca61fb7f333d9f6f8b543fd603cf0c23066cf4c76b10deb74b469/stql-2.1.tar.gz
+[2023-06-18 18:30:55] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b6/18/9b743935df70ca8c443c1df124b71eabb766cec1738bccaddfefcf4d791a/kfish-99.0.202306172137-py3-none-any.whl
+[2023-06-18 18:30:55] INFO root fetch - processPackages [pytest-xvirt]: Downloading https://files.pythonhosted.org/packages/08/5c/e92e800d093c11d8d014b512b41091f6b08787a1fe0400ef2f3676f43cc9/pytest-xvirt-0.1.0.tar.gz
+[2023-06-18 18:30:56] WARNING root fetch - processPackages [kkyCrawler]: Skipping, unable to determine old version
+[2023-06-18 18:30:56] INFO root fetch - processPackages [kkyCrawler]: Start processing: nonebot-plugin-access-control
+[2023-06-18 18:30:56] INFO root fetch - main [MainThread]: End processing [kkyCrawler] error
+[2023-06-18 18:30:56] INFO root fetch - processPackages [pytest-xvirt]: Downloading https://files.pythonhosted.org/packages/08/5c/e92e800d093c11d8d014b512b41091f6b08787a1fe0400ef2f3676f43cc9/pytest-xvirt-0.1.0.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/93/87/39f7d4b3ea3188a622304ad68a5fb6035e3da94e1d2500966309245d988c/kcli-99.0.202306181053-py3-none-any.whl
+[2023-06-18 18:30:56] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/48/3c/8b5bb84dadacaf46ce5b7e784648aed9fec7bdc3c53411e6b2cf2c0612db/nonebot-plugin-mcqq-1.2.1.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/f6/13/2736d244f71f761a20912c866c1a6e720a6a398123c91cf22bd3d6496953/lollms-1.1.99.tar.gz
+[2023-06-18 18:30:56] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31794244>=10485760
+[2023-06-18 18:30:56] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 18:30:56] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c4/ef/b0d1c7d8c53f01b79e30b9e54f3952a85eac9e9faf9b3e0ce17db4faf1e5/kfish-99.0.202306181056-py3-none-any.whl
+[2023-06-18 18:30:56] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/b5/cb/88c915f32119fca462feba84439df565f27d0331c7b209ed186dfff17fc8/stql-2.2.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [nonebot-plugin-access-control]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-18 18:30:56] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/cb/7e/beb700ed5735ec93141b725f7a0ba117c01bcda9a08325629021433ccba4/readthis-0.0.9.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-18 18:30:56] INFO root fetch - processPackages [pytest-xvirt]: Downloading https://files.pythonhosted.org/packages/91/39/91afaca0cc5b12c726f7ec23daa64ea196f71603e8822895ae8155cf35f1/pytest-xvirt-0.1.1.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306172137-py3-none-any.whl.zip tmp/kfish-99.0.202306181056-py3-none-any.whl.zip --markdown 20230618/k/kfish/99.0.202306172137-99.0.202306181056/diff.md --exclude *.pyd
+[2023-06-18 18:30:56] INFO root fetch - processPackages [pytest-xvirt]: Downloading https://files.pythonhosted.org/packages/91/39/91afaca0cc5b12c726f7ec23daa64ea196f71603e8822895ae8155cf35f1/pytest-xvirt-0.1.1.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/b5/cb/88c915f32119fca462feba84439df565f27d0331c7b209ed186dfff17fc8/stql-2.2.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [stql]: executing diffoscope
+[2023-06-18 18:30:56] INFO root fetch - processPackages [stql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stql-2.1.tar.gz tmp/stql-2.2.tar.gz --markdown 20230618/s/stql/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-18 18:30:56] INFO root fetch - processPackages [readthis]: executing diffoscope
+[2023-06-18 18:30:56] INFO root fetch - processPackages [readthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readthis-0.0.8.tar.gz tmp/readthis-0.0.9.tar.gz --markdown 20230618/r/readthis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 18:30:56] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/02/95/5c01d1b065c4c1f2bb33cb2669f1b0e48a396d36bdd52fbfbf67e1f1172c/kcli-99.0.202306181627-py3-none-any.whl
+[2023-06-18 18:30:56] INFO root fetch - processPackages [pytest-xvirt]: executing diffoscope
+[2023-06-18 18:30:56] INFO root fetch - processPackages [pytest-xvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-xvirt-0.1.0.tar.gz tmp/pytest-xvirt-0.1.1.tar.gz --markdown 20230618/p/pytest-xvirt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 18:30:56] INFO root fetch - processPackages [pytest-xvirt]: executing diffoscope
+[2023-06-18 18:30:56] INFO root fetch - processPackages [pytest-xvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-xvirt-0.1.0.tar.gz tmp/pytest-xvirt-0.1.1.tar.gz --markdown 20230618/p/pytest-xvirt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 18:30:56] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/c6/3b/f979ab9fae8e8bdc7d02484d5b017e595ef8f7e3d842dbdfda4c75393155/nonebot-plugin-mcqq-1.2.2.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [stql]: executing diffoscope
+[2023-06-18 18:30:56] INFO root fetch - processPackages [stql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stql-2.1.tar.gz tmp/stql-2.2.tar.gz --markdown 20230618/s/stql/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-18 18:30:56] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/66/c8/206e3d504ec46a5046c453a51bd8de8e2b4476e1aa35a388608277064f0e/nonebot_plugin_access_control-0.5.5.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [nonebot-plugin-mcqq]: executing diffoscope
+[2023-06-18 18:30:56] INFO root fetch - processPackages [nonebot-plugin-mcqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcqq-1.2.1.tar.gz tmp/nonebot-plugin-mcqq-1.2.2.tar.gz --markdown 20230618/n/nonebot-plugin-mcqq/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-18 18:30:56] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-18 18:30:56] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306181053-py3-none-any.whl.zip tmp/kcli-99.0.202306181627-py3-none-any.whl.zip --markdown 20230618/k/kcli/99.0.202306181053-99.0.202306181627/diff.md --exclude *.pyd
+[2023-06-18 18:30:56] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/7e/25/cc0e1e34534b052dd88184a4edd95b9f1b0192f06405dc5d05c8de9ae5a3/nonebot_plugin_access_control-0.5.6.tar.gz
+[2023-06-18 18:30:56] INFO root fetch - processPackages [nonebot-plugin-access-control]: executing diffoscope
+[2023-06-18 18:30:56] INFO root fetch - processPackages [nonebot-plugin-access-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_access_control-0.5.5.tar.gz tmp/nonebot_plugin_access_control-0.5.6.tar.gz --markdown 20230618/n/nonebot-plugin-access-control/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-18 18:30:57] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306172137-py3-none-any.whl.zip]
+[2023-06-18 18:30:57] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306181056-py3-none-any.whl.zip]
+[2023-06-18 18:30:57] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-18 18:30:57] INFO root fetch - processPackages [stql]: Remove: archive file [/home/abi/fetcher/tmp/stql-2.1.tar.gz]
+[2023-06-18 18:30:57] INFO root fetch - processPackages [stql]: Remove: archive file [/home/abi/fetcher/tmp/stql-2.2.tar.gz]
+[2023-06-18 18:30:57] INFO root fetch - main [MainThread]: End processing [stql]: success
+[2023-06-18 18:30:57] INFO root fetch - processPackages [pytest-xvirt]: Remove: archive file [/home/abi/fetcher/tmp/pytest-xvirt-0.1.0.tar.gz]
+[2023-06-18 18:30:57] INFO root fetch - processPackages [pytest-xvirt]: Remove: archive file [/home/abi/fetcher/tmp/pytest-xvirt-0.1.1.tar.gz]
+[2023-06-18 18:30:57] INFO root fetch - main [MainThread]: End processing [pytest-xvirt]: success
+[2023-06-18 18:30:57] INFO root fetch - main [MainThread]: End processing [pytest-xvirt]: success
+[2023-06-18 18:30:57] INFO root fetch - main [MainThread]: End processing [stql]: success
+[2023-06-18 18:30:57] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.8.tar.gz]
+[2023-06-18 18:30:57] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.9.tar.gz]
+[2023-06-18 18:30:57] INFO root fetch - main [MainThread]: End processing [readthis]: success
+[2023-06-18 18:30:58] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.1.tar.gz]
+[2023-06-18 18:30:58] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.2.tar.gz]
+[2023-06-18 18:30:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcqq]: success
+[2023-06-18 18:30:58] INFO root fetch - processPackages [nonebot-plugin-access-control]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_access_control-0.5.5.tar.gz]
+[2023-06-18 18:30:58] INFO root fetch - processPackages [nonebot-plugin-access-control]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_access_control-0.5.6.tar.gz]
+[2023-06-18 18:30:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-access-control]: success
+[2023-06-18 18:31:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306181053-py3-none-any.whl.zip]
+[2023-06-18 18:31:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306181627-py3-none-any.whl.zip]
+[2023-06-18 18:31:05] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-18 18:31:05] INFO root fetch - main [MainThread]: Store serial: [18551394]
