@@ -12373,3 +12373,112 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 19:02:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcping]: success
 [2023-06-18 19:02:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcping]: success
 [2023-06-18 19:02:41] INFO root fetch - main [MainThread]: Store serial: [18551584]
+[2023-06-18 19:07:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551584]
+[2023-06-18 19:07:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyosrs
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remotivelabs-cli
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carbin
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haidarlibs
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-afd
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diambra-engine
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: haidarlibs
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ormar
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heaserver
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docleaf
+[2023-06-18 19:07:50] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [pyosrs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [carbin]: New version: [0.3.0] Old Version: [0.2.28]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [nonebot-plugin-afd]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [diambra-engine]: New version: [2.1.0rc9] Old Version: [2.1.0rc8]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [haidarlibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [haidarlibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ormar]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [docleaf]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-18 19:07:50] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/3e/35/1c8616f68de1ccf34e0251f5dcb2194e0b0ece8e3f77ba95a292137a9f30/remotivelabs_cli-0.0.1a0.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [nonebot-plugin-afd]: Downloading https://files.pythonhosted.org/packages/8b/9a/25ea8ce35f0359ddbf50cee584235ed86bff4da6c0c1d714aa3a63e61b60/nonebot-plugin-afd-0.0.1.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/a1/94/63bf9e6bbcdde34c162a5c9b1c73981258641d8e15cb274cf52e66790622/carbin-0.2.28.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [pyosrs]: Downloading https://files.pythonhosted.org/packages/79/ee/a0b7c9ac9a7e7c5ec06f2fe555de84c33a1cab3b4356ad37c57d2be44fbb/pyosrs-0.0.4.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [diambra-engine]: Downloading https://files.pythonhosted.org/packages/bb/ba/b5ae2a99b8d1db307aec499c56c95eb4cfa5f76a7340cdbd49ed655d5fb2/diambra-engine-2.1.0rc8.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/ff/a7/bb4dff261bb7af86c1f179100e1de3edd94dfcebcbf94c9f091bf2270aa0/haidarlibs-0.0.7.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/f8/69/07fe68486b977a80a307ecb3a6af72579181a652354335371b23bdd0d5fe/docleaf-0.4.0-cp39-none-win_amd64.whl
+[2023-06-18 19:07:50] INFO root fetch - processPackages [ormar]: Downloading https://files.pythonhosted.org/packages/5c/34/43da33d41b07c3738d3b150a856c38b1dadaa4ee4298c89cd6b01b09103b/ormar-0.9.8.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/ff/a7/bb4dff261bb7af86c1f179100e1de3edd94dfcebcbf94c9f091bf2270aa0/haidarlibs-0.0.7.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-18 19:07:50] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230618/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-18 19:07:50] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/2a/b8/0b1489e7f2a40db0d152a3a9937b4169731f1ec9560ab473ca11eb0b4b6e/remotivelabs_cli-0.0.1a1.tar.gz
+[2023-06-18 19:07:50] INFO root fetch - processPackages [nonebot-plugin-afd]: Downloading https://files.pythonhosted.org/packages/b1/46/650897ed8667d3dfa8419d723d303f11d8bdeedb34cfd8740fe4f82106db/nonebot-plugin-afd-0.0.2.tar.gz
+[2023-06-18 19:07:51] INFO root fetch - processPackages [pyosrs]: Downloading https://files.pythonhosted.org/packages/82/ab/5d2ea507b3b6b058dd92528b8e0224f92c020c2246f6be4f7253825a7023/pyosrs-0.0.5.tar.gz
+[2023-06-18 19:07:51] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/bf/64/d26c1dc0ce5e681a1c380ac935ca70cb5a90c759b532f4ac94fcf3038a2d/carbin-0.3.0-py3-none-any.whl
+[2023-06-18 19:07:51] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/51/6a/317301daa6ab4386afb7ce487e75f49e79771d0c5beb3664fdf013ebdf2a/haidarlibs-0.0.8.tar.gz
+[2023-06-18 19:07:51] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/51/6a/317301daa6ab4386afb7ce487e75f49e79771d0c5beb3664fdf013ebdf2a/haidarlibs-0.0.8.tar.gz
+[2023-06-18 19:07:51] INFO root fetch - processPackages [ormar]: Downloading https://files.pythonhosted.org/packages/40/92/337c32d4eb768917603d509905692294ebdbbe4c448cfa77773078644544/ormar-0.9.9.tar.gz
+[2023-06-18 19:07:51] INFO root fetch - processPackages [nonebot-plugin-afd]: executing diffoscope
+[2023-06-18 19:07:51] INFO root fetch - processPackages [nonebot-plugin-afd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-afd-0.0.1.tar.gz tmp/nonebot-plugin-afd-0.0.2.tar.gz --markdown 20230618/n/nonebot-plugin-afd/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 19:07:51] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2023-06-18 19:07:51] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.1a0.tar.gz tmp/remotivelabs_cli-0.0.1a1.tar.gz --markdown 20230618/r/remotivelabs-cli/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-06-18 19:07:51] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/df/a5/8d827807fb0cf8e010af46b6e2e0f206506478d51d3de1933a58a4c03147/docleaf-0.5.0-cp39-none-win_amd64.whl
+[2023-06-18 19:07:51] INFO root fetch - processPackages [diambra-engine]: Downloading https://files.pythonhosted.org/packages/4b/33/1da34d2f2a44dd6ec8d777d9129a3744af4ae787eb69b9a118a82a7e3aea/diambra-engine-2.1.0rc9.tar.gz
+[2023-06-18 19:07:51] INFO root fetch - processPackages [haidarlibs]: executing diffoscope
+[2023-06-18 19:07:51] INFO root fetch - processPackages [haidarlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haidarlibs-0.0.7.tar.gz tmp/haidarlibs-0.0.8.tar.gz --markdown 20230618/h/haidarlibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 19:07:51] INFO root fetch - processPackages [haidarlibs]: executing diffoscope
+[2023-06-18 19:07:51] INFO root fetch - processPackages [haidarlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haidarlibs-0.0.7.tar.gz tmp/haidarlibs-0.0.8.tar.gz --markdown 20230618/h/haidarlibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 19:07:51] INFO root fetch - processPackages [pyosrs]: executing diffoscope
+[2023-06-18 19:07:51] INFO root fetch - processPackages [pyosrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosrs-0.0.4.tar.gz tmp/pyosrs-0.0.5.tar.gz --markdown 20230618/p/pyosrs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 19:07:51] INFO root fetch - processPackages [carbin]: executing diffoscope
+[2023-06-18 19:07:51] INFO root fetch - processPackages [carbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbin-0.2.28.tar.gz tmp/carbin-0.3.0-py3-none-any.whl.zip --markdown 20230618/c/carbin/0.2.28-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 19:07:51] INFO root fetch - processPackages [ormar]: executing diffoscope
+[2023-06-18 19:07:51] INFO root fetch - processPackages [ormar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ormar-0.9.8.tar.gz tmp/ormar-0.9.9.tar.gz --markdown 20230618/o/ormar/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-18 19:07:51] INFO root fetch - processPackages [diambra-engine]: executing diffoscope
+[2023-06-18 19:07:51] INFO root fetch - processPackages [diambra-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-engine-2.1.0rc8.tar.gz tmp/diambra-engine-2.1.0rc9.tar.gz --markdown 20230618/d/diambra-engine/2.1.0rc8-2.1.0rc9/diff.md --exclude *.pyd
+[2023-06-18 19:07:51] INFO root fetch - processPackages [docleaf]: executing diffoscope
+[2023-06-18 19:07:51] INFO root fetch - processPackages [docleaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docleaf-0.4.0-cp39-none-win_amd64.whl.zip tmp/docleaf-0.5.0-cp39-none-win_amd64.whl.zip --markdown 20230618/d/docleaf/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-18 19:07:52] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.2.28.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.3.0-py3-none-any.whl.zip]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [carbin]: Start processing: nonebot-plugin-smart-reply
+[2023-06-18 19:07:52] INFO root fetch - main [MainThread]: End processing [carbin]: success
+[2023-06-18 19:07:52] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [diambra-engine]: Remove: archive file [/home/abi/fetcher/tmp/diambra-engine-2.1.0rc8.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [diambra-engine]: Remove: archive file [/home/abi/fetcher/tmp/diambra-engine-2.1.0rc9.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [diambra-engine]: Start processing: open-translation
+[2023-06-18 19:07:52] INFO root fetch - main [MainThread]: End processing [diambra-engine]: success
+[2023-06-18 19:07:52] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.7.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.8.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
+[2023-06-18 19:07:52] INFO root fetch - processPackages [open-translation]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a0.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a1.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2023-06-18 19:07:52] INFO root fetch - processPackages [pyosrs]: Remove: archive file [/home/abi/fetcher/tmp/pyosrs-0.0.4.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [pyosrs]: Remove: archive file [/home/abi/fetcher/tmp/pyosrs-0.0.5.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - main [MainThread]: End processing [pyosrs]: success
+[2023-06-18 19:07:52] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Downloading https://files.pythonhosted.org/packages/82/ab/5ca16abac8915b872239912589ec64aa8ab80dfa6db3eaa3c037eba842b1/nonebot_plugin_smart_reply-0.0.8.tar.gz
+[2023-06-18 19:07:52] INFO root fetch - processPackages [nonebot-plugin-afd]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-afd-0.0.1.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [nonebot-plugin-afd]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-afd-0.0.2.tar.gz]
+[2023-06-18 19:07:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-afd]: success
+[2023-06-18 19:07:52] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.4.0-cp39-none-win_amd64.whl.zip]
+[2023-06-18 19:07:52] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.5.0-cp39-none-win_amd64.whl.zip]
+[2023-06-18 19:07:52] INFO root fetch - main [MainThread]: End processing [docleaf]: success
+[2023-06-18 19:07:53] INFO root fetch - processPackages [open-translation]: Downloading https://files.pythonhosted.org/packages/68/08/30d22adcc066395bd5565bf4fb539dd93ca2c90afac257349ead4dcff2eb/open_translation-0.3.0.tar.gz
+[2023-06-18 19:07:53] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
+[2023-06-18 19:07:53] INFO root fetch - processPackages [open-translation]: Downloading https://files.pythonhosted.org/packages/da/4b/0d9e0a9a1f43e56d001c282a3166c421c0b9deb77e5f2ed87e43b8b1f486/open_translation-0.3.1-py3-none-any.whl
+[2023-06-18 19:07:53] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-18 19:07:53] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-18 19:07:53] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-18 19:07:53] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Downloading https://files.pythonhosted.org/packages/e3/86/286035850c9b1ff35d89d104cfe018042eba85bd9f39c4e6879be23e8449/nonebot_plugin_smart_reply-0.0.9.tar.gz
+[2023-06-18 19:07:53] INFO root fetch - processPackages [open-translation]: executing diffoscope
+[2023-06-18 19:07:53] INFO root fetch - processPackages [open-translation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_translation-0.3.0.tar.gz tmp/open_translation-0.3.1-py3-none-any.whl.zip --markdown 20230618/o/open-translation/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-18 19:07:53] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: executing diffoscope
+[2023-06-18 19:07:53] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_smart_reply-0.0.8.tar.gz tmp/nonebot_plugin_smart_reply-0.0.9.tar.gz --markdown 20230618/n/nonebot-plugin-smart-reply/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 19:07:54] INFO root fetch - processPackages [open-translation]: Remove: archive file [/home/abi/fetcher/tmp/open_translation-0.3.0.tar.gz]
+[2023-06-18 19:07:54] INFO root fetch - processPackages [open-translation]: Remove: archive file [/home/abi/fetcher/tmp/open_translation-0.3.1-py3-none-any.whl.zip]
+[2023-06-18 19:07:54] INFO root fetch - main [MainThread]: End processing [open-translation]: success
+[2023-06-18 19:07:54] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_smart_reply-0.0.8.tar.gz]
+[2023-06-18 19:07:54] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_smart_reply-0.0.9.tar.gz]
+[2023-06-18 19:07:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smart-reply]: success
+[2023-06-18 19:07:54] INFO root fetch - processPackages [ormar]: Remove: archive file [/home/abi/fetcher/tmp/ormar-0.9.8.tar.gz]
+[2023-06-18 19:07:54] INFO root fetch - processPackages [ormar]: Remove: archive file [/home/abi/fetcher/tmp/ormar-0.9.9.tar.gz]
+[2023-06-18 19:07:54] INFO root fetch - main [MainThread]: End processing [ormar]: success
+[2023-06-18 19:07:54] INFO root fetch - main [MainThread]: Store serial: [18551644]
