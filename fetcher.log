@@ -1959,3 +1959,63 @@
 [2023-06-18 03:10:00] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-18 03:10:00] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-18 03:10:00] INFO root fetch - main [MainThread]: Store serial: [18546931]
+[2023-06-18 03:15:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546931]
+[2023-06-18 03:15:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 03:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mizue
+[2023-06-18 03:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweatDB
+[2023-06-18 03:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-06-18 03:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aemcmc-nightly
+[2023-06-18 03:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aifunc
+[2023-06-18 03:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tangens
+[2023-06-18 03:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: denormalize
+[2023-06-18 03:15:09] INFO root fetch - processPackages [tangens]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 03:15:09] WARNING root fetch - processPackages [mizue]: Skipping, unable to determine old version
+[2023-06-18 03:15:09] INFO root fetch - main [MainThread]: End processing [mizue] error
+[2023-06-18 03:15:09] INFO root fetch - processPackages [sweatDB]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-18 03:15:09] INFO root fetch - processPackages [denormalize]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 03:15:09] INFO root fetch - processPackages [aifunc]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-18 03:15:09] INFO root fetch - processPackages [tangens]: Downloading https://files.pythonhosted.org/packages/97/8a/c07ff294218809eaaa587199d925288a771c86882023a34db810f7cb43b0/tangens-0.1.1.tar.gz
+[2023-06-18 03:15:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-18 03:15:09] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/26/e5/b55cba5e64c6a383a3b15ccdc0290ea62e383220279716713885b52d3663/sweatDB-2.0.3.tar.gz
+[2023-06-18 03:15:09] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230618] Old Version: [0.0.8.dev20230617]
+[2023-06-18 03:15:09] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/b0/b9/e1147765a1b7e06e2b4f31065cd36874f5a1f7442e3c377b6826d57f9139/aifunc-0.5.4.tar.gz
+[2023-06-18 03:15:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-18 03:15:09] INFO root fetch - processPackages [denormalize]: Downloading https://files.pythonhosted.org/packages/79/af/5712475c9089330caabcd6577b24638c4128de2d74300c1c123dbfcbcbcc/denormalize-0.0.1.tar.gz
+[2023-06-18 03:15:09] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/61/b0/38ad6927ab359484d910efc3a09676364e6264077bb0e2d1c9e99136ca2a/aifunc-0.5.5.tar.gz
+[2023-06-18 03:15:09] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/06/bd/0305492027d66865a6bc78dffbc74c8782f921b4696781ca6c90e90acbb5/aemcmc-nightly-0.0.8.dev20230617.tar.gz
+[2023-06-18 03:15:09] INFO root fetch - processPackages [tangens]: Downloading https://files.pythonhosted.org/packages/c5/f7/7b8196a36122f0214c00f71a475c23c623d93f5bcff40b4142cb54ed8871/tangens-0.1.2.tar.gz
+[2023-06-18 03:15:09] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-18 03:15:09] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.5.4.tar.gz tmp/aifunc-0.5.5.tar.gz --markdown 20230618/a/aifunc/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-18 03:15:09] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/11/29/cab7c3caf149570a287805a13732c3804bc82335f5a82f1c29047369c9f3/sweatDB-2.0.4.tar.gz
+[2023-06-18 03:15:09] INFO root fetch - processPackages [sweatDB]: executing diffoscope
+[2023-06-18 03:15:09] INFO root fetch - processPackages [sweatDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweatDB-2.0.3.tar.gz tmp/sweatDB-2.0.4.tar.gz --markdown 20230618/s/sweatDB/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-18 03:15:09] INFO root fetch - processPackages [tangens]: executing diffoscope
+[2023-06-18 03:15:09] INFO root fetch - processPackages [tangens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tangens-0.1.1.tar.gz tmp/tangens-0.1.2.tar.gz --markdown 20230618/t/tangens/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 03:15:10] INFO root fetch - processPackages [denormalize]: Downloading https://files.pythonhosted.org/packages/58/b8/26a9fe14c7265f7d24f17c59f527e5edf792f0bd17344b3868e1b5161e77/denormalize-0.0.2.tar.gz
+[2023-06-18 03:15:10] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/82/77/bbd1e688295ed9f33d692ae3e10cd3a196c0f21d81413aa2ad9276fd9cf6/aemcmc-nightly-0.0.8.dev20230618.tar.gz
+[2023-06-18 03:15:10] INFO root fetch - processPackages [denormalize]: executing diffoscope
+[2023-06-18 03:15:10] INFO root fetch - processPackages [denormalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denormalize-0.0.1.tar.gz tmp/denormalize-0.0.2.tar.gz --markdown 20230618/d/denormalize/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 03:15:10] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-18 03:15:10] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230617.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230618.tar.gz --markdown 20230618/a/aemcmc-nightly/0.0.8.dev20230617-0.0.8.dev20230618/diff.md --exclude *.pyd
+[2023-06-18 03:15:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-18 03:15:10] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.5.4.tar.gz]
+[2023-06-18 03:15:10] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.5.5.tar.gz]
+[2023-06-18 03:15:10] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-18 03:15:10] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.3.tar.gz]
+[2023-06-18 03:15:10] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.4.tar.gz]
+[2023-06-18 03:15:10] INFO root fetch - main [MainThread]: End processing [sweatDB]: success
+[2023-06-18 03:15:11] INFO root fetch - processPackages [tangens]: Remove: archive file [/home/abi/fetcher/tmp/tangens-0.1.1.tar.gz]
+[2023-06-18 03:15:11] INFO root fetch - processPackages [tangens]: Remove: archive file [/home/abi/fetcher/tmp/tangens-0.1.2.tar.gz]
+[2023-06-18 03:15:11] INFO root fetch - main [MainThread]: End processing [tangens]: success
+[2023-06-18 03:15:11] INFO root fetch - processPackages [denormalize]: Remove: archive file [/home/abi/fetcher/tmp/denormalize-0.0.1.tar.gz]
+[2023-06-18 03:15:11] INFO root fetch - processPackages [denormalize]: Remove: archive file [/home/abi/fetcher/tmp/denormalize-0.0.2.tar.gz]
+[2023-06-18 03:15:11] INFO root fetch - main [MainThread]: End processing [denormalize]: success
+[2023-06-18 03:15:11] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230617.tar.gz]
+[2023-06-18 03:15:11] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230618.tar.gz]
+[2023-06-18 03:15:11] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-18 03:15:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-18 03:15:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230618/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:15:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-18 03:15:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-18 03:15:13] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-18 03:15:13] INFO root fetch - main [MainThread]: Store serial: [18546953]
