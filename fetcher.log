@@ -5963,3 +5963,56 @@
 [2023-06-18 10:47:59] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.9.tar.gz]
 [2023-06-18 10:47:59] INFO root fetch - main [MainThread]: End processing [multipie]: success
 [2023-06-18 10:47:59] INFO root fetch - main [MainThread]: Store serial: [18548781]
+[2023-06-18 10:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548781]
+[2023-06-18 10:53:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 10:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-18 10:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2023-06-18 10:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hectorp
+[2023-06-18 10:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spPersist
+[2023-06-18 10:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foreverbull
+[2023-06-18 10:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webhooklib
+[2023-06-18 10:53:07] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-06-18 10:53:07] INFO root fetch - processPackages [almavik]: New version: [3.9] Old Version: [3.8]
+[2023-06-18 10:53:07] INFO root fetch - processPackages [webhooklib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 10:53:07] INFO root fetch - processPackages [spPersist]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-18 10:53:07] INFO root fetch - processPackages [hectorp]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 10:53:08] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-18 10:53:08] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/1f/45/e98315e219217c791faa22b784a2f2ed7b80b3a815a6944ef76804e0a1f9/sppersist-1.2.2.tar.gz
+[2023-06-18 10:53:08] INFO root fetch - processPackages [hectorp]: Downloading https://files.pythonhosted.org/packages/16/78/1506623e0614e6a4b085641ab6855ffcde1ac1aa02108c0ae7cfce5a3faf/hectorp-0.1.4.tar.gz
+[2023-06-18 10:53:08] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-18 10:53:08] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/18/f8/16b0359d09d337334d6e1af41dee43765cd510a97424a9105fb291fc56b5/webhooklib-0.8.0.tar.gz
+[2023-06-18 10:53:08] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-06-18 10:53:08] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/63/bc/63c8ea28525e24e24c38be241bda6fb6aef550184b99904d08c6e324e779/almavik-3.8.tar.gz
+[2023-06-18 10:53:08] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88374008>=10485760
+[2023-06-18 10:53:08] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-18 10:53:08] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/d0/ba/d55f95581bbb6caf6f691e30f1f60b96421f62293e6120cd8ede0b009ac8/webhooklib-0.9.0.tar.gz
+[2023-06-18 10:53:08] INFO root fetch - processPackages [hectorp]: Downloading https://files.pythonhosted.org/packages/5c/7e/a4572b62e98b0106fde6259ab836e0e813f0626b0eb942c84a075a4ba59e/hectorp-0.1.5.tar.gz
+[2023-06-18 10:53:08] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/f5/2e/7e08c536a99b2a7b641c7458d2ab918b4b7ee4f1ec1bc55e1548daa76e78/sppersist-1.2.3.tar.gz
+[2023-06-18 10:53:08] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-18 10:53:08] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.8.0.tar.gz tmp/webhooklib-0.9.0.tar.gz --markdown 20230618/w/webhooklib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 10:53:08] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-06-18 10:53:08] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-18 10:53:08] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.2.2.tar.gz tmp/sppersist-1.2.3.tar.gz --markdown 20230618/s/spPersist/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-18 10:53:08] INFO root fetch - processPackages [hectorp]: executing diffoscope
+[2023-06-18 10:53:08] INFO root fetch - processPackages [hectorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hectorp-0.1.4.tar.gz tmp/hectorp-0.1.5.tar.gz --markdown 20230618/h/hectorp/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 10:53:08] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-06-18 10:53:08] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230618/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-06-18 10:53:08] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-18 10:53:09] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-18 10:53:09] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230618/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-18 10:53:09] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.2.2.tar.gz]
+[2023-06-18 10:53:09] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.2.3.tar.gz]
+[2023-06-18 10:53:09] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-18 10:53:09] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.8.0.tar.gz]
+[2023-06-18 10:53:09] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.9.0.tar.gz]
+[2023-06-18 10:53:09] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-18 10:53:09] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-06-18 10:53:09] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-06-18 10:53:09] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-06-18 10:53:10] INFO root fetch - processPackages [hectorp]: Remove: archive file [/home/abi/fetcher/tmp/hectorp-0.1.4.tar.gz]
+[2023-06-18 10:53:10] INFO root fetch - processPackages [hectorp]: Remove: archive file [/home/abi/fetcher/tmp/hectorp-0.1.5.tar.gz]
+[2023-06-18 10:53:10] INFO root fetch - main [MainThread]: End processing [hectorp]: success
+[2023-06-18 10:53:26] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-18 10:53:26] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-18 10:53:26] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-18 10:53:26] INFO root fetch - main [MainThread]: Store serial: [18548808]
