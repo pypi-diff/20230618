@@ -10090,3 +10090,64 @@ EOFError: EOF read where object expected
 [2023-06-18 16:20:09] INFO root fetch - processPackages [celery]: Remove: archive file [/home/abi/fetcher/tmp/celery-5.3.1.tar.gz]
 [2023-06-18 16:20:09] INFO root fetch - main [MainThread]: End processing [celery]: success
 [2023-06-18 16:20:09] INFO root fetch - main [MainThread]: Store serial: [18550673]
+[2023-06-18 16:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550673]
+[2023-06-18 16:25:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 16:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-06-18 16:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-06-18 16:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ap-features
+[2023-06-18 16:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tybase
+[2023-06-18 16:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyHana
+[2023-06-18 16:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dnf-humbug
+[2023-06-18 16:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: getmodelspec
+[2023-06-18 16:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: souJpg-comm-opensearch-dev
+[2023-06-18 16:25:18] INFO root fetch - processPackages [pyHana]: New version: [0.0.2a0] Old Version: [0.0.1]
+[2023-06-18 16:25:18] WARNING root fetch - processPackages [souJpg-comm-opensearch-dev]: Skipping, unable to determine old version
+[2023-06-18 16:25:18] INFO root fetch - processPackages [tybase]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-18 16:25:18] INFO root fetch - main [MainThread]: End processing [souJpg-comm-opensearch-dev] error
+[2023-06-18 16:25:18] INFO root fetch - processPackages [ap-features]: New version: [2023.4.0] Old Version: [2023.3.1]
+[2023-06-18 16:25:18] INFO root fetch - processPackages [dnf-humbug]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 16:25:18] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-18 16:25:18] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-18 16:25:19] INFO root fetch - processPackages [pyHana]: Downloading https://files.pythonhosted.org/packages/9f/63/48b0875aec06a17a7dfd7eb1e7182c1d9fde43a61f36fc368e6b878bfcea/pyHana-0.0.1-py3-none-any.whl
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-18 16:25:19] INFO root fetch - processPackages [dnf-humbug]: Downloading https://files.pythonhosted.org/packages/55/01/525dbbc7dd7d4d63a7b07413d9e8862590f99153348513901dda60dda0d0/dnf_humbug-0.0.8-py3-none-any.whl
+[2023-06-18 16:25:19] INFO root fetch - processPackages [ap-features]: Downloading https://files.pythonhosted.org/packages/fc/c7/23432643d19c42f680eafaaac809531f16b523df6f2424fcf6af06f135de/ap_features-2023.3.1.tar.gz
+[2023-06-18 16:25:19] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/c3/08/100ec18b8cbc458b5d7981f2dd9fa4881fcfbf6ba2be13591efab3e8a0c5/tybase-0.1.5.tar.gz
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-18 16:25:19] INFO root fetch - processPackages [pyHana]: Downloading https://files.pythonhosted.org/packages/d5/c3/0305af5f1c38913067609417ca55fea41035da6262c1c5e5833e743106e5/pyHana-0.0.2a0-py3-none-any.whl
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230618/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-18 16:25:19] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/9e/13/3a5dfa52622716badf0bec57a73daeafbc004ffcf528fb506b4eaacef3ad/tybase-0.1.6.tar.gz
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-18 16:25:19] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230618/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-18 16:25:19] INFO root fetch - processPackages [ap-features]: Downloading https://files.pythonhosted.org/packages/fe/43/f4b1cc4f20cde1758712e9833a9ca589e69b28483644d60708cbaecc7e62/ap_features-2023.4.0.tar.gz
+[2023-06-18 16:25:19] INFO root fetch - processPackages [dnf-humbug]: Downloading https://files.pythonhosted.org/packages/f7/e8/b10e8c820442d0a3472877038dc0855c42e96661299fa21461b8ac2cdc80/dnf_humbug-0.0.9-py3-none-any.whl
+[2023-06-18 16:25:19] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-06-18 16:25:19] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.1.5.tar.gz tmp/tybase-0.1.6.tar.gz --markdown 20230618/t/tybase/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-18 16:25:19] INFO root fetch - processPackages [dnf-humbug]: executing diffoscope
+[2023-06-18 16:25:19] INFO root fetch - processPackages [dnf-humbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnf_humbug-0.0.8-py3-none-any.whl.zip tmp/dnf_humbug-0.0.9-py3-none-any.whl.zip --markdown 20230618/d/dnf-humbug/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 16:25:19] INFO root fetch - processPackages [pyHana]: executing diffoscope
+[2023-06-18 16:25:19] INFO root fetch - processPackages [pyHana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyHana-0.0.1-py3-none-any.whl.zip tmp/pyHana-0.0.2a0-py3-none-any.whl.zip --markdown 20230618/p/pyHana/0.0.1-0.0.2a0/diff.md --exclude *.pyd
+[2023-06-18 16:25:19] INFO root fetch - processPackages [ap-features]: executing diffoscope
+[2023-06-18 16:25:19] INFO root fetch - processPackages [ap-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ap_features-2023.3.1.tar.gz tmp/ap_features-2023.4.0.tar.gz --markdown 20230618/a/ap-features/2023.3.1-2023.4.0/diff.md --exclude *.pyd
+[2023-06-18 16:25:20] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.1.5.tar.gz]
+[2023-06-18 16:25:20] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.1.6.tar.gz]
+[2023-06-18 16:25:20] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-06-18 16:25:20] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-18 16:25:20] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-18 16:25:20] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-18 16:25:20] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-18 16:25:20] INFO root fetch - processPackages [pyHana]: Remove: archive file [/home/abi/fetcher/tmp/pyHana-0.0.1-py3-none-any.whl.zip]
+[2023-06-18 16:25:20] INFO root fetch - processPackages [pyHana]: Remove: archive file [/home/abi/fetcher/tmp/pyHana-0.0.2a0-py3-none-any.whl.zip]
+[2023-06-18 16:25:20] INFO root fetch - main [MainThread]: End processing [pyHana]: success
+[2023-06-18 16:25:20] INFO root fetch - processPackages [dnf-humbug]: Remove: archive file [/home/abi/fetcher/tmp/dnf_humbug-0.0.8-py3-none-any.whl.zip]
+[2023-06-18 16:25:20] INFO root fetch - processPackages [dnf-humbug]: Remove: archive file [/home/abi/fetcher/tmp/dnf_humbug-0.0.9-py3-none-any.whl.zip]
+[2023-06-18 16:25:20] INFO root fetch - main [MainThread]: End processing [dnf-humbug]: success
+[2023-06-18 16:25:22] INFO root fetch - processPackages [ap-features]: Remove: archive file [/home/abi/fetcher/tmp/ap_features-2023.3.1.tar.gz]
+[2023-06-18 16:25:22] INFO root fetch - processPackages [ap-features]: Remove: archive file [/home/abi/fetcher/tmp/ap_features-2023.4.0.tar.gz]
+[2023-06-18 16:25:22] INFO root fetch - main [MainThread]: End processing [ap-features]: success
+[2023-06-18 16:25:22] INFO root fetch - main [MainThread]: Store serial: [18550700]
