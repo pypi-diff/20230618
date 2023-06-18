@@ -15047,3 +15047,117 @@ EOFError: EOF read where object expected
 [2023-06-18 22:30:18] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.335.1.tar.gz]
 [2023-06-18 22:30:18] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-18 22:30:18] INFO root fetch - main [MainThread]: Store serial: [18552680]
+[2023-06-18 22:35:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552680]
+[2023-06-18 22:35:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeroconf
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybuildtools
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ifnude
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sengo
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bbwebservice
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-simple-file-handler
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: suhteita
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EclipsingBinaries
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astro-ghost
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gravitypy
+[2023-06-18 22:35:27] INFO root fetch - processPackages [bbwebservice]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 22:35:27] WARNING root fetch - processPackages [ifnude]: Skipping, unable to determine old version
+[2023-06-18 22:35:27] INFO root fetch - processPackages [ifnude]: Start processing: rust-neighborlist
+[2023-06-18 22:35:27] INFO root fetch - main [MainThread]: End processing [ifnude] error
+[2023-06-18 22:35:27] INFO root fetch - processPackages [pybuildtools]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-18 22:35:27] INFO root fetch - processPackages [sengo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 22:35:27] INFO root fetch - processPackages [gravitypy]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-18 22:35:27] INFO root fetch - processPackages [EclipsingBinaries]: New version: [3.1.0] Old Version: [3.0.0a2]
+[2023-06-18 22:35:27] INFO root fetch - processPackages [astro-ghost]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-06-18 22:35:27] INFO root fetch - processPackages [django-simple-file-handler]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-18 22:35:27] INFO root fetch - processPackages [suhteita]: New version: [2023.6.18] Old Version: [2022.8.28]
+[2023-06-18 22:35:27] INFO root fetch - processPackages [zeroconf]: New version: [0.68.1] Old Version: [0.68.0]
+[2023-06-18 22:35:27] INFO root fetch - processPackages [rust-neighborlist]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 22:35:27] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/ed/00/fa405a83a87d069bfa8c6a13afbcdfd5e7066d87af04d891c79b9fca4ff8/EclipsingBinaries-3.0.0a2.tar.gz
+[2023-06-18 22:35:27] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/b6/54/5a2017ac709fcc3d0b35cdcd7d81bb258a4657539f57596d2ec2b306c701/astro_ghost-2.0.7.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [bbwebservice]: Downloading https://files.pythonhosted.org/packages/ad/74/1cdfbdcba76c4b6d9e7b2f917b9f36a8a122dc92fb441eb5da4bd61c0e56/bbwebservice-0.0.7.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [sengo]: Downloading https://files.pythonhosted.org/packages/93/b1/58ead11e199765e57045cc078ff623c724299546ec7aedb825dfe362f529/sengo-0.0.1.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [suhteita]: Downloading https://files.pythonhosted.org/packages/07/6d/353e54492f09d8feced79fa6d5cb3cd9023ea66f41b2029043a03a123b4f/suhteita-2022.8.28.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/62/97/12a9c5023d43e261c19004b64e17315339ee6d4ccaed4d1ed048950045dd/zeroconf-0.68.0.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [rust-neighborlist]: Downloading https://files.pythonhosted.org/packages/f5/d1/58813b9e2c631ddc73d9550b8fccde3755434626e7048271d04043fa2261/rust_neighborlist-0.1.1.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [pybuildtools]: Downloading https://files.pythonhosted.org/packages/5b/2f/08ef6856c665ba406af6a39b580169c7fb659cd51107b4fa0e5901c11310/pybuildtools-0.5.8.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [django-simple-file-handler]: Downloading https://files.pythonhosted.org/packages/03/e7/e16e6eb3b46843054365f340e2a4bed15a6b63162f9e60d3416e7bb005ef/django_simple_file_handler-0.3.2.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/d3/6a/85d00d7753c4a57706b1c7141244b0a0c563e93b44cc9c8ef0e7e5b9dd31/gravitypy-1.2.2.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/15/0c/181c7d8f3e6475a87ee87e2d109a2a325359d69af69000b7253da2045143/EclipsingBinaries-3.1.0.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/81/cc/e015f6d152a41fa71ae84b7e3ae9552d3c1720e031b70dfd4e8964151397/astro_ghost-2.0.8.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [bbwebservice]: Downloading https://files.pythonhosted.org/packages/45/95/071009a9a697c3100d026b7da2358d9da80ea022f61f2c61f9904da93c13/bbwebservice-0.0.8.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/d2/9b/6aa9edc99f8b554a998a6d683b2c02d377d375dd223c5663c3d2ede0973f/zeroconf-0.68.1.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [EclipsingBinaries]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [EclipsingBinaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EclipsingBinaries-3.0.0a2.tar.gz tmp/EclipsingBinaries-3.1.0.tar.gz --markdown 20230618/E/EclipsingBinaries/3.0.0a2-3.1.0/diff.md --exclude *.pyd
+[2023-06-18 22:35:28] INFO root fetch - processPackages [sengo]: Downloading https://files.pythonhosted.org/packages/76/a2/4c82debe04c7288eac11e2f22a294de0294fbb3109c458c601dc746324f6/sengo-0.0.2.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-2.0.7.tar.gz tmp/astro_ghost-2.0.8.tar.gz --markdown 20230618/a/astro-ghost/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-06-18 22:35:28] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.68.0.tar.gz tmp/zeroconf-0.68.1.tar.gz --markdown 20230618/z/zeroconf/0.68.0-0.68.1/diff.md --exclude *.pyd
+[2023-06-18 22:35:28] INFO root fetch - processPackages [rust-neighborlist]: Downloading https://files.pythonhosted.org/packages/a4/3e/8d4303e93c5eac4642dc6bd170e4ba654257e25eccc13335d9c118b65f3f/rust_neighborlist-0.1.2.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [suhteita]: Downloading https://files.pythonhosted.org/packages/90/42/165bd78ee03792651c869f2747b1e69902c559a752ed77d4f02270a5a1ba/suhteita-2023.6.18.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/fd/56/a6ea4a6125432d3e2334e22a1d0b5e98a6a52c4ed094e55be1db75d7e1a0/gravitypy-1.2.3.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [sengo]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [sengo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sengo-0.0.1.tar.gz tmp/sengo-0.0.2.tar.gz --markdown 20230618/s/sengo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 22:35:28] INFO root fetch - processPackages [django-simple-file-handler]: Downloading https://files.pythonhosted.org/packages/ae/82/7698f1d4c136f736b1d9f391045e844baaad33a177bfe5039530aee185bf/django_simple_file_handler-0.3.3.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [bbwebservice]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [bbwebservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbwebservice-0.0.7.tar.gz tmp/bbwebservice-0.0.8.tar.gz --markdown 20230618/b/bbwebservice/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 22:35:28] INFO root fetch - processPackages [rust-neighborlist]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [rust-neighborlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rust_neighborlist-0.1.1.tar.gz tmp/rust_neighborlist-0.1.2.tar.gz --markdown 20230618/r/rust-neighborlist/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 22:35:28] INFO root fetch - processPackages [pybuildtools]: Downloading https://files.pythonhosted.org/packages/4c/9f/3de3793386e9c8be4eb4ff4eb82360bd4c4b2fd6a0d5bb50106b1c125893/pybuildtools-0.5.9.tar.gz
+[2023-06-18 22:35:28] INFO root fetch - processPackages [gravitypy]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [gravitypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitypy-1.2.2.tar.gz tmp/gravitypy-1.2.3.tar.gz --markdown 20230618/g/gravitypy/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-18 22:35:28] INFO root fetch - processPackages [suhteita]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [suhteita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suhteita-2022.8.28.tar.gz tmp/suhteita-2023.6.18.tar.gz --markdown 20230618/s/suhteita/2022.8.28-2023.6.18/diff.md --exclude *.pyd
+[2023-06-18 22:35:28] INFO root fetch - processPackages [django-simple-file-handler]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [django-simple-file-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_file_handler-0.3.2.tar.gz tmp/django_simple_file_handler-0.3.3.tar.gz --markdown 20230618/d/django-simple-file-handler/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-18 22:35:28] INFO root fetch - processPackages [pybuildtools]: executing diffoscope
+[2023-06-18 22:35:28] INFO root fetch - processPackages [pybuildtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuildtools-0.5.8.tar.gz tmp/pybuildtools-0.5.9.tar.gz --markdown 20230618/p/pybuildtools/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-18 22:35:30] INFO root fetch - processPackages [rust-neighborlist]: Remove: archive file [/home/abi/fetcher/tmp/rust_neighborlist-0.1.1.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [rust-neighborlist]: Remove: archive file [/home/abi/fetcher/tmp/rust_neighborlist-0.1.2.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [rust-neighborlist]: Start processing: evatr-client
+[2023-06-18 22:35:30] INFO root fetch - main [MainThread]: End processing [rust-neighborlist]: success
+[2023-06-18 22:35:30] INFO root fetch - processPackages [evatr-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [bbwebservice]: Remove: archive file [/home/abi/fetcher/tmp/bbwebservice-0.0.7.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [bbwebservice]: Remove: archive file [/home/abi/fetcher/tmp/bbwebservice-0.0.8.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [bbwebservice]: Start processing: gdshoplib
+[2023-06-18 22:35:30] INFO root fetch - main [MainThread]: End processing [bbwebservice]: success
+[2023-06-18 22:35:30] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [gravitypy]: Remove: archive file [/home/abi/fetcher/tmp/gravitypy-1.2.2.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [gravitypy]: Remove: archive file [/home/abi/fetcher/tmp/gravitypy-1.2.3.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - main [MainThread]: End processing [gravitypy]: success
+[2023-06-18 22:35:30] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-06-18 22:35:30] INFO root fetch - processPackages [evatr-client]: Downloading https://files.pythonhosted.org/packages/e5/6f/f541cb3ce3d7472939184d3ad212a9c020dbe3fb8d6729129b9b18e9183a/evatr-client-0.1.1.tar.gz
+[2023-06-18 22:35:30] INFO root fetch - processPackages [django-simple-file-handler]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_file_handler-0.3.2.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [django-simple-file-handler]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_file_handler-0.3.3.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - main [MainThread]: End processing [django-simple-file-handler]: success
+[2023-06-18 22:35:30] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-06-18 22:35:30] INFO root fetch - processPackages [suhteita]: Remove: archive file [/home/abi/fetcher/tmp/suhteita-2022.8.28.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [suhteita]: Remove: archive file [/home/abi/fetcher/tmp/suhteita-2023.6.18.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - main [MainThread]: End processing [suhteita]: success
+[2023-06-18 22:35:30] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-06-18 22:35:30] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230618/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-18 22:35:30] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.68.0.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.68.1.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-06-18 22:35:30] INFO root fetch - processPackages [evatr-client]: Downloading https://files.pythonhosted.org/packages/54/6d/5e1e6535fec2a836f5f22844c562cc984a3e796d03b1fc3b3f14681a10ee/evatr-client-0.1.2.tar.gz
+[2023-06-18 22:35:30] INFO root fetch - processPackages [evatr-client]: executing diffoscope
+[2023-06-18 22:35:30] INFO root fetch - processPackages [evatr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evatr-client-0.1.1.tar.gz tmp/evatr-client-0.1.2.tar.gz --markdown 20230618/e/evatr-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 22:35:30] INFO root fetch - processPackages [sengo]: Remove: archive file [/home/abi/fetcher/tmp/sengo-0.0.1.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - processPackages [sengo]: Remove: archive file [/home/abi/fetcher/tmp/sengo-0.0.2.tar.gz]
+[2023-06-18 22:35:30] INFO root fetch - main [MainThread]: End processing [sengo]: success
+[2023-06-18 22:35:31] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.0.0a2.tar.gz]
+[2023-06-18 22:35:31] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.0.tar.gz]
+[2023-06-18 22:35:31] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
+[2023-06-18 22:35:31] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-06-18 22:35:31] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-06-18 22:35:31] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-06-18 22:35:31] INFO root fetch - processPackages [evatr-client]: Remove: archive file [/home/abi/fetcher/tmp/evatr-client-0.1.1.tar.gz]
+[2023-06-18 22:35:31] INFO root fetch - processPackages [evatr-client]: Remove: archive file [/home/abi/fetcher/tmp/evatr-client-0.1.2.tar.gz]
+[2023-06-18 22:35:31] INFO root fetch - main [MainThread]: End processing [evatr-client]: success
+[2023-06-18 22:35:32] INFO root fetch - processPackages [pybuildtools]: Remove: archive file [/home/abi/fetcher/tmp/pybuildtools-0.5.8.tar.gz]
+[2023-06-18 22:35:32] INFO root fetch - processPackages [pybuildtools]: Remove: archive file [/home/abi/fetcher/tmp/pybuildtools-0.5.9.tar.gz]
+[2023-06-18 22:35:32] INFO root fetch - main [MainThread]: End processing [pybuildtools]: success
+[2023-06-18 22:35:33] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.7.tar.gz]
+[2023-06-18 22:35:33] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.8.tar.gz]
+[2023-06-18 22:35:33] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-06-18 22:35:33] INFO root fetch - main [MainThread]: Store serial: [18552726]
