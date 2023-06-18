@@ -5933,3 +5933,33 @@
 [2023-06-18 10:42:45] INFO root fetch - processPackages [django-cms]: Remove: archive file [/home/abi/fetcher/tmp/django-cms-4.1.0rc3.tar.gz]
 [2023-06-18 10:42:45] INFO root fetch - main [MainThread]: End processing [django-cms]: success
 [2023-06-18 10:42:46] INFO root fetch - main [MainThread]: Store serial: [18548768]
+[2023-06-18 10:47:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548768]
+[2023-06-18 10:47:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 10:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multipie
+[2023-06-18 10:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: navigaattori
+[2023-06-18 10:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blendersynth
+[2023-06-18 10:47:55] INFO root fetch - processPackages [multipie]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-18 10:47:55] INFO root fetch - processPackages [navigaattori]: New version: [2023.6.18] Old Version: [2023.1.17]
+[2023-06-18 10:47:55] INFO root fetch - processPackages [blendersynth]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 10:47:55] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/66/48/d4dbe2d819b2dccf94b61c10a9ebdc51b378417e49360c0f29edba80e323/multipie-1.1.8.tar.gz
+[2023-06-18 10:47:55] INFO root fetch - processPackages [navigaattori]: Downloading https://files.pythonhosted.org/packages/76/2e/45e5de443fbbfcba023ff0a9f6b7c8e374e8f5cf5731c636415eacce87dc/navigaattori-2023.1.17.tar.gz
+[2023-06-18 10:47:55] INFO root fetch - processPackages [blendersynth]: Downloading https://files.pythonhosted.org/packages/f3/88/def159367088fa3e6cccd1ba085347f98fb906b49815491873201fb8c976/blendersynth-0.0.1.tar.gz
+[2023-06-18 10:47:56] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/9f/65/2be884ae50f72ca2932440104132e038f350e9a5992a7ce26c1a2212406c/multipie-1.1.9.tar.gz
+[2023-06-18 10:47:56] INFO root fetch - processPackages [navigaattori]: Downloading https://files.pythonhosted.org/packages/be/b9/4dfcf28daca698107653149b423a6bbc1eb616339caa43b56a6eba5d9436/navigaattori-2023.6.18.tar.gz
+[2023-06-18 10:47:56] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2023-06-18 10:47:56] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.1.8.tar.gz tmp/multipie-1.1.9.tar.gz --markdown 20230618/m/multipie/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-18 10:47:56] INFO root fetch - processPackages [navigaattori]: executing diffoscope
+[2023-06-18 10:47:56] INFO root fetch - processPackages [navigaattori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigaattori-2023.1.17.tar.gz tmp/navigaattori-2023.6.18.tar.gz --markdown 20230618/n/navigaattori/2023.1.17-2023.6.18/diff.md --exclude *.pyd
+[2023-06-18 10:47:56] INFO root fetch - processPackages [blendersynth]: Downloading https://files.pythonhosted.org/packages/78/74/de6522901c7a6b30115b993a269df5c7a7fa2248efb040b1b1b5a206cca9/blendersynth-0.0.2.tar.gz
+[2023-06-18 10:47:56] INFO root fetch - processPackages [blendersynth]: executing diffoscope
+[2023-06-18 10:47:56] INFO root fetch - processPackages [blendersynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blendersynth-0.0.1.tar.gz tmp/blendersynth-0.0.2.tar.gz --markdown 20230618/b/blendersynth/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 10:47:57] INFO root fetch - processPackages [navigaattori]: Remove: archive file [/home/abi/fetcher/tmp/navigaattori-2023.1.17.tar.gz]
+[2023-06-18 10:47:57] INFO root fetch - processPackages [navigaattori]: Remove: archive file [/home/abi/fetcher/tmp/navigaattori-2023.6.18.tar.gz]
+[2023-06-18 10:47:57] INFO root fetch - main [MainThread]: End processing [navigaattori]: success
+[2023-06-18 10:47:57] INFO root fetch - processPackages [blendersynth]: Remove: archive file [/home/abi/fetcher/tmp/blendersynth-0.0.1.tar.gz]
+[2023-06-18 10:47:57] INFO root fetch - processPackages [blendersynth]: Remove: archive file [/home/abi/fetcher/tmp/blendersynth-0.0.2.tar.gz]
+[2023-06-18 10:47:57] INFO root fetch - main [MainThread]: End processing [blendersynth]: success
+[2023-06-18 10:47:59] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.8.tar.gz]
+[2023-06-18 10:47:59] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.9.tar.gz]
+[2023-06-18 10:47:59] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2023-06-18 10:47:59] INFO root fetch - main [MainThread]: Store serial: [18548781]
