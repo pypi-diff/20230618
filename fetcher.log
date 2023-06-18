@@ -7477,3 +7477,110 @@
 [2023-06-18 13:22:25] INFO root fetch - processPackages [inputty]: Remove: archive file [/home/abi/fetcher/tmp/inputty-1.0.4.tar.gz]
 [2023-06-18 13:22:25] INFO root fetch - main [MainThread]: End processing [inputty]: success
 [2023-06-18 13:22:25] INFO root fetch - main [MainThread]: Store serial: [18549518]
+[2023-06-18 13:27:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549518]
+[2023-06-18 13:27:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdis
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uripecker
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: random-otp
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sumformer2
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtstools
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: batcat
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: recnetpy
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydatawork
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iqrfpy
+[2023-06-18 13:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stql
+[2023-06-18 13:27:35] INFO root fetch - processPackages [uripecker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 13:27:35] INFO root fetch - processPackages [sumformer2]: New version: [0.3] Old Version: [0.2]
+[2023-06-18 13:27:35] WARNING root fetch - processPackages [stql]: Skipping, unable to determine old version
+[2023-06-18 13:27:35] INFO root fetch - processPackages [stql]: Start processing: torchrl-nightly
+[2023-06-18 13:27:35] INFO root fetch - processPackages [dtstools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 13:27:35] INFO root fetch - processPackages [mdis]: New version: [0.3] Old Version: [0.2]
+[2023-06-18 13:27:35] WARNING root fetch - processPackages [random-otp]: Skipping, unable to determine old version
+[2023-06-18 13:27:35] INFO root fetch - processPackages [random-otp]: Start processing: requirementslib
+[2023-06-18 13:27:35] INFO root fetch - main [MainThread]: End processing [stql] error
+[2023-06-18 13:27:35] INFO root fetch - processPackages [pydatawork]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 13:27:35] INFO root fetch - main [MainThread]: End processing [random-otp] error
+[2023-06-18 13:27:35] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 13:27:35] INFO root fetch - processPackages [batcat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 13:27:35] INFO root fetch - processPackages [recnetpy]: New version: [0.1.5] Old Version: [0.1.49]
+[2023-06-18 13:27:36] INFO root fetch - processPackages [sumformer2]: Downloading https://files.pythonhosted.org/packages/0b/82/3859a42f446078bf5b2e89133269e22bb6f0c551a0c230844598726dd6b2/sumformer2-0.2.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [requirementslib]: New version: [2.3.1.dev0] Old Version: [2.3.0]
+[2023-06-18 13:27:36] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/e7/6c/4e47121605ecf1a127e10e812433c8e40d3567baab41fdce777b92eddcde/pydatawork-0.1.1.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-18 13:27:36] INFO root fetch - processPackages [uripecker]: Downloading https://files.pythonhosted.org/packages/77/cb/5be3b65fd13911f6047ed4de34b52f9d27060cec564e49635a2e93bdffa6/uripecker-0.0.8.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [batcat]: Downloading https://files.pythonhosted.org/packages/34/90/c16e909113d24eeccd35cb0523313e6ab678ae8722843db9fdff4d04b61f/batcat-0.2.8-py3-none-any.whl
+[2023-06-18 13:27:36] INFO root fetch - processPackages [mdis]: Downloading https://files.pythonhosted.org/packages/0a/73/214c1482a1d42de8bd4ad3775ee68f3a669081e3b5e509c1913749c34efa/mdis-0.2.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/90/02/4e7b136da974da4f1e684422a1a3c26666875a430d8caca2edb2f04b3298/dtstools-0.0.1.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [requirementslib]: Downloading https://files.pythonhosted.org/packages/7e/f9/f5d13063f50077a3137f8b86d98db3a3b2a15520f14fb4cde8f5d2a69b7c/requirementslib-2.3.0.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [recnetpy]: Downloading https://files.pythonhosted.org/packages/88/46/a79296fc7e5c9eb8b878b29dfe56e070443f0b37927fad713c7bdd111c14/recnetpy-0.1.49.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [sumformer2]: Downloading https://files.pythonhosted.org/packages/b3/6a/671f974ac9c34aa6eb45ad9391e06e1ba68931748a092c24d3657c68db65/sumformer2-0.3.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/aa/71/296bf1a03f4c8178d6b39886d6b4e55573cf91387ca121d629f90901676a/pydatawork-0.1.2.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3b/88/101e7c87a8d056c43a8fc2343ea5a24020bd6c62819390407e19c2e58b84/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl
+[2023-06-18 13:27:36] INFO root fetch - processPackages [batcat]: Downloading https://files.pythonhosted.org/packages/98/e1/ac8179e6a48fccbef4029d004f87e13b426023d4cb41d4d7b1201edb14ef/batcat-0.2.9-py3-none-any.whl
+[2023-06-18 13:27:36] INFO root fetch - processPackages [sumformer2]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [sumformer2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumformer2-0.2.tar.gz tmp/sumformer2-0.3.tar.gz --markdown 20230618/s/sumformer2/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-18 13:27:36] INFO root fetch - processPackages [mdis]: Downloading https://files.pythonhosted.org/packages/4c/4e/e888a29c58f522ee365cb11c29f2b4de0684ba36c95a8028708455dbc177/mdis-0.3.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [recnetpy]: Downloading https://files.pythonhosted.org/packages/ab/08/a12ac8cf63d8cbea66d5497f69ff4c676f9b9c429897cbd07a02d43ad801/recnetpy-0.1.5.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/40/6e/69069075cff0e8f9e9feb4f0c203d3d3d92459195d25caeca2ae5bcabb67/dtstools-0.0.2.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [batcat]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [batcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcat-0.2.8-py3-none-any.whl.zip tmp/batcat-0.2.9-py3-none-any.whl.zip --markdown 20230618/b/batcat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 13:27:36] INFO root fetch - processPackages [requirementslib]: Downloading https://files.pythonhosted.org/packages/b3/32/a829997e82fa6d5792b47bda0ba0862569e6e608bafb1341807b40ec8f56/requirementslib-2.3.1.dev0.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [mdis]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [mdis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdis-0.2.tar.gz tmp/mdis-0.3.tar.gz --markdown 20230618/m/mdis/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-18 13:27:36] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.1.tar.gz tmp/pydatawork-0.1.2.tar.gz --markdown 20230618/p/pydatawork/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 13:27:36] INFO root fetch - processPackages [uripecker]: Downloading https://files.pythonhosted.org/packages/0d/01/75d5d162d769e49275b0ae4350fda058a8fdc0cf7648deb7cad354eea68c/uripecker-0.0.9.tar.gz
+[2023-06-18 13:27:36] INFO root fetch - processPackages [dtstools]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [dtstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtstools-0.0.1.tar.gz tmp/dtstools-0.0.2.tar.gz --markdown 20230618/d/dtstools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 13:27:36] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230618/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 13:27:36] INFO root fetch - processPackages [recnetpy]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [recnetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recnetpy-0.1.49.tar.gz tmp/recnetpy-0.1.5.tar.gz --markdown 20230618/r/recnetpy/0.1.49-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 13:27:36] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/46/ce016b773818b01f9d3047ba111687f8b14fc64ca46b82b77f62c661e902/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl
+[2023-06-18 13:27:36] INFO root fetch - processPackages [uripecker]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [uripecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uripecker-0.0.8.tar.gz tmp/uripecker-0.0.9.tar.gz --markdown 20230618/u/uripecker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 13:27:36] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230618/t/torchrl-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-18 13:27:36] INFO root fetch - processPackages [requirementslib]: executing diffoscope
+[2023-06-18 13:27:36] INFO root fetch - processPackages [requirementslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requirementslib-2.3.0.tar.gz tmp/requirementslib-2.3.1.dev0.tar.gz --markdown 20230618/r/requirementslib/2.3.0-2.3.1.dev0/diff.md --exclude *.pyd
+[2023-06-18 13:27:38] INFO root fetch - processPackages [sumformer2]: Remove: archive file [/home/abi/fetcher/tmp/sumformer2-0.2.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - processPackages [sumformer2]: Remove: archive file [/home/abi/fetcher/tmp/sumformer2-0.3.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - processPackages [sumformer2]: Start processing: dtstools
+[2023-06-18 13:27:38] INFO root fetch - main [MainThread]: End processing [sumformer2]: success
+[2023-06-18 13:27:38] INFO root fetch - processPackages [dtstools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 13:27:38] INFO root fetch - processPackages [mdis]: Remove: archive file [/home/abi/fetcher/tmp/mdis-0.2.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - processPackages [mdis]: Remove: archive file [/home/abi/fetcher/tmp/mdis-0.3.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - main [MainThread]: End processing [mdis]: success
+[2023-06-18 13:27:38] INFO root fetch - processPackages [batcat]: Remove: archive file [/home/abi/fetcher/tmp/batcat-0.2.8-py3-none-any.whl.zip]
+[2023-06-18 13:27:38] INFO root fetch - processPackages [batcat]: Remove: archive file [/home/abi/fetcher/tmp/batcat-0.2.9-py3-none-any.whl.zip]
+[2023-06-18 13:27:38] INFO root fetch - main [MainThread]: End processing [batcat]: success
+[2023-06-18 13:27:38] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/7f/ee/158b40742ad03f75762e7c3f93f1dc187c56812ae88772ae647dea48c5bf/dtstools-0.0.3.tar.gz
+[2023-06-18 13:27:38] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.1.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.2.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-18 13:27:38] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.1.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.2.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - main [MainThread]: End processing [dtstools]: success
+[2023-06-18 13:27:38] INFO root fetch - processPackages [uripecker]: Remove: archive file [/home/abi/fetcher/tmp/uripecker-0.0.8.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - processPackages [uripecker]: Remove: archive file [/home/abi/fetcher/tmp/uripecker-0.0.9.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - main [MainThread]: End processing [uripecker]: success
+[2023-06-18 13:27:38] INFO root fetch - processPackages [dtstools]: executing diffoscope
+[2023-06-18 13:27:38] INFO root fetch - processPackages [dtstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtstools-0.0.2.tar.gz tmp/dtstools-0.0.3.tar.gz --markdown 20230618/d/dtstools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 13:27:38] INFO root fetch - processPackages [recnetpy]: Remove: archive file [/home/abi/fetcher/tmp/recnetpy-0.1.49.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - processPackages [recnetpy]: Remove: archive file [/home/abi/fetcher/tmp/recnetpy-0.1.5.tar.gz]
+[2023-06-18 13:27:38] INFO root fetch - main [MainThread]: End processing [recnetpy]: success
+[2023-06-18 13:27:39] INFO root fetch - processPackages [requirementslib]: Remove: archive file [/home/abi/fetcher/tmp/requirementslib-2.3.0.tar.gz]
+[2023-06-18 13:27:39] INFO root fetch - processPackages [requirementslib]: Remove: archive file [/home/abi/fetcher/tmp/requirementslib-2.3.1.dev0.tar.gz]
+[2023-06-18 13:27:39] INFO root fetch - main [MainThread]: End processing [requirementslib]: success
+[2023-06-18 13:27:39] ERROR root fetch - processPackages [dtstools]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/dtstools-0.0.2.tar.gz: No such file or directory
+
+[2023-06-18 13:27:39] INFO root fetch - main [MainThread]: End processing [dtstools] error
+[2023-06-18 13:27:39] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 13:27:39] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 13:27:39] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-18 13:27:40] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-06-18 13:27:40] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-06-18 13:27:40] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-06-18 13:27:40] INFO root fetch - main [MainThread]: Store serial: [18549571]
