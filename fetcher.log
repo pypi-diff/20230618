@@ -14533,3 +14533,45 @@ EOFError: EOF read where object expected
 [2023-06-18 21:51:24] INFO root fetch - processPackages [jupyterlab-stickyland]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_stickyland-0.2.3.tar.gz]
 [2023-06-18 21:51:24] INFO root fetch - main [MainThread]: End processing [jupyterlab-stickyland]: success
 [2023-06-18 21:51:24] INFO root fetch - main [MainThread]: Store serial: [18552484]
+[2023-06-18 21:56:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552484]
+[2023-06-18 21:56:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 21:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: euroleague-api
+[2023-06-18 21:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: just
+[2023-06-18 21:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlt
+[2023-06-18 21:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsclustering
+[2023-06-18 21:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dup-fmt
+[2023-06-18 21:56:37] INFO root fetch - processPackages [dlt]: New version: [0.3.1a0] Old Version: [0.3.1]
+[2023-06-18 21:56:37] INFO root fetch - processPackages [dup-fmt]: New version: [0.0.3.post1] Old Version: [0.0.3]
+[2023-06-18 21:56:37] WARNING root fetch - processPackages [tsclustering]: Skipping, unable to determine old version
+[2023-06-18 21:56:37] INFO root fetch - main [MainThread]: End processing [tsclustering] error
+[2023-06-18 21:56:37] INFO root fetch - processPackages [just]: New version: [0.8.161] Old Version: [0.8.160]
+[2023-06-18 21:56:37] INFO root fetch - processPackages [euroleague-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 21:56:37] INFO root fetch - processPackages [dup-fmt]: Downloading https://files.pythonhosted.org/packages/52/cb/847483e17505a40ee5690265808ca3ab3a863e62dc49fb24b069ff5968dc/dup_fmt-0.0.3.tar.gz
+[2023-06-18 21:56:37] INFO root fetch - processPackages [euroleague-api]: Downloading https://files.pythonhosted.org/packages/d6/4b/f1957657302b3716adfb60ae189b7cf0cbe0ae4072e55f1418f145512305/euroleague_api-0.0.2-py3-none-any.whl
+[2023-06-18 21:56:37] INFO root fetch - processPackages [just]: Downloading https://files.pythonhosted.org/packages/f8/57/b72ec41b2315783c86e6ee027d9d39b6751bec00f4f01b3677fb26d4e491/just-0.8.160.tar.gz
+[2023-06-18 21:56:37] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/61/bd/76f4a6e6bb0d85cc3670ffc3b7bfad7d74484431e009429e0e240a29ffe1/dlt-0.3.1.tar.gz
+[2023-06-18 21:56:37] INFO root fetch - processPackages [just]: Downloading https://files.pythonhosted.org/packages/8c/2e/3df843da595a747dc9b3d0c3df53f5b96c89172fff9dac89050af5c877cc/just-0.8.161.tar.gz
+[2023-06-18 21:56:37] INFO root fetch - processPackages [euroleague-api]: Downloading https://files.pythonhosted.org/packages/3c/d8/a9a59178f8fac477284b719dbccedbf85d6260c67548d987d87dc9426508/euroleague_api-0.0.3.tar.gz
+[2023-06-18 21:56:37] INFO root fetch - processPackages [dup-fmt]: Downloading https://files.pythonhosted.org/packages/27/8b/9d73fa6cea7dea54d948f4cbf1366311256b5fcd76b16946ab81c9454764/dup_fmt-0.0.3.post1.tar.gz
+[2023-06-18 21:56:37] INFO root fetch - processPackages [dup-fmt]: executing diffoscope
+[2023-06-18 21:56:37] INFO root fetch - processPackages [dup-fmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dup_fmt-0.0.3.tar.gz tmp/dup_fmt-0.0.3.post1.tar.gz --markdown 20230618/d/dup-fmt/0.0.3-0.0.3.post1/diff.md --exclude *.pyd
+[2023-06-18 21:56:37] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/a3/d4/1cc89ec416257fac50216368462791a0883deaccf61c9b8dccb5ea1d627d/dlt-0.3.1a0.tar.gz
+[2023-06-18 21:56:37] INFO root fetch - processPackages [just]: executing diffoscope
+[2023-06-18 21:56:37] INFO root fetch - processPackages [just]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/just-0.8.160.tar.gz tmp/just-0.8.161.tar.gz --markdown 20230618/j/just/0.8.160-0.8.161/diff.md --exclude *.pyd
+[2023-06-18 21:56:37] INFO root fetch - processPackages [euroleague-api]: executing diffoscope
+[2023-06-18 21:56:37] INFO root fetch - processPackages [euroleague-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euroleague_api-0.0.2-py3-none-any.whl.zip tmp/euroleague_api-0.0.3.tar.gz --markdown 20230618/e/euroleague-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 21:56:38] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-06-18 21:56:38] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.3.1.tar.gz tmp/dlt-0.3.1a0.tar.gz --markdown 20230618/d/dlt/0.3.1-0.3.1a0/diff.md --exclude *.pyd
+[2023-06-18 21:56:38] INFO root fetch - processPackages [euroleague-api]: Remove: archive file [/home/abi/fetcher/tmp/euroleague_api-0.0.2-py3-none-any.whl.zip]
+[2023-06-18 21:56:38] INFO root fetch - processPackages [euroleague-api]: Remove: archive file [/home/abi/fetcher/tmp/euroleague_api-0.0.3.tar.gz]
+[2023-06-18 21:56:38] INFO root fetch - main [MainThread]: End processing [euroleague-api]: success
+[2023-06-18 21:56:38] INFO root fetch - processPackages [just]: Remove: archive file [/home/abi/fetcher/tmp/just-0.8.160.tar.gz]
+[2023-06-18 21:56:38] INFO root fetch - processPackages [just]: Remove: archive file [/home/abi/fetcher/tmp/just-0.8.161.tar.gz]
+[2023-06-18 21:56:38] INFO root fetch - main [MainThread]: End processing [just]: success
+[2023-06-18 21:56:38] INFO root fetch - processPackages [dup-fmt]: Remove: archive file [/home/abi/fetcher/tmp/dup_fmt-0.0.3.tar.gz]
+[2023-06-18 21:56:38] INFO root fetch - processPackages [dup-fmt]: Remove: archive file [/home/abi/fetcher/tmp/dup_fmt-0.0.3.post1.tar.gz]
+[2023-06-18 21:56:38] INFO root fetch - main [MainThread]: End processing [dup-fmt]: success
+[2023-06-18 21:56:40] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.1.tar.gz]
+[2023-06-18 21:56:40] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.1a0.tar.gz]
+[2023-06-18 21:56:40] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-06-18 21:56:40] INFO root fetch - main [MainThread]: Store serial: [18552501]
