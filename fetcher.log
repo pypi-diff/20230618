@@ -4188,3 +4188,38 @@
 [2023-06-18 05:53:57] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.6.0.tar.gz]
 [2023-06-18 05:53:57] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
 [2023-06-18 05:53:57] INFO root fetch - main [MainThread]: Store serial: [18547920]
+[2023-06-18 05:59:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547920]
+[2023-06-18 05:59:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cabinet
+[2023-06-18 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cabinet
+[2023-06-18 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cabinet
+[2023-06-18 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CharmCord
+[2023-06-18 05:59:05] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.17.3]
+[2023-06-18 05:59:05] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.17.3]
+[2023-06-18 05:59:05] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.17.3]
+[2023-06-18 05:59:06] INFO root fetch - processPackages [CharmCord]: New version: [0.17.0] Old Version: [0.16.0]
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/bb/ab/7bcc3f9f45840f30b4e5f5d1cb98c3247f0fea1505289baf6405a97033c6/cabinet-2023.6.17.3.tar.gz
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/bb/ab/7bcc3f9f45840f30b4e5f5d1cb98c3247f0fea1505289baf6405a97033c6/cabinet-2023.6.17.3.tar.gz
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/bb/ab/7bcc3f9f45840f30b4e5f5d1cb98c3247f0fea1505289baf6405a97033c6/cabinet-2023.6.17.3.tar.gz
+[2023-06-18 05:59:06] INFO root fetch - processPackages [CharmCord]: Downloading https://files.pythonhosted.org/packages/e3/a3/f50b1b1fabc4fee2e45aa446d73feb5472e6b2ea179f046a3d8224c6a9b7/CharmCord-0.16.0-py3-none-any.whl
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-18 05:59:06] INFO root fetch - processPackages [CharmCord]: Downloading https://files.pythonhosted.org/packages/4e/2c/7998bf46de18444038093ab53a5f81ed299b09ff1515d72f863523923395/CharmCord-0.17.0-py3-none-any.whl
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.17.3.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230618/c/cabinet/2023.6.17.3-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.17.3.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230618/c/cabinet/2023.6.17.3-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-18 05:59:06] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.17.3.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230618/c/cabinet/2023.6.17.3-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-18 05:59:06] INFO root fetch - processPackages [CharmCord]: executing diffoscope
+[2023-06-18 05:59:06] INFO root fetch - processPackages [CharmCord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CharmCord-0.16.0-py3-none-any.whl.zip tmp/CharmCord-0.17.0-py3-none-any.whl.zip --markdown 20230618/C/CharmCord/0.16.0-0.17.0/diff.md --exclude *.pyd
+[2023-06-18 05:59:07] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.17.3.tar.gz]
+[2023-06-18 05:59:07] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-06-18 05:59:07] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-18 05:59:07] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-18 05:59:07] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-18 05:59:09] INFO root fetch - processPackages [CharmCord]: Remove: archive file [/home/abi/fetcher/tmp/CharmCord-0.16.0-py3-none-any.whl.zip]
+[2023-06-18 05:59:09] INFO root fetch - processPackages [CharmCord]: Remove: archive file [/home/abi/fetcher/tmp/CharmCord-0.17.0-py3-none-any.whl.zip]
+[2023-06-18 05:59:09] INFO root fetch - main [MainThread]: End processing [CharmCord]: success
+[2023-06-18 05:59:09] INFO root fetch - main [MainThread]: Store serial: [18547936]
