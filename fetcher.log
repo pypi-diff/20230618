@@ -12912,3 +12912,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 19:42:04] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.1.5-py3-none-any.whl.zip]
 [2023-06-18 19:42:04] INFO root fetch - main [MainThread]: End processing [siat]: success
 [2023-06-18 19:42:04] INFO root fetch - main [MainThread]: Store serial: [18551812]
+[2023-06-18 19:47:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551812]
+[2023-06-18 19:47:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-18 19:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalpy
+[2023-06-18 19:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ringgpt
+[2023-06-18 19:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netron
+[2023-06-18 19:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlalchemy-bind-manager
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: examples-snomax
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invoicing-pdfs
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cihai
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: var-print
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-bilichat
+[2023-06-18 19:47:13] INFO root fetch - processPackages [digitalpy]: New version: [0.3.9.2] Old Version: [0.3.9.1]
+[2023-06-18 19:47:13] INFO root fetch - processPackages [netron]: New version: [6.9.9] Old Version: [6.9.8]
+[2023-06-18 19:47:13] WARNING root fetch - processPackages [invoicing-pdfs]: Skipping, unable to determine old version
+[2023-06-18 19:47:13] INFO root fetch - processPackages [var-print]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 19:47:13] INFO root fetch - main [MainThread]: End processing [invoicing-pdfs] error
+[2023-06-18 19:47:13] WARNING root fetch - processPackages [examples-snomax]: Skipping, unable to determine old version
+[2023-06-18 19:47:13] INFO root fetch - main [MainThread]: End processing [examples-snomax] error
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 19:47:13] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-06-18 19:47:13] INFO root fetch - processPackages [sqlalchemy-bind-manager]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-18 19:47:13] INFO root fetch - processPackages [cihai]: New version: [0.9.0a5] Old Version: [0.9.0a4]
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/b2/88/f0774ffb5b8a33d0ae64fd725e8a3f20b2183d4b48dc65ea6f7866ea70ee/nonebot_plugin_bilichat-2.7.0.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [cihai]: executing diffoscope
+[2023-06-18 19:47:13] INFO root fetch - processPackages [cihai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cihai-0.9.0a4.tar.gz tmp/cihai-0.9.0a5.tar.gz --markdown 20230618/c/cihai/0.9.0a4-0.9.0a5/diff.md --exclude *.pyd
+[2023-06-18 19:47:13] INFO root fetch - processPackages [var-print]: Downloading https://files.pythonhosted.org/packages/99/d3/f3f916b22a80247a8f50d2e489463a69fd16db1516c4ddda83034c278650/var_print-0.0.4.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/3a/7b/5afad394918b064267407c98a73108f838c61b039cb5fde506f5d058fbfd/netron-6.9.9-py3-none-any.whl
+[2023-06-18 19:47:13] INFO root fetch - processPackages [digitalpy]: Downloading https://files.pythonhosted.org/packages/f8/ba/15ed2b4188119cb9560b4b2c6cb641f7ad0d8b0bcc3de0a2f360c901bc39/digitalpy-0.3.9.1.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/28/65/847fff0e8e42cfc72f1454e03e25cf7bdf2a4fbdbc869c0e92cde3b9d70c/sqlalchemy_bind_manager-0.2.1.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 19:47:13] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 19:47:13] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/ec/9a/10afbb74879a925186cd00461fe30794c102eecf00514072fb2342b99b28/nonebot_plugin_bilichat-2.7.1.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-06-18 19:47:13] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-6.9.8-py3-none-any.whl.zip tmp/netron-6.9.9-py3-none-any.whl.zip --markdown 20230618/n/netron/6.9.8-6.9.9/diff.md --exclude *.pyd
+[2023-06-18 19:47:13] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-06-18 19:47:13] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.7.0.tar.gz tmp/nonebot_plugin_bilichat-2.7.1.tar.gz --markdown 20230618/n/nonebot-plugin-bilichat/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-06-18 19:47:13] INFO root fetch - processPackages [var-print]: Downloading https://files.pythonhosted.org/packages/11/46/3228853f7a24af6ac70c721b8423676f617f7a3e02afec7f1e28e217c3b5/var_print-0.0.5.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/49/22/5d65fca0d9868d55f4c96bb48f22eb2f76c6b592eaee50614732b792c238/sqlalchemy_bind_manager-0.3.0.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [var-print]: executing diffoscope
+[2023-06-18 19:47:13] INFO root fetch - processPackages [var-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/var_print-0.0.4.tar.gz tmp/var_print-0.0.5.tar.gz --markdown 20230618/v/var-print/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 19:47:13] INFO root fetch - processPackages [digitalpy]: Downloading https://files.pythonhosted.org/packages/a4/30/e7b995fd3fbdee7a21ab1bc52e16c1f0faeeaacf5fad65b400166a004b90/digitalpy-0.3.9.2.tar.gz
+[2023-06-18 19:47:13] INFO root fetch - processPackages [sqlalchemy-bind-manager]: executing diffoscope
+[2023-06-18 19:47:13] INFO root fetch - processPackages [sqlalchemy-bind-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_bind_manager-0.2.1.tar.gz tmp/sqlalchemy_bind_manager-0.3.0.tar.gz --markdown 20230618/s/sqlalchemy-bind-manager/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 19:47:13] INFO root fetch - processPackages [digitalpy]: executing diffoscope
+[2023-06-18 19:47:13] INFO root fetch - processPackages [digitalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalpy-0.3.9.1.tar.gz tmp/digitalpy-0.3.9.2.tar.gz --markdown 20230618/d/digitalpy/0.3.9.1-0.3.9.2/diff.md --exclude *.pyd
+[2023-06-18 19:47:14] ERROR root fetch - processPackages [cihai]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-18 19:47:14] INFO root fetch - main [MainThread]: End processing [cihai] error
+[2023-06-18 19:47:14] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.8.tar.gz]
+[2023-06-18 19:47:14] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.9.tar.gz]
+[2023-06-18 19:47:14] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 19:47:14] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.7.0.tar.gz]
+[2023-06-18 19:47:14] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.7.1.tar.gz]
+[2023-06-18 19:47:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-06-18 19:47:14] INFO root fetch - processPackages [var-print]: Remove: archive file [/home/abi/fetcher/tmp/var_print-0.0.4.tar.gz]
+[2023-06-18 19:47:14] INFO root fetch - processPackages [var-print]: Remove: archive file [/home/abi/fetcher/tmp/var_print-0.0.5.tar.gz]
+[2023-06-18 19:47:14] INFO root fetch - main [MainThread]: End processing [var-print]: success
+[2023-06-18 19:47:15] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.2.1.tar.gz]
+[2023-06-18 19:47:15] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.3.0.tar.gz]
+[2023-06-18 19:47:15] INFO root fetch - main [MainThread]: End processing [sqlalchemy-bind-manager]: success
+[2023-06-18 19:47:15] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-6.9.8-py3-none-any.whl.zip]
+[2023-06-18 19:47:15] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-6.9.9-py3-none-any.whl.zip]
+[2023-06-18 19:47:15] INFO root fetch - main [MainThread]: End processing [netron]: success
+[2023-06-18 19:47:15] INFO root fetch - processPackages [digitalpy]: Remove: archive file [/home/abi/fetcher/tmp/digitalpy-0.3.9.1.tar.gz]
+[2023-06-18 19:47:15] INFO root fetch - processPackages [digitalpy]: Remove: archive file [/home/abi/fetcher/tmp/digitalpy-0.3.9.2.tar.gz]
+[2023-06-18 19:47:15] INFO root fetch - main [MainThread]: End processing [digitalpy]: success
+[2023-06-18 19:47:15] INFO root fetch - main [MainThread]: Store serial: [18551841]
