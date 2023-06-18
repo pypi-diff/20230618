@@ -11967,3 +11967,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 18:36:17] INFO root fetch - processPackages [mlfactory]: Remove: archive file [/home/abi/fetcher/tmp/mlfactory-0.0.8.tar.gz]
 [2023-06-18 18:36:17] INFO root fetch - main [MainThread]: End processing [mlfactory]: success
 [2023-06-18 18:36:17] INFO root fetch - main [MainThread]: Store serial: [18551423]
+[2023-06-18 18:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551423]
+[2023-06-18 18:41:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tgsdl
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haidarlibs
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GaonSD
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feathub-nightly
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scify-file-reader
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bbrl-gymnasium
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-bili-push
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linktools
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ringgpt
+[2023-06-18 18:41:26] WARNING root fetch - processPackages [GaonSD]: Skipping, unable to determine old version
+[2023-06-18 18:41:26] INFO root fetch - main [MainThread]: End processing [GaonSD] error
+[2023-06-18 18:41:26] INFO root fetch - processPackages [tgsdl]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-18 18:41:26] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230617] Old Version: [0.1.dev20230616]
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ringgpt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 18:41:26] INFO root fetch - processPackages [scify-file-reader]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 18:41:26] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 18:41:26] INFO root fetch - processPackages [haidarlibs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 18:41:26] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 18:41:26] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/7e/63/6e5d08d61f1972c27febb758faf035f679a46112992dc34aaaa27e0cae0d/haidarlibs-0.0.4.tar.gz
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/e8/fa/aed8bf24b65fed6b28b904c11ea33cff87ef1a820b67324e43f0280fb20e/ringgpt-0.1.3.tar.gz
+[2023-06-18 18:41:26] INFO root fetch - processPackages [linktools]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-18 18:41:26] INFO root fetch - processPackages [scify-file-reader]: Downloading https://files.pythonhosted.org/packages/a1/d8/204e331e6905915aa460663c360af06a7eb8b1eeb831652fe1d95af48bbe/scify-file-reader-0.0.1.tar.gz
+[2023-06-18 18:41:26] INFO root fetch - processPackages [tgsdl]: Downloading https://files.pythonhosted.org/packages/3c/c0/968d079834faa4f1b30bca20d97a30ffa97ed49173983c84e31340b419ef/tgsdl-1.0.4.tar.gz
+[2023-06-18 18:41:26] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-06-18 18:41:26] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/e6/9e/48d6a53a640fec092d671ad3b6c5b483ab431d2872d3b49f1c6fb05f4dff/bbrl_gymnasium-0.1.3.tar.gz
+[2023-06-18 18:41:26] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/c5/09/a7016aae8dafa8c6cc4ec3673cbbd0a244a02871bb162ff00a8ae9e1dd31/feathub_nightly-0.1.dev20230616-py3-none-any.whl
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/e6/f6/ce4e500cf0173f25839aa389c8dd8c8371a7ff7d91acfe1db53d3fa67099/ringgpt-0.1.4.tar.gz
+[2023-06-18 18:41:26] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/57/1c/722df52b9e34ce7b003fd4b59d54af071bbbbf378ab7e59fd565b21ae1cf/linktools-0.7.8.tar.gz
+[2023-06-18 18:41:26] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12204059>=10485760
+[2023-06-18 18:41:26] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-06-18 18:41:26] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/9a/38/bafcb1bc7a2727ad0070c6fa0c950b0f7d1e783a1c5872bd7387a32f666d/haidarlibs-0.0.5.tar.gz
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 18:41:26] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.3.tar.gz tmp/ringgpt-0.1.4.tar.gz --markdown 20230618/r/ringgpt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 18:41:26] INFO root fetch - processPackages [scify-file-reader]: Downloading https://files.pythonhosted.org/packages/83/a5/5f204d5864fa2b36537ff8b0457dbe01d43d2aedaffcc7e526d5a5be7bb1/scify-file-reader-0.0.2.tar.gz
+[2023-06-18 18:41:26] INFO root fetch - processPackages [haidarlibs]: executing diffoscope
+[2023-06-18 18:41:26] INFO root fetch - processPackages [haidarlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haidarlibs-0.0.4.tar.gz tmp/haidarlibs-0.0.5.tar.gz --markdown 20230618/h/haidarlibs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 18:41:27] INFO root fetch - processPackages [tgsdl]: Downloading https://files.pythonhosted.org/packages/56/ed/d29a299d593ab494e636fea16e243e830aa7d8b99eebb8351e2ab6203c5f/tgsdl-1.0.5.tar.gz
+[2023-06-18 18:41:27] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/6e/21/4305a278968abc10ed7f88c6b74aa999dd0129bf5c034dacf1b1ef724543/bbrl_gymnasium-0.1.4.tar.gz
+[2023-06-18 18:41:27] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-06-18 18:41:27] INFO root fetch - processPackages [scify-file-reader]: executing diffoscope
+[2023-06-18 18:41:27] INFO root fetch - processPackages [scify-file-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scify-file-reader-0.0.1.tar.gz tmp/scify-file-reader-0.0.2.tar.gz --markdown 20230618/s/scify-file-reader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 18:41:27] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-06-18 18:41:27] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.3.tar.gz tmp/bbrl_gymnasium-0.1.4.tar.gz --markdown 20230618/b/bbrl-gymnasium/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 18:41:27] INFO root fetch - processPackages [tgsdl]: executing diffoscope
+[2023-06-18 18:41:27] INFO root fetch - processPackages [tgsdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgsdl-1.0.4.tar.gz tmp/tgsdl-1.0.5.tar.gz --markdown 20230618/t/tgsdl/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-18 18:41:27] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-18 18:41:27] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230618/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 18:41:27] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/96/b7/683cc32d55c92f93797e775d4512e034d0522cfb4e7436660973a5677326/linktools-0.7.9.tar.gz
+[2023-06-18 18:41:27] INFO root fetch - processPackages [linktools]: executing diffoscope
+[2023-06-18 18:41:27] INFO root fetch - processPackages [linktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktools-0.7.8.tar.gz tmp/linktools-0.7.9.tar.gz --markdown 20230618/l/linktools/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-18 18:41:28] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.3.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.4.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 18:41:28] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.4.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.5.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
+[2023-06-18 18:41:28] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.3.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.4.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-06-18 18:41:28] INFO root fetch - processPackages [tgsdl]: Remove: archive file [/home/abi/fetcher/tmp/tgsdl-1.0.4.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - processPackages [tgsdl]: Remove: archive file [/home/abi/fetcher/tmp/tgsdl-1.0.5.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - main [MainThread]: End processing [tgsdl]: success
+[2023-06-18 18:41:28] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-18 18:41:28] INFO root fetch - processPackages [scify-file-reader]: Remove: archive file [/home/abi/fetcher/tmp/scify-file-reader-0.0.1.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - processPackages [scify-file-reader]: Remove: archive file [/home/abi/fetcher/tmp/scify-file-reader-0.0.2.tar.gz]
+[2023-06-18 18:41:28] INFO root fetch - main [MainThread]: End processing [scify-file-reader]: success
+[2023-06-18 18:41:29] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.7.8.tar.gz]
+[2023-06-18 18:41:29] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.7.9.tar.gz]
+[2023-06-18 18:41:29] INFO root fetch - main [MainThread]: End processing [linktools]: success
+[2023-06-18 18:41:29] INFO root fetch - main [MainThread]: Store serial: [18551457]
