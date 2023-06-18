@@ -15475,3 +15475,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 22:51:15] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
 [2023-06-18 22:51:15] INFO root fetch - main [MainThread]: End processing [pipenv]: success
 [2023-06-18 22:51:15] INFO root fetch - main [MainThread]: Store serial: [18552858]
+[2023-06-18 22:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552858]
+[2023-06-18 22:56:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ake
+[2023-06-18 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jetkol42
+[2023-06-18 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyumldiagrams
+[2023-06-18 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pddl-plus-parser
+[2023-06-18 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synthesized
+[2023-06-18 22:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imdb-sqlite
+[2023-06-18 22:56:24] INFO root fetch - processPackages [imdb-sqlite]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 22:56:24] INFO root fetch - processPackages [jetkol42]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 22:56:25] INFO root fetch - processPackages [imdb-sqlite]: Downloading https://files.pythonhosted.org/packages/df/eb/ac283592480bd266c4506c6c06daec8170024c215663e866c79db6726f27/imdb-sqlite-1.0.0.tar.gz
+[2023-06-18 22:56:25] INFO root fetch - processPackages [jetkol42]: Downloading https://files.pythonhosted.org/packages/ef/e8/3b3357c1a1498cdbcf5753bd9aac22a211e88efcd0b0211b2d8e8ce3e5d3/jetkol42-1.0.0.tar.gz
+[2023-06-18 22:56:25] WARNING root fetch - processPackages [ake]: Skipping, unable to determine old version
+[2023-06-18 22:56:25] INFO root fetch - main [MainThread]: End processing [ake] error
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pyumldiagrams]: New version: [2.40.0] Old Version: [2.30.8]
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.4.0] Old Version: [3.3.9]
+[2023-06-18 22:56:25] INFO root fetch - processPackages [synthesized]: New version: [2.7rc4] Old Version: [2.7rc3]
+[2023-06-18 22:56:25] INFO root fetch - processPackages [jetkol42]: Downloading https://files.pythonhosted.org/packages/67/67/cd6ace3536bcbed63612688bc776612adca23f0991efd1f901a71b4fef21/jetkol42-1.0.1.tar.gz
+[2023-06-18 22:56:25] INFO root fetch - processPackages [imdb-sqlite]: Downloading https://files.pythonhosted.org/packages/15/e9/7c87dad2e4631645460327c4045e10076abe96193e8e4131e545410734c4/imdb-sqlite-1.0.1.tar.gz
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pyumldiagrams]: Downloading https://files.pythonhosted.org/packages/bf/53/953d16b34f5664de8287bceba459038fe18d9cf51dc85b762ef294322cd8/pyumldiagrams-2.30.8.tar.gz
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/ff/6b/9170a5879f6fb9002a9189f45be2bc2f6e7e848b856eac61b7878d907ee9/pddl-plus-parser-3.3.9.tar.gz
+[2023-06-18 22:56:25] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/7a/a6/a152c7075ab2995e5446c6182ec3fa0b1f8f45a23e0b96fc883b9a32bb94/synthesized-2.7rc3-cp39-cp39-win_amd64.whl
+[2023-06-18 22:56:25] INFO root fetch - processPackages [jetkol42]: executing diffoscope
+[2023-06-18 22:56:25] INFO root fetch - processPackages [jetkol42]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetkol42-1.0.0.tar.gz tmp/jetkol42-1.0.1.tar.gz --markdown 20230618/j/jetkol42/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 22:56:25] INFO root fetch - processPackages [imdb-sqlite]: executing diffoscope
+[2023-06-18 22:56:25] INFO root fetch - processPackages [imdb-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imdb-sqlite-1.0.0.tar.gz tmp/imdb-sqlite-1.0.1.tar.gz --markdown 20230618/i/imdb-sqlite/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pyumldiagrams]: Downloading https://files.pythonhosted.org/packages/48/ad/b256e9748625249ab5f1fece72f647130852983cc60892fe4eb90e184578/pyumldiagrams-2.40.0.tar.gz
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/c2/ea/b689a2e0400f36568429cd1b1015e5ea778a9a9109b322d8a255a4e52532/pddl-plus-parser-3.4.0.tar.gz
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pyumldiagrams]: executing diffoscope
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pyumldiagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyumldiagrams-2.30.8.tar.gz tmp/pyumldiagrams-2.40.0.tar.gz --markdown 20230618/p/pyumldiagrams/2.30.8-2.40.0/diff.md --exclude *.pyd
+[2023-06-18 22:56:25] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/c2/b9/94fdf8f9d3df75ee63b1bfa0489ca75d8a0f34a88cab63abba5b74e06520/synthesized-2.7rc4-cp39-cp39-win_amd64.whl
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2023-06-18 22:56:25] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.3.9.tar.gz tmp/pddl-plus-parser-3.4.0.tar.gz --markdown 20230618/p/pddl-plus-parser/3.3.9-3.4.0/diff.md --exclude *.pyd
+[2023-06-18 22:56:26] INFO root fetch - processPackages [jetkol42]: Remove: archive file [/home/abi/fetcher/tmp/jetkol42-1.0.0.tar.gz]
+[2023-06-18 22:56:26] INFO root fetch - processPackages [jetkol42]: Remove: archive file [/home/abi/fetcher/tmp/jetkol42-1.0.1.tar.gz]
+[2023-06-18 22:56:26] INFO root fetch - main [MainThread]: End processing [jetkol42]: success
+[2023-06-18 22:56:26] INFO root fetch - processPackages [synthesized]: executing diffoscope
+[2023-06-18 22:56:26] INFO root fetch - processPackages [synthesized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthesized-2.7rc3-cp39-cp39-win_amd64.whl.zip tmp/synthesized-2.7rc4-cp39-cp39-win_amd64.whl.zip --markdown 20230618/s/synthesized/2.7rc3-2.7rc4/diff.md --exclude *.pyd
+[2023-06-18 22:56:26] INFO root fetch - processPackages [imdb-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/imdb-sqlite-1.0.0.tar.gz]
+[2023-06-18 22:56:26] INFO root fetch - processPackages [imdb-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/imdb-sqlite-1.0.1.tar.gz]
+[2023-06-18 22:56:26] INFO root fetch - main [MainThread]: End processing [imdb-sqlite]: success
+[2023-06-18 22:56:27] INFO root fetch - processPackages [pddl-plus-parser]: Remove: archive file [/home/abi/fetcher/tmp/pddl-plus-parser-3.3.9.tar.gz]
+[2023-06-18 22:56:27] INFO root fetch - processPackages [pddl-plus-parser]: Remove: archive file [/home/abi/fetcher/tmp/pddl-plus-parser-3.4.0.tar.gz]
+[2023-06-18 22:56:27] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2023-06-18 22:56:27] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.7rc3-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 22:56:27] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.7rc4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 22:56:27] INFO root fetch - main [MainThread]: End processing [synthesized]: success
+[2023-06-18 22:56:27] INFO root fetch - processPackages [pyumldiagrams]: Remove: archive file [/home/abi/fetcher/tmp/pyumldiagrams-2.30.8.tar.gz]
+[2023-06-18 22:56:27] INFO root fetch - processPackages [pyumldiagrams]: Remove: archive file [/home/abi/fetcher/tmp/pyumldiagrams-2.40.0.tar.gz]
+[2023-06-18 22:56:27] INFO root fetch - main [MainThread]: End processing [pyumldiagrams]: success
+[2023-06-18 22:56:27] INFO root fetch - main [MainThread]: Store serial: [18552887]
