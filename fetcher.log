@@ -9597,3 +9597,108 @@ EOFError: EOF read where object expected
 [2023-06-18 15:48:33] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-06-18 15:48:33] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-06-18 15:48:33] INFO root fetch - main [MainThread]: Store serial: [18550414]
+[2023-06-18 15:53:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550414]
+[2023-06-18 15:53:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: featherplot
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homelab-node-red-backup
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autonomy-dev
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-leave
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastestimator-nightly
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jetkol42
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tika-client
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: magicwall
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kk
+[2023-06-18 15:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lacuscore
+[2023-06-18 15:53:42] INFO root fetch - processPackages [autonomy-dev]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.8] Old Version: [1.7]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [homelab-node-red-backup]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [featherplot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [tika-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [jetkol42]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [magicwall]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [kk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [lacuscore]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202306171350] Old Version: [1.6.0.dev202306161353]
+[2023-06-18 15:53:42] INFO root fetch - processPackages [homelab-node-red-backup]: Downloading https://files.pythonhosted.org/packages/d6/3d/9879105b766b7aa0157e710b494668f8c9d21d34cbc67ac593c803d84663/homelab_node_red_backup-1.3.0.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/e9/80/08c58e2c3c2df3a7c9bbfd770c7bbdc6845ecb24724ef11eb025573b15bd/lacuscore-1.5.8.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [tika-client]: Downloading https://files.pythonhosted.org/packages/2b/05/da935fb3e2f3524fe6ef356b1b765d41810053215c094f61ebeb1b6e307d/tika_client-0.1.0.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/b8/6b/0f6e569ee4fe163ef66bd3867fb6d6b3e2528d671a188f69894d6158c4da/fastestimator-nightly-1.6.0.dev202306161353.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/2a/42/ea649f258e678c27506163817240a8e9251ac74180b28a1748662b750d82/autonomy_dev-0.1.4.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/27/8a/072d08ea776455e813d8fb1165386e8171fae23396c46596eaaa90f173ea/django-ipghrms-leave-1.7.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [jetkol42]: Downloading https://files.pythonhosted.org/packages/ef/e8/3b3357c1a1498cdbcf5753bd9aac22a211e88efcd0b0211b2d8e8ce3e5d3/jetkol42-1.0.0.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [featherplot]: Downloading https://files.pythonhosted.org/packages/4b/fd/e3f940addd9f8ae0630259ca1846f3b023184b0b9a08d0ff6b2d76a69366/featherplot-0.0.2.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [magicwall]: Downloading https://files.pythonhosted.org/packages/e7/f3/60fa7ee9db7b6dfcac5edfc73ce84b626df79c33bfa25e4b5a74a4187b83/magicwall-0.0.1.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/c4/62/350626fca2aab8d192bab7ce2ae99075aba6756c4ac4d9a57c24b0fce739/kk-0.9.1.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [homelab-node-red-backup]: Downloading https://files.pythonhosted.org/packages/57/9e/31b5a23b3d84f231276f68a21ce70b20c090043bff0e13f691b9838f3239/homelab_node_red_backup-1.4.0.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [tika-client]: Downloading https://files.pythonhosted.org/packages/0f/00/7dcd6724dc11f9a38839e7c919e1b06b967ff0a0a8e8505251d90a9a2e18/tika_client-0.1.1.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/26/df/f9bd17e519216457c5e208fe72d484b5e61143c5232135d765cedcfb5d26/lacuscore-1.5.9.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [jetkol42]: Downloading https://files.pythonhosted.org/packages/67/67/cd6ace3536bcbed63612688bc776612adca23f0991efd1f901a71b4fef21/jetkol42-1.0.1.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.5.8.tar.gz tmp/lacuscore-1.5.9.tar.gz --markdown 20230618/l/lacuscore/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-18 15:53:42] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/3c/a5/a90a1e5de77c10444e481854e5879df1ff4c269db82f4cb232fba2a0c351/fastestimator-nightly-1.6.0.dev202306171350.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/5c/b8/3ddf6e83ad2e43b603e5a7449f3238d3eb6c0255bfe459e5f09796e2d5f0/autonomy_dev-0.1.5.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [homelab-node-red-backup]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [homelab-node-red-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homelab_node_red_backup-1.3.0.tar.gz tmp/homelab_node_red_backup-1.4.0.tar.gz --markdown 20230618/h/homelab-node-red-backup/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-18 15:53:42] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/07/64/fb9dd61ec26bdeb66686e6047d2f2eed129d48e5b31f092d1c2a6ae208a5/django-ipghrms-leave-1.8.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [magicwall]: Downloading https://files.pythonhosted.org/packages/06/a9/2ca5720acfeedba171c503941a76de15e9fd22ceb3439e2dd70cb268083f/magicwall-0.0.2.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [featherplot]: Downloading https://files.pythonhosted.org/packages/74/0c/5a80643b983ef57e9e53e03cc3cbd050adfe3188002c52f0dd6f6135eec9/featherplot-0.0.3.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [jetkol42]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [jetkol42]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetkol42-1.0.0.tar.gz tmp/jetkol42-1.0.1.tar.gz --markdown 20230618/j/jetkol42/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 15:53:42] INFO root fetch - processPackages [kk]: Downloading https://files.pythonhosted.org/packages/de/bd/53bbe6f37d72a79af297c55d161f15b5e7d89bde9e87dc5e144d448a7b5a/kk-0.9.2.tar.gz
+[2023-06-18 15:53:42] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.7.tar.gz tmp/django-ipghrms-leave-1.8.tar.gz --markdown 20230618/d/django-ipghrms-leave/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-18 15:53:42] INFO root fetch - processPackages [magicwall]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [magicwall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicwall-0.0.1.tar.gz tmp/magicwall-0.0.2.tar.gz --markdown 20230618/m/magicwall/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 15:53:42] INFO root fetch - processPackages [autonomy-dev]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [autonomy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomy_dev-0.1.4.tar.gz tmp/autonomy_dev-0.1.5.tar.gz --markdown 20230618/a/autonomy-dev/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 15:53:42] INFO root fetch - processPackages [kk]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [kk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kk-0.9.1.tar.gz tmp/kk-0.9.2.tar.gz --markdown 20230618/k/kk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-18 15:53:42] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306161353.tar.gz tmp/fastestimator-nightly-1.6.0.dev202306171350.tar.gz --markdown 20230618/f/fastestimator-nightly/1.6.0.dev202306161353-1.6.0.dev202306171350/diff.md --exclude *.pyd
+[2023-06-18 15:53:42] INFO root fetch - processPackages [featherplot]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [featherplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featherplot-0.0.2.tar.gz tmp/featherplot-0.0.3.tar.gz --markdown 20230618/f/featherplot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 15:53:42] INFO root fetch - processPackages [tika-client]: executing diffoscope
+[2023-06-18 15:53:42] INFO root fetch - processPackages [tika-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tika_client-0.1.0.tar.gz tmp/tika_client-0.1.1.tar.gz --markdown 20230618/t/tika-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 15:53:43] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.5.8.tar.gz]
+[2023-06-18 15:53:43] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.5.9.tar.gz]
+[2023-06-18 15:53:43] INFO root fetch - processPackages [lacuscore]: Start processing: narm2-SBU
+[2023-06-18 15:53:43] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2023-06-18 15:53:43] WARNING root fetch - processPackages [narm2-SBU]: Skipping, unable to determine old version
+[2023-06-18 15:53:43] INFO root fetch - processPackages [narm2-SBU]: Start processing: ConsolePrint
+[2023-06-18 15:53:43] INFO root fetch - main [MainThread]: End processing [narm2-SBU] error
+[2023-06-18 15:53:43] INFO root fetch - processPackages [ConsolePrint]: New version: [1.3.9] Old Version: [1.3.6]
+[2023-06-18 15:53:44] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/73/b5/6e19617a230a0a225eb3c75ec3fbeb39f0a3d48dd0fb844acbee1c656998/consoleprint-1.3.6.tar.gz
+[2023-06-18 15:53:44] INFO root fetch - processPackages [homelab-node-red-backup]: Remove: archive file [/home/abi/fetcher/tmp/homelab_node_red_backup-1.3.0.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - processPackages [homelab-node-red-backup]: Remove: archive file [/home/abi/fetcher/tmp/homelab_node_red_backup-1.4.0.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - main [MainThread]: End processing [homelab-node-red-backup]: success
+[2023-06-18 15:53:44] INFO root fetch - processPackages [jetkol42]: Remove: archive file [/home/abi/fetcher/tmp/jetkol42-1.0.0.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - processPackages [jetkol42]: Remove: archive file [/home/abi/fetcher/tmp/jetkol42-1.0.1.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - main [MainThread]: End processing [jetkol42]: success
+[2023-06-18 15:53:44] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/93/54/c62537c33b6f4d34187801c3281db59604142d1f6fbea84eed216280ad3e/consoleprint-1.3.9.tar.gz
+[2023-06-18 15:53:44] INFO root fetch - processPackages [magicwall]: Remove: archive file [/home/abi/fetcher/tmp/magicwall-0.0.1.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - processPackages [magicwall]: Remove: archive file [/home/abi/fetcher/tmp/magicwall-0.0.2.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - main [MainThread]: End processing [magicwall]: success
+[2023-06-18 15:53:44] INFO root fetch - processPackages [ConsolePrint]: executing diffoscope
+[2023-06-18 15:53:44] INFO root fetch - processPackages [ConsolePrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleprint-1.3.6.tar.gz tmp/consoleprint-1.3.9.tar.gz --markdown 20230618/C/ConsolePrint/1.3.6-1.3.9/diff.md --exclude *.pyd
+[2023-06-18 15:53:44] INFO root fetch - processPackages [featherplot]: Remove: archive file [/home/abi/fetcher/tmp/featherplot-0.0.2.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - processPackages [featherplot]: Remove: archive file [/home/abi/fetcher/tmp/featherplot-0.0.3.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - main [MainThread]: End processing [featherplot]: success
+[2023-06-18 15:53:44] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.1.4.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.1.5.tar.gz]
+[2023-06-18 15:53:44] INFO root fetch - main [MainThread]: End processing [autonomy-dev]: success
+[2023-06-18 15:53:45] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.1.tar.gz]
+[2023-06-18 15:53:45] INFO root fetch - processPackages [kk]: Remove: archive file [/home/abi/fetcher/tmp/kk-0.9.2.tar.gz]
+[2023-06-18 15:53:45] INFO root fetch - main [MainThread]: End processing [kk]: success
+[2023-06-18 15:53:45] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.3.6.tar.gz]
+[2023-06-18 15:53:45] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.3.9.tar.gz]
+[2023-06-18 15:53:45] INFO root fetch - main [MainThread]: End processing [ConsolePrint]: success
+[2023-06-18 15:53:46] INFO root fetch - processPackages [tika-client]: Remove: archive file [/home/abi/fetcher/tmp/tika_client-0.1.0.tar.gz]
+[2023-06-18 15:53:46] INFO root fetch - processPackages [tika-client]: Remove: archive file [/home/abi/fetcher/tmp/tika_client-0.1.1.tar.gz]
+[2023-06-18 15:53:46] INFO root fetch - main [MainThread]: End processing [tika-client]: success
+[2023-06-18 15:53:47] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.7.tar.gz]
+[2023-06-18 15:53:47] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.8.tar.gz]
+[2023-06-18 15:53:47] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-18 15:53:49] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306161353.tar.gz]
+[2023-06-18 15:53:49] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306171350.tar.gz]
+[2023-06-18 15:53:49] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-06-18 15:53:49] INFO root fetch - main [MainThread]: Store serial: [18550451]
