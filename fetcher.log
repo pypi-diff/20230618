@@ -7766,3 +7766,142 @@
 [2023-06-18 13:40:34] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.3a0.tar.gz]
 [2023-06-18 13:40:34] INFO root fetch - main [MainThread]: End processing [prismstudio-stg]: success
 [2023-06-18 13:40:34] INFO root fetch - main [MainThread]: Store serial: [18549655]
+[2023-06-18 13:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549655]
+[2023-06-18 13:45:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: towdio-player
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweatDB
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: requirementslib
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mrfix
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BlizzardWarcraftAPI
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: intezer-sdk
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TrimLog
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lollms
+[2023-06-18 13:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autopyre
+[2023-06-18 13:45:46] INFO root fetch - processPackages [towdio-player]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [TrimLog]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [BlizzardWarcraftAPI]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [sweatDB]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [autopyre]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [lollms]: New version: [1.1.97] Old Version: [1.1.96]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [mrfix]: New version: [2.0.3] Old Version: [1.0.6]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [requirementslib]: New version: [3.0.0] Old Version: [2.3.1.dev0]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [lollms]: New version: [1.1.97] Old Version: [1.1.96]
+[2023-06-18 13:45:46] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/a8/f9/1d34abf110082cc6dcbe87ac7635ce55e62cbfcc83abe2f099ec800bf141/sweatDB-2.0.5.tar.gz
+[2023-06-18 13:45:46] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/21/57/d737442e24c08edd18753150836252081fbac2600f4413ccac9a86a44cf9/autopyre-0.0.2.tar.gz
+[2023-06-18 13:45:46] INFO root fetch - processPackages [requirementslib]: Downloading https://files.pythonhosted.org/packages/b3/32/a829997e82fa6d5792b47bda0ba0862569e6e608bafb1341807b40ec8f56/requirementslib-2.3.1.dev0.tar.gz
+[2023-06-18 13:45:46] INFO root fetch - processPackages [towdio-player]: Downloading https://files.pythonhosted.org/packages/95/e0/2ec2efc9f4eb2db1551b0c1201ab747d7d20b0bf7cb32327faa1848558ea/towdio_player-1.0.1.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [TrimLog]: Downloading https://files.pythonhosted.org/packages/a3/0e/420a89a7ad468146df646848d9d54abc378b0e761fc0c1e2d7220b785b00/TrimLog-0.7.3.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Downloading https://files.pythonhosted.org/packages/0c/7e/e9b3bf361c0b5db215b181da0ec7a187adaa6da73819c3b7ea38d732f6c1/BlizzardWarcraftAPI-0.1.0.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fd/7e/dc36117d31183f67f641c3d6becf5b2879bde6aa2f8945f03e9b73015cf3/lollms-1.1.96.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fd/7e/dc36117d31183f67f641c3d6becf5b2879bde6aa2f8945f03e9b73015cf3/lollms-1.1.96.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-06-18 13:45:47] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/ef/a3/ccea6c8179c1030257a7d7ec0193a9b3131b4764338037db9116d8163c80/mrfix-1.0.6.tar.gz
+[2023-06-18 13:45:47] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 28895250>=10485760
+[2023-06-18 13:45:47] INFO root fetch - processPackages [lollms]: Start processing: sweatDB
+[2023-06-18 13:45:47] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 13:45:47] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 28895250>=10485760
+[2023-06-18 13:45:47] INFO root fetch - processPackages [lollms]: Start processing: podval
+[2023-06-18 13:45:47] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 13:45:47] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/11/0f/eafe1ad4d788958b53c823e4998519b505b9d244382c983111a6f0b53051/sweatDB-2.0.6.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [sweatDB]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-18 13:45:47] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/8e/60/0abb2fa41be084b45354777c453ac54cbddd73c2faeca4b20a0da56f955e/autopyre-0.0.3.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [towdio-player]: Downloading https://files.pythonhosted.org/packages/fa/2f/822a97356cc2859bca8c68b87469033d3262282edc2d92bbee7fae4a6fea/towdio_player-1.0.2.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/11/0f/eafe1ad4d788958b53c823e4998519b505b9d244382c983111a6f0b53051/sweatDB-2.0.6.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [towdio-player]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [towdio-player]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towdio_player-1.0.1.tar.gz tmp/towdio_player-1.0.2.tar.gz --markdown 20230618/t/towdio-player/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-18 13:45:47] INFO root fetch - processPackages [podval]: New version: [3.9] Old Version: [3.8]
+[2023-06-18 13:45:47] INFO root fetch - processPackages [requirementslib]: Downloading https://files.pythonhosted.org/packages/7f/05/3b5b4d0aea645059f98d90ed45ce390c3955712b5c4c2cbe6c90d3333f09/requirementslib-3.0.0.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [sweatDB]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [sweatDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweatDB-2.0.5.tar.gz tmp/sweatDB-2.0.6.tar.gz --markdown 20230618/s/sweatDB/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-18 13:45:47] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.2.tar.gz tmp/autopyre-0.0.3.tar.gz --markdown 20230618/a/autopyre/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 13:45:47] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Downloading https://files.pythonhosted.org/packages/32/69/d7596559bca703da88ed671240630591e5e3ff127e9daec3d65899fbe94f/BlizzardWarcraftAPI-0.1.1.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [TrimLog]: Downloading https://files.pythonhosted.org/packages/98/6d/d1c5b696853d2a42b85aa6b6712de016f547e19f1b409ae424b32b8db903/TrimLog-0.8.0.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-06-18 13:45:47] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/ec/df/e697a04ff9e0559140c850c091b94c587ba64497e2968e8d118018d4a1d8/sweatDB-2.0.7.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/93/80/6ee501cbf3394335d3cb27c5d84aca1a8d82e24b3797376826eceec5164f/mrfix-2.0.3.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/df/a1/ae2a96304d5728497fdc642239fdb157101db8d29751b7878645d266155d/podval-3.8.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [requirementslib]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [requirementslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requirementslib-2.3.1.dev0.tar.gz tmp/requirementslib-3.0.0.tar.gz --markdown 20230618/r/requirementslib/2.3.1.dev0-3.0.0/diff.md --exclude *.pyd
+[2023-06-18 13:45:47] INFO root fetch - processPackages [TrimLog]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [TrimLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrimLog-0.7.3.tar.gz tmp/TrimLog-0.8.0.tar.gz --markdown 20230618/T/TrimLog/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-06-18 13:45:47] INFO root fetch - processPackages [BlizzardWarcraftAPI]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [BlizzardWarcraftAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlizzardWarcraftAPI-0.1.0.tar.gz tmp/BlizzardWarcraftAPI-0.1.1.tar.gz --markdown 20230618/B/BlizzardWarcraftAPI/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 13:45:47] INFO root fetch - processPackages [sweatDB]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [sweatDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweatDB-2.0.6.tar.gz tmp/sweatDB-2.0.7.tar.gz --markdown 20230618/s/sweatDB/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-18 13:45:47] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-1.0.6.tar.gz tmp/mrfix-2.0.3.tar.gz --markdown 20230618/m/mrfix/1.0.6-2.0.3/diff.md --exclude *.pyd
+[2023-06-18 13:45:47] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230618/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-18 13:45:47] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/7c/b7/2dcee03024fd9de34e01e9104f50a9d482e6a769d6697dcea2a5100a0e04/podval-3.9.tar.gz
+[2023-06-18 13:45:47] INFO root fetch - processPackages [podval]: executing diffoscope
+[2023-06-18 13:45:47] INFO root fetch - processPackages [podval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podval-3.8.tar.gz tmp/podval-3.9.tar.gz --markdown 20230618/p/podval/3.8-3.9/diff.md --exclude *.pyd
+[2023-06-18 13:45:48] INFO root fetch - processPackages [towdio-player]: Remove: archive file [/home/abi/fetcher/tmp/towdio_player-1.0.1.tar.gz]
+[2023-06-18 13:45:48] INFO root fetch - processPackages [towdio-player]: Remove: archive file [/home/abi/fetcher/tmp/towdio_player-1.0.2.tar.gz]
+[2023-06-18 13:45:48] INFO root fetch - processPackages [towdio-player]: Start processing: ecasbot
+[2023-06-18 13:45:48] INFO root fetch - main [MainThread]: End processing [towdio-player]: success
+[2023-06-18 13:45:48] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.5.tar.gz]
+[2023-06-18 13:45:48] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.6.tar.gz]
+[2023-06-18 13:45:48] INFO root fetch - processPackages [sweatDB]: Start processing: pyrestyle
+[2023-06-18 13:45:48] INFO root fetch - main [MainThread]: End processing [sweatDB]: success
+[2023-06-18 13:45:48] INFO root fetch - processPackages [pyrestyle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 13:45:48] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/9a/bb/da78f65ab7153fca27fd9cefddb0a8ee02ba744d45028a15a5d5529200fe/pyrestyle-0.0.1.tar.gz
+[2023-06-18 13:45:48] INFO root fetch - processPackages [ecasbot]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-18 13:45:48] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/a0/a4/e9ec0fb3b541315eedc520f0f182a5c74a3b207925881a6d80a8399c506b/pyrestyle-0.0.2.tar.gz
+[2023-06-18 13:45:48] INFO root fetch - processPackages [pyrestyle]: executing diffoscope
+[2023-06-18 13:45:48] INFO root fetch - processPackages [pyrestyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestyle-0.0.1.tar.gz tmp/pyrestyle-0.0.2.tar.gz --markdown 20230618/p/pyrestyle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 13:45:49] INFO root fetch - processPackages [TrimLog]: Remove: archive file [/home/abi/fetcher/tmp/TrimLog-0.7.3.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - processPackages [TrimLog]: Remove: archive file [/home/abi/fetcher/tmp/TrimLog-0.8.0.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - main [MainThread]: End processing [TrimLog]: success
+[2023-06-18 13:45:49] INFO root fetch - processPackages [ecasbot]: Downloading https://files.pythonhosted.org/packages/8c/9d/1d76f7c1c0b9535d851bd6b08d9ff51a4913cfd1859665f5f2264df68e7a/ecasbot-1.8.2.tar.gz
+[2023-06-18 13:45:49] ERROR root fetch - processPackages [sweatDB]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
+
+[2023-06-18 13:45:49] INFO root fetch - main [MainThread]: End processing [sweatDB] error
+[2023-06-18 13:45:49] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Remove: archive file [/home/abi/fetcher/tmp/BlizzardWarcraftAPI-0.1.0.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Remove: archive file [/home/abi/fetcher/tmp/BlizzardWarcraftAPI-0.1.1.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - main [MainThread]: End processing [BlizzardWarcraftAPI]: success
+[2023-06-18 13:45:49] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2023-06-18 13:45:49] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2023-06-18 13:45:49] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-06-18 13:45:49] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.8.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.9.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - main [MainThread]: End processing [podval]: success
+[2023-06-18 13:45:49] INFO root fetch - processPackages [ecasbot]: Downloading https://files.pythonhosted.org/packages/f4/06/16b1329085f00496eefd87c3c761572c7545949c9bcdddbdd273c9fab22b/ecasbot-1.8.3.tar.gz
+[2023-06-18 13:45:49] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.2.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-1.0.6.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.3.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.3.tar.gz]
+[2023-06-18 13:45:49] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-06-18 13:45:49] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 13:45:49] INFO root fetch - processPackages [ecasbot]: executing diffoscope
+[2023-06-18 13:45:49] INFO root fetch - processPackages [ecasbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecasbot-1.8.2.tar.gz tmp/ecasbot-1.8.3.tar.gz --markdown 20230618/e/ecasbot/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-18 13:45:50] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.1.tar.gz]
+[2023-06-18 13:45:50] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.2.tar.gz]
+[2023-06-18 13:45:50] INFO root fetch - main [MainThread]: End processing [pyrestyle]: success
+[2023-06-18 13:45:50] INFO root fetch - processPackages [requirementslib]: Remove: archive file [/home/abi/fetcher/tmp/requirementslib-2.3.1.dev0.tar.gz]
+[2023-06-18 13:45:50] INFO root fetch - processPackages [requirementslib]: Remove: archive file [/home/abi/fetcher/tmp/requirementslib-3.0.0.tar.gz]
+[2023-06-18 13:45:50] INFO root fetch - main [MainThread]: End processing [requirementslib]: success
+[2023-06-18 13:45:50] INFO root fetch - processPackages [ecasbot]: Remove: archive file [/home/abi/fetcher/tmp/ecasbot-1.8.2.tar.gz]
+[2023-06-18 13:45:50] INFO root fetch - processPackages [ecasbot]: Remove: archive file [/home/abi/fetcher/tmp/ecasbot-1.8.3.tar.gz]
+[2023-06-18 13:45:50] INFO root fetch - main [MainThread]: End processing [ecasbot]: success
+[2023-06-18 13:45:50] INFO root fetch - main [MainThread]: Store serial: [18549700]
