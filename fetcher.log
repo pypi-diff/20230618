@@ -4784,3 +4784,24 @@
 [2023-06-18 07:20:47] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.5-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
 [2023-06-18 07:20:47] INFO root fetch - main [MainThread]: End processing [miniosl]: success
 [2023-06-18 07:20:47] INFO root fetch - main [MainThread]: Store serial: [18548271]
+[2023-06-18 07:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548271]
+[2023-06-18 07:25:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swimstroke
+[2023-06-18 07:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmfuncs
+[2023-06-18 07:25:58] INFO root fetch - processPackages [llmfuncs]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-18 07:25:58] INFO root fetch - processPackages [swimstroke]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 07:25:58] INFO root fetch - processPackages [llmfuncs]: Downloading https://files.pythonhosted.org/packages/02/ff/4d877d7f72e738f952c27c3a9ea60d1676730425dcf582590009660309bc/llmfuncs-0.1.1.tar.gz
+[2023-06-18 07:25:58] INFO root fetch - processPackages [swimstroke]: Downloading https://files.pythonhosted.org/packages/4f/1e/b4313ddc71aecb7b845fe481ad7fb2ec57d25a50d3395e7946c72b7c08ca/swimstroke-0.0.2-py3-none-any.whl
+[2023-06-18 07:25:58] INFO root fetch - processPackages [llmfuncs]: Downloading https://files.pythonhosted.org/packages/a9/8a/5295e6af76e6ea81bddcb494342c8325c431378c2364db73b1d601c8061f/llmfuncs-0.2.0.tar.gz
+[2023-06-18 07:25:58] INFO root fetch - processPackages [llmfuncs]: executing diffoscope
+[2023-06-18 07:25:58] INFO root fetch - processPackages [llmfuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmfuncs-0.1.1.tar.gz tmp/llmfuncs-0.2.0.tar.gz --markdown 20230618/l/llmfuncs/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 07:25:59] INFO root fetch - processPackages [swimstroke]: Downloading https://files.pythonhosted.org/packages/fa/32/1fdc74c2c650bbd31390a615658a64126108eaf9431ef7fbd845ba2ae509/swimstroke-0.0.3-py3-none-any.whl
+[2023-06-18 07:25:59] INFO root fetch - processPackages [swimstroke]: executing diffoscope
+[2023-06-18 07:25:59] INFO root fetch - processPackages [swimstroke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swimstroke-0.0.2-py3-none-any.whl.zip tmp/swimstroke-0.0.3-py3-none-any.whl.zip --markdown 20230618/s/swimstroke/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 07:25:59] INFO root fetch - processPackages [llmfuncs]: Remove: archive file [/home/abi/fetcher/tmp/llmfuncs-0.1.1.tar.gz]
+[2023-06-18 07:25:59] INFO root fetch - processPackages [llmfuncs]: Remove: archive file [/home/abi/fetcher/tmp/llmfuncs-0.2.0.tar.gz]
+[2023-06-18 07:25:59] INFO root fetch - main [MainThread]: End processing [llmfuncs]: success
+[2023-06-18 07:26:53] INFO root fetch - processPackages [swimstroke]: Remove: archive file [/home/abi/fetcher/tmp/swimstroke-0.0.2-py3-none-any.whl.zip]
+[2023-06-18 07:26:53] INFO root fetch - processPackages [swimstroke]: Remove: archive file [/home/abi/fetcher/tmp/swimstroke-0.0.3-py3-none-any.whl.zip]
+[2023-06-18 07:26:53] INFO root fetch - main [MainThread]: End processing [swimstroke]: success
+[2023-06-18 07:26:53] INFO root fetch - main [MainThread]: Store serial: [18548274]
