@@ -4886,3 +4886,15 @@
 [2023-06-18 07:37:15] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.6.tar.gz]
 [2023-06-18 07:37:15] INFO root fetch - main [MainThread]: End processing [minidevice]: success
 [2023-06-18 07:37:15] INFO root fetch - main [MainThread]: Store serial: [18548305]
+[2023-06-18 07:42:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548305]
+[2023-06-18 07:42:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-18 07:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: halc
+[2023-06-18 07:42:24] INFO root fetch - processPackages [halc]: New version: [0.22.3] Old Version: [0.22.2]
+[2023-06-18 07:42:24] INFO root fetch - processPackages [halc]: Downloading https://files.pythonhosted.org/packages/6f/cf/ec1e1c3c28b781a57a49ac2ade3b1c292212c108a2688a0ba1ad7ae9fa98/halc-0.22.2.tar.gz
+[2023-06-18 07:42:24] INFO root fetch - processPackages [halc]: Downloading https://files.pythonhosted.org/packages/f2/a2/bda22179ea7144aae6b903b77c5edd986ef1915f39832286b3c01fcbd86b/halc-0.22.3.tar.gz
+[2023-06-18 07:42:25] INFO root fetch - processPackages [halc]: executing diffoscope
+[2023-06-18 07:42:25] INFO root fetch - processPackages [halc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halc-0.22.2.tar.gz tmp/halc-0.22.3.tar.gz --markdown 20230618/h/halc/0.22.2-0.22.3/diff.md --exclude *.pyd
+[2023-06-18 07:42:26] INFO root fetch - processPackages [halc]: Remove: archive file [/home/abi/fetcher/tmp/halc-0.22.2.tar.gz]
+[2023-06-18 07:42:26] INFO root fetch - processPackages [halc]: Remove: archive file [/home/abi/fetcher/tmp/halc-0.22.3.tar.gz]
+[2023-06-18 07:42:26] INFO root fetch - main [MainThread]: End processing [halc]: success
+[2023-06-18 07:42:26] INFO root fetch - main [MainThread]: Store serial: [18548311]
