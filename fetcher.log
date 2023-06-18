@@ -15773,3 +15773,58 @@ EOFError: EOF read where object expected
 [2023-06-18 23:32:40] INFO root fetch - processPackages [lifeactuary]: Remove: archive file [/home/abi/fetcher/tmp/lifeactuary-1.3.tar.gz]
 [2023-06-18 23:32:40] INFO root fetch - main [MainThread]: End processing [lifeactuary]: success
 [2023-06-18 23:32:40] INFO root fetch - main [MainThread]: Store serial: [18553016]
+[2023-06-18 23:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553016]
+[2023-06-18 23:37:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 23:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiovantage
+[2023-06-18 23:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CToolKit
+[2023-06-18 23:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-engineer
+[2023-06-18 23:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CToolKit
+[2023-06-18 23:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pwkit
+[2023-06-18 23:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydicom
+[2023-06-18 23:37:49] INFO root fetch - processPackages [pwkit]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-18 23:37:49] INFO root fetch - processPackages [aiovantage]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-18 23:37:49] INFO root fetch - processPackages [gpt-engineer]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: New version: [1.11] Old Version: [1.1]
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: New version: [1.11] Old Version: [1.1]
+[2023-06-18 23:37:49] INFO root fetch - processPackages [pydicom]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-18 23:37:49] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/aa/04/a59ac5fa4139df60f55479dc65224182c9d3cb6cff3d87059187e5c54ca8/aiovantage-0.2.0.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [gpt-engineer]: Downloading https://files.pythonhosted.org/packages/92/92/8ed0e3f34a7dc3588ef88ab928c5ee234a5cd7b756f20f9616340f085fc3/gpt-engineer-0.0.1.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: Downloading https://files.pythonhosted.org/packages/7d/ef/b0d6b0069e0230a8bf71c886721bacff32b11f1cbe233318d0f7840ccc35/CToolKit-1.1.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: Downloading https://files.pythonhosted.org/packages/7d/ef/b0d6b0069e0230a8bf71c886721bacff32b11f1cbe233318d0f7840ccc35/CToolKit-1.1.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [pwkit]: Downloading https://files.pythonhosted.org/packages/18/0e/234296b767202d7a0805c1a13df863cf69ef7a613e943fee48efb222e162/pwkit-1.1.1.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [pydicom]: Downloading https://files.pythonhosted.org/packages/ca/60/2f52fe0355887d0ac48ebd9a1218daf0eabf894f13143169f3ad0251ee4c/pydicom-2.4.0.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [gpt-engineer]: Downloading https://files.pythonhosted.org/packages/da/5f/0e2d563e8f4e81944816f8f3a2a1f9535b1ca8715b05cc166884c8655362/gpt-engineer-0.0.3.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: Downloading https://files.pythonhosted.org/packages/5c/a4/1378cf1e8779b6217b3916e1a9f46827445203ea98ad6c5faa59a87ef70a/CToolKit-1.11.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: Downloading https://files.pythonhosted.org/packages/5c/a4/1378cf1e8779b6217b3916e1a9f46827445203ea98ad6c5faa59a87ef70a/CToolKit-1.11.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [gpt-engineer]: executing diffoscope
+[2023-06-18 23:37:49] INFO root fetch - processPackages [gpt-engineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-engineer-0.0.1.tar.gz tmp/gpt-engineer-0.0.3.tar.gz --markdown 20230618/g/gpt-engineer/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: executing diffoscope
+[2023-06-18 23:37:49] INFO root fetch - processPackages [pwkit]: Downloading https://files.pythonhosted.org/packages/fe/40/970602d8a9eac4b474f4dd291497372bc756e8fa99e5ab418bd5208fefd5/pwkit-1.2.0.tar.gz
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CToolKit-1.1.tar.gz tmp/CToolKit-1.11.tar.gz --markdown 20230618/C/CToolKit/1.1-1.11/diff.md --exclude *.pyd
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: executing diffoscope
+[2023-06-18 23:37:49] INFO root fetch - processPackages [CToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CToolKit-1.1.tar.gz tmp/CToolKit-1.11.tar.gz --markdown 20230618/C/CToolKit/1.1-1.11/diff.md --exclude *.pyd
+[2023-06-18 23:37:49] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/b2/4d/85f75f5267990e23b855090b7c573b17361bc8850f6a4904874938da61c0/aiovantage-0.2.1.tar.gz
+[2023-06-18 23:37:50] INFO root fetch - processPackages [pwkit]: executing diffoscope
+[2023-06-18 23:37:50] INFO root fetch - processPackages [pwkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwkit-1.1.1.tar.gz tmp/pwkit-1.2.0.tar.gz --markdown 20230618/p/pwkit/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-18 23:37:50] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2023-06-18 23:37:50] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.2.0.tar.gz tmp/aiovantage-0.2.1.tar.gz --markdown 20230618/a/aiovantage/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-18 23:37:50] INFO root fetch - processPackages [pydicom]: Downloading https://files.pythonhosted.org/packages/8e/e4/eff8848de052acbaf3494252c868e88489a4c3a22eaf705e0b3ff08a8c53/pydicom-2.4.1.tar.gz
+[2023-06-18 23:37:50] INFO root fetch - processPackages [pydicom]: executing diffoscope
+[2023-06-18 23:37:50] INFO root fetch - processPackages [pydicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydicom-2.4.0.tar.gz tmp/pydicom-2.4.1.tar.gz --markdown 20230618/p/pydicom/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-18 23:37:51] INFO root fetch - processPackages [gpt-engineer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-engineer-0.0.1.tar.gz]
+[2023-06-18 23:37:51] INFO root fetch - processPackages [gpt-engineer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-engineer-0.0.3.tar.gz]
+[2023-06-18 23:37:51] INFO root fetch - main [MainThread]: End processing [gpt-engineer]: success
+[2023-06-18 23:37:51] INFO root fetch - processPackages [CToolKit]: Remove: archive file [/home/abi/fetcher/tmp/CToolKit-1.1.tar.gz]
+[2023-06-18 23:37:51] INFO root fetch - processPackages [CToolKit]: Remove: archive file [/home/abi/fetcher/tmp/CToolKit-1.11.tar.gz]
+[2023-06-18 23:37:51] INFO root fetch - main [MainThread]: End processing [CToolKit]: success
+[2023-06-18 23:37:51] INFO root fetch - main [MainThread]: End processing [CToolKit]: success
+[2023-06-18 23:37:52] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.2.0.tar.gz]
+[2023-06-18 23:37:52] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.2.1.tar.gz]
+[2023-06-18 23:37:52] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2023-06-18 23:37:53] INFO root fetch - processPackages [pwkit]: Remove: archive file [/home/abi/fetcher/tmp/pwkit-1.1.1.tar.gz]
+[2023-06-18 23:37:53] INFO root fetch - processPackages [pwkit]: Remove: archive file [/home/abi/fetcher/tmp/pwkit-1.2.0.tar.gz]
+[2023-06-18 23:37:53] INFO root fetch - main [MainThread]: End processing [pwkit]: success
+[2023-06-18 23:37:55] INFO root fetch - processPackages [pydicom]: Remove: archive file [/home/abi/fetcher/tmp/pydicom-2.4.0.tar.gz]
+[2023-06-18 23:37:55] INFO root fetch - processPackages [pydicom]: Remove: archive file [/home/abi/fetcher/tmp/pydicom-2.4.1.tar.gz]
+[2023-06-18 23:37:55] INFO root fetch - main [MainThread]: End processing [pydicom]: success
+[2023-06-18 23:37:55] INFO root fetch - main [MainThread]: Store serial: [18553033]
