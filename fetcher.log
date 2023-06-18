@@ -3382,3 +3382,123 @@
 [2023-06-18 04:49:47] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230618.tar.gz]
 [2023-06-18 04:49:47] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-18 04:49:47] INFO root fetch - main [MainThread]: Store serial: [18547623]
+[2023-06-18 04:54:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547623]
+[2023-06-18 04:54:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aiven
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataclass-codec
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-confluentcloud
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mailgun
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yaoys-checkin
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azure
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipcs
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-hcloud
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oppoudpsdk
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: propeller-design-tools
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.4.0a1687054432] Old Version: [6.4.0a1686760738]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ipcs]: New version: [0.1.5.post1] Old Version: [0.1.5]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [dataclass-codec]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [oppoudpsdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.5.0a1687055298] Old Version: [3.5.0a1686635098]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [yaoys-checkin]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ipcs]: Downloading https://files.pythonhosted.org/packages/ce/af/ad5aa30fc25c245d4a0357e06568ad2d8697f795b840d9197f680dc3d679/ipcs-0.1.5.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/06/f0/314c5d9ff3d849902aa9d5e8041f71dc69a15c0d52bcfc963d280b8961b7/dataclass_codec-0.1.3.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/fd/1a/90c86f97a129b9363a04236d6ce5734afb117b8ea1d55b0163d1038f691f/propeller_design_tools-0.4.0.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/9c/69/149ebbc304e156f468a96d90c0f12706c1d5337f554fac2e1bc6f3b45ceb/pulumi_aiven-6.4.0a1686760738.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [oppoudpsdk]: Downloading https://files.pythonhosted.org/packages/e5/1d/a72f85a0fb502322072501e53ec0f02e2be5f5ccb7e5eef58d8047490dea/oppoudpsdk-0.1.8.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/16/6a/b72ab771514455ccad15e6ca36025efc348a93246a945bb606a9ca73cbcf/pulumi_mailgun-3.5.0a1686635098.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [yaoys-checkin]: Downloading https://files.pythonhosted.org/packages/d3/6f/6c38cbec8db914b0d8e3b50d2f4035310fcbf1c0c2e31c9bfcfe0f8e51d9/yaoys_checkin-0.1.7-py3-none-any.whl
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/43/27/342dca707df56cda7d4bce3d8d121b51844faa33a3547041523681a3612d/dataclass_codec-0.1.4.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ipcs]: Downloading https://files.pythonhosted.org/packages/45/b1/f0b395044806f8452cfe25fdd7c11fcdbe818f95fe7a203ce0d7aaba741d/ipcs-0.1.5.post1.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [dataclass-codec]: executing diffoscope
+[2023-06-18 04:54:56] INFO root fetch - processPackages [dataclass-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_codec-0.1.3.tar.gz tmp/dataclass_codec-0.1.4.tar.gz --markdown 20230618/d/dataclass-codec/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ipcs]: executing diffoscope
+[2023-06-18 04:54:56] INFO root fetch - processPackages [ipcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipcs-0.1.5.tar.gz tmp/ipcs-0.1.5.post1.tar.gz --markdown 20230618/i/ipcs/0.1.5-0.1.5.post1/diff.md --exclude *.pyd
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/30/8a/0256e352efb6e0b2a66b7cd056342fd6182a03a09593d23c98734362e4fa/pulumi_aiven-6.4.0a1687054432.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/77/7f/0a961f3dcabae6aa7671dfdda8a1fd37a5e70e89670a93085f9526933e35/propeller_design_tools-0.4.1.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/61/29/48446ab2e3e9690841abdcdeedab8c5969dfa166992008ce68418b5509c4/pulumi_mailgun-3.5.0a1687055298.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [yaoys-checkin]: Downloading https://files.pythonhosted.org/packages/c3/fa/bee00a3b4d511e01146d895ed33cb9e641bd7f29010891ac2c763065ea1a/yaoys_checkin-0.1.8-py3-none-any.whl
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.4.0a1686760738.tar.gz tmp/pulumi_aiven-6.4.0a1687054432.tar.gz --markdown 20230618/p/pulumi-aiven/6.4.0a1686760738-6.4.0a1687054432/diff.md --exclude *.pyd
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-06-18 04:54:56] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-18 04:54:56] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.4.0.tar.gz tmp/propeller_design_tools-0.4.1.tar.gz --markdown 20230618/p/propeller-design-tools/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2023-06-18 04:54:56] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.5.0a1686635098.tar.gz tmp/pulumi_mailgun-3.5.0a1687055298.tar.gz --markdown 20230618/p/pulumi-mailgun/3.5.0a1686635098-3.5.0a1687055298/diff.md --exclude *.pyd
+[2023-06-18 04:54:57] INFO root fetch - processPackages [oppoudpsdk]: Downloading https://files.pythonhosted.org/packages/e5/dc/21e0e6600f79152d7edba01279876615c5f43d9ebbfa165e1a08dd4980d2/oppoudpsdk-0.1.9.tar.gz
+[2023-06-18 04:54:57] INFO root fetch - processPackages [yaoys-checkin]: executing diffoscope
+[2023-06-18 04:54:57] INFO root fetch - processPackages [yaoys-checkin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaoys_checkin-0.1.7-py3-none-any.whl.zip tmp/yaoys_checkin-0.1.8-py3-none-any.whl.zip --markdown 20230618/y/yaoys-checkin/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-18 04:54:57] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-06-18 04:54:57] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230618/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-06-18 04:54:57] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-06-18 04:54:57] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230618/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-06-18 04:54:57] INFO root fetch - processPackages [oppoudpsdk]: executing diffoscope
+[2023-06-18 04:54:57] INFO root fetch - processPackages [oppoudpsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oppoudpsdk-0.1.8.tar.gz tmp/oppoudpsdk-0.1.9.tar.gz --markdown 20230618/o/oppoudpsdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 04:54:57] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-06-18 04:54:57] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230618/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-06-18 04:54:58] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.1.3.tar.gz]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.1.4.tar.gz]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [dataclass-codec]: Start processing: pulumi-kong
+[2023-06-18 04:54:58] INFO root fetch - main [MainThread]: End processing [dataclass-codec]: success
+[2023-06-18 04:54:58] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1687055230] Old Version: [4.6.0a1686635073]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [ipcs]: Remove: archive file [/home/abi/fetcher/tmp/ipcs-0.1.5.tar.gz]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [ipcs]: Remove: archive file [/home/abi/fetcher/tmp/ipcs-0.1.5.post1.tar.gz]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [ipcs]: Start processing: CodeToCAD
+[2023-06-18 04:54:58] INFO root fetch - main [MainThread]: End processing [ipcs]: success
+[2023-06-18 04:54:58] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1687027263]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1686635098.tar.gz]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1687055298.tar.gz]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [pulumi-mailgun]: Start processing: atksh-utils
+[2023-06-18 04:54:58] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2023-06-18 04:54:58] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/9f/c7/a603b1600f14be3fb2eb8b1992ee3ab5e5727b6739024fbc6e00b6897289/pulumi_kong-4.6.0a1686635073.tar.gz
+[2023-06-18 04:54:58] INFO root fetch - processPackages [atksh-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/50/06/b26e70d7ed1e83a74e0871f77573cbeab9e05bcda8e8402e0b49d44b5664/CodeToCAD-0.2.1687027263.tar.gz
+[2023-06-18 04:54:58] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/42/3b/7a40531aa823679f439b88261d310b59cc194b7d12cd8f76dca095fc9570/atksh-utils-0.1.2.tar.gz
+[2023-06-18 04:54:58] INFO root fetch - processPackages [oppoudpsdk]: Remove: archive file [/home/abi/fetcher/tmp/oppoudpsdk-0.1.8.tar.gz]
+[2023-06-18 04:54:58] INFO root fetch - processPackages [oppoudpsdk]: Remove: archive file [/home/abi/fetcher/tmp/oppoudpsdk-0.1.9.tar.gz]
+[2023-06-18 04:54:58] INFO root fetch - main [MainThread]: End processing [oppoudpsdk]: success
+[2023-06-18 04:54:58] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-06-18 04:54:58] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/99/f1/02bb6b75989d673b8d09df009ea8acc6913d3b229f52947817ef06f54e0c/pulumi_kong-4.6.0a1687055230.tar.gz
+[2023-06-18 04:54:59] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-06-18 04:54:59] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1687027263.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230618/C/CodeToCAD/0.2.1687027263-0.2.6/diff.md --exclude *.pyd
+[2023-06-18 04:54:59] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/a6/4a/c5523f0c7f3fc23b5c6ab04af3b492740693174e945a699a10d03bdd13f7/atksh-utils-0.1.3.tar.gz
+[2023-06-18 04:54:59] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2023-06-18 04:54:59] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1686635073.tar.gz tmp/pulumi_kong-4.6.0a1687055230.tar.gz --markdown 20230618/p/pulumi-kong/4.6.0a1686635073-4.6.0a1687055230/diff.md --exclude *.pyd
+[2023-06-18 04:54:59] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2023-06-18 04:54:59] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2023-06-18 04:54:59] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-06-18 04:54:59] INFO root fetch - processPackages [yaoys-checkin]: Remove: archive file [/home/abi/fetcher/tmp/yaoys_checkin-0.1.7-py3-none-any.whl.zip]
+[2023-06-18 04:54:59] INFO root fetch - processPackages [yaoys-checkin]: Remove: archive file [/home/abi/fetcher/tmp/yaoys_checkin-0.1.8-py3-none-any.whl.zip]
+[2023-06-18 04:54:59] INFO root fetch - main [MainThread]: End processing [yaoys-checkin]: success
+[2023-06-18 04:54:59] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-18 04:54:59] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.1.2.tar.gz tmp/atksh-utils-0.1.3.tar.gz --markdown 20230618/a/atksh-utils/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 04:54:59] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.4.0a1686760738.tar.gz]
+[2023-06-18 04:54:59] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.4.0a1687054432.tar.gz]
+[2023-06-18 04:54:59] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-06-18 04:54:59] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.0.tar.gz]
+[2023-06-18 04:54:59] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.1.tar.gz]
+[2023-06-18 04:54:59] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-18 04:55:00] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1686635073.tar.gz]
+[2023-06-18 04:55:00] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1687055230.tar.gz]
+[2023-06-18 04:55:00] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2023-06-18 04:55:00] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1687027263.tar.gz]
+[2023-06-18 04:55:00] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-06-18 04:55:00] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-06-18 04:55:00] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.2.tar.gz]
+[2023-06-18 04:55:00] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.3.tar.gz]
+[2023-06-18 04:55:00] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-18 04:55:01] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-06-18 04:55:01] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-06-18 04:55:01] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-06-18 04:55:23] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2023-06-18 04:55:23] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2023-06-18 04:55:23] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-06-18 04:55:23] INFO root fetch - main [MainThread]: Store serial: [18547657]
