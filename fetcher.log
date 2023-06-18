@@ -15828,3 +15828,54 @@ EOFError: EOF read where object expected
 [2023-06-18 23:37:55] INFO root fetch - processPackages [pydicom]: Remove: archive file [/home/abi/fetcher/tmp/pydicom-2.4.1.tar.gz]
 [2023-06-18 23:37:55] INFO root fetch - main [MainThread]: End processing [pydicom]: success
 [2023-06-18 23:37:55] INFO root fetch - main [MainThread]: Store serial: [18553033]
+[2023-06-18 23:42:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553033]
+[2023-06-18 23:43:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 23:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: disaster-id-scan
+[2023-06-18 23:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sciform
+[2023-06-18 23:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aio-pygo
+[2023-06-18 23:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: electrickiwi-api
+[2023-06-18 23:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pomace
+[2023-06-18 23:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cropnet
+[2023-06-18 23:43:04] WARNING root fetch - processPackages [aio-pygo]: Skipping, unable to determine old version
+[2023-06-18 23:43:04] INFO root fetch - main [MainThread]: End processing [aio-pygo] error
+[2023-06-18 23:43:04] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-18 23:43:04] INFO root fetch - processPackages [cropnet]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 23:43:04] INFO root fetch - processPackages [electrickiwi-api]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-18 23:43:04] INFO root fetch - processPackages [pomace]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-18 23:43:04] INFO root fetch - processPackages [disaster-id-scan]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-18 23:43:04] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-18 23:43:04] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/2a/c9/d9e9d3fe8c83d48e3fe730877ba0cc9b459e7cdd3206d272a8b4fb85222b/cropnet-0.1.3.tar.gz
+[2023-06-18 23:43:04] INFO root fetch - processPackages [electrickiwi-api]: Downloading https://files.pythonhosted.org/packages/a4/84/333e7c0fb20c17006ddf2e5eb92e7ab0ce54a53926dc1dfcc928030c02f8/electrickiwi-api-0.8.4.tar.gz
+[2023-06-18 23:43:04] INFO root fetch - processPackages [disaster-id-scan]: Downloading https://files.pythonhosted.org/packages/48/83/11f423e5bf4b3dfcaedc5d25082d62d27722fdfa889d304c96d0e2482965/disaster_id_scan-0.2.0.tar.gz
+[2023-06-18 23:43:04] INFO root fetch - processPackages [pomace]: Downloading https://files.pythonhosted.org/packages/34/28/c05591acdfbc11a384655be5408cbc6b5ab0e66425e6f5badf5a105208b2/pomace-0.9.8.tar.gz
+[2023-06-18 23:43:04] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-18 23:43:04] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/a0/3d/4036dc9d18acfcee5b5ae8901599b81c22493d1c2075880e5de1ffa2bfdc/cropnet-0.1.4.tar.gz
+[2023-06-18 23:43:04] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-18 23:43:04] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230618/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-18 23:43:04] INFO root fetch - processPackages [cropnet]: executing diffoscope
+[2023-06-18 23:43:04] INFO root fetch - processPackages [cropnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropnet-0.1.3.tar.gz tmp/cropnet-0.1.4.tar.gz --markdown 20230618/c/cropnet/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 23:43:04] INFO root fetch - processPackages [disaster-id-scan]: Downloading https://files.pythonhosted.org/packages/3f/0c/4408cfb4e38e7a4d1c85224d38301099b19d20cee394ee0dea1203b4c58c/disaster_id_scan-0.3.0.tar.gz
+[2023-06-18 23:43:04] INFO root fetch - processPackages [electrickiwi-api]: Downloading https://files.pythonhosted.org/packages/bb/b0/c8c698d05ced547f2debf5f29b92477698255cbb0c1ef16866887c4cfbc2/electrickiwi-api-0.8.5.tar.gz
+[2023-06-18 23:43:04] INFO root fetch - processPackages [disaster-id-scan]: executing diffoscope
+[2023-06-18 23:43:04] INFO root fetch - processPackages [disaster-id-scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disaster_id_scan-0.2.0.tar.gz tmp/disaster_id_scan-0.3.0.tar.gz --markdown 20230618/d/disaster-id-scan/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 23:43:05] INFO root fetch - processPackages [pomace]: Downloading https://files.pythonhosted.org/packages/b0/00/ed8437f5a90bfcb6a35b7973995dbf2d656c4054a6792c1a49e29319ce74/pomace-0.9.9.tar.gz
+[2023-06-18 23:43:05] INFO root fetch - processPackages [electrickiwi-api]: executing diffoscope
+[2023-06-18 23:43:05] INFO root fetch - processPackages [electrickiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electrickiwi-api-0.8.4.tar.gz tmp/electrickiwi-api-0.8.5.tar.gz --markdown 20230618/e/electrickiwi-api/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-18 23:43:05] INFO root fetch - processPackages [pomace]: executing diffoscope
+[2023-06-18 23:43:05] INFO root fetch - processPackages [pomace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomace-0.9.8.tar.gz tmp/pomace-0.9.9.tar.gz --markdown 20230618/p/pomace/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-18 23:43:05] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-18 23:43:05] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-18 23:43:05] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-18 23:43:05] INFO root fetch - processPackages [disaster-id-scan]: Remove: archive file [/home/abi/fetcher/tmp/disaster_id_scan-0.2.0.tar.gz]
+[2023-06-18 23:43:05] INFO root fetch - processPackages [disaster-id-scan]: Remove: archive file [/home/abi/fetcher/tmp/disaster_id_scan-0.3.0.tar.gz]
+[2023-06-18 23:43:05] INFO root fetch - main [MainThread]: End processing [disaster-id-scan]: success
+[2023-06-18 23:43:06] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.3.tar.gz]
+[2023-06-18 23:43:06] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.4.tar.gz]
+[2023-06-18 23:43:06] INFO root fetch - main [MainThread]: End processing [cropnet]: success
+[2023-06-18 23:43:06] INFO root fetch - processPackages [electrickiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/electrickiwi-api-0.8.4.tar.gz]
+[2023-06-18 23:43:06] INFO root fetch - processPackages [electrickiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/electrickiwi-api-0.8.5.tar.gz]
+[2023-06-18 23:43:06] INFO root fetch - main [MainThread]: End processing [electrickiwi-api]: success
+[2023-06-18 23:43:06] INFO root fetch - processPackages [pomace]: Remove: archive file [/home/abi/fetcher/tmp/pomace-0.9.8.tar.gz]
+[2023-06-18 23:43:06] INFO root fetch - processPackages [pomace]: Remove: archive file [/home/abi/fetcher/tmp/pomace-0.9.9.tar.gz]
+[2023-06-18 23:43:06] INFO root fetch - main [MainThread]: End processing [pomace]: success
+[2023-06-18 23:43:06] INFO root fetch - main [MainThread]: Store serial: [18553053]
