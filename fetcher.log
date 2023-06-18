@@ -14799,3 +14799,82 @@ EOFError: EOF read where object expected
 [2023-06-18 22:13:20] INFO root fetch - processPackages [apache-airflow-client]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-client-2.6.2rc1.tar.gz]
 [2023-06-18 22:13:20] INFO root fetch - main [MainThread]: End processing [apache-airflow-client]: success
 [2023-06-18 22:13:20] INFO root fetch - main [MainThread]: Store serial: [18552588]
+[2023-06-18 22:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552588]
+[2023-06-18 22:18:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wineMLXMV
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-throttling
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdshoplib
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autotraders
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hgutilities
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbx
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fdlogger
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lollms
+[2023-06-18 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pwkit
+[2023-06-18 22:18:29] WARNING root fetch - processPackages [wineMLXMV]: Skipping, unable to determine old version
+[2023-06-18 22:18:29] INFO root fetch - main [MainThread]: End processing [wineMLXMV] error
+[2023-06-18 22:18:29] INFO root fetch - processPackages [lollms]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-18 22:18:29] INFO root fetch - processPackages [hgutilities]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-18 22:18:29] INFO root fetch - processPackages [fastapi-throttling]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-18 22:18:29] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-18 22:18:29] INFO root fetch - processPackages [dbx]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-18 22:18:29] INFO root fetch - processPackages [pwkit]: New version: [1.0.0] Old Version: [0.8.9]
+[2023-06-18 22:18:29] INFO root fetch - processPackages [autotraders]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-18 22:18:29] INFO root fetch - processPackages [fdlogger]: New version: [23.6.9] Old Version: [23.6.4]
+[2023-06-18 22:18:29] INFO root fetch - processPackages [lollms]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-18 22:18:30] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/e5/a4/f1c3c93c4d583864c6873cc02891bc9eab17a22fa8dffbf79aa952c20a2f/lollms-1.2.3.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [hgutilities]: Downloading https://files.pythonhosted.org/packages/0a/99/ca8e332d7e8a1bb5653f76cb53502c788dcb8a56eb08495c7faa7dc61eaf/hgutilities-1.0.6.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/e5/a4/f1c3c93c4d583864c6873cc02891bc9eab17a22fa8dffbf79aa952c20a2f/lollms-1.2.3.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [pwkit]: Downloading https://files.pythonhosted.org/packages/10/e6/127cae944f139cb92000678850491e16916a8a4602266d6815618f0c6fe5/pwkit-0.8.9.tar.gz
+[2023-06-18 22:18:30] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31795737>=10485760
+[2023-06-18 22:18:30] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 22:18:30] INFO root fetch - processPackages [fastapi-throttling]: Downloading https://files.pythonhosted.org/packages/b0/7f/ce7c718e7d180c03aa1720ac325972337490445a790e85c0f082777fa2aa/fastapi_throttling-0.1.7.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-06-18 22:18:30] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31795737>=10485760
+[2023-06-18 22:18:30] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 22:18:30] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/71/9d/982603d50feebeccebbb757d3cfc7fcca2f05b2fe51df7d25e9cd1de7f8d/autotraders-1.5.1.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/7a/a9/70ef1dd24ea9d4109dced815141942da193b865bce593409d4188f2c7c29/fdlogger-23.6.4.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/4a/6f/cdb7e5d3f21562fc53f6987fbb39eddbb303bfd6ccc1a29e0c8fefdbaa14/dbx-0.8.8-py3-none-any.whl
+[2023-06-18 22:18:30] INFO root fetch - processPackages [fastapi-throttling]: Downloading https://files.pythonhosted.org/packages/54/f7/8b82335991ab1d03514c227b55b4377a95f9dcd469549b4903b7b55f7fe5/fastapi_throttling-0.1.8.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [hgutilities]: Downloading https://files.pythonhosted.org/packages/d3/f1/8746487b5d81c88e524c2ba6f4b9a846d2ebc4a54f1ee3a275dc9a5e0afb/hgutilities-1.0.7.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [fastapi-throttling]: executing diffoscope
+[2023-06-18 22:18:30] INFO root fetch - processPackages [fastapi-throttling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_throttling-0.1.7.tar.gz tmp/fastapi_throttling-0.1.8.tar.gz --markdown 20230618/f/fastapi-throttling/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-18 22:18:30] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/23/5d/36990542663e11f1d62f11923ffd1c6b1b0f3a7207e4f277d4deb1acc852/fdlogger-23.6.9.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [hgutilities]: executing diffoscope
+[2023-06-18 22:18:30] INFO root fetch - processPackages [hgutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgutilities-1.0.6.tar.gz tmp/hgutilities-1.0.7.tar.gz --markdown 20230618/h/hgutilities/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 22:18:30] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/66/17/2e647c414c6ba986de7b513c921b26be753925ab2338eab3ed44598787ba/autotraders-1.5.2.tar.gz
+[2023-06-18 22:18:30] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-06-18 22:18:30] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230618/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-18 22:18:30] INFO root fetch - processPackages [fdlogger]: executing diffoscope
+[2023-06-18 22:18:30] INFO root fetch - processPackages [fdlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdlogger-23.6.4.tar.gz tmp/fdlogger-23.6.9.tar.gz --markdown 20230618/f/fdlogger/23.6.4-23.6.9/diff.md --exclude *.pyd
+[2023-06-18 22:18:30] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-06-18 22:18:30] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.5.1.tar.gz tmp/autotraders-1.5.2.tar.gz --markdown 20230618/a/autotraders/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-18 22:18:30] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/6c/37/07bb3b0701caca23275b5ae6a911c5e142132a954743c1ccb9d5ed287846/dbx-0.8.9-py3-none-any.whl
+[2023-06-18 22:18:30] INFO root fetch - processPackages [dbx]: executing diffoscope
+[2023-06-18 22:18:30] INFO root fetch - processPackages [dbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbx-0.8.8-py3-none-any.whl.zip tmp/dbx-0.8.9-py3-none-any.whl.zip --markdown 20230618/d/dbx/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-18 22:18:31] INFO root fetch - processPackages [pwkit]: Downloading https://files.pythonhosted.org/packages/be/34/930f476b10ec5d5c5965db4a28c3fdf496c460cda3cce50baba5404d78fa/pwkit-1.0.0.tar.gz
+[2023-06-18 22:18:31] INFO root fetch - processPackages [pwkit]: executing diffoscope
+[2023-06-18 22:18:31] INFO root fetch - processPackages [pwkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwkit-0.8.9.tar.gz tmp/pwkit-1.0.0.tar.gz --markdown 20230618/p/pwkit/0.8.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-18 22:18:31] INFO root fetch - processPackages [fastapi-throttling]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_throttling-0.1.7.tar.gz]
+[2023-06-18 22:18:31] INFO root fetch - processPackages [fastapi-throttling]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_throttling-0.1.8.tar.gz]
+[2023-06-18 22:18:31] INFO root fetch - main [MainThread]: End processing [fastapi-throttling]: success
+[2023-06-18 22:18:32] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-06-18 22:18:32] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-06-18 22:18:32] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-06-18 22:18:32] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.5.1.tar.gz]
+[2023-06-18 22:18:32] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.5.2.tar.gz]
+[2023-06-18 22:18:32] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-06-18 22:18:32] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.4.tar.gz]
+[2023-06-18 22:18:32] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.9.tar.gz]
+[2023-06-18 22:18:32] INFO root fetch - main [MainThread]: End processing [fdlogger]: success
+[2023-06-18 22:18:32] INFO root fetch - processPackages [hgutilities]: Remove: archive file [/home/abi/fetcher/tmp/hgutilities-1.0.6.tar.gz]
+[2023-06-18 22:18:32] INFO root fetch - processPackages [hgutilities]: Remove: archive file [/home/abi/fetcher/tmp/hgutilities-1.0.7.tar.gz]
+[2023-06-18 22:18:32] INFO root fetch - main [MainThread]: End processing [hgutilities]: success
+[2023-06-18 22:18:32] INFO root fetch - processPackages [dbx]: Remove: archive file [/home/abi/fetcher/tmp/dbx-0.8.8-py3-none-any.whl.zip]
+[2023-06-18 22:18:32] INFO root fetch - processPackages [dbx]: Remove: archive file [/home/abi/fetcher/tmp/dbx-0.8.9-py3-none-any.whl.zip]
+[2023-06-18 22:18:32] INFO root fetch - main [MainThread]: End processing [dbx]: success
+[2023-06-18 22:18:35] INFO root fetch - processPackages [pwkit]: Remove: archive file [/home/abi/fetcher/tmp/pwkit-0.8.9.tar.gz]
+[2023-06-18 22:18:35] INFO root fetch - processPackages [pwkit]: Remove: archive file [/home/abi/fetcher/tmp/pwkit-1.0.0.tar.gz]
+[2023-06-18 22:18:35] INFO root fetch - main [MainThread]: End processing [pwkit]: success
+[2023-06-18 22:18:35] INFO root fetch - main [MainThread]: Store serial: [18552618]
