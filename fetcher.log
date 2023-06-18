@@ -14878,3 +14878,70 @@ EOFError: EOF read where object expected
 [2023-06-18 22:18:35] INFO root fetch - processPackages [pwkit]: Remove: archive file [/home/abi/fetcher/tmp/pwkit-1.0.0.tar.gz]
 [2023-06-18 22:18:35] INFO root fetch - main [MainThread]: End processing [pwkit]: success
 [2023-06-18 22:18:35] INFO root fetch - main [MainThread]: Store serial: [18552618]
+[2023-06-18 22:23:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552618]
+[2023-06-18 22:23:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 22:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mizue
+[2023-06-18 22:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fukkatsu
+[2023-06-18 22:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HarmonyDecoder
+[2023-06-18 22:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-06-18 22:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-06-18 22:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib-pybroker
+[2023-06-18 22:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phylox
+[2023-06-18 22:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pursuitlib
+[2023-06-18 22:23:45] INFO root fetch - processPackages [mizue]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 22:23:45] INFO root fetch - processPackages [fukkatsu]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-18 22:23:45] INFO root fetch - processPackages [lib-pybroker]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-18 22:23:45] WARNING root fetch - processPackages [phylox]: Skipping, unable to determine old version
+[2023-06-18 22:23:45] INFO root fetch - processPackages [pursuitlib]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-18 22:23:45] INFO root fetch - main [MainThread]: End processing [phylox] error
+[2023-06-18 22:23:45] INFO root fetch - processPackages [HarmonyDecoder]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-18 22:23:45] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/88/b1/096c14ef8f507b76f46bcd9ec8a0e2a1ec3b38cdeedfbf66618c1da38086/mizue-0.2.8.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-18 22:23:45] INFO root fetch - processPackages [HarmonyDecoder]: Downloading https://files.pythonhosted.org/packages/61/f4/fe1ac91a39ec366dc570b61ae937e1c1f2ce5ea205d8db4b36ee7f109143/HarmonyDecoder-1.0.6.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/1a/ba/ee9168c330ddd1f49b60f6af22be404cda47467b4996e7008857ec0abe83/fukkatsu-0.0.5.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/34/3c/7a7a15f5a575198f5681a2eacd112a20ad5dca5783c6e8b758896a6818cf/lib-pybroker-1.1.8.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [pursuitlib]: Downloading https://files.pythonhosted.org/packages/c9/fe/9924267a0e6cf6762c631903d87b023161a43a58d892703fdc1656ae9acb/pursuitlib-0.3.0.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/05/f2/6e61406b7a44ea671ff9553bb2a722a967dda7a3ab49fa6f1125e86a4d63/mizue-0.2.9.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-18 22:23:45] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.8.tar.gz tmp/mizue-0.2.9.tar.gz --markdown 20230618/m/mizue/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230618/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-18 22:23:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230618/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-18 22:23:45] INFO root fetch - processPackages [fukkatsu]: Downloading https://files.pythonhosted.org/packages/97/36/a1df8070756cd03e0ab960d6ac02e8d670133e2baaf5bdcf01218efe9fa7/fukkatsu-0.0.6.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [fukkatsu]: executing diffoscope
+[2023-06-18 22:23:45] INFO root fetch - processPackages [fukkatsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fukkatsu-0.0.5.tar.gz tmp/fukkatsu-0.0.6.tar.gz --markdown 20230618/f/fukkatsu/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-18 22:23:45] INFO root fetch - processPackages [pursuitlib]: Downloading https://files.pythonhosted.org/packages/e7/63/dd8a129e7c0fc6372ece5ef6903775ac1edc382626b78771ccadb2c24e44/pursuitlib-0.4.0.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/92/47/5d3c2f878c1e65d38032b9450a585161c2761a80814b046f502951c65eed/lib-pybroker-1.1.9.tar.gz
+[2023-06-18 22:23:45] INFO root fetch - processPackages [HarmonyDecoder]: Downloading https://files.pythonhosted.org/packages/29/59/9a1f29ba4b029b37d57debf71b1080ceb79415a7c3ea14b1150f11e5319a/HarmonyDecoder-1.0.7.tar.gz
+[2023-06-18 22:23:46] INFO root fetch - processPackages [HarmonyDecoder]: executing diffoscope
+[2023-06-18 22:23:46] INFO root fetch - processPackages [HarmonyDecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HarmonyDecoder-1.0.6.tar.gz tmp/HarmonyDecoder-1.0.7.tar.gz --markdown 20230618/H/HarmonyDecoder/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 22:23:46] INFO root fetch - processPackages [pursuitlib]: executing diffoscope
+[2023-06-18 22:23:46] INFO root fetch - processPackages [pursuitlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pursuitlib-0.3.0.tar.gz tmp/pursuitlib-0.4.0.tar.gz --markdown 20230618/p/pursuitlib/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-18 22:23:46] INFO root fetch - processPackages [lib-pybroker]: executing diffoscope
+[2023-06-18 22:23:46] INFO root fetch - processPackages [lib-pybroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-pybroker-1.1.8.tar.gz tmp/lib-pybroker-1.1.9.tar.gz --markdown 20230618/l/lib-pybroker/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-18 22:23:46] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-18 22:23:46] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-18 22:23:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-18 22:23:47] INFO root fetch - processPackages [HarmonyDecoder]: Remove: archive file [/home/abi/fetcher/tmp/HarmonyDecoder-1.0.6.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - processPackages [HarmonyDecoder]: Remove: archive file [/home/abi/fetcher/tmp/HarmonyDecoder-1.0.7.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - main [MainThread]: End processing [HarmonyDecoder]: success
+[2023-06-18 22:23:47] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.8.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.9.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-18 22:23:47] INFO root fetch - processPackages [pursuitlib]: Remove: archive file [/home/abi/fetcher/tmp/pursuitlib-0.3.0.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - processPackages [pursuitlib]: Remove: archive file [/home/abi/fetcher/tmp/pursuitlib-0.4.0.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - main [MainThread]: End processing [pursuitlib]: success
+[2023-06-18 22:23:47] INFO root fetch - processPackages [fukkatsu]: Remove: archive file [/home/abi/fetcher/tmp/fukkatsu-0.0.5.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - processPackages [fukkatsu]: Remove: archive file [/home/abi/fetcher/tmp/fukkatsu-0.0.6.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - main [MainThread]: End processing [fukkatsu]: success
+[2023-06-18 22:23:47] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.8.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.9.tar.gz]
+[2023-06-18 22:23:47] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
+[2023-06-18 22:23:47] INFO root fetch - main [MainThread]: Store serial: [18552645]
