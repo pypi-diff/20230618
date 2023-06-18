@@ -11310,3 +11310,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 17:43:32] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-18 17:43:32] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-18 17:43:32] INFO root fetch - main [MainThread]: Store serial: [18551158]
+[2023-06-18 17:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551158]
+[2023-06-18 17:48:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 17:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ltchiptool
+[2023-06-18 17:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-qqguild
+[2023-06-18 17:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapdata
+[2023-06-18 17:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-route
+[2023-06-18 17:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drummachine
+[2023-06-18 17:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homelab-node-red-backup
+[2023-06-18 17:48:41] INFO root fetch - processPackages [ltchiptool]: New version: [4.2.0] Old Version: [4.1.1]
+[2023-06-18 17:48:41] INFO root fetch - processPackages [mapdata]: New version: [2.3.0] Old Version: [2.0.2]
+[2023-06-18 17:48:41] INFO root fetch - processPackages [flet-route]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-18 17:48:41] INFO root fetch - processPackages [nonebot-adapter-qqguild]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-18 17:48:42] INFO root fetch - processPackages [homelab-node-red-backup]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-18 17:48:42] INFO root fetch - processPackages [drummachine]: New version: [0.4.5] Old Version: [0.1.3]
+[2023-06-18 17:48:42] INFO root fetch - processPackages [flet-route]: Downloading https://files.pythonhosted.org/packages/8f/cc/f54719bc836db27ad4904208b66c2b077a0a9137e18ca489977fd5eeb5d7/flet_route-0.3.0.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [homelab-node-red-backup]: Downloading https://files.pythonhosted.org/packages/57/9e/31b5a23b3d84f231276f68a21ce70b20c090043bff0e13f691b9838f3239/homelab_node_red_backup-1.4.0.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [drummachine]: Downloading https://files.pythonhosted.org/packages/ca/7b/e4938c79b26a1b9dc296a7e0ffcab57bba746393fd02b4c65490656e3c03/drummachine-0.1.3.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [ltchiptool]: Downloading https://files.pythonhosted.org/packages/59/c0/98087f8761a1a4afbdb90194531ffca0a5591c0fa8b1ff328c532b1ffac6/ltchiptool-4.1.1.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [nonebot-adapter-qqguild]: Downloading https://files.pythonhosted.org/packages/0c/23/81753fc0b663ba6c0916d2d30c95108de57b5293f986f6870a9d15ee658c/nonebot_adapter_qqguild-0.2.2.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/0f/9e/f674681f7bfe57651d85b390ebc697b43b58c1f1bc2229809fea8b24b002/mapdata-2.0.2.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [flet-route]: Downloading https://files.pythonhosted.org/packages/79/5f/e5065c3284cdbe390005efb41206e7e6c12735c88175e78dadf1fb7b59f1/flet_route-0.3.1.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [homelab-node-red-backup]: Downloading https://files.pythonhosted.org/packages/20/99/dbd3922ffe35f11c1a86a57885c240cbdfe3897c4d64093cf1ab5f8f3b3f/homelab_node_red_backup-1.4.1.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [flet-route]: executing diffoscope
+[2023-06-18 17:48:42] INFO root fetch - processPackages [flet-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_route-0.3.0.tar.gz tmp/flet_route-0.3.1.tar.gz --markdown 20230618/f/flet-route/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-18 17:48:42] INFO root fetch - processPackages [homelab-node-red-backup]: executing diffoscope
+[2023-06-18 17:48:42] INFO root fetch - processPackages [homelab-node-red-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homelab_node_red_backup-1.4.0.tar.gz tmp/homelab_node_red_backup-1.4.1.tar.gz --markdown 20230618/h/homelab-node-red-backup/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-18 17:48:42] INFO root fetch - processPackages [drummachine]: Downloading https://files.pythonhosted.org/packages/95/5f/e7469b3c0473e431c95dbb76281758c1f9e2890528e658ce3af2e1b8cac8/drummachine-0.4.5.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [ltchiptool]: Downloading https://files.pythonhosted.org/packages/e3/62/91058b19974e72b4f1e566c15abab425973bbe95010f5394130f1a2cddbd/ltchiptool-4.2.0.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [nonebot-adapter-qqguild]: Downloading https://files.pythonhosted.org/packages/6a/34/8dc5351a724e57530bf22264bdee877a50f3fb7f3a90b51fdd9b46d9138b/nonebot_adapter_qqguild-0.2.3.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/ec/48/c5f004ad27218874dbe75b42041f61b891df30345a8f76f531b85eab2fcd/mapdata-2.3.0.tar.gz
+[2023-06-18 17:48:42] INFO root fetch - processPackages [drummachine]: executing diffoscope
+[2023-06-18 17:48:42] INFO root fetch - processPackages [drummachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drummachine-0.1.3.tar.gz tmp/drummachine-0.4.5.tar.gz --markdown 20230618/d/drummachine/0.1.3-0.4.5/diff.md --exclude *.pyd
+[2023-06-18 17:48:42] INFO root fetch - processPackages [nonebot-adapter-qqguild]: executing diffoscope
+[2023-06-18 17:48:42] INFO root fetch - processPackages [nonebot-adapter-qqguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_qqguild-0.2.2.tar.gz tmp/nonebot_adapter_qqguild-0.2.3.tar.gz --markdown 20230618/n/nonebot-adapter-qqguild/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 17:48:42] INFO root fetch - processPackages [ltchiptool]: executing diffoscope
+[2023-06-18 17:48:42] INFO root fetch - processPackages [ltchiptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltchiptool-4.1.1.tar.gz tmp/ltchiptool-4.2.0.tar.gz --markdown 20230618/l/ltchiptool/4.1.1-4.2.0/diff.md --exclude *.pyd
+[2023-06-18 17:48:42] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-06-18 17:48:42] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-2.0.2.tar.gz tmp/mapdata-2.3.0.tar.gz --markdown 20230618/m/mapdata/2.0.2-2.3.0/diff.md --exclude *.pyd
+[2023-06-18 17:48:43] INFO root fetch - processPackages [homelab-node-red-backup]: Remove: archive file [/home/abi/fetcher/tmp/homelab_node_red_backup-1.4.0.tar.gz]
+[2023-06-18 17:48:43] INFO root fetch - processPackages [homelab-node-red-backup]: Remove: archive file [/home/abi/fetcher/tmp/homelab_node_red_backup-1.4.1.tar.gz]
+[2023-06-18 17:48:43] INFO root fetch - main [MainThread]: End processing [homelab-node-red-backup]: success
+[2023-06-18 17:48:43] INFO root fetch - processPackages [flet-route]: Remove: archive file [/home/abi/fetcher/tmp/flet_route-0.3.0.tar.gz]
+[2023-06-18 17:48:43] INFO root fetch - processPackages [flet-route]: Remove: archive file [/home/abi/fetcher/tmp/flet_route-0.3.1.tar.gz]
+[2023-06-18 17:48:43] INFO root fetch - main [MainThread]: End processing [flet-route]: success
+[2023-06-18 17:48:43] INFO root fetch - processPackages [drummachine]: Remove: archive file [/home/abi/fetcher/tmp/drummachine-0.1.3.tar.gz]
+[2023-06-18 17:48:43] INFO root fetch - processPackages [drummachine]: Remove: archive file [/home/abi/fetcher/tmp/drummachine-0.4.5.tar.gz]
+[2023-06-18 17:48:43] INFO root fetch - main [MainThread]: End processing [drummachine]: success
+[2023-06-18 17:48:43] INFO root fetch - processPackages [nonebot-adapter-qqguild]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_qqguild-0.2.2.tar.gz]
+[2023-06-18 17:48:43] INFO root fetch - processPackages [nonebot-adapter-qqguild]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_qqguild-0.2.3.tar.gz]
+[2023-06-18 17:48:43] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-qqguild]: success
+[2023-06-18 17:48:44] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.0.2.tar.gz]
+[2023-06-18 17:48:44] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.3.0.tar.gz]
+[2023-06-18 17:48:44] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-06-18 17:48:45] INFO root fetch - processPackages [ltchiptool]: Remove: archive file [/home/abi/fetcher/tmp/ltchiptool-4.1.1.tar.gz]
+[2023-06-18 17:48:45] INFO root fetch - processPackages [ltchiptool]: Remove: archive file [/home/abi/fetcher/tmp/ltchiptool-4.2.0.tar.gz]
+[2023-06-18 17:48:45] INFO root fetch - main [MainThread]: End processing [ltchiptool]: success
+[2023-06-18 17:48:45] INFO root fetch - main [MainThread]: Store serial: [18551175]
