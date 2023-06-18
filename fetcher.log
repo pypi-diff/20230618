@@ -5636,3 +5636,42 @@
 [2023-06-18 09:59:42] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-18 09:59:42] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-18 09:59:42] INFO root fetch - main [MainThread]: Store serial: [18548650]
+[2023-06-18 10:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548650]
+[2023-06-18 10:04:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 10:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saxo-apy
+[2023-06-18 10:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polar-diagrams
+[2023-06-18 10:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spPersist
+[2023-06-18 10:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrepresent
+[2023-06-18 10:04:53] INFO root fetch - processPackages [saxo-apy]: New version: [0.2.7] Old Version: [0.2.5]
+[2023-06-18 10:04:53] INFO root fetch - processPackages [polar-diagrams]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-18 10:04:53] INFO root fetch - processPackages [pyrepresent]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 10:04:53] INFO root fetch - processPackages [spPersist]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-18 10:04:53] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/80/6f/5d5f822c08bd9b03e123f9347365489215a7eca47848c7d2159a312434a7/pyrepresent-0.1.0.tar.gz
+[2023-06-18 10:04:53] INFO root fetch - processPackages [saxo-apy]: Downloading https://files.pythonhosted.org/packages/70/1d/1eaf21c10593f66983fa46ae2388ca50880c3826683d3dddd032a52def5c/saxo_apy-0.2.5.tar.gz
+[2023-06-18 10:04:53] INFO root fetch - processPackages [polar-diagrams]: Downloading https://files.pythonhosted.org/packages/d8/90/4f768a6f64d867ad77ccde2d69f7fbc0f6df03432e9f8d3047dc415e74be/polar_diagrams-1.0.5.tar.gz
+[2023-06-18 10:04:53] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/5f/f9/d679de9d687ad22c2fff461da400e572cfec7a7d2515b4abb9b88f092898/sppersist-1.2.1.tar.gz
+[2023-06-18 10:04:53] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/d9/46/3118b5037b42e3e8ce02f7984283af23977a2bab730da7e3cace2041ce5b/pyrepresent-0.1.1.tar.gz
+[2023-06-18 10:04:53] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/1f/45/e98315e219217c791faa22b784a2f2ed7b80b3a815a6944ef76804e0a1f9/sppersist-1.2.2.tar.gz
+[2023-06-18 10:04:53] INFO root fetch - processPackages [saxo-apy]: Downloading https://files.pythonhosted.org/packages/ae/ac/3e9ed64c28ea5105dde3d67d34f8600987761683cc631faf5ee633b272a9/saxo_apy-0.2.7.tar.gz
+[2023-06-18 10:04:53] INFO root fetch - processPackages [saxo-apy]: executing diffoscope
+[2023-06-18 10:04:53] INFO root fetch - processPackages [saxo-apy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saxo_apy-0.2.5.tar.gz tmp/saxo_apy-0.2.7.tar.gz --markdown 20230618/s/saxo-apy/0.2.5-0.2.7/diff.md --exclude *.pyd
+[2023-06-18 10:04:53] INFO root fetch - processPackages [polar-diagrams]: Downloading https://files.pythonhosted.org/packages/91/a7/4caf5922d9792fb7621da0657bf3680d1085bfe187461b21a0f09792d9f4/polar_diagrams-1.0.7.tar.gz
+[2023-06-18 10:04:53] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-18 10:04:53] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.2.1.tar.gz tmp/sppersist-1.2.2.tar.gz --markdown 20230618/s/spPersist/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-18 10:04:53] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-06-18 10:04:53] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.1.0.tar.gz tmp/pyrepresent-0.1.1.tar.gz --markdown 20230618/p/pyrepresent/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 10:04:54] INFO root fetch - processPackages [polar-diagrams]: executing diffoscope
+[2023-06-18 10:04:54] INFO root fetch - processPackages [polar-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polar_diagrams-1.0.5.tar.gz tmp/polar_diagrams-1.0.7.tar.gz --markdown 20230618/p/polar-diagrams/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 10:04:54] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.1.0.tar.gz]
+[2023-06-18 10:04:54] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.1.1.tar.gz]
+[2023-06-18 10:04:54] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-06-18 10:04:55] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.2.1.tar.gz]
+[2023-06-18 10:04:55] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.2.2.tar.gz]
+[2023-06-18 10:04:55] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-18 10:04:55] INFO root fetch - processPackages [saxo-apy]: Remove: archive file [/home/abi/fetcher/tmp/saxo_apy-0.2.5.tar.gz]
+[2023-06-18 10:04:55] INFO root fetch - processPackages [saxo-apy]: Remove: archive file [/home/abi/fetcher/tmp/saxo_apy-0.2.7.tar.gz]
+[2023-06-18 10:04:55] INFO root fetch - main [MainThread]: End processing [saxo-apy]: success
+[2023-06-18 10:04:55] INFO root fetch - processPackages [polar-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/polar_diagrams-1.0.5.tar.gz]
+[2023-06-18 10:04:55] INFO root fetch - processPackages [polar-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/polar_diagrams-1.0.7.tar.gz]
+[2023-06-18 10:04:55] INFO root fetch - main [MainThread]: End processing [polar-diagrams]: success
+[2023-06-18 10:04:55] INFO root fetch - main [MainThread]: Store serial: [18548663]
