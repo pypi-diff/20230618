@@ -13031,3 +13031,48 @@ EOFError: EOF read where object expected
 [2023-06-18 19:47:15] INFO root fetch - processPackages [digitalpy]: Remove: archive file [/home/abi/fetcher/tmp/digitalpy-0.3.9.2.tar.gz]
 [2023-06-18 19:47:15] INFO root fetch - main [MainThread]: End processing [digitalpy]: success
 [2023-06-18 19:47:15] INFO root fetch - main [MainThread]: Store serial: [18551841]
+[2023-06-18 19:52:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551841]
+[2023-06-18 19:52:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 19:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleantalk
+[2023-06-18 19:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hedgesql
+[2023-06-18 19:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kkyCrawler
+[2023-06-18 19:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unihan-etl
+[2023-06-18 19:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycep-parser
+[2023-06-18 19:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mvm-smart-metering
+[2023-06-18 19:52:24] WARNING root fetch - processPackages [cleantalk]: Skipping, unable to determine old version
+[2023-06-18 19:52:24] INFO root fetch - main [MainThread]: End processing [cleantalk] error
+[2023-06-18 19:52:24] INFO root fetch - processPackages [kkyCrawler]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 19:52:24] WARNING root fetch - processPackages [hedgesql]: Skipping, unable to determine old version
+[2023-06-18 19:52:24] INFO root fetch - main [MainThread]: End processing [hedgesql] error
+[2023-06-18 19:52:24] INFO root fetch - processPackages [pycep-parser]: New version: [0.4.1a0] Old Version: [0.4.1]
+[2023-06-18 19:52:24] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/23/1e/b10ea17962aaaee44e8d56011cf365a41004477be5163dfa661c86f09dca/kkyCrawler-1.0.2.tar.gz
+[2023-06-18 19:52:24] INFO root fetch - processPackages [unihan-etl]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-18 19:52:24] INFO root fetch - processPackages [mvm-smart-metering]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-06-18 19:52:24] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/e6/f2/ad475612c1951852fbf186e9c2ffac59296b278605657be60b58b4699358/unihan-etl-0.9.4.tar.gz
+[2023-06-18 19:52:24] INFO root fetch - processPackages [pycep-parser]: Downloading https://files.pythonhosted.org/packages/1c/fb/3912b366eaae9414758dda5c4b6903f3931bafe25490bd7c6a4a27409ea1/pycep_parser-0.4.1.tar.gz
+[2023-06-18 19:52:24] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/49/33/936f83cfbd988dcbb9eadb92a43cb3dd1240e905f6fb0bc034d15e9bca3d/kkyCrawler-1.0.3.tar.gz
+[2023-06-18 19:52:24] INFO root fetch - processPackages [mvm-smart-metering]: Downloading https://files.pythonhosted.org/packages/2e/9d/d4c4428ad2c762fe8b3c919ee184f6e9cefe16d7654e113d9eed57488af8/mvm_smart_metering-0.0.14.tar.gz
+[2023-06-18 19:52:24] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/d8/de/3d9897770b4f0eafb171ba960ce769fa5034edcb5ffc2b3c0538635c5b63/unihan-etl-0.9.5.tar.gz
+[2023-06-18 19:52:24] INFO root fetch - processPackages [kkyCrawler]: executing diffoscope
+[2023-06-18 19:52:24] INFO root fetch - processPackages [kkyCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkyCrawler-1.0.2.tar.gz tmp/kkyCrawler-1.0.3.tar.gz --markdown 20230618/k/kkyCrawler/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 19:52:24] INFO root fetch - processPackages [pycep-parser]: Downloading https://files.pythonhosted.org/packages/56/f6/cf340ab11f07d4089566c971739daeff4c28794493bd571cb2fda13a19a7/pycep_parser-0.4.1a0.tar.gz
+[2023-06-18 19:52:24] INFO root fetch - processPackages [unihan-etl]: executing diffoscope
+[2023-06-18 19:52:24] INFO root fetch - processPackages [unihan-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan-etl-0.9.4.tar.gz tmp/unihan-etl-0.9.5.tar.gz --markdown 20230618/u/unihan-etl/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-18 19:52:25] INFO root fetch - processPackages [pycep-parser]: executing diffoscope
+[2023-06-18 19:52:25] INFO root fetch - processPackages [pycep-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycep_parser-0.4.1.tar.gz tmp/pycep_parser-0.4.1a0.tar.gz --markdown 20230618/p/pycep-parser/0.4.1-0.4.1a0/diff.md --exclude *.pyd
+[2023-06-18 19:52:25] INFO root fetch - processPackages [mvm-smart-metering]: Downloading https://files.pythonhosted.org/packages/cc/68/4ae63750fb40cf98c268030aeb7fe09bb681f3f9afcf840e3cd6065d1978/mvm_smart_metering-0.0.15.tar.gz
+[2023-06-18 19:52:25] INFO root fetch - processPackages [mvm-smart-metering]: executing diffoscope
+[2023-06-18 19:52:25] INFO root fetch - processPackages [mvm-smart-metering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvm_smart_metering-0.0.14.tar.gz tmp/mvm_smart_metering-0.0.15.tar.gz --markdown 20230618/m/mvm-smart-metering/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-06-18 19:52:25] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-1.0.2.tar.gz]
+[2023-06-18 19:52:25] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-1.0.3.tar.gz]
+[2023-06-18 19:52:25] INFO root fetch - main [MainThread]: End processing [kkyCrawler]: success
+[2023-06-18 19:52:26] INFO root fetch - processPackages [pycep-parser]: Remove: archive file [/home/abi/fetcher/tmp/pycep_parser-0.4.1.tar.gz]
+[2023-06-18 19:52:26] INFO root fetch - processPackages [pycep-parser]: Remove: archive file [/home/abi/fetcher/tmp/pycep_parser-0.4.1a0.tar.gz]
+[2023-06-18 19:52:26] INFO root fetch - main [MainThread]: End processing [pycep-parser]: success
+[2023-06-18 19:52:26] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.4.tar.gz]
+[2023-06-18 19:52:26] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.5.tar.gz]
+[2023-06-18 19:52:26] INFO root fetch - main [MainThread]: End processing [unihan-etl]: success
+[2023-06-18 19:52:26] INFO root fetch - processPackages [mvm-smart-metering]: Remove: archive file [/home/abi/fetcher/tmp/mvm_smart_metering-0.0.14.tar.gz]
+[2023-06-18 19:52:26] INFO root fetch - processPackages [mvm-smart-metering]: Remove: archive file [/home/abi/fetcher/tmp/mvm_smart_metering-0.0.15.tar.gz]
+[2023-06-18 19:52:26] INFO root fetch - main [MainThread]: End processing [mvm-smart-metering]: success
+[2023-06-18 19:52:26] INFO root fetch - main [MainThread]: Store serial: [18551863]
