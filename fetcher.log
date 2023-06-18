@@ -15986,3 +15986,63 @@ EOFError: EOF read where object expected
 [2023-06-18 23:54:22] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.9.0.tar.gz]
 [2023-06-18 23:54:22] INFO root fetch - main [MainThread]: End processing [abstra]: success
 [2023-06-18 23:54:22] INFO root fetch - main [MainThread]: Store serial: [18553092]
+[2023-06-18 23:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18553092]
+[2023-06-18 23:59:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-timezone-field
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: functime
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autotraders
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pp-project-pkg
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyenv-encrypt
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ifnude
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foo123
+[2023-06-18 23:59:31] WARNING root fetch - processPackages [foo123]: Skipping, unable to determine old version
+[2023-06-18 23:59:31] INFO root fetch - main [MainThread]: End processing [foo123] error
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ifnude]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 23:59:31] INFO root fetch - processPackages [django-timezone-field]: New version: [5.1] Old Version: [5.0]
+[2023-06-18 23:59:31] INFO root fetch - processPackages [functime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 23:59:31] INFO root fetch - processPackages [pyenv-encrypt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 23:59:31] INFO root fetch - processPackages [autotraders]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-18 23:59:31] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306182156] Old Version: [1.0.202306182129]
+[2023-06-18 23:59:31] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/3c/6a/95164c04cdd42c2e0ef531cf78f81910e6f7c3ec8f0a72b9eb11f6fafd9e/pp_project_pkg-1.0.202306182129-py3-none-any.whl
+[2023-06-18 23:59:31] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/e8/de/c9c7ec1fa1945f78d6e75bec68ce198ecca2fa0a812634c57f3040637911/autotraders-1.5.3.tar.gz
+[2023-06-18 23:59:31] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/8c/5f/7e078a1d339103106f0b327447e6f57813b531c5de3c75b4b8b03ea6c5a3/functime-0.1.8-py3-none-any.whl
+[2023-06-18 23:59:31] INFO root fetch - processPackages [django-timezone-field]: Downloading https://files.pythonhosted.org/packages/63/3d/1592fbaadfbb8e9142b11c860cd95ca13a9a944a102a0e2d798ef6647a52/django-timezone-field-5.0.tar.gz
+[2023-06-18 23:59:31] INFO root fetch - processPackages [pyenv-encrypt]: Downloading https://files.pythonhosted.org/packages/fd/a3/d71ff5f4ba8bdca216de3e2482f8bb5dcdad1353d6406d941811965285ac/pyenv-encrypt-0.1.1.tar.gz
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ifnude]: Downloading https://files.pythonhosted.org/packages/23/fb/6548e1a7251cd8ea0749733d6585136a8ff410739fe5c728b494965da45b/ifnude-0.0.1.tar.gz
+[2023-06-18 23:59:31] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/0a/d0/a1131e9c1d1435114907c7fa4dfa9c2624f415fd9a9a414239f5d5631547/pp_project_pkg-1.0.202306182156-py3-none-any.whl
+[2023-06-18 23:59:31] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/a5/9b/155cc90081d5970ea1ce274c2725e82b90e22fdc07b1dd3c681bf2849445/autotraders-1.5.4.tar.gz
+[2023-06-18 23:59:31] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/08/bb/2895374c1d5a1be21e6b6efc5c64fefd626d21d92e85f52631e66b5045a6/functime-0.1.9-py3-none-any.whl
+[2023-06-18 23:59:31] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-18 23:59:31] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306182129-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306182156-py3-none-any.whl.zip --markdown 20230618/p/pp-project-pkg/1.0.202306182129-1.0.202306182156/diff.md --exclude *.pyd
+[2023-06-18 23:59:31] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-06-18 23:59:31] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.5.3.tar.gz tmp/autotraders-1.5.4.tar.gz --markdown 20230618/a/autotraders/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-18 23:59:31] INFO root fetch - processPackages [ifnude]: Downloading https://files.pythonhosted.org/packages/aa/bf/d4e44f1b4ee4ce0ffad840c7da27d89bfc49a1e009adac46f775261b3060/ifnude-0.0.2.tar.gz
+[2023-06-18 23:59:31] INFO root fetch - processPackages [pyenv-encrypt]: Downloading https://files.pythonhosted.org/packages/db/09/e68add6aec496613dd9d01c9ed944a5fac0e9e2377e829806118af0d5cce/pyenv-encrypt-0.1.2.tar.gz
+[2023-06-18 23:59:31] INFO root fetch - processPackages [django-timezone-field]: Downloading https://files.pythonhosted.org/packages/d5/77/26eed0dae663f46032b4dcb86a22498cc02e2357e62fff4abaaef4945c1b/django_timezone_field-5.1.tar.gz
+[2023-06-18 23:59:32] INFO root fetch - processPackages [functime]: executing diffoscope
+[2023-06-18 23:59:32] INFO root fetch - processPackages [functime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functime-0.1.8-py3-none-any.whl.zip tmp/functime-0.1.9-py3-none-any.whl.zip --markdown 20230618/f/functime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 23:59:32] INFO root fetch - processPackages [ifnude]: executing diffoscope
+[2023-06-18 23:59:32] INFO root fetch - processPackages [ifnude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifnude-0.0.1.tar.gz tmp/ifnude-0.0.2.tar.gz --markdown 20230618/i/ifnude/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 23:59:32] INFO root fetch - processPackages [django-timezone-field]: executing diffoscope
+[2023-06-18 23:59:32] INFO root fetch - processPackages [django-timezone-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-timezone-field-5.0.tar.gz tmp/django_timezone_field-5.1.tar.gz --markdown 20230618/d/django-timezone-field/5.0-5.1/diff.md --exclude *.pyd
+[2023-06-18 23:59:32] INFO root fetch - processPackages [pyenv-encrypt]: executing diffoscope
+[2023-06-18 23:59:32] INFO root fetch - processPackages [pyenv-encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenv-encrypt-0.1.1.tar.gz tmp/pyenv-encrypt-0.1.2.tar.gz --markdown 20230618/p/pyenv-encrypt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 23:59:33] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306182129-py3-none-any.whl.zip]
+[2023-06-18 23:59:33] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306182156-py3-none-any.whl.zip]
+[2023-06-18 23:59:33] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-18 23:59:33] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.5.3.tar.gz]
+[2023-06-18 23:59:33] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.5.4.tar.gz]
+[2023-06-18 23:59:33] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-06-18 23:59:33] INFO root fetch - processPackages [django-timezone-field]: Remove: archive file [/home/abi/fetcher/tmp/django-timezone-field-5.0.tar.gz]
+[2023-06-18 23:59:33] INFO root fetch - processPackages [django-timezone-field]: Remove: archive file [/home/abi/fetcher/tmp/django_timezone_field-5.1.tar.gz]
+[2023-06-18 23:59:33] INFO root fetch - main [MainThread]: End processing [django-timezone-field]: success
+[2023-06-18 23:59:33] INFO root fetch - processPackages [pyenv-encrypt]: Remove: archive file [/home/abi/fetcher/tmp/pyenv-encrypt-0.1.1.tar.gz]
+[2023-06-18 23:59:33] INFO root fetch - processPackages [pyenv-encrypt]: Remove: archive file [/home/abi/fetcher/tmp/pyenv-encrypt-0.1.2.tar.gz]
+[2023-06-18 23:59:33] INFO root fetch - main [MainThread]: End processing [pyenv-encrypt]: success
+[2023-06-18 23:59:33] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.1.8-py3-none-any.whl.zip]
+[2023-06-18 23:59:33] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.1.9-py3-none-any.whl.zip]
+[2023-06-18 23:59:33] INFO root fetch - main [MainThread]: End processing [functime]: success
+[2023-06-18 23:59:33] INFO root fetch - processPackages [ifnude]: Remove: archive file [/home/abi/fetcher/tmp/ifnude-0.0.1.tar.gz]
+[2023-06-18 23:59:33] INFO root fetch - processPackages [ifnude]: Remove: archive file [/home/abi/fetcher/tmp/ifnude-0.0.2.tar.gz]
+[2023-06-18 23:59:33] INFO root fetch - main [MainThread]: End processing [ifnude]: success
+[2023-06-18 23:59:33] INFO root fetch - main [MainThread]: Store serial: [18553114]
