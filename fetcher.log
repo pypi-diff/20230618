@@ -7382,3 +7382,54 @@
 [2023-06-18 13:11:10] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
 [2023-06-18 13:11:10] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-06-18 13:11:10] INFO root fetch - main [MainThread]: Store serial: [18549469]
+[2023-06-18 13:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549469]
+[2023-06-18 13:16:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 13:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: http3-client
+[2023-06-18 13:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cityImage
+[2023-06-18 13:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydatawork
+[2023-06-18 13:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-mcversion
+[2023-06-18 13:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdf-divider
+[2023-06-18 13:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-on-whales
+[2023-06-18 13:16:19] INFO root fetch - processPackages [http3-client]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-18 13:16:19] INFO root fetch - processPackages [nonebot-plugin-mcversion]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-18 13:16:19] INFO root fetch - processPackages [python-on-whales]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-18 13:16:19] WARNING root fetch - processPackages [cityImage]: Skipping, unable to determine old version
+[2023-06-18 13:16:19] INFO root fetch - processPackages [pydatawork]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 13:16:19] INFO root fetch - processPackages [pdf-divider]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-18 13:16:19] INFO root fetch - main [MainThread]: End processing [cityImage] error
+[2023-06-18 13:16:19] INFO root fetch - processPackages [pdf-divider]: Downloading https://files.pythonhosted.org/packages/9c/f6/e4c0baab00adc4876e02144998b9948edb95a9262432bb6d5ed20558b01d/pdf_divider-1.1.0.tar.gz
+[2023-06-18 13:16:19] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/36/73/0b12cfc377e6d5f397169bc009fc9bf7c48cfdf2f94af49ce598bda20c2d/pydatawork-0.1.0.tar.gz
+[2023-06-18 13:16:19] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/f6/5e/132d2126c7bf34d4aee1e81820bbf04fa1ff9af11794cc1340524407a9d6/http3_client-1.0.5.tar.gz
+[2023-06-18 13:16:19] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/56/08/5b85366dfa72dd4b2f89fb28e2deb945c447b8e8f74deb5104969cfc1852/nonebot-plugin-mcversion-0.1.2.tar.gz
+[2023-06-18 13:16:19] INFO root fetch - processPackages [python-on-whales]: Downloading https://files.pythonhosted.org/packages/0c/de/d0175a21add24a0aa116a24f4ad4a78b8304f3f520b6637d75dfbeccaf3c/python-on-whales-0.9.0.tar.gz
+[2023-06-18 13:16:19] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/e7/6c/4e47121605ecf1a127e10e812433c8e40d3567baab41fdce777b92eddcde/pydatawork-0.1.1.tar.gz
+[2023-06-18 13:16:19] INFO root fetch - processPackages [pdf-divider]: Downloading https://files.pythonhosted.org/packages/60/12/eb9273774a40791f8b4bb86faebc37b6c9fbdd9bb5d92b07000714be74f9/pdf_divider-1.2.0.tar.gz
+[2023-06-18 13:16:20] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-18 13:16:20] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.0.tar.gz tmp/pydatawork-0.1.1.tar.gz --markdown 20230618/p/pydatawork/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 13:16:20] INFO root fetch - processPackages [pdf-divider]: executing diffoscope
+[2023-06-18 13:16:20] INFO root fetch - processPackages [pdf-divider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_divider-1.1.0.tar.gz tmp/pdf_divider-1.2.0.tar.gz --markdown 20230618/p/pdf-divider/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-18 13:16:20] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/e0/5e/2c11955006aa6b346f3fab297209e0a8701f31a3c82bc83b9f273040aa57/http3_client-1.0.7.tar.gz
+[2023-06-18 13:16:20] INFO root fetch - processPackages [http3-client]: executing diffoscope
+[2023-06-18 13:16:20] INFO root fetch - processPackages [http3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http3_client-1.0.5.tar.gz tmp/http3_client-1.0.7.tar.gz --markdown 20230618/h/http3-client/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 13:16:20] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/85/ea/75030fbf24edffc44a9a919d5ca5286a31003fc29d4d9ed2833b56ba35e2/nonebot-plugin-mcversion-0.2.0.tar.gz
+[2023-06-18 13:16:20] INFO root fetch - processPackages [nonebot-plugin-mcversion]: executing diffoscope
+[2023-06-18 13:16:20] INFO root fetch - processPackages [nonebot-plugin-mcversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcversion-0.1.2.tar.gz tmp/nonebot-plugin-mcversion-0.2.0.tar.gz --markdown 20230618/n/nonebot-plugin-mcversion/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 13:16:20] INFO root fetch - processPackages [python-on-whales]: Downloading https://files.pythonhosted.org/packages/b9/5b/0086caaf50bcfe2ed377d292d379aa4c7b4cb19fda4fa69159452c73dccb/python-on-whales-0.9.1.tar.gz
+[2023-06-18 13:16:20] INFO root fetch - processPackages [python-on-whales]: executing diffoscope
+[2023-06-18 13:16:20] INFO root fetch - processPackages [python-on-whales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-on-whales-0.9.0.tar.gz tmp/python-on-whales-0.9.1.tar.gz --markdown 20230618/p/python-on-whales/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-18 13:16:21] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.0.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.1.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-18 13:16:21] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.5.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.7.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - main [MainThread]: End processing [http3-client]: success
+[2023-06-18 13:16:21] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.1.2.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.0.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcversion]: success
+[2023-06-18 13:16:21] INFO root fetch - processPackages [pdf-divider]: Remove: archive file [/home/abi/fetcher/tmp/pdf_divider-1.1.0.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - processPackages [pdf-divider]: Remove: archive file [/home/abi/fetcher/tmp/pdf_divider-1.2.0.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - main [MainThread]: End processing [pdf-divider]: success
+[2023-06-18 13:16:21] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.0.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.1.tar.gz]
+[2023-06-18 13:16:21] INFO root fetch - main [MainThread]: End processing [python-on-whales]: success
+[2023-06-18 13:16:21] INFO root fetch - main [MainThread]: Store serial: [18549490]
