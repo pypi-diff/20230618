@@ -5840,3 +5840,45 @@
 [2023-06-18 10:31:42] INFO root fetch - processPackages [vpso]: Remove: archive file [/home/abi/fetcher/tmp/vpso-1.1.0.tar.gz]
 [2023-06-18 10:31:42] INFO root fetch - main [MainThread]: End processing [vpso]: success
 [2023-06-18 10:31:42] INFO root fetch - main [MainThread]: Store serial: [18548737]
+[2023-06-18 10:36:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548737]
+[2023-06-18 10:36:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 10:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blockgamebot
+[2023-06-18 10:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: areixio
+[2023-06-18 10:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strictdoc
+[2023-06-18 10:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scinode
+[2023-06-18 10:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stonefish
+[2023-06-18 10:36:51] INFO root fetch - processPackages [stonefish]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-18 10:36:51] INFO root fetch - processPackages [blockgamebot]: New version: [1.1] Old Version: [1.0]
+[2023-06-18 10:36:51] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 10:36:51] WARNING root fetch - processPackages [scinode]: Skipping, unable to determine old version
+[2023-06-18 10:36:51] INFO root fetch - main [MainThread]: End processing [scinode] error
+[2023-06-18 10:36:51] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.84]
+[2023-06-18 10:36:51] INFO root fetch - processPackages [blockgamebot]: Downloading https://files.pythonhosted.org/packages/58/15/300f919eb73b69ea334d650afad0428f15d25f48c4ccb0d5a7168085b49a/blockgamebot-1.0.tar.gz
+[2023-06-18 10:36:51] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/39/4e/f4dc4248a4ae0ec069bd26c28f0e56b6c5a5b34a5749d013e3c36d25def2/areixio-0.2.84.tar.gz
+[2023-06-18 10:36:51] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/a8/6c/c6ef70461a3438ac080f95dc6f92a6d936f5fd2bf489273959e7f2274c23/stonefish-0.3.8-py3-none-any.whl
+[2023-06-18 10:36:51] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-06-18 10:36:51] INFO root fetch - processPackages [blockgamebot]: Downloading https://files.pythonhosted.org/packages/6d/81/9fee20dc7c30a47bdbd4d5bee36832bb3164bc13c51d7a8b5a0c8b8bdf1e/blockgamebot-1.1.tar.gz
+[2023-06-18 10:36:51] INFO root fetch - processPackages [blockgamebot]: executing diffoscope
+[2023-06-18 10:36:51] INFO root fetch - processPackages [blockgamebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockgamebot-1.0.tar.gz tmp/blockgamebot-1.1.tar.gz --markdown 20230618/b/blockgamebot/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-18 10:36:51] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-06-18 10:36:51] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-06-18 10:36:51] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230618/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 10:36:51] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/d1/a1/3faea75bc2e483e14078f7017fb42c494d76fc44900b71482d95eec9140a/stonefish-0.3.9-py3-none-any.whl
+[2023-06-18 10:36:52] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/b6/2c/9db3134c3fd073a3fdfaf56d0fb236a19d3888fb5a806ebdfb891c5dc09b/areixio-0.2.9.tar.gz
+[2023-06-18 10:36:52] INFO root fetch - processPackages [stonefish]: executing diffoscope
+[2023-06-18 10:36:52] INFO root fetch - processPackages [stonefish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish-0.3.8-py3-none-any.whl.zip tmp/stonefish-0.3.9-py3-none-any.whl.zip --markdown 20230618/s/stonefish/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-18 10:36:52] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-06-18 10:36:52] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.84.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230618/a/areixio/0.2.84-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 10:36:52] INFO root fetch - processPackages [blockgamebot]: Remove: archive file [/home/abi/fetcher/tmp/blockgamebot-1.0.tar.gz]
+[2023-06-18 10:36:52] INFO root fetch - processPackages [blockgamebot]: Remove: archive file [/home/abi/fetcher/tmp/blockgamebot-1.1.tar.gz]
+[2023-06-18 10:36:52] INFO root fetch - main [MainThread]: End processing [blockgamebot]: success
+[2023-06-18 10:36:53] INFO root fetch - processPackages [stonefish]: Remove: archive file [/home/abi/fetcher/tmp/stonefish-0.3.8-py3-none-any.whl.zip]
+[2023-06-18 10:36:53] INFO root fetch - processPackages [stonefish]: Remove: archive file [/home/abi/fetcher/tmp/stonefish-0.3.9-py3-none-any.whl.zip]
+[2023-06-18 10:36:53] INFO root fetch - main [MainThread]: End processing [stonefish]: success
+[2023-06-18 10:36:53] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-06-18 10:36:53] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-06-18 10:36:53] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-06-18 10:37:03] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.84.tar.gz]
+[2023-06-18 10:37:03] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.9.tar.gz]
+[2023-06-18 10:37:03] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-06-18 10:37:03] INFO root fetch - main [MainThread]: Store serial: [18548750]
