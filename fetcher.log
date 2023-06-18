@@ -10678,3 +10678,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 16:53:04] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-18 16:53:04] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-18 16:53:04] INFO root fetch - main [MainThread]: Store serial: [18550841]
+[2023-06-18 16:58:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550841]
+[2023-06-18 16:58:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 16:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readthis
+[2023-06-18 16:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-18 16:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-snippets
+[2023-06-18 16:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fix-busted-json
+[2023-06-18 16:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: classy-classification
+[2023-06-18 16:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qh3
+[2023-06-18 16:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: joltedmod
+[2023-06-18 16:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skin-tone-classifier
+[2023-06-18 16:58:14] INFO root fetch - processPackages [lollms]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-18 16:58:14] INFO root fetch - processPackages [fix-busted-json]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 16:58:14] INFO root fetch - processPackages [joltedmod]: New version: [0.2.1.1] Old Version: [0.2.1]
+[2023-06-18 16:58:14] INFO root fetch - processPackages [torch-snippets]: New version: [0.499.9] Old Version: [0.499.8]
+[2023-06-18 16:58:14] INFO root fetch - processPackages [skin-tone-classifier]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-18 16:58:14] INFO root fetch - processPackages [qh3]: New version: [0.11.0] Old Version: [0.10.0]
+[2023-06-18 16:58:14] INFO root fetch - processPackages [readthis]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 16:58:14] INFO root fetch - processPackages [classy-classification]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-18 16:58:14] INFO root fetch - processPackages [joltedmod]: Downloading https://files.pythonhosted.org/packages/ae/69/218c56dba6926d04778bfd335352050edf672b9f7ccbcf560981ada3a277/joltedmod-0.2.1.tar.gz
+[2023-06-18 16:58:14] INFO root fetch - processPackages [fix-busted-json]: Downloading https://files.pythonhosted.org/packages/32/75/93d154543edc4d88ca657a5246195f05acbb7bb58941bdf8d1f6e2fac0f6/fix-busted-json-0.0.8.tar.gz
+[2023-06-18 16:58:14] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/0a/2f/bbbd6b784fb1d45b2074b78a2802bc9d3b642a5f803b2e774792ce060850/readthis-0.0.6.tar.gz
+[2023-06-18 16:58:14] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/1b/12/1af1ae218d66abcf0176728483195b072fd067e96487eb16b2785852f5a1/lollms-1.1.98.tar.gz
+[2023-06-18 16:58:14] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31794225>=10485760
+[2023-06-18 16:58:14] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 16:58:14] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/a5/fa/ee158557aa83479dc9a248a64683b80d733081a215506ed081276be54ffb/torch_snippets-0.499.8.tar.gz
+[2023-06-18 16:58:14] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/16/2f/2f24b10b2fb14a067729efb36027e7f0d965ebc209386cab1efaa87c0a15/classy_classification-0.6.3.tar.gz
+[2023-06-18 16:58:14] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/56/d6/f2469af331d750209c25895fba1b720a6a34197a39b4f1a98040e8376ed9/qh3-0.10.0.tar.gz
+[2023-06-18 16:58:14] INFO root fetch - processPackages [skin-tone-classifier]: Downloading https://files.pythonhosted.org/packages/5e/7b/4fb3c2ac1380e8f5cd7f8ffe482fb5b53459664cee3e4dfe0f6d0b4290af/skin-tone-classifier-0.1.9.tar.gz
+[2023-06-18 16:58:14] INFO root fetch - processPackages [fix-busted-json]: Downloading https://files.pythonhosted.org/packages/5d/ec/ae414e0c5b7992be5ddbb8caddb8200fed9af602b4f47a65414b58c743bb/fix-busted-json-0.0.9.tar.gz
+[2023-06-18 16:58:14] INFO root fetch - processPackages [joltedmod]: Downloading https://files.pythonhosted.org/packages/40/45/c78fa63306e0831cf6bbca6f4dc3ba88d001dca8f3d1b25165e3fd2db274/joltedmod-0.2.1.1.tar.gz
+[2023-06-18 16:58:14] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/b4/0d/f136e3cccffb034999ea2aabea9c5ab3443aca1cd14595af4cc164f5dc8d/readthis-0.0.7.tar.gz
+[2023-06-18 16:58:15] INFO root fetch - processPackages [joltedmod]: executing diffoscope
+[2023-06-18 16:58:15] INFO root fetch - processPackages [joltedmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joltedmod-0.2.1.tar.gz tmp/joltedmod-0.2.1.1.tar.gz --markdown 20230618/j/joltedmod/0.2.1-0.2.1.1/diff.md --exclude *.pyd
+[2023-06-18 16:58:15] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/fa/95/89dd4ed6982768e61931fdf3b0520f8445f0f6a54232cc29b1b7b9df46b5/classy-classification-0.6.4.tar.gz
+[2023-06-18 16:58:15] INFO root fetch - processPackages [fix-busted-json]: executing diffoscope
+[2023-06-18 16:58:15] INFO root fetch - processPackages [fix-busted-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fix-busted-json-0.0.8.tar.gz tmp/fix-busted-json-0.0.9.tar.gz --markdown 20230618/f/fix-busted-json/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 16:58:15] INFO root fetch - processPackages [readthis]: executing diffoscope
+[2023-06-18 16:58:15] INFO root fetch - processPackages [readthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readthis-0.0.6.tar.gz tmp/readthis-0.0.7.tar.gz --markdown 20230618/r/readthis/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 16:58:15] INFO root fetch - processPackages [classy-classification]: executing diffoscope
+[2023-06-18 16:58:15] INFO root fetch - processPackages [classy-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classy_classification-0.6.3.tar.gz tmp/classy-classification-0.6.4.tar.gz --markdown 20230618/c/classy-classification/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-18 16:58:15] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/53/8e/c6a2edb0216a6a491a72807653642ab418c51adaceba7c808afd9be35aa9/torch_snippets-0.499.9.tar.gz
+[2023-06-18 16:58:15] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/a7/e2/2f00754867695eeb72cd324c724b45f080835037d84bad4095d86b0df758/qh3-0.11.0.tar.gz
+[2023-06-18 16:58:15] INFO root fetch - processPackages [skin-tone-classifier]: Downloading https://files.pythonhosted.org/packages/57/fb/f055395c2ce2ea09cf66db1b7475d11e82a1de314794f2f014c00cf24e50/skin-tone-classifier-0.2.0.tar.gz
+[2023-06-18 16:58:15] INFO root fetch - processPackages [qh3]: executing diffoscope
+[2023-06-18 16:58:15] INFO root fetch - processPackages [qh3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qh3-0.10.0.tar.gz tmp/qh3-0.11.0.tar.gz --markdown 20230618/q/qh3/0.10.0-0.11.0/diff.md --exclude *.pyd
+[2023-06-18 16:58:15] INFO root fetch - processPackages [skin-tone-classifier]: executing diffoscope
+[2023-06-18 16:58:15] INFO root fetch - processPackages [skin-tone-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skin-tone-classifier-0.1.9.tar.gz tmp/skin-tone-classifier-0.2.0.tar.gz --markdown 20230618/s/skin-tone-classifier/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 16:58:15] INFO root fetch - processPackages [torch-snippets]: executing diffoscope
+[2023-06-18 16:58:15] INFO root fetch - processPackages [torch-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_snippets-0.499.8.tar.gz tmp/torch_snippets-0.499.9.tar.gz --markdown 20230618/t/torch-snippets/0.499.8-0.499.9/diff.md --exclude *.pyd
+[2023-06-18 16:58:16] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.6.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.7.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - main [MainThread]: End processing [readthis]: success
+[2023-06-18 16:58:16] INFO root fetch - processPackages [fix-busted-json]: Remove: archive file [/home/abi/fetcher/tmp/fix-busted-json-0.0.8.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - processPackages [fix-busted-json]: Remove: archive file [/home/abi/fetcher/tmp/fix-busted-json-0.0.9.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - main [MainThread]: End processing [fix-busted-json]: success
+[2023-06-18 16:58:16] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy_classification-0.6.3.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy-classification-0.6.4.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - main [MainThread]: End processing [classy-classification]: success
+[2023-06-18 16:58:16] INFO root fetch - processPackages [joltedmod]: Remove: archive file [/home/abi/fetcher/tmp/joltedmod-0.2.1.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - processPackages [joltedmod]: Remove: archive file [/home/abi/fetcher/tmp/joltedmod-0.2.1.1.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - main [MainThread]: End processing [joltedmod]: success
+[2023-06-18 16:58:16] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.499.8.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.499.9.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - main [MainThread]: End processing [torch-snippets]: success
+[2023-06-18 16:58:16] INFO root fetch - processPackages [skin-tone-classifier]: Remove: archive file [/home/abi/fetcher/tmp/skin-tone-classifier-0.1.9.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - processPackages [skin-tone-classifier]: Remove: archive file [/home/abi/fetcher/tmp/skin-tone-classifier-0.2.0.tar.gz]
+[2023-06-18 16:58:16] INFO root fetch - main [MainThread]: End processing [skin-tone-classifier]: success
+[2023-06-18 16:58:17] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-0.10.0.tar.gz]
+[2023-06-18 16:58:17] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-0.11.0.tar.gz]
+[2023-06-18 16:58:17] INFO root fetch - main [MainThread]: End processing [qh3]: success
+[2023-06-18 16:58:17] INFO root fetch - main [MainThread]: Store serial: [18550887]
