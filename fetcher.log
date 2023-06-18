@@ -4991,3 +4991,39 @@
 [2023-06-18 08:08:23] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230617.tar.gz]
 [2023-06-18 08:08:23] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-18 08:08:23] INFO root fetch - main [MainThread]: Store serial: [18548353]
+[2023-06-18 08:13:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548353]
+[2023-06-18 08:13:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 08:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agent-hub
+[2023-06-18 08:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-mcq
+[2023-06-18 08:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastgenerateapi
+[2023-06-18 08:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apysc
+[2023-06-18 08:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getmodelspec
+[2023-06-18 08:13:32] INFO root fetch - processPackages [django-mcq]: New version: [0.4] Old Version: [0.3]
+[2023-06-18 08:13:32] WARNING root fetch - processPackages [agent-hub]: Skipping, unable to determine old version
+[2023-06-18 08:13:32] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 08:13:32] INFO root fetch - main [MainThread]: End processing [agent-hub] error
+[2023-06-18 08:13:32] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-18 08:13:32] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-18 08:13:32] INFO root fetch - processPackages [apysc]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-18 08:13:33] INFO root fetch - processPackages [django-mcq]: Downloading https://files.pythonhosted.org/packages/ba/83/4ca5386fc12cc34f2f861f790ed7fc83d1f58d2ac338c40bdfc79b962faf/django-mcq-0.3.tar.gz
+[2023-06-18 08:13:33] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/a1/6f/788a9f7ab8dc0edb9f160404c4c50dec2eaaaa93722ad84d3465ec55bbb3/fastgenerateapi-0.0.4.tar.gz
+[2023-06-18 08:13:33] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/ad/b8/0e28e6b32c9c8269cb7dadbe6a40eda95c116082dc38c75820edb87933fc/apysc-2.8.8.tar.gz
+[2023-06-18 08:13:33] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/6c/6a/8b279b3387fdce144faaf885dc64628501b4b2fcdbcbbedd97cb0df85606/fastgenerateapi-0.0.5.tar.gz
+[2023-06-18 08:13:33] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-18 08:13:33] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.4.tar.gz tmp/fastgenerateapi-0.0.5.tar.gz --markdown 20230618/f/fastgenerateapi/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 08:13:33] INFO root fetch - processPackages [django-mcq]: Downloading https://files.pythonhosted.org/packages/5f/0e/0cfbebc63c3b6788cf93758ede92083479892263e6ac743e8a7675cc83d7/django-mcq-0.4.tar.gz
+[2023-06-18 08:13:33] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/58/a3/a6f7e250674b7eb884049e28bf937c78e1643e143c22675e29337194cf49/apysc-2.8.9.tar.gz
+[2023-06-18 08:13:33] INFO root fetch - processPackages [django-mcq]: executing diffoscope
+[2023-06-18 08:13:33] INFO root fetch - processPackages [django-mcq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mcq-0.3.tar.gz tmp/django-mcq-0.4.tar.gz --markdown 20230618/d/django-mcq/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-18 08:13:33] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-18 08:13:33] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.8.8.tar.gz tmp/apysc-2.8.9.tar.gz --markdown 20230618/a/apysc/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-18 08:13:34] INFO root fetch - processPackages [django-mcq]: Remove: archive file [/home/abi/fetcher/tmp/django-mcq-0.3.tar.gz]
+[2023-06-18 08:13:34] INFO root fetch - processPackages [django-mcq]: Remove: archive file [/home/abi/fetcher/tmp/django-mcq-0.4.tar.gz]
+[2023-06-18 08:13:34] INFO root fetch - main [MainThread]: End processing [django-mcq]: success
+[2023-06-18 08:13:34] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.4.tar.gz]
+[2023-06-18 08:13:34] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.5.tar.gz]
+[2023-06-18 08:13:34] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-18 08:13:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.8.tar.gz]
+[2023-06-18 08:13:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.9.tar.gz]
+[2023-06-18 08:13:44] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-18 08:13:44] INFO root fetch - main [MainThread]: Store serial: [18548371]
