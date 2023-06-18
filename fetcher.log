@@ -13529,3 +13529,123 @@ EOFError: EOF read where object expected
 [2023-06-18 20:34:00] INFO root fetch - processPackages [prompt4all]: Remove: archive file [/home/abi/fetcher/tmp/prompt4all-0.0.2-py3-none-any.whl.zip]
 [2023-06-18 20:34:00] INFO root fetch - main [MainThread]: End processing [prompt4all]: success
 [2023-06-18 20:34:00] INFO root fetch - main [MainThread]: Store serial: [18552055]
+[2023-06-18 20:39:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552055]
+[2023-06-18 20:39:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizata-dsapi
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-pypi-security
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mizue
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tcia-utils
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: universal-test-runner
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: forecastmanager
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HarmonyDecoder
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aioworldline
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: foursight-core
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ringgpt
+[2023-06-18 20:39:09] INFO root fetch - processPackages [test-pypi-security]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [tcia-utils]: New version: [1.5] Old Version: [1.4.1]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [forecastmanager]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [universal-test-runner]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [mizue]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [aioworldline]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [HarmonyDecoder]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-18 20:39:09] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/88/b1/096c14ef8f507b76f46bcd9ec8a0e2a1ec3b38cdeedfbf66618c1da38086/mizue-0.2.8.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/85/7f/773203856d1671f9b076c5f2afcdabec6794ffe8a718a759e49f67a1e878/tcia_utils-1.4.1.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [test-pypi-security]: Downloading https://files.pythonhosted.org/packages/0f/6e/e2cb987809bdfcb5edeeb2383bdb27e941ef20e313089010f4533929675a/test_pypi_security-0.1.0.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [universal-test-runner]: Downloading https://files.pythonhosted.org/packages/03/93/0934a152510f16b422732de2c670517ebb7f16f5e05ff7ea71d4ec853cce/universal_test_runner-0.1.0.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/14/ad/1584c83ecf4d13e874493bbf9e1ec1400141c65cb52201ee444e77f5220b/forecastmanager-0.0.1.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [aioworldline]: Downloading https://files.pythonhosted.org/packages/50/47/c05e23908fafa366d7f3889bac0ebacf8bd0b54899e9fb011df7ae007cf6/aioworldline-0.0.6.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [HarmonyDecoder]: Downloading https://files.pythonhosted.org/packages/3a/4c/ce0c650e990974e9d34e85e3b03df08ea8b98d6b78b26034d7ba44728341/HarmonyDecoder-1.0.1.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/05/f2/6e61406b7a44ea671ff9553bb2a722a967dda7a3ab49fa6f1125e86a4d63/mizue-0.2.9.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-18 20:39:09] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-18 20:39:10] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.8.tar.gz tmp/mizue-0.2.9.tar.gz --markdown 20230618/m/mizue/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 20:39:10] INFO root fetch - processPackages [test-pypi-security]: Downloading https://files.pythonhosted.org/packages/00/84/3cc046ab2d0b83875fd5a9b28405844c99982fbaa97025bf2897ed194854/test_pypi_security-0.1.1.tar.gz
+[2023-06-18 20:39:10] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:39:10] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230618/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-18 20:39:10] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/1b/6e/1e5084066dc2e4be084d7bd1381a2d7e26683a59f6b2c8e161a91b59e886/forecastmanager-0.0.2.tar.gz
+[2023-06-18 20:39:10] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/f1/de/e587b367d2e090f0a3d840ff700f72eacd7217c4f9dd832a03907d0382ad/tcia_utils-1.5.tar.gz
+[2023-06-18 20:39:10] INFO root fetch - processPackages [universal-test-runner]: Downloading https://files.pythonhosted.org/packages/9e/90/6f8595b6d524254df3227716a76960524d3c95e5a41f12a1c7cb004ad3c0/universal_test_runner-0.2.0.tar.gz
+[2023-06-18 20:39:10] INFO root fetch - processPackages [aioworldline]: Downloading https://files.pythonhosted.org/packages/c0/d2/6868fca45636584841ce33ee1132366976cbde94621d7bc5c9e596d7de37/aioworldline-0.0.7.tar.gz
+[2023-06-18 20:39:10] INFO root fetch - processPackages [test-pypi-security]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [test-pypi-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_pypi_security-0.1.0.tar.gz tmp/test_pypi_security-0.1.1.tar.gz --markdown 20230618/t/test-pypi-security/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 20:39:10] INFO root fetch - processPackages [tcia-utils]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [tcia-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcia_utils-1.4.1.tar.gz tmp/tcia_utils-1.5.tar.gz --markdown 20230618/t/tcia-utils/1.4.1-1.5/diff.md --exclude *.pyd
+[2023-06-18 20:39:10] INFO root fetch - processPackages [universal-test-runner]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [universal-test-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal_test_runner-0.1.0.tar.gz tmp/universal_test_runner-0.2.0.tar.gz --markdown 20230618/u/universal-test-runner/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 20:39:10] INFO root fetch - processPackages [HarmonyDecoder]: Downloading https://files.pythonhosted.org/packages/48/98/8ba992c69283121a465fe15e26bdf816ce7e685a4c5d2e5cf5d04daa91e6/HarmonyDecoder-1.0.2.tar.gz
+[2023-06-18 20:39:10] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-18 20:39:10] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.0.1.tar.gz tmp/forecastmanager-0.0.2.tar.gz --markdown 20230618/f/forecastmanager/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 20:39:10] INFO root fetch - processPackages [aioworldline]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [aioworldline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworldline-0.0.6.tar.gz tmp/aioworldline-0.0.7.tar.gz --markdown 20230618/a/aioworldline/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 20:39:10] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230618/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-18 20:39:10] INFO root fetch - processPackages [HarmonyDecoder]: executing diffoscope
+[2023-06-18 20:39:10] INFO root fetch - processPackages [HarmonyDecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HarmonyDecoder-1.0.1.tar.gz tmp/HarmonyDecoder-1.0.2.tar.gz --markdown 20230618/H/HarmonyDecoder/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-18 20:39:11] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.8.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.9.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [mizue]: Start processing: foursight-cgap
+[2023-06-18 20:39:11] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-18 20:39:11] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.8.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.9.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [ringgpt]: Start processing: foursight
+[2023-06-18 20:39:11] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 20:39:11] INFO root fetch - processPackages [test-pypi-security]: Remove: archive file [/home/abi/fetcher/tmp/test_pypi_security-0.1.0.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [test-pypi-security]: Remove: archive file [/home/abi/fetcher/tmp/test_pypi_security-0.1.1.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [test-pypi-security]: Start processing: denoising-diffusion-pytorch
+[2023-06-18 20:39:11] INFO root fetch - main [MainThread]: End processing [test-pypi-security]: success
+[2023-06-18 20:39:11] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-18 20:39:11] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b7] Old Version: [3.5.0.1b6]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [universal-test-runner]: Remove: archive file [/home/abi/fetcher/tmp/universal_test_runner-0.1.0.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [universal-test-runner]: Remove: archive file [/home/abi/fetcher/tmp/universal_test_runner-0.2.0.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - main [MainThread]: End processing [universal-test-runner]: success
+[2023-06-18 20:39:11] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/47/72/7f0ad5e76055c5ddb3931f55e51e6cb729896cb1d115200933d5969d9963/foursight-3.5.0.1b6.tar.gz
+[2023-06-18 20:39:11] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.4.1.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.5.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - main [MainThread]: End processing [tcia-utils]: success
+[2023-06-18 20:39:11] INFO root fetch - processPackages [aioworldline]: Remove: archive file [/home/abi/fetcher/tmp/aioworldline-0.0.6.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [aioworldline]: Remove: archive file [/home/abi/fetcher/tmp/aioworldline-0.0.7.tar.gz]
+[2023-06-18 20:39:11] INFO root fetch - main [MainThread]: End processing [aioworldline]: success
+[2023-06-18 20:39:11] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-18 20:39:11] INFO root fetch - processPackages [denoising-diffusion-pytorch]: New version: [1.7.0] Old Version: [1.6.4]
+[2023-06-18 20:39:11] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-06-18 20:39:11] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-18 20:39:11] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230618/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-18 20:39:12] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.1.tar.gz]
+[2023-06-18 20:39:12] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.2.tar.gz]
+[2023-06-18 20:39:12] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2023-06-18 20:39:12] INFO root fetch - processPackages [HarmonyDecoder]: Remove: archive file [/home/abi/fetcher/tmp/HarmonyDecoder-1.0.1.tar.gz]
+[2023-06-18 20:39:12] INFO root fetch - processPackages [HarmonyDecoder]: Remove: archive file [/home/abi/fetcher/tmp/HarmonyDecoder-1.0.2.tar.gz]
+[2023-06-18 20:39:12] INFO root fetch - main [MainThread]: End processing [HarmonyDecoder]: success
+[2023-06-18 20:39:12] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-18 20:39:12] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b6.tar.gz tmp/foursight-3.5.0.1b7.tar.gz --markdown 20230618/f/foursight/3.5.0.1b6-3.5.0.1b7/diff.md --exclude *.pyd
+[2023-06-18 20:39:12] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/7f/aa/2ea889891b84ef5950ae82f1a83b9234f2fecd20a49b1d7b02820882ae9e/denoising-diffusion-pytorch-1.6.4.tar.gz
+[2023-06-18 20:39:12] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/9c/fb/c4d7bbc1bbfd917b9ef56240459c55cb8173b48cebc46e8921ecbb975d1e/denoising-diffusion-pytorch-1.7.0.tar.gz
+[2023-06-18 20:39:12] INFO root fetch - processPackages [denoising-diffusion-pytorch]: executing diffoscope
+[2023-06-18 20:39:12] INFO root fetch - processPackages [denoising-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denoising-diffusion-pytorch-1.6.4.tar.gz tmp/denoising-diffusion-pytorch-1.7.0.tar.gz --markdown 20230618/d/denoising-diffusion-pytorch/1.6.4-1.7.0/diff.md --exclude *.pyd
+[2023-06-18 20:39:13] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-18 20:39:13] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-18 20:39:13] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-18 20:39:13] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.6.4.tar.gz]
+[2023-06-18 20:39:13] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.7.0.tar.gz]
+[2023-06-18 20:39:13] INFO root fetch - main [MainThread]: End processing [denoising-diffusion-pytorch]: success
+[2023-06-18 20:39:14] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b6.tar.gz]
+[2023-06-18 20:39:14] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-06-18 20:39:14] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-18 20:39:15] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-18 20:39:15] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-18 20:39:15] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-18 20:40:04] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-18 20:40:04] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-18 20:40:04] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-18 20:40:04] INFO root fetch - main [MainThread]: Store serial: [18552099]
