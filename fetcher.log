@@ -10603,3 +10603,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 16:47:20] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.91.tar.gz]
 [2023-06-18 16:47:20] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
 [2023-06-18 16:47:20] INFO root fetch - main [MainThread]: Store serial: [18550813]
+[2023-06-18 16:52:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550813]
+[2023-06-18 16:52:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 16:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cc-dwh-streaming-pkg
+[2023-06-18 16:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: himl
+[2023-06-18 16:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypipr
+[2023-06-18 16:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-06-18 16:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydatawork
+[2023-06-18 16:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openlane
+[2023-06-18 16:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autopyre
+[2023-06-18 16:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spacy-partial-tagger
+[2023-06-18 16:52:29] INFO root fetch - processPackages [pydatawork]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 16:52:29] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-18 16:52:29] INFO root fetch - processPackages [autopyre]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 16:52:29] INFO root fetch - processPackages [himl]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-18 16:52:29] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-18 16:52:29] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-18 16:52:29] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-18 16:52:29] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/aa/71/296bf1a03f4c8178d6b39886d6b4e55573cf91387ca121d629f90901676a/pydatawork-0.1.2.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: Downloading https://files.pythonhosted.org/packages/c5/91/d9da00034e99d094dd7b7ce4044e2c4944cd7ea5843a7df2b0cbe814d8aa/cc_dwh_streaming_pkg-1.0.1.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/e0/b8/3299d1b22612f1d1e04f72de8791903308dfb8c97ea754cc7e1acbc87445/autopyre-0.0.7.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [spacy-partial-tagger]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-18 16:52:29] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [himl]: Downloading https://files.pythonhosted.org/packages/a3/7e/3dc3f868ad058c27857c9569e8cef3bce472906d4c912d5a8dea4a126ebc/himl-0.8.1.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [spacy-partial-tagger]: Downloading https://files.pythonhosted.org/packages/26/a2/d2c993ac5dbe7491072834d8e2a7c8f13342a1479bef774d4e7d481155f9/spacy_partial_tagger-0.9.3.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/3a/8f/61296e55c587f397d05a3edb39d100a5173385d2c27144f37541452436e9/pydatawork-0.1.3.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: Downloading https://files.pythonhosted.org/packages/5a/f2/b6d04261e07f3be91850a13766a2ce0d851647c4c2c1c793b2b0c04685ff/cc_dwh_streaming_pkg-1.0.2.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/7e/a0/f046f19d473b303caf8b187e19fcaf7cfd1f21a24cba6db3a1a9b3a9df19/autopyre-0.0.8.tar.gz
+[2023-06-18 16:52:29] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-18 16:52:29] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230618/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-18 16:52:29] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-06-18 16:52:30] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-18 16:52:30] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.2.tar.gz tmp/pydatawork-0.1.3.tar.gz --markdown 20230618/p/pydatawork/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 16:52:30] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: executing diffoscope
+[2023-06-18 16:52:30] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_dwh_streaming_pkg-1.0.1.tar.gz tmp/cc_dwh_streaming_pkg-1.0.2.tar.gz --markdown 20230618/c/cc-dwh-streaming-pkg/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-18 16:52:30] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-06-18 16:52:30] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230618/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-18 16:52:30] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 16:52:30] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.7.tar.gz tmp/autopyre-0.0.8.tar.gz --markdown 20230618/a/autopyre/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 16:52:30] INFO root fetch - processPackages [himl]: Downloading https://files.pythonhosted.org/packages/00/53/de8cfac7cf5161e6a73a7de42d620279293ce57097bffee3dfe8a2545b92/himl-0.9.0.tar.gz
+[2023-06-18 16:52:30] INFO root fetch - processPackages [spacy-partial-tagger]: Downloading https://files.pythonhosted.org/packages/43/84/6e6226915e369f471cac4ebd7f252c6c93871af3c7248a3133b43366f8df/spacy_partial_tagger-0.9.4.tar.gz
+[2023-06-18 16:52:30] INFO root fetch - processPackages [himl]: executing diffoscope
+[2023-06-18 16:52:30] INFO root fetch - processPackages [himl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/himl-0.8.1.tar.gz tmp/himl-0.9.0.tar.gz --markdown 20230618/h/himl/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 16:52:30] INFO root fetch - processPackages [spacy-partial-tagger]: executing diffoscope
+[2023-06-18 16:52:30] INFO root fetch - processPackages [spacy-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy_partial_tagger-0.9.3.tar.gz tmp/spacy_partial_tagger-0.9.4.tar.gz --markdown 20230618/s/spacy-partial-tagger/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-18 16:52:30] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-18 16:52:31] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.2.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.3.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-18 16:52:31] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: Remove: archive file [/home/abi/fetcher/tmp/cc_dwh_streaming_pkg-1.0.1.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: Remove: archive file [/home/abi/fetcher/tmp/cc_dwh_streaming_pkg-1.0.2.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - main [MainThread]: End processing [cc-dwh-streaming-pkg]: success
+[2023-06-18 16:52:31] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.7.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.8.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 16:52:31] INFO root fetch - processPackages [himl]: Remove: archive file [/home/abi/fetcher/tmp/himl-0.8.1.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - processPackages [himl]: Remove: archive file [/home/abi/fetcher/tmp/himl-0.9.0.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - main [MainThread]: End processing [himl]: success
+[2023-06-18 16:52:31] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-06-18 16:52:31] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-18 16:52:31] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-18 16:52:31] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230618/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-18 16:52:32] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-06-18 16:52:32] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-06-18 16:52:32] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-06-18 16:52:32] INFO root fetch - processPackages [spacy-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/spacy_partial_tagger-0.9.3.tar.gz]
+[2023-06-18 16:52:32] INFO root fetch - processPackages [spacy-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/spacy_partial_tagger-0.9.4.tar.gz]
+[2023-06-18 16:52:32] INFO root fetch - main [MainThread]: End processing [spacy-partial-tagger]: success
+[2023-06-18 16:53:04] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-18 16:53:04] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-18 16:53:04] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-18 16:53:04] INFO root fetch - main [MainThread]: Store serial: [18550841]
