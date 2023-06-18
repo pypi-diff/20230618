@@ -11460,3 +11460,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 17:59:13] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.1.7.tar.gz]
 [2023-06-18 17:59:13] INFO root fetch - main [MainThread]: End processing [hayloft]: success
 [2023-06-18 17:59:13] INFO root fetch - main [MainThread]: Store serial: [18551211]
+[2023-06-18 18:04:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551211]
+[2023-06-18 18:04:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 18:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxrenderer
+[2023-06-18 18:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SidedrawerOCR
+[2023-06-18 18:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redasql
+[2023-06-18 18:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ltchiptool
+[2023-06-18 18:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopyre
+[2023-06-18 18:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stbi-py
+[2023-06-18 18:04:22] INFO root fetch - processPackages [jaxrenderer]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-18 18:04:22] INFO root fetch - processPackages [ltchiptool]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-06-18 18:04:22] INFO root fetch - processPackages [autopyre]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 18:04:22] INFO root fetch - processPackages [redasql]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-06-18 18:04:22] WARNING root fetch - processPackages [SidedrawerOCR]: Skipping, unable to determine old version
+[2023-06-18 18:04:22] INFO root fetch - main [MainThread]: End processing [SidedrawerOCR] error
+[2023-06-18 18:04:22] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/7e/a0/f046f19d473b303caf8b187e19fcaf7cfd1f21a24cba6db3a1a9b3a9df19/autopyre-0.0.8.tar.gz
+[2023-06-18 18:04:22] INFO root fetch - processPackages [ltchiptool]: Downloading https://files.pythonhosted.org/packages/41/69/3286021d146489e9ed89c2ad99e93cfa401f2663ac4b502410d37da7eb57/ltchiptool-4.2.1.tar.gz
+[2023-06-18 18:04:22] WARNING root fetch - processPackages [stbi-py]: Skipping, unable to determine old version
+[2023-06-18 18:04:22] INFO root fetch - main [MainThread]: End processing [stbi-py] error
+[2023-06-18 18:04:22] INFO root fetch - processPackages [jaxrenderer]: Downloading https://files.pythonhosted.org/packages/b9/41/e40e556f004c14715a973263238277c624ef5d70326d91f3b3e141124dc7/jaxrenderer-0.3.0.tar.gz
+[2023-06-18 18:04:22] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/a1/3e/f149a2b4451adb9f1f1d11736cd612d717c93f18c60b306955e4c06f6e22/autopyre-0.0.9.tar.gz
+[2023-06-18 18:04:22] INFO root fetch - processPackages [redasql]: Downloading https://files.pythonhosted.org/packages/26/6d/14664bd3ace4ce88fab34dad01eaeec5bba5f3da0326ffacad1c57595b3d/redasql-2.5.0.tar.gz
+[2023-06-18 18:04:23] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 18:04:23] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.8.tar.gz tmp/autopyre-0.0.9.tar.gz --markdown 20230618/a/autopyre/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 18:04:23] INFO root fetch - processPackages [ltchiptool]: Downloading https://files.pythonhosted.org/packages/2c/54/fbed75d7309631aceca43a60218c4485383ce3cf6e9f7170348f8752b98f/ltchiptool-4.2.2.tar.gz
+[2023-06-18 18:04:23] INFO root fetch - processPackages [jaxrenderer]: Downloading https://files.pythonhosted.org/packages/76/48/17337e502640c48abd93b2ffbc7a170d2970533b3ac6005878183ec5a559/jaxrenderer-0.3.1.tar.gz
+[2023-06-18 18:04:23] INFO root fetch - processPackages [jaxrenderer]: executing diffoscope
+[2023-06-18 18:04:23] INFO root fetch - processPackages [jaxrenderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxrenderer-0.3.0.tar.gz tmp/jaxrenderer-0.3.1.tar.gz --markdown 20230618/j/jaxrenderer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-18 18:04:23] INFO root fetch - processPackages [redasql]: Downloading https://files.pythonhosted.org/packages/ab/e1/0f49189f28a14827224a45dc470d742fb094f1a8dfcfb81706ded43c8bd6/redasql-2.6.0.tar.gz
+[2023-06-18 18:04:23] INFO root fetch - processPackages [ltchiptool]: executing diffoscope
+[2023-06-18 18:04:23] INFO root fetch - processPackages [ltchiptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltchiptool-4.2.1.tar.gz tmp/ltchiptool-4.2.2.tar.gz --markdown 20230618/l/ltchiptool/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-06-18 18:04:23] INFO root fetch - processPackages [redasql]: executing diffoscope
+[2023-06-18 18:04:23] INFO root fetch - processPackages [redasql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redasql-2.5.0.tar.gz tmp/redasql-2.6.0.tar.gz --markdown 20230618/r/redasql/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-06-18 18:04:24] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.8.tar.gz]
+[2023-06-18 18:04:24] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.9.tar.gz]
+[2023-06-18 18:04:24] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 18:04:24] INFO root fetch - processPackages [redasql]: Remove: archive file [/home/abi/fetcher/tmp/redasql-2.5.0.tar.gz]
+[2023-06-18 18:04:24] INFO root fetch - processPackages [redasql]: Remove: archive file [/home/abi/fetcher/tmp/redasql-2.6.0.tar.gz]
+[2023-06-18 18:04:24] INFO root fetch - main [MainThread]: End processing [redasql]: success
+[2023-06-18 18:04:24] INFO root fetch - processPackages [jaxrenderer]: Remove: archive file [/home/abi/fetcher/tmp/jaxrenderer-0.3.0.tar.gz]
+[2023-06-18 18:04:24] INFO root fetch - processPackages [jaxrenderer]: Remove: archive file [/home/abi/fetcher/tmp/jaxrenderer-0.3.1.tar.gz]
+[2023-06-18 18:04:24] INFO root fetch - main [MainThread]: End processing [jaxrenderer]: success
+[2023-06-18 18:04:24] INFO root fetch - processPackages [ltchiptool]: Remove: archive file [/home/abi/fetcher/tmp/ltchiptool-4.2.1.tar.gz]
+[2023-06-18 18:04:24] INFO root fetch - processPackages [ltchiptool]: Remove: archive file [/home/abi/fetcher/tmp/ltchiptool-4.2.2.tar.gz]
+[2023-06-18 18:04:24] INFO root fetch - main [MainThread]: End processing [ltchiptool]: success
+[2023-06-18 18:04:24] INFO root fetch - main [MainThread]: Store serial: [18551232]
