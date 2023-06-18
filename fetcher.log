@@ -8446,3 +8446,54 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:24:02] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.12-py3-none-any.whl.zip]
 [2023-06-18 14:24:02] INFO root fetch - main [MainThread]: End processing [pdf2txt]: success
 [2023-06-18 14:24:02] INFO root fetch - main [MainThread]: Store serial: [18549956]
+[2023-06-18 14:29:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549956]
+[2023-06-18 14:29:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 14:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blint
+[2023-06-18 14:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dysweep
+[2023-06-18 14:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi
+[2023-06-18 14:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bthome-ble
+[2023-06-18 14:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpi
+[2023-06-18 14:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpleplayer
+[2023-06-18 14:29:11] WARNING root fetch - processPackages [simpleplayer]: Skipping, unable to determine old version
+[2023-06-18 14:29:11] INFO root fetch - main [MainThread]: End processing [simpleplayer] error
+[2023-06-18 14:29:11] INFO root fetch - processPackages [blint]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-18 14:29:11] INFO root fetch - processPackages [dysweep]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 14:29:11] INFO root fetch - processPackages [cpi]: New version: [1.0.9.dev1660391812] Old Version: [1.0.9.dev1660391811]
+[2023-06-18 14:29:11] INFO root fetch - processPackages [hyfi]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-06-18 14:29:11] INFO root fetch - processPackages [bthome-ble]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-18 14:29:11] INFO root fetch - processPackages [cpi]: Downloading https://files.pythonhosted.org/packages/20/f4/3016220572081a4e6b1e0f58610d2cf8f073be39d3ed55135a7b5cb6d4b7/cpi-1.0.9.dev1660391811.tar.gz
+[2023-06-18 14:29:11] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/e6/b0/d5ddf36678d6c1c40e060406a45bedd8d3eac80e1204239b6b3099f84d76/blint-1.0.8.tar.gz
+[2023-06-18 14:29:11] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/e9/0f/9ca2cf96ba3a52a2a6b9a741ac53b57b00c27e1007839331c2f61d234930/bthome_ble-2.8.0.tar.gz
+[2023-06-18 14:29:11] INFO root fetch - processPackages [dysweep]: Downloading https://files.pythonhosted.org/packages/92/1d/9ee549d3150b6e14e2a72aa35ceea91941362e0a06069d64d530f6819ea4/dysweep-0.0.8.tar.gz
+[2023-06-18 14:29:11] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/9e/5b/047d9296165e2669cd3e9f8237446e63c6e3e2195c4661e8031a0a340643/hyfi-0.7.2.tar.gz
+[2023-06-18 14:29:11] INFO root fetch - processPackages [dysweep]: Downloading https://files.pythonhosted.org/packages/e8/07/79adda083e992dcadf1e148f271ead095b725b5a035086fafafae191d4f3/dysweep-0.0.9.tar.gz
+[2023-06-18 14:29:11] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/78/fd/17a1242525e7099451e02ae95b9750ce66bc4fe22bacd9242fd381117016/hyfi-0.8.0.tar.gz
+[2023-06-18 14:29:11] INFO root fetch - processPackages [dysweep]: executing diffoscope
+[2023-06-18 14:29:11] INFO root fetch - processPackages [dysweep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dysweep-0.0.8.tar.gz tmp/dysweep-0.0.9.tar.gz --markdown 20230618/d/dysweep/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 14:29:11] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-18 14:29:11] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.7.2.tar.gz tmp/hyfi-0.8.0.tar.gz --markdown 20230618/h/hyfi/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-06-18 14:29:11] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/ef/1d/0d52caf776f421b2974c0acb7dc1b6c2eff608597c6d6f5bceff17b2df85/blint-1.0.9.tar.gz
+[2023-06-18 14:29:11] INFO root fetch - processPackages [cpi]: Downloading https://files.pythonhosted.org/packages/74/42/aae097b84f122a9d88734bbe1409697a41df98ba392cc10e50f8ee158db9/cpi-1.0.9.dev1660391812-py2.py3-none-any.whl
+[2023-06-18 14:29:11] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/8e/3d/5c42e5be156cd1acdd04a976aa049d2ebb9860e6d9904b9b052d0ad91263/bthome_ble-2.9.0.tar.gz
+[2023-06-18 14:29:11] INFO root fetch - processPackages [blint]: executing diffoscope
+[2023-06-18 14:29:11] INFO root fetch - processPackages [cpi]: executing diffoscope
+[2023-06-18 14:29:11] INFO root fetch - processPackages [blint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blint-1.0.8.tar.gz tmp/blint-1.0.9.tar.gz --markdown 20230618/b/blint/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-18 14:29:11] INFO root fetch - processPackages [cpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpi-1.0.9.dev1660391811.tar.gz tmp/cpi-1.0.9.dev1660391812-py2.py3-none-any.whl.zip --markdown 20230618/c/cpi/1.0.9.dev1660391811-1.0.9.dev1660391812/diff.md --exclude *.pyd
+[2023-06-18 14:29:11] INFO root fetch - processPackages [bthome-ble]: executing diffoscope
+[2023-06-18 14:29:11] INFO root fetch - processPackages [bthome-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bthome_ble-2.8.0.tar.gz tmp/bthome_ble-2.9.0.tar.gz --markdown 20230618/b/bthome-ble/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-18 14:29:12] INFO root fetch - processPackages [dysweep]: Remove: archive file [/home/abi/fetcher/tmp/dysweep-0.0.8.tar.gz]
+[2023-06-18 14:29:12] INFO root fetch - processPackages [dysweep]: Remove: archive file [/home/abi/fetcher/tmp/dysweep-0.0.9.tar.gz]
+[2023-06-18 14:29:12] INFO root fetch - main [MainThread]: End processing [dysweep]: success
+[2023-06-18 14:29:13] INFO root fetch - processPackages [cpi]: Remove: archive file [/home/abi/fetcher/tmp/cpi-1.0.9.dev1660391811.tar.gz]
+[2023-06-18 14:29:13] INFO root fetch - processPackages [cpi]: Remove: archive file [/home/abi/fetcher/tmp/cpi-1.0.9.dev1660391812-py2.py3-none-any.whl.zip]
+[2023-06-18 14:29:13] INFO root fetch - main [MainThread]: End processing [cpi]: success
+[2023-06-18 14:29:13] INFO root fetch - processPackages [bthome-ble]: Remove: archive file [/home/abi/fetcher/tmp/bthome_ble-2.8.0.tar.gz]
+[2023-06-18 14:29:13] INFO root fetch - processPackages [bthome-ble]: Remove: archive file [/home/abi/fetcher/tmp/bthome_ble-2.9.0.tar.gz]
+[2023-06-18 14:29:13] INFO root fetch - main [MainThread]: End processing [bthome-ble]: success
+[2023-06-18 14:29:13] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-1.0.8.tar.gz]
+[2023-06-18 14:29:13] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-1.0.9.tar.gz]
+[2023-06-18 14:29:13] INFO root fetch - main [MainThread]: End processing [blint]: success
+[2023-06-18 14:29:13] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.7.2.tar.gz]
+[2023-06-18 14:29:13] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.8.0.tar.gz]
+[2023-06-18 14:29:13] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-18 14:29:13] INFO root fetch - main [MainThread]: Store serial: [18549978]
