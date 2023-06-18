@@ -8704,3 +8704,121 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:50:54] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
 [2023-06-18 14:50:54] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2023-06-18 14:50:54] INFO root fetch - main [MainThread]: Store serial: [18550066]
+[2023-06-18 14:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550066]
+[2023-06-18 14:56:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capstone
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ControlCharts
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopyre
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-quality-rules-tools
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bfgdealer
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-heat-routes
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdf2txt
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nais-processor
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simpleplayer
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2023-06-18 14:56:03] INFO root fetch - processPackages [autopyre]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 14:56:03] INFO root fetch - processPackages [bfgdealer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-18 14:56:03] WARNING root fetch - processPackages [gpt-heat-routes]: Skipping, unable to determine old version
+[2023-06-18 14:56:03] INFO root fetch - processPackages [gpt-heat-routes]: Start processing: openapi-core
+[2023-06-18 14:56:03] INFO root fetch - main [MainThread]: End processing [gpt-heat-routes] error
+[2023-06-18 14:56:03] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-18 14:56:03] INFO root fetch - processPackages [capstone]: New version: [5.0.0rc4] Old Version: [5.0.0rc2]
+[2023-06-18 14:56:03] WARNING root fetch - processPackages [ControlCharts]: Skipping, unable to determine old version
+[2023-06-18 14:56:03] INFO root fetch - processPackages [ControlCharts]: Start processing: certipy-ad
+[2023-06-18 14:56:03] INFO root fetch - main [MainThread]: End processing [ControlCharts] error
+[2023-06-18 14:56:03] WARNING root fetch - processPackages [simpleplayer]: Skipping, unable to determine old version
+[2023-06-18 14:56:03] INFO root fetch - processPackages [simpleplayer]: Start processing: dtstools
+[2023-06-18 14:56:03] INFO root fetch - main [MainThread]: End processing [simpleplayer] error
+[2023-06-18 14:56:03] INFO root fetch - processPackages [pdf2txt]: New version: [0.7.14] Old Version: [0.7.13]
+[2023-06-18 14:56:03] INFO root fetch - processPackages [yeref]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-18 14:56:03] INFO root fetch - processPackages [nais-processor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 14:56:03] INFO root fetch - processPackages [certipy-ad]: New version: [4.5.0] Old Version: [4.4.0]
+[2023-06-18 14:56:03] INFO root fetch - processPackages [dtstools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 14:56:03] INFO root fetch - processPackages [openapi-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 14:56:03] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/e0/ed/f1d238b211eb190a8de37b446b375cdfd5d00c2bfa52d7b1bb3d286323ed/pdf2txt-0.7.13-py3-none-any.whl
+[2023-06-18 14:56:03] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/f7/d8/e25ac5a87ed503a1aaaa4599884f9948bd36e7e64b70da63f9c47c85ea86/autopyre-0.0.4.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/1b/3b/9ed706b756840a64d175bedd15fdfdddc89dc4f18f0c1b9e036a0553d6a4/bfgdealer-0.0.5.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/64/21/def7919823180d1e1ece357f107bac1a8f168ed33dac9bfcbbb296eabf7c/spark_quality_rules_tools-0.2.9.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [capstone]: Downloading https://files.pythonhosted.org/packages/a6/6f/6d98f636aba7f064e235b345667e50219b7a53b7ef8871ed7ac6bc50d3fd/capstone-5.0.0rc2.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/7c/83/2ead914e0f63dd47a951410a84ac8214b7b6534a97785144d1b5a1895fa9/yeref-0.1.98.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [nais-processor]: Downloading https://files.pythonhosted.org/packages/3e/49/df101cde2c9409f0641bf679ebd4a30f4e447b926cb2080bfd3b48ce58bd/nais-processor-0.0.8.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [openapi-core]: Downloading https://files.pythonhosted.org/packages/be/0d/4e0c7f1bce4dbca06b69999b5c9bbcde133f540d747efd8b87abe70edec7/openapi-core-0.8.0.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/c8/7c/43fcceb2590d65004ae7dc2c98ac8bc720196d3bd75d5a25fb640534bddd/dtstools-0.0.4.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [certipy-ad]: Downloading https://files.pythonhosted.org/packages/55/8c/185c627deff311137a6d3dc93a6a9b813431bf970dc7424b9812636fda6c/certipy-ad-4.4.0.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/14/57/0995f69a284cb71ac84b6f46d2eab044978c3a5050cbeb0d1217253218a4/pdf2txt-0.7.14-py3-none-any.whl
+[2023-06-18 14:56:04] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/f7/d0/5eaa70fdff4e9d9176048876f798b42578c9da953bf9c14b99a254b0bf6e/autopyre-0.0.5.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [dtstools]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [dtstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtstools-0.0.3.tar.gz tmp/dtstools-0.0.4.tar.gz --markdown 20230618/d/dtstools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 14:56:04] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/9a/62/bc4c0d3de5663b08977e8d81be9b4cbf08814b3f6f3ddb8fb81e0482d908/spark_quality_rules_tools-0.3.0.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [pdf2txt]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [pdf2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf2txt-0.7.13-py3-none-any.whl.zip tmp/pdf2txt-0.7.14-py3-none-any.whl.zip --markdown 20230618/p/pdf2txt/0.7.13-0.7.14/diff.md --exclude *.pyd
+[2023-06-18 14:56:04] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/40/88/bdbe7d87b86f7915a41e6a2156023beb678a5d5e5b2e66ec21c45189ab43/yeref-0.1.99.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.2.9.tar.gz tmp/spark_quality_rules_tools-0.3.0.tar.gz --markdown 20230618/s/spark-quality-rules-tools/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 14:56:04] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/61/a3/4682ba8cafa8949238be1174426795984b4eaeff6e0e97d010f9d35fa4d5/bfgdealer-0.0.6.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [capstone]: Downloading https://files.pythonhosted.org/packages/72/4c/2766bfe89b99b47d2ef831cd4d9a348a8508f9978c52e7908dab936e3370/capstone-5.0.0rc4.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.98.tar.gz tmp/yeref-0.1.99.tar.gz --markdown 20230618/y/yeref/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-18 14:56:04] INFO root fetch - processPackages [bfgdealer]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [bfgdealer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgdealer-0.0.5.tar.gz tmp/bfgdealer-0.0.6.tar.gz --markdown 20230618/b/bfgdealer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-18 14:56:04] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.4.tar.gz tmp/autopyre-0.0.5.tar.gz --markdown 20230618/a/autopyre/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 14:56:04] INFO root fetch - processPackages [certipy-ad]: Downloading https://files.pythonhosted.org/packages/54/f1/c3790390d608fbf7403a4b49b7f563e796224be4ce987935d2dbd9f37192/certipy-ad-4.5.0.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [nais-processor]: Downloading https://files.pythonhosted.org/packages/fb/55/ed01cd3952126a9fb602120835eb4ee7c6005f4f662207464f435425a955/nais-processor-0.0.9.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [certipy-ad]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [certipy-ad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certipy-ad-4.4.0.tar.gz tmp/certipy-ad-4.5.0.tar.gz --markdown 20230618/c/certipy-ad/4.4.0-4.5.0/diff.md --exclude *.pyd
+[2023-06-18 14:56:04] INFO root fetch - processPackages [openapi-core]: Downloading https://files.pythonhosted.org/packages/f7/a7/c74460a5fd37424344abf1f27dc49afe16583bcbaae7e0e59b3734a094d4/openapi-core-0.9.0.tar.gz
+[2023-06-18 14:56:04] INFO root fetch - processPackages [nais-processor]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [nais-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nais-processor-0.0.8.tar.gz tmp/nais-processor-0.0.9.tar.gz --markdown 20230618/n/nais-processor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 14:56:04] INFO root fetch - processPackages [openapi-core]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [openapi-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-core-0.8.0.tar.gz tmp/openapi-core-0.9.0.tar.gz --markdown 20230618/o/openapi-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 14:56:04] INFO root fetch - processPackages [capstone]: executing diffoscope
+[2023-06-18 14:56:04] INFO root fetch - processPackages [capstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capstone-5.0.0rc2.tar.gz tmp/capstone-5.0.0rc4.tar.gz --markdown 20230618/c/capstone/5.0.0rc2-5.0.0rc4/diff.md --exclude *.pyd
+[2023-06-18 14:56:05] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.3.tar.gz]
+[2023-06-18 14:56:05] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.4.tar.gz]
+[2023-06-18 14:56:05] INFO root fetch - processPackages [dtstools]: Start processing: autopyre
+[2023-06-18 14:56:05] INFO root fetch - main [MainThread]: End processing [dtstools]: success
+[2023-06-18 14:56:05] INFO root fetch - processPackages [autopyre]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 14:56:06] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.4.tar.gz tmp/autopyre-0.0.5.tar.gz --markdown 20230618/a/autopyre/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 14:56:06] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.98.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.99.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [yeref]: Start processing: classy-classification
+[2023-06-18 14:56:06] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-18 14:56:06] INFO root fetch - processPackages [classy-classification]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.13-py3-none-any.whl.zip]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.14-py3-none-any.whl.zip]
+[2023-06-18 14:56:06] INFO root fetch - main [MainThread]: End processing [pdf2txt]: success
+[2023-06-18 14:56:06] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.2.9.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.0.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-06-18 14:56:06] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/ed/68/b58abb87432fb5e5d40c7bf967444d80be95ffd5a9805f9d53bfdb265530/classy_classification-0.6.2.tar.gz
+[2023-06-18 14:56:06] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.5.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.6.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - main [MainThread]: End processing [bfgdealer]: success
+[2023-06-18 14:56:06] INFO root fetch - processPackages [nais-processor]: Remove: archive file [/home/abi/fetcher/tmp/nais-processor-0.0.8.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [nais-processor]: Remove: archive file [/home/abi/fetcher/tmp/nais-processor-0.0.9.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - main [MainThread]: End processing [nais-processor]: success
+[2023-06-18 14:56:06] INFO root fetch - processPackages [certipy-ad]: Remove: archive file [/home/abi/fetcher/tmp/certipy-ad-4.4.0.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [certipy-ad]: Remove: archive file [/home/abi/fetcher/tmp/certipy-ad-4.5.0.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - main [MainThread]: End processing [certipy-ad]: success
+[2023-06-18 14:56:06] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.4.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.5.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 14:56:06] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/16/2f/2f24b10b2fb14a067729efb36027e7f0d965ebc209386cab1efaa87c0a15/classy_classification-0.6.3.tar.gz
+[2023-06-18 14:56:06] INFO root fetch - processPackages [openapi-core]: Remove: archive file [/home/abi/fetcher/tmp/openapi-core-0.8.0.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - processPackages [openapi-core]: Remove: archive file [/home/abi/fetcher/tmp/openapi-core-0.9.0.tar.gz]
+[2023-06-18 14:56:06] INFO root fetch - main [MainThread]: End processing [openapi-core]: success
+[2023-06-18 14:56:06] INFO root fetch - processPackages [classy-classification]: executing diffoscope
+[2023-06-18 14:56:06] INFO root fetch - processPackages [classy-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classy_classification-0.6.2.tar.gz tmp/classy_classification-0.6.3.tar.gz --markdown 20230618/c/classy-classification/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-18 14:56:06] ERROR root fetch - processPackages [autopyre]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/autopyre-0.0.4.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/autopyre-0.0.5.tar.gz: No such file or directory
+
+[2023-06-18 14:56:06] INFO root fetch - main [MainThread]: End processing [autopyre] error
+[2023-06-18 14:56:07] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy_classification-0.6.2.tar.gz]
+[2023-06-18 14:56:07] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy_classification-0.6.3.tar.gz]
+[2023-06-18 14:56:07] INFO root fetch - main [MainThread]: End processing [classy-classification]: success
+[2023-06-18 14:56:17] INFO root fetch - processPackages [capstone]: Remove: archive file [/home/abi/fetcher/tmp/capstone-5.0.0rc2.tar.gz]
+[2023-06-18 14:56:17] INFO root fetch - processPackages [capstone]: Remove: archive file [/home/abi/fetcher/tmp/capstone-5.0.0rc4.tar.gz]
+[2023-06-18 14:56:17] INFO root fetch - main [MainThread]: End processing [capstone]: success
+[2023-06-18 14:56:17] INFO root fetch - main [MainThread]: Store serial: [18550123]
