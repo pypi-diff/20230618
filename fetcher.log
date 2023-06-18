@@ -2915,3 +2915,33 @@
 [2023-06-18 04:11:47] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.1.1.dev1-py3-none-any.whl.zip]
 [2023-06-18 04:11:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
 [2023-06-18 04:11:47] INFO root fetch - main [MainThread]: Store serial: [18547459]
+[2023-06-18 04:16:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547459]
+[2023-06-18 04:16:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 04:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: themoviedb
+[2023-06-18 04:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Priority1py
+[2023-06-18 04:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cropnet
+[2023-06-18 04:16:55] INFO root fetch - processPackages [Priority1py]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-18 04:16:55] INFO root fetch - processPackages [themoviedb]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-18 04:16:55] INFO root fetch - processPackages [cropnet]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 04:16:55] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/b0/d3/b49ec3ceec09ec70081cd7ec00e4ba42d4edc11d84bdb182369f22a406d3/Priority1py-1.0.5.tar.gz
+[2023-06-18 04:16:55] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/f4/28/af1b4b75aa7c3919782de1eac96c3c82cb3cde9434dcd09906fd529a3f01/cropnet-0.1.2.tar.gz
+[2023-06-18 04:16:55] INFO root fetch - processPackages [themoviedb]: Downloading https://files.pythonhosted.org/packages/af/c2/f2f15ebcf1176972a2e2c0371ce96124ea2284e4031819fa70ca827b1d02/themoviedb-0.3.3.tar.gz
+[2023-06-18 04:16:56] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/2a/c9/d9e9d3fe8c83d48e3fe730877ba0cc9b459e7cdd3206d272a8b4fb85222b/cropnet-0.1.3.tar.gz
+[2023-06-18 04:16:56] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/1d/75/5ac7107065181b48860733f04075b35d0700ce8dbb23364a6d08f14e1020/Priority1py-1.0.6.tar.gz
+[2023-06-18 04:16:56] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-18 04:16:56] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-1.0.5.tar.gz tmp/Priority1py-1.0.6.tar.gz --markdown 20230618/P/Priority1py/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-18 04:16:56] INFO root fetch - processPackages [cropnet]: executing diffoscope
+[2023-06-18 04:16:56] INFO root fetch - processPackages [cropnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropnet-0.1.2.tar.gz tmp/cropnet-0.1.3.tar.gz --markdown 20230618/c/cropnet/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 04:16:56] INFO root fetch - processPackages [themoviedb]: Downloading https://files.pythonhosted.org/packages/ad/d0/423d6c4c2cf13d862b217caa0e4b3458d8638fa50c9ccdca5f18b99b6390/themoviedb-0.3.4.tar.gz
+[2023-06-18 04:16:56] INFO root fetch - processPackages [themoviedb]: executing diffoscope
+[2023-06-18 04:16:56] INFO root fetch - processPackages [themoviedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/themoviedb-0.3.3.tar.gz tmp/themoviedb-0.3.4.tar.gz --markdown 20230618/t/themoviedb/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-18 04:16:57] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.2.tar.gz]
+[2023-06-18 04:16:57] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.3.tar.gz]
+[2023-06-18 04:16:57] INFO root fetch - main [MainThread]: End processing [cropnet]: success
+[2023-06-18 04:16:57] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.5.tar.gz]
+[2023-06-18 04:16:57] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.6.tar.gz]
+[2023-06-18 04:16:57] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-18 04:16:57] INFO root fetch - processPackages [themoviedb]: Remove: archive file [/home/abi/fetcher/tmp/themoviedb-0.3.3.tar.gz]
+[2023-06-18 04:16:57] INFO root fetch - processPackages [themoviedb]: Remove: archive file [/home/abi/fetcher/tmp/themoviedb-0.3.4.tar.gz]
+[2023-06-18 04:16:57] INFO root fetch - main [MainThread]: End processing [themoviedb]: success
+[2023-06-18 04:16:57] INFO root fetch - main [MainThread]: Store serial: [18547467]
