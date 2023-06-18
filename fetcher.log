@@ -6902,3 +6902,42 @@
 [2023-06-18 12:18:58] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.6.8.15.39.7.tar.gz]
 [2023-06-18 12:18:58] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
 [2023-06-18 12:18:58] INFO root fetch - main [MainThread]: Store serial: [18549239]
+[2023-06-18 12:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549239]
+[2023-06-18 12:24:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: next-bus-bot
+[2023-06-18 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-dto
+[2023-06-18 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmake-pre-commit-hooks
+[2023-06-18 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: faons
+[2023-06-18 12:24:07] INFO root fetch - processPackages [faons]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-18 12:24:07] INFO root fetch - processPackages [next-bus-bot]: New version: [1.2.1] Old Version: [1.0.3]
+[2023-06-18 12:24:07] INFO root fetch - processPackages [openapi-dto]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 12:24:07] INFO root fetch - processPackages [cmake-pre-commit-hooks]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-18 12:24:07] INFO root fetch - processPackages [faons]: Downloading https://files.pythonhosted.org/packages/24/62/e754305c02253a367776c377bbba0033ceee5d70b290c06b7c8507d00d31/faons-0.0.5.tar.gz
+[2023-06-18 12:24:07] INFO root fetch - processPackages [next-bus-bot]: Downloading https://files.pythonhosted.org/packages/1a/ba/c5c5a1d863a07db64fdc744618e6cc66c8de37bcdd7cbf0dd5e65cd1d6a6/next-bus-bot-1.0.3.tar.gz
+[2023-06-18 12:24:07] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/ad/dc/0914df21e4876e5c4ea1f60ba2d0b364d57de30474e65ca28d70d453ce61/cmake_pre_commit_hooks-1.9.0.tar.gz
+[2023-06-18 12:24:07] INFO root fetch - processPackages [openapi-dto]: Downloading https://files.pythonhosted.org/packages/6c/81/5a3efea22588753359465a8131b17c30d14febd65c5279d22562d162ecd2/openapi_dto-0.1.4.tar.gz
+[2023-06-18 12:24:07] INFO root fetch - processPackages [faons]: Downloading https://files.pythonhosted.org/packages/cc/b4/148c38dd6187604079a53cb2f6a849dc128f32b4ed138f6353540e616512/faons-0.0.6.tar.gz
+[2023-06-18 12:24:07] INFO root fetch - processPackages [next-bus-bot]: Downloading https://files.pythonhosted.org/packages/94/72/b081c5b72ecf067d4f6963383e4dd7d5fd163bcf61d5276326125335e517/next-bus-bot-1.2.1.tar.gz
+[2023-06-18 12:24:07] INFO root fetch - processPackages [faons]: executing diffoscope
+[2023-06-18 12:24:07] INFO root fetch - processPackages [faons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faons-0.0.5.tar.gz tmp/faons-0.0.6.tar.gz --markdown 20230618/f/faons/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-18 12:24:07] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/af/97/fca8c51e61208f059f3cfffca9f11502ce4e1789c89b5c0241717bcc57f0/cmake_pre_commit_hooks-1.9.1.tar.gz
+[2023-06-18 12:24:07] INFO root fetch - processPackages [openapi-dto]: Downloading https://files.pythonhosted.org/packages/98/51/3756e24d479ea3e6a1e06b7b841f362283695aefc428a52d397013e7a992/openapi_dto-0.1.5.tar.gz
+[2023-06-18 12:24:07] INFO root fetch - processPackages [next-bus-bot]: executing diffoscope
+[2023-06-18 12:24:07] INFO root fetch - processPackages [next-bus-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/next-bus-bot-1.0.3.tar.gz tmp/next-bus-bot-1.2.1.tar.gz --markdown 20230618/n/next-bus-bot/1.0.3-1.2.1/diff.md --exclude *.pyd
+[2023-06-18 12:24:07] INFO root fetch - processPackages [cmake-pre-commit-hooks]: executing diffoscope
+[2023-06-18 12:24:07] INFO root fetch - processPackages [cmake-pre-commit-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmake_pre_commit_hooks-1.9.0.tar.gz tmp/cmake_pre_commit_hooks-1.9.1.tar.gz --markdown 20230618/c/cmake-pre-commit-hooks/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-18 12:24:08] INFO root fetch - processPackages [openapi-dto]: executing diffoscope
+[2023-06-18 12:24:08] INFO root fetch - processPackages [openapi-dto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_dto-0.1.4.tar.gz tmp/openapi_dto-0.1.5.tar.gz --markdown 20230618/o/openapi-dto/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 12:24:08] INFO root fetch - processPackages [faons]: Remove: archive file [/home/abi/fetcher/tmp/faons-0.0.5.tar.gz]
+[2023-06-18 12:24:08] INFO root fetch - processPackages [faons]: Remove: archive file [/home/abi/fetcher/tmp/faons-0.0.6.tar.gz]
+[2023-06-18 12:24:08] INFO root fetch - main [MainThread]: End processing [faons]: success
+[2023-06-18 12:24:09] INFO root fetch - processPackages [openapi-dto]: Remove: archive file [/home/abi/fetcher/tmp/openapi_dto-0.1.4.tar.gz]
+[2023-06-18 12:24:09] INFO root fetch - processPackages [openapi-dto]: Remove: archive file [/home/abi/fetcher/tmp/openapi_dto-0.1.5.tar.gz]
+[2023-06-18 12:24:09] INFO root fetch - main [MainThread]: End processing [openapi-dto]: success
+[2023-06-18 12:24:09] INFO root fetch - processPackages [next-bus-bot]: Remove: archive file [/home/abi/fetcher/tmp/next-bus-bot-1.0.3.tar.gz]
+[2023-06-18 12:24:09] INFO root fetch - processPackages [next-bus-bot]: Remove: archive file [/home/abi/fetcher/tmp/next-bus-bot-1.2.1.tar.gz]
+[2023-06-18 12:24:09] INFO root fetch - main [MainThread]: End processing [next-bus-bot]: success
+[2023-06-18 12:24:09] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/cmake_pre_commit_hooks-1.9.0.tar.gz]
+[2023-06-18 12:24:09] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/cmake_pre_commit_hooks-1.9.1.tar.gz]
+[2023-06-18 12:24:09] INFO root fetch - main [MainThread]: End processing [cmake-pre-commit-hooks]: success
+[2023-06-18 12:24:09] INFO root fetch - main [MainThread]: Store serial: [18549253]
