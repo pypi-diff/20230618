@@ -10801,3 +10801,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 17:03:30] INFO root fetch - main [MainThread]: End processing [autopyre]: success
 [2023-06-18 17:03:30] INFO root fetch - main [MainThread]: End processing [autopyre]: success
 [2023-06-18 17:03:30] INFO root fetch - main [MainThread]: Store serial: [18550917]
+[2023-06-18 17:08:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550917]
+[2023-06-18 17:08:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: joltedmod
+[2023-06-18 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-translation
+[2023-06-18 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydatawork
+[2023-06-18 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qps-limit
+[2023-06-18 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: supervisely
+[2023-06-18 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aa-miningtaxes
+[2023-06-18 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llamabot
+[2023-06-18 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-can
+[2023-06-18 17:08:40] INFO root fetch - processPackages [joltedmod]: New version: [0.2.2] Old Version: [0.2.1.1]
+[2023-06-18 17:08:40] WARNING root fetch - processPackages [open-translation]: Skipping, unable to determine old version
+[2023-06-18 17:08:40] INFO root fetch - main [MainThread]: End processing [open-translation] error
+[2023-06-18 17:08:40] WARNING root fetch - processPackages [qps-limit]: Skipping, unable to determine old version
+[2023-06-18 17:08:40] INFO root fetch - main [MainThread]: End processing [qps-limit] error
+[2023-06-18 17:08:40] INFO root fetch - processPackages [aa-miningtaxes]: New version: [1.2.4] Old Version: [1.1.8]
+[2023-06-18 17:08:40] INFO root fetch - processPackages [pydatawork]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 17:08:40] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 17:08:40] INFO root fetch - processPackages [python-can]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-06-18 17:08:40] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-18 17:08:40] INFO root fetch - processPackages [joltedmod]: Downloading https://files.pythonhosted.org/packages/40/45/c78fa63306e0831cf6bbca6f4dc3ba88d001dca8f3d1b25165e3fd2db274/joltedmod-0.2.1.1.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/3a/8f/61296e55c587f397d05a3edb39d100a5173385d2c27144f37541452436e9/pydatawork-0.1.3.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/a7/d1/8a821ce88bb6757232bd641985a59d068fe9c2dad7abf77b218d25db7aa4/aa-miningtaxes-1.1.8.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [python-can]: Downloading https://files.pythonhosted.org/packages/9c/c6/ac021966e45173f2ce09d8c2638d2993231cbab015b454bcfce61150a0e5/python-can-4.2.1.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [joltedmod]: Downloading https://files.pythonhosted.org/packages/ba/db/31a7d70427b9d8860e6a1e64d5708afbee1af643fd3f394c8a64a8b52d16/joltedmod-0.2.2.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/b7/60/f9e7004c94d0ae38d08b12490a7b0f2ed300101a52fb870390a3d5a856be/pydatawork-0.1.4.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-18 17:08:40] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230618/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 17:08:40] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/18/7f/109085bfae433c218d39b7d41fde8616fa1a2b7ca2da7b8a7cc6e5ca6f58/aa-miningtaxes-1.2.4.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [joltedmod]: executing diffoscope
+[2023-06-18 17:08:40] INFO root fetch - processPackages [joltedmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joltedmod-0.2.1.1.tar.gz tmp/joltedmod-0.2.2.tar.gz --markdown 20230618/j/joltedmod/0.2.1.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-18 17:08:40] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-18 17:08:40] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.3.tar.gz tmp/pydatawork-0.1.4.tar.gz --markdown 20230618/p/pydatawork/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 17:08:40] INFO root fetch - processPackages [python-can]: Downloading https://files.pythonhosted.org/packages/dd/f1/327caaf05b6bca594250053058a2adac537a88dfb5c41bb5498cfda9de78/python-can-4.2.2.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [aa-miningtaxes]: executing diffoscope
+[2023-06-18 17:08:40] INFO root fetch - processPackages [aa-miningtaxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-miningtaxes-1.1.8.tar.gz tmp/aa-miningtaxes-1.2.4.tar.gz --markdown 20230618/a/aa-miningtaxes/1.1.8-1.2.4/diff.md --exclude *.pyd
+[2023-06-18 17:08:40] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-06-18 17:08:40] INFO root fetch - processPackages [python-can]: executing diffoscope
+[2023-06-18 17:08:40] INFO root fetch - processPackages [python-can]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-can-4.2.1.tar.gz tmp/python-can-4.2.2.tar.gz --markdown 20230618/p/python-can/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-06-18 17:08:40] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-18 17:08:40] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230618/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-18 17:08:41] INFO root fetch - processPackages [joltedmod]: Remove: archive file [/home/abi/fetcher/tmp/joltedmod-0.2.1.1.tar.gz]
+[2023-06-18 17:08:41] INFO root fetch - processPackages [joltedmod]: Remove: archive file [/home/abi/fetcher/tmp/joltedmod-0.2.2.tar.gz]
+[2023-06-18 17:08:41] INFO root fetch - main [MainThread]: End processing [joltedmod]: success
+[2023-06-18 17:08:41] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.3.tar.gz]
+[2023-06-18 17:08:41] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.4.tar.gz]
+[2023-06-18 17:08:41] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-18 17:08:41] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-18 17:08:41] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-18 17:08:41] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-18 17:08:42] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.1.8.tar.gz]
+[2023-06-18 17:08:42] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.4.tar.gz]
+[2023-06-18 17:08:42] INFO root fetch - main [MainThread]: End processing [aa-miningtaxes]: success
+[2023-06-18 17:08:43] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-06-18 17:08:43] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-06-18 17:08:43] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-18 17:08:45] INFO root fetch - processPackages [python-can]: Remove: archive file [/home/abi/fetcher/tmp/python-can-4.2.1.tar.gz]
+[2023-06-18 17:08:45] INFO root fetch - processPackages [python-can]: Remove: archive file [/home/abi/fetcher/tmp/python-can-4.2.2.tar.gz]
+[2023-06-18 17:08:45] INFO root fetch - main [MainThread]: End processing [python-can]: success
+[2023-06-18 17:08:45] INFO root fetch - main [MainThread]: Store serial: [18550943]
