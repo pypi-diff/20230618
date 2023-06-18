@@ -12041,3 +12041,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 18:41:29] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.7.9.tar.gz]
 [2023-06-18 18:41:29] INFO root fetch - main [MainThread]: End processing [linktools]: success
 [2023-06-18 18:41:29] INFO root fetch - main [MainThread]: Store serial: [18551457]
+[2023-06-18 18:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551457]
+[2023-06-18 18:46:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 18:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exp10it
+[2023-06-18 18:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: animethemes-beta-batch-encoder
+[2023-06-18 18:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-mcqq
+[2023-06-18 18:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorboardX
+[2023-06-18 18:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stql
+[2023-06-18 18:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anywidget
+[2023-06-18 18:46:38] WARNING root fetch - processPackages [animethemes-beta-batch-encoder]: Skipping, unable to determine old version
+[2023-06-18 18:46:38] INFO root fetch - main [MainThread]: End processing [animethemes-beta-batch-encoder] error
+[2023-06-18 18:46:38] INFO root fetch - processPackages [tensorboardX]: New version: [2.6.1] Old Version: [2.6]
+[2023-06-18 18:46:38] INFO root fetch - processPackages [stql]: New version: [2.4] Old Version: [2.3]
+[2023-06-18 18:46:38] INFO root fetch - processPackages [anywidget]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-18 18:46:38] INFO root fetch - processPackages [nonebot-plugin-mcqq]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-18 18:46:38] INFO root fetch - processPackages [exp10it]: New version: [2.8.48] Old Version: [2.8.47]
+[2023-06-18 18:46:38] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/cf/3d/120800ac9e402f57f9062e25d129c5111928d0461f0451e40f5da7bc4a8d/anywidget-0.5.0.tar.gz
+[2023-06-18 18:46:38] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/c6/3b/f979ab9fae8e8bdc7d02484d5b017e595ef8f7e3d842dbdfda4c75393155/nonebot-plugin-mcqq-1.2.2.tar.gz
+[2023-06-18 18:46:38] INFO root fetch - processPackages [tensorboardX]: Downloading https://files.pythonhosted.org/packages/c4/e3/c68897ee471518b1f8d3e53c602aec6f2b09092aa774da88764262f03f56/tensorboardX-2.6.tar.gz
+[2023-06-18 18:46:38] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/33/ef/8fda86cff2ed78d1ffc287627f7597b6d7a09d45ea3e9e8eef5b1d7975ca/stql-2.3.tar.gz
+[2023-06-18 18:46:38] INFO root fetch - processPackages [exp10it]: Downloading https://files.pythonhosted.org/packages/fc/c9/901e19abfc97c138d88e376a6da8308ab5d6acb12ba49ad1979c42e61f4e/exp10it-2.8.47.tar.gz
+[2023-06-18 18:46:39] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/15/9e/2715d253975609479cfbd75155d0917db7a6a76523122692dbf6d6db9320/anywidget-0.5.1.tar.gz
+[2023-06-18 18:46:39] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/03/1e/72cce8504129bb2d0ff401c42e4ae240dfeb9d91b5fee91413a350c332d5/nonebot-plugin-mcqq-1.2.3.tar.gz
+[2023-06-18 18:46:39] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/a9/ac/3d4e77cceabad14a2f13907aa955dab24af2d415c85192f97291989ce960/stql-2.4.tar.gz
+[2023-06-18 18:46:39] INFO root fetch - processPackages [nonebot-plugin-mcqq]: executing diffoscope
+[2023-06-18 18:46:39] INFO root fetch - processPackages [nonebot-plugin-mcqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcqq-1.2.2.tar.gz tmp/nonebot-plugin-mcqq-1.2.3.tar.gz --markdown 20230618/n/nonebot-plugin-mcqq/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-18 18:46:39] INFO root fetch - processPackages [tensorboardX]: Downloading https://files.pythonhosted.org/packages/a7/63/3a14e5e130bf6ad7f31183813258ff7f9dbe7af780406422dfd10306a38f/tensorboardX-2.6.1.tar.gz
+[2023-06-18 18:46:39] INFO root fetch - processPackages [stql]: executing diffoscope
+[2023-06-18 18:46:39] INFO root fetch - processPackages [stql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stql-2.3.tar.gz tmp/stql-2.4.tar.gz --markdown 20230618/s/stql/2.3-2.4/diff.md --exclude *.pyd
+[2023-06-18 18:46:39] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-06-18 18:46:39] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.5.0.tar.gz tmp/anywidget-0.5.1.tar.gz --markdown 20230618/a/anywidget/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-18 18:46:39] INFO root fetch - processPackages [exp10it]: Downloading https://files.pythonhosted.org/packages/55/ff/bb06019a44b7a053b8733f087e238870f0d248825acb91016ab722540fb3/exp10it-2.8.48.tar.gz
+[2023-06-18 18:46:39] INFO root fetch - processPackages [tensorboardX]: executing diffoscope
+[2023-06-18 18:46:39] INFO root fetch - processPackages [tensorboardX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorboardX-2.6.tar.gz tmp/tensorboardX-2.6.1.tar.gz --markdown 20230618/t/tensorboardX/2.6-2.6.1/diff.md --exclude *.pyd
+[2023-06-18 18:46:39] INFO root fetch - processPackages [exp10it]: executing diffoscope
+[2023-06-18 18:46:39] INFO root fetch - processPackages [exp10it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exp10it-2.8.47.tar.gz tmp/exp10it-2.8.48.tar.gz --markdown 20230618/e/exp10it/2.8.47-2.8.48/diff.md --exclude *.pyd
+[2023-06-18 18:46:40] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.2.tar.gz]
+[2023-06-18 18:46:40] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.3.tar.gz]
+[2023-06-18 18:46:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcqq]: success
+[2023-06-18 18:46:40] INFO root fetch - processPackages [stql]: Remove: archive file [/home/abi/fetcher/tmp/stql-2.3.tar.gz]
+[2023-06-18 18:46:40] INFO root fetch - processPackages [stql]: Remove: archive file [/home/abi/fetcher/tmp/stql-2.4.tar.gz]
+[2023-06-18 18:46:40] INFO root fetch - main [MainThread]: End processing [stql]: success
+[2023-06-18 18:46:40] INFO root fetch - processPackages [exp10it]: Remove: archive file [/home/abi/fetcher/tmp/exp10it-2.8.47.tar.gz]
+[2023-06-18 18:46:40] INFO root fetch - processPackages [exp10it]: Remove: archive file [/home/abi/fetcher/tmp/exp10it-2.8.48.tar.gz]
+[2023-06-18 18:46:40] INFO root fetch - main [MainThread]: End processing [exp10it]: success
+[2023-06-18 18:46:40] INFO root fetch - processPackages [tensorboardX]: Remove: archive file [/home/abi/fetcher/tmp/tensorboardX-2.6.tar.gz]
+[2023-06-18 18:46:40] INFO root fetch - processPackages [tensorboardX]: Remove: archive file [/home/abi/fetcher/tmp/tensorboardX-2.6.1.tar.gz]
+[2023-06-18 18:46:40] INFO root fetch - main [MainThread]: End processing [tensorboardX]: success
+[2023-06-18 18:46:43] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.5.0.tar.gz]
+[2023-06-18 18:46:43] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.5.1.tar.gz]
+[2023-06-18 18:46:43] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-06-18 18:46:43] INFO root fetch - main [MainThread]: Store serial: [18551476]
