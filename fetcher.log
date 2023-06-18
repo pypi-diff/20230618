@@ -12092,3 +12092,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 18:46:43] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.5.1.tar.gz]
 [2023-06-18 18:46:43] INFO root fetch - main [MainThread]: End processing [anywidget]: success
 [2023-06-18 18:46:43] INFO root fetch - main [MainThread]: Store serial: [18551476]
+[2023-06-18 18:51:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551476]
+[2023-06-18 18:51:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easynetwork
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flake8-balanced-wrapping
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haidarlibs
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mizue
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-warframe
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kkyCrawler
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exp10it
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hds-stats
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: serialdevicehandler
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ringgpt
+[2023-06-18 18:51:52] INFO root fetch - processPackages [haidarlibs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-18 18:51:52] INFO root fetch - processPackages [easynetwork]: New version: [1.0.0rc1] Old Version: [1.0.0.dev1]
+[2023-06-18 18:51:52] WARNING root fetch - processPackages [serialdevicehandler]: Skipping, unable to determine old version
+[2023-06-18 18:51:52] INFO root fetch - processPackages [serialdevicehandler]: Start processing: mlfactory
+[2023-06-18 18:51:52] INFO root fetch - processPackages [nonebot-plugin-warframe]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 18:51:52] INFO root fetch - main [MainThread]: End processing [serialdevicehandler] error
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mizue]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-18 18:51:52] INFO root fetch - processPackages [kkyCrawler]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-06-18 18:51:52] INFO root fetch - processPackages [flake8-balanced-wrapping]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 18:51:52] INFO root fetch - processPackages [exp10it]: New version: [2.8.49] Old Version: [2.8.48]
+[2023-06-18 18:51:52] INFO root fetch - processPackages [hds-stats]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ringgpt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mlfactory]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 18:51:52] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/9a/38/bafcb1bc7a2727ad0070c6fa0c950b0f7d1e783a1c5872bd7387a32f666d/haidarlibs-0.0.5.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/4f/81/974163bffcbe582331c0497a3587136278e367e8cd86ef89cbd1aad2ec3f/hds-stats-0.2.2.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mlfactory]: Downloading https://files.pythonhosted.org/packages/53/1b/4707aa890f1bd0321d822636023bb76eff3d8576d6252400208b60505228/mlfactory-0.0.7.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/e6/f6/ce4e500cf0173f25839aa389c8dd8c8371a7ff7d91acfe1db53d3fa67099/ringgpt-0.1.4.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/e7/3f/32e78573186951e0b7c10338c7fc51e148c6cf4397cb2eac45501e36505c/mizue-0.2.3.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [exp10it]: Downloading https://files.pythonhosted.org/packages/55/ff/bb06019a44b7a053b8733f087e238870f0d248825acb91016ab722540fb3/exp10it-2.8.48.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mlfactory]: Downloading https://files.pythonhosted.org/packages/1c/7a/faba171435911962f1f080ce35ae9f2a713349ff984c64cbc0dab6af7b87/mlfactory-0.0.8.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/6d/b0/7b42cfc51ff216614400292a88af48931a3351ab12c3a6ee13393886608f/kkyCrawler-0.0.1.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [nonebot-plugin-warframe]: Downloading https://files.pythonhosted.org/packages/53/33/e391b2896357db99e419736fede3a9fefa6cabc227f0245a6ac5b96a15bd/nonebot-plugin-warframe-0.0.4.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mlfactory]: executing diffoscope
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mlfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfactory-0.0.7.tar.gz tmp/mlfactory-0.0.8.tar.gz --markdown 20230618/m/mlfactory/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 18:51:52] INFO root fetch - processPackages [easynetwork]: Downloading https://files.pythonhosted.org/packages/b4/5b/77f43b784072d40fc739c4522ae1ff659af0a16d33cac2e3af9a2b4effd6/easynetwork-1.0.0.dev1.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [flake8-balanced-wrapping]: Downloading https://files.pythonhosted.org/packages/ed/13/bce821266ff86c7ba59d0e05f90b6a53fb1d77640b35e8ad9694a1c6878e/flake8-balanced-wrapping-0.1.2.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/ae/a3/03b4c08aac80aa518895d8419e1c89178e7116e86df9825ff5dabbb5d9f0/hds-stats-0.2.3.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/6a/17/7e96050affee3e886a1bf7f1a65cd9826959d8256306c4d5a6ccf953482e/mizue-0.2.4.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-06-18 18:51:52] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.2.2.tar.gz tmp/hds-stats-0.2.3.tar.gz --markdown 20230618/h/hds-stats/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 18:51:52] INFO root fetch - processPackages [exp10it]: Downloading https://files.pythonhosted.org/packages/8f/e2/7f54522e5b0bc8d693847c4efc1092fc1b2a964d4899e431804537ec2a5d/exp10it-2.8.49.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/35/91/4df4785776eb7e772405f2d36bf4730c6d791ac9fbc6fee6aaa19423d078/ringgpt-0.1.5.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/f5/8e/42c49bd90e754d64bf29e4e9615d7a705451453941d0ef5cb10ed74060fe/haidarlibs-0.0.6.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [exp10it]: executing diffoscope
+[2023-06-18 18:51:52] INFO root fetch - processPackages [exp10it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exp10it-2.8.48.tar.gz tmp/exp10it-2.8.49.tar.gz --markdown 20230618/e/exp10it/2.8.48-2.8.49/diff.md --exclude *.pyd
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-18 18:51:52] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.3.tar.gz tmp/mizue-0.2.4.tar.gz --markdown 20230618/m/mizue/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-18 18:51:52] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/97/05/89a46252c1c87051c41ee5164e5f8b7a9828b20fd92348f0a001d11f7fb8/kkyCrawler-1.0.1.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 18:51:52] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.4.tar.gz tmp/ringgpt-0.1.5.tar.gz --markdown 20230618/r/ringgpt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 18:51:52] INFO root fetch - processPackages [nonebot-plugin-warframe]: Downloading https://files.pythonhosted.org/packages/3e/3d/45273516dc0ad33f4c7ce446101f02e0c37b4d67565e8fdc1baa51c519d2/nonebot-plugin-warframe-0.0.5.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [flake8-balanced-wrapping]: Downloading https://files.pythonhosted.org/packages/db/26/ad24d0bcb94264182dc144db2805167bff1b3b3f9b71050ab99ae9fa6e69/flake8-balanced-wrapping-0.1.3.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [kkyCrawler]: executing diffoscope
+[2023-06-18 18:51:52] INFO root fetch - processPackages [kkyCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkyCrawler-0.0.1.tar.gz tmp/kkyCrawler-1.0.1.tar.gz --markdown 20230618/k/kkyCrawler/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 18:51:52] INFO root fetch - processPackages [easynetwork]: Downloading https://files.pythonhosted.org/packages/6f/8f/8a7a88300a6999b9eadc1f78ea3346f363a20e07d533381d31f20c1fa1ba/easynetwork-1.0.0rc1.tar.gz
+[2023-06-18 18:51:52] INFO root fetch - processPackages [nonebot-plugin-warframe]: executing diffoscope
+[2023-06-18 18:51:52] INFO root fetch - processPackages [nonebot-plugin-warframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-warframe-0.0.4.tar.gz tmp/nonebot-plugin-warframe-0.0.5.tar.gz --markdown 20230618/n/nonebot-plugin-warframe/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 18:51:52] INFO root fetch - processPackages [flake8-balanced-wrapping]: executing diffoscope
+[2023-06-18 18:51:52] INFO root fetch - processPackages [flake8-balanced-wrapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-balanced-wrapping-0.1.2.tar.gz tmp/flake8-balanced-wrapping-0.1.3.tar.gz --markdown 20230618/f/flake8-balanced-wrapping/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 18:51:52] INFO root fetch - processPackages [easynetwork]: executing diffoscope
+[2023-06-18 18:51:52] INFO root fetch - processPackages [easynetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easynetwork-1.0.0.dev1.tar.gz tmp/easynetwork-1.0.0rc1.tar.gz --markdown 20230618/e/easynetwork/1.0.0.dev1-1.0.0rc1/diff.md --exclude *.pyd
+[2023-06-18 18:51:53] INFO root fetch - processPackages [haidarlibs]: executing diffoscope
+[2023-06-18 18:51:53] INFO root fetch - processPackages [haidarlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haidarlibs-0.0.5.tar.gz tmp/haidarlibs-0.0.6.tar.gz --markdown 20230618/h/haidarlibs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-18 18:51:54] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.4.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.5.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - processPackages [ringgpt]: Start processing: pyHanko
+[2023-06-18 18:51:54] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 18:51:54] INFO root fetch - processPackages [pyHanko]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 18:51:54] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.3.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.4.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-18 18:51:54] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-0.0.1.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-1.0.1.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - main [MainThread]: End processing [kkyCrawler]: success
+[2023-06-18 18:51:54] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.2.2.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.2.3.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-06-18 18:51:54] INFO root fetch - processPackages [nonebot-plugin-warframe]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-warframe-0.0.4.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - processPackages [nonebot-plugin-warframe]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-warframe-0.0.5.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-warframe]: success
+[2023-06-18 18:51:54] INFO root fetch - processPackages [flake8-balanced-wrapping]: Remove: archive file [/home/abi/fetcher/tmp/flake8-balanced-wrapping-0.1.2.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - processPackages [flake8-balanced-wrapping]: Remove: archive file [/home/abi/fetcher/tmp/flake8-balanced-wrapping-0.1.3.tar.gz]
+[2023-06-18 18:51:54] INFO root fetch - main [MainThread]: End processing [flake8-balanced-wrapping]: success
+[2023-06-18 18:51:54] INFO root fetch - processPackages [pyHanko]: Downloading https://files.pythonhosted.org/packages/d2/63/49157f28bc2f950eb14c340ef424e0dee8616ff560a8401276569ff28f57/pyHanko-0.8.0.tar.gz
+[2023-06-18 18:51:54] INFO root fetch - processPackages [pyHanko]: Downloading https://files.pythonhosted.org/packages/93/80/7a9bf713f5eb17d3e1ecec78e4da062b9918cc3dbc650436aae55e63e037/pyHanko-0.9.0.tar.gz
+[2023-06-18 18:51:54] INFO root fetch - processPackages [pyHanko]: executing diffoscope
+[2023-06-18 18:51:54] INFO root fetch - processPackages [pyHanko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyHanko-0.8.0.tar.gz tmp/pyHanko-0.9.0.tar.gz --markdown 20230618/p/pyHanko/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 18:51:55] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.5.tar.gz]
+[2023-06-18 18:51:55] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.6.tar.gz]
+[2023-06-18 18:51:55] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
+[2023-06-18 18:51:55] INFO root fetch - processPackages [exp10it]: Remove: archive file [/home/abi/fetcher/tmp/exp10it-2.8.48.tar.gz]
+[2023-06-18 18:51:55] INFO root fetch - processPackages [exp10it]: Remove: archive file [/home/abi/fetcher/tmp/exp10it-2.8.49.tar.gz]
+[2023-06-18 18:51:55] INFO root fetch - main [MainThread]: End processing [exp10it]: success
+[2023-06-18 18:51:55] INFO root fetch - processPackages [mlfactory]: Remove: archive file [/home/abi/fetcher/tmp/mlfactory-0.0.7.tar.gz]
+[2023-06-18 18:51:55] INFO root fetch - processPackages [mlfactory]: Remove: archive file [/home/abi/fetcher/tmp/mlfactory-0.0.8.tar.gz]
+[2023-06-18 18:51:55] INFO root fetch - main [MainThread]: End processing [mlfactory]: success
+[2023-06-18 18:51:56] INFO root fetch - processPackages [easynetwork]: Remove: archive file [/home/abi/fetcher/tmp/easynetwork-1.0.0.dev1.tar.gz]
+[2023-06-18 18:51:56] INFO root fetch - processPackages [easynetwork]: Remove: archive file [/home/abi/fetcher/tmp/easynetwork-1.0.0rc1.tar.gz]
+[2023-06-18 18:51:56] INFO root fetch - main [MainThread]: End processing [easynetwork]: success
+[2023-06-18 18:51:56] INFO root fetch - processPackages [pyHanko]: Remove: archive file [/home/abi/fetcher/tmp/pyHanko-0.8.0.tar.gz]
+[2023-06-18 18:51:56] INFO root fetch - processPackages [pyHanko]: Remove: archive file [/home/abi/fetcher/tmp/pyHanko-0.9.0.tar.gz]
+[2023-06-18 18:51:56] INFO root fetch - main [MainThread]: End processing [pyHanko]: success
+[2023-06-18 18:51:56] INFO root fetch - main [MainThread]: Store serial: [18551514]
