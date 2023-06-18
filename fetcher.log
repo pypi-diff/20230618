@@ -9314,3 +9314,20 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 15:27:32] INFO root fetch - processPackages [laskea]: Remove: archive file [/home/abi/fetcher/tmp/laskea-2023.6.18.tar.gz]
 [2023-06-18 15:27:32] INFO root fetch - main [MainThread]: End processing [laskea]: success
 [2023-06-18 15:27:32] INFO root fetch - main [MainThread]: Store serial: [18550292]
+[2023-06-18 15:32:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550292]
+[2023-06-18 15:32:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-darts
+[2023-06-18 15:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastdup
+[2023-06-18 15:32:41] INFO root fetch - processPackages [open-darts]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 15:32:41] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-06-18 15:32:41] INFO root fetch - processPackages [open-darts]: Downloading https://files.pythonhosted.org/packages/54/c7/33f49c9d62c8ead14112749ecd3759ae1411e7d893488cc4ece9e811f7df/open_darts-1.0.0-cp39-cp39-win_amd64.whl
+[2023-06-18 15:32:41] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-06-18 15:32:42] INFO root fetch - processPackages [open-darts]: Downloading https://files.pythonhosted.org/packages/b6/00/858f50060af5d8ea644ce92f080a5c40a4504379692215b27e10ee0aab39/open_darts-1.0.1-cp39-cp39-win_amd64.whl
+[2023-06-18 15:32:42] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-06-18 15:32:42] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-06-18 15:32:42] INFO root fetch - processPackages [open-darts]: executing diffoscope
+[2023-06-18 15:32:42] INFO root fetch - processPackages [open-darts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_darts-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/open_darts-1.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20230618/o/open-darts/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 15:32:44] INFO root fetch - processPackages [open-darts]: Remove: archive file [/home/abi/fetcher/tmp/open_darts-1.0.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 15:32:44] INFO root fetch - processPackages [open-darts]: Remove: archive file [/home/abi/fetcher/tmp/open_darts-1.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 15:32:44] INFO root fetch - main [MainThread]: End processing [open-darts]: success
+[2023-06-18 15:32:44] INFO root fetch - main [MainThread]: Store serial: [18550306]
