@@ -10444,3 +10444,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 16:36:40] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.9.tar.gz]
 [2023-06-18 16:36:40] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
 [2023-06-18 16:36:40] INFO root fetch - main [MainThread]: Store serial: [18550737]
+[2023-06-18 16:41:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550737]
+[2023-06-18 16:41:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacy-setfit
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: not1mm
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windmill-api
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wmill-pg
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svtplay-dl
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lanelet2anchors
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readthis
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: joltedmod
+[2023-06-18 16:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dup-fmt
+[2023-06-18 16:41:50] WARNING root fetch - processPackages [spacy-setfit]: Skipping, unable to determine old version
+[2023-06-18 16:41:50] INFO root fetch - processPackages [spacy-setfit]: Start processing: gator-eda
+[2023-06-18 16:41:50] INFO root fetch - main [MainThread]: End processing [spacy-setfit] error
+[2023-06-18 16:41:50] INFO root fetch - processPackages [svtplay-dl]: New version: [4.9] Old Version: [4.8]
+[2023-06-18 16:41:50] INFO root fetch - processPackages [readthis]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-18 16:41:50] INFO root fetch - processPackages [not1mm]: New version: [23.6.2] Old Version: [23.6.18]
+[2023-06-18 16:41:50] INFO root fetch - processPackages [joltedmod]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-18 16:41:50] WARNING root fetch - processPackages [lanelet2anchors]: Skipping, unable to determine old version
+[2023-06-18 16:41:50] INFO root fetch - main [MainThread]: End processing [lanelet2anchors] error
+[2023-06-18 16:41:50] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-18 16:41:50] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-18 16:41:50] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-18 16:41:50] INFO root fetch - processPackages [svtplay-dl]: Downloading https://files.pythonhosted.org/packages/75/24/b7383220b002857995ff8bc68c5ef37adea8a7283c742cb35cb5501ddc2c/svtplay-dl-4.8.tar.gz
+[2023-06-18 16:41:50] INFO root fetch - processPackages [joltedmod]: Downloading https://files.pythonhosted.org/packages/74/26/48270ba4485fbb407ee2c1d09dc33a43845b958b537b4d71f99928d3ec88/joltedmod-0.2.0.tar.gz
+[2023-06-18 16:41:50] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/9b/59/c88be8011b0b3f7c0c5dd27bca5bb744ba549b4e869ee995aba7938d8422/readthis-0.0.5.tar.gz
+[2023-06-18 16:41:50] INFO root fetch - processPackages [dup-fmt]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 16:41:50] WARNING root fetch - processPackages [gator-eda]: Skipping, unable to determine old version
+[2023-06-18 16:41:50] INFO root fetch - main [MainThread]: End processing [gator-eda] error
+[2023-06-18 16:41:50] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/57/62/d71778be5c8a99044b03e06699a88fef3720c5b17608be74e94276509030/not1mm-23.6.18.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [svtplay-dl]: Downloading https://files.pythonhosted.org/packages/1a/bc/d74decb2cdb4277e5cbe51f24c751f45bbd387cb4f411079c8f2e23591a3/svtplay-dl-4.9.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [dup-fmt]: Downloading https://files.pythonhosted.org/packages/81/7c/ead8db5f41039f0a3086a7e495349af022a5baad7bdf83a81f25ffa58017/dup_fmt-0.0.2.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [joltedmod]: Downloading https://files.pythonhosted.org/packages/ae/69/218c56dba6926d04778bfd335352050edf672b9f7ccbcf560981ada3a277/joltedmod-0.2.1.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/0a/2f/bbbd6b784fb1d45b2074b78a2802bc9d3b642a5f803b2e774792ce060850/readthis-0.0.6.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [svtplay-dl]: executing diffoscope
+[2023-06-18 16:41:51] INFO root fetch - processPackages [svtplay-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svtplay-dl-4.8.tar.gz tmp/svtplay-dl-4.9.tar.gz --markdown 20230618/s/svtplay-dl/4.8-4.9/diff.md --exclude *.pyd
+[2023-06-18 16:41:51] INFO root fetch - processPackages [readthis]: executing diffoscope
+[2023-06-18 16:41:51] INFO root fetch - processPackages [readthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readthis-0.0.5.tar.gz tmp/readthis-0.0.6.tar.gz --markdown 20230618/r/readthis/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-18 16:41:51] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [joltedmod]: executing diffoscope
+[2023-06-18 16:41:51] INFO root fetch - processPackages [joltedmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joltedmod-0.2.0.tar.gz tmp/joltedmod-0.2.1.tar.gz --markdown 20230618/j/joltedmod/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-18 16:41:51] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/2a/ab/303c6eade0fecac8a3475d19983c41b00607b0a9a76ec22a3ae7d5f22c25/not1mm-23.6.2.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [dup-fmt]: Downloading https://files.pythonhosted.org/packages/52/cb/847483e17505a40ee5690265808ca3ab3a863e62dc49fb24b069ff5968dc/dup_fmt-0.0.3.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-06-18 16:41:51] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230618/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-18 16:41:51] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-06-18 16:41:51] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.6.18.tar.gz tmp/not1mm-23.6.2.tar.gz --markdown 20230618/n/not1mm/23.6.18-23.6.2/diff.md --exclude *.pyd
+[2023-06-18 16:41:51] INFO root fetch - processPackages [dup-fmt]: executing diffoscope
+[2023-06-18 16:41:51] INFO root fetch - processPackages [dup-fmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dup_fmt-0.0.2.tar.gz tmp/dup_fmt-0.0.3.tar.gz --markdown 20230618/d/dup-fmt/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 16:41:51] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-06-18 16:41:51] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-06-18 16:41:51] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230618/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-18 16:41:51] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-06-18 16:41:51] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230618/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-18 16:41:52] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.5.tar.gz]
+[2023-06-18 16:41:52] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.6.tar.gz]
+[2023-06-18 16:41:52] INFO root fetch - main [MainThread]: End processing [readthis]: success
+[2023-06-18 16:41:52] INFO root fetch - processPackages [joltedmod]: Remove: archive file [/home/abi/fetcher/tmp/joltedmod-0.2.0.tar.gz]
+[2023-06-18 16:41:52] INFO root fetch - processPackages [joltedmod]: Remove: archive file [/home/abi/fetcher/tmp/joltedmod-0.2.1.tar.gz]
+[2023-06-18 16:41:52] INFO root fetch - main [MainThread]: End processing [joltedmod]: success
+[2023-06-18 16:41:52] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-06-18 16:41:52] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-06-18 16:41:52] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-06-18 16:41:52] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-06-18 16:41:52] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-06-18 16:41:52] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-06-18 16:41:53] INFO root fetch - processPackages [dup-fmt]: Remove: archive file [/home/abi/fetcher/tmp/dup_fmt-0.0.2.tar.gz]
+[2023-06-18 16:41:53] INFO root fetch - processPackages [dup-fmt]: Remove: archive file [/home/abi/fetcher/tmp/dup_fmt-0.0.3.tar.gz]
+[2023-06-18 16:41:53] INFO root fetch - main [MainThread]: End processing [dup-fmt]: success
+[2023-06-18 16:41:54] INFO root fetch - processPackages [svtplay-dl]: Remove: archive file [/home/abi/fetcher/tmp/svtplay-dl-4.8.tar.gz]
+[2023-06-18 16:41:54] INFO root fetch - processPackages [svtplay-dl]: Remove: archive file [/home/abi/fetcher/tmp/svtplay-dl-4.9.tar.gz]
+[2023-06-18 16:41:54] INFO root fetch - main [MainThread]: End processing [svtplay-dl]: success
+[2023-06-18 16:41:55] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.6.18.tar.gz]
+[2023-06-18 16:41:55] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.6.2.tar.gz]
+[2023-06-18 16:41:55] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-06-18 16:42:07] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-06-18 16:42:07] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-06-18 16:42:07] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-06-18 16:42:07] INFO root fetch - main [MainThread]: Store serial: [18550778]
