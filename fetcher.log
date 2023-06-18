@@ -6836,3 +6836,51 @@
 [2023-06-18 12:07:43] INFO root fetch - processPackages [unitelabs-sila]: Remove: archive file [/home/abi/fetcher/tmp/unitelabs_sila-0.1.1.tar.gz]
 [2023-06-18 12:07:43] INFO root fetch - main [MainThread]: End processing [unitelabs-sila]: success
 [2023-06-18 12:07:43] INFO root fetch - main [MainThread]: Store serial: [18549201]
+[2023-06-18 12:12:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549201]
+[2023-06-18 12:12:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 12:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GCoCF
+[2023-06-18 12:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataskema
+[2023-06-18 12:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dm-reverb-nightly
+[2023-06-18 12:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sumformer2
+[2023-06-18 12:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zrb
+[2023-06-18 12:12:52] INFO root fetch - processPackages [GCoCF]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-18 12:12:52] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 12:12:52] INFO root fetch - processPackages [sumformer2]: New version: [0.2] Old Version: [0.1]
+[2023-06-18 12:12:52] INFO root fetch - processPackages [dataskema]: New version: [1.7.0] Old Version: [1.6.7]
+[2023-06-18 12:12:52] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-18 12:12:52] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/1d/51/2eb31a2adae9da086e12553bae6d75c4c04de4825186955ad4646214fc0f/gcocf-0.9.98.tar.gz
+[2023-06-18 12:12:52] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-18 12:12:53] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-18 12:12:53] INFO root fetch - processPackages [sumformer2]: Downloading https://files.pythonhosted.org/packages/5d/cc/513a76e6671ddca5bb9928d442408ecdf61ae2cf21010207abacdf4cf552/sumformer2-0.1.tar.gz
+[2023-06-18 12:12:53] INFO root fetch - processPackages [dataskema]: Downloading https://files.pythonhosted.org/packages/a0/9c/ae8579c6635b5af53f52284f83cea5b7270ce20f7b7e8ec19089ec2f9bbe/dataskema-1.6.7.tar.gz
+[2023-06-18 12:12:53] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/6d/3a/af0ff9c49aefc5b6b5eddc7d51542ad9f6aef52786c6083294a265345f9d/gcocf-0.9.99.tar.gz
+[2023-06-18 12:12:53] INFO root fetch - processPackages [sumformer2]: Downloading https://files.pythonhosted.org/packages/0b/82/3859a42f446078bf5b2e89133269e22bb6f0c551a0c230844598726dd6b2/sumformer2-0.2.tar.gz
+[2023-06-18 12:12:53] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-18 12:12:53] INFO root fetch - processPackages [sumformer2]: executing diffoscope
+[2023-06-18 12:12:53] INFO root fetch - processPackages [sumformer2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumformer2-0.1.tar.gz tmp/sumformer2-0.2.tar.gz --markdown 20230618/s/sumformer2/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-18 12:12:53] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-18 12:12:53] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230618/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 12:12:53] INFO root fetch - processPackages [dataskema]: Downloading https://files.pythonhosted.org/packages/61/89/8ffa35785ae8635babfce9b99a3abfa85dc6e10be1aa685336dbcdc8cb8e/dataskema-1.7.0.tar.gz
+[2023-06-18 12:12:53] INFO root fetch - processPackages [dataskema]: executing diffoscope
+[2023-06-18 12:12:53] INFO root fetch - processPackages [dataskema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskema-1.6.7.tar.gz tmp/dataskema-1.7.0.tar.gz --markdown 20230618/d/dataskema/1.6.7-1.7.0/diff.md --exclude *.pyd
+[2023-06-18 12:12:53] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-18 12:12:53] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.98.tar.gz tmp/gcocf-0.9.99.tar.gz --markdown 20230618/G/GCoCF/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-18 12:12:53] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-18 12:12:53] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-18 12:12:53] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230618/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-18 12:12:54] INFO root fetch - processPackages [sumformer2]: Remove: archive file [/home/abi/fetcher/tmp/sumformer2-0.1.tar.gz]
+[2023-06-18 12:12:54] INFO root fetch - processPackages [sumformer2]: Remove: archive file [/home/abi/fetcher/tmp/sumformer2-0.2.tar.gz]
+[2023-06-18 12:12:54] INFO root fetch - main [MainThread]: End processing [sumformer2]: success
+[2023-06-18 12:12:54] INFO root fetch - processPackages [dataskema]: Remove: archive file [/home/abi/fetcher/tmp/dataskema-1.6.7.tar.gz]
+[2023-06-18 12:12:54] INFO root fetch - processPackages [dataskema]: Remove: archive file [/home/abi/fetcher/tmp/dataskema-1.7.0.tar.gz]
+[2023-06-18 12:12:54] INFO root fetch - main [MainThread]: End processing [dataskema]: success
+[2023-06-18 12:12:54] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-18 12:12:54] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-18 12:12:54] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-18 12:12:54] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.98.tar.gz]
+[2023-06-18 12:12:54] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.99.tar.gz]
+[2023-06-18 12:12:54] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-18 12:13:47] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-18 12:13:47] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-18 12:13:47] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-18 12:13:47] INFO root fetch - main [MainThread]: Store serial: [18549225]
