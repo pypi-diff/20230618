@@ -2405,3 +2405,175 @@
 [2023-06-18 03:40:29] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-06-18 03:40:29] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-06-18 03:40:29] INFO root fetch - main [MainThread]: Store serial: [18547167]
+[2023-06-18 03:45:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547167]
+[2023-06-18 03:45:40] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omniplot
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pandas
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetrpg-web-core
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: self-documenting-struct
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweetrpg-api-core
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wcpan-drive-cli
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sweetrpg-library-objects
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sweetrpg-db
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pytorch
+[2023-06-18 03:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proactive
+[2023-06-18 03:45:40] INFO root fetch - processPackages [omniplot]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [wcpan-drive-cli]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [sweetrpg-db]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [self-documenting-struct]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:45:40] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-18 03:45:41] INFO root fetch - processPackages [omniplot]: Downloading https://files.pythonhosted.org/packages/ef/97/8a3b04ebd15e7d2a9dd5dade352126c7cc84155b05026d433db18342e79e/omniplot-0.4.8-py3-none-any.whl
+[2023-06-18 03:45:41] INFO root fetch - processPackages [wcpan-drive-cli]: Downloading https://files.pythonhosted.org/packages/30/03/3f014405c88972809453d6c6ee23ac0d3255536c711b8c6f8a8c58924c77/wcpan_drive_cli-2.3.4.tar.gz
+[2023-06-18 03:45:41] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-18 03:45:41] INFO root fetch - processPackages [proactive]: Start processing: nbdev-scipy
+[2023-06-18 03:45:41] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [self-documenting-struct]: Downloading https://files.pythonhosted.org/packages/9f/13/dd189b027341718da2337cdba738b8b9cceddc152921f8b04356b1b58544/self_documenting_struct-0.9.0.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-db]: Downloading https://files.pythonhosted.org/packages/a9/8d/3d3cba136965ab00c0338cfe26c6389ebecbad7a6f919918dee83c8706be/sweetrpg-db-0.0.98.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [omniplot]: Downloading https://files.pythonhosted.org/packages/19/1e/884e42bb2c2a4f1518ffe038e1434a3dea5abf068ca9c0b0aeea0abe48c4/omniplot-0.4.9-py3-none-any.whl
+[2023-06-18 03:45:41] INFO root fetch - processPackages [wcpan-drive-cli]: Downloading https://files.pythonhosted.org/packages/14/a3/027b7f92a93ebe617cdbe07e3758da1f0f70fc8f32aed6c931c5a922c350/wcpan_drive_cli-2.3.5.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [self-documenting-struct]: Downloading https://files.pythonhosted.org/packages/95/b0/2f84367be79ba24e4a15a945dafa8fb527cd71951e7dc66b1d80dcf0c160/self_documenting_struct-0.9.1.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [wcpan-drive-cli]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [wcpan-drive-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcpan_drive_cli-2.3.4.tar.gz tmp/wcpan_drive_cli-2.3.5.tar.gz --markdown 20230618/w/wcpan-drive-cli/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [omniplot]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [omniplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniplot-0.4.8-py3-none-any.whl.zip tmp/omniplot-0.4.9-py3-none-any.whl.zip --markdown 20230618/o/omniplot/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-db]: Downloading https://files.pythonhosted.org/packages/cd/b0/462b503c41bce59517535ee1abde52ec10f2d1d9cfecfa361efd1369becb/sweetrpg-db-0.0.99.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [self-documenting-struct]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [self-documenting-struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/self_documenting_struct-0.9.0.tar.gz tmp/self_documenting_struct-0.9.1.tar.gz --markdown 20230618/s/self-documenting-struct/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230618/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230618/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230618/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230618/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230618/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-db]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-db-0.0.98.tar.gz tmp/sweetrpg-db-0.0.99.tar.gz --markdown 20230618/s/sweetrpg-db/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-06-18 03:45:41] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230618/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-06-18 03:45:42] INFO root fetch - processPackages [wcpan-drive-cli]: Remove: archive file [/home/abi/fetcher/tmp/wcpan_drive_cli-2.3.4.tar.gz]
+[2023-06-18 03:45:42] INFO root fetch - processPackages [wcpan-drive-cli]: Remove: archive file [/home/abi/fetcher/tmp/wcpan_drive_cli-2.3.5.tar.gz]
+[2023-06-18 03:45:42] INFO root fetch - processPackages [wcpan-drive-cli]: Start processing: atksh-utils
+[2023-06-18 03:45:42] INFO root fetch - main [MainThread]: End processing [wcpan-drive-cli]: success
+[2023-06-18 03:45:42] INFO root fetch - processPackages [atksh-utils]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-18 03:45:42] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/70/21/8b316ef8af0ec05447e67ae0c5f2b2d94b6fabac16b6c83aee4af9680f8b/atksh-utils-0.0.5.tar.gz
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-api-core]: Start processing: proactive-jupyter-kernel
+[2023-06-18 03:45:43] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-06-18 03:45:43] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/cf/e0/9efe81f1b0f926eec8ded2a95fa9ffb1514fa35f97d02e9b15a5244247a7/atksh-utils-0.1.0.tar.gz
+[2023-06-18 03:45:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-scipy]: Start processing: sweetrpg-web-core
+[2023-06-18 03:45:43] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-18 03:45:43] INFO root fetch - processPackages [self-documenting-struct]: Remove: archive file [/home/abi/fetcher/tmp/self_documenting_struct-0.9.0.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [self-documenting-struct]: Remove: archive file [/home/abi/fetcher/tmp/self_documenting_struct-0.9.1.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [self-documenting-struct]: Start processing: acore-server-config
+[2023-06-18 03:45:43] INFO root fetch - main [MainThread]: End processing [self-documenting-struct]: success
+[2023-06-18 03:45:43] WARNING root fetch - processPackages [acore-server-config]: Skipping, unable to determine old version
+[2023-06-18 03:45:43] INFO root fetch - processPackages [acore-server-config]: Start processing: sweetrpg-library-objects
+[2023-06-18 03:45:43] INFO root fetch - main [MainThread]: End processing [acore-server-config] error
+[2023-06-18 03:45:43] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-18 03:45:43] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.0.5.tar.gz tmp/atksh-utils-0.1.0.tar.gz --markdown 20230618/a/atksh-utils/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-web-core]: Start processing: nbdev-sphinx
+[2023-06-18 03:45:43] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [omniplot]: Remove: archive file [/home/abi/fetcher/tmp/omniplot-0.4.8-py3-none-any.whl.zip]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [omniplot]: Remove: archive file [/home/abi/fetcher/tmp/omniplot-0.4.9-py3-none-any.whl.zip]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [omniplot]: Start processing: cdk-lambda-layer-curl
+[2023-06-18 03:45:43] INFO root fetch - main [MainThread]: End processing [omniplot]: success
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-06-18 03:45:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230618/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-18 03:45:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-06-18 03:45:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-db]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-db-0.0.98.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-db]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-db-0.0.99.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-db]: Start processing: nbdev-django
+[2023-06-18 03:45:43] INFO root fetch - main [MainThread]: End processing [sweetrpg-db]: success
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230618/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-18 03:45:43] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230618/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230618/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [sweetrpg-library-objects]: Start processing: nbdev-apl
+[2023-06-18 03:45:43] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.841] Old Version: [0.0.840]
+[2023-06-18 03:45:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-18 03:45:43] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/28/77/5102d8a7203aa2097619d93e50e80956c866c28b114c32857ce77a8acc03/nbdev-apl-0.0.840.tar.gz
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-18 03:45:44] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-18 03:45:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-18 03:45:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230618/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230618/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:45:44] ERROR root fetch - processPackages [sweetrpg-library-objects]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/sweetrpg-library-objects-0.0.85.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/sweetrpg-library-objects-0.0.86.tar.gz: No such file or directory
+
+[2023-06-18 03:45:44] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects] error
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/e7/f8/eef6c7d92a3a5dd7afa4d320aa7fcdc4580af48e9cb7a9e2cb554d47685d/nbdev-apl-0.0.841.tar.gz
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.840.tar.gz tmp/nbdev-apl-0.0.841.tar.gz --markdown 20230618/n/nbdev-apl/0.0.840-0.0.841/diff.md --exclude *.pyd
+[2023-06-18 03:45:44] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.0.5.tar.gz]
+[2023-06-18 03:45:44] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.0.tar.gz]
+[2023-06-18 03:45:44] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-18 03:45:44] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-18 03:45:44] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-18 03:45:45] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-06-18 03:45:45] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-06-18 03:45:45] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-06-18 03:45:45] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-18 03:45:45] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-18 03:45:45] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-18 03:45:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-18 03:45:45] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-18 03:45:45] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-18 03:45:45] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.840.tar.gz]
+[2023-06-18 03:45:45] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.841.tar.gz]
+[2023-06-18 03:45:45] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-18 03:45:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-18 03:45:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-18 03:45:45] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-18 03:45:46] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-18 03:45:46] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-18 03:45:46] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-18 03:45:46] INFO root fetch - main [MainThread]: Store serial: [18547289]
