@@ -3691,3 +3691,78 @@
 [2023-06-18 05:05:52] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.3.0a1687055232.tar.gz]
 [2023-06-18 05:05:52] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
 [2023-06-18 05:05:52] INFO root fetch - main [MainThread]: Store serial: [18547728]
+[2023-06-18 05:10:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547728]
+[2023-06-18 05:11:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 05:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyleoclim
+[2023-06-18 05:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: platformdirs
+[2023-06-18 05:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdevpy
+[2023-06-18 05:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-opsgenie
+[2023-06-18 05:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-nomad
+[2023-06-18 05:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sciform
+[2023-06-18 05:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-pagerduty
+[2023-06-18 05:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pykoopman
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pyleoclim]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1687055881] Old Version: [1.3.0a1686636524]
+[2023-06-18 05:11:01] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-18 05:11:01] INFO root fetch - processPackages [platformdirs]: New version: [3.6.0] Old Version: [3.5.3]
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pulumi-nomad]: New version: [0.4.2a1687055688] Old Version: [0.4.2a1686635527]
+[2023-06-18 05:11:01] INFO root fetch - processPackages [sdevpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pykoopman]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-06-18 05:11:01] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pykoopman]: Downloading https://files.pythonhosted.org/packages/aa/88/40984b25eeab4c159242fadfc5d0de6f9da32c7e9a96a948016521686fe0/pykoopman-1.0.0.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/74/97/fdba91872857fca3aad646ce54c043f9fb06c362d56b26fbe39b1847cc0c/pulumi_opsgenie-1.3.0a1686636524.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/5b/60/4f0e53b78daf5c24e2485149021f0e7ef627bb1d6c0cd588efa9b5f3bffc/sdevpy-0.0.3.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pyleoclim]: Downloading https://files.pythonhosted.org/packages/77/ff/ebf3b8be5d2df6a94b018148de520c0203983104c1eea6c8ad87ce33d73c/pyleoclim-0.9.0.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/e3/fb/cfd0770cc238f4c5d0519a47c0dfe5476a67ad16fc40bc8e1152c8898f91/pulumi_pagerduty-3.9.0a1678231019.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/74/e4/235409e3c17e5a7969570a9f4297200370aa607006de1e0f84af20deb178/pulumi_nomad-0.4.2a1686635527.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/d2/5d/29eed8861e07378ef46e956650615a9677f8f48df7911674f923236ced2b/platformdirs-3.5.3.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-18 05:11:01] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230618/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-18 05:11:01] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/78/3c/f1f27aeee29a61b92d2cc0261b677d445a0ab39403ec67326d645b586249/sdevpy-0.0.4.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/05/31/793923615e85deef0c25abf5d044b3f99f1348b620122ab184b7d3f70f21/platformdirs-3.6.0.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/97/26/994441e2cdcbef032a3685f5df8e1dab2bc28e3a22022d89b0138603f863/pulumi_opsgenie-1.3.0a1687055881.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [pyleoclim]: Downloading https://files.pythonhosted.org/packages/03/f2/afd2a7b682ae2f22f23ace8792606a30069d430f850ac67ed67840d4e79f/pyleoclim-0.9.1.tar.gz
+[2023-06-18 05:11:01] INFO root fetch - processPackages [platformdirs]: executing diffoscope
+[2023-06-18 05:11:01] INFO root fetch - processPackages [platformdirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platformdirs-3.5.3.tar.gz tmp/platformdirs-3.6.0.tar.gz --markdown 20230618/p/platformdirs/3.5.3-3.6.0/diff.md --exclude *.pyd
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/1f/60/bfcc0f3006fa7916226da959902e41b489115f74035ce64845c4c6a2c265/pulumi_nomad-0.4.2a1687055688.tar.gz
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pykoopman]: Downloading https://files.pythonhosted.org/packages/a5/80/72295574309bb2d7e9eed4378d1074501699ff4e90e287f1b27707e19fdb/pykoopman-1.0.1.tar.gz
+[2023-06-18 05:11:02] INFO root fetch - processPackages [sdevpy]: executing diffoscope
+[2023-06-18 05:11:02] INFO root fetch - processPackages [sdevpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdevpy-0.0.3.tar.gz tmp/sdevpy-0.0.4.tar.gz --markdown 20230618/s/sdevpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-0.4.2a1686635527.tar.gz tmp/pulumi_nomad-0.4.2a1687055688.tar.gz --markdown 20230618/p/pulumi-nomad/0.4.2a1686635527-0.4.2a1687055688/diff.md --exclude *.pyd
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1686636524.tar.gz tmp/pulumi_opsgenie-1.3.0a1687055881.tar.gz --markdown 20230618/p/pulumi-opsgenie/1.3.0a1686636524-1.3.0a1687055881/diff.md --exclude *.pyd
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pyleoclim]: executing diffoscope
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pyleoclim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyleoclim-0.9.0.tar.gz tmp/pyleoclim-0.9.1.tar.gz --markdown 20230618/p/pyleoclim/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/b2/77/786140b79d0946ee18e80ac92af9889e190480f889211497d09069a9f0fa/pulumi_pagerduty-3.9.0a1678824312.tar.gz
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-06-18 05:11:02] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230618/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-06-18 05:11:03] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-18 05:11:03] INFO root fetch - processPackages [pykoopman]: executing diffoscope
+[2023-06-18 05:11:03] INFO root fetch - processPackages [pykoopman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykoopman-1.0.0.tar.gz tmp/pykoopman-1.0.1.tar.gz --markdown 20230618/p/pykoopman/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 05:11:03] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.3.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.4.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
+[2023-06-18 05:11:03] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1686636524.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1687055881.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-06-18 05:11:03] INFO root fetch - processPackages [pyleoclim]: Remove: archive file [/home/abi/fetcher/tmp/pyleoclim-0.9.0.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - processPackages [pyleoclim]: Remove: archive file [/home/abi/fetcher/tmp/pyleoclim-0.9.1.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - main [MainThread]: End processing [pyleoclim]: success
+[2023-06-18 05:11:03] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.5.3.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.6.0.tar.gz]
+[2023-06-18 05:11:03] INFO root fetch - main [MainThread]: End processing [platformdirs]: success
+[2023-06-18 05:11:04] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz]
+[2023-06-18 05:11:04] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz]
+[2023-06-18 05:11:04] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-06-18 05:11:05] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1686635527.tar.gz]
+[2023-06-18 05:11:05] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1687055688.tar.gz]
+[2023-06-18 05:11:05] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2023-06-18 05:11:05] INFO root fetch - processPackages [pykoopman]: Remove: archive file [/home/abi/fetcher/tmp/pykoopman-1.0.0.tar.gz]
+[2023-06-18 05:11:05] INFO root fetch - processPackages [pykoopman]: Remove: archive file [/home/abi/fetcher/tmp/pykoopman-1.0.1.tar.gz]
+[2023-06-18 05:11:05] INFO root fetch - main [MainThread]: End processing [pykoopman]: success
+[2023-06-18 05:11:05] INFO root fetch - main [MainThread]: Store serial: [18547752]
