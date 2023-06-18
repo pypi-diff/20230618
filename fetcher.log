@@ -6040,3 +6040,36 @@
 [2023-06-18 10:58:38] INFO root fetch - processPackages [faons]: Remove: archive file [/home/abi/fetcher/tmp/faons-0.0.5.tar.gz]
 [2023-06-18 10:58:38] INFO root fetch - main [MainThread]: End processing [faons]: success
 [2023-06-18 10:58:38] INFO root fetch - main [MainThread]: Store serial: [18548828]
+[2023-06-18 11:03:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548828]
+[2023-06-18 11:03:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utillc
+[2023-06-18 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: connect-python
+[2023-06-18 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BSODinator
+[2023-06-18 11:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webhooklib
+[2023-06-18 11:03:46] INFO root fetch - processPackages [utillc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-18 11:03:46] WARNING root fetch - processPackages [BSODinator]: Skipping, unable to determine old version
+[2023-06-18 11:03:46] INFO root fetch - main [MainThread]: End processing [BSODinator] error
+[2023-06-18 11:03:46] INFO root fetch - processPackages [connect-python]: New version: [0.1.0.dev2] Old Version: [0.1.0.dev1]
+[2023-06-18 11:03:46] INFO root fetch - processPackages [webhooklib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 11:03:46] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/18/f8/16b0359d09d337334d6e1af41dee43765cd510a97424a9105fb291fc56b5/webhooklib-0.8.0.tar.gz
+[2023-06-18 11:03:46] INFO root fetch - processPackages [connect-python]: Downloading https://files.pythonhosted.org/packages/b5/ba/afe499f3038d8cb5bfcc33ff7bd076c02be276fd1895669e1180f0654aa6/connect_python-0.1.0.dev1.tar.gz
+[2023-06-18 11:03:46] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/d0/ba/d55f95581bbb6caf6f691e30f1f60b96421f62293e6120cd8ede0b009ac8/webhooklib-0.9.0.tar.gz
+[2023-06-18 11:03:46] INFO root fetch - processPackages [utillc]: Downloading https://files.pythonhosted.org/packages/cc/f6/8602a3365c5bdae211c3ac294519f44f09a48d78f82481686f04441605d1/utillc-0.9.8-py2.py3-none-any.whl
+[2023-06-18 11:03:47] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-18 11:03:47] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.8.0.tar.gz tmp/webhooklib-0.9.0.tar.gz --markdown 20230618/w/webhooklib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 11:03:47] INFO root fetch - processPackages [connect-python]: Downloading https://files.pythonhosted.org/packages/aa/6f/c6b98b435e4afb945a2a2c111b5bb6bb013400a796a2b7a239c057b3b8be/connect_python-0.1.0.dev2.tar.gz
+[2023-06-18 11:03:47] INFO root fetch - processPackages [utillc]: Downloading https://files.pythonhosted.org/packages/d8/3c/db840ab098014cd53956ab58f90e832f7dc4cd45fba1ebcbb74463d04f94/utillc-0.9.9-py2.py3-none-any.whl
+[2023-06-18 11:03:47] INFO root fetch - processPackages [connect-python]: executing diffoscope
+[2023-06-18 11:03:47] INFO root fetch - processPackages [connect-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_python-0.1.0.dev1.tar.gz tmp/connect_python-0.1.0.dev2.tar.gz --markdown 20230618/c/connect-python/0.1.0.dev1-0.1.0.dev2/diff.md --exclude *.pyd
+[2023-06-18 11:03:47] INFO root fetch - processPackages [utillc]: executing diffoscope
+[2023-06-18 11:03:47] INFO root fetch - processPackages [utillc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utillc-0.9.8-py2.py3-none-any.whl.zip tmp/utillc-0.9.9-py2.py3-none-any.whl.zip --markdown 20230618/u/utillc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-18 11:03:48] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.8.0.tar.gz]
+[2023-06-18 11:03:48] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.9.0.tar.gz]
+[2023-06-18 11:03:48] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-18 11:03:48] INFO root fetch - processPackages [connect-python]: Remove: archive file [/home/abi/fetcher/tmp/connect_python-0.1.0.dev1.tar.gz]
+[2023-06-18 11:03:48] INFO root fetch - processPackages [connect-python]: Remove: archive file [/home/abi/fetcher/tmp/connect_python-0.1.0.dev2.tar.gz]
+[2023-06-18 11:03:48] INFO root fetch - main [MainThread]: End processing [connect-python]: success
+[2023-06-18 11:03:48] INFO root fetch - processPackages [utillc]: Remove: archive file [/home/abi/fetcher/tmp/utillc-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-18 11:03:48] INFO root fetch - processPackages [utillc]: Remove: archive file [/home/abi/fetcher/tmp/utillc-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-18 11:03:48] INFO root fetch - main [MainThread]: End processing [utillc]: success
+[2023-06-18 11:03:48] INFO root fetch - main [MainThread]: Store serial: [18548845]
