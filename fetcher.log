@@ -10864,3 +10864,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 17:08:45] INFO root fetch - processPackages [python-can]: Remove: archive file [/home/abi/fetcher/tmp/python-can-4.2.2.tar.gz]
 [2023-06-18 17:08:45] INFO root fetch - main [MainThread]: End processing [python-can]: success
 [2023-06-18 17:08:45] INFO root fetch - main [MainThread]: Store serial: [18550943]
+[2023-06-18 17:13:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550943]
+[2023-06-18 17:13:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-railway-signals
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-resolve
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serial-packets
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readthis
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqrack
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lottry
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abd-clam
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorflow-text-nightly
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hagrid
+[2023-06-18 17:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: web-ext-helper
+[2023-06-18 17:13:54] INFO root fetch - processPackages [model-railway-signals]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-18 17:13:54] INFO root fetch - processPackages [readthis]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 17:13:54] INFO root fetch - processPackages [serial-packets]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 17:13:54] WARNING root fetch - processPackages [lottry]: Skipping, unable to determine old version
+[2023-06-18 17:13:54] INFO root fetch - processPackages [lottry]: Start processing: pandoc-latex-environment
+[2023-06-18 17:13:54] INFO root fetch - main [MainThread]: End processing [lottry] error
+[2023-06-18 17:13:54] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-06-18 17:13:54] INFO root fetch - processPackages [web-ext-helper]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-18 17:13:54] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230617] Old Version: [2.14.0.dev20230616]
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-18 17:13:54] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-18 17:13:54] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/b4/0d/f136e3cccffb034999ea2aabea9c5ab3443aca1cd14595af4cc164f5dc8d/readthis-0.0.7.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/db/65/7ec142fd9d91fd4997dda562ca9f631b793462b3c5a3def7353eb960db75/web_ext_helper-1.0.3.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pandoc-latex-environment]: New version: [1.1.6.1] Old Version: [1.1.6]
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/12/8e/7abd3f54b479cbbf0f960b1b03d6e9c2c997604a5dda35cc15934a88ccad/pydantic_resolve-1.1.1.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [serial-packets]: Downloading https://files.pythonhosted.org/packages/5a/ba/71b0d8aa44b09c82e66baabdfc59edd560d1b9cd09e0405aa09db1b744dc/serial_packets-0.1.1.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/fb/3f/84769ca2e765f8358889254376529029cbc850ad7899bf2f6fa5161fb90a/tensorflow_text_nightly-2.14.0.dev20230616-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [model-railway-signals]: Downloading https://files.pythonhosted.org/packages/22/69/0ea054ef53af87e85970a950b23760b4682c67a590c2b9ab049f2f4b58db/model-railway-signals-3.3.0.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/f6/f0/8d78a7021718c8553a0466f98ddff9f7afc7913d1446b87d28068b1f4ccd/web_ext_helper-1.0.4.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pandoc-latex-environment]: Downloading https://files.pythonhosted.org/packages/a1/e4/a58568672b8cbebc54e1578732e9229390613e6d1239007c4a0cc6fcef40/pandoc-latex-environment-1.1.6.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/bf/db/13ba567bc4beb3451e5706972632a022fcd453a4f37dbef9897e137bcbec/readthis-0.0.8.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-18 17:13:54] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230618/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-18 17:13:54] INFO root fetch - processPackages [web-ext-helper]: executing diffoscope
+[2023-06-18 17:13:54] INFO root fetch - processPackages [web-ext-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_ext_helper-1.0.3.tar.gz tmp/web_ext_helper-1.0.4.tar.gz --markdown 20230618/w/web-ext-helper/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-18 17:13:54] INFO root fetch - processPackages [readthis]: executing diffoscope
+[2023-06-18 17:13:54] INFO root fetch - processPackages [readthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readthis-0.0.7.tar.gz tmp/readthis-0.0.8.tar.gz --markdown 20230618/r/readthis/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/4b/04/8ee3511c7b878c5309895430297f66caf3a56c100e094a4bfed2beab1f5e/pydantic_resolve-1.2.0.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230618/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-18 17:13:54] INFO root fetch - processPackages [model-railway-signals]: Downloading https://files.pythonhosted.org/packages/a3/8d/8bb44f25ffe24fcfcdda2b168c54a01fdf4d204aea774a8299b359693e6f/model-railway-signals-3.4.0.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [serial-packets]: Downloading https://files.pythonhosted.org/packages/b2/d9/88c57c9d39391832c0aadfc79c10b3b6f227eb1e9e4c11030453be23bbfa/serial_packets-0.1.2.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.1.1.tar.gz tmp/pydantic_resolve-1.2.0.tar.gz --markdown 20230618/p/pydantic-resolve/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-18 17:13:54] INFO root fetch - processPackages [pandoc-latex-environment]: Downloading https://files.pythonhosted.org/packages/24/3f/ac9e5ccd0976a6496c79150389880c68787403eca6b4ee2cab5fc26aa0b2/pandoc_latex_environment-1.1.6.1.tar.gz
+[2023-06-18 17:13:54] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/75/28/f43b1f0095582522025e2cbff3e62454d264057f6c4649406dd8602d4922/tensorflow_text_nightly-2.14.0.dev20230617-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-18 17:13:54] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-06-18 17:13:54] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230618/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-06-18 17:13:54] INFO root fetch - processPackages [model-railway-signals]: executing diffoscope
+[2023-06-18 17:13:54] INFO root fetch - processPackages [model-railway-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-railway-signals-3.3.0.tar.gz tmp/model-railway-signals-3.4.0.tar.gz --markdown 20230618/m/model-railway-signals/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-06-18 17:13:55] INFO root fetch - processPackages [serial-packets]: executing diffoscope
+[2023-06-18 17:13:55] INFO root fetch - processPackages [serial-packets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serial_packets-0.1.1.tar.gz tmp/serial_packets-0.1.2.tar.gz --markdown 20230618/s/serial-packets/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 17:13:55] INFO root fetch - processPackages [pandoc-latex-environment]: executing diffoscope
+[2023-06-18 17:13:55] INFO root fetch - processPackages [pandoc-latex-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-latex-environment-1.1.6.tar.gz tmp/pandoc_latex_environment-1.1.6.1.tar.gz --markdown 20230618/p/pandoc-latex-environment/1.1.6-1.1.6.1/diff.md --exclude *.pyd
+[2023-06-18 17:13:55] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-18 17:13:55] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230616-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230617-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230618/t/tensorflow-text-nightly/2.14.0.dev20230616-2.14.0.dev20230617/diff.md --exclude *.pyd
+[2023-06-18 17:13:56] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.7.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.8.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - processPackages [readthis]: Start processing: types-WebOb
+[2023-06-18 17:13:56] INFO root fetch - main [MainThread]: End processing [readthis]: success
+[2023-06-18 17:13:56] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.0.3.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.0.4.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - main [MainThread]: End processing [web-ext-helper]: success
+[2023-06-18 17:13:56] ERROR root fetch - processPackages [types-WebOb]: Unable to get metadata: No such project 'types-WebOb'
+[2023-06-18 17:13:56] INFO root fetch - main [MainThread]: End processing [types-WebOb] error
+[2023-06-18 17:13:56] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-18 17:13:56] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-06-18 17:13:56] INFO root fetch - processPackages [serial-packets]: Remove: archive file [/home/abi/fetcher/tmp/serial_packets-0.1.1.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - processPackages [serial-packets]: Remove: archive file [/home/abi/fetcher/tmp/serial_packets-0.1.2.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - main [MainThread]: End processing [serial-packets]: success
+[2023-06-18 17:13:56] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.1.1.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.2.0.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-06-18 17:13:56] INFO root fetch - processPackages [pandoc-latex-environment]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-latex-environment-1.1.6.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - processPackages [pandoc-latex-environment]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_environment-1.1.6.1.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - main [MainThread]: End processing [pandoc-latex-environment]: success
+[2023-06-18 17:13:56] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-18 17:13:56] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-18 17:13:57] INFO root fetch - processPackages [model-railway-signals]: Remove: archive file [/home/abi/fetcher/tmp/model-railway-signals-3.3.0.tar.gz]
+[2023-06-18 17:13:57] INFO root fetch - processPackages [model-railway-signals]: Remove: archive file [/home/abi/fetcher/tmp/model-railway-signals-3.4.0.tar.gz]
+[2023-06-18 17:13:57] INFO root fetch - main [MainThread]: End processing [model-railway-signals]: success
+[2023-06-18 17:13:57] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230616-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-18 17:13:57] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230617-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-18 17:13:57] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-18 17:13:57] INFO root fetch - main [MainThread]: Store serial: [18550985]
