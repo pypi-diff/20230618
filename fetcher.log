@@ -11135,3 +11135,136 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 17:32:31] ERROR root fetch - processPackages [tfra-nightly]: Timeout during execution of pkgdiff
 [2023-06-18 17:32:31] INFO root fetch - main [MainThread]: End processing [tfra-nightly] error
 [2023-06-18 17:32:31] INFO root fetch - main [MainThread]: Store serial: [18551072]
+[2023-06-18 17:37:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551072]
+[2023-06-18 17:37:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbrl
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant-historical-sensor
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-route
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haidarlibs
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopyre
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spektrixpython
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qh3
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-request-separate-picking
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pip-autocompile
+[2023-06-18 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyisyox
+[2023-06-18 17:37:40] INFO root fetch - processPackages [autopyre]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 17:37:40] INFO root fetch - processPackages [homeassistant-historical-sensor]: New version: [1.0.0a0] Old Version: [0.1.0a0]
+[2023-06-18 17:37:40] INFO root fetch - processPackages [flet-route]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-18 17:37:40] WARNING root fetch - processPackages [odoo-addon-stock-request-separate-picking]: Skipping, unable to determine old version
+[2023-06-18 17:37:40] INFO root fetch - processPackages [odoo-addon-stock-request-separate-picking]: Start processing: screen-brightness-control
+[2023-06-18 17:37:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request-separate-picking] error
+[2023-06-18 17:37:40] INFO root fetch - processPackages [haidarlibs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 17:37:40] INFO root fetch - processPackages [pyisyox]: New version: [1.0.0a7] Old Version: [1.0.0a6]
+[2023-06-18 17:37:40] INFO root fetch - processPackages [spektrixpython]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-18 17:37:40] INFO root fetch - processPackages [qh3]: New version: [0.11.1] Old Version: [0.11.0]
+[2023-06-18 17:37:40] INFO root fetch - processPackages [pip-autocompile]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-18 17:37:40] INFO root fetch - processPackages [screen-brightness-control]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-06-18 17:37:40] INFO root fetch - processPackages [bbrl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 17:37:40] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/7e/a0/f046f19d473b303caf8b187e19fcaf7cfd1f21a24cba6db3a1a9b3a9df19/autopyre-0.0.8.tar.gz
+[2023-06-18 17:37:40] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/f1/f5/19cd9c9c4f9dc1f00475daa19d20a34866713508d0af5c46dc23745a1388/haidarlibs-0.0.3.tar.gz
+[2023-06-18 17:37:40] INFO root fetch - processPackages [homeassistant-historical-sensor]: Downloading https://files.pythonhosted.org/packages/ee/be/a70a57d7d18f6752e691c8ebb1ce5e7bd793fec62e33b2e027a9d387b5bb/homeassistant-historical-sensor-0.1.0a0.tar.gz
+[2023-06-18 17:37:40] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/a7/e2/2f00754867695eeb72cd324c724b45f080835037d84bad4095d86b0df758/qh3-0.11.0.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [spektrixpython]: Downloading https://files.pythonhosted.org/packages/3b/cb/2c19868c0ff0c2a63d00e897be3052ed9c3ae25437312d46becb0ebdf0eb/spektrixpython-0.6.0.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [flet-route]: Downloading https://files.pythonhosted.org/packages/d7/2e/83397d1d9e7dee359d083943aaad31e74ee10240b4f4bd4ad547e5e928cf/flet_route-0.2.2.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [pip-autocompile]: Downloading https://files.pythonhosted.org/packages/b2/a5/da3f618d2529e378768c4062332333676a2bee41a162b579470dd5c87cb2/pip_autocompile-0.7.8.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [pyisyox]: Downloading https://files.pythonhosted.org/packages/65/b6/ae030df6d3286d4bea4c3fa781548bf9d5012534d01f542a7feb736c4209/pyisyox-1.0.0a6.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [bbrl]: Downloading https://files.pythonhosted.org/packages/d7/e8/97d4e9c8c3e237255308ae545cb43a8d28b7e30c6aaf1032c434d4587efd/bbrl-0.1.8.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [screen-brightness-control]: Downloading https://files.pythonhosted.org/packages/0c/23/8913463f5c4482c79c2192e25f9d4fdae1254eee2f136f0238d24cec8983/screen_brightness_control-0.8.6.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [spektrixpython]: Downloading https://files.pythonhosted.org/packages/10/d1/7fea728e230a725f2322642e3bd758ce1d4ff92f07933ad05391a92b4ca1/spektrixpython-0.6.1.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/7e/63/6e5d08d61f1972c27febb758faf035f679a46112992dc34aaaa27e0cae0d/haidarlibs-0.0.4.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/12/64/8310444f71b38203a6ed8b4847435bd03632dbff7396d838834a657acff9/qh3-0.11.1.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/a1/3e/f149a2b4451adb9f1f1d11736cd612d717c93f18c60b306955e4c06f6e22/autopyre-0.0.9.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [spektrixpython]: executing diffoscope
+[2023-06-18 17:37:41] INFO root fetch - processPackages [spektrixpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spektrixpython-0.6.0.tar.gz tmp/spektrixpython-0.6.1.tar.gz --markdown 20230618/s/spektrixpython/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-18 17:37:41] INFO root fetch - processPackages [homeassistant-historical-sensor]: Downloading https://files.pythonhosted.org/packages/b7/21/f991a4d04b5fb115095b79cd17267e4fc3ccd9cfe291ad379f96e4e19e82/homeassistant-historical-sensor-1.0.0a0.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [haidarlibs]: executing diffoscope
+[2023-06-18 17:37:41] INFO root fetch - processPackages [haidarlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haidarlibs-0.0.3.tar.gz tmp/haidarlibs-0.0.4.tar.gz --markdown 20230618/h/haidarlibs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 17:37:41] INFO root fetch - processPackages [qh3]: executing diffoscope
+[2023-06-18 17:37:41] INFO root fetch - processPackages [qh3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qh3-0.11.0.tar.gz tmp/qh3-0.11.1.tar.gz --markdown 20230618/q/qh3/0.11.0-0.11.1/diff.md --exclude *.pyd
+[2023-06-18 17:37:41] INFO root fetch - processPackages [pip-autocompile]: Downloading https://files.pythonhosted.org/packages/c2/72/e9b283a0470c26ca1e1684d024707fd7cb60718d1d651063d86e9b7d86a2/pip_autocompile-0.7.9.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [flet-route]: Downloading https://files.pythonhosted.org/packages/8f/cc/f54719bc836db27ad4904208b66c2b077a0a9137e18ca489977fd5eeb5d7/flet_route-0.3.0.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 17:37:41] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.8.tar.gz tmp/autopyre-0.0.9.tar.gz --markdown 20230618/a/autopyre/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 17:37:41] INFO root fetch - processPackages [pyisyox]: Downloading https://files.pythonhosted.org/packages/ce/52/29bf6eddd99fc8ddba06825b00b1f3f57d196b0e0ba2f1e1b0f9529a8978/pyisyox-1.0.0a7.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [pip-autocompile]: executing diffoscope
+[2023-06-18 17:37:41] INFO root fetch - processPackages [flet-route]: executing diffoscope
+[2023-06-18 17:37:41] INFO root fetch - processPackages [flet-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_route-0.2.2.tar.gz tmp/flet_route-0.3.0.tar.gz --markdown 20230618/f/flet-route/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 17:37:41] INFO root fetch - processPackages [pip-autocompile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_autocompile-0.7.8.tar.gz tmp/pip_autocompile-0.7.9.tar.gz --markdown 20230618/p/pip-autocompile/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-18 17:37:41] INFO root fetch - processPackages [homeassistant-historical-sensor]: executing diffoscope
+[2023-06-18 17:37:41] INFO root fetch - processPackages [homeassistant-historical-sensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant-historical-sensor-0.1.0a0.tar.gz tmp/homeassistant-historical-sensor-1.0.0a0.tar.gz --markdown 20230618/h/homeassistant-historical-sensor/0.1.0a0-1.0.0a0/diff.md --exclude *.pyd
+[2023-06-18 17:37:41] WARNING root fetch - processPackages [bbrl]: Skipping package: exceeds size limit 95850648>=10485760
+[2023-06-18 17:37:41] INFO root fetch - processPackages [bbrl]: Start processing: gotify-tray
+[2023-06-18 17:37:41] INFO root fetch - main [MainThread]: End processing [bbrl] error
+[2023-06-18 17:37:41] INFO root fetch - processPackages [pyisyox]: executing diffoscope
+[2023-06-18 17:37:41] INFO root fetch - processPackages [pyisyox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyisyox-1.0.0a6.tar.gz tmp/pyisyox-1.0.0a7.tar.gz --markdown 20230618/p/pyisyox/1.0.0a6-1.0.0a7/diff.md --exclude *.pyd
+[2023-06-18 17:37:41] INFO root fetch - processPackages [gotify-tray]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-18 17:37:41] INFO root fetch - processPackages [screen-brightness-control]: Downloading https://files.pythonhosted.org/packages/8f/c2/6b9ae33b4502d6eeb1a7dfe70ce35aad44380ec4122d1db1108a264c0037/screen_brightness_control-0.9.0.tar.gz
+[2023-06-18 17:37:41] INFO root fetch - processPackages [screen-brightness-control]: executing diffoscope
+[2023-06-18 17:37:41] INFO root fetch - processPackages [screen-brightness-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screen_brightness_control-0.8.6.tar.gz tmp/screen_brightness_control-0.9.0.tar.gz --markdown 20230618/s/screen-brightness-control/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 17:37:41] INFO root fetch - processPackages [gotify-tray]: Downloading https://files.pythonhosted.org/packages/59/19/f04386597d20242ca328302995da342970f3bd24bc45cc402f44f4c35f56/gotify-tray-0.5.0.tar.gz
+[2023-06-18 17:37:42] INFO root fetch - processPackages [gotify-tray]: Downloading https://files.pythonhosted.org/packages/d6/73/39549d9829f7a6d8ef7ccd6b941616066094dbfeeb345d99128cdc2ef10d/gotify-tray-0.5.1.tar.gz
+[2023-06-18 17:37:42] INFO root fetch - processPackages [gotify-tray]: executing diffoscope
+[2023-06-18 17:37:42] INFO root fetch - processPackages [gotify-tray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotify-tray-0.5.0.tar.gz tmp/gotify-tray-0.5.1.tar.gz --markdown 20230618/g/gotify-tray/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-18 17:37:42] INFO root fetch - processPackages [spektrixpython]: Remove: archive file [/home/abi/fetcher/tmp/spektrixpython-0.6.0.tar.gz]
+[2023-06-18 17:37:42] INFO root fetch - processPackages [spektrixpython]: Remove: archive file [/home/abi/fetcher/tmp/spektrixpython-0.6.1.tar.gz]
+[2023-06-18 17:37:42] INFO root fetch - processPackages [spektrixpython]: Start processing: prompt4all
+[2023-06-18 17:37:42] INFO root fetch - main [MainThread]: End processing [spektrixpython]: success
+[2023-06-18 17:37:42] WARNING root fetch - processPackages [prompt4all]: Skipping, unable to determine old version
+[2023-06-18 17:37:42] INFO root fetch - processPackages [prompt4all]: Start processing: homeassistant-historical-sensor
+[2023-06-18 17:37:42] INFO root fetch - main [MainThread]: End processing [prompt4all] error
+[2023-06-18 17:37:42] INFO root fetch - processPackages [homeassistant-historical-sensor]: New version: [1.0.0a0] Old Version: [0.1.0a0]
+[2023-06-18 17:37:42] INFO root fetch - processPackages [homeassistant-historical-sensor]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant-historical-sensor-0.1.0a0.tar.gz]
+[2023-06-18 17:37:42] INFO root fetch - processPackages [homeassistant-historical-sensor]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant-historical-sensor-1.0.0a0.tar.gz]
+[2023-06-18 17:37:42] INFO root fetch - processPackages [homeassistant-historical-sensor]: Start processing: qps-limit
+[2023-06-18 17:37:42] INFO root fetch - main [MainThread]: End processing [homeassistant-historical-sensor]: success
+[2023-06-18 17:37:42] INFO root fetch - processPackages [homeassistant-historical-sensor]: Downloading https://files.pythonhosted.org/packages/b7/21/f991a4d04b5fb115095b79cd17267e4fc3ccd9cfe291ad379f96e4e19e82/homeassistant-historical-sensor-1.0.0a0.tar.gz
+[2023-06-18 17:37:42] WARNING root fetch - processPackages [qps-limit]: Skipping, unable to determine old version
+[2023-06-18 17:37:42] INFO root fetch - processPackages [qps-limit]: Start processing: vedo
+[2023-06-18 17:37:42] INFO root fetch - main [MainThread]: End processing [qps-limit] error
+[2023-06-18 17:37:43] INFO root fetch - processPackages [homeassistant-historical-sensor]: executing diffoscope
+[2023-06-18 17:37:43] INFO root fetch - processPackages [homeassistant-historical-sensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant-historical-sensor-0.1.0a0.tar.gz tmp/homeassistant-historical-sensor-1.0.0a0.tar.gz --markdown 20230618/h/homeassistant-historical-sensor/0.1.0a0-1.0.0a0/diff.md --exclude *.pyd
+[2023-06-18 17:37:43] INFO root fetch - processPackages [vedo]: New version: [2023.4.5] Old Version: [2023.4.4]
+[2023-06-18 17:37:43] INFO root fetch - processPackages [flet-route]: Remove: archive file [/home/abi/fetcher/tmp/flet_route-0.2.2.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - processPackages [flet-route]: Remove: archive file [/home/abi/fetcher/tmp/flet_route-0.3.0.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - processPackages [flet-route]: Start processing: strictdoc
+[2023-06-18 17:37:43] INFO root fetch - main [MainThread]: End processing [flet-route]: success
+[2023-06-18 17:37:43] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 17:37:43] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-06-18 17:37:43] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.3.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.4.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
+[2023-06-18 17:37:43] INFO root fetch - processPackages [vedo]: Downloading https://files.pythonhosted.org/packages/f4/57/43516580218a744ed9edd0fd224c124154d3323bc9dd4d5a661682c32f9a/vedo-2023.4.4.tar.gz
+[2023-06-18 17:37:43] INFO root fetch - processPackages [screen-brightness-control]: Remove: archive file [/home/abi/fetcher/tmp/screen_brightness_control-0.8.6.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - processPackages [screen-brightness-control]: Remove: archive file [/home/abi/fetcher/tmp/screen_brightness_control-0.9.0.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - main [MainThread]: End processing [screen-brightness-control]: success
+[2023-06-18 17:37:43] INFO root fetch - processPackages [pip-autocompile]: Remove: archive file [/home/abi/fetcher/tmp/pip_autocompile-0.7.8.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - processPackages [pip-autocompile]: Remove: archive file [/home/abi/fetcher/tmp/pip_autocompile-0.7.9.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - main [MainThread]: End processing [pip-autocompile]: success
+[2023-06-18 17:37:43] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-06-18 17:37:43] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-06-18 17:37:43] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230618/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 17:37:43] INFO root fetch - processPackages [vedo]: Downloading https://files.pythonhosted.org/packages/d5/52/2e2329ac4de2131d37e18907843c34f7f46f30462c792866e4a00e12cdd4/vedo-2023.4.5.tar.gz
+[2023-06-18 17:37:43] ERROR root fetch - processPackages [homeassistant-historical-sensor]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/homeassistant-historical-sensor-0.1.0a0.tar.gz: No such file or directory
+
+[2023-06-18 17:37:43] INFO root fetch - main [MainThread]: End processing [homeassistant-historical-sensor] error
+[2023-06-18 17:37:43] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-0.11.0.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-0.11.1.tar.gz]
+[2023-06-18 17:37:43] INFO root fetch - main [MainThread]: End processing [qh3]: success
+[2023-06-18 17:37:44] INFO root fetch - processPackages [vedo]: executing diffoscope
+[2023-06-18 17:37:44] INFO root fetch - processPackages [vedo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedo-2023.4.4.tar.gz tmp/vedo-2023.4.5.tar.gz --markdown 20230618/v/vedo/2023.4.4-2023.4.5/diff.md --exclude *.pyd
+[2023-06-18 17:37:44] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.8.tar.gz]
+[2023-06-18 17:37:44] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.9.tar.gz]
+[2023-06-18 17:37:44] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 17:37:44] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-06-18 17:37:44] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-06-18 17:37:44] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-06-18 17:37:45] INFO root fetch - processPackages [pyisyox]: Remove: archive file [/home/abi/fetcher/tmp/pyisyox-1.0.0a6.tar.gz]
+[2023-06-18 17:37:45] INFO root fetch - processPackages [pyisyox]: Remove: archive file [/home/abi/fetcher/tmp/pyisyox-1.0.0a7.tar.gz]
+[2023-06-18 17:37:45] INFO root fetch - main [MainThread]: End processing [pyisyox]: success
+[2023-06-18 17:37:46] INFO root fetch - processPackages [gotify-tray]: Remove: archive file [/home/abi/fetcher/tmp/gotify-tray-0.5.0.tar.gz]
+[2023-06-18 17:37:46] INFO root fetch - processPackages [gotify-tray]: Remove: archive file [/home/abi/fetcher/tmp/gotify-tray-0.5.1.tar.gz]
+[2023-06-18 17:37:46] INFO root fetch - main [MainThread]: End processing [gotify-tray]: success
+[2023-06-18 17:37:49] INFO root fetch - processPackages [vedo]: Remove: archive file [/home/abi/fetcher/tmp/vedo-2023.4.4.tar.gz]
+[2023-06-18 17:37:49] INFO root fetch - processPackages [vedo]: Remove: archive file [/home/abi/fetcher/tmp/vedo-2023.4.5.tar.gz]
+[2023-06-18 17:37:49] INFO root fetch - main [MainThread]: End processing [vedo]: success
+[2023-06-18 17:37:49] INFO root fetch - main [MainThread]: Store serial: [18551141]
