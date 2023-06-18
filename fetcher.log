@@ -8067,3 +8067,143 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 13:57:55] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz]
 [2023-06-18 13:57:55] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
 [2023-06-18 13:57:55] INFO root fetch - main [MainThread]: Store serial: [18549761]
+[2023-06-18 14:02:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549761]
+[2023-06-18 14:03:04] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bupap
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandoc-latex-newpage
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taksonomia
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: css-inline
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiorobonect
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: convertio-python
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coursera-scraper
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mrfix
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: http3client
+[2023-06-18 14:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-dllib
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bupap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [pandoc-latex-newpage]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [coursera-scraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [aiorobonect]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-18 14:03:04] WARNING root fetch - processPackages [http3client]: Skipping, unable to determine old version
+[2023-06-18 14:03:04] INFO root fetch - processPackages [http3client]: Start processing: bigdl-orca
+[2023-06-18 14:03:04] INFO root fetch - processPackages [taksonomia]: New version: [2023.6.18] Old Version: [2023.1.24]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [convertio-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 14:03:04] INFO root fetch - main [MainThread]: End processing [http3client] error
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [mrfix]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [css-inline]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [coursera-scraper]: Downloading https://files.pythonhosted.org/packages/fa/07/b8ec98cbfb371fbe5d191dbb5b632492c6d57e8e0c2d52a5aade8b940078/coursera-scraper-0.1.1.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [pandoc-latex-newpage]: Downloading https://files.pythonhosted.org/packages/50/12/e65837e50caf5a30fabc21937e50aa150a9efbec9a4de354f1f4fc0e9828/pandoc-latex-newpage-0.2.0.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [convertio-python]: Downloading https://files.pythonhosted.org/packages/df/a9/45125e6ca0df5a4537edd630fb6720482094976cdee3db295b717a6f0730/convertio_python-0.1.0.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bupap]: Downloading https://files.pythonhosted.org/packages/25/32/ed581e71b2dfaa4413adbde94d51c2f1929b76861f1cb5f8979902ee06ce/bupap-0.1.0.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/7b/90/e308d53b268a4781d51aae8775feafa6059704523e385c1d27a0784aa230/mrfix-2.0.4.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/2a/ef/d72980eafedaf65395b81acc0302caab685eb568177ea74bfdf779a798c9/aiorobonect-0.2.0.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [taksonomia]: Downloading https://files.pythonhosted.org/packages/58/0a/f0a75cb35d56f74b21a7262636f92374d084eadc559d0bf7be6d6ff707dc/taksonomia-2023.1.24.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [css-inline]: Downloading https://files.pythonhosted.org/packages/53/4d/511e3155bf8f863d129e8d1006cc01f26ecfb36b2622dd32551c654c5f66/css_inline-0.8.7.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/13/f9/e5edb89d38d150d4f1ca5b5c25e21054075f0cc57be5c51e941eb0d449a3/bigdl-dllib-2.4.0b20230617.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/bd/5e/1ef5f8f12b65e3912b80a37577ef256ab63a3ef8d2db660c5088f497daf0/bigdl_orca-2.4.0b20230616-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:03:04] INFO root fetch - processPackages [coursera-scraper]: Downloading https://files.pythonhosted.org/packages/4b/51/ad243ea23647bcdc6528499a037f1d4c50c4d0e84cac639e7b16c30bfba5/coursera-scraper-0.1.2.tar.gz
+[2023-06-18 14:03:04] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369532>=10485760
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-friesian
+[2023-06-18 14:03:04] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53637861>=10485760
+[2023-06-18 14:03:04] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl
+[2023-06-18 14:03:04] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-18 14:03:04] INFO root fetch - processPackages [convertio-python]: Downloading https://files.pythonhosted.org/packages/35/d8/1efa17aeb8212635eb8285290b53612e1fa507d743675f8694b9e3c44d5f/convertio_python-0.1.1.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-18 14:03:04] INFO root fetch - processPackages [coursera-scraper]: executing diffoscope
+[2023-06-18 14:03:04] INFO root fetch - processPackages [coursera-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursera-scraper-0.1.1.tar.gz tmp/coursera-scraper-0.1.2.tar.gz --markdown 20230618/c/coursera-scraper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 14:03:04] INFO root fetch - processPackages [bupap]: Downloading https://files.pythonhosted.org/packages/36/8d/8a5edc638c6f8d9d255491cab7038d45aa86c5b43c9c4cfad8d15cde36d5/bupap-0.1.1.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [pandoc-latex-newpage]: Downloading https://files.pythonhosted.org/packages/c0/ae/fae1525ba0113fd88d66804cd8d055ac4bf671f11cc8bd08704de5f6d939/pandoc_latex_newpage-1.0.0.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [convertio-python]: executing diffoscope
+[2023-06-18 14:03:04] INFO root fetch - processPackages [convertio-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convertio_python-0.1.0.tar.gz tmp/convertio_python-0.1.1.tar.gz --markdown 20230618/c/convertio-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 14:03:04] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/38/20/897fb2c5b0213f1e1571b54820b4355999c474be186e86799a5f3e51f3f0/mrfix-2.0.5.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/ff/47/449132ad0fbebf4dbbc219631ef1cd8924479129ca0c5055bd37a075dc3f/aiorobonect-0.2.1.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [pandoc-latex-newpage]: executing diffoscope
+[2023-06-18 14:03:04] INFO root fetch - processPackages [pandoc-latex-newpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-latex-newpage-0.2.0.tar.gz tmp/pandoc_latex_newpage-1.0.0.tar.gz --markdown 20230618/p/pandoc-latex-newpage/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-18 14:03:04] INFO root fetch - processPackages [taksonomia]: Downloading https://files.pythonhosted.org/packages/67/74/6737abff2fb06f3a2f935d89ed39caa91dd1ce8804b474bb0256420807b0/taksonomia-2023.6.18.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [css-inline]: Downloading https://files.pythonhosted.org/packages/b6/8a/f5f42b7f417e1a8c1e5764caecc6d9f03a4da93449225918f9cf4aa5f590/css_inline-0.9.0.tar.gz
+[2023-06-18 14:03:04] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-06-18 14:03:04] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.4.tar.gz tmp/mrfix-2.0.5.tar.gz --markdown 20230618/m/mrfix/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/38/d5/0891aa9f827b7a97897dc7ad00ff1ef3219db3f9c0b88a5d0ac18c29448f/bigdl-2.4.0b20230616-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:03:05] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2023-06-18 14:03:05] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-0.2.0.tar.gz tmp/aiorobonect-0.2.1.tar.gz --markdown 20230618/a/aiorobonect/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/eb/f3/d66b88a58572809b024c799f4897eb8358cc14daded10daeb6397fec909d/bigdl_friesian-2.4.0b20230616-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bupap]: executing diffoscope
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bupap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bupap-0.1.0.tar.gz tmp/bupap-0.1.1.tar.gz --markdown 20230618/b/bupap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 14:03:05] INFO root fetch - processPackages [taksonomia]: executing diffoscope
+[2023-06-18 14:03:05] INFO root fetch - processPackages [taksonomia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taksonomia-2023.1.24.tar.gz tmp/taksonomia-2023.6.18.tar.gz --markdown 20230618/t/taksonomia/2023.1.24-2023.6.18/diff.md --exclude *.pyd
+[2023-06-18 14:03:05] INFO root fetch - processPackages [css-inline]: executing diffoscope
+[2023-06-18 14:03:05] INFO root fetch - processPackages [css-inline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/css_inline-0.8.7.tar.gz tmp/css_inline-0.9.0.tar.gz --markdown 20230618/c/css-inline/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/24/6d/a8045e146e3ffa6f7cdc6a53b476029b261134330355b0bca44f379d0bd1/bigdl-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/1d/1b/554991eb0c1cabccccdf2a237e65933fa2b1f0d69cc390a44c8cc0eb5e09/bigdl_friesian-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip --markdown 20230618/b/bigdl/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-18 14:03:05] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip --markdown 20230618/b/bigdl-friesian/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-18 14:03:06] INFO root fetch - processPackages [coursera-scraper]: Remove: archive file [/home/abi/fetcher/tmp/coursera-scraper-0.1.1.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [coursera-scraper]: Remove: archive file [/home/abi/fetcher/tmp/coursera-scraper-0.1.2.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [coursera-scraper]: Start processing: bigdl-dllib-spark2
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [coursera-scraper]: success
+[2023-06-18 14:03:06] INFO root fetch - processPackages [convertio-python]: Remove: archive file [/home/abi/fetcher/tmp/convertio_python-0.1.0.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [convertio-python]: Remove: archive file [/home/abi/fetcher/tmp/convertio_python-0.1.1.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [convertio-python]: Start processing: http3clientpy
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [convertio-python]: success
+[2023-06-18 14:03:06] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 14:03:06] WARNING root fetch - processPackages [http3clientpy]: Skipping, unable to determine old version
+[2023-06-18 14:03:06] INFO root fetch - processPackages [http3clientpy]: Start processing: bigdl-orca-spark2
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [http3clientpy] error
+[2023-06-18 14:03:06] INFO root fetch - processPackages [pandoc-latex-newpage]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-latex-newpage-0.2.0.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [pandoc-latex-newpage]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_newpage-1.0.0.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [pandoc-latex-newpage]: Start processing: bigdl-friesian-spark2
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [pandoc-latex-newpage]: success
+[2023-06-18 14:03:06] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.4.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.5.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [mrfix]: Start processing: homelab-node-red-backup
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-06-18 14:03:06] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/ca/f4/cf39577baee20a9d07d0e647acb03c4db946ad51ca74efa7eb54f5723a3d/bigdl-dllib-spark2-2.4.0b20230617.tar.gz
+[2023-06-18 14:03:06] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53637911>=10485760
+[2023-06-18 14:03:06] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: HAP-python
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-06-18 14:03:06] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.0.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.1.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2023-06-18 14:03:06] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/e1/b7/68450902b9461b47ee2d80e602322501cf80cad5ef29383c4e2522cebb7f/bigdl_orca_spark2-2.4.0b20230616-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:03:06] WARNING root fetch - processPackages [homelab-node-red-backup]: Skipping, unable to determine old version
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [homelab-node-red-backup] error
+[2023-06-18 14:03:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/a3/97/936f8aef40e2ac0055b20133efc17e0d2227176ac0bce373852766b36017/bigdl_friesian_spark2-2.4.0b20230616-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:03:06] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-18 14:03:06] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369613>=10485760
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-18 14:03:06] INFO root fetch - processPackages [css-inline]: Remove: archive file [/home/abi/fetcher/tmp/css_inline-0.8.7.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - processPackages [css-inline]: Remove: archive file [/home/abi/fetcher/tmp/css_inline-0.9.0.tar.gz]
+[2023-06-18 14:03:06] INFO root fetch - main [MainThread]: End processing [css-inline]: success
+[2023-06-18 14:03:06] INFO root fetch - processPackages [HAP-python]: New version: [4.7.0] Old Version: [4.6.0]
+[2023-06-18 14:03:07] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/bd/11/cd3609f8eabae548dd3ccc68aa82bae3bc77152bd573bfa2d6ba9c794259/bigdl_friesian_spark2-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:03:07] INFO root fetch - processPackages [taksonomia]: Remove: archive file [/home/abi/fetcher/tmp/taksonomia-2023.1.24.tar.gz]
+[2023-06-18 14:03:07] INFO root fetch - processPackages [taksonomia]: Remove: archive file [/home/abi/fetcher/tmp/taksonomia-2023.6.18.tar.gz]
+[2023-06-18 14:03:07] INFO root fetch - main [MainThread]: End processing [taksonomia]: success
+[2023-06-18 14:03:07] INFO root fetch - processPackages [HAP-python]: Downloading https://files.pythonhosted.org/packages/4c/ad/7722bbedc4631768b159b8ef79bc35d1bffc5cc3ea29b79feb1952c34a93/HAP-python-4.6.0.tar.gz
+[2023-06-18 14:03:07] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-18 14:03:07] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip --markdown 20230618/b/bigdl-friesian-spark2/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-18 14:03:07] INFO root fetch - processPackages [HAP-python]: Downloading https://files.pythonhosted.org/packages/99/51/a2481651ee9fc3a25059b12ec215a16e2689cd7dc332a038b89d837c5179/HAP-python-4.7.0.tar.gz
+[2023-06-18 14:03:07] INFO root fetch - processPackages [bupap]: Remove: archive file [/home/abi/fetcher/tmp/bupap-0.1.0.tar.gz]
+[2023-06-18 14:03:07] INFO root fetch - processPackages [bupap]: Remove: archive file [/home/abi/fetcher/tmp/bupap-0.1.1.tar.gz]
+[2023-06-18 14:03:07] INFO root fetch - main [MainThread]: End processing [bupap]: success
+[2023-06-18 14:03:07] INFO root fetch - processPackages [HAP-python]: executing diffoscope
+[2023-06-18 14:03:07] INFO root fetch - processPackages [HAP-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HAP-python-4.6.0.tar.gz tmp/HAP-python-4.7.0.tar.gz --markdown 20230618/H/HAP-python/4.6.0-4.7.0/diff.md --exclude *.pyd
+[2023-06-18 14:03:07] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:03:07] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:03:07] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-18 14:03:08] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230616-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:03:08] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:03:08] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-18 14:03:08] INFO root fetch - processPackages [HAP-python]: Remove: archive file [/home/abi/fetcher/tmp/HAP-python-4.6.0.tar.gz]
+[2023-06-18 14:03:08] INFO root fetch - processPackages [HAP-python]: Remove: archive file [/home/abi/fetcher/tmp/HAP-python-4.7.0.tar.gz]
+[2023-06-18 14:03:08] INFO root fetch - main [MainThread]: End processing [HAP-python]: success
+[2023-06-18 14:03:08] INFO root fetch - main [MainThread]: Store serial: [18549838]
