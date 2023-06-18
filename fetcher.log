@@ -5675,3 +5675,72 @@
 [2023-06-18 10:04:55] INFO root fetch - processPackages [polar-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/polar_diagrams-1.0.7.tar.gz]
 [2023-06-18 10:04:55] INFO root fetch - main [MainThread]: End processing [polar-diagrams]: success
 [2023-06-18 10:04:55] INFO root fetch - main [MainThread]: Store serial: [18548663]
+[2023-06-18 10:09:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548663]
+[2023-06-18 10:10:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 10:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foliolib
+[2023-06-18 10:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymultithreading
+[2023-06-18 10:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2023-06-18 10:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yid-langchain-extensions
+[2023-06-18 10:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weaviate-client
+[2023-06-18 10:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webhooklib
+[2023-06-18 10:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strip-tags
+[2023-06-18 10:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: demo-reader-program
+[2023-06-18 10:10:04] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pymultithreading]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 10:10:04] INFO root fetch - processPackages [weaviate-client]: New version: [3.9.0b0] Old Version: [3.9.0.dev2]
+[2023-06-18 10:10:04] INFO root fetch - processPackages [foliolib]: New version: [0.3.7a1] Old Version: [0.3.6a2]
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230618] Old Version: [0.3.1.dev20230617]
+[2023-06-18 10:10:04] INFO root fetch - processPackages [webhooklib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pymultithreading]: Downloading https://files.pythonhosted.org/packages/af/d4/5a4b5ac955a7baaa4a4ba698a3498c16666d74b207f7eaddc27f9882db58/pymultithreading-0.1.0.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/3b/ad/5a14d2e0db79c4c9e25625b1b4d6b4abf5e8bf7fb0bb06ba3461611b3181/yid_langchain_extensions-0.4.8.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ee/91/b4fa6ce6c45c2e69f9168d8c3580f46611f6446d633de5a0e068bd21433f/pyglove-0.3.1.dev20230617.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [strip-tags]: New version: [0.4] Old Version: [0.3]
+[2023-06-18 10:10:04] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/18/f8/16b0359d09d337334d6e1af41dee43765cd510a97424a9105fb291fc56b5/webhooklib-0.8.0.tar.gz
+[2023-06-18 10:10:04] WARNING root fetch - processPackages [demo-reader-program]: Skipping, unable to determine old version
+[2023-06-18 10:10:04] INFO root fetch - main [MainThread]: End processing [demo-reader-program] error
+[2023-06-18 10:10:04] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/a8/cb/8ca3061906481a9a6997baefa6ecc800dcaed0f08e1c84c55c609182fe2b/weaviate-client-3.9.0.dev2.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [foliolib]: Downloading https://files.pythonhosted.org/packages/b8/2b/8ee68c93e21c6e744925cf998bd807caa346a483a8d302528ff21d24349e/foliolib-0.3.6a2.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pymultithreading]: Downloading https://files.pythonhosted.org/packages/90/86/b58008f9bbed1e00db7de191607afaa0159561adaebeeb064dd8e393bf3e/pymultithreading-0.2.0.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [strip-tags]: Downloading https://files.pythonhosted.org/packages/86/35/10381a5f51247b5cc1c48b80375994df3c4f4cc759c6a9c6649eaf3c842c/strip-tags-0.3.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/72/ba/67d200561c62c1dbd583ac75ded2fb95737bee8f62900d9aaf0aeda17ef8/yid_langchain_extensions-0.4.9.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/f6/f4/69e08040db7f8788d7fc54f7f8f5ea158873496bfc3ca823f28c86b78a98/pyglove-0.3.1.dev20230618.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/d0/ba/d55f95581bbb6caf6f691e30f1f60b96421f62293e6120cd8ede0b009ac8/webhooklib-0.9.0.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pymultithreading]: executing diffoscope
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pymultithreading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultithreading-0.1.0.tar.gz tmp/pymultithreading-0.2.0.tar.gz --markdown 20230618/p/pymultithreading/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 10:10:04] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-06-18 10:10:04] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.8.tar.gz tmp/yid_langchain_extensions-0.4.9.tar.gz --markdown 20230618/y/yid-langchain-extensions/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-18 10:10:04] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-18 10:10:04] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.8.0.tar.gz tmp/webhooklib-0.9.0.tar.gz --markdown 20230618/w/webhooklib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 10:10:04] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/10/6b/0e242b95dd9ee12ed89f4af97e7bd0c82317c708e5a1de27406f7832d4e2/weaviate-client-3.9.0b0.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [foliolib]: Downloading https://files.pythonhosted.org/packages/31/c4/e37043600d727ad49b4632af58ec9294e0863eee3a1150039417cff8945d/foliolib-0.3.7a1.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-18 10:10:04] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230617.tar.gz tmp/pyglove-0.3.1.dev20230618.tar.gz --markdown 20230618/p/pyglove/0.3.1.dev20230617-0.3.1.dev20230618/diff.md --exclude *.pyd
+[2023-06-18 10:10:04] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2023-06-18 10:10:04] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-3.9.0.dev2.tar.gz tmp/weaviate-client-3.9.0b0.tar.gz --markdown 20230618/w/weaviate-client/3.9.0.dev2-3.9.0b0/diff.md --exclude *.pyd
+[2023-06-18 10:10:04] INFO root fetch - processPackages [strip-tags]: Downloading https://files.pythonhosted.org/packages/24/38/2d4c00c1d6dfde3c182eaca6952688f3a263dd07dccb01078f82d320c15e/strip-tags-0.4.tar.gz
+[2023-06-18 10:10:04] INFO root fetch - processPackages [foliolib]: executing diffoscope
+[2023-06-18 10:10:04] INFO root fetch - processPackages [foliolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foliolib-0.3.6a2.tar.gz tmp/foliolib-0.3.7a1.tar.gz --markdown 20230618/f/foliolib/0.3.6a2-0.3.7a1/diff.md --exclude *.pyd
+[2023-06-18 10:10:04] INFO root fetch - processPackages [strip-tags]: executing diffoscope
+[2023-06-18 10:10:04] INFO root fetch - processPackages [strip-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strip-tags-0.3.tar.gz tmp/strip-tags-0.4.tar.gz --markdown 20230618/s/strip-tags/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-18 10:10:05] INFO root fetch - processPackages [pymultithreading]: Remove: archive file [/home/abi/fetcher/tmp/pymultithreading-0.1.0.tar.gz]
+[2023-06-18 10:10:05] INFO root fetch - processPackages [pymultithreading]: Remove: archive file [/home/abi/fetcher/tmp/pymultithreading-0.2.0.tar.gz]
+[2023-06-18 10:10:05] INFO root fetch - main [MainThread]: End processing [pymultithreading]: success
+[2023-06-18 10:10:05] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.8.0.tar.gz]
+[2023-06-18 10:10:05] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.9.0.tar.gz]
+[2023-06-18 10:10:05] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-18 10:10:06] INFO root fetch - processPackages [strip-tags]: Remove: archive file [/home/abi/fetcher/tmp/strip-tags-0.3.tar.gz]
+[2023-06-18 10:10:06] INFO root fetch - processPackages [strip-tags]: Remove: archive file [/home/abi/fetcher/tmp/strip-tags-0.4.tar.gz]
+[2023-06-18 10:10:06] INFO root fetch - main [MainThread]: End processing [strip-tags]: success
+[2023-06-18 10:10:06] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.8.tar.gz]
+[2023-06-18 10:10:06] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.9.tar.gz]
+[2023-06-18 10:10:06] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-06-18 10:10:06] INFO root fetch - processPackages [foliolib]: Remove: archive file [/home/abi/fetcher/tmp/foliolib-0.3.6a2.tar.gz]
+[2023-06-18 10:10:06] INFO root fetch - processPackages [foliolib]: Remove: archive file [/home/abi/fetcher/tmp/foliolib-0.3.7a1.tar.gz]
+[2023-06-18 10:10:06] INFO root fetch - main [MainThread]: End processing [foliolib]: success
+[2023-06-18 10:10:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230617.tar.gz]
+[2023-06-18 10:10:06] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230618.tar.gz]
+[2023-06-18 10:10:06] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-18 10:10:07] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0.dev2.tar.gz]
+[2023-06-18 10:10:07] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0b0.tar.gz]
+[2023-06-18 10:10:07] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2023-06-18 10:10:07] INFO root fetch - main [MainThread]: Store serial: [18548687]
