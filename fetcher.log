@@ -4844,3 +4844,45 @@
 [2023-06-18 07:32:05] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.7.tar.gz]
 [2023-06-18 07:32:05] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
 [2023-06-18 07:32:05] INFO root fetch - main [MainThread]: Store serial: [18548287]
+[2023-06-18 07:37:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548287]
+[2023-06-18 07:37:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 07:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmfuncs
+[2023-06-18 07:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minidevice
+[2023-06-18 07:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csv-ical
+[2023-06-18 07:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monstermash
+[2023-06-18 07:37:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alpha-dom
+[2023-06-18 07:37:13] INFO root fetch - processPackages [llmfuncs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-18 07:37:13] WARNING root fetch - processPackages [alpha-dom]: Skipping, unable to determine old version
+[2023-06-18 07:37:13] INFO root fetch - processPackages [csv-ical]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-18 07:37:13] INFO root fetch - processPackages [minidevice]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-18 07:37:13] INFO root fetch - main [MainThread]: End processing [alpha-dom] error
+[2023-06-18 07:37:13] INFO root fetch - processPackages [monstermash]: New version: [0.7.6] Old Version: [0.7.2]
+[2023-06-18 07:37:13] INFO root fetch - processPackages [llmfuncs]: Downloading https://files.pythonhosted.org/packages/9e/c6/8f0d412ffeee33a381798d09e9a3219f8639ad9cbbb8290b5ef80203db42/llmfuncs-0.2.1.tar.gz
+[2023-06-18 07:37:13] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/70/be/a00bd92824138e6b2fe311d9ea4165275484e421cf77d56c3c01e7222ada/minidevice-2.0.5.tar.gz
+[2023-06-18 07:37:14] INFO root fetch - processPackages [csv-ical]: Downloading https://files.pythonhosted.org/packages/62/04/86ae9df0c739413bd52d065e8105c078cc59da271accfb6c095081e5efb0/csv-ical-2.0.4.tar.gz
+[2023-06-18 07:37:14] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/b0/c4/ea2c92a0bd75c3915b6b4575666a3d98528608b38398e2ee676baff936ff/monstermash-0.7.2.tar.gz
+[2023-06-18 07:37:14] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/58/6b/3212b8a9c2d9fb502740e7e15eda8406fff05078f81cc7edc4ccae001210/minidevice-2.0.6.tar.gz
+[2023-06-18 07:37:14] INFO root fetch - processPackages [llmfuncs]: Downloading https://files.pythonhosted.org/packages/8b/cc/d69e8ea79a51a6188a7a72d16cd57bb4b32898b6cc807f907ec849162b79/llmfuncs-0.2.2.tar.gz
+[2023-06-18 07:37:14] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-18 07:37:14] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.0.5.tar.gz tmp/minidevice-2.0.6.tar.gz --markdown 20230618/m/minidevice/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-18 07:37:14] INFO root fetch - processPackages [llmfuncs]: executing diffoscope
+[2023-06-18 07:37:14] INFO root fetch - processPackages [llmfuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmfuncs-0.2.1.tar.gz tmp/llmfuncs-0.2.2.tar.gz --markdown 20230618/l/llmfuncs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-18 07:37:14] INFO root fetch - processPackages [csv-ical]: Downloading https://files.pythonhosted.org/packages/5a/55/41ccbc23f9cfa06f1d43cda710f35073c790c932882495d2177f14c7e1c6/csv-ical-2.0.5.tar.gz
+[2023-06-18 07:37:14] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/41/51/f8b3aa29157611092ecefa939fc3327b153d2abe41bd210c619b17fedf4e/monstermash-0.7.6.tar.gz
+[2023-06-18 07:37:14] INFO root fetch - processPackages [csv-ical]: executing diffoscope
+[2023-06-18 07:37:14] INFO root fetch - processPackages [csv-ical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv-ical-2.0.4.tar.gz tmp/csv-ical-2.0.5.tar.gz --markdown 20230618/c/csv-ical/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-18 07:37:14] INFO root fetch - processPackages [monstermash]: executing diffoscope
+[2023-06-18 07:37:14] INFO root fetch - processPackages [monstermash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstermash-0.7.2.tar.gz tmp/monstermash-0.7.6.tar.gz --markdown 20230618/m/monstermash/0.7.2-0.7.6/diff.md --exclude *.pyd
+[2023-06-18 07:37:15] INFO root fetch - processPackages [llmfuncs]: Remove: archive file [/home/abi/fetcher/tmp/llmfuncs-0.2.1.tar.gz]
+[2023-06-18 07:37:15] INFO root fetch - processPackages [llmfuncs]: Remove: archive file [/home/abi/fetcher/tmp/llmfuncs-0.2.2.tar.gz]
+[2023-06-18 07:37:15] INFO root fetch - main [MainThread]: End processing [llmfuncs]: success
+[2023-06-18 07:37:15] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-0.7.2.tar.gz]
+[2023-06-18 07:37:15] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-0.7.6.tar.gz]
+[2023-06-18 07:37:15] INFO root fetch - main [MainThread]: End processing [monstermash]: success
+[2023-06-18 07:37:15] INFO root fetch - processPackages [csv-ical]: Remove: archive file [/home/abi/fetcher/tmp/csv-ical-2.0.4.tar.gz]
+[2023-06-18 07:37:15] INFO root fetch - processPackages [csv-ical]: Remove: archive file [/home/abi/fetcher/tmp/csv-ical-2.0.5.tar.gz]
+[2023-06-18 07:37:15] INFO root fetch - main [MainThread]: End processing [csv-ical]: success
+[2023-06-18 07:37:15] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.5.tar.gz]
+[2023-06-18 07:37:15] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.6.tar.gz]
+[2023-06-18 07:37:15] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-18 07:37:15] INFO root fetch - main [MainThread]: Store serial: [18548305]
