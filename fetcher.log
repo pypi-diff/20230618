@@ -4898,3 +4898,9 @@
 [2023-06-18 07:42:26] INFO root fetch - processPackages [halc]: Remove: archive file [/home/abi/fetcher/tmp/halc-0.22.3.tar.gz]
 [2023-06-18 07:42:26] INFO root fetch - main [MainThread]: End processing [halc]: success
 [2023-06-18 07:42:26] INFO root fetch - main [MainThread]: Store serial: [18548311]
+[2023-06-18 07:47:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548311]
+[2023-06-18 07:47:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-18 07:47:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-auto-deploy
+[2023-06-18 07:47:35] WARNING root fetch - processPackages [pulumi-auto-deploy]: Skipping, unable to determine old version
+[2023-06-18 07:47:35] INFO root fetch - main [MainThread]: End processing [pulumi-auto-deploy] error
+[2023-06-18 07:47:35] INFO root fetch - main [MainThread]: Store serial: [18548315]
