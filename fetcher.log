@@ -6016,3 +6016,27 @@
 [2023-06-18 10:53:26] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-06-18 10:53:26] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-06-18 10:53:26] INFO root fetch - main [MainThread]: Store serial: [18548808]
+[2023-06-18 10:58:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548808]
+[2023-06-18 10:58:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 10:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blockgamebot
+[2023-06-18 10:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faons
+[2023-06-18 10:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webhooklib
+[2023-06-18 10:58:36] WARNING root fetch - processPackages [blockgamebot]: Skipping, unable to determine old version
+[2023-06-18 10:58:36] INFO root fetch - main [MainThread]: End processing [blockgamebot] error
+[2023-06-18 10:58:36] INFO root fetch - processPackages [webhooklib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 10:58:36] INFO root fetch - processPackages [faons]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 10:58:36] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/18/f8/16b0359d09d337334d6e1af41dee43765cd510a97424a9105fb291fc56b5/webhooklib-0.8.0.tar.gz
+[2023-06-18 10:58:36] INFO root fetch - processPackages [faons]: Downloading https://files.pythonhosted.org/packages/8e/cb/91fb24b29fa187b568b5818954a30b6ff1609edda75918e88acffcdd33c5/faons-0.0.4.tar.gz
+[2023-06-18 10:58:36] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/d0/ba/d55f95581bbb6caf6f691e30f1f60b96421f62293e6120cd8ede0b009ac8/webhooklib-0.9.0.tar.gz
+[2023-06-18 10:58:36] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-18 10:58:36] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.8.0.tar.gz tmp/webhooklib-0.9.0.tar.gz --markdown 20230618/w/webhooklib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 10:58:36] INFO root fetch - processPackages [faons]: Downloading https://files.pythonhosted.org/packages/24/62/e754305c02253a367776c377bbba0033ceee5d70b290c06b7c8507d00d31/faons-0.0.5.tar.gz
+[2023-06-18 10:58:37] INFO root fetch - processPackages [faons]: executing diffoscope
+[2023-06-18 10:58:37] INFO root fetch - processPackages [faons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faons-0.0.4.tar.gz tmp/faons-0.0.5.tar.gz --markdown 20230618/f/faons/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 10:58:37] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.8.0.tar.gz]
+[2023-06-18 10:58:37] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.9.0.tar.gz]
+[2023-06-18 10:58:37] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-18 10:58:38] INFO root fetch - processPackages [faons]: Remove: archive file [/home/abi/fetcher/tmp/faons-0.0.4.tar.gz]
+[2023-06-18 10:58:38] INFO root fetch - processPackages [faons]: Remove: archive file [/home/abi/fetcher/tmp/faons-0.0.5.tar.gz]
+[2023-06-18 10:58:38] INFO root fetch - main [MainThread]: End processing [faons]: success
+[2023-06-18 10:58:38] INFO root fetch - main [MainThread]: Store serial: [18548828]
