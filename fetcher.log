@@ -11738,3 +11738,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 18:20:34] INFO root fetch - processPackages [netbox-contract]: Remove: archive file [/home/abi/fetcher/tmp/netbox-contract-2.0.4.tar.gz]
 [2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [netbox-contract]: success
 [2023-06-18 18:20:34] INFO root fetch - main [MainThread]: Store serial: [18551334]
+[2023-06-18 18:25:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551334]
+[2023-06-18 18:25:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 18:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain
+[2023-06-18 18:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agixt
+[2023-06-18 18:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sword2vec
+[2023-06-18 18:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyExpansion
+[2023-06-18 18:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ringgpt
+[2023-06-18 18:25:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stql
+[2023-06-18 18:25:43] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-18 18:25:43] INFO root fetch - processPackages [stql]: New version: [2.1] Old Version: [2.0]
+[2023-06-18 18:25:43] INFO root fetch - processPackages [ringgpt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 18:25:43] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-18 18:25:43] INFO root fetch - processPackages [sword2vec]: New version: [3.3.7] Old Version: [3.2.7]
+[2023-06-18 18:25:43] WARNING root fetch - processPackages [PyExpansion]: Skipping, unable to determine old version
+[2023-06-18 18:25:43] INFO root fetch - main [MainThread]: End processing [PyExpansion] error
+[2023-06-18 18:25:43] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-18 18:25:43] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/79/8f/117a88852c74bc6ed732754121fdb6e06b2582922374bba28cdd560fee5a/stql-2.0.tar.gz
+[2023-06-18 18:25:43] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/2b/25/78efc9a7b03174cb53ffdc811c579f7d14beebb08be1548ed405ab5ecb63/ringgpt-0.1.2.tar.gz
+[2023-06-18 18:25:43] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-18 18:25:43] INFO root fetch - processPackages [sword2vec]: Downloading https://files.pythonhosted.org/packages/32/5e/303861af7067284d8aae5ebb2d9cdedf9ac5f458e8a3521c0f51c72d7664/sword2vec-3.2.7.tar.gz
+[2023-06-18 18:25:44] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-18 18:25:44] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/95/c9/8e87e9aca61fb7f333d9f6f8b543fd603cf0c23066cf4c76b10deb74b469/stql-2.1.tar.gz
+[2023-06-18 18:25:44] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/e8/fa/aed8bf24b65fed6b28b904c11ea33cff87ef1a820b67324e43f0280fb20e/ringgpt-0.1.3.tar.gz
+[2023-06-18 18:25:44] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-18 18:25:44] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230618/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-18 18:25:44] INFO root fetch - processPackages [stql]: executing diffoscope
+[2023-06-18 18:25:44] INFO root fetch - processPackages [stql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stql-2.0.tar.gz tmp/stql-2.1.tar.gz --markdown 20230618/s/stql/2.0-2.1/diff.md --exclude *.pyd
+[2023-06-18 18:25:44] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 18:25:44] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.2.tar.gz tmp/ringgpt-0.1.3.tar.gz --markdown 20230618/r/ringgpt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 18:25:44] INFO root fetch - processPackages [sword2vec]: Downloading https://files.pythonhosted.org/packages/83/a0/076c69e6855cee220f94b7f070d7e092a53ef72c8e8840538b6644a7c668/sword2vec-3.3.7-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2023-06-18 18:25:44] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-18 18:25:44] INFO root fetch - processPackages [sword2vec]: executing diffoscope
+[2023-06-18 18:25:44] INFO root fetch - processPackages [sword2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sword2vec-3.2.7.tar.gz tmp/sword2vec-3.3.7-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip --markdown 20230618/s/sword2vec/3.2.7-3.3.7/diff.md --exclude *.pyd
+[2023-06-18 18:25:44] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-18 18:25:44] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230618/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-18 18:25:45] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.2.tar.gz]
+[2023-06-18 18:25:45] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.3.tar.gz]
+[2023-06-18 18:25:45] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 18:25:45] INFO root fetch - processPackages [stql]: Remove: archive file [/home/abi/fetcher/tmp/stql-2.0.tar.gz]
+[2023-06-18 18:25:45] INFO root fetch - processPackages [stql]: Remove: archive file [/home/abi/fetcher/tmp/stql-2.1.tar.gz]
+[2023-06-18 18:25:45] INFO root fetch - main [MainThread]: End processing [stql]: success
+[2023-06-18 18:25:45] INFO root fetch - processPackages [sword2vec]: Remove: archive file [/home/abi/fetcher/tmp/sword2vec-3.2.7.tar.gz]
+[2023-06-18 18:25:45] INFO root fetch - processPackages [sword2vec]: Remove: archive file [/home/abi/fetcher/tmp/sword2vec-3.3.7-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip]
+[2023-06-18 18:25:45] INFO root fetch - main [MainThread]: End processing [sword2vec]: success
+[2023-06-18 18:25:46] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-18 18:25:46] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-18 18:25:46] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-18 18:25:47] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-18 18:25:47] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-18 18:25:47] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-18 18:25:47] INFO root fetch - main [MainThread]: Store serial: [18551355]
