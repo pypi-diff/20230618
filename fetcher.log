@@ -7685,3 +7685,84 @@
 [2023-06-18 13:34:58] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.25-py3-none-any.whl.zip]
 [2023-06-18 13:34:58] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
 [2023-06-18 13:34:58] INFO root fetch - main [MainThread]: Store serial: [18549611]
+[2023-06-18 13:40:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549611]
+[2023-06-18 13:40:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: towdio-player
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-serving
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coursera-scraper
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datawise
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prismstudio-dev
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: convertio-python
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyecotrend-ista
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: micropython-captive-dns-server
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-mcversion
+[2023-06-18 13:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prismstudio-stg
+[2023-06-18 13:40:21] INFO root fetch - processPackages [towdio-player]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-18 13:40:21] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-18 13:40:21] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 13:40:21] WARNING root fetch - processPackages [convertio-python]: Skipping, unable to determine old version
+[2023-06-18 13:40:21] INFO root fetch - processPackages [datawise]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 13:40:21] WARNING root fetch - processPackages [coursera-scraper]: Skipping, unable to determine old version
+[2023-06-18 13:40:21] INFO root fetch - main [MainThread]: End processing [convertio-python] error
+[2023-06-18 13:40:21] INFO root fetch - main [MainThread]: End processing [coursera-scraper] error
+[2023-06-18 13:40:21] INFO root fetch - processPackages [prismstudio-dev]: New version: [1.1.3a0] Old Version: [1.1.3]
+[2023-06-18 13:40:21] INFO root fetch - processPackages [micropython-captive-dns-server]: New version: [0.0.2.dev0] Old Version: [0.0.1.dev0]
+[2023-06-18 13:40:21] INFO root fetch - processPackages [nonebot-plugin-mcversion]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-18 13:40:21] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/56/08/5b85366dfa72dd4b2f89fb28e2deb945c447b8e8f74deb5104969cfc1852/nonebot-plugin-mcversion-0.1.2.tar.gz
+[2023-06-18 13:40:21] INFO root fetch - processPackages [prismstudio-stg]: New version: [1.1.3a0] Old Version: [1.1.3]
+[2023-06-18 13:40:21] INFO root fetch - processPackages [towdio-player]: Downloading https://files.pythonhosted.org/packages/db/67/e2792e886f27912d1b8d54dc4f11bcd8b85e00f0dafe7af207b16d81104b/towdio_player-1.0.tar.gz
+[2023-06-18 13:40:21] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/c9/a3/2d5d18f73f084c8b6929990ac520a1d82118f744ebc0be27cbbce03b9123/datawise-0.0.2.tar.gz
+[2023-06-18 13:40:21] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/35/32/a5feb8496f42ff98cf5e6a1647ea39fa57a8247bd05ab0e595c5f393d73b/pyecotrend-ista-2.0.8.tar.gz
+[2023-06-18 13:40:21] INFO root fetch - processPackages [micropython-captive-dns-server]: Downloading https://files.pythonhosted.org/packages/1b/4b/266f342081a88ccd0b6515ce385abb70afebf1f373ce54153c044c12c453/micropython-captive-dns-server-0.0.1.dev0.tar.gz
+[2023-06-18 13:40:21] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/44/bb/4825661103c05c7ca7bf21d5effd9e750ca48d1d576c5de35af9cc924965/bigdl_serving-2.4.0b20230617-py2.py3-none-any.whl
+[2023-06-18 13:40:21] INFO root fetch - processPackages [prismstudio-dev]: Downloading https://files.pythonhosted.org/packages/f5/92/57950ab3b684b00833207d5c7d4ee18d7ed963a2ccad3655c9b2e77b4025/prismstudio-dev-1.1.3.tar.gz
+[2023-06-18 13:40:21] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/85/ea/75030fbf24edffc44a9a919d5ca5286a31003fc29d4d9ed2833b56ba35e2/nonebot-plugin-mcversion-0.2.0.tar.gz
+[2023-06-18 13:40:22] INFO root fetch - processPackages [prismstudio-stg]: Downloading https://files.pythonhosted.org/packages/7c/f0/7f7120a4adb109d4e323b0547f7957b1a27f032a2c61623436ba94bb30ad/prismstudio-stg-1.1.3.tar.gz
+[2023-06-18 13:40:22] INFO root fetch - processPackages [nonebot-plugin-mcversion]: executing diffoscope
+[2023-06-18 13:40:22] INFO root fetch - processPackages [nonebot-plugin-mcversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcversion-0.1.2.tar.gz tmp/nonebot-plugin-mcversion-0.2.0.tar.gz --markdown 20230618/n/nonebot-plugin-mcversion/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 13:40:22] INFO root fetch - processPackages [towdio-player]: Downloading https://files.pythonhosted.org/packages/95/e0/2ec2efc9f4eb2db1551b0c1201ab747d7d20b0bf7cb32327faa1848558ea/towdio_player-1.0.1.tar.gz
+[2023-06-18 13:40:22] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/ef/2d/8a8339d3a32670a8e39b684ca13dbef39e7c4ec086d3b37e4285d74d8a7c/datawise-0.0.3.tar.gz
+[2023-06-18 13:40:22] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d0/44/54e8b716f8e2fe421c7bf6e7fdb855ac2169773347ee8145d910f235931a/bigdl_serving-2.4.0b20230618-py2.py3-none-any.whl
+[2023-06-18 13:40:22] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-18 13:40:22] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.2.tar.gz tmp/datawise-0.0.3.tar.gz --markdown 20230618/d/datawise/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 13:40:22] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/cc/27/fcb258c5233a8a07977dabc10418a5ae080ed57bfe2355f6906796eb2579/pyecotrend-ista-2.0.9.tar.gz
+[2023-06-18 13:40:22] INFO root fetch - processPackages [prismstudio-dev]: Downloading https://files.pythonhosted.org/packages/fa/4f/28ec9e8da2e9ff686fdcd0fefb2338ece0cdfa24f6a15544649cd13b441c/prismstudio-dev-1.1.3a0.tar.gz
+[2023-06-18 13:40:22] INFO root fetch - processPackages [towdio-player]: executing diffoscope
+[2023-06-18 13:40:22] INFO root fetch - processPackages [towdio-player]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towdio_player-1.0.tar.gz tmp/towdio_player-1.0.1.tar.gz --markdown 20230618/t/towdio-player/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 13:40:22] INFO root fetch - processPackages [prismstudio-stg]: Downloading https://files.pythonhosted.org/packages/50/30/e729e6b2fac8a5dd614feeda340a36ccb11d86f7fcdd2fee40ed6067ce4f/prismstudio-stg-1.1.3a0.tar.gz
+[2023-06-18 13:40:22] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-18 13:40:22] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230617-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230618-py2.py3-none-any.whl.zip --markdown 20230618/b/bigdl-serving/2.4.0b20230617-2.4.0b20230618/diff.md --exclude *.pyd
+[2023-06-18 13:40:22] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-06-18 13:40:22] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.8.tar.gz tmp/pyecotrend-ista-2.0.9.tar.gz --markdown 20230618/p/pyecotrend-ista/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-18 13:40:22] INFO root fetch - processPackages [prismstudio-dev]: executing diffoscope
+[2023-06-18 13:40:22] INFO root fetch - processPackages [prismstudio-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-dev-1.1.3.tar.gz tmp/prismstudio-dev-1.1.3a0.tar.gz --markdown 20230618/p/prismstudio-dev/1.1.3-1.1.3a0/diff.md --exclude *.pyd
+[2023-06-18 13:40:22] INFO root fetch - processPackages [micropython-captive-dns-server]: Downloading https://files.pythonhosted.org/packages/4d/ad/bf3c58d15d1a18ae9c63f04b7064ec3fbddb01432442b4c376d9f87fd923/micropython-captive-dns-server-0.0.2.dev0.tar.gz
+[2023-06-18 13:40:22] INFO root fetch - processPackages [micropython-captive-dns-server]: executing diffoscope
+[2023-06-18 13:40:22] INFO root fetch - processPackages [micropython-captive-dns-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-captive-dns-server-0.0.1.dev0.tar.gz tmp/micropython-captive-dns-server-0.0.2.dev0.tar.gz --markdown 20230618/m/micropython-captive-dns-server/0.0.1.dev0-0.0.2.dev0/diff.md --exclude *.pyd
+[2023-06-18 13:40:23] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.1.2.tar.gz]
+[2023-06-18 13:40:23] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.0.tar.gz]
+[2023-06-18 13:40:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcversion]: success
+[2023-06-18 13:40:23] INFO root fetch - processPackages [prismstudio-stg]: executing diffoscope
+[2023-06-18 13:40:23] INFO root fetch - processPackages [prismstudio-stg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-stg-1.1.3.tar.gz tmp/prismstudio-stg-1.1.3a0.tar.gz --markdown 20230618/p/prismstudio-stg/1.1.3-1.1.3a0/diff.md --exclude *.pyd
+[2023-06-18 13:40:23] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.2.tar.gz]
+[2023-06-18 13:40:23] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.3.tar.gz]
+[2023-06-18 13:40:23] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-18 13:40:23] INFO root fetch - processPackages [towdio-player]: Remove: archive file [/home/abi/fetcher/tmp/towdio_player-1.0.tar.gz]
+[2023-06-18 13:40:23] INFO root fetch - processPackages [towdio-player]: Remove: archive file [/home/abi/fetcher/tmp/towdio_player-1.0.1.tar.gz]
+[2023-06-18 13:40:23] INFO root fetch - main [MainThread]: End processing [towdio-player]: success
+[2023-06-18 13:40:23] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.8.tar.gz]
+[2023-06-18 13:40:23] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.9.tar.gz]
+[2023-06-18 13:40:23] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-06-18 13:40:23] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230617-py2.py3-none-any.whl.zip]
+[2023-06-18 13:40:23] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230618-py2.py3-none-any.whl.zip]
+[2023-06-18 13:40:23] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-18 13:40:24] INFO root fetch - processPackages [micropython-captive-dns-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dns-server-0.0.1.dev0.tar.gz]
+[2023-06-18 13:40:24] INFO root fetch - processPackages [micropython-captive-dns-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dns-server-0.0.2.dev0.tar.gz]
+[2023-06-18 13:40:24] INFO root fetch - main [MainThread]: End processing [micropython-captive-dns-server]: success
+[2023-06-18 13:40:31] INFO root fetch - processPackages [prismstudio-dev]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-dev-1.1.3.tar.gz]
+[2023-06-18 13:40:31] INFO root fetch - processPackages [prismstudio-dev]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-dev-1.1.3a0.tar.gz]
+[2023-06-18 13:40:31] INFO root fetch - main [MainThread]: End processing [prismstudio-dev]: success
+[2023-06-18 13:40:34] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.3.tar.gz]
+[2023-06-18 13:40:34] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.3a0.tar.gz]
+[2023-06-18 13:40:34] INFO root fetch - main [MainThread]: End processing [prismstudio-stg]: success
+[2023-06-18 13:40:34] INFO root fetch - main [MainThread]: Store serial: [18549655]
