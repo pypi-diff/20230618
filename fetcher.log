@@ -12482,3 +12482,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 19:07:54] INFO root fetch - processPackages [ormar]: Remove: archive file [/home/abi/fetcher/tmp/ormar-0.9.9.tar.gz]
 [2023-06-18 19:07:54] INFO root fetch - main [MainThread]: End processing [ormar]: success
 [2023-06-18 19:07:54] INFO root fetch - main [MainThread]: Store serial: [18551644]
+[2023-06-18 19:12:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551644]
+[2023-06-18 19:13:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 19:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-06-18 19:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mcqq-tool
+[2023-06-18 19:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ringgpt
+[2023-06-18 19:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyreason
+[2023-06-18 19:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ambient-archiver
+[2023-06-18 19:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-component-include-tags
+[2023-06-18 19:13:03] INFO root fetch - processPackages [mcqq-tool]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 19:13:03] INFO root fetch - processPackages [pyreason]: New version: [1.8.1] Old Version: [1.6.1]
+[2023-06-18 19:13:03] INFO root fetch - processPackages [django-component-include-tags]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ambient-archiver]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 19:13:04] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/f9/95/00df9e8f55bca952138fc3ec968fa4837a1eccf419298771d1ba3a44e491/pyreason-1.6.1.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/91/56/124008c10c208d5d79bbb08a375b6b04b39e11edec7b8f5d7ef7c0576145/mcqq-tool-0.0.6.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ambient-archiver]: Downloading https://files.pythonhosted.org/packages/c3/5e/9a8af52cb15be46f814d929034bcdeeca47dbc6ee9e77f4f86ac6801b6ca/ambient-archiver-0.2.0.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [django-component-include-tags]: Downloading https://files.pythonhosted.org/packages/58/86/30fa61a3e154f23f5b3165310ae3ed50ae669b98563c9e9d48bcf44b2d97/django_component_include_tags-0.0.2.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-18 19:13:04] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230618/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 19:13:04] INFO root fetch - processPackages [django-component-include-tags]: Downloading https://files.pythonhosted.org/packages/b0/05/93d2df8f9cc353f6540388697847d748451919d5290e4b5c0974d59bf875/django_component_include_tags-0.0.3.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [django-component-include-tags]: executing diffoscope
+[2023-06-18 19:13:04] INFO root fetch - processPackages [django-component-include-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_component_include_tags-0.0.2.tar.gz tmp/django_component_include_tags-0.0.3.tar.gz --markdown 20230618/d/django-component-include-tags/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ambient-archiver]: Downloading https://files.pythonhosted.org/packages/75/e8/d76c684aed566508db58d5d691560108aff8bea29e540a3eb20ac936daee/ambient-archiver-0.3.0.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/04/b4/7b1bffc1debfd5841680a84f26e80f3dcd6402fcd73dad96116f33aae192/mcqq-tool-0.0.7.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/c7/4c/6a443d29849f1d7ec5942186bfc90ec7ec95dc1d368ecca38565ade45630/pyreason-1.8.1.tar.gz
+[2023-06-18 19:13:04] INFO root fetch - processPackages [mcqq-tool]: executing diffoscope
+[2023-06-18 19:13:04] INFO root fetch - processPackages [mcqq-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcqq-tool-0.0.6.tar.gz tmp/mcqq-tool-0.0.7.tar.gz --markdown 20230618/m/mcqq-tool/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 19:13:04] INFO root fetch - processPackages [pyreason]: executing diffoscope
+[2023-06-18 19:13:04] INFO root fetch - processPackages [pyreason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreason-1.6.1.tar.gz tmp/pyreason-1.8.1.tar.gz --markdown 20230618/p/pyreason/1.6.1-1.8.1/diff.md --exclude *.pyd
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ambient-archiver]: executing diffoscope
+[2023-06-18 19:13:04] INFO root fetch - processPackages [ambient-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-archiver-0.2.0.tar.gz tmp/ambient-archiver-0.3.0.tar.gz --markdown 20230618/a/ambient-archiver/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 19:13:05] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.8.tar.gz]
+[2023-06-18 19:13:05] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.9.tar.gz]
+[2023-06-18 19:13:05] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 19:13:05] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-18 19:13:05] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-18 19:13:05] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-18 19:13:05] INFO root fetch - processPackages [django-component-include-tags]: Remove: archive file [/home/abi/fetcher/tmp/django_component_include_tags-0.0.2.tar.gz]
+[2023-06-18 19:13:05] INFO root fetch - processPackages [django-component-include-tags]: Remove: archive file [/home/abi/fetcher/tmp/django_component_include_tags-0.0.3.tar.gz]
+[2023-06-18 19:13:05] INFO root fetch - main [MainThread]: End processing [django-component-include-tags]: success
+[2023-06-18 19:13:06] INFO root fetch - processPackages [pyreason]: Remove: archive file [/home/abi/fetcher/tmp/pyreason-1.6.1.tar.gz]
+[2023-06-18 19:13:06] INFO root fetch - processPackages [pyreason]: Remove: archive file [/home/abi/fetcher/tmp/pyreason-1.8.1.tar.gz]
+[2023-06-18 19:13:06] INFO root fetch - main [MainThread]: End processing [pyreason]: success
+[2023-06-18 19:13:06] INFO root fetch - processPackages [ambient-archiver]: Remove: archive file [/home/abi/fetcher/tmp/ambient-archiver-0.2.0.tar.gz]
+[2023-06-18 19:13:06] INFO root fetch - processPackages [ambient-archiver]: Remove: archive file [/home/abi/fetcher/tmp/ambient-archiver-0.3.0.tar.gz]
+[2023-06-18 19:13:06] INFO root fetch - main [MainThread]: End processing [ambient-archiver]: success
+[2023-06-18 19:13:06] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq-tool-0.0.6.tar.gz]
+[2023-06-18 19:13:06] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq-tool-0.0.7.tar.gz]
+[2023-06-18 19:13:06] INFO root fetch - main [MainThread]: End processing [mcqq-tool]: success
+[2023-06-18 19:13:06] INFO root fetch - main [MainThread]: Store serial: [18551662]
