@@ -7905,3 +7905,106 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 13:45:50] INFO root fetch - processPackages [ecasbot]: Remove: archive file [/home/abi/fetcher/tmp/ecasbot-1.8.3.tar.gz]
 [2023-06-18 13:45:50] INFO root fetch - main [MainThread]: End processing [ecasbot]: success
 [2023-06-18 13:45:50] INFO root fetch - main [MainThread]: Store serial: [18549700]
+[2023-06-18 13:50:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549700]
+[2023-06-18 13:50:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrestyle
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shapes-recognition
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib-spark3
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-orca-spark3
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-friesian-spark3
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos-spark3
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-spark3
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkov3
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: configration
+[2023-06-18 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mrfix
+[2023-06-18 13:50:59] INFO root fetch - processPackages [pyrestyle]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [shapes-recognition]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [mrfix]: New version: [2.0.3] Old Version: [1.0.6]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/ef/a3/ccea6c8179c1030257a7d7ec0193a9b3131b4764338037db9116d8163c80/mrfix-1.0.6.tar.gz
+[2023-06-18 13:50:59] INFO root fetch - processPackages [checkov3]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [configration]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-18 13:50:59] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/a0/a4/e9ec0fb3b541315eedc520f0f182a5c74a3b207925881a6d80a8399c506b/pyrestyle-0.0.2.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/65/32/5521daff812a186d0ef08919cdfb8eb9e57591dd1142bb3a6c8f2a87b6da/bigdl-dllib-spark3-2.4.0b20230617.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/11/80/a1907c535a615bf77b4234255f929b06a620b4229448c07bd229025dd7bc/shapes_recognition-2.1.4.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/bf/96/ba4c3e4b44db66564fafec3cc77c0667cf5d8c5f7c1515f717483f2ca255/bigdl_friesian_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/81/13/bff36bbbb04466310bd0834b2436d04b693f97d9d10d13ff4233c7a8daee/bigdl_orca_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/a5/c2/72cf0e840c12844edf89bafd0409d4ee63b74a435bb6105d0d44e116ba06/bigdl_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/d2/3b/65e521657c79e8478aa04a14e8caf7cd11ae0edd11c9ce43b6d8c8e3f3c5/bigdl_chronos_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-18 13:51:00] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/8d/e5/903926f1abc99835aa1b26f8f96aebb2c6e596ebf20c488be29a9f3411db/checkov3-0.1.6.tar.gz
+[2023-06-18 13:51:00] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328839>=10485760
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: cmdict
+[2023-06-18 13:51:00] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-18 13:51:00] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/3e/72/924443997ae8467fc53fc3cd3e9cfd82b324f50ec3d9585b84c8c74939d3/configration-2.0.3.tar.gz
+[2023-06-18 13:51:00] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207810>=10485760
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: http3-client
+[2023-06-18 13:51:00] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-18 13:51:00] INFO root fetch - processPackages [http3-client]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-18 13:51:00] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/93/80/6ee501cbf3394335d3cb27c5d84aca1a8d82e24b3797376826eceec5164f/mrfix-2.0.3.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/f6/5e/132d2126c7bf34d4aee1e81820bbf04fa1ff9af11794cc1340524407a9d6/http3_client-1.0.5.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [cmdict]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 13:51:00] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/7a/9b/23f43095d19b173927eafff54b7cfeca10d58d3f490111b50e2ded9b20d4/pyrestyle-0.0.3.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-1.0.6.tar.gz tmp/mrfix-2.0.3.tar.gz --markdown 20230618/m/mrfix/1.0.6-2.0.3/diff.md --exclude *.pyd
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/25/b8/0f28c8d5ea5ef918e0dd431acc5cb5c49411bed4fff430f1af793f39d3fd/bigdl_spark3-2.4.0b20230618-py3-none-manylinux1_x86_64.whl
+[2023-06-18 13:51:00] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/7b/d1/88b37595752876837d2948decde8c552b0b3fdc1108b69c36f3af6a0a3fc/shapes_recognition-2.1.5.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/d6/ae/3d05f2f96e5ac3552aaee4a9f85b130cbe015c8ba1625709d140dc5ea315/bigdl_friesian_spark3-2.4.0b20230618-py3-none-manylinux1_x86_64.whl
+[2023-06-18 13:51:00] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/7d/b6/806da47830165b4716bbcd5d55839455a81d72b7f59f4817af5adfbf5a13/checkov3-0.1.7.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/75/89/7021077573c924bad799ea5cf2fbcc868e0f3513569a24583980ae77361c/configration-2.0.4.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [pyrestyle]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [pyrestyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestyle-0.0.2.tar.gz tmp/pyrestyle-0.0.3.tar.gz --markdown 20230618/p/pyrestyle/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 13:51:00] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/e0/5e/2c11955006aa6b346f3fab297209e0a8701f31a3c82bc83b9f273040aa57/http3_client-1.0.7.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [cmdict]: Downloading https://files.pythonhosted.org/packages/0a/44/151768be0458ab9c54f387503ed1f59ecf8c2023437f6d8e585e7857dcdd/cmdict-0.1.4.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/b8/77/c0567584dd9236317ef38ebf27f952a6390a5e410587fc550c28d034b058/bigdl_chronos_spark3-2.4.0b20230618-py3-none-manylinux1_x86_64.whl
+[2023-06-18 13:51:00] INFO root fetch - processPackages [checkov3]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [checkov3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov3-0.1.6.tar.gz tmp/checkov3-0.1.7.tar.gz --markdown 20230618/c/checkov3/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-18 13:51:00] INFO root fetch - processPackages [http3-client]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [http3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http3_client-1.0.5.tar.gz tmp/http3_client-1.0.7.tar.gz --markdown 20230618/h/http3-client/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip --markdown 20230618/b/bigdl-spark3/2.4.0b20230617-2.4.0b20230618/diff.md --exclude *.pyd
+[2023-06-18 13:51:00] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.1.4.tar.gz tmp/shapes_recognition-2.1.5.tar.gz --markdown 20230618/s/shapes-recognition/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip --markdown 20230618/b/bigdl-friesian-spark3/2.4.0b20230617-2.4.0b20230618/diff.md --exclude *.pyd
+[2023-06-18 13:51:00] INFO root fetch - processPackages [configration]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [configration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configration-2.0.3.tar.gz tmp/configration-2.0.4.tar.gz --markdown 20230618/c/configration/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip --markdown 20230618/b/bigdl-chronos-spark3/2.4.0b20230617-2.4.0b20230618/diff.md --exclude *.pyd
+[2023-06-18 13:51:00] INFO root fetch - processPackages [cmdict]: Downloading https://files.pythonhosted.org/packages/d2/b7/68e0064a82e0a6d7998e4a8584b8e77976002094f6a16c4fbecfa76070d0/cmdict-0.1.5.tar.gz
+[2023-06-18 13:51:00] INFO root fetch - processPackages [cmdict]: executing diffoscope
+[2023-06-18 13:51:00] INFO root fetch - processPackages [cmdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdict-0.1.4.tar.gz tmp/cmdict-0.1.5.tar.gz --markdown 20230618/c/cmdict/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 13:51:01] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-1.0.6.tar.gz]
+[2023-06-18 13:51:01] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.3.tar.gz]
+[2023-06-18 13:51:01] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-06-18 13:51:02] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.5.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.7.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - main [MainThread]: End processing [http3-client]: success
+[2023-06-18 13:51:02] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.4.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.5.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-18 13:51:02] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 13:51:02] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 13:51:02] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-18 13:51:02] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.2.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.3.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - main [MainThread]: End processing [pyrestyle]: success
+[2023-06-18 13:51:02] INFO root fetch - processPackages [cmdict]: Remove: archive file [/home/abi/fetcher/tmp/cmdict-0.1.4.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - processPackages [cmdict]: Remove: archive file [/home/abi/fetcher/tmp/cmdict-0.1.5.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - main [MainThread]: End processing [cmdict]: success
+[2023-06-18 13:51:02] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.3.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.4.tar.gz]
+[2023-06-18 13:51:02] INFO root fetch - main [MainThread]: End processing [configration]: success
+[2023-06-18 13:51:02] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 13:51:02] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 13:51:02] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-18 13:51:03] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 13:51:03] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 13:51:03] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-18 13:51:50] INFO root fetch - processPackages [checkov3]: Remove: archive file [/home/abi/fetcher/tmp/checkov3-0.1.6.tar.gz]
+[2023-06-18 13:51:50] INFO root fetch - processPackages [checkov3]: Remove: archive file [/home/abi/fetcher/tmp/checkov3-0.1.7.tar.gz]
+[2023-06-18 13:51:50] INFO root fetch - main [MainThread]: End processing [checkov3]: success
+[2023-06-18 13:51:50] INFO root fetch - main [MainThread]: Store serial: [18549731]
