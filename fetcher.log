@@ -11647,3 +11647,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 18:15:22] INFO root fetch - processPackages [DexonlineParser]: Remove: archive file [/home/abi/fetcher/tmp/dexonlineparser-0.0.5.tar.gz]
 [2023-06-18 18:15:22] INFO root fetch - main [MainThread]: End processing [DexonlineParser]: success
 [2023-06-18 18:15:22] INFO root fetch - main [MainThread]: Store serial: [18551294]
+[2023-06-18 18:20:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551294]
+[2023-06-18 18:20:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xdat
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-contract
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csaf
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rebookmaker
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: srsly-cli
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-decorator
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ringgpt
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mysql-to-sqlite3
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ringgpt
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyentrp
+[2023-06-18 18:20:32] INFO root fetch - processPackages [netbox-contract]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-18 18:20:32] WARNING root fetch - processPackages [openai-decorator]: Skipping, unable to determine old version
+[2023-06-18 18:20:32] INFO root fetch - processPackages [openai-decorator]: Start processing: scify-file-reader
+[2023-06-18 18:20:32] INFO root fetch - main [MainThread]: End processing [openai-decorator] error
+[2023-06-18 18:20:32] INFO root fetch - processPackages [rebookmaker]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-18 18:20:32] INFO root fetch - processPackages [csaf]: New version: [2023.6.18] Old Version: [2023.5.9]
+[2023-06-18 18:20:32] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-18 18:20:32] WARNING root fetch - processPackages [srsly-cli]: Skipping, unable to determine old version
+[2023-06-18 18:20:32] INFO root fetch - processPackages [srsly-cli]: Start processing: stql
+[2023-06-18 18:20:32] INFO root fetch - main [MainThread]: End processing [srsly-cli] error
+[2023-06-18 18:20:32] INFO root fetch - processPackages [pyentrp]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ringgpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 18:20:32] WARNING root fetch - processPackages [scify-file-reader]: Skipping, unable to determine old version
+[2023-06-18 18:20:32] INFO root fetch - main [MainThread]: End processing [scify-file-reader] error
+[2023-06-18 18:20:32] INFO root fetch - processPackages [mysql-to-sqlite3]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ringgpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 18:20:32] INFO root fetch - processPackages [stql]: New version: [2.0] Old Version: [1.0]
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/dd/a6/c1443c521914e05d173b7b290caef4fca96ff7afcceacd5bcbf1d5a0a893/ringgpt-0.1.1.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [netbox-contract]: Downloading https://files.pythonhosted.org/packages/3f/51/88c969e5dbedea7dfe1d08b5260e4d64e9a0643d11cf56df4710c5708557/netbox-contract-2.0.3.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/dd/a6/c1443c521914e05d173b7b290caef4fca96ff7afcceacd5bcbf1d5a0a893/ringgpt-0.1.1.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [csaf]: Downloading https://files.pythonhosted.org/packages/7f/37/adc520c788c345a222c7ae7fa8ed9498585783ec6bf0426f04975754eb21/csaf-2023.5.9.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/b9/32/5b19258bcff59b7b427b59e4db77a59659dc3c6fa071f8b2a19274eb6977/mysql_to_sqlite3-2.0.0.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/be/87/24fa7450a297aefb18f21b08a23ff5ff0c3c25e618dc4b3d13bf84ab1455/stql-1.0.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [pyentrp]: Downloading https://files.pythonhosted.org/packages/c3/f2/f7029b88fe7bf79e5156f5a6ed644c8c0045b1ce255fed08164c00245bc0/pyentrp-0.8.3.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [rebookmaker]: Downloading https://files.pythonhosted.org/packages/5f/5d/a005fe76edfc2356b18a37a2c3d88a1044b4bc43a2c47458859730c93ce1/rebookmaker-0.8.8.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [netbox-contract]: Downloading https://files.pythonhosted.org/packages/3c/b3/2efa69ec1c36eb0a088157a34f945169d02ad6cf4e3b3fda336ae3230f37/netbox-contract-2.0.4.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/6a/b1/80658dda7e9d35ebdd8b7890a6e481caba7fbcebf8534ba93622ab445a21/mysql_to_sqlite3-2.0.1.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [pyentrp]: Downloading https://files.pythonhosted.org/packages/a5/a6/e7f01ac9a93813b54dfba16bf0a4b3c056e6e6aab94705c1e3e27f5ce28f/pyentrp-0.8.4.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [csaf]: Downloading https://files.pythonhosted.org/packages/c3/a3/6e8038e3b24193987a4788361e335c1f96c9948688f7238a730262b3479d/csaf-2023.6.18.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/2b/25/78efc9a7b03174cb53ffdc811c579f7d14beebb08be1548ed405ab5ecb63/ringgpt-0.1.2.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [stql]: Downloading https://files.pythonhosted.org/packages/79/8f/117a88852c74bc6ed732754121fdb6e06b2582922374bba28cdd560fee5a/stql-2.0.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/2b/25/78efc9a7b03174cb53ffdc811c579f7d14beebb08be1548ed405ab5ecb63/ringgpt-0.1.2.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [netbox-contract]: executing diffoscope
+[2023-06-18 18:20:32] INFO root fetch - processPackages [netbox-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-contract-2.0.3.tar.gz tmp/netbox-contract-2.0.4.tar.gz --markdown 20230618/n/netbox-contract/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-18 18:20:32] INFO root fetch - processPackages [rebookmaker]: Downloading https://files.pythonhosted.org/packages/29/21/de4c90f990964afd135bb95ad8f38f1a100b2022ef9650d99494f5af7514/rebookmaker-0.8.9.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2023-06-18 18:20:32] INFO root fetch - processPackages [mysql-to-sqlite3]: executing diffoscope
+[2023-06-18 18:20:32] INFO root fetch - processPackages [mysql-to-sqlite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_to_sqlite3-2.0.0.tar.gz tmp/mysql_to_sqlite3-2.0.1.tar.gz --markdown 20230618/m/mysql-to-sqlite3/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-18 18:20:33] INFO root fetch - processPackages [rebookmaker]: executing diffoscope
+[2023-06-18 18:20:33] INFO root fetch - processPackages [rebookmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebookmaker-0.8.8.tar.gz tmp/rebookmaker-0.8.9.tar.gz --markdown 20230618/r/rebookmaker/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-18 18:20:33] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 18:20:33] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.1.tar.gz tmp/ringgpt-0.1.2.tar.gz --markdown 20230618/r/ringgpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 18:20:33] INFO root fetch - processPackages [stql]: executing diffoscope
+[2023-06-18 18:20:33] INFO root fetch - processPackages [stql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stql-1.0.tar.gz tmp/stql-2.0.tar.gz --markdown 20230618/s/stql/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-18 18:20:33] INFO root fetch - processPackages [pyentrp]: executing diffoscope
+[2023-06-18 18:20:33] INFO root fetch - processPackages [pyentrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyentrp-0.8.3.tar.gz tmp/pyentrp-0.8.4.tar.gz --markdown 20230618/p/pyentrp/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-18 18:20:33] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 18:20:33] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.1.tar.gz tmp/ringgpt-0.1.2.tar.gz --markdown 20230618/r/ringgpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 18:20:33] INFO root fetch - processPackages [csaf]: executing diffoscope
+[2023-06-18 18:20:33] INFO root fetch - processPackages [csaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csaf-2023.5.9.tar.gz tmp/csaf-2023.6.18.tar.gz --markdown 20230618/c/csaf/2023.5.9-2023.6.18/diff.md --exclude *.pyd
+[2023-06-18 18:20:33] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-06-18 18:20:33] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230618/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-18 18:20:34] INFO root fetch - processPackages [stql]: Remove: archive file [/home/abi/fetcher/tmp/stql-1.0.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - processPackages [stql]: Remove: archive file [/home/abi/fetcher/tmp/stql-2.0.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [stql]: success
+[2023-06-18 18:20:34] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.1.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.2.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 18:20:34] INFO root fetch - processPackages [pyentrp]: Remove: archive file [/home/abi/fetcher/tmp/pyentrp-0.8.3.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - processPackages [pyentrp]: Remove: archive file [/home/abi/fetcher/tmp/pyentrp-0.8.4.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [pyentrp]: success
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 18:20:34] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql_to_sqlite3-2.0.0.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql_to_sqlite3-2.0.1.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [mysql-to-sqlite3]: success
+[2023-06-18 18:20:34] INFO root fetch - processPackages [rebookmaker]: Remove: archive file [/home/abi/fetcher/tmp/rebookmaker-0.8.8.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - processPackages [rebookmaker]: Remove: archive file [/home/abi/fetcher/tmp/rebookmaker-0.8.9.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [rebookmaker]: success
+[2023-06-18 18:20:34] INFO root fetch - processPackages [csaf]: Remove: archive file [/home/abi/fetcher/tmp/csaf-2023.5.9.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - processPackages [csaf]: Remove: archive file [/home/abi/fetcher/tmp/csaf-2023.6.18.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [csaf]: success
+[2023-06-18 18:20:34] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-06-18 18:20:34] INFO root fetch - processPackages [netbox-contract]: Remove: archive file [/home/abi/fetcher/tmp/netbox-contract-2.0.3.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - processPackages [netbox-contract]: Remove: archive file [/home/abi/fetcher/tmp/netbox-contract-2.0.4.tar.gz]
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: End processing [netbox-contract]: success
+[2023-06-18 18:20:34] INFO root fetch - main [MainThread]: Store serial: [18551334]
