@@ -6283,3 +6283,63 @@
 [2023-06-18 11:19:37] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-18 11:19:37] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-18 11:19:37] INFO root fetch - main [MainThread]: Store serial: [18548948]
+[2023-06-18 11:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548948]
+[2023-06-18 11:24:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spider-st
+[2023-06-18 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-06-18 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modernButton.py
+[2023-06-18 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoconf-language-server
+[2023-06-18 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PolicyEngine-UK
+[2023-06-18 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wavebin
+[2023-06-18 11:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khoj-assistant
+[2023-06-18 11:24:48] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 11:24:48] INFO root fetch - processPackages [autoconf-language-server]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 11:24:48] INFO root fetch - processPackages [wavebin]: New version: [2.2] Old Version: [2.1]
+[2023-06-18 11:24:48] INFO root fetch - processPackages [PolicyEngine-UK]: New version: [0.51.0] Old Version: [0.50.1]
+[2023-06-18 11:24:48] WARNING root fetch - processPackages [modernButton.py]: Skipping, unable to determine old version
+[2023-06-18 11:24:48] INFO root fetch - main [MainThread]: End processing [modernButton.py] error
+[2023-06-18 11:24:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-18 11:24:48] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev64] Old Version: [0.6.3.dev53]
+[2023-06-18 11:24:48] INFO root fetch - processPackages [autoconf-language-server]: Downloading https://files.pythonhosted.org/packages/96/fd/c4b18f322e091aa2fa9c9f52241f787d7f6a2c23bfda2242cb26cee2e4f7/autoconf-language-server-0.0.4.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/cb/85/a5b8c8ff510f35acb80552e6fb49caa44df0e2d5c95372f146e121cc1b6c/PolicyEngine-UK-0.50.1.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [wavebin]: Downloading https://files.pythonhosted.org/packages/c2/77/83bdc39486156ea9dcc058644883ab0764ca23fe3dba152c0cce8313e31f/wavebin-2.1.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/2e/b7/8fac0ea0a7f88a86cafac1081e8ca72413f26ca3b74498a6534350c46822/khoj_assistant-0.6.3.dev53.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/a5/11/3a6c10fd6f39aef5f023c3d99bde7bcfcd9276071a49ed040217ee0d93fc/PolicyEngine-UK-0.51.0.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [autoconf-language-server]: Downloading https://files.pythonhosted.org/packages/6b/be/d0cae036854d31a82d5e8a0bf5845164cbb051a055899813c792f51e552b/autoconf-language-server-0.0.5.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [wavebin]: Downloading https://files.pythonhosted.org/packages/91/e2/d4b3292fe002380a3c4d6d5c7c1090bec5356d688498f9fcb7f5415079bc/wavebin-2.2.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [autoconf-language-server]: executing diffoscope
+[2023-06-18 11:24:48] INFO root fetch - processPackages [autoconf-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-language-server-0.0.4.tar.gz tmp/autoconf-language-server-0.0.5.tar.gz --markdown 20230618/a/autoconf-language-server/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 11:24:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-18 11:24:48] INFO root fetch - processPackages [PolicyEngine-UK]: executing diffoscope
+[2023-06-18 11:24:48] INFO root fetch - processPackages [PolicyEngine-UK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PolicyEngine-UK-0.50.1.tar.gz tmp/PolicyEngine-UK-0.51.0.tar.gz --markdown 20230618/P/PolicyEngine-UK/0.50.1-0.51.0/diff.md --exclude *.pyd
+[2023-06-18 11:24:48] INFO root fetch - processPackages [wavebin]: executing diffoscope
+[2023-06-18 11:24:48] INFO root fetch - processPackages [wavebin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavebin-2.1.tar.gz tmp/wavebin-2.2.tar.gz --markdown 20230618/w/wavebin/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-18 11:24:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-18 11:24:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230618/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-18 11:24:49] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/8d/bc/c222bb3375e433cdc572bff8f0de5e1ae1e2ed904c827b7ec0f1fbfbdd45/khoj_assistant-0.6.3.dev64.tar.gz
+[2023-06-18 11:24:49] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-18 11:24:49] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev53.tar.gz tmp/khoj_assistant-0.6.3.dev64.tar.gz --markdown 20230618/k/khoj-assistant/0.6.3.dev53-0.6.3.dev64/diff.md --exclude *.pyd
+[2023-06-18 11:24:50] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-18 11:24:50] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev53.tar.gz]
+[2023-06-18 11:24:50] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev64.tar.gz]
+[2023-06-18 11:24:50] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-18 11:24:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-18 11:24:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-18 11:24:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-18 11:24:50] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-18 11:24:50] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230618/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 11:24:51] INFO root fetch - processPackages [autoconf-language-server]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-language-server-0.0.4.tar.gz]
+[2023-06-18 11:24:51] INFO root fetch - processPackages [autoconf-language-server]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-language-server-0.0.5.tar.gz]
+[2023-06-18 11:24:51] INFO root fetch - main [MainThread]: End processing [autoconf-language-server]: success
+[2023-06-18 11:24:53] INFO root fetch - processPackages [wavebin]: Remove: archive file [/home/abi/fetcher/tmp/wavebin-2.1.tar.gz]
+[2023-06-18 11:24:53] INFO root fetch - processPackages [wavebin]: Remove: archive file [/home/abi/fetcher/tmp/wavebin-2.2.tar.gz]
+[2023-06-18 11:24:53] INFO root fetch - main [MainThread]: End processing [wavebin]: success
+[2023-06-18 11:24:55] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.50.1.tar.gz]
+[2023-06-18 11:24:55] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.51.0.tar.gz]
+[2023-06-18 11:24:55] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
+[2023-06-18 11:25:02] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-18 11:25:02] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-18 11:25:02] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-18 11:25:02] INFO root fetch - main [MainThread]: Store serial: [18548972]
