@@ -11505,3 +11505,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 18:04:24] INFO root fetch - processPackages [ltchiptool]: Remove: archive file [/home/abi/fetcher/tmp/ltchiptool-4.2.2.tar.gz]
 [2023-06-18 18:04:24] INFO root fetch - main [MainThread]: End processing [ltchiptool]: success
 [2023-06-18 18:04:24] INFO root fetch - main [MainThread]: Store serial: [18551232]
+[2023-06-18 18:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551232]
+[2023-06-18 18:09:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 18:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notification-service-nightly
+[2023-06-18 18:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-flow-nightly
+[2023-06-18 18:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litie
+[2023-06-18 18:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DexonlineParser
+[2023-06-18 18:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-screener
+[2023-06-18 18:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zen-dash
+[2023-06-18 18:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reytool
+[2023-06-18 18:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytmlib
+[2023-06-18 18:09:33] INFO root fetch - processPackages [litie]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-06-18 18:09:33] INFO root fetch - processPackages [DexonlineParser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 18:09:33] INFO root fetch - processPackages [auto-screener]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-18 18:09:33] INFO root fetch - processPackages [zen-dash]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-18 18:09:33] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-18 18:09:33] INFO root fetch - processPackages [pytmlib]: New version: [1.0.0rc5] Old Version: [1.0.0rc4]
+[2023-06-18 18:09:33] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/70/bc/460adef7e9c7efcafb950aed6fef878e69a2b1e9a6292382d7add9aab266/zen_dash-0.5.8.tar.gz
+[2023-06-18 18:09:33] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-18 18:09:33] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-18 18:09:33] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/32/b3/9890a6a9a47047c376b9b3d351f266b489bdbadf98aa6a75ac4e6bbdade7/pytmlib-1.0.0rc4.tar.gz
+[2023-06-18 18:09:33] INFO root fetch - processPackages [litie]: Downloading https://files.pythonhosted.org/packages/ac/d7/eaf59bc804f2048e349e5e96cfdd41d32fe05965f00f04750a940e689cd1/litie-0.0.4.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [DexonlineParser]: Downloading https://files.pythonhosted.org/packages/90/e3/8c0d2cbe58d49045099075d2ee11880cf0e983b81eefb6f2cad8a93ec1fc/dexonlineparser-0.0.3.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/6e/53/251ffbf42fa5bd973a929dfb2255d78a4247d6a7f4abc9b5b4149788555f/auto-screener-1.0.1.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/34/1d/be9be06cee41d896178e7bb38ed9dec185d52aae65bb569e8174d486e5ed/ai_flow_nightly-2023.6.8.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/60/1e/33a59a6d19349b60110279e0f4904b88c93779a866e4df1bb5fdc97ea00c/notification_service_nightly-2023.6.8.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/94/52/a464decb78a0def40a5157a94f72a2d1cdcc5fb3e8dee342a965d49d189e/pytmlib-1.0.0rc5.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-18 18:09:34] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/17/69/92cf784a65a3a664bb50c0942a8ee6152d14293e9b1bc8941b66d6a8e940/zen_dash-0.5.9.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [pytmlib]: executing diffoscope
+[2023-06-18 18:09:34] INFO root fetch - processPackages [pytmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmlib-1.0.0rc4.tar.gz tmp/pytmlib-1.0.0rc5.tar.gz --markdown 20230618/p/pytmlib/1.0.0rc4-1.0.0rc5/diff.md --exclude *.pyd
+[2023-06-18 18:09:34] INFO root fetch - processPackages [DexonlineParser]: Downloading https://files.pythonhosted.org/packages/e5/ab/05c84954ae5480fe5db607c1e5cecc9b3f17cfb01ec394ab445431892ee6/dexonlineparser-0.0.4.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [litie]: Downloading https://files.pythonhosted.org/packages/08/c0/8e8d056a6cefc132c34c0c1b5dfc9c26656e5a538e523c346b416d75a17f/litie-1.0.1.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [zen-dash]: executing diffoscope
+[2023-06-18 18:09:34] INFO root fetch - processPackages [zen-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_dash-0.5.8.tar.gz tmp/zen_dash-0.5.9.tar.gz --markdown 20230618/z/zen-dash/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-18 18:09:34] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/13/ac/3592d3b549446c4a449c4b00bc73617bd26ca0d7e19527e027cfb612f810/auto-screener-1.0.2.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/cc/73/3f73f232627f5ecbe868f04b645ad7af47bcedf955abd2f49f643b401ca5/ai_flow_nightly-2023.6.9.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [litie]: executing diffoscope
+[2023-06-18 18:09:34] INFO root fetch - processPackages [litie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litie-0.0.4.tar.gz tmp/litie-1.0.1.tar.gz --markdown 20230618/l/litie/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 18:09:34] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/f8/ce/f2cdb54fd34d5f722838df65d988beeaf815ec747efab45a21e56deaaa7c/notification_service_nightly-2023.6.9.tar.gz
+[2023-06-18 18:09:34] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-06-18 18:09:34] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-1.0.1.tar.gz tmp/auto-screener-1.0.2.tar.gz --markdown 20230618/a/auto-screener/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-18 18:09:34] INFO root fetch - processPackages [DexonlineParser]: executing diffoscope
+[2023-06-18 18:09:34] INFO root fetch - processPackages [DexonlineParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexonlineparser-0.0.3.tar.gz tmp/dexonlineparser-0.0.4.tar.gz --markdown 20230618/D/DexonlineParser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 18:09:34] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-06-18 18:09:34] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.6.8.tar.gz tmp/ai_flow_nightly-2023.6.9.tar.gz --markdown 20230618/a/ai-flow-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-18 18:09:34] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-06-18 18:09:34] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.6.8.tar.gz tmp/notification_service_nightly-2023.6.9.tar.gz --markdown 20230618/n/notification-service-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-18 18:09:34] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-18 18:09:34] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-18 18:09:34] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230618/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-18 18:09:35] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.0.0rc4.tar.gz]
+[2023-06-18 18:09:35] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.0.0rc5.tar.gz]
+[2023-06-18 18:09:35] INFO root fetch - main [MainThread]: End processing [pytmlib]: success
+[2023-06-18 18:09:35] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-1.0.1.tar.gz]
+[2023-06-18 18:09:35] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-1.0.2.tar.gz]
+[2023-06-18 18:09:35] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-06-18 18:09:35] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-18 18:09:35] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-18 18:09:35] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-18 18:09:36] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.8.tar.gz]
+[2023-06-18 18:09:36] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.9.tar.gz]
+[2023-06-18 18:09:36] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-06-18 18:09:36] INFO root fetch - processPackages [litie]: Remove: archive file [/home/abi/fetcher/tmp/litie-0.0.4.tar.gz]
+[2023-06-18 18:09:36] INFO root fetch - processPackages [litie]: Remove: archive file [/home/abi/fetcher/tmp/litie-1.0.1.tar.gz]
+[2023-06-18 18:09:36] INFO root fetch - main [MainThread]: End processing [litie]: success
+[2023-06-18 18:09:37] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.8.tar.gz]
+[2023-06-18 18:09:37] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
+[2023-06-18 18:09:37] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-06-18 18:09:37] INFO root fetch - processPackages [DexonlineParser]: Remove: archive file [/home/abi/fetcher/tmp/dexonlineparser-0.0.3.tar.gz]
+[2023-06-18 18:09:37] INFO root fetch - processPackages [DexonlineParser]: Remove: archive file [/home/abi/fetcher/tmp/dexonlineparser-0.0.4.tar.gz]
+[2023-06-18 18:09:37] INFO root fetch - main [MainThread]: End processing [DexonlineParser]: success
+[2023-06-18 18:10:01] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.5.8.tar.gz]
+[2023-06-18 18:10:01] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.5.9.tar.gz]
+[2023-06-18 18:10:01] INFO root fetch - main [MainThread]: End processing [zen-dash]: success
+[2023-06-18 18:10:01] INFO root fetch - main [MainThread]: Store serial: [18551252]
