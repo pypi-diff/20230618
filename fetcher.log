@@ -5804,3 +5804,39 @@
 [2023-06-18 10:25:38] WARNING root fetch - processPackages [imreg-dft-nw]: Skipping, unable to determine old version
 [2023-06-18 10:25:38] INFO root fetch - main [MainThread]: End processing [imreg-dft-nw] error
 [2023-06-18 10:25:38] INFO root fetch - main [MainThread]: Store serial: [18548715]
+[2023-06-18 10:30:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548715]
+[2023-06-18 10:30:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 10:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywalc
+[2023-06-18 10:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: joltedmod
+[2023-06-18 10:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vpso
+[2023-06-18 10:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jinja-try-catch
+[2023-06-18 10:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdevpy
+[2023-06-18 10:30:47] WARNING root fetch - processPackages [jinja-try-catch]: Skipping, unable to determine old version
+[2023-06-18 10:30:47] INFO root fetch - main [MainThread]: End processing [jinja-try-catch] error
+[2023-06-18 10:30:47] WARNING root fetch - processPackages [pywalc]: Skipping, unable to determine old version
+[2023-06-18 10:30:47] INFO root fetch - main [MainThread]: End processing [pywalc] error
+[2023-06-18 10:30:47] INFO root fetch - processPackages [vpso]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-18 10:30:47] INFO root fetch - processPackages [joltedmod]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-18 10:30:47] INFO root fetch - processPackages [sdevpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 10:30:47] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/ba/d0/c06cbd8389508003b509f307a5445553c1c5405006642946a9590861cb6a/sdevpy-0.0.8.tar.gz
+[2023-06-18 10:30:47] INFO root fetch - processPackages [joltedmod]: Downloading https://files.pythonhosted.org/packages/bb/c0/9c1e0f51afb356b2af371ce0518b90264fe365c9f5b6ecb6f9f35a7ae05a/joltedmod-0.1.3.tar.gz
+[2023-06-18 10:30:47] INFO root fetch - processPackages [vpso]: Downloading https://files.pythonhosted.org/packages/16/03/81f1fbcd3862ed9621711936e555a68dadba0dacfc22c1645f7bc95686cb/vpso-1.0.2.tar.gz
+[2023-06-18 10:30:47] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/aa/66/9d11ee0fbee74a339d47166f22ffe79292765fbacc5883ff9b1cc3233f99/sdevpy-0.0.9.tar.gz
+[2023-06-18 10:30:48] INFO root fetch - processPackages [sdevpy]: executing diffoscope
+[2023-06-18 10:30:48] INFO root fetch - processPackages [sdevpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdevpy-0.0.8.tar.gz tmp/sdevpy-0.0.9.tar.gz --markdown 20230618/s/sdevpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 10:30:48] INFO root fetch - processPackages [vpso]: Downloading https://files.pythonhosted.org/packages/f9/f5/baab1b34d64cd64bb786843412e9e5c80f9f8a42cb645f0a356581fdaa64/vpso-1.1.0.tar.gz
+[2023-06-18 10:30:48] INFO root fetch - processPackages [joltedmod]: Downloading https://files.pythonhosted.org/packages/74/26/48270ba4485fbb407ee2c1d09dc33a43845b958b537b4d71f99928d3ec88/joltedmod-0.2.0.tar.gz
+[2023-06-18 10:30:48] INFO root fetch - processPackages [vpso]: executing diffoscope
+[2023-06-18 10:30:48] INFO root fetch - processPackages [vpso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vpso-1.0.2.tar.gz tmp/vpso-1.1.0.tar.gz --markdown 20230618/v/vpso/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-18 10:30:48] INFO root fetch - processPackages [joltedmod]: executing diffoscope
+[2023-06-18 10:30:48] INFO root fetch - processPackages [joltedmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joltedmod-0.1.3.tar.gz tmp/joltedmod-0.2.0.tar.gz --markdown 20230618/j/joltedmod/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 10:30:49] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.8.tar.gz]
+[2023-06-18 10:30:49] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.9.tar.gz]
+[2023-06-18 10:30:49] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
+[2023-06-18 10:30:49] INFO root fetch - processPackages [joltedmod]: Remove: archive file [/home/abi/fetcher/tmp/joltedmod-0.1.3.tar.gz]
+[2023-06-18 10:30:49] INFO root fetch - processPackages [joltedmod]: Remove: archive file [/home/abi/fetcher/tmp/joltedmod-0.2.0.tar.gz]
+[2023-06-18 10:30:49] INFO root fetch - main [MainThread]: End processing [joltedmod]: success
+[2023-06-18 10:31:42] INFO root fetch - processPackages [vpso]: Remove: archive file [/home/abi/fetcher/tmp/vpso-1.0.2.tar.gz]
+[2023-06-18 10:31:42] INFO root fetch - processPackages [vpso]: Remove: archive file [/home/abi/fetcher/tmp/vpso-1.1.0.tar.gz]
+[2023-06-18 10:31:42] INFO root fetch - main [MainThread]: End processing [vpso]: success
+[2023-06-18 10:31:42] INFO root fetch - main [MainThread]: Store serial: [18548737]
