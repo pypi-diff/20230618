@@ -12765,3 +12765,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 19:31:40] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
 [2023-06-18 19:31:40] INFO root fetch - main [MainThread]: End processing [netron] error
 [2023-06-18 19:31:40] INFO root fetch - main [MainThread]: Store serial: [18551750]
+[2023-06-18 19:36:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551750]
+[2023-06-18 19:36:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-18 19:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mbutton10
+[2023-06-18 19:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shapes-recognition
+[2023-06-18 19:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forecastmanager
+[2023-06-18 19:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calibrating
+[2023-06-18 19:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-global-discount
+[2023-06-18 19:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastervit
+[2023-06-18 19:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mizue
+[2023-06-18 19:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HarmonyDecoder
+[2023-06-18 19:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sumformer2
+[2023-06-18 19:36:49] INFO root fetch - processPackages [shapes-recognition]: New version: [2.1.7] Old Version: [2.1.5]
+[2023-06-18 19:36:49] WARNING root fetch - processPackages [HarmonyDecoder]: Skipping, unable to determine old version
+[2023-06-18 19:36:49] INFO root fetch - main [MainThread]: End processing [HarmonyDecoder] error
+[2023-06-18 19:36:49] INFO root fetch - processPackages [mizue]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-18 19:36:49] WARNING root fetch - processPackages [fastervit]: Skipping, unable to determine old version
+[2023-06-18 19:36:49] INFO root fetch - main [MainThread]: End processing [fastervit] error
+[2023-06-18 19:36:49] INFO root fetch - processPackages [calibrating]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-06-18 19:36:49] INFO root fetch - processPackages [odoo-addon-base-global-discount]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-06-18 19:36:49] INFO root fetch - processPackages [sumformer2]: New version: [0.3.2] Old Version: [0.3]
+[2023-06-18 19:36:49] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/d8/cb/30b4dc380f60ec7dbb209c926ba887a5599f43b23623e0eee86472c35a16/mizue-0.2.6.tar.gz
+[2023-06-18 19:36:49] WARNING root fetch - processPackages [forecastmanager]: Skipping, unable to determine old version
+[2023-06-18 19:36:49] INFO root fetch - main [MainThread]: End processing [forecastmanager] error
+[2023-06-18 19:36:49] ERROR root fetch - processPackages [mbutton10]: Unable to get metadata: No such project 'mbutton10'
+[2023-06-18 19:36:49] INFO root fetch - main [MainThread]: End processing [mbutton10] error
+[2023-06-18 19:36:49] INFO root fetch - processPackages [sumformer2]: Downloading https://files.pythonhosted.org/packages/b3/6a/671f974ac9c34aa6eb45ad9391e06e1ba68931748a092c24d3657c68db65/sumformer2-0.3.tar.gz
+[2023-06-18 19:36:49] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/7b/d1/88b37595752876837d2948decde8c552b0b3fdc1108b69c36f3af6a0a3fc/shapes_recognition-2.1.5.tar.gz
+[2023-06-18 19:36:49] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Downloading https://files.pythonhosted.org/packages/73/d2/c9ef4a8851fc30f723f461a5af5f064750516171c8604cb1070644d5fbaf/odoo_addon_base_global_discount-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-18 19:36:49] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/28/5a/17a1a16bd2432c53c907680ee3bba9456b4ca22259718d8c179c63ddb718/mizue-0.2.7.tar.gz
+[2023-06-18 19:36:49] INFO root fetch - processPackages [calibrating]: Downloading https://files.pythonhosted.org/packages/cf/5c/7d5fd87cdefa4c24cd6b5d68c814a73c377285078bba2273c91261c1618b/calibrating-0.6.7.tar.gz
+[2023-06-18 19:36:49] INFO root fetch - processPackages [sumformer2]: Downloading https://files.pythonhosted.org/packages/ae/c2/ee96269ee7da8787c464ce7e53ba32f6d47fc28e94cc09afe76a8a52f3ef/sumformer2-0.3.2.tar.gz
+[2023-06-18 19:36:49] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/05/4a/161649df999dcef28f124ad5f7c52b644dff580e3592b4aad02fce311c4b/shapes_recognition-2.1.7.tar.gz
+[2023-06-18 19:36:49] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Downloading https://files.pythonhosted.org/packages/f2/49/366d8401928b786d598cc4724b341478af4c14efe36d897a713fdf943e96/odoo_addon_base_global_discount-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-18 19:36:49] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-18 19:36:49] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.6.tar.gz tmp/mizue-0.2.7.tar.gz --markdown 20230618/m/mizue/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-18 19:36:49] INFO root fetch - processPackages [sumformer2]: executing diffoscope
+[2023-06-18 19:36:49] INFO root fetch - processPackages [sumformer2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumformer2-0.3.tar.gz tmp/sumformer2-0.3.2.tar.gz --markdown 20230618/s/sumformer2/0.3-0.3.2/diff.md --exclude *.pyd
+[2023-06-18 19:36:50] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-18 19:36:50] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.1.5.tar.gz tmp/shapes_recognition-2.1.7.tar.gz --markdown 20230618/s/shapes-recognition/2.1.5-2.1.7/diff.md --exclude *.pyd
+[2023-06-18 19:36:50] INFO root fetch - processPackages [odoo-addon-base-global-discount]: executing diffoscope
+[2023-06-18 19:36:50] INFO root fetch - processPackages [odoo-addon-base-global-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_global_discount-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_global_discount-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230618/o/odoo-addon-base-global-discount/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-18 19:36:50] INFO root fetch - processPackages [calibrating]: Downloading https://files.pythonhosted.org/packages/8d/be/ca37155fe5211425b39d3183b2665a3060184b5a56be331c5ddcdf1bc64a/calibrating-0.6.8.tar.gz
+[2023-06-18 19:36:50] INFO root fetch - processPackages [calibrating]: executing diffoscope
+[2023-06-18 19:36:50] INFO root fetch - processPackages [calibrating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calibrating-0.6.7.tar.gz tmp/calibrating-0.6.8.tar.gz --markdown 20230618/c/calibrating/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-06-18 19:36:50] INFO root fetch - processPackages [sumformer2]: Remove: archive file [/home/abi/fetcher/tmp/sumformer2-0.3.tar.gz]
+[2023-06-18 19:36:50] INFO root fetch - processPackages [sumformer2]: Remove: archive file [/home/abi/fetcher/tmp/sumformer2-0.3.2.tar.gz]
+[2023-06-18 19:36:50] INFO root fetch - main [MainThread]: End processing [sumformer2]: success
+[2023-06-18 19:36:50] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.6.tar.gz]
+[2023-06-18 19:36:50] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.7.tar.gz]
+[2023-06-18 19:36:51] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-18 19:36:51] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.5.tar.gz]
+[2023-06-18 19:36:51] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.7.tar.gz]
+[2023-06-18 19:36:51] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-18 19:36:51] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_global_discount-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-18 19:36:51] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_global_discount-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-18 19:36:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-global-discount]: success
+[2023-06-18 19:36:51] INFO root fetch - processPackages [calibrating]: Remove: archive file [/home/abi/fetcher/tmp/calibrating-0.6.7.tar.gz]
+[2023-06-18 19:36:51] INFO root fetch - processPackages [calibrating]: Remove: archive file [/home/abi/fetcher/tmp/calibrating-0.6.8.tar.gz]
+[2023-06-18 19:36:51] INFO root fetch - main [MainThread]: End processing [calibrating]: success
+[2023-06-18 19:36:51] INFO root fetch - main [MainThread]: Store serial: [18551783]
