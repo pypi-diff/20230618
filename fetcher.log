@@ -6989,3 +6989,24 @@
 [2023-06-18 12:29:19] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.2.tar.gz]
 [2023-06-18 12:29:19] INFO root fetch - main [MainThread]: End processing [autopyre]: success
 [2023-06-18 12:29:19] INFO root fetch - main [MainThread]: Store serial: [18549267]
+[2023-06-18 12:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549267]
+[2023-06-18 12:34:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 12:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: browserist
+[2023-06-18 12:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gex-cli
+[2023-06-18 12:34:29] INFO root fetch - processPackages [browserist]: New version: [1.5.0] Old Version: [1.4.6]
+[2023-06-18 12:34:29] INFO root fetch - processPackages [gex-cli]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 12:34:29] INFO root fetch - processPackages [gex-cli]: Downloading https://files.pythonhosted.org/packages/13/49/3eb101813ffff56ae3fee454bdc0c8b5ad0874354fe52ba4075ff2fdaff2/gex_cli-1.0.2.tar.gz
+[2023-06-18 12:34:29] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/4d/62/bdb960c4562890e15840c466a4492704f1ec5cdda78a2f4c75c6a80c905f/browserist-1.4.6.tar.gz
+[2023-06-18 12:34:29] INFO root fetch - processPackages [gex-cli]: Downloading https://files.pythonhosted.org/packages/3a/e3/d59459daaa186521bd6bbbb21f10ed4459809ddab5f4dfd40edd7ab967eb/gex_cli-1.0.3.tar.gz
+[2023-06-18 12:34:30] INFO root fetch - processPackages [gex-cli]: executing diffoscope
+[2023-06-18 12:34:30] INFO root fetch - processPackages [gex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gex_cli-1.0.2.tar.gz tmp/gex_cli-1.0.3.tar.gz --markdown 20230618/g/gex-cli/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 12:34:30] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/25/a5/8c3cce48b0c8f21c0232e096996b8d93c37124c8b36df7cde8034fcdfc24/browserist-1.5.0.tar.gz
+[2023-06-18 12:34:30] INFO root fetch - processPackages [browserist]: executing diffoscope
+[2023-06-18 12:34:30] INFO root fetch - processPackages [browserist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserist-1.4.6.tar.gz tmp/browserist-1.5.0.tar.gz --markdown 20230618/b/browserist/1.4.6-1.5.0/diff.md --exclude *.pyd
+[2023-06-18 12:34:31] INFO root fetch - processPackages [gex-cli]: Remove: archive file [/home/abi/fetcher/tmp/gex_cli-1.0.2.tar.gz]
+[2023-06-18 12:34:31] INFO root fetch - processPackages [gex-cli]: Remove: archive file [/home/abi/fetcher/tmp/gex_cli-1.0.3.tar.gz]
+[2023-06-18 12:34:31] INFO root fetch - main [MainThread]: End processing [gex-cli]: success
+[2023-06-18 12:34:32] INFO root fetch - processPackages [browserist]: Remove: archive file [/home/abi/fetcher/tmp/browserist-1.4.6.tar.gz]
+[2023-06-18 12:34:32] INFO root fetch - processPackages [browserist]: Remove: archive file [/home/abi/fetcher/tmp/browserist-1.5.0.tar.gz]
+[2023-06-18 12:34:32] INFO root fetch - main [MainThread]: End processing [browserist]: success
+[2023-06-18 12:34:32] INFO root fetch - main [MainThread]: Store serial: [18549275]
