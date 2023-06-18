@@ -5060,3 +5060,59 @@
 [2023-06-18 08:18:56] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230618-py3-none-any.whl.zip]
 [2023-06-18 08:18:56] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-18 08:18:56] INFO root fetch - main [MainThread]: Store serial: [18548391]
+[2023-06-18 08:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548391]
+[2023-06-18 08:24:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 08:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2023-06-18 08:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adam-core
+[2023-06-18 08:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: democracy
+[2023-06-18 08:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: koios-api
+[2023-06-18 08:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbipy
+[2023-06-18 08:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sciform
+[2023-06-18 08:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fake-bpy-module-latest
+[2023-06-18 08:24:05] WARNING root fetch - processPackages [adam-core]: Skipping, unable to determine old version
+[2023-06-18 08:24:05] INFO root fetch - main [MainThread]: End processing [adam-core] error
+[2023-06-18 08:24:05] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230617] Old Version: [20230616]
+[2023-06-18 08:24:05] INFO root fetch - processPackages [democracy]: New version: [1.0.33] Old Version: [1.0.32]
+[2023-06-18 08:24:05] INFO root fetch - processPackages [pbipy]: New version: [2.0.3a0] Old Version: [2.0.3]
+[2023-06-18 08:24:05] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230618] Old Version: [1.6.1.dev20230617]
+[2023-06-18 08:24:05] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-18 08:24:05] INFO root fetch - processPackages [koios-api]: New version: [1.0.10.4] Old Version: [1.0.10.3]
+[2023-06-18 08:24:05] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-18 08:24:05] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/7c/dc/8984449f8bd19bfe96295b0eb5b827d6fc4d5139851f321cb4833f6520a0/fake-bpy-module-latest-20230616.tar.gz
+[2023-06-18 08:24:05] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/71/54/869bff667908d6786cb7bd610f1ea0023143fd3811e33cfc18e7bb90ea0d/pbipy-2.0.3.tar.gz
+[2023-06-18 08:24:05] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/72/e1/d8323c8bc44f29a45a035a8da7e47f8562aadd9665789bc6b09a890babb1/pretext-1.6.1.dev20230617.tar.gz
+[2023-06-18 08:24:05] INFO root fetch - processPackages [democracy]: Downloading https://files.pythonhosted.org/packages/0b/6a/5ad866cc5782f31499487b3e39826bbedf76459bd8a307d55e240800e1dc/democracy-1.0.32.tar.gz
+[2023-06-18 08:24:05] INFO root fetch - processPackages [koios-api]: Downloading https://files.pythonhosted.org/packages/cc/34/1623d187485e6ed36a514bf35ee9ee30f91f6a85b2cdaf1b81455e200902/koios-api-1.0.10.3.tar.gz
+[2023-06-18 08:24:05] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-18 08:24:05] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/03/12/1fe17dd0126d494cebe87139acd79912455341597f2817bb94890980cfff/fake-bpy-module-latest-20230617.tar.gz
+[2023-06-18 08:24:05] WARNING root fetch - processPackages [democracy]: Skipping package: exceeds size limit 75944087>=10485760
+[2023-06-18 08:24:05] INFO root fetch - main [MainThread]: End processing [democracy] error
+[2023-06-18 08:24:06] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-18 08:24:06] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230618/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-18 08:24:06] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/36/7d/221615a6418e37e592e6cce733da3e818be457de4579a72c649406080f4a/pbipy-2.0.3a0.tar.gz
+[2023-06-18 08:24:06] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-18 08:24:06] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230616.tar.gz tmp/fake-bpy-module-latest-20230617.tar.gz --markdown 20230618/f/fake-bpy-module-latest/20230616-20230617/diff.md --exclude *.pyd
+[2023-06-18 08:24:06] INFO root fetch - processPackages [pbipy]: executing diffoscope
+[2023-06-18 08:24:06] INFO root fetch - processPackages [pbipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbipy-2.0.3.tar.gz tmp/pbipy-2.0.3a0.tar.gz --markdown 20230618/p/pbipy/2.0.3-2.0.3a0/diff.md --exclude *.pyd
+[2023-06-18 08:24:06] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/6d/5b/cec45461cc58d3a9341a10e2a2619438e170710877a4d015ebca096e2721/pretext-1.6.1.dev20230618.tar.gz
+[2023-06-18 08:24:06] INFO root fetch - processPackages [koios-api]: Downloading https://files.pythonhosted.org/packages/7a/1b/14c4b06f001b639bb1dec085b3028a752064d1acb40b5d3ba7aafb5cdc41/koios-api-1.0.10.4.tar.gz
+[2023-06-18 08:24:06] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-18 08:24:06] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230617.tar.gz tmp/pretext-1.6.1.dev20230618.tar.gz --markdown 20230618/p/pretext/1.6.1.dev20230617-1.6.1.dev20230618/diff.md --exclude *.pyd
+[2023-06-18 08:24:06] INFO root fetch - processPackages [koios-api]: executing diffoscope
+[2023-06-18 08:24:06] INFO root fetch - processPackages [koios-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koios-api-1.0.10.3.tar.gz tmp/koios-api-1.0.10.4.tar.gz --markdown 20230618/k/koios-api/1.0.10.3-1.0.10.4/diff.md --exclude *.pyd
+[2023-06-18 08:24:07] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.0.3.tar.gz]
+[2023-06-18 08:24:07] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.0.3a0.tar.gz]
+[2023-06-18 08:24:07] INFO root fetch - main [MainThread]: End processing [pbipy]: success
+[2023-06-18 08:24:07] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-18 08:24:07] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-18 08:24:07] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-18 08:24:10] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230617.tar.gz]
+[2023-06-18 08:24:10] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230618.tar.gz]
+[2023-06-18 08:24:10] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-18 08:24:12] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230616.tar.gz]
+[2023-06-18 08:24:12] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230617.tar.gz]
+[2023-06-18 08:24:12] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-18 08:24:59] INFO root fetch - processPackages [koios-api]: Remove: archive file [/home/abi/fetcher/tmp/koios-api-1.0.10.3.tar.gz]
+[2023-06-18 08:24:59] INFO root fetch - processPackages [koios-api]: Remove: archive file [/home/abi/fetcher/tmp/koios-api-1.0.10.4.tar.gz]
+[2023-06-18 08:24:59] INFO root fetch - main [MainThread]: End processing [koios-api]: success
+[2023-06-18 08:24:59] INFO root fetch - main [MainThread]: Store serial: [18548415]
