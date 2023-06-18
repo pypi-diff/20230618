@@ -6695,3 +6695,78 @@
 [2023-06-18 11:57:16] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.0.tar.gz]
 [2023-06-18 11:57:16] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
 [2023-06-18 11:57:16] INFO root fetch - main [MainThread]: Store serial: [18549150]
+[2023-06-18 12:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549150]
+[2023-06-18 12:02:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 12:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cancli
+[2023-06-18 12:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: http3-client
+[2023-06-18 12:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: issue-db-api
+[2023-06-18 12:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openlane
+[2023-06-18 12:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitopenlib
+[2023-06-18 12:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pystructurizr
+[2023-06-18 12:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongomock-motor
+[2023-06-18 12:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bugbug
+[2023-06-18 12:02:25] INFO root fetch - processPackages [cancli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 12:02:25] INFO root fetch - processPackages [pystructurizr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 12:02:25] INFO root fetch - processPackages [issue-db-api]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-18 12:02:25] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-18 12:02:25] INFO root fetch - processPackages [http3-client]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-18 12:02:25] INFO root fetch - processPackages [mongomock-motor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 12:02:25] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-06-18 12:02:25] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/40/87/2686392df688dd05ac1a75d633b1629edb1bd757c9c4e1545ac4b5bc5bdf/issue_db_api-0.9.3.tar.gz
+[2023-06-18 12:02:25] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/f6/5e/132d2126c7bf34d4aee1e81820bbf04fa1ff9af11794cc1340524407a9d6/http3_client-1.0.5.tar.gz
+[2023-06-18 12:02:25] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-06-18 12:02:25] INFO root fetch - processPackages [cancli]: Downloading https://files.pythonhosted.org/packages/61/81/22ad157a9cc1e06ec9a1549616ac569aca73f30d17c5dd64f6b564e19423/cancli-1.0.0.tar.gz
+[2023-06-18 12:02:25] INFO root fetch - processPackages [pystructurizr]: Downloading https://files.pythonhosted.org/packages/ad/54/787c5ae438c3e5516648fab2b03e6f9706fa11be780fdac0c3010ecc206e/pystructurizr-0.1.0.tar.gz
+[2023-06-18 12:02:25] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-06-18 12:02:25] INFO root fetch - processPackages [mongomock-motor]: Downloading https://files.pythonhosted.org/packages/f1/c2/2229a441be05bf7504619796f5e75c2ca6edfae90af06c946a72d8c72d70/mongomock_motor-0.0.8.tar.gz
+[2023-06-18 12:02:26] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/e0/5e/2c11955006aa6b346f3fab297209e0a8701f31a3c82bc83b9f273040aa57/http3_client-1.0.7.tar.gz
+[2023-06-18 12:02:26] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/ca/b4/e0ea551def974e01cb586e47ccbfa22da8d9370d8bde45d0460b5b6ef129/issue_db_api-0.9.4.tar.gz
+[2023-06-18 12:02:26] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 12:02:26] INFO root fetch - processPackages [http3-client]: executing diffoscope
+[2023-06-18 12:02:26] INFO root fetch - processPackages [http3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http3_client-1.0.5.tar.gz tmp/http3_client-1.0.7.tar.gz --markdown 20230618/h/http3-client/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 12:02:26] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-06-18 12:02:26] INFO root fetch - processPackages [cancli]: Downloading https://files.pythonhosted.org/packages/18/6f/2762185ff058fd5f273c3fe256fbf25abfe8dea30c5af618ac8c23cb2d53/cancli-1.0.1.tar.gz
+[2023-06-18 12:02:26] INFO root fetch - processPackages [pystructurizr]: Downloading https://files.pythonhosted.org/packages/2a/41/76c0c2a04676016085e8587969db888e105cd3367d7912ba121cab0d6af0/pystructurizr-0.1.1.tar.gz
+[2023-06-18 12:02:26] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-06-18 12:02:26] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.9.3.tar.gz tmp/issue_db_api-0.9.4.tar.gz --markdown 20230618/i/issue-db-api/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-18 12:02:26] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-06-18 12:02:26] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230618/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-06-18 12:02:26] INFO root fetch - processPackages [pystructurizr]: executing diffoscope
+[2023-06-18 12:02:26] INFO root fetch - processPackages [pystructurizr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystructurizr-0.1.0.tar.gz tmp/pystructurizr-0.1.1.tar.gz --markdown 20230618/p/pystructurizr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 12:02:26] INFO root fetch - processPackages [mongomock-motor]: Downloading https://files.pythonhosted.org/packages/f1/7f/6e0a504df18fa6cf757242a9c6d70b10e0fa916a02990d65a7fba92cf922/mongomock_motor-0.0.9.tar.gz
+[2023-06-18 12:02:26] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-06-18 12:02:26] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/5b/6a/fc99f3a6e09827c698ee6eab2d88fea1cf94e1c6d0f0d04236a834ba423b/bugbug-0.0.98.tar.gz
+[2023-06-18 12:02:26] INFO root fetch - processPackages [cancli]: executing diffoscope
+[2023-06-18 12:02:26] INFO root fetch - processPackages [cancli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cancli-1.0.0.tar.gz tmp/cancli-1.0.1.tar.gz --markdown 20230618/c/cancli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 12:02:26] INFO root fetch - processPackages [mongomock-motor]: executing diffoscope
+[2023-06-18 12:02:26] INFO root fetch - processPackages [mongomock-motor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomock_motor-0.0.8.tar.gz tmp/mongomock_motor-0.0.9.tar.gz --markdown 20230618/m/mongomock-motor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 12:02:26] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-06-18 12:02:26] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230618/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-18 12:02:26] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/1b/68/2d9f5d88a3b137b0acc5c563e30de6711280c6bea1292fb42f4652b41c4b/bugbug-0.0.99.tar.gz
+[2023-06-18 12:02:27] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2023-06-18 12:02:27] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20230618/b/bugbug/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 12:02:27] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.5.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.7.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - main [MainThread]: End processing [http3-client]: success
+[2023-06-18 12:02:27] INFO root fetch - processPackages [issue-db-api]: Remove: archive file [/home/abi/fetcher/tmp/issue_db_api-0.9.3.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - processPackages [issue-db-api]: Remove: archive file [/home/abi/fetcher/tmp/issue_db_api-0.9.4.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-06-18 12:02:27] INFO root fetch - processPackages [pystructurizr]: Remove: archive file [/home/abi/fetcher/tmp/pystructurizr-0.1.0.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - processPackages [pystructurizr]: Remove: archive file [/home/abi/fetcher/tmp/pystructurizr-0.1.1.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - main [MainThread]: End processing [pystructurizr]: success
+[2023-06-18 12:02:27] INFO root fetch - processPackages [cancli]: Remove: archive file [/home/abi/fetcher/tmp/cancli-1.0.0.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - processPackages [cancli]: Remove: archive file [/home/abi/fetcher/tmp/cancli-1.0.1.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - main [MainThread]: End processing [cancli]: success
+[2023-06-18 12:02:27] INFO root fetch - processPackages [mongomock-motor]: Remove: archive file [/home/abi/fetcher/tmp/mongomock_motor-0.0.8.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - processPackages [mongomock-motor]: Remove: archive file [/home/abi/fetcher/tmp/mongomock_motor-0.0.9.tar.gz]
+[2023-06-18 12:02:27] INFO root fetch - main [MainThread]: End processing [mongomock-motor]: success
+[2023-06-18 12:02:28] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-06-18 12:02:28] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-06-18 12:02:28] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-06-18 12:02:28] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-06-18 12:02:28] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-06-18 12:02:28] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-06-18 12:02:29] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.98.tar.gz]
+[2023-06-18 12:02:29] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
+[2023-06-18 12:02:29] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2023-06-18 12:02:29] INFO root fetch - main [MainThread]: Store serial: [18549180]
