@@ -10028,3 +10028,65 @@ EOFError: EOF read where object expected
 [2023-06-18 16:14:52] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.7.tar.gz]
 [2023-06-18 16:14:52] INFO root fetch - main [MainThread]: End processing [honkairail]: success
 [2023-06-18 16:14:52] INFO root fetch - main [MainThread]: Store serial: [18550652]
+[2023-06-18 16:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550652]
+[2023-06-18 16:20:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 16:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datazimmer
+[2023-06-18 16:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mizue
+[2023-06-18 16:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: readthis
+[2023-06-18 16:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conlay
+[2023-06-18 16:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: celery
+[2023-06-18 16:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lollms
+[2023-06-18 16:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: get-pypi-latest-version
+[2023-06-18 16:20:02] INFO root fetch - processPackages [readthis]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 16:20:02] INFO root fetch - processPackages [lollms]: New version: [1.1.98] Old Version: [1.1.97]
+[2023-06-18 16:20:02] INFO root fetch - processPackages [mizue]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-18 16:20:02] INFO root fetch - processPackages [conlay]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-06-18 16:20:02] INFO root fetch - processPackages [datazimmer]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-18 16:20:02] INFO root fetch - processPackages [celery]: New version: [5.3.1] Old Version: [5.3.0rc2]
+[2023-06-18 16:20:02] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/8e/17/55ae0bc1cc2f0664ae3e14aa2b9e68b6726121859c5369a33d5fe41a1c89/mizue-0.2.1.tar.gz
+[2023-06-18 16:20:02] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/f3/5a/12b545d129790c3cc6227bc738776cc9d26d58bfa384aa4c05c54d924359/readthis-0.0.4.tar.gz
+[2023-06-18 16:20:02] INFO root fetch - processPackages [get-pypi-latest-version]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 16:20:02] INFO root fetch - processPackages [datazimmer]: Downloading https://files.pythonhosted.org/packages/47/c7/223cfd374d5bf3aca47c207fab1d8cbe05e694e33ea7085156cae56fc51c/datazimmer-0.5.0.tar.gz
+[2023-06-18 16:20:02] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/32/8e/b4a8b43005d754ce27bbc40cb9bf412bc97fe48b709965b9fa52e9941e60/lollms-1.1.97.tar.gz
+[2023-06-18 16:20:02] INFO root fetch - processPackages [conlay]: Downloading https://files.pythonhosted.org/packages/49/d4/d8989aa35950eedbbede4c850854e3b54a160a9db1fdc01e6e7d7f872b0e/conlay-1.0.5.tar.gz
+[2023-06-18 16:20:02] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/22/1f/82510c8f7cf899be38ac2726f163ff852cd09d17cae067ed65f5fab36f34/celery-5.3.0rc2.tar.gz
+[2023-06-18 16:20:02] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 28895097>=10485760
+[2023-06-18 16:20:02] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-18 16:20:03] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/e7/3f/32e78573186951e0b7c10338c7fc51e148c6cf4397cb2eac45501e36505c/mizue-0.2.3.tar.gz
+[2023-06-18 16:20:03] INFO root fetch - processPackages [get-pypi-latest-version]: Downloading https://files.pythonhosted.org/packages/58/19/907034e184f73c36640f1a636237dbc1890fe9d69ae5dc71c984f8c5e511/get_pypi_latest_version-0.0.8-py3-none-any.whl
+[2023-06-18 16:20:03] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/9b/59/c88be8011b0b3f7c0c5dd27bca5bb744ba549b4e869ee995aba7938d8422/readthis-0.0.5.tar.gz
+[2023-06-18 16:20:03] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-18 16:20:03] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.1.tar.gz tmp/mizue-0.2.3.tar.gz --markdown 20230618/m/mizue/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 16:20:03] INFO root fetch - processPackages [datazimmer]: Downloading https://files.pythonhosted.org/packages/b3/ac/7afa468e2d6da293f46c0e8265f22a47918e20e9fbc9ada47809c836357e/datazimmer-0.5.1.tar.gz
+[2023-06-18 16:20:03] INFO root fetch - processPackages [readthis]: executing diffoscope
+[2023-06-18 16:20:03] INFO root fetch - processPackages [readthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readthis-0.0.4.tar.gz tmp/readthis-0.0.5.tar.gz --markdown 20230618/r/readthis/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 16:20:03] INFO root fetch - processPackages [conlay]: Downloading https://files.pythonhosted.org/packages/c4/03/3f9092dfedb20dbd506ddba6cf8ce668225fa3d325a0711b4d1b4143442d/conlay-1.1.0.tar.gz
+[2023-06-18 16:20:03] INFO root fetch - processPackages [datazimmer]: executing diffoscope
+[2023-06-18 16:20:03] INFO root fetch - processPackages [datazimmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datazimmer-0.5.0.tar.gz tmp/datazimmer-0.5.1.tar.gz --markdown 20230618/d/datazimmer/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-18 16:20:03] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/a4/e2/102f8d3453a9f1c6918245a97b9b8e7352a2925d4c5477a7401de2bb54dc/celery-5.3.1.tar.gz
+[2023-06-18 16:20:03] INFO root fetch - processPackages [conlay]: executing diffoscope
+[2023-06-18 16:20:03] INFO root fetch - processPackages [conlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conlay-1.0.5.tar.gz tmp/conlay-1.1.0.tar.gz --markdown 20230618/c/conlay/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-06-18 16:20:03] INFO root fetch - processPackages [get-pypi-latest-version]: Downloading https://files.pythonhosted.org/packages/eb/d3/45a12ffd6195191cb045c4ccb0ab3f8c1473ef7962c3cb59d7c77e9bca83/get_pypi_latest_version-0.0.9-py3-none-any.whl
+[2023-06-18 16:20:03] INFO root fetch - processPackages [get-pypi-latest-version]: executing diffoscope
+[2023-06-18 16:20:03] INFO root fetch - processPackages [get-pypi-latest-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_pypi_latest_version-0.0.8-py3-none-any.whl.zip tmp/get_pypi_latest_version-0.0.9-py3-none-any.whl.zip --markdown 20230618/g/get-pypi-latest-version/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 16:20:03] INFO root fetch - processPackages [celery]: executing diffoscope
+[2023-06-18 16:20:03] INFO root fetch - processPackages [celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-5.3.0rc2.tar.gz tmp/celery-5.3.1.tar.gz --markdown 20230618/c/celery/5.3.0rc2-5.3.1/diff.md --exclude *.pyd
+[2023-06-18 16:20:04] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.4.tar.gz]
+[2023-06-18 16:20:04] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.5.tar.gz]
+[2023-06-18 16:20:04] INFO root fetch - main [MainThread]: End processing [readthis]: success
+[2023-06-18 16:20:04] INFO root fetch - processPackages [conlay]: Remove: archive file [/home/abi/fetcher/tmp/conlay-1.0.5.tar.gz]
+[2023-06-18 16:20:04] INFO root fetch - processPackages [conlay]: Remove: archive file [/home/abi/fetcher/tmp/conlay-1.1.0.tar.gz]
+[2023-06-18 16:20:04] INFO root fetch - main [MainThread]: End processing [conlay]: success
+[2023-06-18 16:20:04] INFO root fetch - processPackages [get-pypi-latest-version]: Remove: archive file [/home/abi/fetcher/tmp/get_pypi_latest_version-0.0.8-py3-none-any.whl.zip]
+[2023-06-18 16:20:04] INFO root fetch - processPackages [get-pypi-latest-version]: Remove: archive file [/home/abi/fetcher/tmp/get_pypi_latest_version-0.0.9-py3-none-any.whl.zip]
+[2023-06-18 16:20:04] INFO root fetch - main [MainThread]: End processing [get-pypi-latest-version]: success
+[2023-06-18 16:20:04] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.1.tar.gz]
+[2023-06-18 16:20:04] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.3.tar.gz]
+[2023-06-18 16:20:04] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-18 16:20:05] INFO root fetch - processPackages [datazimmer]: Remove: archive file [/home/abi/fetcher/tmp/datazimmer-0.5.0.tar.gz]
+[2023-06-18 16:20:05] INFO root fetch - processPackages [datazimmer]: Remove: archive file [/home/abi/fetcher/tmp/datazimmer-0.5.1.tar.gz]
+[2023-06-18 16:20:05] INFO root fetch - main [MainThread]: End processing [datazimmer]: success
+[2023-06-18 16:20:09] INFO root fetch - processPackages [celery]: Remove: archive file [/home/abi/fetcher/tmp/celery-5.3.0rc2.tar.gz]
+[2023-06-18 16:20:09] INFO root fetch - processPackages [celery]: Remove: archive file [/home/abi/fetcher/tmp/celery-5.3.1.tar.gz]
+[2023-06-18 16:20:09] INFO root fetch - main [MainThread]: End processing [celery]: success
+[2023-06-18 16:20:09] INFO root fetch - main [MainThread]: Store serial: [18550673]
