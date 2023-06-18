@@ -12539,3 +12539,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 19:13:06] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq-tool-0.0.7.tar.gz]
 [2023-06-18 19:13:06] INFO root fetch - main [MainThread]: End processing [mcqq-tool]: success
 [2023-06-18 19:13:06] INFO root fetch - main [MainThread]: Store serial: [18551662]
+[2023-06-18 19:18:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551662]
+[2023-06-18 19:18:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-l10n-br-nfe
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jinja-try-catch
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Texo
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ringgpt
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyezviz
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nidalee
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: requirements-language-server
+[2023-06-18 19:18:15] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: New version: [12.0.9.0.1] Old Version: [12.0.9.0.0]
+[2023-06-18 19:18:15] WARNING root fetch - processPackages [Texo]: Skipping, unable to determine old version
+[2023-06-18 19:18:15] INFO root fetch - main [MainThread]: End processing [Texo] error
+[2023-06-18 19:18:15] INFO root fetch - processPackages [jinja-try-catch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 19:18:15] INFO root fetch - processPackages [pyezviz]: New version: [0.2.1.2] Old Version: [0.2.1.1]
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 19:18:15] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/01/b8/c4b35c7fa32af1ec37791303cd9e117df713b18902cb5324f1b8c326d795/pyezviz-0.2.1.1.tar.gz
+[2023-06-18 19:18:15] INFO root fetch - processPackages [nidalee]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 19:18:15] WARNING root fetch - processPackages [requirements-language-server]: Skipping, unable to determine old version
+[2023-06-18 19:18:15] INFO root fetch - main [MainThread]: End processing [requirements-language-server] error
+[2023-06-18 19:18:15] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/a7/7f/5a52abbdb465f5d32e16ecb1f87742e7ba5f178356950bdf6edd416434c5/odoo12_addon_l10n_br_nfe-12.0.9.0.0-py3-none-any.whl
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 19:18:15] INFO root fetch - processPackages [jinja-try-catch]: Downloading https://files.pythonhosted.org/packages/32/05/fe14dfa5382c8b2b7c4b363838d62f52d8b4a4b1c3aa67b1e96fdc69659f/jinja_try_catch-0.1.0.tar.gz
+[2023-06-18 19:18:15] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/10/7a/59bae3ebb58ef342466a6f44f31ea5ed574cfcd1206172174c0eae90c40f/nidalee-0.1.8-py3-none-any.whl
+[2023-06-18 19:18:15] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/fb/fa/9b33e3df31e393ee65a5d446ddfb75e4848a20cc3a165c2b6bafd3692d67/pyezviz-0.2.1.2.tar.gz
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 19:18:15] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 19:18:15] INFO root fetch - processPackages [jinja-try-catch]: Downloading https://files.pythonhosted.org/packages/ad/28/ccb1e367663b157c90d85a4a2544890a8fd998f160d5bb1cfb6b0a921d93/jinja_try_catch-0.1.1.tar.gz
+[2023-06-18 19:18:16] INFO root fetch - processPackages [pyezviz]: executing diffoscope
+[2023-06-18 19:18:16] INFO root fetch - processPackages [pyezviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezviz-0.2.1.1.tar.gz tmp/pyezviz-0.2.1.2.tar.gz --markdown 20230618/p/pyezviz/0.2.1.1-0.2.1.2/diff.md --exclude *.pyd
+[2023-06-18 19:18:16] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/fb/d7/68bde8a4d51da9e8c5c2a8e3eff3d60b63c57aad008ebf231fbdb20fb3f7/odoo12_addon_l10n_br_nfe-12.0.9.0.1-py3-none-any.whl
+[2023-06-18 19:18:16] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/7b/aa/5d7542fb6437eddba82a60b311003a8763fdde7cc5d9bce83abd335996cd/nidalee-0.1.9-py3-none-any.whl
+[2023-06-18 19:18:16] INFO root fetch - processPackages [jinja-try-catch]: executing diffoscope
+[2023-06-18 19:18:16] INFO root fetch - processPackages [jinja-try-catch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja_try_catch-0.1.0.tar.gz tmp/jinja_try_catch-0.1.1.tar.gz --markdown 20230618/j/jinja-try-catch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 19:18:16] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: executing diffoscope
+[2023-06-18 19:18:16] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.0-py3-none-any.whl.zip tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.1-py3-none-any.whl.zip --markdown 20230618/o/odoo12-addon-l10n-br-nfe/12.0.9.0.0-12.0.9.0.1/diff.md --exclude *.pyd
+[2023-06-18 19:18:16] INFO root fetch - processPackages [nidalee]: executing diffoscope
+[2023-06-18 19:18:16] INFO root fetch - processPackages [nidalee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidalee-0.1.8-py3-none-any.whl.zip tmp/nidalee-0.1.9-py3-none-any.whl.zip --markdown 20230618/n/nidalee/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 19:18:16] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.8.tar.gz]
+[2023-06-18 19:18:16] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.9.tar.gz]
+[2023-06-18 19:18:16] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 19:18:17] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.1.tar.gz]
+[2023-06-18 19:18:17] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.2.tar.gz]
+[2023-06-18 19:18:17] INFO root fetch - main [MainThread]: End processing [pyezviz]: success
+[2023-06-18 19:18:17] INFO root fetch - processPackages [jinja-try-catch]: Remove: archive file [/home/abi/fetcher/tmp/jinja_try_catch-0.1.0.tar.gz]
+[2023-06-18 19:18:17] INFO root fetch - processPackages [jinja-try-catch]: Remove: archive file [/home/abi/fetcher/tmp/jinja_try_catch-0.1.1.tar.gz]
+[2023-06-18 19:18:17] INFO root fetch - main [MainThread]: End processing [jinja-try-catch]: success
+[2023-06-18 19:18:17] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.8-py3-none-any.whl.zip]
+[2023-06-18 19:18:17] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.9-py3-none-any.whl.zip]
+[2023-06-18 19:18:17] INFO root fetch - main [MainThread]: End processing [nidalee]: success
+[2023-06-18 19:18:17] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.0-py3-none-any.whl.zip]
+[2023-06-18 19:18:17] INFO root fetch - processPackages [odoo12-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_nfe-12.0.9.0.1-py3-none-any.whl.zip]
+[2023-06-18 19:18:17] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-nfe]: success
+[2023-06-18 19:18:17] INFO root fetch - main [MainThread]: Store serial: [18551684]
