@@ -15658,3 +15658,34 @@ EOFError: EOF read where object expected
 [2023-06-18 23:12:01] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.6.0.dev0.tar.gz]
 [2023-06-18 23:12:01] INFO root fetch - main [MainThread]: End processing [es7s]: success
 [2023-06-18 23:12:01] INFO root fetch - main [MainThread]: Store serial: [18552973]
+[2023-06-18 23:17:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552973]
+[2023-06-18 23:17:10] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-18 23:22:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552973]
+[2023-06-18 23:22:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 23:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piechartocr
+[2023-06-18 23:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaraco.path
+[2023-06-18 23:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmqg
+[2023-06-18 23:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: symbex
+[2023-06-18 23:22:16] INFO root fetch - processPackages [piechartocr]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-18 23:22:16] INFO root fetch - processPackages [lmqg]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 23:22:16] INFO root fetch - processPackages [jaraco.path]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-06-18 23:22:16] WARNING root fetch - processPackages [symbex]: Skipping, unable to determine old version
+[2023-06-18 23:22:16] INFO root fetch - main [MainThread]: End processing [symbex] error
+[2023-06-18 23:22:16] INFO root fetch - processPackages [lmqg]: Downloading https://files.pythonhosted.org/packages/96/b2/afa150d3ba8e4d3c63ae8f8ecb6c06e06e84f74da97b1593f5de4fc9d9f9/lmqg-0.1.0.tar.gz
+[2023-06-18 23:22:16] INFO root fetch - processPackages [piechartocr]: Downloading https://files.pythonhosted.org/packages/39/be/3ada47d5151c3501474096eb8d0bc46cfc8ac8ba940046536eb92b32d4b3/piechartocr-0.6.5.tar.gz
+[2023-06-18 23:22:16] INFO root fetch - processPackages [jaraco.path]: Downloading https://files.pythonhosted.org/packages/b8/22/9b39c369d05886372a98c7d25868e4a47312f729db525a0d79a33d113bfd/jaraco.path-3.5.0.tar.gz
+[2023-06-18 23:22:16] WARNING root fetch - processPackages [piechartocr]: Skipping package: exceeds size limit 95131827>=10485760
+[2023-06-18 23:22:16] INFO root fetch - main [MainThread]: End processing [piechartocr] error
+[2023-06-18 23:22:16] INFO root fetch - processPackages [lmqg]: Downloading https://files.pythonhosted.org/packages/04/05/4ad68439adeed14e1d7937fc4d2110fec739609ea943c6a78a3e16098968/lmqg-0.1.1.tar.gz
+[2023-06-18 23:22:16] INFO root fetch - processPackages [jaraco.path]: Downloading https://files.pythonhosted.org/packages/20/b6/fc1aa7b3ffd10f222c0f12cef040e5c2e3017f6b37880340db1791bc7ea7/jaraco.path-3.6.0.tar.gz
+[2023-06-18 23:22:17] INFO root fetch - processPackages [lmqg]: executing diffoscope
+[2023-06-18 23:22:17] INFO root fetch - processPackages [lmqg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmqg-0.1.0.tar.gz tmp/lmqg-0.1.1.tar.gz --markdown 20230618/l/lmqg/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 23:22:17] INFO root fetch - processPackages [jaraco.path]: executing diffoscope
+[2023-06-18 23:22:17] INFO root fetch - processPackages [jaraco.path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.path-3.5.0.tar.gz tmp/jaraco.path-3.6.0.tar.gz --markdown 20230618/j/jaraco.path/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-06-18 23:22:18] INFO root fetch - processPackages [jaraco.path]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.path-3.5.0.tar.gz]
+[2023-06-18 23:22:18] INFO root fetch - processPackages [jaraco.path]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.path-3.6.0.tar.gz]
+[2023-06-18 23:22:18] INFO root fetch - main [MainThread]: End processing [jaraco.path]: success
+[2023-06-18 23:22:18] INFO root fetch - processPackages [lmqg]: Remove: archive file [/home/abi/fetcher/tmp/lmqg-0.1.0.tar.gz]
+[2023-06-18 23:22:18] INFO root fetch - processPackages [lmqg]: Remove: archive file [/home/abi/fetcher/tmp/lmqg-0.1.1.tar.gz]
+[2023-06-18 23:22:18] INFO root fetch - main [MainThread]: End processing [lmqg]: success
+[2023-06-18 23:22:18] INFO root fetch - main [MainThread]: Store serial: [18552985]
