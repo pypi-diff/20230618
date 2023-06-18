@@ -8937,3 +8937,66 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 15:06:40] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.18-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-18 15:06:40] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-06-18 15:06:40] INFO root fetch - main [MainThread]: Store serial: [18550170]
+[2023-06-18 15:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550170]
+[2023-06-18 15:11:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hurricaneapi
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cc-dwh-streaming-pkg
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foxops
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pandas
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ypricemagic
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langport
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-06-18 15:11:49] INFO root fetch - processPackages [foxops]: New version: [2.0.0a4] Old Version: [1.6.5]
+[2023-06-18 15:11:49] WARNING root fetch - processPackages [cc-dwh-streaming-pkg]: Skipping, unable to determine old version
+[2023-06-18 15:11:49] INFO root fetch - main [MainThread]: End processing [cc-dwh-streaming-pkg] error
+[2023-06-18 15:11:49] WARNING root fetch - processPackages [hurricaneapi]: Skipping, unable to determine old version
+[2023-06-18 15:11:49] INFO root fetch - main [MainThread]: End processing [hurricaneapi] error
+[2023-06-18 15:11:49] INFO root fetch - processPackages [langport]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 15:11:49] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 15:11:49] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 15:11:49] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ypricemagic]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-06-18 15:11:49] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-18 15:11:49] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-18 15:11:49] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-18 15:11:49] INFO root fetch - processPackages [foxops]: Downloading https://files.pythonhosted.org/packages/fb/60/4029bef8332b02016418497a1e04be323772d8f4ccf5a40ba18a7b0e5aee/foxops-1.6.5.tar.gz
+[2023-06-18 15:11:49] INFO root fetch - processPackages [langport]: Downloading https://files.pythonhosted.org/packages/47/0a/96131c75d53c26d58829e05ed3644138fdbfa45977a49b87009539d4fd1a/langport-0.1.0.tar.gz
+[2023-06-18 15:11:49] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-18 15:11:49] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-18 15:11:49] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-18 15:11:49] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/01/fa/0ddb6ee8adf2a28391f83564b13429b950837d638d74115417fe85b436ca/ypricemagic-2.3.3.tar.gz
+[2023-06-18 15:11:50] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-18 15:11:50] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230618/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 15:11:50] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-18 15:11:50] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230618/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 15:11:50] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-18 15:11:50] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230618/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 15:11:50] INFO root fetch - processPackages [langport]: Downloading https://files.pythonhosted.org/packages/21/70/a86522f1bed786492e7a89bb1530b661a90e928f5c1a035ddba6c4f880d8/langport-0.2.0.tar.gz
+[2023-06-18 15:11:50] INFO root fetch - processPackages [langport]: executing diffoscope
+[2023-06-18 15:11:50] INFO root fetch - processPackages [langport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langport-0.1.0.tar.gz tmp/langport-0.2.0.tar.gz --markdown 20230618/l/langport/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 15:11:50] INFO root fetch - processPackages [foxops]: Downloading https://files.pythonhosted.org/packages/ff/38/a039b53a555037846d6380446383c0194c844abcb015c2b9660d443537ed/foxops-2.0.0a4.tar.gz
+[2023-06-18 15:11:50] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/1c/0f/3c475f4cca02f267bdeaa63656213da298b2b670785ce3fbf30d0c2e9a89/ypricemagic-2.3.4.tar.gz
+[2023-06-18 15:11:50] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-06-18 15:11:50] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.3.3.tar.gz tmp/ypricemagic-2.3.4.tar.gz --markdown 20230618/y/ypricemagic/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-06-18 15:11:50] INFO root fetch - processPackages [foxops]: executing diffoscope
+[2023-06-18 15:11:50] INFO root fetch - processPackages [foxops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxops-1.6.5.tar.gz tmp/foxops-2.0.0a4.tar.gz --markdown 20230618/f/foxops/1.6.5-2.0.0a4/diff.md --exclude *.pyd
+[2023-06-18 15:11:51] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-18 15:11:51] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-18 15:11:51] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-18 15:11:51] INFO root fetch - processPackages [langport]: Remove: archive file [/home/abi/fetcher/tmp/langport-0.1.0.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - processPackages [langport]: Remove: archive file [/home/abi/fetcher/tmp/langport-0.2.0.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - main [MainThread]: End processing [langport]: success
+[2023-06-18 15:11:51] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.3.3.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.3.4.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-06-18 15:11:51] INFO root fetch - processPackages [foxops]: Remove: archive file [/home/abi/fetcher/tmp/foxops-1.6.5.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - processPackages [foxops]: Remove: archive file [/home/abi/fetcher/tmp/foxops-2.0.0a4.tar.gz]
+[2023-06-18 15:11:51] INFO root fetch - main [MainThread]: End processing [foxops]: success
+[2023-06-18 15:11:51] INFO root fetch - main [MainThread]: Store serial: [18550198]
