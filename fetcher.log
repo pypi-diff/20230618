@@ -13987,3 +13987,42 @@ EOFError: EOF read where object expected
 [2023-06-18 21:08:04] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
 [2023-06-18 21:08:04] INFO root fetch - main [MainThread]: End processing [robyn]: success
 [2023-06-18 21:08:04] INFO root fetch - main [MainThread]: Store serial: [18552264]
+[2023-06-18 21:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552264]
+[2023-06-18 21:13:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 21:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Simba-UW-tf-dev
+[2023-06-18 21:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aacommpy
+[2023-06-18 21:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: araby-ai
+[2023-06-18 21:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-mcp9808
+[2023-06-18 21:13:13] INFO root fetch - processPackages [araby-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 21:13:13] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 21:13:13] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.63.3] Old Version: [1.63.2]
+[2023-06-18 21:13:13] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/d5/64/63deebaeb945be4d38c52197f676ef3c8a8f937aaed4a1bb524d7d878f50/Simba-UW-tf-dev-1.63.2.tar.gz
+[2023-06-18 21:13:13] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/cc/84/119419f68fa685857690cc3988e6a0509a9f8a40da053b9e158cc56e4f9b/aacommpy-0.1.8.tar.gz
+[2023-06-18 21:13:13] INFO root fetch - processPackages [micropython-mcp9808]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-18 21:13:13] INFO root fetch - processPackages [araby-ai]: Downloading https://files.pythonhosted.org/packages/c2/07/6b66002641b00240a97b247977cbf33fd01785dbf843784a66251c8101c7/araby-ai-0.0.3.tar.gz
+[2023-06-18 21:13:13] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/14/6d/defc6d745b118f6b34275d3b3990a2a53be8d450e9ef0cec09d3ea855372/aacommpy-0.1.9.tar.gz
+[2023-06-18 21:13:13] INFO root fetch - processPackages [micropython-mcp9808]: Downloading https://files.pythonhosted.org/packages/ab/1d/c06d78969ec5596969e451abbfb8df05d311bddb2a2b02d9e14b05787903/micropython-mcp9808-0.1.1.tar.gz
+[2023-06-18 21:13:13] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-06-18 21:13:13] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230618/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 21:13:13] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/79/e6/05e208b57f7ea8314bff4c4d92a0ebdb2b99c7941ec5fa82a5e543963c9a/Simba-UW-tf-dev-1.63.3.tar.gz
+[2023-06-18 21:13:13] INFO root fetch - processPackages [araby-ai]: Downloading https://files.pythonhosted.org/packages/31/3b/7d3b6f82b9887b7f881d34de3e282877d37f30ef4da3a4d623531f48d7f9/araby-ai-0.0.4.tar.gz
+[2023-06-18 21:13:13] INFO root fetch - processPackages [araby-ai]: executing diffoscope
+[2023-06-18 21:13:13] INFO root fetch - processPackages [araby-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/araby-ai-0.0.3.tar.gz tmp/araby-ai-0.0.4.tar.gz --markdown 20230618/a/araby-ai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 21:13:13] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-06-18 21:13:13] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.63.2.tar.gz tmp/Simba-UW-tf-dev-1.63.3.tar.gz --markdown 20230618/S/Simba-UW-tf-dev/1.63.2-1.63.3/diff.md --exclude *.pyd
+[2023-06-18 21:13:13] INFO root fetch - processPackages [micropython-mcp9808]: Downloading https://files.pythonhosted.org/packages/d9/c3/acf70243f167960c218acaf059db2289a59ce1b4fb1de53bcd280e4fc834/micropython-mcp9808-0.2.0.tar.gz
+[2023-06-18 21:13:14] INFO root fetch - processPackages [micropython-mcp9808]: executing diffoscope
+[2023-06-18 21:13:14] INFO root fetch - processPackages [micropython-mcp9808]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-mcp9808-0.1.1.tar.gz tmp/micropython-mcp9808-0.2.0.tar.gz --markdown 20230618/m/micropython-mcp9808/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 21:13:14] INFO root fetch - processPackages [aacommpy]: Remove: archive file [/home/abi/fetcher/tmp/aacommpy-0.1.8.tar.gz]
+[2023-06-18 21:13:14] INFO root fetch - processPackages [aacommpy]: Remove: archive file [/home/abi/fetcher/tmp/aacommpy-0.1.9.tar.gz]
+[2023-06-18 21:13:14] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-06-18 21:13:14] INFO root fetch - processPackages [araby-ai]: Remove: archive file [/home/abi/fetcher/tmp/araby-ai-0.0.3.tar.gz]
+[2023-06-18 21:13:14] INFO root fetch - processPackages [araby-ai]: Remove: archive file [/home/abi/fetcher/tmp/araby-ai-0.0.4.tar.gz]
+[2023-06-18 21:13:14] INFO root fetch - main [MainThread]: End processing [araby-ai]: success
+[2023-06-18 21:13:15] INFO root fetch - processPackages [micropython-mcp9808]: Remove: archive file [/home/abi/fetcher/tmp/micropython-mcp9808-0.1.1.tar.gz]
+[2023-06-18 21:13:15] INFO root fetch - processPackages [micropython-mcp9808]: Remove: archive file [/home/abi/fetcher/tmp/micropython-mcp9808-0.2.0.tar.gz]
+[2023-06-18 21:13:15] INFO root fetch - main [MainThread]: End processing [micropython-mcp9808]: success
+[2023-06-18 21:13:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.63.2.tar.gz]
+[2023-06-18 21:13:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.63.3.tar.gz]
+[2023-06-18 21:13:18] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-06-18 21:13:18] INFO root fetch - main [MainThread]: Store serial: [18552273]
