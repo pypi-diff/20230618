@@ -2577,3 +2577,99 @@
 [2023-06-18 03:45:46] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
 [2023-06-18 03:45:46] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-06-18 03:45:46] INFO root fetch - main [MainThread]: Store serial: [18547289]
+[2023-06-18 03:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547289]
+[2023-06-18 03:50:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweetrpg-web-core
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ns1
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-civo
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-cloudamqp
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toolstr
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dtbase
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scotthsieh-projen-statemachine
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-spotinst
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-fastly
+[2023-06-18 03:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdevpy
+[2023-06-18 03:50:55] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:50:55] INFO root fetch - processPackages [dtbase]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 03:50:55] INFO root fetch - processPackages [toolstr]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1687050451] Old Version: [2.4.0a1686784153]
+[2023-06-18 03:50:55] WARNING root fetch - processPackages [sdevpy]: Skipping, unable to determine old version
+[2023-06-18 03:50:55] INFO root fetch - processPackages [sdevpy]: Start processing: pulumi-okta
+[2023-06-18 03:50:55] INFO root fetch - main [MainThread]: End processing [sdevpy] error
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-18 03:50:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.1.0a1687050371] Old Version: [3.1.0a1686930571]
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.2.0a1687050452] Old Version: [8.1.1]
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-okta]: New version: [4.1.0a1687050417] Old Version: [4.1.0a1686776307]
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/52/05/526fea1baaafe2c122a403a372f4b47315d49bd6873f822a750bb7c7d87d/pulumi_civo-2.4.0a1686784153.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/d6/86/98fe47f3f680f968407db4255a11827803acf7c49f3e170fa19b15428729/pulumi_okta-4.1.0a1686776307.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/4e/55/b5cbf6b18c9607f8e1e4d851909bf5c8875e919ceb4ba021fbe243e706c3/pulumi_ns1-3.1.0a1686930571.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [dtbase]: Downloading https://files.pythonhosted.org/packages/0c/8b/39c9b2b8b21064cb9e358413fded090faa8cf229ce50c173a8c49de1d70c/dtbase-0.0.4.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [toolstr]: Downloading https://files.pythonhosted.org/packages/a6/3f/1911b105b76a36da4b51d2805002681dae3ff5d1be1eab0d9d14133fda4f/toolstr-0.9.6.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/66/90/44bf9784c9316780e751534881f4fb2931d1d5f716dd9d487ce090ce96df/pulumi_fastly-8.1.1.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/45/57/3096ffc9b3225ef65b1b68d0681b85f3cfa95fe195656eeeafdca41de3ae/pulumi_okta-4.1.0a1687050417.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/b5/fb/79fee471dd69dc38b5f18914f71f06adb7a5119d55e98fc8f6d3ab11087a/pulumi_ns1-3.1.0a1687050371.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/b8/af/b6f58f09d8cf79ecfc1ed4b60c5a41cfe5285a8f3a9e1b1c146078b30606/pulumi_civo-2.4.0a1687050451.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [dtbase]: Downloading https://files.pythonhosted.org/packages/3d/8e/778927f96ff7a64f40ca99d0b482a5d6146be9b10bb8863b622094f0e749/dtbase-0.0.5.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20230618/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.1.0a1686930571.tar.gz tmp/pulumi_ns1-3.1.0a1687050371.tar.gz --markdown 20230618/p/pulumi-ns1/3.1.0a1686930571-3.1.0a1687050371/diff.md --exclude *.pyd
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1686784153.tar.gz tmp/pulumi_civo-2.4.0a1687050451.tar.gz --markdown 20230618/p/pulumi-civo/2.4.0a1686784153-2.4.0a1687050451/diff.md --exclude *.pyd
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.1.0a1686776307.tar.gz tmp/pulumi_okta-4.1.0a1687050417.tar.gz --markdown 20230618/p/pulumi-okta/4.1.0a1686776307-4.1.0a1687050417/diff.md --exclude *.pyd
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230618/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-06-18 03:50:55] INFO root fetch - processPackages [dtbase]: executing diffoscope
+[2023-06-18 03:50:55] INFO root fetch - processPackages [toolstr]: Downloading https://files.pythonhosted.org/packages/55/1a/47212c38c980357e4fa005bcfb5b0a34b9bbdf8863f5dbd9dccfd0aa4626/toolstr-0.9.7.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [dtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtbase-0.0.4.tar.gz tmp/dtbase-0.0.5.tar.gz --markdown 20230618/d/dtbase/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 03:50:55] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/61/ed/1875eecee3608d6abfcd81502e76d79ab5246f09eae1bc474e17870c75d2/pulumi_fastly-8.2.0a1687050452.tar.gz
+[2023-06-18 03:50:55] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-06-18 03:50:55] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230618/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-06-18 03:50:55] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.1.1.tar.gz tmp/pulumi_fastly-8.2.0a1687050452.tar.gz --markdown 20230618/p/pulumi-fastly/8.1.1-8.2.0a1687050452/diff.md --exclude *.pyd
+[2023-06-18 03:50:55] INFO root fetch - processPackages [toolstr]: executing diffoscope
+[2023-06-18 03:50:55] INFO root fetch - processPackages [toolstr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolstr-0.9.6.tar.gz tmp/toolstr-0.9.7.tar.gz --markdown 20230618/t/toolstr/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-18 03:50:56] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-06-18 03:50:56] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-06-18 03:50:56] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230618/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:50:57] INFO root fetch - processPackages [dtbase]: Remove: archive file [/home/abi/fetcher/tmp/dtbase-0.0.4.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - processPackages [dtbase]: Remove: archive file [/home/abi/fetcher/tmp/dtbase-0.0.5.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - main [MainThread]: End processing [dtbase]: success
+[2023-06-18 03:50:57] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1686930571.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1687050371.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2023-06-18 03:50:57] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2023-06-18 03:50:57] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-06-18 03:50:57] INFO root fetch - processPackages [toolstr]: Remove: archive file [/home/abi/fetcher/tmp/toolstr-0.9.6.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - processPackages [toolstr]: Remove: archive file [/home/abi/fetcher/tmp/toolstr-0.9.7.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - main [MainThread]: End processing [toolstr]: success
+[2023-06-18 03:50:57] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.1.1.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1687050452.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-06-18 03:50:57] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-06-18 03:50:57] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-06-18 03:50:57] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-06-18 03:50:58] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.1.0a1686776307.tar.gz]
+[2023-06-18 03:50:58] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.1.0a1687050417.tar.gz]
+[2023-06-18 03:50:58] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-06-18 03:50:58] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1686784153.tar.gz]
+[2023-06-18 03:50:58] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1687050451.tar.gz]
+[2023-06-18 03:50:58] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-06-18 03:50:58] INFO root fetch - main [MainThread]: Store serial: [18547330]
