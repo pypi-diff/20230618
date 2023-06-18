@@ -4171,3 +4171,20 @@
 [2023-06-18 05:48:46] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2023-06-18 05:48:46] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-06-18 05:48:46] INFO root fetch - main [MainThread]: Store serial: [18547910]
+[2023-06-18 05:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547910]
+[2023-06-18 05:53:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libTSCANAPI
+[2023-06-18 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webhooklib
+[2023-06-18 05:53:55] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-18 05:53:55] INFO root fetch - processPackages [webhooklib]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-18 05:53:55] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/69/91/02825bd45738aca8af3e2bb4a8ff46927cb137cc3f35d113639f8bbcb77c/webhooklib-0.5.2.tar.gz
+[2023-06-18 05:53:55] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/84/72/eb4d08f3a15b90cb09222bc58d0110dbf47ec2f8e7f26ba6596c6dc0ab27/libTSCANAPI-1.0.7.tar.gz
+[2023-06-18 05:53:55] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16302635>=10485760
+[2023-06-18 05:53:55] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-06-18 05:53:56] INFO root fetch - processPackages [webhooklib]: Downloading https://files.pythonhosted.org/packages/73/37/36f1020f197eef146615dcff64184f86703d2edb7503f84d91e14a4e0026/webhooklib-0.6.0.tar.gz
+[2023-06-18 05:53:56] INFO root fetch - processPackages [webhooklib]: executing diffoscope
+[2023-06-18 05:53:56] INFO root fetch - processPackages [webhooklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhooklib-0.5.2.tar.gz tmp/webhooklib-0.6.0.tar.gz --markdown 20230618/w/webhooklib/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-18 05:53:57] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.5.2.tar.gz]
+[2023-06-18 05:53:57] INFO root fetch - processPackages [webhooklib]: Remove: archive file [/home/abi/fetcher/tmp/webhooklib-0.6.0.tar.gz]
+[2023-06-18 05:53:57] INFO root fetch - main [MainThread]: End processing [webhooklib]: success
+[2023-06-18 05:53:57] INFO root fetch - main [MainThread]: Store serial: [18547920]
