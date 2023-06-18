@@ -15728,3 +15728,48 @@ EOFError: EOF read where object expected
 [2023-06-18 23:27:29] INFO root fetch - processPackages [molecule-generation]: Remove: archive file [/home/abi/fetcher/tmp/molecule_generation-0.4.0.tar.gz]
 [2023-06-18 23:27:29] INFO root fetch - main [MainThread]: End processing [molecule-generation]: success
 [2023-06-18 23:27:29] INFO root fetch - main [MainThread]: Store serial: [18552996]
+[2023-06-18 23:32:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552996]
+[2023-06-18 23:32:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 23:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CToolKit
+[2023-06-18 23:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioshelly
+[2023-06-18 23:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algos777
+[2023-06-18 23:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pp-project-pkg
+[2023-06-18 23:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paikalta
+[2023-06-18 23:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lifeactuary
+[2023-06-18 23:32:38] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306182129] Old Version: [1.0.202306160314]
+[2023-06-18 23:32:38] INFO root fetch - processPackages [paikalta]: New version: [2023.6.18] Old Version: [2023.2.23]
+[2023-06-18 23:32:38] INFO root fetch - processPackages [aioshelly]: New version: [5.4.0] Old Version: [5.3.2]
+[2023-06-18 23:32:38] INFO root fetch - processPackages [lifeactuary]: New version: [1.3] Old Version: [1.2.1]
+[2023-06-18 23:32:38] WARNING root fetch - processPackages [CToolKit]: Skipping, unable to determine old version
+[2023-06-18 23:32:38] WARNING root fetch - processPackages [algos777]: Skipping, unable to determine old version
+[2023-06-18 23:32:38] INFO root fetch - main [MainThread]: End processing [CToolKit] error
+[2023-06-18 23:32:38] INFO root fetch - main [MainThread]: End processing [algos777] error
+[2023-06-18 23:32:38] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/81/43/fa358bb210d7634d6fe2df77fbed19f4b47ed18fb55030cc1ea55f21859a/pp_project_pkg-1.0.202306160314-py3-none-any.whl
+[2023-06-18 23:32:38] INFO root fetch - processPackages [paikalta]: Downloading https://files.pythonhosted.org/packages/0a/7d/60f539010a2e4e64319bdadfc7213d1d753d4ef83eb980587178c28a99d6/paikalta-2023.2.23.tar.gz
+[2023-06-18 23:32:38] INFO root fetch - processPackages [aioshelly]: Downloading https://files.pythonhosted.org/packages/64/35/24efee799d88d0c7e80e703b14dfc9dbac838eb8f9d6b2ed047092935004/aioshelly-5.3.2.tar.gz
+[2023-06-18 23:32:38] INFO root fetch - processPackages [lifeactuary]: Downloading https://files.pythonhosted.org/packages/67/f1/50a2a721f3f17615b7e3fc0c97a4b0ff5f45f9855a7f442b16089642aae1/lifeactuary-1.2.1.tar.gz
+[2023-06-18 23:32:38] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/3c/6a/95164c04cdd42c2e0ef531cf78f81910e6f7c3ec8f0a72b9eb11f6fafd9e/pp_project_pkg-1.0.202306182129-py3-none-any.whl
+[2023-06-18 23:32:38] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-18 23:32:38] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306160314-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306182129-py3-none-any.whl.zip --markdown 20230618/p/pp-project-pkg/1.0.202306160314-1.0.202306182129/diff.md --exclude *.pyd
+[2023-06-18 23:32:38] INFO root fetch - processPackages [paikalta]: Downloading https://files.pythonhosted.org/packages/67/29/32a0fc6ed2c87f415761c96b670f7955ef1bc1f386fe20ee2df7fe326867/paikalta-2023.6.18.tar.gz
+[2023-06-18 23:32:38] INFO root fetch - processPackages [aioshelly]: Downloading https://files.pythonhosted.org/packages/f9/3e/c8d02a16f555c86d1900592dc6f637dbfcbdf5c6103bb1274d03248b5170/aioshelly-5.4.0.tar.gz
+[2023-06-18 23:32:38] INFO root fetch - processPackages [lifeactuary]: Downloading https://files.pythonhosted.org/packages/9b/58/afe4503c6a70a0235e3d0803973489990d01e55bfc3f9c4e8f0fa88b5bbe/lifeactuary-1.3.tar.gz
+[2023-06-18 23:32:38] INFO root fetch - processPackages [paikalta]: executing diffoscope
+[2023-06-18 23:32:38] INFO root fetch - processPackages [paikalta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paikalta-2023.2.23.tar.gz tmp/paikalta-2023.6.18.tar.gz --markdown 20230618/p/paikalta/2023.2.23-2023.6.18/diff.md --exclude *.pyd
+[2023-06-18 23:32:39] INFO root fetch - processPackages [aioshelly]: executing diffoscope
+[2023-06-18 23:32:39] INFO root fetch - processPackages [aioshelly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioshelly-5.3.2.tar.gz tmp/aioshelly-5.4.0.tar.gz --markdown 20230618/a/aioshelly/5.3.2-5.4.0/diff.md --exclude *.pyd
+[2023-06-18 23:32:39] INFO root fetch - processPackages [lifeactuary]: executing diffoscope
+[2023-06-18 23:32:39] INFO root fetch - processPackages [lifeactuary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeactuary-1.2.1.tar.gz tmp/lifeactuary-1.3.tar.gz --markdown 20230618/l/lifeactuary/1.2.1-1.3/diff.md --exclude *.pyd
+[2023-06-18 23:32:39] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306160314-py3-none-any.whl.zip]
+[2023-06-18 23:32:39] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306182129-py3-none-any.whl.zip]
+[2023-06-18 23:32:39] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-18 23:32:39] INFO root fetch - processPackages [paikalta]: Remove: archive file [/home/abi/fetcher/tmp/paikalta-2023.2.23.tar.gz]
+[2023-06-18 23:32:39] INFO root fetch - processPackages [paikalta]: Remove: archive file [/home/abi/fetcher/tmp/paikalta-2023.6.18.tar.gz]
+[2023-06-18 23:32:39] INFO root fetch - main [MainThread]: End processing [paikalta]: success
+[2023-06-18 23:32:40] INFO root fetch - processPackages [aioshelly]: Remove: archive file [/home/abi/fetcher/tmp/aioshelly-5.3.2.tar.gz]
+[2023-06-18 23:32:40] INFO root fetch - processPackages [aioshelly]: Remove: archive file [/home/abi/fetcher/tmp/aioshelly-5.4.0.tar.gz]
+[2023-06-18 23:32:40] INFO root fetch - main [MainThread]: End processing [aioshelly]: success
+[2023-06-18 23:32:40] INFO root fetch - processPackages [lifeactuary]: Remove: archive file [/home/abi/fetcher/tmp/lifeactuary-1.2.1.tar.gz]
+[2023-06-18 23:32:40] INFO root fetch - processPackages [lifeactuary]: Remove: archive file [/home/abi/fetcher/tmp/lifeactuary-1.3.tar.gz]
+[2023-06-18 23:32:40] INFO root fetch - main [MainThread]: End processing [lifeactuary]: success
+[2023-06-18 23:32:40] INFO root fetch - main [MainThread]: Store serial: [18553016]
