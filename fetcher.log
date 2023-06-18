@@ -15161,3 +15161,173 @@ EOFError: EOF read where object expected
 [2023-06-18 22:35:33] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.8.tar.gz]
 [2023-06-18 22:35:33] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
 [2023-06-18 22:35:33] INFO root fetch - main [MainThread]: Store serial: [18552726]
+[2023-06-18 22:40:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552726]
+[2023-06-18 22:40:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: texasholdem
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reorder-python-imports
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dune-iga
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rust-neighborlist
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prefect-sns
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dune-iga
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: firefly_reports
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dune-iga
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gravitypy
+[2023-06-18 22:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandoc-latex-color
+[2023-06-18 22:40:43] INFO root fetch - processPackages [texasholdem]: New version: [0.9.0] Old Version: [0.8a0]
+[2023-06-18 22:40:43] INFO root fetch - processPackages [dune-iga]: New version: [0.1.7.dev20230618203642] Old Version: [0.1.6.dev20230618203546]
+[2023-06-18 22:40:43] INFO root fetch - processPackages [reorder-python-imports]: New version: [3.9.0] Old Version: [3.8.5]
+[2023-06-18 22:40:43] INFO root fetch - processPackages [prefect-sns]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 22:40:43] INFO root fetch - processPackages [dune-iga]: New version: [0.1.7.dev20230618203642] Old Version: [0.1.6.dev20230618203546]
+[2023-06-18 22:40:43] INFO root fetch - processPackages [rust-neighborlist]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-18 22:40:43] INFO root fetch - processPackages [pandoc-latex-color]: New version: [1.0.0.0] Old Version: [0.2.1]
+[2023-06-18 22:40:43] WARNING root fetch - processPackages [firefly_reports]: Skipping, unable to determine old version
+[2023-06-18 22:40:43] INFO root fetch - processPackages [gravitypy]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-18 22:40:43] INFO root fetch - main [MainThread]: End processing [firefly_reports] error
+[2023-06-18 22:40:43] INFO root fetch - processPackages [dune-iga]: New version: [0.1.7.dev20230618203642] Old Version: [0.1.6.dev20230618203546]
+[2023-06-18 22:40:43] INFO root fetch - processPackages [rust-neighborlist]: Downloading https://files.pythonhosted.org/packages/a4/3e/8d4303e93c5eac4642dc6bd170e4ba654257e25eccc13335d9c118b65f3f/rust_neighborlist-0.1.2.tar.gz
+[2023-06-18 22:40:43] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/fd/56/a6ea4a6125432d3e2334e22a1d0b5e98a6a52c4ed094e55be1db75d7e1a0/gravitypy-1.2.3.tar.gz
+[2023-06-18 22:40:43] INFO root fetch - processPackages [prefect-sns]: Downloading https://files.pythonhosted.org/packages/77/36/52c6a14d994fd55dc9a7a4289028664ac53970b7a9ddd9be674926039a18/prefect-sns-0.1.0.tar.gz
+[2023-06-18 22:40:43] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/31/1f/58c1513c3ef1da5e3f76131d60c5c83155d4098bdbe23696909d2f5f1416/dune-iga-0.1.6.dev20230618203546.tar.gz
+[2023-06-18 22:40:43] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/31/1f/58c1513c3ef1da5e3f76131d60c5c83155d4098bdbe23696909d2f5f1416/dune-iga-0.1.6.dev20230618203546.tar.gz
+[2023-06-18 22:40:43] INFO root fetch - processPackages [reorder-python-imports]: Downloading https://files.pythonhosted.org/packages/24/7a/87e253538249d4b65aa17f9bb057f4c5fc3237e71c50a517e0742db9aa53/reorder_python_imports-3.8.5.tar.gz
+[2023-06-18 22:40:43] INFO root fetch - processPackages [texasholdem]: Downloading https://files.pythonhosted.org/packages/9b/84/50d6b6ff42c401143d82b99be76fc6a2ceee6c84ebdcbc931d18d0048ceb/texasholdem-0.8a0.tar.gz
+[2023-06-18 22:40:43] INFO root fetch - processPackages [pandoc-latex-color]: Downloading https://files.pythonhosted.org/packages/16/a7/64c7b93820a8914b3d4308bfb004ace514006ca3cffb55e972cd04128dc3/pandoc-latex-color-0.2.1.tar.gz
+[2023-06-18 22:40:43] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/31/1f/58c1513c3ef1da5e3f76131d60c5c83155d4098bdbe23696909d2f5f1416/dune-iga-0.1.6.dev20230618203546.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [rust-neighborlist]: Downloading https://files.pythonhosted.org/packages/21/e2/9ec309cabb49d46cd8b7e6563f868a5479a9140ed51df377dbfde169dfa8/rust_neighborlist-0.1.3.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [gravitypy]: Downloading https://files.pythonhosted.org/packages/66/16/daa9d4e902b9a16475e158a200baae59dc3e9ecc3f2401a38a9337034220/gravitypy-1.2.4.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [rust-neighborlist]: executing diffoscope
+[2023-06-18 22:40:44] INFO root fetch - processPackages [rust-neighborlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rust_neighborlist-0.1.2.tar.gz tmp/rust_neighborlist-0.1.3.tar.gz --markdown 20230618/r/rust-neighborlist/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-18 22:40:44] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/48/f4/28b952c3836c86e1c626a976c93548194f0b94c41c4632457e4c47276354/dune-iga-0.1.7.dev20230618203642.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [prefect-sns]: Downloading https://files.pythonhosted.org/packages/3c/45/5e8e392ab78f2f88cfdfc33b740a84818590c93e306cd51599853b8c663f/prefect-sns-0.2.0.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/48/f4/28b952c3836c86e1c626a976c93548194f0b94c41c4632457e4c47276354/dune-iga-0.1.7.dev20230618203642.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/48/f4/28b952c3836c86e1c626a976c93548194f0b94c41c4632457e4c47276354/dune-iga-0.1.7.dev20230618203642.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [reorder-python-imports]: Downloading https://files.pythonhosted.org/packages/23/98/f2c8c5ee8cc406e1352b5aaad7b2f927b9a5a081ee2050eb302f5ec1b780/reorder_python_imports-3.9.0.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [prefect-sns]: executing diffoscope
+[2023-06-18 22:40:44] INFO root fetch - processPackages [prefect-sns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-sns-0.1.0.tar.gz tmp/prefect-sns-0.2.0.tar.gz --markdown 20230618/p/prefect-sns/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 22:40:44] INFO root fetch - processPackages [gravitypy]: executing diffoscope
+[2023-06-18 22:40:44] INFO root fetch - processPackages [gravitypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitypy-1.2.3.tar.gz tmp/gravitypy-1.2.4.tar.gz --markdown 20230618/g/gravitypy/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-18 22:40:44] INFO root fetch - processPackages [pandoc-latex-color]: Downloading https://files.pythonhosted.org/packages/c3/a5/98e1af8037c29a4bb121ec847e5df3f95f70271a9f198396e4d2149e3645/pandoc_latex_color-1.0.0.0.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [dune-iga]: executing diffoscope
+[2023-06-18 22:40:44] INFO root fetch - processPackages [dune-iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune-iga-0.1.6.dev20230618203546.tar.gz tmp/dune-iga-0.1.7.dev20230618203642.tar.gz --markdown 20230618/d/dune-iga/0.1.6.dev20230618203546-0.1.7.dev20230618203642/diff.md --exclude *.pyd
+[2023-06-18 22:40:44] INFO root fetch - processPackages [dune-iga]: executing diffoscope
+[2023-06-18 22:40:44] INFO root fetch - processPackages [dune-iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune-iga-0.1.6.dev20230618203546.tar.gz tmp/dune-iga-0.1.7.dev20230618203642.tar.gz --markdown 20230618/d/dune-iga/0.1.6.dev20230618203546-0.1.7.dev20230618203642/diff.md --exclude *.pyd
+[2023-06-18 22:40:44] INFO root fetch - processPackages [dune-iga]: executing diffoscope
+[2023-06-18 22:40:44] INFO root fetch - processPackages [dune-iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune-iga-0.1.6.dev20230618203546.tar.gz tmp/dune-iga-0.1.7.dev20230618203642.tar.gz --markdown 20230618/d/dune-iga/0.1.6.dev20230618203546-0.1.7.dev20230618203642/diff.md --exclude *.pyd
+[2023-06-18 22:40:44] INFO root fetch - processPackages [texasholdem]: Downloading https://files.pythonhosted.org/packages/c0/7d/f3adfe44d0d4c99e78f30ca45aef8c952fae88a98a464bcfde9080e8a063/texasholdem-0.9.0.tar.gz
+[2023-06-18 22:40:44] INFO root fetch - processPackages [reorder-python-imports]: executing diffoscope
+[2023-06-18 22:40:44] INFO root fetch - processPackages [reorder-python-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reorder_python_imports-3.8.5.tar.gz tmp/reorder_python_imports-3.9.0.tar.gz --markdown 20230618/r/reorder-python-imports/3.8.5-3.9.0/diff.md --exclude *.pyd
+[2023-06-18 22:40:44] INFO root fetch - processPackages [pandoc-latex-color]: executing diffoscope
+[2023-06-18 22:40:44] INFO root fetch - processPackages [pandoc-latex-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-latex-color-0.2.1.tar.gz tmp/pandoc_latex_color-1.0.0.0.tar.gz --markdown 20230618/p/pandoc-latex-color/0.2.1-1.0.0.0/diff.md --exclude *.pyd
+[2023-06-18 22:40:44] INFO root fetch - processPackages [texasholdem]: executing diffoscope
+[2023-06-18 22:40:44] INFO root fetch - processPackages [texasholdem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texasholdem-0.8a0.tar.gz tmp/texasholdem-0.9.0.tar.gz --markdown 20230618/t/texasholdem/0.8a0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 22:40:45] INFO root fetch - processPackages [prefect-sns]: Remove: archive file [/home/abi/fetcher/tmp/prefect-sns-0.1.0.tar.gz]
+[2023-06-18 22:40:45] INFO root fetch - processPackages [prefect-sns]: Remove: archive file [/home/abi/fetcher/tmp/prefect-sns-0.2.0.tar.gz]
+[2023-06-18 22:40:45] INFO root fetch - main [MainThread]: End processing [prefect-sns]: success
+[2023-06-18 22:40:45] INFO root fetch - processPackages [reorder-python-imports]: Remove: archive file [/home/abi/fetcher/tmp/reorder_python_imports-3.8.5.tar.gz]
+[2023-06-18 22:40:45] INFO root fetch - processPackages [reorder-python-imports]: Remove: archive file [/home/abi/fetcher/tmp/reorder_python_imports-3.9.0.tar.gz]
+[2023-06-18 22:40:45] INFO root fetch - main [MainThread]: End processing [reorder-python-imports]: success
+[2023-06-18 22:40:45] INFO root fetch - processPackages [pandoc-latex-color]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-latex-color-0.2.1.tar.gz]
+[2023-06-18 22:40:45] INFO root fetch - processPackages [pandoc-latex-color]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_color-1.0.0.0.tar.gz]
+[2023-06-18 22:40:45] INFO root fetch - main [MainThread]: End processing [pandoc-latex-color]: success
+[2023-06-18 22:40:46] INFO root fetch - processPackages [rust-neighborlist]: Remove: archive file [/home/abi/fetcher/tmp/rust_neighborlist-0.1.2.tar.gz]
+[2023-06-18 22:40:46] INFO root fetch - processPackages [rust-neighborlist]: Remove: archive file [/home/abi/fetcher/tmp/rust_neighborlist-0.1.3.tar.gz]
+[2023-06-18 22:40:46] INFO root fetch - main [MainThread]: End processing [rust-neighborlist]: success
+[2023-06-18 22:40:46] INFO root fetch - processPackages [gravitypy]: Remove: archive file [/home/abi/fetcher/tmp/gravitypy-1.2.3.tar.gz]
+[2023-06-18 22:40:46] INFO root fetch - processPackages [gravitypy]: Remove: archive file [/home/abi/fetcher/tmp/gravitypy-1.2.4.tar.gz]
+[2023-06-18 22:40:46] INFO root fetch - main [MainThread]: End processing [gravitypy]: success
+[2023-06-18 22:40:46] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.6.dev20230618203546.tar.gz]
+[2023-06-18 22:40:46] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.7.dev20230618203642.tar.gz]
+[2023-06-18 22:40:46] INFO root fetch - main [MainThread]: End processing [dune-iga]: success
+[2023-06-18 22:40:46] INFO root fetch - main [MainThread]: End processing [dune-iga]: success
+[2023-06-18 22:40:46] INFO root fetch - processPackages [texasholdem]: Remove: archive file [/home/abi/fetcher/tmp/texasholdem-0.8a0.tar.gz]
+[2023-06-18 22:40:46] INFO root fetch - processPackages [texasholdem]: Remove: archive file [/home/abi/fetcher/tmp/texasholdem-0.9.0.tar.gz]
+[2023-06-18 22:40:46] INFO root fetch - main [MainThread]: End processing [texasholdem]: success
+[2023-06-18 22:40:47] ERROR root fetch - processPackages [dune-iga]: Diffoscope failed: gzip: tmp/dune-iga-0.1.7.dev20230618203642.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/dune-iga-0.1.7.dev20230618203642.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-18 22:40:47] INFO root fetch - main [MainThread]: End processing [dune-iga] error
+[2023-06-18 22:40:47] INFO root fetch - main [MainThread]: Store serial: [18552758]
