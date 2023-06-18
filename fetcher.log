@@ -9791,3 +9791,93 @@ EOFError: EOF read where object expected
 [2023-06-18 15:59:03] INFO root fetch - processPackages [django-bootstrap-modal-forms]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap-modal-forms-3.0.4.tar.gz]
 [2023-06-18 15:59:03] INFO root fetch - main [MainThread]: End processing [django-bootstrap-modal-forms]: success
 [2023-06-18 15:59:03] INFO root fetch - main [MainThread]: Store serial: [18550499]
+[2023-06-18 16:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550499]
+[2023-06-18 16:04:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piel
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antgo
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyTrilium
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autopyre
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiorobonect
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytheus-backend-rs
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: free-sample-api
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foursight-core
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fairbench
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: foursight-cgap
+[2023-06-18 16:04:12] INFO root fetch - processPackages [PyTrilium]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-18 16:04:12] INFO root fetch - processPackages [autopyre]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 16:04:12] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 16:04:12] INFO root fetch - processPackages [piel]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-06-18 16:04:12] WARNING root fetch - processPackages [free-sample-api]: Skipping, unable to determine old version
+[2023-06-18 16:04:12] INFO root fetch - processPackages [free-sample-api]: Start processing: ccxt
+[2023-06-18 16:04:12] INFO root fetch - main [MainThread]: End processing [free-sample-api] error
+[2023-06-18 16:04:12] INFO root fetch - processPackages [aiorobonect]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-18 16:04:12] WARNING root fetch - processPackages [pytheus-backend-rs]: Skipping, unable to determine old version
+[2023-06-18 16:04:12] INFO root fetch - main [MainThread]: End processing [pytheus-backend-rs] error
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b9] Old Version: [3.5.0.1b8]
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-18 16:04:12] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/6c/20/01d8993526c3ab1740339785137106674d40a695c53764ef408e3c974679/piel-0.0.24.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/e9/07/15fcbebfdc0a92d2e35e81caaae29c3659bdb2d3f6e7df096471b798ff49/autopyre-0.0.6.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/92/a5/a1ef239e02db3600a041fe8d5bcbfdfecabdb656f7a692b48af449b380ba/aiorobonect-0.2.4.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [fairbench]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/4a/a2/e052d0ab361407e02717773dddb0001ad56466be700eceb31d48c8455e3e/foursight_cgap-3.5.0.1b8.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [PyTrilium]: Downloading https://files.pythonhosted.org/packages/53/6a/9e0091db829180bbad01cca648d5c90935278a5baea60554a96ba542225b/pytrilium-1.1.4.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/4b/d4/09ed5bb7b7cabbe89b10e28ca268e2bb202991f5b94be93ddd8fbc88f167/fairbench-0.2.5-py3-none-any.whl
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/6f/60/5e8c0240b92c1fb3c4b66b150c13ce65622fc18b4ec19714df5a8e764fb1/foursight_cgap-3.5.0.1b9.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/cd/49/f24521cbd54523d50081f5ecc9e75f063e8fbc5998622b656465e03fde64/piel-0.0.25.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-18 16:04:12] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/32/da/f489fabe650c8a1d83a8dab656583b3a4736530d57d39f2fb8b9a963d66f/aiorobonect-0.2.5.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.1b8.tar.gz tmp/foursight_cgap-3.5.0.1b9.tar.gz --markdown 20230618/f/foursight-cgap/3.5.0.1b8-3.5.0.1b9/diff.md --exclude *.pyd
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-18 16:04:12] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230618/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-18 16:04:12] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/e0/b8/3299d1b22612f1d1e04f72de8791903308dfb8c97ea754cc7e1acbc87445/autopyre-0.0.7.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-06-18 16:04:12] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.24.tar.gz tmp/piel-0.0.25.tar.gz --markdown 20230618/p/piel/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-06-18 16:04:12] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2023-06-18 16:04:12] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-0.2.4.tar.gz tmp/aiorobonect-0.2.5.tar.gz --markdown 20230618/a/aiorobonect/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-18 16:04:12] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-18 16:04:12] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 16:04:12] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.6.tar.gz tmp/autopyre-0.0.7.tar.gz --markdown 20230618/a/autopyre/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 16:04:13] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-18 16:04:13] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230618/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-18 16:04:13] INFO root fetch - processPackages [PyTrilium]: Downloading https://files.pythonhosted.org/packages/34/f2/ca954456171c4e94aa5aaddbea273c63354e7a4ff90a9983006be6dfeaa3/pytrilium-1.1.5.tar.gz
+[2023-06-18 16:04:13] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/ae/ce/703203301a643dca3d953d556ce3068de14d54a7cf6056770ba691d219a8/fairbench-0.2.6-py3-none-any.whl
+[2023-06-18 16:04:13] INFO root fetch - processPackages [PyTrilium]: executing diffoscope
+[2023-06-18 16:04:13] INFO root fetch - processPackages [PyTrilium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrilium-1.1.4.tar.gz tmp/pytrilium-1.1.5.tar.gz --markdown 20230618/P/PyTrilium/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-18 16:04:13] INFO root fetch - processPackages [fairbench]: executing diffoscope
+[2023-06-18 16:04:13] INFO root fetch - processPackages [fairbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbench-0.2.5-py3-none-any.whl.zip tmp/fairbench-0.2.6-py3-none-any.whl.zip --markdown 20230618/f/fairbench/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-18 16:04:13] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-18 16:04:14] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.4.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.5.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2023-06-18 16:04:14] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.6.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.7.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 16:04:14] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.24.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.25.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-06-18 16:04:14] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b8.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b9.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-18 16:04:14] INFO root fetch - processPackages [PyTrilium]: Remove: archive file [/home/abi/fetcher/tmp/pytrilium-1.1.4.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - processPackages [PyTrilium]: Remove: archive file [/home/abi/fetcher/tmp/pytrilium-1.1.5.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - main [MainThread]: End processing [PyTrilium]: success
+[2023-06-18 16:04:14] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.2.5-py3-none-any.whl.zip]
+[2023-06-18 16:04:14] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.2.6-py3-none-any.whl.zip]
+[2023-06-18 16:04:14] INFO root fetch - main [MainThread]: End processing [fairbench]: success
+[2023-06-18 16:04:14] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-18 16:04:14] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-18 16:04:14] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-18 16:04:14] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230618/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 16:04:21] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-18 16:04:21] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-18 16:04:21] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-18 16:04:24] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-18 16:04:24] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-18 16:04:24] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-18 16:04:24] INFO root fetch - main [MainThread]: Store serial: [18550605]
