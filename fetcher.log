@@ -9226,3 +9226,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 15:22:19] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.6.tar.gz]
 [2023-06-18 15:22:19] INFO root fetch - main [MainThread]: End processing [mercury-engine-data-structures]: success
 [2023-06-18 15:22:19] INFO root fetch - main [MainThread]: Store serial: [18550257]
+[2023-06-18 15:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550257]
+[2023-06-18 15:27:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etcd3-fc
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deeplc
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laskea
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: next-bus-bot
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hurricaneapi
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: makejinja
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WavelinkCord
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foreverbull
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly-intel
+[2023-06-18 15:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: always-updates
+[2023-06-18 15:27:29] WARNING root fetch - processPackages [etcd3-fc]: Skipping, unable to determine old version
+[2023-06-18 15:27:29] INFO root fetch - processPackages [etcd3-fc]: Start processing: datawise
+[2023-06-18 15:27:29] INFO root fetch - main [MainThread]: End processing [etcd3-fc] error
+[2023-06-18 15:27:29] INFO root fetch - processPackages [deeplc]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [next-bus-bot]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [WavelinkCord]: New version: [2.5.2b0] Old Version: [2.2.3]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [laskea]: New version: [2023.6.18] Old Version: [2022.9.22]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [hurricaneapi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [makejinja]: New version: [2.0.0b8] Old Version: [2.0.0b7]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [datawise]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230617] Old Version: [2.14.0.dev20230616]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [next-bus-bot]: Downloading https://files.pythonhosted.org/packages/94/72/b081c5b72ecf067d4f6963383e4dd7d5fd163bcf61d5276326125335e517/next-bus-bot-1.2.1.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-18 15:27:29] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/0f/58/1599f3aee7c58772eba289cc4ea75c2f207b1f1e6419d7d6e75fc8be10c5/datawise-0.0.4.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/56/39/0bc16d5fc3b6cde95818498457550efbf99ff43c475399b56cdf7ea18264/hurricaneapi-0.1.3.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [laskea]: Downloading https://files.pythonhosted.org/packages/39/86/30ce3d0641f7caaa3d46290b873cac0c3d903eccbee3a823e4a5002d8f33/laskea-2022.9.22.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [deeplc]: Downloading https://files.pythonhosted.org/packages/e0/cd/8daa1bfa37d31e70649e7285607795bf2a6c85401076e5bff0e6756b4e1d/deeplc-2.2.0.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/df/37/6653685dac14f2d6a2703356f3bdb4f86450806a63598dd2ea9c51fbf6a3/datawise-0.0.5.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/2c/bf/634388ae00e3f85eecf1315014c3dfd47a311b58c67c8ca9449756aa9df8/makejinja-2.0.0b7.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [WavelinkCord]: Downloading https://files.pythonhosted.org/packages/48/14/2c3e8580804c9256c244723aeef24596e648fd8c885482e4a162ce70d080/WaveLinkCord-2.2.3.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/57/c5/565021e98542c9bb64c65b6778d4dc3fa5d4af7b15c9c05eb4b4e5ed24bd/tf_nightly_intel-2.14.0.dev20230616-cp39-cp39-win_amd64.whl
+[2023-06-18 15:27:29] INFO root fetch - processPackages [next-bus-bot]: Downloading https://files.pythonhosted.org/packages/9e/0d/e1a04fba974ee244ccd1594f9d4cc9355f5c282b20f7e289b35070f308d4/next-bus-bot-1.3.0.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-18 15:27:29] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.4.tar.gz tmp/datawise-0.0.5.tar.gz --markdown 20230618/d/datawise/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 15:27:29] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-18 15:27:29] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230618/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-18 15:27:29] WARNING root fetch - processPackages [deeplc]: Skipping package: exceeds size limit 32146445>=10485760
+[2023-06-18 15:27:29] INFO root fetch - main [MainThread]: End processing [deeplc] error
+[2023-06-18 15:27:29] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [next-bus-bot]: executing diffoscope
+[2023-06-18 15:27:29] INFO root fetch - processPackages [next-bus-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/next-bus-bot-1.2.1.tar.gz tmp/next-bus-bot-1.3.0.tar.gz --markdown 20230618/n/next-bus-bot/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-18 15:27:29] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-06-18 15:27:29] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230618/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-06-18 15:27:29] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183803424>=10485760
+[2023-06-18 15:27:29] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-06-18 15:27:29] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/9b/30/b6f7bd95bb0acf9fd3db0cc27d0fa981baa7af8fc709e6500fc3afe12f03/hurricaneapi-0.1.4.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [hurricaneapi]: executing diffoscope
+[2023-06-18 15:27:29] INFO root fetch - processPackages [hurricaneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurricaneapi-0.1.3.tar.gz tmp/hurricaneapi-0.1.4.tar.gz --markdown 20230618/h/hurricaneapi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 15:27:29] INFO root fetch - processPackages [laskea]: Downloading https://files.pythonhosted.org/packages/60/36/a00a749e2e0019722419506ebc083e1b580d27653c7424e6a8e517019e52/laskea-2023.6.18.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [WavelinkCord]: Downloading https://files.pythonhosted.org/packages/5f/65/da74393f63363fb009f00748d43f90d80c92a1d921d4f7c3fe3d511e5231/WavelinkCord-2.5.2b0.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [laskea]: executing diffoscope
+[2023-06-18 15:27:29] INFO root fetch - processPackages [laskea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laskea-2022.9.22.tar.gz tmp/laskea-2023.6.18.tar.gz --markdown 20230618/l/laskea/2022.9.22-2023.6.18/diff.md --exclude *.pyd
+[2023-06-18 15:27:29] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/ef/84/594e93ee8ea3d2a836895aee0d2632a13a85062d30e2dfae1e0f2b61ee41/makejinja-2.0.0b8.tar.gz
+[2023-06-18 15:27:29] INFO root fetch - processPackages [WavelinkCord]: executing diffoscope
+[2023-06-18 15:27:29] INFO root fetch - processPackages [WavelinkCord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WaveLinkCord-2.2.3.tar.gz tmp/WavelinkCord-2.5.2b0.tar.gz --markdown 20230618/W/WavelinkCord/2.2.3-2.5.2b0/diff.md --exclude *.pyd
+[2023-06-18 15:27:30] INFO root fetch - processPackages [makejinja]: executing diffoscope
+[2023-06-18 15:27:30] INFO root fetch - processPackages [makejinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makejinja-2.0.0b7.tar.gz tmp/makejinja-2.0.0b8.tar.gz --markdown 20230618/m/makejinja/2.0.0b7-2.0.0b8/diff.md --exclude *.pyd
+[2023-06-18 15:27:30] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-18 15:27:30] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-18 15:27:30] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-18 15:27:30] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.4.tar.gz]
+[2023-06-18 15:27:30] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.5.tar.gz]
+[2023-06-18 15:27:30] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-18 15:27:31] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.3.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.4.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - main [MainThread]: End processing [hurricaneapi]: success
+[2023-06-18 15:27:31] INFO root fetch - processPackages [next-bus-bot]: Remove: archive file [/home/abi/fetcher/tmp/next-bus-bot-1.2.1.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - processPackages [next-bus-bot]: Remove: archive file [/home/abi/fetcher/tmp/next-bus-bot-1.3.0.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - main [MainThread]: End processing [next-bus-bot]: success
+[2023-06-18 15:27:31] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-06-18 15:27:31] INFO root fetch - processPackages [makejinja]: Remove: archive file [/home/abi/fetcher/tmp/makejinja-2.0.0b7.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - processPackages [makejinja]: Remove: archive file [/home/abi/fetcher/tmp/makejinja-2.0.0b8.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - main [MainThread]: End processing [makejinja]: success
+[2023-06-18 15:27:31] INFO root fetch - processPackages [WavelinkCord]: Remove: archive file [/home/abi/fetcher/tmp/WaveLinkCord-2.2.3.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - processPackages [WavelinkCord]: Remove: archive file [/home/abi/fetcher/tmp/WavelinkCord-2.5.2b0.tar.gz]
+[2023-06-18 15:27:31] INFO root fetch - main [MainThread]: End processing [WavelinkCord]: success
+[2023-06-18 15:27:32] INFO root fetch - processPackages [laskea]: Remove: archive file [/home/abi/fetcher/tmp/laskea-2022.9.22.tar.gz]
+[2023-06-18 15:27:32] INFO root fetch - processPackages [laskea]: Remove: archive file [/home/abi/fetcher/tmp/laskea-2023.6.18.tar.gz]
+[2023-06-18 15:27:32] INFO root fetch - main [MainThread]: End processing [laskea]: success
+[2023-06-18 15:27:32] INFO root fetch - main [MainThread]: Store serial: [18550292]
