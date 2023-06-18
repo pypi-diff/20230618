@@ -8008,3 +8008,62 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 13:51:50] INFO root fetch - processPackages [checkov3]: Remove: archive file [/home/abi/fetcher/tmp/checkov3-0.1.7.tar.gz]
 [2023-06-18 13:51:50] INFO root fetch - main [MainThread]: End processing [checkov3]: success
 [2023-06-18 13:51:50] INFO root fetch - main [MainThread]: Store serial: [18549731]
+[2023-06-18 13:56:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549731]
+[2023-06-18 13:56:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyre-check-nightly
+[2023-06-18 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: http3-client
+[2023-06-18 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: okntool
+[2023-06-18 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: towdio-player
+[2023-06-18 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: http3-client
+[2023-06-18 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coursera-scraper
+[2023-06-18 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-ultralytics-plugin
+[2023-06-18 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datawise
+[2023-06-18 13:57:00] INFO root fetch - processPackages [towdio-player]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 13:57:00] INFO root fetch - processPackages [okntool]: New version: [5.1.0] Old Version: [4.1.0]
+[2023-06-18 13:57:00] ERROR root fetch - processPackages [http3-client]: Unable to get metadata: No such project 'http3-client'
+[2023-06-18 13:57:00] INFO root fetch - main [MainThread]: End processing [http3-client] error
+[2023-06-18 13:57:00] ERROR root fetch - processPackages [http3-client]: Unable to get metadata: No such project 'http3-client'
+[2023-06-18 13:57:00] INFO root fetch - main [MainThread]: End processing [http3-client] error
+[2023-06-18 13:57:00] INFO root fetch - processPackages [coursera-scraper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 13:57:00] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 13:57:00] INFO root fetch - processPackages [datawise]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 13:57:00] INFO root fetch - processPackages [towdio-player]: Downloading https://files.pythonhosted.org/packages/fa/2f/822a97356cc2859bca8c68b87469033d3262282edc2d92bbee7fae4a6fea/towdio_player-1.0.2.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101687086687] Old Version: [0.0.101687000253]
+[2023-06-18 13:57:00] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/ef/2d/8a8339d3a32670a8e39b684ca13dbef39e7c4ec086d3b37e4285d74d8a7c/datawise-0.0.3.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - processPackages [okntool]: Downloading https://files.pythonhosted.org/packages/66/44/94c66e82d72824bcbc220118fb9425996b01318428558f740b4b546ff24f/okntool-4.1.0.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - processPackages [coursera-scraper]: Downloading https://files.pythonhosted.org/packages/77/cb/8ca7c0953972301d59766ab9ce43e222d0dafbc9d9d1ba8394f868567fc0/coursera-scraper-0.1.0.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/29/d0/fa2f02750b3f36ef2ce674e8fb933b5074a4dbdeaf6dee8572d14e60c689/mkdocs-ultralytics-plugin-0.0.8.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/f9/43/c900e68890e4e4651d10009b886f4670a7d073560dcabe880beb51cb212a/pyre-check-nightly-0.0.101687000253.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - processPackages [towdio-player]: Downloading https://files.pythonhosted.org/packages/cb/f2/175e37d6ec2363804fab01b918945eece7923db0cc36044a3fe2cd5b9195/towdio_player-1.0.3.tar.gz
+[2023-06-18 13:57:00] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23507927>=10485760
+[2023-06-18 13:57:00] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/0f/58/1599f3aee7c58772eba289cc4ea75c2f207b1f1e6419d7d6e75fc8be10c5/datawise-0.0.4.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-18 13:57:00] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-18 13:57:00] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.3.tar.gz tmp/datawise-0.0.4.tar.gz --markdown 20230618/d/datawise/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 13:57:00] INFO root fetch - processPackages [okntool]: Downloading https://files.pythonhosted.org/packages/59/28/9cd7db06881b927a5766df032d3039ddf81b7275320d5bb0e207eb2850e3/okntool-5.1.0.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - processPackages [towdio-player]: executing diffoscope
+[2023-06-18 13:57:00] INFO root fetch - processPackages [towdio-player]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towdio_player-1.0.2.tar.gz tmp/towdio_player-1.0.3.tar.gz --markdown 20230618/t/towdio-player/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 13:57:00] INFO root fetch - processPackages [coursera-scraper]: Downloading https://files.pythonhosted.org/packages/fa/07/b8ec98cbfb371fbe5d191dbb5b632492c6d57e8e0c2d52a5aade8b940078/coursera-scraper-0.1.1.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/3f/59/0ab7cebaf152c6d2c1d19e6257ebf0306ed93310ec2d2ad715df2d1ec855/mkdocs-ultralytics-plugin-0.0.9.tar.gz
+[2023-06-18 13:57:00] INFO root fetch - processPackages [coursera-scraper]: executing diffoscope
+[2023-06-18 13:57:00] INFO root fetch - processPackages [coursera-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursera-scraper-0.1.0.tar.gz tmp/coursera-scraper-0.1.1.tar.gz --markdown 20230618/c/coursera-scraper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 13:57:00] INFO root fetch - processPackages [okntool]: executing diffoscope
+[2023-06-18 13:57:00] INFO root fetch - processPackages [okntool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okntool-4.1.0.tar.gz tmp/okntool-5.1.0.tar.gz --markdown 20230618/o/okntool/4.1.0-5.1.0/diff.md --exclude *.pyd
+[2023-06-18 13:57:00] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-06-18 13:57:00] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.8.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz --markdown 20230618/m/mkdocs-ultralytics-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 13:57:01] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.3.tar.gz]
+[2023-06-18 13:57:01] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.4.tar.gz]
+[2023-06-18 13:57:01] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-18 13:57:01] INFO root fetch - processPackages [towdio-player]: Remove: archive file [/home/abi/fetcher/tmp/towdio_player-1.0.2.tar.gz]
+[2023-06-18 13:57:01] INFO root fetch - processPackages [towdio-player]: Remove: archive file [/home/abi/fetcher/tmp/towdio_player-1.0.3.tar.gz]
+[2023-06-18 13:57:01] INFO root fetch - main [MainThread]: End processing [towdio-player]: success
+[2023-06-18 13:57:01] INFO root fetch - processPackages [coursera-scraper]: Remove: archive file [/home/abi/fetcher/tmp/coursera-scraper-0.1.0.tar.gz]
+[2023-06-18 13:57:01] INFO root fetch - processPackages [coursera-scraper]: Remove: archive file [/home/abi/fetcher/tmp/coursera-scraper-0.1.1.tar.gz]
+[2023-06-18 13:57:01] INFO root fetch - main [MainThread]: End processing [coursera-scraper]: success
+[2023-06-18 13:57:01] INFO root fetch - processPackages [okntool]: Remove: archive file [/home/abi/fetcher/tmp/okntool-4.1.0.tar.gz]
+[2023-06-18 13:57:01] INFO root fetch - processPackages [okntool]: Remove: archive file [/home/abi/fetcher/tmp/okntool-5.1.0.tar.gz]
+[2023-06-18 13:57:01] INFO root fetch - main [MainThread]: End processing [okntool]: success
+[2023-06-18 13:57:55] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ultralytics-plugin-0.0.8.tar.gz]
+[2023-06-18 13:57:55] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz]
+[2023-06-18 13:57:55] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-06-18 13:57:55] INFO root fetch - main [MainThread]: Store serial: [18549761]
