@@ -9540,3 +9540,60 @@ EOFError: EOF read where object expected
 [2023-06-18 15:43:14] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
 [2023-06-18 15:43:14] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-06-18 15:43:14] INFO root fetch - main [MainThread]: Store serial: [18550370]
+[2023-06-18 15:48:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550370]
+[2023-06-18 15:48:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 15:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lacuscore
+[2023-06-18 15:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymobiledevice3
+[2023-06-18 15:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2023-06-18 15:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jetkol42
+[2023-06-18 15:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyluban
+[2023-06-18 15:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiorobonect
+[2023-06-18 15:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mighty-logger
+[2023-06-18 15:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: findPlate
+[2023-06-18 15:48:24] WARNING root fetch - processPackages [jetkol42]: Skipping, unable to determine old version
+[2023-06-18 15:48:24] INFO root fetch - main [MainThread]: End processing [jetkol42] error
+[2023-06-18 15:48:24] INFO root fetch - processPackages [pymobiledevice3]: New version: [2.0.0] Old Version: [1.9.9]
+[2023-06-18 15:48:24] INFO root fetch - processPackages [lacuscore]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-06-18 15:48:24] INFO root fetch - processPackages [mighty-logger]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-18 15:48:24] WARNING root fetch - processPackages [findPlate]: Skipping, unable to determine old version
+[2023-06-18 15:48:24] INFO root fetch - main [MainThread]: End processing [findPlate] error
+[2023-06-18 15:48:24] WARNING root fetch - processPackages [pyluban]: Skipping, unable to determine old version
+[2023-06-18 15:48:24] INFO root fetch - main [MainThread]: End processing [pyluban] error
+[2023-06-18 15:48:24] INFO root fetch - processPackages [aiorobonect]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-18 15:48:24] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/b1/4c/b58b725116ac6cc5ce06c89ccea4111f4298ce3ced1a765122d520c41c09/aiorobonect-0.2.3.tar.gz
+[2023-06-18 15:48:24] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-18 15:48:24] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/0b/2e/84594eea63b23c38c184992ac0bf62bd2c2085c559231a0f97baa443d2ff/lacuscore-1.5.7.tar.gz
+[2023-06-18 15:48:24] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/1a/dc/c1c170d1eca1e7e3e63ff9343c412f6ff3471836fbd77f4fe064161a47b1/pymobiledevice3-1.9.9.tar.gz
+[2023-06-18 15:48:25] INFO root fetch - processPackages [mighty-logger]: Downloading https://files.pythonhosted.org/packages/61/df/0a4c59ae492b2a0a88b207499a057a65e334db63da6144a9728d1cbee989/mighty_logger-0.6.0.tar.gz
+[2023-06-18 15:48:25] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-18 15:48:25] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/92/a5/a1ef239e02db3600a041fe8d5bcbfdfecabdb656f7a692b48af449b380ba/aiorobonect-0.2.4.tar.gz
+[2023-06-18 15:48:25] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2023-06-18 15:48:25] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-0.2.3.tar.gz tmp/aiorobonect-0.2.4.tar.gz --markdown 20230618/a/aiorobonect/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-18 15:48:25] INFO root fetch - processPackages [mighty-logger]: Downloading https://files.pythonhosted.org/packages/52/ce/c551b3e740d3ee0972f1e7881e3c84f4296af0bb1f10d13c07dabf38a62e/mighty_logger-0.6.1.tar.gz
+[2023-06-18 15:48:25] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/e9/80/08c58e2c3c2df3a7c9bbfd770c7bbdc6845ecb24724ef11eb025573b15bd/lacuscore-1.5.8.tar.gz
+[2023-06-18 15:48:25] INFO root fetch - processPackages [mighty-logger]: executing diffoscope
+[2023-06-18 15:48:25] INFO root fetch - processPackages [mighty-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mighty_logger-0.6.0.tar.gz tmp/mighty_logger-0.6.1.tar.gz --markdown 20230618/m/mighty-logger/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-18 15:48:25] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2023-06-18 15:48:25] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.5.7.tar.gz tmp/lacuscore-1.5.8.tar.gz --markdown 20230618/l/lacuscore/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-06-18 15:48:25] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/f1/33/0ef2e097364fb6e71a8b3d6f2fe703c5052c6beb7af2997c0e32bed12495/pymobiledevice3-2.0.0.tar.gz
+[2023-06-18 15:48:25] INFO root fetch - processPackages [pymobiledevice3]: executing diffoscope
+[2023-06-18 15:48:25] INFO root fetch - processPackages [pymobiledevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymobiledevice3-1.9.9.tar.gz tmp/pymobiledevice3-2.0.0.tar.gz --markdown 20230618/p/pymobiledevice3/1.9.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-18 15:48:26] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.3.tar.gz]
+[2023-06-18 15:48:26] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.4.tar.gz]
+[2023-06-18 15:48:26] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2023-06-18 15:48:26] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.5.7.tar.gz]
+[2023-06-18 15:48:26] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.5.8.tar.gz]
+[2023-06-18 15:48:26] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2023-06-18 15:48:27] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-18 15:48:27] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-1.9.9.tar.gz]
+[2023-06-18 15:48:27] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.0.0.tar.gz]
+[2023-06-18 15:48:27] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
+[2023-06-18 15:48:27] INFO root fetch - processPackages [mighty-logger]: Remove: archive file [/home/abi/fetcher/tmp/mighty_logger-0.6.0.tar.gz]
+[2023-06-18 15:48:27] INFO root fetch - processPackages [mighty-logger]: Remove: archive file [/home/abi/fetcher/tmp/mighty_logger-0.6.1.tar.gz]
+[2023-06-18 15:48:27] INFO root fetch - main [MainThread]: End processing [mighty-logger]: success
+[2023-06-18 15:48:28] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-18 15:48:28] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230618/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-18 15:48:33] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-18 15:48:33] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-18 15:48:33] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-18 15:48:33] INFO root fetch - main [MainThread]: Store serial: [18550414]
