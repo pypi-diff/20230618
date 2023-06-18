@@ -6941,3 +6941,51 @@
 [2023-06-18 12:24:09] INFO root fetch - processPackages [cmake-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/cmake_pre_commit_hooks-1.9.1.tar.gz]
 [2023-06-18 12:24:09] INFO root fetch - main [MainThread]: End processing [cmake-pre-commit-hooks]: success
 [2023-06-18 12:24:09] INFO root fetch - main [MainThread]: Store serial: [18549253]
+[2023-06-18 12:29:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549253]
+[2023-06-18 12:29:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vagd
+[2023-06-18 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopyre
+[2023-06-18 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrestyle
+[2023-06-18 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stonefish
+[2023-06-18 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhyypapihawkmod
+[2023-06-18 12:29:17] INFO root fetch - processPackages [stonefish]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-18 12:29:17] INFO root fetch - processPackages [autopyre]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 12:29:17] INFO root fetch - processPackages [pyrestyle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 12:29:17] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [1.1.4b1] Old Version: [1.1.3]
+[2023-06-18 12:29:17] INFO root fetch - processPackages [vagd]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-18 12:29:18] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/a8/6c/c6ef70461a3438ac080f95dc6f92a6d936f5fd2bf489273959e7f2274c23/stonefish-0.3.8-py3-none-any.whl
+[2023-06-18 12:29:18] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/9c/48/3b49108d9d168ff5d81dbafc1ec015a53c6bc8b34053676facd6b8ea419b/vagd-0.4.2.tar.gz
+[2023-06-18 12:29:18] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/a5/45/aab9581a468d9b0a8e100df1a1dde0fb598a1c0194ed28614acb71c588c6/autopyre-0.0.1.tar.gz
+[2023-06-18 12:29:18] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/9a/bb/da78f65ab7153fca27fd9cefddb0a8ee02ba744d45028a15a5d5529200fe/pyrestyle-0.0.1.tar.gz
+[2023-06-18 12:29:18] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/13/16/41abc3d9a8f8cfff06dac0b74fa250ac36d9b32b456fdae5f64af1e87aa8/pyhyypapihawkmod-1.1.3.tar.gz
+[2023-06-18 12:29:18] INFO root fetch - processPackages [stonefish]: Downloading https://files.pythonhosted.org/packages/d1/a1/3faea75bc2e483e14078f7017fb42c494d76fc44900b71482d95eec9140a/stonefish-0.3.9-py3-none-any.whl
+[2023-06-18 12:29:18] INFO root fetch - processPackages [stonefish]: executing diffoscope
+[2023-06-18 12:29:18] INFO root fetch - processPackages [stonefish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish-0.3.8-py3-none-any.whl.zip tmp/stonefish-0.3.9-py3-none-any.whl.zip --markdown 20230618/s/stonefish/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-18 12:29:18] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/23/ef/6b4065b3ae6f9f19decd4e9ee9a10710a2ffd0eb0a1896ebd6203e22a4db/vagd-0.4.3.tar.gz
+[2023-06-18 12:29:18] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/48/59/a8282a95ad015b8a489fdf3e05a0fc8db08ec94818bdac5aa5b40e609468/pyhyypapihawkmod-1.1.4b1.tar.gz
+[2023-06-18 12:29:18] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/21/57/d737442e24c08edd18753150836252081fbac2600f4413ccac9a86a44cf9/autopyre-0.0.2.tar.gz
+[2023-06-18 12:29:18] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2023-06-18 12:29:18] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-0.4.2.tar.gz tmp/vagd-0.4.3.tar.gz --markdown 20230618/v/vagd/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-18 12:29:18] INFO root fetch - processPackages [pyrestyle]: Downloading https://files.pythonhosted.org/packages/a0/a4/e9ec0fb3b541315eedc520f0f182a5c74a3b207925881a6d80a8399c506b/pyrestyle-0.0.2.tar.gz
+[2023-06-18 12:29:18] INFO root fetch - processPackages [pyrestyle]: executing diffoscope
+[2023-06-18 12:29:18] INFO root fetch - processPackages [pyrestyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestyle-0.0.1.tar.gz tmp/pyrestyle-0.0.2.tar.gz --markdown 20230618/p/pyrestyle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 12:29:18] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 12:29:18] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.1.tar.gz tmp/autopyre-0.0.2.tar.gz --markdown 20230618/a/autopyre/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 12:29:18] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-06-18 12:29:18] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-1.1.3.tar.gz tmp/pyhyypapihawkmod-1.1.4b1.tar.gz --markdown 20230618/p/pyhyypapihawkmod/1.1.3-1.1.4b1/diff.md --exclude *.pyd
+[2023-06-18 12:29:19] INFO root fetch - processPackages [stonefish]: Remove: archive file [/home/abi/fetcher/tmp/stonefish-0.3.8-py3-none-any.whl.zip]
+[2023-06-18 12:29:19] INFO root fetch - processPackages [stonefish]: Remove: archive file [/home/abi/fetcher/tmp/stonefish-0.3.9-py3-none-any.whl.zip]
+[2023-06-18 12:29:19] INFO root fetch - main [MainThread]: End processing [stonefish]: success
+[2023-06-18 12:29:19] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.2.tar.gz]
+[2023-06-18 12:29:19] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.3.tar.gz]
+[2023-06-18 12:29:19] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2023-06-18 12:29:19] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.1.tar.gz]
+[2023-06-18 12:29:19] INFO root fetch - processPackages [pyrestyle]: Remove: archive file [/home/abi/fetcher/tmp/pyrestyle-0.0.2.tar.gz]
+[2023-06-18 12:29:19] INFO root fetch - main [MainThread]: End processing [pyrestyle]: success
+[2023-06-18 12:29:19] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.1.3.tar.gz]
+[2023-06-18 12:29:19] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.1.4b1.tar.gz]
+[2023-06-18 12:29:19] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-06-18 12:29:19] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.1.tar.gz]
+[2023-06-18 12:29:19] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.2.tar.gz]
+[2023-06-18 12:29:19] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 12:29:19] INFO root fetch - main [MainThread]: Store serial: [18549267]
