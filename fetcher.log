@@ -10181,3 +10181,266 @@ EOFError: EOF read where object expected
 [2023-06-18 16:31:26] INFO root fetch - processPackages [notctyparser]: Remove: archive file [/home/abi/fetcher/tmp/notctyparser-23.6.4.tar.gz]
 [2023-06-18 16:31:26] INFO root fetch - main [MainThread]: End processing [notctyparser]: success
 [2023-06-18 16:31:26] INFO root fetch - main [MainThread]: Store serial: [18550708]
+[2023-06-18 16:36:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550708]
+[2023-06-18 16:36:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mycotools
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mycotools
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycotools
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotpot-zzy
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litenv
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-partial-tagger
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hep-paper-manager
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scratchattach
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dnf-humbug
+[2023-06-18 16:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autonomy-dev
+[2023-06-18 16:36:34] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-06-18 16:36:34] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-06-18 16:36:34] INFO root fetch - processPackages [hotpot-zzy]: New version: [0.2.6] Old Version: [0.2.3]
+[2023-06-18 16:36:34] INFO root fetch - processPackages [dnf-humbug]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 16:36:34] INFO root fetch - processPackages [litenv]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 16:36:34] INFO root fetch - processPackages [hep-paper-manager]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 16:36:34] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-06-18 16:36:35] INFO root fetch - processPackages [autonomy-dev]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-18 16:36:35] INFO root fetch - processPackages [pytorch-partial-tagger]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 16:36:35] INFO root fetch - processPackages [scratchattach]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-18 16:36:35] INFO root fetch - processPackages [dnf-humbug]: Downloading https://files.pythonhosted.org/packages/55/01/525dbbc7dd7d4d63a7b07413d9e8862590f99153348513901dda60dda0d0/dnf_humbug-0.0.8-py3-none-any.whl
+[2023-06-18 16:36:35] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/5c/b8/3ddf6e83ad2e43b603e5a7449f3238d3eb6c0255bfe459e5f09796e2d5f0/autonomy_dev-0.1.5.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/e1/ba/eae2365828949e58c6ec804d8aa896d43dc965ad71b3a366bae6461721dd/hotpot-zzy-0.2.3.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/7e/6b/8561317788fc781412ab58417fb7bf871bd1e912c27d44fce5274dca36a5/pytorch_partial_tagger-0.1.8.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [hep-paper-manager]: Downloading https://files.pythonhosted.org/packages/9c/e2/39cd19d01ffe4db9a167014cc4299f2ece49bd42f239ccd0a11ad8406ae8/hep_paper_manager-0.1.0.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [litenv]: Downloading https://files.pythonhosted.org/packages/1e/f8/ca2a3e7098d9f6f240309e4725eef653a06547070c4e44c13d2500542cce/litenv-0.0.6.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/06/b6/9695df18efd59d47fb5f45f84fac22aac4480a375435cf7ece5886209600/scratchattach-1.2.5.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [dnf-humbug]: Downloading https://files.pythonhosted.org/packages/f7/e8/b10e8c820442d0a3472877038dc0855c42e96661299fa21461b8ac2cdc80/dnf_humbug-0.0.9-py3-none-any.whl
+[2023-06-18 16:36:35] INFO root fetch - processPackages [dnf-humbug]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [dnf-humbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnf_humbug-0.0.8-py3-none-any.whl.zip tmp/dnf_humbug-0.0.9-py3-none-any.whl.zip --markdown 20230618/d/dnf-humbug/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 16:36:35] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/5b/da/9bdafc9af283998a219b422aa9e3820013320e5a311e77518d271129b7c5/autonomy_dev-0.1.6.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [hotpot-zzy]: Downloading https://files.pythonhosted.org/packages/5f/43/89a2ef843d9e60e6ee7694061e91ba546c9dbcf8792be6b1bedcf3eccd0e/hotpot-zzy-0.2.6.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [hep-paper-manager]: Downloading https://files.pythonhosted.org/packages/fe/26/f0936d3ff5c04481fd8744a3552faadde70fb78c1e9240d6ff977a2e2ec6/hep_paper_manager-0.1.1.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [litenv]: Downloading https://files.pythonhosted.org/packages/8c/da/edea33f890d46e5852b9d58fa5a86806437afc1d6379f0af1695170d16e0/litenv-0.0.7.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/1e/0c/a89144cf93036b8a5329860b70f04f1d73f27ff2bddf78ba7546c6887eac/scratchattach-1.2.6.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [autonomy-dev]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [autonomy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomy_dev-0.1.5.tar.gz tmp/autonomy_dev-0.1.6.tar.gz --markdown 20230618/a/autonomy-dev/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-18 16:36:35] INFO root fetch - processPackages [hotpot-zzy]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [hotpot-zzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotpot-zzy-0.2.3.tar.gz tmp/hotpot-zzy-0.2.6.tar.gz --markdown 20230618/h/hotpot-zzy/0.2.3-0.2.6/diff.md --exclude *.pyd
+[2023-06-18 16:36:35] INFO root fetch - processPackages [litenv]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [litenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenv-0.0.6.tar.gz tmp/litenv-0.0.7.tar.gz --markdown 20230618/l/litenv/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 16:36:35] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/08/d7/0f085c0799a05d076d4b7e0bada51e7b26039693b77577c29c1afae45260/pytorch_partial_tagger-0.1.9.tar.gz
+[2023-06-18 16:36:35] INFO root fetch - processPackages [hep-paper-manager]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [hep-paper-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hep_paper_manager-0.1.0.tar.gz tmp/hep_paper_manager-0.1.1.tar.gz --markdown 20230618/h/hep-paper-manager/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 16:36:35] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.2.5.tar.gz tmp/scratchattach-1.2.6.tar.gz --markdown 20230618/s/scratchattach/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-18 16:36:35] INFO root fetch - processPackages [pytorch-partial-tagger]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [pytorch-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_partial_tagger-0.1.8.tar.gz tmp/pytorch_partial_tagger-0.1.9.tar.gz --markdown 20230618/p/pytorch-partial-tagger/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230618/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230618/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-06-18 16:36:35] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230618/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-06-18 16:36:36] INFO root fetch - processPackages [dnf-humbug]: Remove: archive file [/home/abi/fetcher/tmp/dnf_humbug-0.0.8-py3-none-any.whl.zip]
+[2023-06-18 16:36:36] INFO root fetch - processPackages [dnf-humbug]: Remove: archive file [/home/abi/fetcher/tmp/dnf_humbug-0.0.9-py3-none-any.whl.zip]
+[2023-06-18 16:36:36] INFO root fetch - main [MainThread]: End processing [dnf-humbug]: success
+[2023-06-18 16:36:36] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.1.5.tar.gz]
+[2023-06-18 16:36:36] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.1.6.tar.gz]
+[2023-06-18 16:36:36] INFO root fetch - main [MainThread]: End processing [autonomy-dev]: success
+[2023-06-18 16:36:37] INFO root fetch - processPackages [hep-paper-manager]: Remove: archive file [/home/abi/fetcher/tmp/hep_paper_manager-0.1.0.tar.gz]
+[2023-06-18 16:36:37] INFO root fetch - processPackages [hep-paper-manager]: Remove: archive file [/home/abi/fetcher/tmp/hep_paper_manager-0.1.1.tar.gz]
+[2023-06-18 16:36:37] INFO root fetch - main [MainThread]: End processing [hep-paper-manager]: success
+[2023-06-18 16:36:37] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-06-18 16:36:37] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-06-18 16:36:37] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-06-18 16:36:37] ERROR root fetch - processPackages [mycotools]: Diffoscope failed: gzip: tmp/mycotools-0.9b9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/mycotools-0.9b9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-18 16:36:37] INFO root fetch - main [MainThread]: End processing [mycotools] error
+[2023-06-18 16:36:38] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.5.tar.gz]
+[2023-06-18 16:36:38] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.6.tar.gz]
+[2023-06-18 16:36:38] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-06-18 16:36:38] ERROR root fetch - processPackages [mycotools]: Diffoscope failed: gzip: tmp/mycotools-0.9b9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/mycotools-0.9b9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-18 16:36:38] INFO root fetch - main [MainThread]: End processing [mycotools] error
+[2023-06-18 16:36:38] INFO root fetch - processPackages [litenv]: Remove: archive file [/home/abi/fetcher/tmp/litenv-0.0.6.tar.gz]
+[2023-06-18 16:36:38] INFO root fetch - processPackages [litenv]: Remove: archive file [/home/abi/fetcher/tmp/litenv-0.0.7.tar.gz]
+[2023-06-18 16:36:38] INFO root fetch - main [MainThread]: End processing [litenv]: success
+[2023-06-18 16:36:39] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.2.3.tar.gz]
+[2023-06-18 16:36:39] INFO root fetch - processPackages [hotpot-zzy]: Remove: archive file [/home/abi/fetcher/tmp/hotpot-zzy-0.2.6.tar.gz]
+[2023-06-18 16:36:39] INFO root fetch - main [MainThread]: End processing [hotpot-zzy]: success
+[2023-06-18 16:36:40] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.8.tar.gz]
+[2023-06-18 16:36:40] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.9.tar.gz]
+[2023-06-18 16:36:40] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
+[2023-06-18 16:36:40] INFO root fetch - main [MainThread]: Store serial: [18550737]
