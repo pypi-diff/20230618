@@ -4940,3 +4940,33 @@
 [2023-06-18 07:57:58] INFO root fetch - processPackages [clld-morphology-plugin]: Remove: archive file [/home/abi/fetcher/tmp/clld_morphology_plugin-0.0.8.tar.gz]
 [2023-06-18 07:57:58] INFO root fetch - main [MainThread]: End processing [clld-morphology-plugin]: success
 [2023-06-18 07:57:58] INFO root fetch - main [MainThread]: Store serial: [18548331]
+[2023-06-18 08:03:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548331]
+[2023-06-18 08:03:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 08:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdevpy
+[2023-06-18 08:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-06-18 08:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syft
+[2023-06-18 08:03:06] INFO root fetch - processPackages [sdevpy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 08:03:06] INFO root fetch - processPackages [syft]: New version: [0.8.1b9] Old Version: [0.8.1b8]
+[2023-06-18 08:03:06] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/07/77/fc989952a4e75656c5255de52b7c9328896a5fe7677bf76ceb86d6f5a257/sdevpy-0.0.7.tar.gz
+[2023-06-18 08:03:06] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-18 08:03:07] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e3/3d/5b1e997a76c8f4ef86d1abb0afd88a1c9d49128cb6c0538831822dccb376/syft-0.8.1b8.tar.gz
+[2023-06-18 08:03:07] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-18 08:03:07] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/ba/d0/c06cbd8389508003b509f307a5445553c1c5405006642946a9590861cb6a/sdevpy-0.0.8.tar.gz
+[2023-06-18 08:03:07] INFO root fetch - processPackages [sdevpy]: executing diffoscope
+[2023-06-18 08:03:07] INFO root fetch - processPackages [sdevpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdevpy-0.0.7.tar.gz tmp/sdevpy-0.0.8.tar.gz --markdown 20230618/s/sdevpy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 08:03:07] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-18 08:03:07] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-18 08:03:07] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230618/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-18 08:03:07] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/99/b8/426fd52883d499fcb99f3f3e79dc3d626b88f86a44d1105418a78457e80c/syft-0.8.1b9.tar.gz
+[2023-06-18 08:03:07] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-18 08:03:07] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.1b8.tar.gz tmp/syft-0.8.1b9.tar.gz --markdown 20230618/s/syft/0.8.1b8-0.8.1b9/diff.md --exclude *.pyd
+[2023-06-18 08:03:08] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-18 08:03:08] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-18 08:03:08] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-18 08:03:08] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.7.tar.gz]
+[2023-06-18 08:03:08] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.8.tar.gz]
+[2023-06-18 08:03:08] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
+[2023-06-18 08:03:09] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b8.tar.gz]
+[2023-06-18 08:03:09] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b9.tar.gz]
+[2023-06-18 08:03:09] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-18 08:03:09] INFO root fetch - main [MainThread]: Store serial: [18548340]
