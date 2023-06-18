@@ -4495,3 +4495,45 @@
 [2023-06-18 06:41:24] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.3.0-cp39-none-any.whl.zip]
 [2023-06-18 06:41:24] INFO root fetch - main [MainThread]: End processing [dal-python]: success
 [2023-06-18 06:41:24] INFO root fetch - main [MainThread]: Store serial: [18548113]
+[2023-06-18 06:46:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548113]
+[2023-06-18 06:46:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 06:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweatDB
+[2023-06-18 06:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vertex-protocol
+[2023-06-18 06:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-celery-beat
+[2023-06-18 06:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-mcp9808
+[2023-06-18 06:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoconf-language-server
+[2023-06-18 06:46:32] INFO root fetch - processPackages [vertex-protocol]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-18 06:46:32] ERROR root fetch - processPackages [micropython-mcp9808]: Unable to get metadata: No such project 'micropython-mcp9808'
+[2023-06-18 06:46:32] INFO root fetch - main [MainThread]: End processing [micropython-mcp9808] error
+[2023-06-18 06:46:32] INFO root fetch - processPackages [sweatDB]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-18 06:46:32] INFO root fetch - processPackages [autoconf-language-server]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 06:46:32] INFO root fetch - processPackages [sqlalchemy-celery-beat]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-18 06:46:32] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/8b/5d/902dd289cc310d1581855d1fd23cb8dcc97ebb416ea0a7fb56917f09812c/sqlalchemy_celery_beat-0.5.0.tar.gz
+[2023-06-18 06:46:32] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/11/29/cab7c3caf149570a287805a13732c3804bc82335f5a82f1c29047369c9f3/sweatDB-2.0.4.tar.gz
+[2023-06-18 06:46:32] INFO root fetch - processPackages [vertex-protocol]: Downloading https://files.pythonhosted.org/packages/e8/7c/0f845ac1e625d8cc67850397baab11a24d85b3cf6ed688e83b70dcd2238a/vertex_protocol-1.1.0.tar.gz
+[2023-06-18 06:46:32] INFO root fetch - processPackages [autoconf-language-server]: Downloading https://files.pythonhosted.org/packages/7e/32/a38bb639c859c55e3f3ea3250856ff8cce1a13dbf8c0fa75dab71df92092/autoconf-language-server-0.0.1.tar.gz
+[2023-06-18 06:46:33] INFO root fetch - processPackages [sweatDB]: Downloading https://files.pythonhosted.org/packages/a8/f9/1d34abf110082cc6dcbe87ac7635ce55e62cbfcc83abe2f099ec800bf141/sweatDB-2.0.5.tar.gz
+[2023-06-18 06:46:33] INFO root fetch - processPackages [autoconf-language-server]: Downloading https://files.pythonhosted.org/packages/96/58/badf15fa0fe6a9339d1948751f25a67e28573e30937595e275ac1045e774/autoconf-language-server-0.0.2.tar.gz
+[2023-06-18 06:46:33] INFO root fetch - processPackages [vertex-protocol]: Downloading https://files.pythonhosted.org/packages/78/bb/692c14eb909fb335e29f6ae84d0413a258763c4de91d1d9e7dc08998afb4/vertex_protocol-1.1.1.tar.gz
+[2023-06-18 06:46:33] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/10/23/4b7d7e927917e72405c82513964d21ecf84966d987cada1fd14741cee7f7/sqlalchemy_celery_beat-0.5.1.tar.gz
+[2023-06-18 06:46:33] INFO root fetch - processPackages [autoconf-language-server]: executing diffoscope
+[2023-06-18 06:46:33] INFO root fetch - processPackages [autoconf-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-language-server-0.0.1.tar.gz tmp/autoconf-language-server-0.0.2.tar.gz --markdown 20230618/a/autoconf-language-server/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 06:46:33] INFO root fetch - processPackages [vertex-protocol]: executing diffoscope
+[2023-06-18 06:46:33] INFO root fetch - processPackages [vertex-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertex_protocol-1.1.0.tar.gz tmp/vertex_protocol-1.1.1.tar.gz --markdown 20230618/v/vertex-protocol/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-18 06:46:33] INFO root fetch - processPackages [sweatDB]: executing diffoscope
+[2023-06-18 06:46:33] INFO root fetch - processPackages [sweatDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweatDB-2.0.4.tar.gz tmp/sweatDB-2.0.5.tar.gz --markdown 20230618/s/sweatDB/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-18 06:46:33] INFO root fetch - processPackages [sqlalchemy-celery-beat]: executing diffoscope
+[2023-06-18 06:46:33] INFO root fetch - processPackages [sqlalchemy-celery-beat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_celery_beat-0.5.0.tar.gz tmp/sqlalchemy_celery_beat-0.5.1.tar.gz --markdown 20230618/s/sqlalchemy-celery-beat/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-18 06:46:34] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.4.tar.gz]
+[2023-06-18 06:46:34] INFO root fetch - processPackages [sweatDB]: Remove: archive file [/home/abi/fetcher/tmp/sweatDB-2.0.5.tar.gz]
+[2023-06-18 06:46:34] INFO root fetch - main [MainThread]: End processing [sweatDB]: success
+[2023-06-18 06:46:34] INFO root fetch - processPackages [autoconf-language-server]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-language-server-0.0.1.tar.gz]
+[2023-06-18 06:46:34] INFO root fetch - processPackages [autoconf-language-server]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-language-server-0.0.2.tar.gz]
+[2023-06-18 06:46:34] INFO root fetch - main [MainThread]: End processing [autoconf-language-server]: success
+[2023-06-18 06:46:34] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.5.0.tar.gz]
+[2023-06-18 06:46:34] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.5.1.tar.gz]
+[2023-06-18 06:46:34] INFO root fetch - main [MainThread]: End processing [sqlalchemy-celery-beat]: success
+[2023-06-18 06:47:27] INFO root fetch - processPackages [vertex-protocol]: Remove: archive file [/home/abi/fetcher/tmp/vertex_protocol-1.1.0.tar.gz]
+[2023-06-18 06:47:27] INFO root fetch - processPackages [vertex-protocol]: Remove: archive file [/home/abi/fetcher/tmp/vertex_protocol-1.1.1.tar.gz]
+[2023-06-18 06:47:27] INFO root fetch - main [MainThread]: End processing [vertex-protocol]: success
+[2023-06-18 06:47:27] INFO root fetch - main [MainThread]: Store serial: [18548130]
