@@ -5744,3 +5744,33 @@
 [2023-06-18 10:10:07] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0b0.tar.gz]
 [2023-06-18 10:10:07] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
 [2023-06-18 10:10:07] INFO root fetch - main [MainThread]: Store serial: [18548687]
+[2023-06-18 10:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548687]
+[2023-06-18 10:15:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 10:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minecraft-launcher-lib
+[2023-06-18 10:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kraken-rebalance-bot
+[2023-06-18 10:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: struid
+[2023-06-18 10:15:16] INFO root fetch - processPackages [struid]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 10:15:16] INFO root fetch - processPackages [kraken-rebalance-bot]: New version: [1.0.0] Old Version: [0.5.7.3]
+[2023-06-18 10:15:16] INFO root fetch - processPackages [minecraft-launcher-lib]: New version: [6.1] Old Version: [6.0]
+[2023-06-18 10:15:16] INFO root fetch - processPackages [struid]: Downloading https://files.pythonhosted.org/packages/11/0f/bd643be2a83e64e7e94ec12c4ccb3cf59089571358e48a6e1746a9e8c4d2/struid-0.0.3.tar.gz
+[2023-06-18 10:15:16] INFO root fetch - processPackages [kraken-rebalance-bot]: Downloading https://files.pythonhosted.org/packages/4f/99/064a11e416617c5542dc6e5f58ab978fd4c29ae5d45c42f737f5bd973e78/kraken-rebalance-bot-0.5.7.3.tar.gz
+[2023-06-18 10:15:16] INFO root fetch - processPackages [minecraft-launcher-lib]: Downloading https://files.pythonhosted.org/packages/90/a7/3d49121f21fa23e41474d7750b6d4a7f6face8eec768ca6a79c66ad6f1c2/minecraft-launcher-lib-6.0.tar.gz
+[2023-06-18 10:15:16] INFO root fetch - processPackages [struid]: Downloading https://files.pythonhosted.org/packages/ab/8b/b982fef31a9bb5dca512f8fd9e31876c046723b4df8f75f806746c03799c/struid-0.0.4.tar.gz
+[2023-06-18 10:15:16] INFO root fetch - processPackages [struid]: executing diffoscope
+[2023-06-18 10:15:16] INFO root fetch - processPackages [struid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struid-0.0.3.tar.gz tmp/struid-0.0.4.tar.gz --markdown 20230618/s/struid/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 10:15:16] INFO root fetch - processPackages [minecraft-launcher-lib]: Downloading https://files.pythonhosted.org/packages/44/b4/95ce57b40f27f5e86737485b8996686d64f382238d4e55be78ca2fa52c19/minecraft-launcher-lib-6.1.tar.gz
+[2023-06-18 10:15:16] INFO root fetch - processPackages [minecraft-launcher-lib]: executing diffoscope
+[2023-06-18 10:15:16] INFO root fetch - processPackages [minecraft-launcher-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-launcher-lib-6.0.tar.gz tmp/minecraft-launcher-lib-6.1.tar.gz --markdown 20230618/m/minecraft-launcher-lib/6.0-6.1/diff.md --exclude *.pyd
+[2023-06-18 10:15:16] INFO root fetch - processPackages [kraken-rebalance-bot]: Downloading https://files.pythonhosted.org/packages/06/48/117e953338f664458ab9ac4f93fa10721818e7bcbbe6ff27d3a47dcaeaa8/kraken-rebalance-bot-1.0.0.tar.gz
+[2023-06-18 10:15:16] INFO root fetch - processPackages [kraken-rebalance-bot]: executing diffoscope
+[2023-06-18 10:15:16] INFO root fetch - processPackages [kraken-rebalance-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-rebalance-bot-0.5.7.3.tar.gz tmp/kraken-rebalance-bot-1.0.0.tar.gz --markdown 20230618/k/kraken-rebalance-bot/0.5.7.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-18 10:15:17] INFO root fetch - processPackages [struid]: Remove: archive file [/home/abi/fetcher/tmp/struid-0.0.3.tar.gz]
+[2023-06-18 10:15:17] INFO root fetch - processPackages [struid]: Remove: archive file [/home/abi/fetcher/tmp/struid-0.0.4.tar.gz]
+[2023-06-18 10:15:17] INFO root fetch - main [MainThread]: End processing [struid]: success
+[2023-06-18 10:15:17] INFO root fetch - processPackages [kraken-rebalance-bot]: Remove: archive file [/home/abi/fetcher/tmp/kraken-rebalance-bot-0.5.7.3.tar.gz]
+[2023-06-18 10:15:17] INFO root fetch - processPackages [kraken-rebalance-bot]: Remove: archive file [/home/abi/fetcher/tmp/kraken-rebalance-bot-1.0.0.tar.gz]
+[2023-06-18 10:15:17] INFO root fetch - main [MainThread]: End processing [kraken-rebalance-bot]: success
+[2023-06-18 10:15:17] INFO root fetch - processPackages [minecraft-launcher-lib]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-launcher-lib-6.0.tar.gz]
+[2023-06-18 10:15:17] INFO root fetch - processPackages [minecraft-launcher-lib]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-launcher-lib-6.1.tar.gz]
+[2023-06-18 10:15:17] INFO root fetch - main [MainThread]: End processing [minecraft-launcher-lib]: success
+[2023-06-18 10:15:17] INFO root fetch - main [MainThread]: Store serial: [18548697]
