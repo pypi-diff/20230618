@@ -8497,3 +8497,69 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:29:13] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.8.0.tar.gz]
 [2023-06-18 14:29:13] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-06-18 14:29:13] INFO root fetch - main [MainThread]: Store serial: [18549978]
+[2023-06-18 14:34:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549978]
+[2023-06-18 14:34:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-18 14:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: project.harpy
+[2023-06-18 14:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etm-dgraham
+[2023-06-18 14:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandoc-latex-newpage
+[2023-06-18 14:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-06-18 14:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transitfit
+[2023-06-18 14:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: img2tags
+[2023-06-18 14:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xsdata-ech
+[2023-06-18 14:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readthis
+[2023-06-18 14:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langflow
+[2023-06-18 14:34:23] INFO root fetch - processPackages [project.harpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 14:34:23] WARNING root fetch - processPackages [img2tags]: Skipping, unable to determine old version
+[2023-06-18 14:34:23] INFO root fetch - main [MainThread]: End processing [img2tags] error
+[2023-06-18 14:34:23] INFO root fetch - processPackages [pandoc-latex-newpage]: New version: [1.0.0.1] Old Version: [1.0.0]
+[2023-06-18 14:34:23] INFO root fetch - processPackages [transitfit]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-18 14:34:23] INFO root fetch - processPackages [etm-dgraham]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-06-18 14:34:23] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-06-18 14:34:23] WARNING root fetch - processPackages [readthis]: Skipping, unable to determine old version
+[2023-06-18 14:34:23] INFO root fetch - main [MainThread]: End processing [readthis] error
+[2023-06-18 14:34:23] WARNING root fetch - processPackages [xsdata-ech]: Skipping, unable to determine old version
+[2023-06-18 14:34:23] INFO root fetch - processPackages [langflow]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-18 14:34:23] INFO root fetch - main [MainThread]: End processing [xsdata-ech] error
+[2023-06-18 14:34:23] INFO root fetch - processPackages [transitfit]: Downloading https://files.pythonhosted.org/packages/9f/84/ca7f7a2802ec31809f8916c2faf32b0cc9c54aa25a7ef71d0b8b5369c006/transitfit-3.0.8.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/7f/bb/1edf2aca68befb3ac7cd99678c6c16e5ec92826b64a4111fe872631fa4d5/etm-dgraham-5.1.0.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [project.harpy]: Downloading https://files.pythonhosted.org/packages/2a/ad/0b2780e8beb79e3825ee9d1d6495fe7e115ca17755dd1e9fde9a0318fb9b/project.harpy-0.0.3.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [pandoc-latex-newpage]: Downloading https://files.pythonhosted.org/packages/c0/ae/fae1525ba0113fd88d66804cd8d055ac4bf671f11cc8bd08704de5f6d939/pandoc_latex_newpage-1.0.0.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/29/b9928db22178efec9ab4c7ea254fc4d10b9520efdd41ebad181472ded4c9/langflow-0.1.0.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [transitfit]: Downloading https://files.pythonhosted.org/packages/7e/2c/e1284061be11e6b1c55237e7f4edbca2a8beabd37224f77993383202d484/transitfit-3.0.9.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/af/13/c7cb7b46112f8475fd2641b175d8ce13c50b3727abc7e183500673d2e7dc/etm-dgraham-5.1.1.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [project.harpy]: Downloading https://files.pythonhosted.org/packages/76/81/fff1d82fb2defb3ca3e7c3c149ed5521a67fc6758674e4d21b0c6ecbe7fb/project.harpy-0.0.4.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [pandoc-latex-newpage]: Downloading https://files.pythonhosted.org/packages/9b/3e/c4b9d4ec447278d0be3ca57338084ea98377c32ae25839e3175970f26a78/pandoc_latex_newpage-1.0.0.1.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-06-18 14:34:23] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.1.0.tar.gz tmp/etm-dgraham-5.1.1.tar.gz --markdown 20230618/e/etm-dgraham/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-06-18 14:34:23] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-18 14:34:23] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230618/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-06-18 14:34:23] INFO root fetch - processPackages [transitfit]: executing diffoscope
+[2023-06-18 14:34:23] INFO root fetch - processPackages [transitfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transitfit-3.0.8.tar.gz tmp/transitfit-3.0.9.tar.gz --markdown 20230618/t/transitfit/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-18 14:34:23] INFO root fetch - processPackages [pandoc-latex-newpage]: executing diffoscope
+[2023-06-18 14:34:23] INFO root fetch - processPackages [pandoc-latex-newpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc_latex_newpage-1.0.0.tar.gz tmp/pandoc_latex_newpage-1.0.0.1.tar.gz --markdown 20230618/p/pandoc-latex-newpage/1.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-06-18 14:34:23] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/d6/4b/1ba99016c9effe6daa4d434f42c47b93efdbcc46080850f99c9f2675ee48/langflow-0.1.2.tar.gz
+[2023-06-18 14:34:23] INFO root fetch - processPackages [project.harpy]: executing diffoscope
+[2023-06-18 14:34:23] INFO root fetch - processPackages [project.harpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project.harpy-0.0.3.tar.gz tmp/project.harpy-0.0.4.tar.gz --markdown 20230618/p/project.harpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 14:34:24] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-06-18 14:34:24] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.1.0.tar.gz tmp/langflow-0.1.2.tar.gz --markdown 20230618/l/langflow/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 14:34:25] INFO root fetch - processPackages [pandoc-latex-newpage]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_newpage-1.0.0.tar.gz]
+[2023-06-18 14:34:25] INFO root fetch - processPackages [pandoc-latex-newpage]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_latex_newpage-1.0.0.1.tar.gz]
+[2023-06-18 14:34:25] INFO root fetch - main [MainThread]: End processing [pandoc-latex-newpage]: success
+[2023-06-18 14:34:25] INFO root fetch - processPackages [transitfit]: Remove: archive file [/home/abi/fetcher/tmp/transitfit-3.0.8.tar.gz]
+[2023-06-18 14:34:25] INFO root fetch - processPackages [transitfit]: Remove: archive file [/home/abi/fetcher/tmp/transitfit-3.0.9.tar.gz]
+[2023-06-18 14:34:25] INFO root fetch - main [MainThread]: End processing [transitfit]: success
+[2023-06-18 14:34:25] INFO root fetch - processPackages [project.harpy]: Remove: archive file [/home/abi/fetcher/tmp/project.harpy-0.0.3.tar.gz]
+[2023-06-18 14:34:25] INFO root fetch - processPackages [project.harpy]: Remove: archive file [/home/abi/fetcher/tmp/project.harpy-0.0.4.tar.gz]
+[2023-06-18 14:34:25] INFO root fetch - main [MainThread]: End processing [project.harpy]: success
+[2023-06-18 14:34:25] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-06-18 14:34:25] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-06-18 14:34:25] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-18 14:34:26] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.1.0.tar.gz]
+[2023-06-18 14:34:26] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.1.2.tar.gz]
+[2023-06-18 14:34:26] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-06-18 14:34:27] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.0.tar.gz]
+[2023-06-18 14:34:27] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.1.tar.gz]
+[2023-06-18 14:34:27] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-06-18 14:34:27] INFO root fetch - main [MainThread]: Store serial: [18550015]
