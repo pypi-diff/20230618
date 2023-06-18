@@ -8563,3 +8563,27 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:34:27] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.1.tar.gz]
 [2023-06-18 14:34:27] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
 [2023-06-18 14:34:27] INFO root fetch - main [MainThread]: Store serial: [18550015]
+[2023-06-18 14:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550015]
+[2023-06-18 14:39:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 14:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyts
+[2023-06-18 14:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdf2txt
+[2023-06-18 14:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: the-one-sdk
+[2023-06-18 14:39:36] INFO root fetch - processPackages [pdf2txt]: New version: [0.7.13] Old Version: [0.7.12]
+[2023-06-18 14:39:36] INFO root fetch - processPackages [pyts]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 14:39:36] WARNING root fetch - processPackages [the-one-sdk]: Skipping, unable to determine old version
+[2023-06-18 14:39:36] INFO root fetch - main [MainThread]: End processing [the-one-sdk] error
+[2023-06-18 14:39:36] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/cd/79/a7bfa9743353bb1ca6538230228737b45c0aa5869d6239bdf8f59d248a02/pdf2txt-0.7.12-py3-none-any.whl
+[2023-06-18 14:39:37] INFO root fetch - processPackages [pyts]: Downloading https://files.pythonhosted.org/packages/5f/c1/099a2b01514b6c0331cdecb62eccd6abd254acd9ce6d81612b6287662c98/pyts-0.8.0.tar.gz
+[2023-06-18 14:39:37] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/e0/ed/f1d238b211eb190a8de37b446b375cdfd5d00c2bfa52d7b1bb3d286323ed/pdf2txt-0.7.13-py3-none-any.whl
+[2023-06-18 14:39:37] INFO root fetch - processPackages [pdf2txt]: executing diffoscope
+[2023-06-18 14:39:37] INFO root fetch - processPackages [pdf2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf2txt-0.7.12-py3-none-any.whl.zip tmp/pdf2txt-0.7.13-py3-none-any.whl.zip --markdown 20230618/p/pdf2txt/0.7.12-0.7.13/diff.md --exclude *.pyd
+[2023-06-18 14:39:37] INFO root fetch - processPackages [pyts]: Downloading https://files.pythonhosted.org/packages/ca/71/68c48fb93333b8372cf49ab02c348933f64882910c33f6fb45d8577b3460/pyts-0.9.0.tar.gz
+[2023-06-18 14:39:38] INFO root fetch - processPackages [pyts]: executing diffoscope
+[2023-06-18 14:39:38] INFO root fetch - processPackages [pyts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyts-0.8.0.tar.gz tmp/pyts-0.9.0.tar.gz --markdown 20230618/p/pyts/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 14:39:40] INFO root fetch - processPackages [pyts]: Remove: archive file [/home/abi/fetcher/tmp/pyts-0.8.0.tar.gz]
+[2023-06-18 14:39:40] INFO root fetch - processPackages [pyts]: Remove: archive file [/home/abi/fetcher/tmp/pyts-0.9.0.tar.gz]
+[2023-06-18 14:39:40] INFO root fetch - main [MainThread]: End processing [pyts]: success
+[2023-06-18 14:40:31] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.12-py3-none-any.whl.zip]
+[2023-06-18 14:40:31] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.13-py3-none-any.whl.zip]
+[2023-06-18 14:40:31] INFO root fetch - main [MainThread]: End processing [pdf2txt]: success
+[2023-06-18 14:40:31] INFO root fetch - main [MainThread]: Store serial: [18550025]
