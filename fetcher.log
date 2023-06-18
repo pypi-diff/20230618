@@ -7584,3 +7584,104 @@
 [2023-06-18 13:27:40] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
 [2023-06-18 13:27:40] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
 [2023-06-18 13:27:40] INFO root fetch - main [MainThread]: Store serial: [18549571]
+[2023-06-18 13:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549571]
+[2023-06-18 13:32:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezlib
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchserve-nightly
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-archiver-nightly
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-workflow-archiver-nightly
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ProTaska-GPT
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: etm-dgraham
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nobuco
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandocker-lua-filters
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-axes
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-nano
+[2023-06-18 13:32:49] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-18 13:32:49] INFO root fetch - processPackages [pandocker-lua-filters]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-06-18 13:32:49] WARNING root fetch - processPackages [ezlib]: Skipping, unable to determine old version
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ezlib]: Start processing: bigdl-llm
+[2023-06-18 13:32:49] INFO root fetch - main [MainThread]: End processing [ezlib] error
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ProTaska-GPT]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 13:32:49] INFO root fetch - processPackages [nobuco]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-18 13:32:49] INFO root fetch - processPackages [etm-dgraham]: New version: [5.1.0] Old Version: [5.0.9]
+[2023-06-18 13:32:49] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-18 13:32:49] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-18 13:32:49] INFO root fetch - processPackages [django-axes]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-06-18 13:32:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-18 13:32:49] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-18 13:32:49] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/79/be/62f503a14e7ff4554a6df415b4ccce51b902eeb0978c9684d2093f9c8691/ProTaska-GPT-0.0.8.tar.gz
+[2023-06-18 13:32:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-18 13:32:49] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/95/34/1f3ef42127e7244650e0b9ba18418821f1476cf60524bba67237ba73c469/etm-dgraham-5.0.9.tar.gz
+[2023-06-18 13:32:49] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-18 13:32:49] INFO root fetch - processPackages [pandocker-lua-filters]: Downloading https://files.pythonhosted.org/packages/cc/de/c8a0a463a6bfdaaadcb1b6cd66b6f872e1db5c0e74fcfffa9f3fb7bc3784/pandocker_lua_filters-0.0.24-py3-none-any.whl
+[2023-06-18 13:32:49] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/e7/b9/a38121eef38332701fef4fbaa1b2ce02b4becc12e33be1088df3ca90a258/ProTaska-GPT-0.0.9.tar.gz
+[2023-06-18 13:32:49] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/37/23/e016c6428c0b37b1621cbdf9fde65ac05c3232840efec7c1b39c1ca3c115/bigdl_llm-2.4.0b20230616-py3-none-win_amd64.whl
+[2023-06-18 13:32:49] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-18 13:32:49] INFO root fetch - processPackages [torchserve-nightly]: Start processing: bigdl-chronos
+[2023-06-18 13:32:49] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-18 13:32:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-18 13:32:50] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/44/a2/285b470a41266f3bba0077e532ac1408fd0b4058a12c505c3c34c578b540/nobuco-0.4.9.tar.gz
+[2023-06-18 13:32:50] INFO root fetch - processPackages [django-axes]: Downloading https://files.pythonhosted.org/packages/5b/8e/dd4341e61c72c9e4a3cba6607cf5835c9f521b06474c2cc8d45f7cb842f7/django-axes-6.0.2.tar.gz
+[2023-06-18 13:32:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/02/2e/efb903ade03595cd9eb18530355cf55e93e2227b58f769ee72977a9da4da/bigdl_nano-2.4.0b20230617-py3-none-win_amd64.whl
+[2023-06-18 13:32:50] INFO root fetch - processPackages [ProTaska-GPT]: executing diffoscope
+[2023-06-18 13:32:50] INFO root fetch - processPackages [ProTaska-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProTaska-GPT-0.0.8.tar.gz tmp/ProTaska-GPT-0.0.9.tar.gz --markdown 20230618/P/ProTaska-GPT/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230617] Old Version: [2.4.0b20230616]
+[2023-06-18 13:32:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-18 13:32:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230618/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-18 13:32:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-18 13:32:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230618/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-18 13:32:50] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/7f/bb/1edf2aca68befb3ac7cd99678c6c16e5ec92826b64a4111fe872631fa4d5/etm-dgraham-5.1.0.tar.gz
+[2023-06-18 13:32:50] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-06-18 13:32:50] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.0.9.tar.gz tmp/etm-dgraham-5.1.0.tar.gz --markdown 20230618/e/etm-dgraham/5.0.9-5.1.0/diff.md --exclude *.pyd
+[2023-06-18 13:32:50] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/90/33/8d1be406d321edc4880eba9452e86204239e548d03491da605cbf78217fd/nobuco-0.5.0.tar.gz
+[2023-06-18 13:32:50] INFO root fetch - processPackages [django-axes]: Downloading https://files.pythonhosted.org/packages/04/60/76bf0de5c1627ed3bbbbc93fecea9e1f48e9d920c95428db8b9f8de92cad/django-axes-6.0.3.tar.gz
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/44/c7/8586552e53c9c85517c7292aa99982840f14bef04ece0dd437c8a1c65318/bigdl_chronos-2.4.0b20230616-py3-none-win_amd64.whl
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/5c/c3/bb81f308cd6821aef65070f7193029e1e0b7ca757e077232dfabe6de4887/bigdl_llm-2.4.0b20230617-py3-none-win_amd64.whl
+[2023-06-18 13:32:50] INFO root fetch - processPackages [django-axes]: executing diffoscope
+[2023-06-18 13:32:50] INFO root fetch - processPackages [django-axes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-axes-6.0.2.tar.gz tmp/django-axes-6.0.3.tar.gz --markdown 20230618/d/django-axes/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-06-18 13:32:50] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-06-18 13:32:50] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.4.9.tar.gz tmp/nobuco-0.5.0.tar.gz --markdown 20230618/n/nobuco/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230616-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230617-py3-none-win_amd64.whl.zip --markdown 20230618/b/bigdl-llm/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/48/4c/9a444619a772117d9d77b384dbc30fd2541a17bc9692dd5c1c2d5c605906/bigdl_chronos-2.4.0b20230617-py3-none-win_amd64.whl
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/6e/1f/4f9622b71b0736af56b03d497177b9495c2c4ade83d803c27570c05417fe/bigdl_nano-2.4.0b20230618-py3-none-win_amd64.whl
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-18 13:32:50] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230616-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230617-py3-none-win_amd64.whl.zip --markdown 20230618/b/bigdl-chronos/2.4.0b20230616-2.4.0b20230617/diff.md --exclude *.pyd
+[2023-06-18 13:32:50] INFO root fetch - processPackages [pandocker-lua-filters]: Downloading https://files.pythonhosted.org/packages/df/51/77c7beb7e0f2b3d6df61da9ef737bad7e0b6fdbcf567e04a5037977b7b31/pandocker_lua_filters-0.0.25-py3-none-any.whl
+[2023-06-18 13:32:50] INFO root fetch - processPackages [pandocker-lua-filters]: executing diffoscope
+[2023-06-18 13:32:50] INFO root fetch - processPackages [pandocker-lua-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandocker_lua_filters-0.0.24-py3-none-any.whl.zip tmp/pandocker_lua_filters-0.0.25-py3-none-any.whl.zip --markdown 20230618/p/pandocker-lua-filters/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-06-18 13:32:51] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-18 13:32:51] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230617-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230618-py3-none-win_amd64.whl.zip --markdown 20230618/b/bigdl-nano/2.4.0b20230617-2.4.0b20230618/diff.md --exclude *.pyd
+[2023-06-18 13:32:51] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-18 13:32:51] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-18 13:32:51] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-18 13:32:51] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-18 13:32:51] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-18 13:32:51] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-18 13:32:51] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.8.tar.gz]
+[2023-06-18 13:32:51] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.9.tar.gz]
+[2023-06-18 13:32:51] INFO root fetch - main [MainThread]: End processing [ProTaska-GPT]: success
+[2023-06-18 13:32:52] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.4.9.tar.gz]
+[2023-06-18 13:32:52] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.5.0.tar.gz]
+[2023-06-18 13:32:52] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-06-18 13:32:52] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230616-py3-none-win_amd64.whl.zip]
+[2023-06-18 13:32:52] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230617-py3-none-win_amd64.whl.zip]
+[2023-06-18 13:32:52] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-18 13:32:53] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230616-py3-none-win_amd64.whl.zip]
+[2023-06-18 13:32:53] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230617-py3-none-win_amd64.whl.zip]
+[2023-06-18 13:32:53] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-18 13:32:53] INFO root fetch - processPackages [django-axes]: Remove: archive file [/home/abi/fetcher/tmp/django-axes-6.0.2.tar.gz]
+[2023-06-18 13:32:53] INFO root fetch - processPackages [django-axes]: Remove: archive file [/home/abi/fetcher/tmp/django-axes-6.0.3.tar.gz]
+[2023-06-18 13:32:53] INFO root fetch - main [MainThread]: End processing [django-axes]: success
+[2023-06-18 13:32:53] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230617-py3-none-win_amd64.whl.zip]
+[2023-06-18 13:32:53] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230618-py3-none-win_amd64.whl.zip]
+[2023-06-18 13:32:53] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-18 13:32:55] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.0.9.tar.gz]
+[2023-06-18 13:32:55] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.0.tar.gz]
+[2023-06-18 13:32:55] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-06-18 13:34:58] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.24-py3-none-any.whl.zip]
+[2023-06-18 13:34:58] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.25-py3-none-any.whl.zip]
+[2023-06-18 13:34:58] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
+[2023-06-18 13:34:58] INFO root fetch - main [MainThread]: Store serial: [18549611]
