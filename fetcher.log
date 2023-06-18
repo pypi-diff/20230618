@@ -5882,3 +5882,54 @@
 [2023-06-18 10:37:03] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.9.tar.gz]
 [2023-06-18 10:37:03] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-06-18 10:37:03] INFO root fetch - main [MainThread]: Store serial: [18548750]
+[2023-06-18 10:42:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548750]
+[2023-06-18 10:42:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 10:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cms
+[2023-06-18 10:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-estimator-nightly
+[2023-06-18 10:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strip-tags
+[2023-06-18 10:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ModernButton.py
+[2023-06-18 10:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tff-nightly
+[2023-06-18 10:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multipie
+[2023-06-18 10:42:15] WARNING root fetch - processPackages [ModernButton.py]: Skipping, unable to determine old version
+[2023-06-18 10:42:15] INFO root fetch - main [MainThread]: End processing [ModernButton.py] error
+[2023-06-18 10:42:15] INFO root fetch - processPackages [django-cms]: New version: [4.1.0rc3] Old Version: [4.1.0rc2]
+[2023-06-18 10:42:15] INFO root fetch - processPackages [strip-tags]: New version: [0.4.1] Old Version: [0.4]
+[2023-06-18 10:42:15] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-18 10:42:15] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230617] Old Version: [0.0.1.dev20230616]
+[2023-06-18 10:42:15] INFO root fetch - processPackages [strip-tags]: Downloading https://files.pythonhosted.org/packages/24/38/2d4c00c1d6dfde3c182eaca6952688f3a263dd07dccb01078f82d320c15e/strip-tags-0.4.tar.gz
+[2023-06-18 10:42:15] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-18 10:42:15] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/ff/66/6f9ba91a2c26654805ee6f5bc0700a32570b4484be122231fabcd9198385/tff_nightly-0.0.1.dev20230616-py2.py3-none-any.whl
+[2023-06-18 10:42:15] INFO root fetch - processPackages [multipie]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-18 10:42:15] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-18 10:42:15] INFO root fetch - processPackages [django-cms]: Downloading https://files.pythonhosted.org/packages/3e/97/2ed3134967403b2bbdc87ada1c9693a13a7079356a7541f1f3eb908d4b44/django-cms-4.1.0rc2.tar.gz
+[2023-06-18 10:42:15] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-18 10:42:15] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230618/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-18 10:42:16] INFO root fetch - processPackages [strip-tags]: Downloading https://files.pythonhosted.org/packages/f9/97/deabda2e5390a15f8ddda5e53a98aedc01bbf6197f96fa598e800eac060d/strip-tags-0.4.1.tar.gz
+[2023-06-18 10:42:16] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/92/1c/f9dbee8a1b63b4be1ac203819a58a44a33d413e4104e2d01aab3485fa837/tff_nightly-0.0.1.dev20230617-py2.py3-none-any.whl
+[2023-06-18 10:42:16] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/66/48/d4dbe2d819b2dccf94b61c10a9ebdc51b378417e49360c0f29edba80e323/multipie-1.1.8.tar.gz
+[2023-06-18 10:42:16] INFO root fetch - processPackages [strip-tags]: executing diffoscope
+[2023-06-18 10:42:16] INFO root fetch - processPackages [strip-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strip-tags-0.4.tar.gz tmp/strip-tags-0.4.1.tar.gz --markdown 20230618/s/strip-tags/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-06-18 10:42:16] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-18 10:42:16] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230616-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230617-py2.py3-none-any.whl.zip --markdown 20230618/t/tff-nightly/0.0.1.dev20230616-0.0.1.dev20230617/diff.md --exclude *.pyd
+[2023-06-18 10:42:16] INFO root fetch - processPackages [django-cms]: Downloading https://files.pythonhosted.org/packages/5d/9f/2ea0b0b6b977dad118c04027ae77c340ab23b9e72f4db0ab7be88c295a99/django-cms-4.1.0rc3.tar.gz
+[2023-06-18 10:42:17] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/9f/65/2be884ae50f72ca2932440104132e038f350e9a5992a7ce26c1a2212406c/multipie-1.1.9.tar.gz
+[2023-06-18 10:42:17] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2023-06-18 10:42:17] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.1.8.tar.gz tmp/multipie-1.1.9.tar.gz --markdown 20230618/m/multipie/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-18 10:42:17] INFO root fetch - processPackages [strip-tags]: Remove: archive file [/home/abi/fetcher/tmp/strip-tags-0.4.tar.gz]
+[2023-06-18 10:42:17] INFO root fetch - processPackages [strip-tags]: Remove: archive file [/home/abi/fetcher/tmp/strip-tags-0.4.1.tar.gz]
+[2023-06-18 10:42:17] INFO root fetch - main [MainThread]: End processing [strip-tags]: success
+[2023-06-18 10:42:17] INFO root fetch - processPackages [django-cms]: executing diffoscope
+[2023-06-18 10:42:17] INFO root fetch - processPackages [django-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cms-4.1.0rc2.tar.gz tmp/django-cms-4.1.0rc3.tar.gz --markdown 20230618/d/django-cms/4.1.0rc2-4.1.0rc3/diff.md --exclude *.pyd
+[2023-06-18 10:42:17] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-18 10:42:17] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-18 10:42:17] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-18 10:42:19] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230616-py2.py3-none-any.whl.zip]
+[2023-06-18 10:42:19] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230617-py2.py3-none-any.whl.zip]
+[2023-06-18 10:42:19] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-18 10:42:21] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.8.tar.gz]
+[2023-06-18 10:42:21] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.9.tar.gz]
+[2023-06-18 10:42:21] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2023-06-18 10:42:45] INFO root fetch - processPackages [django-cms]: Remove: archive file [/home/abi/fetcher/tmp/django-cms-4.1.0rc2.tar.gz]
+[2023-06-18 10:42:45] INFO root fetch - processPackages [django-cms]: Remove: archive file [/home/abi/fetcher/tmp/django-cms-4.1.0rc3.tar.gz]
+[2023-06-18 10:42:45] INFO root fetch - main [MainThread]: End processing [django-cms]: success
+[2023-06-18 10:42:46] INFO root fetch - main [MainThread]: Store serial: [18548768]
