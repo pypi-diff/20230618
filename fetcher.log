@@ -11880,3 +11880,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 18:31:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306181627-py3-none-any.whl.zip]
 [2023-06-18 18:31:05] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-18 18:31:05] INFO root fetch - main [MainThread]: Store serial: [18551394]
+[2023-06-18 18:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551394]
+[2023-06-18 18:36:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hds-stats
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: creosote
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitauto
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SidedrawerOCR
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygav
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ringgpt
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlfactory
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: buteo
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simpleplayer
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crackerjack
+[2023-06-18 18:36:14] INFO root fetch - processPackages [SidedrawerOCR]: New version: [0.2] Old Version: [0.1]
+[2023-06-18 18:36:14] INFO root fetch - processPackages [hds-stats]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-18 18:36:14] INFO root fetch - processPackages [unitauto]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ringgpt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 18:36:14] INFO root fetch - processPackages [mlfactory]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 18:36:14] WARNING root fetch - processPackages [simpleplayer]: Skipping, unable to determine old version
+[2023-06-18 18:36:14] INFO root fetch - main [MainThread]: End processing [simpleplayer] error
+[2023-06-18 18:36:14] INFO root fetch - processPackages [pygav]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-18 18:36:14] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-18 18:36:14] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/e8/fa/aed8bf24b65fed6b28b904c11ea33cff87ef1a820b67324e43f0280fb20e/ringgpt-0.1.3.tar.gz
+[2023-06-18 18:36:14] INFO root fetch - processPackages [creosote]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-06-18 18:36:14] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/f2/89/bda703badace24cb4b0ddd9e487ca0cf39a3dff60d5602c749e9fd4aa5fe/unitauto-0.8.1.tar.gz
+[2023-06-18 18:36:14] INFO root fetch - processPackages [crackerjack]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-18 18:36:14] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-18 18:36:14] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/fb/e7/f25a1e44c93896a8e0c36bfa5cb16f5c494e9bddbaca95f603913a9a2566/hds-stats-0.2.1.tar.gz
+[2023-06-18 18:36:14] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/67/6d/797e31b9ed17ccb4c2dcb3b3ada37aa2035bcd85f30ab8d1c9bedada5580/crackerjack-0.3.2.tar.gz
+[2023-06-18 18:36:14] INFO root fetch - processPackages [SidedrawerOCR]: Downloading https://files.pythonhosted.org/packages/bc/ae/816f31cc7c505813ee74f4431277fed039335c3d59967a73a6ac48b26c5b/SidedrawerOCR-0.1.tar.gz
+[2023-06-18 18:36:14] INFO root fetch - processPackages [mlfactory]: Downloading https://files.pythonhosted.org/packages/53/1b/4707aa890f1bd0321d822636023bb76eff3d8576d6252400208b60505228/mlfactory-0.0.7.tar.gz
+[2023-06-18 18:36:14] INFO root fetch - processPackages [pygav]: Downloading https://files.pythonhosted.org/packages/c5/23/01779e7392a1b2fc1eaf6c38ff26c201499359f6bd3c9c11df215fcf5744/pygav-0.2.0.tar.gz
+[2023-06-18 18:36:15] INFO root fetch - processPackages [creosote]: Downloading https://files.pythonhosted.org/packages/5d/5a/eea33fb6746e7de29fb7d2f928ff8e6cb907801325a535dd8a9740121a58/creosote-2.6.1-py3-none-any.whl
+[2023-06-18 18:36:15] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-18 18:36:15] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/fb/f6/f9af44c2de593897bd6d3cb57a750af629ff61beff89205b7092ed039ede/unitauto-0.8.2.tar.gz
+[2023-06-18 18:36:15] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/e6/f6/ce4e500cf0173f25839aa389c8dd8c8371a7ff7d91acfe1db53d3fa67099/ringgpt-0.1.4.tar.gz
+[2023-06-18 18:36:15] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-18 18:36:15] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230618/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-18 18:36:15] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/7b/47/637334c13e5d72ea0acbb2281306e52aedf4be8f61153c655ec464af5352/crackerjack-0.3.3.tar.gz
+[2023-06-18 18:36:15] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/4f/81/974163bffcbe582331c0497a3587136278e367e8cd86ef89cbd1aad2ec3f/hds-stats-0.2.2.tar.gz
+[2023-06-18 18:36:15] INFO root fetch - processPackages [unitauto]: executing diffoscope
+[2023-06-18 18:36:15] INFO root fetch - processPackages [unitauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitauto-0.8.1.tar.gz tmp/unitauto-0.8.2.tar.gz --markdown 20230618/u/unitauto/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-18 18:36:15] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-06-18 18:36:15] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.2.1.tar.gz tmp/hds-stats-0.2.2.tar.gz --markdown 20230618/h/hds-stats/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-18 18:36:15] INFO root fetch - processPackages [SidedrawerOCR]: Downloading https://files.pythonhosted.org/packages/9c/5a/fbdc00cfb400d131e2d5b3bc43e3efab60fe8abcd1c7957f6166c710267b/SidedrawerOCR-0.2.tar.gz
+[2023-06-18 18:36:15] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 18:36:15] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.3.tar.gz tmp/ringgpt-0.1.4.tar.gz --markdown 20230618/r/ringgpt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 18:36:15] INFO root fetch - processPackages [pygav]: Downloading https://files.pythonhosted.org/packages/c4/cc/f5a385abb10f63bbd93f0c7643ae5178395e507fd9335d6d6fa6f526b184/pygav-0.2.1.tar.gz
+[2023-06-18 18:36:15] INFO root fetch - processPackages [SidedrawerOCR]: executing diffoscope
+[2023-06-18 18:36:15] INFO root fetch - processPackages [SidedrawerOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SidedrawerOCR-0.1.tar.gz tmp/SidedrawerOCR-0.2.tar.gz --markdown 20230618/S/SidedrawerOCR/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-18 18:36:15] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-18 18:36:15] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.3.2.tar.gz tmp/crackerjack-0.3.3.tar.gz --markdown 20230618/c/crackerjack/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-18 18:36:15] INFO root fetch - processPackages [pygav]: executing diffoscope
+[2023-06-18 18:36:15] INFO root fetch - processPackages [pygav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygav-0.2.0.tar.gz tmp/pygav-0.2.1.tar.gz --markdown 20230618/p/pygav/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-18 18:36:15] INFO root fetch - processPackages [mlfactory]: Downloading https://files.pythonhosted.org/packages/1c/7a/faba171435911962f1f080ce35ae9f2a713349ff984c64cbc0dab6af7b87/mlfactory-0.0.8.tar.gz
+[2023-06-18 18:36:15] INFO root fetch - processPackages [creosote]: Downloading https://files.pythonhosted.org/packages/1a/59/a08c58e67e1cc9bd042b48b6cdc79c9338058e1f050b920caca73a28f2e8/creosote-2.6.2-py3-none-any.whl
+[2023-06-18 18:36:15] INFO root fetch - processPackages [creosote]: executing diffoscope
+[2023-06-18 18:36:15] INFO root fetch - processPackages [creosote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creosote-2.6.1-py3-none-any.whl.zip tmp/creosote-2.6.2-py3-none-any.whl.zip --markdown 20230618/c/creosote/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-06-18 18:36:15] INFO root fetch - processPackages [mlfactory]: executing diffoscope
+[2023-06-18 18:36:15] INFO root fetch - processPackages [mlfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfactory-0.0.7.tar.gz tmp/mlfactory-0.0.8.tar.gz --markdown 20230618/m/mlfactory/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 18:36:16] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-0.8.1.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-0.8.2.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - main [MainThread]: End processing [unitauto]: success
+[2023-06-18 18:36:16] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.2.1.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.2.2.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-06-18 18:36:16] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.3.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.4.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 18:36:16] INFO root fetch - processPackages [SidedrawerOCR]: Remove: archive file [/home/abi/fetcher/tmp/SidedrawerOCR-0.1.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - processPackages [SidedrawerOCR]: Remove: archive file [/home/abi/fetcher/tmp/SidedrawerOCR-0.2.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - main [MainThread]: End processing [SidedrawerOCR]: success
+[2023-06-18 18:36:16] INFO root fetch - processPackages [pygav]: Remove: archive file [/home/abi/fetcher/tmp/pygav-0.2.0.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - processPackages [pygav]: Remove: archive file [/home/abi/fetcher/tmp/pygav-0.2.1.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - main [MainThread]: End processing [pygav]: success
+[2023-06-18 18:36:16] INFO root fetch - processPackages [creosote]: Remove: archive file [/home/abi/fetcher/tmp/creosote-2.6.1-py3-none-any.whl.zip]
+[2023-06-18 18:36:16] INFO root fetch - processPackages [creosote]: Remove: archive file [/home/abi/fetcher/tmp/creosote-2.6.2-py3-none-any.whl.zip]
+[2023-06-18 18:36:16] INFO root fetch - main [MainThread]: End processing [creosote]: success
+[2023-06-18 18:36:16] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.2.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.3.tar.gz]
+[2023-06-18 18:36:16] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-06-18 18:36:17] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-18 18:36:17] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-18 18:36:17] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-18 18:36:17] INFO root fetch - processPackages [mlfactory]: Remove: archive file [/home/abi/fetcher/tmp/mlfactory-0.0.7.tar.gz]
+[2023-06-18 18:36:17] INFO root fetch - processPackages [mlfactory]: Remove: archive file [/home/abi/fetcher/tmp/mlfactory-0.0.8.tar.gz]
+[2023-06-18 18:36:17] INFO root fetch - main [MainThread]: End processing [mlfactory]: success
+[2023-06-18 18:36:17] INFO root fetch - main [MainThread]: Store serial: [18551423]
