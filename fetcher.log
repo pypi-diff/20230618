@@ -7227,3 +7227,96 @@
 [2023-06-18 13:00:39] INFO root fetch - processPackages [polyfactory]: Remove: archive file [/home/abi/fetcher/tmp/polyfactory-2.3.1.tar.gz]
 [2023-06-18 13:00:39] INFO root fetch - main [MainThread]: End processing [polyfactory]: success
 [2023-06-18 13:00:39] INFO root fetch - main [MainThread]: Store serial: [18549408]
+[2023-06-18 13:05:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549408]
+[2023-06-18 13:05:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydatawork
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ProTaska-GPT
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nebullvm
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mltlk
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: random-otp
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: termslime
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: speedster
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cnvrgv2
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pdf-divider
+[2023-06-18 13:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: svtplay-dl
+[2023-06-18 13:05:48] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [ProTaska-GPT]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [random-otp]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [termslime]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pdf-divider]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pydatawork]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [speedster]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [svtplay-dl]: New version: [4.9] Old Version: [4.8]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [nebullvm]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [cnvrgv2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-18 13:05:48] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/79/be/62f503a14e7ff4554a6df415b4ccce51b902eeb0978c9684d2093f9c8691/ProTaska-GPT-0.0.8.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [random-otp]: Downloading https://files.pythonhosted.org/packages/44/c8/319f364034bd2de7ef4be016b22f823ebd2992c2e1a188408bc1231de938/random-otp-0.1.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pdf-divider]: Downloading https://files.pythonhosted.org/packages/4a/0b/d8493a9ff6fc73274d63d90c7a6c195eff9bb2783adb36602faef17c6efa/pdf_divider-1.0.0.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [ProTaska-GPT]: Downloading https://files.pythonhosted.org/packages/e7/b9/a38121eef38332701fef4fbaa1b2ce02b4becc12e33be1088df3ca90a258/ProTaska-GPT-0.0.9.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [termslime]: Downloading https://files.pythonhosted.org/packages/6f/bb/753914b65b66a2dc8d4c10acc4d0a2ae0b73190fe65b1e7be5eadfc90590/termslime-0.1.0.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [svtplay-dl]: Downloading https://files.pythonhosted.org/packages/75/24/b7383220b002857995ff8bc68c5ef37adea8a7283c742cb35cb5501ddc2c/svtplay-dl-4.8.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [ProTaska-GPT]: executing diffoscope
+[2023-06-18 13:05:48] INFO root fetch - processPackages [ProTaska-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProTaska-GPT-0.0.8.tar.gz tmp/ProTaska-GPT-0.0.9.tar.gz --markdown 20230618/P/ProTaska-GPT/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 13:05:48] INFO root fetch - processPackages [cnvrgv2]: Downloading https://files.pythonhosted.org/packages/43/fb/f63773c2a608f95bcd4a1397dc5632cf2872158cdca26fa735e9915b152a/cnvrgv2-1.0.8.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/95/8f/90c33c71eb6c964e33ee1ed97b7701a879ff4885d4256216f9892ff0ce99/pydatawork-0.0.9.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [nebullvm]: Downloading https://files.pythonhosted.org/packages/ae/71/fe25db4f841edb01824c9f79cde1fb7217f129fb45165255674e1d1ee5c2/nebullvm-0.9.0.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [speedster]: Downloading https://files.pythonhosted.org/packages/ea/d5/79a782006b8f8667ba0f846e981f95b3cd9fa0bcf4c11f72f9e6c637f140/speedster-0.3.0.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [random-otp]: Downloading https://files.pythonhosted.org/packages/0e/f3/91724d60d370361bc947c6df9cef989cd1db3b1c36af5af8c78e6d376a5c/random-otp-0.1.1.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [random-otp]: executing diffoscope
+[2023-06-18 13:05:48] INFO root fetch - processPackages [random-otp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random-otp-0.1.tar.gz tmp/random-otp-0.1.1.tar.gz --markdown 20230618/r/random-otp/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pdf-divider]: Downloading https://files.pythonhosted.org/packages/9c/f6/e4c0baab00adc4876e02144998b9948edb95a9262432bb6d5ed20558b01d/pdf_divider-1.1.0.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [termslime]: Downloading https://files.pythonhosted.org/packages/5e/16/24e6a61882b33d9cea230ac6cbef9a381be3bfff5a41297b0cfa26546570/termslime-0.2.0.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [termslime]: executing diffoscope
+[2023-06-18 13:05:48] INFO root fetch - processPackages [termslime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termslime-0.1.0.tar.gz tmp/termslime-0.2.0.tar.gz --markdown 20230618/t/termslime/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 13:05:48] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [speedster]: Downloading https://files.pythonhosted.org/packages/89/c9/d386862ab95cda2ea2e92803bd7a973a4603a913da74d41c025b5962436d/speedster-0.4.0.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/36/73/0b12cfc377e6d5f397169bc009fc9bf7c48cfdf2f94af49ce598bda20c2d/pydatawork-0.1.0.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pdf-divider]: executing diffoscope
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pdf-divider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_divider-1.0.0.tar.gz tmp/pdf_divider-1.1.0.tar.gz --markdown 20230618/p/pdf-divider/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-18 13:05:48] INFO root fetch - processPackages [nebullvm]: Downloading https://files.pythonhosted.org/packages/64/3b/fdd342c489c78117a7a9b3c3ed74f4c2aa6402cbc3c5ee4a00a53b351a47/nebullvm-0.9.1.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [cnvrgv2]: Downloading https://files.pythonhosted.org/packages/3e/d4/3802681a11d24c3a3d0577e032604d1a49eebac43c819e31ff87d7d2d575/cnvrgv2-1.0.9.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [speedster]: executing diffoscope
+[2023-06-18 13:05:48] INFO root fetch - processPackages [speedster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedster-0.3.0.tar.gz tmp/speedster-0.4.0.tar.gz --markdown 20230618/s/speedster/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-18 13:05:48] INFO root fetch - processPackages [svtplay-dl]: Downloading https://files.pythonhosted.org/packages/1a/bc/d74decb2cdb4277e5cbe51f24c751f45bbd387cb4f411079c8f2e23591a3/svtplay-dl-4.9.tar.gz
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-18 13:05:48] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.0.9.tar.gz tmp/pydatawork-0.1.0.tar.gz --markdown 20230618/p/pydatawork/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-18 13:05:48] INFO root fetch - processPackages [nebullvm]: executing diffoscope
+[2023-06-18 13:05:48] INFO root fetch - processPackages [nebullvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebullvm-0.9.0.tar.gz tmp/nebullvm-0.9.1.tar.gz --markdown 20230618/n/nebullvm/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-18 13:05:48] INFO root fetch - processPackages [svtplay-dl]: executing diffoscope
+[2023-06-18 13:05:48] INFO root fetch - processPackages [svtplay-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svtplay-dl-4.8.tar.gz tmp/svtplay-dl-4.9.tar.gz --markdown 20230618/s/svtplay-dl/4.8-4.9/diff.md --exclude *.pyd
+[2023-06-18 13:05:49] INFO root fetch - processPackages [cnvrgv2]: executing diffoscope
+[2023-06-18 13:05:49] INFO root fetch - processPackages [cnvrgv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnvrgv2-1.0.8.tar.gz tmp/cnvrgv2-1.0.9.tar.gz --markdown 20230618/c/cnvrgv2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-18 13:05:49] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-18 13:05:49] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230618/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-18 13:05:49] INFO root fetch - processPackages [random-otp]: Remove: archive file [/home/abi/fetcher/tmp/random-otp-0.1.tar.gz]
+[2023-06-18 13:05:49] INFO root fetch - processPackages [random-otp]: Remove: archive file [/home/abi/fetcher/tmp/random-otp-0.1.1.tar.gz]
+[2023-06-18 13:05:49] INFO root fetch - main [MainThread]: End processing [random-otp]: success
+[2023-06-18 13:05:49] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.8.tar.gz]
+[2023-06-18 13:05:49] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.9.tar.gz]
+[2023-06-18 13:05:49] INFO root fetch - main [MainThread]: End processing [ProTaska-GPT]: success
+[2023-06-18 13:05:49] INFO root fetch - processPackages [termslime]: Remove: archive file [/home/abi/fetcher/tmp/termslime-0.1.0.tar.gz]
+[2023-06-18 13:05:49] INFO root fetch - processPackages [termslime]: Remove: archive file [/home/abi/fetcher/tmp/termslime-0.2.0.tar.gz]
+[2023-06-18 13:05:49] INFO root fetch - main [MainThread]: End processing [termslime]: success
+[2023-06-18 13:05:50] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.9.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.0.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-18 13:05:50] INFO root fetch - processPackages [pdf-divider]: Remove: archive file [/home/abi/fetcher/tmp/pdf_divider-1.0.0.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - processPackages [pdf-divider]: Remove: archive file [/home/abi/fetcher/tmp/pdf_divider-1.1.0.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - main [MainThread]: End processing [pdf-divider]: success
+[2023-06-18 13:05:50] INFO root fetch - processPackages [nebullvm]: Remove: archive file [/home/abi/fetcher/tmp/nebullvm-0.9.0.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - processPackages [nebullvm]: Remove: archive file [/home/abi/fetcher/tmp/nebullvm-0.9.1.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - main [MainThread]: End processing [nebullvm]: success
+[2023-06-18 13:05:50] INFO root fetch - processPackages [speedster]: Remove: archive file [/home/abi/fetcher/tmp/speedster-0.3.0.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - processPackages [speedster]: Remove: archive file [/home/abi/fetcher/tmp/speedster-0.4.0.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - main [MainThread]: End processing [speedster]: success
+[2023-06-18 13:05:50] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-18 13:05:50] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-18 13:05:52] INFO root fetch - processPackages [cnvrgv2]: Remove: archive file [/home/abi/fetcher/tmp/cnvrgv2-1.0.8.tar.gz]
+[2023-06-18 13:05:52] INFO root fetch - processPackages [cnvrgv2]: Remove: archive file [/home/abi/fetcher/tmp/cnvrgv2-1.0.9.tar.gz]
+[2023-06-18 13:05:52] INFO root fetch - main [MainThread]: End processing [cnvrgv2]: success
+[2023-06-18 13:05:53] INFO root fetch - processPackages [svtplay-dl]: Remove: archive file [/home/abi/fetcher/tmp/svtplay-dl-4.8.tar.gz]
+[2023-06-18 13:05:53] INFO root fetch - processPackages [svtplay-dl]: Remove: archive file [/home/abi/fetcher/tmp/svtplay-dl-4.9.tar.gz]
+[2023-06-18 13:05:53] INFO root fetch - main [MainThread]: End processing [svtplay-dl]: success
+[2023-06-18 13:05:53] INFO root fetch - main [MainThread]: Store serial: [18549438]
