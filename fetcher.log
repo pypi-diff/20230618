@@ -4334,3 +4334,32 @@
 [2023-06-18 06:15:02] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.6-cp39-none-any.whl.zip]
 [2023-06-18 06:15:02] INFO root fetch - main [MainThread]: End processing [dal-python]: success
 [2023-06-18 06:15:02] INFO root fetch - main [MainThread]: Store serial: [18547978]
+[2023-06-18 06:20:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547978]
+[2023-06-18 06:20:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 06:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyautosrt
+[2023-06-18 06:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfiredb
+[2023-06-18 06:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chem-dummy
+[2023-06-18 06:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libTSCANAPI
+[2023-06-18 06:20:17] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-18 06:20:17] INFO root fetch - processPackages [pyfiredb]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 06:20:17] INFO root fetch - processPackages [pyautosrt]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-18 06:20:17] WARNING root fetch - processPackages [chem-dummy]: Skipping, unable to determine old version
+[2023-06-18 06:20:17] INFO root fetch - main [MainThread]: End processing [chem-dummy] error
+[2023-06-18 06:20:17] INFO root fetch - processPackages [pyfiredb]: Downloading https://files.pythonhosted.org/packages/93/fd/fa05b08fafda33c4b67bf75ce3ddefa355529ff0f7cb1d05cef9f2ef7700/pyfiredb-0.0.3.tar.gz
+[2023-06-18 06:20:17] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/10/0b/79d073737e2c60b63176f4efed085ddbbd127bf8872f8bb7f9e665d5fe08/libTSCANAPI-1.0.8.tar.gz
+[2023-06-18 06:20:17] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16302658>=10485760
+[2023-06-18 06:20:17] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-06-18 06:20:17] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/2a/4b/0d7f7395c94338022d8e9452588c94e3176aac47973bc1bb8f5764883e05/pyautosrt-0.2.2.tar.gz
+[2023-06-18 06:20:18] INFO root fetch - processPackages [pyfiredb]: Downloading https://files.pythonhosted.org/packages/e5/df/22b33f694c5d736b1590512cb0db802f72c5ff3946b2263589c6ad2f6903/pyfiredb-0.0.4.tar.gz
+[2023-06-18 06:20:18] INFO root fetch - processPackages [pyfiredb]: executing diffoscope
+[2023-06-18 06:20:18] INFO root fetch - processPackages [pyfiredb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfiredb-0.0.3.tar.gz tmp/pyfiredb-0.0.4.tar.gz --markdown 20230618/p/pyfiredb/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 06:20:18] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/fe/4a/46e95b71bae06ea799083b32f80156bea8b47f3223e5ff71b47e8aff942e/pyautosrt-0.2.3.tar.gz
+[2023-06-18 06:20:18] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-06-18 06:20:18] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.2.2.tar.gz tmp/pyautosrt-0.2.3.tar.gz --markdown 20230618/p/pyautosrt/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 06:20:19] INFO root fetch - processPackages [pyfiredb]: Remove: archive file [/home/abi/fetcher/tmp/pyfiredb-0.0.3.tar.gz]
+[2023-06-18 06:20:19] INFO root fetch - processPackages [pyfiredb]: Remove: archive file [/home/abi/fetcher/tmp/pyfiredb-0.0.4.tar.gz]
+[2023-06-18 06:20:19] INFO root fetch - main [MainThread]: End processing [pyfiredb]: success
+[2023-06-18 06:20:19] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.2.tar.gz]
+[2023-06-18 06:20:19] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.3.tar.gz]
+[2023-06-18 06:20:19] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-06-18 06:20:19] INFO root fetch - main [MainThread]: Store serial: [18547990]
