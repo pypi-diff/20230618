@@ -14070,3 +14070,60 @@ EOFError: EOF read where object expected
 [2023-06-18 21:18:29] INFO root fetch - processPackages [turvallisuusneuvonta]: Remove: archive file [/home/abi/fetcher/tmp/turvallisuusneuvonta-2023.6.18.tar.gz]
 [2023-06-18 21:18:29] INFO root fetch - main [MainThread]: End processing [turvallisuusneuvonta]: success
 [2023-06-18 21:18:29] INFO root fetch - main [MainThread]: Store serial: [18552290]
+[2023-06-18 21:23:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552290]
+[2023-06-18 21:23:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 21:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: featureform
+[2023-06-18 21:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: igz-mgmt
+[2023-06-18 21:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptrix
+[2023-06-18 21:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-space-toolkit-physics
+[2023-06-18 21:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphawave
+[2023-06-18 21:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LLM-Toolbox
+[2023-06-18 21:23:39] INFO root fetch - processPackages [alphawave]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-18 21:23:39] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-06-18 21:23:39] INFO root fetch - processPackages [igz-mgmt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 21:23:39] INFO root fetch - processPackages [promptrix]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-18 21:23:39] INFO root fetch - processPackages [featureform]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-18 21:23:39] INFO root fetch - processPackages [open-space-toolkit-physics]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-18 21:23:39] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/81/a1/a5372bd41f874e159c72a28f69a49a3b3e16084587d8d0e6fd9614778903/llm-toolbox-0.0.0.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/45/b6/0494a0a0776e5bd3692a4bef9249ed60c780b0d30138357707d3ee21bcc4/open_space_toolkit_physics-1.1.0-py39-none-any.whl
+[2023-06-18 21:23:39] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/d3/51/8d00ead011eded4b9a07a535cf220aa0180c04c55e138eb7516d2fc6c2ba/alphawave-0.2.4.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/3a/e5/359f7598fc938c9476c9036751e49cb9c39ed85e51294ca21ee169ab1c59/promptrix-0.2.4.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/3a/69/d65eca95fe178180347841a9a129d1ee18814dfc0f94e17b81eb581e032b/featureform-1.9.3.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/a3/64/b91b9d43247a62d354af78635477cccdfaecc33cb6e44cda58964da06f8f/igz_mgmt-0.0.6.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/2a/b2/7331d4209a15d5c2afe4f3ae4a820d9c20f6b4b5d571359ece5ca257331d/LLM-Toolbox-0.0.2.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2023-06-18 21:23:39] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-toolbox-0.0.0.tar.gz tmp/LLM-Toolbox-0.0.2.tar.gz --markdown 20230618/L/LLM-Toolbox/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 21:23:39] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/b2/e3/b409acd32bcbdd1ea3497943fefadadc561283b1a062dc9d9f7b66cd7c2b/featureform-1.9.4.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/90/ca/f5d3c957c9f84e43cc4dc7c9038c982d3cc13e86e8435c34160cb1831333/alphawave-0.2.5.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/0e/93/1826a30bf43ef5ded4b03fd40f9903ddc5541b3ef462a79a7051b5dd01ae/promptrix-0.2.5.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/08/1f/7c8e8305c7b4bb77208310e7b0d09ce2589b9bfa19adf1053f930b9ed6f0/igz_mgmt-0.0.7.tar.gz
+[2023-06-18 21:23:39] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-06-18 21:23:39] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.2.4.tar.gz tmp/alphawave-0.2.5.tar.gz --markdown 20230618/a/alphawave/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-18 21:23:39] INFO root fetch - processPackages [promptrix]: executing diffoscope
+[2023-06-18 21:23:39] INFO root fetch - processPackages [promptrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptrix-0.2.4.tar.gz tmp/promptrix-0.2.5.tar.gz --markdown 20230618/p/promptrix/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-18 21:23:39] INFO root fetch - processPackages [igz-mgmt]: executing diffoscope
+[2023-06-18 21:23:39] INFO root fetch - processPackages [igz-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igz_mgmt-0.0.6.tar.gz tmp/igz_mgmt-0.0.7.tar.gz --markdown 20230618/i/igz-mgmt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 21:23:39] INFO root fetch - processPackages [open-space-toolkit-physics]: Downloading https://files.pythonhosted.org/packages/57/06/11caaba8476a8cd85848e1af6a774161b0e9cfff72aae460957b559e8133/open_space_toolkit_physics-1.1.1-py39-none-any.whl
+[2023-06-18 21:23:39] INFO root fetch - processPackages [open-space-toolkit-physics]: executing diffoscope
+[2023-06-18 21:23:39] INFO root fetch - processPackages [open-space-toolkit-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_physics-1.1.0-py39-none-any.whl.zip tmp/open_space_toolkit_physics-1.1.1-py39-none-any.whl.zip --markdown 20230618/o/open-space-toolkit-physics/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-18 21:23:39] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-06-18 21:23:39] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.9.3.tar.gz tmp/featureform-1.9.4.tar.gz --markdown 20230618/f/featureform/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-18 21:23:40] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/llm-toolbox-0.0.0.tar.gz]
+[2023-06-18 21:23:40] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.0.2.tar.gz]
+[2023-06-18 21:23:40] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2023-06-18 21:23:40] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.0.6.tar.gz]
+[2023-06-18 21:23:40] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.0.7.tar.gz]
+[2023-06-18 21:23:40] INFO root fetch - main [MainThread]: End processing [igz-mgmt]: success
+[2023-06-18 21:23:41] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.2.4.tar.gz]
+[2023-06-18 21:23:41] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.2.5.tar.gz]
+[2023-06-18 21:23:41] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-06-18 21:23:41] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.2.4.tar.gz]
+[2023-06-18 21:23:41] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.2.5.tar.gz]
+[2023-06-18 21:23:41] INFO root fetch - main [MainThread]: End processing [promptrix]: success
+[2023-06-18 21:23:43] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.3.tar.gz]
+[2023-06-18 21:23:43] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.4.tar.gz]
+[2023-06-18 21:23:43] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-06-18 21:24:04] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-1.1.0-py39-none-any.whl.zip]
+[2023-06-18 21:24:04] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-1.1.1-py39-none-any.whl.zip]
+[2023-06-18 21:24:04] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
+[2023-06-18 21:24:04] INFO root fetch - main [MainThread]: Store serial: [18552319]
