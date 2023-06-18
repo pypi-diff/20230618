@@ -3502,3 +3502,90 @@
 [2023-06-18 04:55:23] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-06-18 04:55:23] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-06-18 04:55:23] INFO root fetch - main [MainThread]: Store serial: [18547657]
+[2023-06-18 05:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547657]
+[2023-06-18 05:00:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EclipsingBinaries
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kafka
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-minio
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Priority1py
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datawise
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dhall
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-mysql
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-libvirt
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nombresulibreriaaa
+[2023-06-18 05:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdevpy
+[2023-06-18 05:00:32] INFO root fetch - processPackages [Priority1py]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-18 05:00:32] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1687055060] Old Version: [3.5.0a1686634924]
+[2023-06-18 05:00:32] INFO root fetch - processPackages [EclipsingBinaries]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2023-06-18 05:00:32] INFO root fetch - processPackages [dhall]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-18 05:00:32] INFO root fetch - processPackages [sdevpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 05:00:32] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-06-18 05:00:32] WARNING root fetch - processPackages [nombresulibreriaaa]: Skipping, unable to determine old version
+[2023-06-18 05:00:32] WARNING root fetch - processPackages [datawise]: Skipping, unable to determine old version
+[2023-06-18 05:00:32] INFO root fetch - processPackages [nombresulibreriaaa]: Start processing: pulumi-ec
+[2023-06-18 05:00:32] INFO root fetch - main [MainThread]: End processing [nombresulibreriaaa] error
+[2023-06-18 05:00:32] INFO root fetch - main [MainThread]: End processing [datawise] error
+[2023-06-18 05:00:32] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.1a1687055262] Old Version: [0.4.1a1686635262]
+[2023-06-18 05:00:32] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.2.0a1687055263] Old Version: [3.2.0a1686635774]
+[2023-06-18 05:00:32] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/69/78/0df4c0d116bb6fba49265e69c5084472d3dd50bb13c509d0179141e8d42f/sdevpy-0.0.2.tar.gz
+[2023-06-18 05:00:32] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1687054979] Old Version: [0.5.2a1686634499]
+[2023-06-18 05:00:32] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/1d/75/5ac7107065181b48860733f04075b35d0700ce8dbb23364a6d08f14e1020/Priority1py-1.0.6.tar.gz
+[2023-06-18 05:00:32] INFO root fetch - processPackages [dhall]: Downloading https://files.pythonhosted.org/packages/9e/49/e5c10a8812c21b57adbaba1d467c1a48715cb4acbfbd55dfcdae99afaac2/dhall-0.1.7-cp39-none-win_amd64.whl
+[2023-06-18 05:00:32] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/f1/73/63c970c173bba14ec62bb4793134d6270b85f19e58078cd9d5cd8219b1a1/pulumi_kafka-3.5.0a1686634924.tar.gz
+[2023-06-18 05:00:32] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/40/d0/ad4b7192a049cfe9fc84a6d71cca032a4bb333c7494aa3c58a4aa6212f84/pulumi_mysql-3.2.0a1686635774.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/91/d8/a4a81c35abacdaf973110af758e9acab12fee45b63d4f89e4a6e88a9f88c/pulumi_libvirt-0.4.1a1686635262.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/c5/73/2deb8d816e7318af30af839ac264849c08c02bf103e3e1aa63b162251679/EclipsingBinaries-3.0.0a1.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/d5/10/e83e5ce153bafb0a86d570641d0bac031aa3ed05665e06e13c8c6c62aaa9/pulumi_ec-0.5.2a1686634499.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/5b/60/4f0e53b78daf5c24e2485149021f0e7ef627bb1d6c0cd588efa9b5f3bffc/sdevpy-0.0.3.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [Priority1py]: Downloading https://files.pythonhosted.org/packages/2d/92/992428f443e49d1c3ec1367dc86623e8ff7fff5dc1ab70e5e71c4fec8267/Priority1py-1.0.7.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [sdevpy]: executing diffoscope
+[2023-06-18 05:00:33] INFO root fetch - processPackages [sdevpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdevpy-0.0.2.tar.gz tmp/sdevpy-0.0.3.tar.gz --markdown 20230618/s/sdevpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/11/6c/9f361f3eb3e8be3fbacb481ca9db2cb79bdaa13cfca49cb4e0912f75a15b/pulumi_kafka-3.5.0a1687055060.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [Priority1py]: executing diffoscope
+[2023-06-18 05:00:33] INFO root fetch - processPackages [Priority1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Priority1py-1.0.6.tar.gz tmp/Priority1py-1.0.7.tar.gz --markdown 20230618/P/Priority1py/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/8d/05/87420f29cd97f7d1853ebd10269b7a0ba436c854e3a8095190a4e3bb7582/pulumi_libvirt-0.4.1a1687055262.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/ed/00/fa405a83a87d069bfa8c6a13afbcdfd5e7066d87af04d891c79b9fca4ff8/EclipsingBinaries-3.0.0a2.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/27/c6/248146b5f4768585cc539688f2b6a125b3c8c0564fbdf5224713637619df/pulumi_mysql-3.2.0a1687055263.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1686634924.tar.gz tmp/pulumi_kafka-3.5.0a1687055060.tar.gz --markdown 20230618/p/pulumi-kafka/3.5.0a1686634924-3.5.0a1687055060/diff.md --exclude *.pyd
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.1a1686635262.tar.gz tmp/pulumi_libvirt-0.4.1a1687055262.tar.gz --markdown 20230618/p/pulumi-libvirt/0.4.1a1686635262-0.4.1a1687055262/diff.md --exclude *.pyd
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/20/2f/0ba3cba4af861fb35ad18244d2ee271debbd15562641e502b1f45c034426/pulumi_ec-0.5.2a1687054979.tar.gz
+[2023-06-18 05:00:33] INFO root fetch - processPackages [EclipsingBinaries]: executing diffoscope
+[2023-06-18 05:00:33] INFO root fetch - processPackages [EclipsingBinaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EclipsingBinaries-3.0.0a1.tar.gz tmp/EclipsingBinaries-3.0.0a2.tar.gz --markdown 20230618/E/EclipsingBinaries/3.0.0a1-3.0.0a2/diff.md --exclude *.pyd
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230618/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1686634499.tar.gz tmp/pulumi_ec-0.5.2a1687054979.tar.gz --markdown 20230618/p/pulumi-ec/0.5.2a1686634499-0.5.2a1687054979/diff.md --exclude *.pyd
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2023-06-18 05:00:33] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.2.0a1686635774.tar.gz tmp/pulumi_mysql-3.2.0a1687055263.tar.gz --markdown 20230618/p/pulumi-mysql/3.2.0a1686635774-3.2.0a1687055263/diff.md --exclude *.pyd
+[2023-06-18 05:00:33] INFO root fetch - processPackages [dhall]: Downloading https://files.pythonhosted.org/packages/f0/6a/6ea435b464c80e8073c1144c140c8dcf01c022cb6bbccfe0a4c3074a126c/dhall-0.1.9.tar.gz
+[2023-06-18 05:00:33] WARNING root fetch - processPackages [dhall]: Skipping package: exceeds size limit 25765264>=10485760
+[2023-06-18 05:00:33] INFO root fetch - main [MainThread]: End processing [dhall] error
+[2023-06-18 05:00:34] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.6.tar.gz]
+[2023-06-18 05:00:34] INFO root fetch - processPackages [Priority1py]: Remove: archive file [/home/abi/fetcher/tmp/Priority1py-1.0.7.tar.gz]
+[2023-06-18 05:00:34] INFO root fetch - main [MainThread]: End processing [Priority1py]: success
+[2023-06-18 05:00:34] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1686634924.tar.gz]
+[2023-06-18 05:00:34] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1687055060.tar.gz]
+[2023-06-18 05:00:34] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-06-18 05:00:34] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.2.tar.gz]
+[2023-06-18 05:00:34] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.3.tar.gz]
+[2023-06-18 05:00:34] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
+[2023-06-18 05:00:34] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1686635262.tar.gz]
+[2023-06-18 05:00:34] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1687055262.tar.gz]
+[2023-06-18 05:00:34] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2023-06-18 05:00:35] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2023-06-18 05:00:35] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2023-06-18 05:00:35] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-06-18 05:00:35] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.0.0a1.tar.gz]
+[2023-06-18 05:00:35] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.0.0a2.tar.gz]
+[2023-06-18 05:00:35] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
+[2023-06-18 05:00:35] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1686635774.tar.gz]
+[2023-06-18 05:00:35] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1687055263.tar.gz]
+[2023-06-18 05:00:35] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2023-06-18 05:00:36] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1686634499.tar.gz]
+[2023-06-18 05:00:36] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1687054979.tar.gz]
+[2023-06-18 05:00:36] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-06-18 05:00:36] INFO root fetch - main [MainThread]: Store serial: [18547696]
