@@ -4313,3 +4313,24 @@
 [2023-06-18 06:09:32] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.5.0.tar.gz]
 [2023-06-18 06:09:32] INFO root fetch - main [MainThread]: End processing [sqlalchemy-celery-beat]: success
 [2023-06-18 06:09:32] INFO root fetch - main [MainThread]: Store serial: [18547971]
+[2023-06-18 06:14:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547971]
+[2023-06-18 06:14:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 06:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dal-python
+[2023-06-18 06:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-extensions
+[2023-06-18 06:14:43] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.75] Old Version: [0.0.74]
+[2023-06-18 06:14:43] INFO root fetch - processPackages [dal-python]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-06-18 06:14:43] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/d9/12/f314c59fbeb20fc7de845237cb385bda1f4c734c2ba8cb57eded8846a3a7/dal_python-0.2.4-cp39-none-any.whl
+[2023-06-18 06:14:43] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/ed/2b/0104e58a47aed9cfe00ac6c8a96b92cad569686b82aa463ee37a73c6bace/cdk-extensions-0.0.74.tar.gz
+[2023-06-18 06:14:44] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/67/95/285dadfaa0e7c6080a3297ced8063417dae991d9b5721f3d0943d33403e5/cdk-extensions-0.0.75.tar.gz
+[2023-06-18 06:14:44] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/59/32/1ee66e2351ed15a891615b1761ad3f0befb4118a820e007853a9f749d5f6/dal_python-0.2.6-cp39-none-any.whl
+[2023-06-18 06:14:44] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-06-18 06:14:44] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.74.tar.gz tmp/cdk-extensions-0.0.75.tar.gz --markdown 20230618/c/cdk-extensions/0.0.74-0.0.75/diff.md --exclude *.pyd
+[2023-06-18 06:14:44] INFO root fetch - processPackages [dal-python]: executing diffoscope
+[2023-06-18 06:14:44] INFO root fetch - processPackages [dal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dal_python-0.2.4-cp39-none-any.whl.zip tmp/dal_python-0.2.6-cp39-none-any.whl.zip --markdown 20230618/d/dal-python/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-06-18 06:14:45] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.74.tar.gz]
+[2023-06-18 06:14:45] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.75.tar.gz]
+[2023-06-18 06:14:45] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-06-18 06:15:02] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.4-cp39-none-any.whl.zip]
+[2023-06-18 06:15:02] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.2.6-cp39-none-any.whl.zip]
+[2023-06-18 06:15:02] INFO root fetch - main [MainThread]: End processing [dal-python]: success
+[2023-06-18 06:15:02] INFO root fetch - main [MainThread]: Store serial: [18547978]
