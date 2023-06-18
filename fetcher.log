@@ -14127,3 +14127,126 @@ EOFError: EOF read where object expected
 [2023-06-18 21:24:04] INFO root fetch - processPackages [open-space-toolkit-physics]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_physics-1.1.1-py39-none-any.whl.zip]
 [2023-06-18 21:24:04] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-physics]: success
 [2023-06-18 21:24:04] INFO root fetch - main [MainThread]: Store serial: [18552319]
+[2023-06-18 21:29:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552319]
+[2023-06-18 21:29:13] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elysium-knowledge-repository
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bio-pypage
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: math-calculator
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evaics
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rebnf
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-decorator
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: featureform
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gamchanger
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pants-backend-mdbook
+[2023-06-18 21:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pants-backend-secrets
+[2023-06-18 21:29:13] WARNING root fetch - processPackages [elysium-knowledge-repository]: Skipping, unable to determine old version
+[2023-06-18 21:29:13] INFO root fetch - processPackages [elysium-knowledge-repository]: Start processing: pants-backend-oci
+[2023-06-18 21:29:13] INFO root fetch - main [MainThread]: End processing [elysium-knowledge-repository] error
+[2023-06-18 21:29:13] INFO root fetch - processPackages [bio-pypage]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [openai-decorator]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [evaics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [rebnf]: New version: [0.8] Old Version: [0.7]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [pants-backend-secrets]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [gamchanger]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [pants-backend-mdbook]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [math-calculator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [featureform]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [rebnf]: Downloading https://files.pythonhosted.org/packages/dc/c8/77d622f6a04608b26af8255afb5b461281cb2cbad2bf0d6a5f9ba29708da/rebnf-0.7.tar.gz
+[2023-06-18 21:29:13] INFO root fetch - processPackages [pants-backend-oci]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-18 21:29:13] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/b2/e3/b409acd32bcbdd1ea3497943fefadadc561283b1a062dc9d9f7b66cd7c2b/featureform-1.9.4.tar.gz
+[2023-06-18 21:29:13] INFO root fetch - processPackages [openai-decorator]: Downloading https://files.pythonhosted.org/packages/35/49/9c2514f67580a7c51093fef80643fcd86fb1bfacdf94cb712f1ebc6bc8df/openai_decorator-0.1.0.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [evaics]: Downloading https://files.pythonhosted.org/packages/c8/8e/d868a220eb751c19d74159d55b4865695ac9d3036532aae71f66ddf83730/evaics-0.2.8.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [gamchanger]: Downloading https://files.pythonhosted.org/packages/94/e0/e0795621fd05df8f3cdf37c03c5c0aaded7ce52fbbfde494d648c8e71fca/gamchanger-0.1.8.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [bio-pypage]: Downloading https://files.pythonhosted.org/packages/b1/ac/d318035992463455bfe7720a8fbd67c8ac331653c02fd7d2f5f5a52d7bd5/bio-pypage-0.1.4.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [math-calculator]: Downloading https://files.pythonhosted.org/packages/ad/2b/8e6b2339ec2b269222181c5ca37f9f1e234bdf81f7e1bef2255791a17c9f/math_calculator-1.0.0.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-mdbook]: Downloading https://files.pythonhosted.org/packages/6c/68/fec980f620873fdaacafd7a5ab063cf6e7af64467c5f3a176fcb2e0af204/pants-backend-mdbook-0.1.3.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-secrets]: Downloading https://files.pythonhosted.org/packages/e1/70/b99526f692a41bfc5a6c6d6c5fff7458126648bdfc8ef66c46a4be1a1fc9/pants-backend-secrets-0.1.0.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-oci]: Downloading https://files.pythonhosted.org/packages/5a/5c/596a63e1454dd5a956508e2bd0d597516fa0ef49a8c38b95810189f09fec/pants-backend-oci-0.3.1.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [rebnf]: Downloading https://files.pythonhosted.org/packages/97/98/8ddddbcbb74954b4801713d2f3c51f197e7d39c1a499037590930d1685c0/rebnf-0.8.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [openai-decorator]: Downloading https://files.pythonhosted.org/packages/43/5f/2417d6e1cd143c7fabddd308698c69e3579b0cf68a2b74db0d4a10a6f541/openai_decorator-0.1.1.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/e1/a6/b6bc8da66498a8c9c93f244d664b817b6a8dc8ff34835bd73223abe9a6f5/featureform-1.9.5.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [bio-pypage]: Downloading https://files.pythonhosted.org/packages/21/60/3976faf3848a0454b422384f60fa7c0ee1e37e09e669cf9133731e4c9de9/bio-pypage-0.1.5.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [rebnf]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [rebnf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebnf-0.7.tar.gz tmp/rebnf-0.8.tar.gz --markdown 20230618/r/rebnf/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-18 21:29:14] INFO root fetch - processPackages [math-calculator]: Downloading https://files.pythonhosted.org/packages/35/66/d6faa10bcb93c0f02dceb00b4994b85ab4d7aa4f3a9fdb72e33191fdda05/math_calculator-1.0.1.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [openai-decorator]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [openai-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_decorator-0.1.0.tar.gz tmp/openai_decorator-0.1.1.tar.gz --markdown 20230618/o/openai-decorator/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-mdbook]: Downloading https://files.pythonhosted.org/packages/a3/ea/cf4a2b33aa538f29eb4bc7290eb68d03fa098b14dac8f0d661d1206bf273/pants-backend-mdbook-0.2.0.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [evaics]: Downloading https://files.pythonhosted.org/packages/9d/bf/f3844657b61c1256d7b67f63efeeea1a39a7c4403e38a20ca8dbad0b3967/evaics-0.2.9.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.9.4.tar.gz tmp/featureform-1.9.5.tar.gz --markdown 20230618/f/featureform/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-mdbook]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-mdbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants-backend-mdbook-0.1.3.tar.gz tmp/pants-backend-mdbook-0.2.0.tar.gz --markdown 20230618/p/pants-backend-mdbook/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-secrets]: Downloading https://files.pythonhosted.org/packages/d2/6f/4f0a6d98132ccd986c1db91ae4d5d887b0d716fa40e5665710e5f60179b7/pants-backend-secrets-0.2.0.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-oci]: Downloading https://files.pythonhosted.org/packages/dc/86/74ff0a044291fce3d94d8f304a4c2999155128f3347ed38a28348db28119/pants_backend_oci-0.4.0.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [bio-pypage]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [bio-pypage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio-pypage-0.1.4.tar.gz tmp/bio-pypage-0.1.5.tar.gz --markdown 20230618/b/bio-pypage/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-secrets]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants-backend-secrets-0.1.0.tar.gz tmp/pants-backend-secrets-0.2.0.tar.gz --markdown 20230618/p/pants-backend-secrets/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 21:29:14] INFO root fetch - processPackages [math-calculator]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [math-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_calculator-1.0.0.tar.gz tmp/math_calculator-1.0.1.tar.gz --markdown 20230618/m/math-calculator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 21:29:14] INFO root fetch - processPackages [gamchanger]: Downloading https://files.pythonhosted.org/packages/99/6c/123e5f6ecd0dedfad1376b1468faab8c8f34c907b599948285edf961c28c/gamchanger-0.1.9.tar.gz
+[2023-06-18 21:29:14] INFO root fetch - processPackages [evaics]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [evaics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evaics-0.2.8.tar.gz tmp/evaics-0.2.9.tar.gz --markdown 20230618/e/evaics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-oci]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [pants-backend-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants-backend-oci-0.3.1.tar.gz tmp/pants_backend_oci-0.4.0.tar.gz --markdown 20230618/p/pants-backend-oci/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-18 21:29:14] INFO root fetch - processPackages [gamchanger]: executing diffoscope
+[2023-06-18 21:29:14] INFO root fetch - processPackages [gamchanger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamchanger-0.1.8.tar.gz tmp/gamchanger-0.1.9.tar.gz --markdown 20230618/g/gamchanger/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 21:29:15] INFO root fetch - processPackages [openai-decorator]: Remove: archive file [/home/abi/fetcher/tmp/openai_decorator-0.1.0.tar.gz]
+[2023-06-18 21:29:15] INFO root fetch - processPackages [openai-decorator]: Remove: archive file [/home/abi/fetcher/tmp/openai_decorator-0.1.1.tar.gz]
+[2023-06-18 21:29:15] INFO root fetch - processPackages [openai-decorator]: Start processing: pants-backend-k8s
+[2023-06-18 21:29:15] INFO root fetch - main [MainThread]: End processing [openai-decorator]: success
+[2023-06-18 21:29:16] INFO root fetch - processPackages [rebnf]: Remove: archive file [/home/abi/fetcher/tmp/rebnf-0.7.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [rebnf]: Remove: archive file [/home/abi/fetcher/tmp/rebnf-0.8.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [rebnf]: Start processing: pants-backend-bitwarden
+[2023-06-18 21:29:16] INFO root fetch - main [MainThread]: End processing [rebnf]: success
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-k8s]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-bitwarden]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [math-calculator]: Remove: archive file [/home/abi/fetcher/tmp/math_calculator-1.0.0.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [math-calculator]: Remove: archive file [/home/abi/fetcher/tmp/math_calculator-1.0.1.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [math-calculator]: Start processing: pants-backend-kustomize
+[2023-06-18 21:29:16] INFO root fetch - main [MainThread]: End processing [math-calculator]: success
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-mdbook]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-mdbook-0.1.3.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-mdbook]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-mdbook-0.2.0.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - main [MainThread]: End processing [pants-backend-mdbook]: success
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-k8s]: Downloading https://files.pythonhosted.org/packages/42/b1/fed2bb92ca28e0b695ebddac7a408e29de47e617d9757c55dfdf150324d7/pants-backend-k8s-0.1.1.tar.gz
+[2023-06-18 21:29:16] INFO root fetch - processPackages [gamchanger]: Remove: archive file [/home/abi/fetcher/tmp/gamchanger-0.1.8.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [gamchanger]: Remove: archive file [/home/abi/fetcher/tmp/gamchanger-0.1.9.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - main [MainThread]: End processing [gamchanger]: success
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-kustomize]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-oci]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-oci-0.3.1.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-oci]: Remove: archive file [/home/abi/fetcher/tmp/pants_backend_oci-0.4.0.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - main [MainThread]: End processing [pants-backend-oci]: success
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-secrets]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-secrets-0.1.0.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-secrets]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-secrets-0.2.0.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - main [MainThread]: End processing [pants-backend-secrets]: success
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-bitwarden]: Downloading https://files.pythonhosted.org/packages/d6/d3/4c6dbab00cf69f686186298a6ef5b553413ff6af06b6d792efa48880d217/pants-backend-bitwarden-0.1.0.tar.gz
+[2023-06-18 21:29:16] INFO root fetch - processPackages [evaics]: Remove: archive file [/home/abi/fetcher/tmp/evaics-0.2.8.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [evaics]: Remove: archive file [/home/abi/fetcher/tmp/evaics-0.2.9.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - main [MainThread]: End processing [evaics]: success
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-kustomize]: Downloading https://files.pythonhosted.org/packages/d0/3d/f1863d028f1eb8011dc23327288dc67c6b1d5baea44027b2bc72fa0f2e27/pants-backend-kustomize-0.1.2.tar.gz
+[2023-06-18 21:29:16] INFO root fetch - processPackages [bio-pypage]: Remove: archive file [/home/abi/fetcher/tmp/bio-pypage-0.1.4.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - processPackages [bio-pypage]: Remove: archive file [/home/abi/fetcher/tmp/bio-pypage-0.1.5.tar.gz]
+[2023-06-18 21:29:16] INFO root fetch - main [MainThread]: End processing [bio-pypage]: success
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-k8s]: Downloading https://files.pythonhosted.org/packages/66/db/da651118af9875c1832c94229d2fadd533d3f9657eb858f0c2cbdcae2ec5/pants-backend-k8s-0.2.0.tar.gz
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-bitwarden]: Downloading https://files.pythonhosted.org/packages/cd/a2/ae8af0e7ca4ba98bb8778f25fa515fc61f6fe859f101ce2834257700d1e7/pants-backend-bitwarden-0.2.0.tar.gz
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-k8s]: executing diffoscope
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants-backend-k8s-0.1.1.tar.gz tmp/pants-backend-k8s-0.2.0.tar.gz --markdown 20230618/p/pants-backend-k8s/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-bitwarden]: executing diffoscope
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-bitwarden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants-backend-bitwarden-0.1.0.tar.gz tmp/pants-backend-bitwarden-0.2.0.tar.gz --markdown 20230618/p/pants-backend-bitwarden/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 21:29:16] INFO root fetch - processPackages [pants-backend-kustomize]: Downloading https://files.pythonhosted.org/packages/ac/1b/13e30fb16441eff2813eef1b5f9f87e5fae4c78a8ec5e981daaf088c2c95/pants-backend-kustomize-0.2.0.tar.gz
+[2023-06-18 21:29:17] INFO root fetch - processPackages [pants-backend-kustomize]: executing diffoscope
+[2023-06-18 21:29:17] INFO root fetch - processPackages [pants-backend-kustomize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pants-backend-kustomize-0.1.2.tar.gz tmp/pants-backend-kustomize-0.2.0.tar.gz --markdown 20230618/p/pants-backend-kustomize/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 21:29:17] INFO root fetch - processPackages [pants-backend-k8s]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-k8s-0.1.1.tar.gz]
+[2023-06-18 21:29:17] INFO root fetch - processPackages [pants-backend-k8s]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-k8s-0.2.0.tar.gz]
+[2023-06-18 21:29:17] INFO root fetch - main [MainThread]: End processing [pants-backend-k8s]: success
+[2023-06-18 21:29:17] INFO root fetch - processPackages [pants-backend-bitwarden]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-bitwarden-0.1.0.tar.gz]
+[2023-06-18 21:29:17] INFO root fetch - processPackages [pants-backend-bitwarden]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-bitwarden-0.2.0.tar.gz]
+[2023-06-18 21:29:17] INFO root fetch - main [MainThread]: End processing [pants-backend-bitwarden]: success
+[2023-06-18 21:29:17] INFO root fetch - processPackages [pants-backend-kustomize]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-kustomize-0.1.2.tar.gz]
+[2023-06-18 21:29:17] INFO root fetch - processPackages [pants-backend-kustomize]: Remove: archive file [/home/abi/fetcher/tmp/pants-backend-kustomize-0.2.0.tar.gz]
+[2023-06-18 21:29:17] INFO root fetch - main [MainThread]: End processing [pants-backend-kustomize]: success
+[2023-06-18 21:29:18] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.4.tar.gz]
+[2023-06-18 21:29:18] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.5.tar.gz]
+[2023-06-18 21:29:18] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-06-18 21:29:18] INFO root fetch - main [MainThread]: Store serial: [18552361]
