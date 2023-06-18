@@ -14443,3 +14443,93 @@ EOFError: EOF read where object expected
 [2023-06-18 21:45:59] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
 [2023-06-18 21:45:59] INFO root fetch - main [MainThread]: End processing [foursight]: success
 [2023-06-18 21:45:59] INFO root fetch - main [MainThread]: Store serial: [18552439]
+[2023-06-18 21:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552439]
+[2023-06-18 21:51:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 21:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rsync-progress
+[2023-06-18 21:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-stickyland
+[2023-06-18 21:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eva-shell
+[2023-06-18 21:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyopnsense
+[2023-06-18 21:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arm-pyart
+[2023-06-18 21:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grafana-dashboard-builder
+[2023-06-18 21:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coverxygen
+[2023-06-18 21:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libdev
+[2023-06-18 21:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: refuel-autolabel
+[2023-06-18 21:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tlcr
+[2023-06-18 21:51:10] INFO root fetch - processPackages [eva-shell]: New version: [0.1.0] Old Version: [0.0.93]
+[2023-06-18 21:51:10] INFO root fetch - processPackages [pyopnsense]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-18 21:51:10] WARNING root fetch - processPackages [rsync-progress]: Skipping, unable to determine old version
+[2023-06-18 21:51:10] INFO root fetch - processPackages [rsync-progress]: Start processing: rsync-progress
+[2023-06-18 21:51:10] INFO root fetch - main [MainThread]: End processing [rsync-progress] error
+[2023-06-18 21:51:10] INFO root fetch - processPackages [arm-pyart]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-18 21:51:10] INFO root fetch - processPackages [jupyterlab-stickyland]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-18 21:51:10] INFO root fetch - processPackages [coverxygen]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-18 21:51:10] INFO root fetch - processPackages [refuel-autolabel]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 21:51:10] INFO root fetch - processPackages [grafana-dashboard-builder]: New version: [0.8.1a1] Old Version: [0.8.0a1]
+[2023-06-18 21:51:10] INFO root fetch - processPackages [libdev]: New version: [0.9] Old Version: [0.8]
+[2023-06-18 21:51:10] WARNING root fetch - processPackages [rsync-progress]: Skipping, unable to determine old version
+[2023-06-18 21:51:10] INFO root fetch - main [MainThread]: End processing [rsync-progress] error
+[2023-06-18 21:51:10] INFO root fetch - processPackages [tlcr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 21:51:10] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/33/c7/5c9747a8959cecbbf4ab83cb408b14f8deb8d3571de8123403bc92b5850e/eva-shell-0.0.93.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [refuel-autolabel]: Downloading https://files.pythonhosted.org/packages/b1/68/f6ccf048dd45ae9e41a04beb3ac93bf34a37d6cb446554869484196440de/refuel-autolabel-0.0.3.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [arm-pyart]: Downloading https://files.pythonhosted.org/packages/6a/e8/08ec69e677392868fa4c020cf820f99a41a2eed5ae5ba321038ef42ce6fe/arm_pyart-1.9.1.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [pyopnsense]: Downloading https://files.pythonhosted.org/packages/28/ca/712f71ad67c2f2eafde2b56c4d3d479d7b90902b03a31b55c9a0b872bc90/pyopnsense-0.3.0.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [jupyterlab-stickyland]: Downloading https://files.pythonhosted.org/packages/08/7c/c2d655ae576a88883971e2533a076613c90772fea03e8d7756a72cc84f49/jupyterlab_stickyland-0.2.2.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [coverxygen]: Downloading https://files.pythonhosted.org/packages/f4/5d/b8435cdf5007e8760b8911150e7759a8a3f881a6f63b4212030cc3678abe/coverxygen-1.7.0.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [grafana-dashboard-builder]: Downloading https://files.pythonhosted.org/packages/fb/d7/b916265b954f7ecf1f0342d9f9f9e625e08249ff978df4b2b60cec06d723/grafana-dashboard-builder-0.8.0a1.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [libdev]: Downloading https://files.pythonhosted.org/packages/e2/8d/bcacab1d4f911d6fbf6c411dfb5a06ce836e521ccc40dc8175441fdb80b8/libdev-0.8.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [tlcr]: Downloading https://files.pythonhosted.org/packages/eb/ac/2de54eb186a583d295a317b42c70784d0eeb12af31597de518fb1daaa216/tlcr-0.0.1.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [coverxygen]: Downloading https://files.pythonhosted.org/packages/54/61/c8de243bd04fb2188be00690e98554af75e0cf6079aed8710e807166fc8f/coverxygen-1.8.0.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [refuel-autolabel]: Downloading https://files.pythonhosted.org/packages/e0/4f/be2b7303ed638180a95624a976a16ed95c8b1599ada984755affe89feac2/refuel-autolabel-0.0.4.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/1c/2d/5ae676cf64b35de47b910f2e1c81be0156e2c9bfbcf3b6d40550a7e19199/eva-shell-0.1.0.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [tlcr]: Downloading https://files.pythonhosted.org/packages/11/00/a21877d2d50c1394898dc7a78079717c5cd038f553e416da011cad5ce345/tlcr-0.0.2.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [libdev]: Downloading https://files.pythonhosted.org/packages/7d/2f/227c058dbbd649c3bb70bbd6d279691828eba2b5bac3cf27685382669b09/libdev-0.9.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [pyopnsense]: Downloading https://files.pythonhosted.org/packages/d3/08/1dc0e7948764c59635a560dfd14a15266a5efdb4e628ec737bcfb6a1d59e/pyopnsense-0.4.0.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [jupyterlab-stickyland]: Downloading https://files.pythonhosted.org/packages/2d/81/61bde127e54e0c0a9bbfa8c9e4b3d34266986dc6e7900baf339903336449/jupyterlab_stickyland-0.2.3.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [coverxygen]: executing diffoscope
+[2023-06-18 21:51:10] INFO root fetch - processPackages [coverxygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coverxygen-1.7.0.tar.gz tmp/coverxygen-1.8.0.tar.gz --markdown 20230618/c/coverxygen/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-18 21:51:10] INFO root fetch - processPackages [grafana-dashboard-builder]: Downloading https://files.pythonhosted.org/packages/b0/a1/4b19a620a5022b4c473390dfa22f7448ee9f47f856c63e601ce1c81d924e/grafana-dashboard-builder-0.8.1a1.tar.gz
+[2023-06-18 21:51:10] INFO root fetch - processPackages [eva-shell]: executing diffoscope
+[2023-06-18 21:51:10] INFO root fetch - processPackages [eva-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eva-shell-0.0.93.tar.gz tmp/eva-shell-0.1.0.tar.gz --markdown 20230618/e/eva-shell/0.0.93-0.1.0/diff.md --exclude *.pyd
+[2023-06-18 21:51:10] INFO root fetch - processPackages [refuel-autolabel]: executing diffoscope
+[2023-06-18 21:51:10] INFO root fetch - processPackages [refuel-autolabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refuel-autolabel-0.0.3.tar.gz tmp/refuel-autolabel-0.0.4.tar.gz --markdown 20230618/r/refuel-autolabel/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 21:51:10] INFO root fetch - processPackages [libdev]: executing diffoscope
+[2023-06-18 21:51:10] INFO root fetch - processPackages [libdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdev-0.8.tar.gz tmp/libdev-0.9.tar.gz --markdown 20230618/l/libdev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-18 21:51:10] INFO root fetch - processPackages [pyopnsense]: executing diffoscope
+[2023-06-18 21:51:10] INFO root fetch - processPackages [pyopnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopnsense-0.3.0.tar.gz tmp/pyopnsense-0.4.0.tar.gz --markdown 20230618/p/pyopnsense/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-18 21:51:10] INFO root fetch - processPackages [tlcr]: executing diffoscope
+[2023-06-18 21:51:10] INFO root fetch - processPackages [tlcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlcr-0.0.1.tar.gz tmp/tlcr-0.0.2.tar.gz --markdown 20230618/t/tlcr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 21:51:10] INFO root fetch - processPackages [grafana-dashboard-builder]: executing diffoscope
+[2023-06-18 21:51:10] INFO root fetch - processPackages [grafana-dashboard-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana-dashboard-builder-0.8.0a1.tar.gz tmp/grafana-dashboard-builder-0.8.1a1.tar.gz --markdown 20230618/g/grafana-dashboard-builder/0.8.0a1-0.8.1a1/diff.md --exclude *.pyd
+[2023-06-18 21:51:10] INFO root fetch - processPackages [jupyterlab-stickyland]: executing diffoscope
+[2023-06-18 21:51:10] INFO root fetch - processPackages [jupyterlab-stickyland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_stickyland-0.2.2.tar.gz tmp/jupyterlab_stickyland-0.2.3.tar.gz --markdown 20230618/j/jupyterlab-stickyland/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 21:51:11] INFO root fetch - processPackages [arm-pyart]: Downloading https://files.pythonhosted.org/packages/f4/92/b81384491c9a7df55c20f98f9d358e9e18341a52ab7bdd0f08dfd99e788f/arm_pyart-1.9.2.tar.gz
+[2023-06-18 21:51:11] INFO root fetch - processPackages [arm-pyart]: executing diffoscope
+[2023-06-18 21:51:11] INFO root fetch - processPackages [arm-pyart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arm_pyart-1.9.1.tar.gz tmp/arm_pyart-1.9.2.tar.gz --markdown 20230618/a/arm-pyart/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-18 21:51:12] INFO root fetch - processPackages [coverxygen]: Remove: archive file [/home/abi/fetcher/tmp/coverxygen-1.7.0.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - processPackages [coverxygen]: Remove: archive file [/home/abi/fetcher/tmp/coverxygen-1.8.0.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - main [MainThread]: End processing [coverxygen]: success
+[2023-06-18 21:51:12] INFO root fetch - processPackages [eva-shell]: Remove: archive file [/home/abi/fetcher/tmp/eva-shell-0.0.93.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - processPackages [eva-shell]: Remove: archive file [/home/abi/fetcher/tmp/eva-shell-0.1.0.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - main [MainThread]: End processing [eva-shell]: success
+[2023-06-18 21:51:12] INFO root fetch - processPackages [libdev]: Remove: archive file [/home/abi/fetcher/tmp/libdev-0.8.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - processPackages [libdev]: Remove: archive file [/home/abi/fetcher/tmp/libdev-0.9.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - main [MainThread]: End processing [libdev]: success
+[2023-06-18 21:51:12] INFO root fetch - processPackages [pyopnsense]: Remove: archive file [/home/abi/fetcher/tmp/pyopnsense-0.3.0.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - processPackages [pyopnsense]: Remove: archive file [/home/abi/fetcher/tmp/pyopnsense-0.4.0.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - main [MainThread]: End processing [pyopnsense]: success
+[2023-06-18 21:51:12] INFO root fetch - processPackages [tlcr]: Remove: archive file [/home/abi/fetcher/tmp/tlcr-0.0.1.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - processPackages [tlcr]: Remove: archive file [/home/abi/fetcher/tmp/tlcr-0.0.2.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - main [MainThread]: End processing [tlcr]: success
+[2023-06-18 21:51:12] INFO root fetch - processPackages [grafana-dashboard-builder]: Remove: archive file [/home/abi/fetcher/tmp/grafana-dashboard-builder-0.8.0a1.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - processPackages [grafana-dashboard-builder]: Remove: archive file [/home/abi/fetcher/tmp/grafana-dashboard-builder-0.8.1a1.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - main [MainThread]: End processing [grafana-dashboard-builder]: success
+[2023-06-18 21:51:12] INFO root fetch - processPackages [refuel-autolabel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-autolabel-0.0.3.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - processPackages [refuel-autolabel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-autolabel-0.0.4.tar.gz]
+[2023-06-18 21:51:12] INFO root fetch - main [MainThread]: End processing [refuel-autolabel]: success
+[2023-06-18 21:51:22] INFO root fetch - processPackages [arm-pyart]: Remove: archive file [/home/abi/fetcher/tmp/arm_pyart-1.9.1.tar.gz]
+[2023-06-18 21:51:22] INFO root fetch - processPackages [arm-pyart]: Remove: archive file [/home/abi/fetcher/tmp/arm_pyart-1.9.2.tar.gz]
+[2023-06-18 21:51:22] INFO root fetch - main [MainThread]: End processing [arm-pyart]: success
+[2023-06-18 21:51:24] INFO root fetch - processPackages [jupyterlab-stickyland]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_stickyland-0.2.2.tar.gz]
+[2023-06-18 21:51:24] INFO root fetch - processPackages [jupyterlab-stickyland]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_stickyland-0.2.3.tar.gz]
+[2023-06-18 21:51:24] INFO root fetch - main [MainThread]: End processing [jupyterlab-stickyland]: success
+[2023-06-18 21:51:24] INFO root fetch - main [MainThread]: Store serial: [18552484]
