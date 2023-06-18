@@ -5574,3 +5574,47 @@
 [2023-06-18 09:48:49] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-18 09:48:49] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-18 09:48:49] INFO root fetch - main [MainThread]: Store serial: [18548618]
+[2023-06-18 09:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548618]
+[2023-06-18 09:53:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 09:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almavik
+[2023-06-18 09:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spPersist
+[2023-06-18 09:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyGraphica
+[2023-06-18 09:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2023-06-18 09:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flute-alc
+[2023-06-18 09:53:58] INFO root fetch - processPackages [spPersist]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-18 09:53:58] INFO root fetch - processPackages [almavik]: New version: [3.8] Old Version: [0.3.7]
+[2023-06-18 09:53:58] INFO root fetch - processPackages [PyGraphica]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 09:53:58] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c6/b9/0d881dbadc1a87d8e160ad4e8257f337788daa05b44440238838585f6615/sppersist-1.2.0.tar.gz
+[2023-06-18 09:53:58] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230618] Old Version: [2.14.0.dev20230617]
+[2023-06-18 09:53:58] INFO root fetch - processPackages [flute-alc]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 09:53:58] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/3c/d7/95ca438ac7e8dec8da43a6d07676da6ac675dc0968851c7e2e48152ea44d/almavik-0.3.7.tar.gz
+[2023-06-18 09:53:58] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 88373794>=10485760
+[2023-06-18 09:53:58] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-18 09:53:59] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/a4/2b/94858bcda8ecf6dcd327583f047a60d6ddf7f37d2d05bdaf783ac4c95bdd/PyGraphica-1.0.0.tar.gz
+[2023-06-18 09:53:59] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/07/74/21da68abb3d0ecf39fc0ec75de8b66f4e63b9c322604bf11b0c50c097b50/tf_nightly_cpu-2.14.0.dev20230617-cp39-cp39-win_amd64.whl
+[2023-06-18 09:53:59] INFO root fetch - processPackages [flute-alc]: Downloading https://files.pythonhosted.org/packages/0d/61/0d306db479028335d4cc9d91a52cd09d8dc4561559efcb870dbaf102f6ae/flute_alc-1.0.0-cp310-cp310-manylinux_2_34_x86_64.whl
+[2023-06-18 09:53:59] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/5f/f9/d679de9d687ad22c2fff461da400e572cfec7a7d2515b4abb9b88f092898/sppersist-1.2.1.tar.gz
+[2023-06-18 09:53:59] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-18 09:53:59] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.2.0.tar.gz tmp/sppersist-1.2.1.tar.gz --markdown 20230618/s/spPersist/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-18 09:53:59] INFO root fetch - processPackages [PyGraphica]: Downloading https://files.pythonhosted.org/packages/7c/55/2183f8a506552a6a2712745bdb3c58919a0549fb17f2ed194c08304a87bf/PyGraphica-1.0.1.tar.gz
+[2023-06-18 09:53:59] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e9/fa/ef476a330959719c4c9ce0a1033dbc77f55c8ccf5ad2c771ae799c0ac0a2/tf_nightly_cpu-2.14.0.dev20230618-cp39-cp39-win_amd64.whl
+[2023-06-18 09:53:59] INFO root fetch - processPackages [PyGraphica]: executing diffoscope
+[2023-06-18 09:53:59] INFO root fetch - processPackages [PyGraphica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGraphica-1.0.0.tar.gz tmp/PyGraphica-1.0.1.tar.gz --markdown 20230618/P/PyGraphica/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 09:53:59] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-18 09:53:59] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230617-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230618-cp39-cp39-win_amd64.whl.zip --markdown 20230618/t/tf-nightly-cpu/2.14.0.dev20230617-2.14.0.dev20230618/diff.md --exclude *.pyd
+[2023-06-18 09:53:59] INFO root fetch - processPackages [flute-alc]: Downloading https://files.pythonhosted.org/packages/19/04/856d4c02bc81a67fe6b3eed355fa25c17abfd1b3b461f79c8ccaa9dde5b6/flute_alc-1.0.1-cp310-cp310-manylinux_2_34_x86_64.whl
+[2023-06-18 09:53:59] INFO root fetch - processPackages [flute-alc]: executing diffoscope
+[2023-06-18 09:53:59] INFO root fetch - processPackages [flute-alc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flute_alc-1.0.0-cp310-cp310-manylinux_2_34_x86_64.whl.zip tmp/flute_alc-1.0.1-cp310-cp310-manylinux_2_34_x86_64.whl.zip --markdown 20230618/f/flute-alc/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 09:54:00] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.2.0.tar.gz]
+[2023-06-18 09:54:00] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.2.1.tar.gz]
+[2023-06-18 09:54:00] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-18 09:54:00] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230617-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 09:54:00] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230618-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 09:54:00] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-18 09:54:00] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-1.0.0.tar.gz]
+[2023-06-18 09:54:00] INFO root fetch - processPackages [PyGraphica]: Remove: archive file [/home/abi/fetcher/tmp/PyGraphica-1.0.1.tar.gz]
+[2023-06-18 09:54:00] INFO root fetch - main [MainThread]: End processing [PyGraphica]: success
+[2023-06-18 09:54:20] INFO root fetch - processPackages [flute-alc]: Remove: archive file [/home/abi/fetcher/tmp/flute_alc-1.0.0-cp310-cp310-manylinux_2_34_x86_64.whl.zip]
+[2023-06-18 09:54:20] INFO root fetch - processPackages [flute-alc]: Remove: archive file [/home/abi/fetcher/tmp/flute_alc-1.0.1-cp310-cp310-manylinux_2_34_x86_64.whl.zip]
+[2023-06-18 09:54:20] INFO root fetch - main [MainThread]: End processing [flute-alc]: success
+[2023-06-18 09:54:20] INFO root fetch - main [MainThread]: Store serial: [18548635]
