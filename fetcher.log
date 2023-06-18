@@ -8822,3 +8822,61 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:56:17] INFO root fetch - processPackages [capstone]: Remove: archive file [/home/abi/fetcher/tmp/capstone-5.0.0rc4.tar.gz]
 [2023-06-18 14:56:17] INFO root fetch - main [MainThread]: End processing [capstone]: success
 [2023-06-18 14:56:17] INFO root fetch - main [MainThread]: Store serial: [18550123]
+[2023-06-18 15:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550123]
+[2023-06-18 15:01:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 15:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readthis
+[2023-06-18 15:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-csrf-protect
+[2023-06-18 15:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hurricaneapi
+[2023-06-18 15:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FPC
+[2023-06-18 15:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fix-busted-json
+[2023-06-18 15:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TkBook
+[2023-06-18 15:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fix-busted-json
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 15:01:27] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2023-06-18 15:01:27] INFO root fetch - processPackages [readthis]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-18 15:01:27] INFO root fetch - processPackages [hurricaneapi]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fastapi-csrf-protect]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 15:01:27] WARNING root fetch - processPackages [TkBook]: Skipping, unable to determine old version
+[2023-06-18 15:01:27] INFO root fetch - main [MainThread]: End processing [TkBook] error
+[2023-06-18 15:01:27] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/4c/2a/79553cbdee1f2a0bd9fb590e5ba5e8a43b07adfb57787746b30708e5a201/hurricaneapi-0.1.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: Downloading https://files.pythonhosted.org/packages/29/50/0304b348c0886e1afec5b7728ea77f20d7b1f337e544b59d306678bd1701/fix-busted-json-0.0.7.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/56/14/81f931547e362bfde1a9ab2f9f7f75cddde19e71699a3197ba0fb0a7abb2/readthis-0.0.1.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fastapi-csrf-protect]: Downloading https://files.pythonhosted.org/packages/42/c6/859b0ea3eda30bba23da8758f8d67b4afa67f5ff3c1911e635175022169b/fastapi-csrf-protect-0.3.0.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: Downloading https://files.pythonhosted.org/packages/29/50/0304b348c0886e1afec5b7728ea77f20d7b1f337e544b59d306678bd1701/fix-busted-json-0.0.7.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fastapi-csrf-protect]: Downloading https://files.pythonhosted.org/packages/34/10/4d5891f8b1c7d46509196773d71411c439e91ced80b12e42585e2eece28e/fastapi-csrf-protect-0.3.1.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/5a/5d/3e8bea1ca7d5db1609a16c4bf06b81f87f1a75811d75027f4a6eab6e2769/readthis-0.0.3.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [hurricaneapi]: Downloading https://files.pythonhosted.org/packages/d6/df/086fecda5b55e3795bd51df6c417e6f5d5a20acf1be48570985b3177add1/hurricaneapi-0.1.1.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: Downloading https://files.pythonhosted.org/packages/32/75/93d154543edc4d88ca657a5246195f05acbb7bb58941bdf8d1f6e2fac0f6/fix-busted-json-0.0.8.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: Downloading https://files.pythonhosted.org/packages/32/75/93d154543edc4d88ca657a5246195f05acbb7bb58941bdf8d1f6e2fac0f6/fix-busted-json-0.0.8.tar.gz
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fastapi-csrf-protect]: executing diffoscope
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fastapi-csrf-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-csrf-protect-0.3.0.tar.gz tmp/fastapi-csrf-protect-0.3.1.tar.gz --markdown 20230618/f/fastapi-csrf-protect/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-18 15:01:27] INFO root fetch - processPackages [readthis]: executing diffoscope
+[2023-06-18 15:01:27] INFO root fetch - processPackages [readthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readthis-0.0.1.tar.gz tmp/readthis-0.0.3.tar.gz --markdown 20230618/r/readthis/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: executing diffoscope
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fix-busted-json-0.0.7.tar.gz tmp/fix-busted-json-0.0.8.tar.gz --markdown 20230618/f/fix-busted-json/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: executing diffoscope
+[2023-06-18 15:01:27] INFO root fetch - processPackages [fix-busted-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fix-busted-json-0.0.7.tar.gz tmp/fix-busted-json-0.0.8.tar.gz --markdown 20230618/f/fix-busted-json/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 15:01:27] INFO root fetch - processPackages [hurricaneapi]: executing diffoscope
+[2023-06-18 15:01:27] INFO root fetch - processPackages [hurricaneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hurricaneapi-0.1.tar.gz tmp/hurricaneapi-0.1.1.tar.gz --markdown 20230618/h/hurricaneapi/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 15:01:28] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2023-06-18 15:01:28] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20230618/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-18 15:01:29] INFO root fetch - processPackages [fastapi-csrf-protect]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-csrf-protect-0.3.0.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - processPackages [fastapi-csrf-protect]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-csrf-protect-0.3.1.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - main [MainThread]: End processing [fastapi-csrf-protect]: success
+[2023-06-18 15:01:29] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.1.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.3.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - main [MainThread]: End processing [readthis]: success
+[2023-06-18 15:01:29] INFO root fetch - processPackages [fix-busted-json]: Remove: archive file [/home/abi/fetcher/tmp/fix-busted-json-0.0.7.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - processPackages [fix-busted-json]: Remove: archive file [/home/abi/fetcher/tmp/fix-busted-json-0.0.8.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - main [MainThread]: End processing [fix-busted-json]: success
+[2023-06-18 15:01:29] INFO root fetch - main [MainThread]: End processing [fix-busted-json]: success
+[2023-06-18 15:01:29] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2023-06-18 15:01:29] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - processPackages [hurricaneapi]: Remove: archive file [/home/abi/fetcher/tmp/hurricaneapi-0.1.1.tar.gz]
+[2023-06-18 15:01:29] INFO root fetch - main [MainThread]: End processing [hurricaneapi]: success
+[2023-06-18 15:01:29] INFO root fetch - main [MainThread]: Store serial: [18550145]
