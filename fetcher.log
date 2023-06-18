@@ -7185,3 +7185,45 @@
 [2023-06-18 12:55:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306181053-py3-none-any.whl.zip]
 [2023-06-18 12:55:28] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-18 12:55:28] INFO root fetch - main [MainThread]: Store serial: [18549396]
+[2023-06-18 13:00:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549396]
+[2023-06-18 13:00:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 13:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-06-18 13:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: git-debranch
+[2023-06-18 13:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: random-otp
+[2023-06-18 13:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polyfactory
+[2023-06-18 13:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydatawork
+[2023-06-18 13:00:37] INFO root fetch - processPackages [polyfactory]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-18 13:00:37] WARNING root fetch - processPackages [random-otp]: Skipping, unable to determine old version
+[2023-06-18 13:00:37] INFO root fetch - main [MainThread]: End processing [random-otp] error
+[2023-06-18 13:00:37] INFO root fetch - processPackages [git-debranch]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-18 13:00:37] INFO root fetch - processPackages [pydatawork]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 13:00:37] INFO root fetch - processPackages [kfish]: New version: [99.0.202306181056] Old Version: [99.0.202306172137]
+[2023-06-18 13:00:37] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/25/73/d4b67f332199b5f86df5f67fad359808b4dbbd30e74373192e486446e33f/pydatawork-0.0.8.tar.gz
+[2023-06-18 13:00:37] INFO root fetch - processPackages [polyfactory]: Downloading https://files.pythonhosted.org/packages/40/d0/e8fee50d8744a0659c382760ff119059fa8089066ce9d511bbed862e8cb0/polyfactory-2.3.0.tar.gz
+[2023-06-18 13:00:37] INFO root fetch - processPackages [git-debranch]: Downloading https://files.pythonhosted.org/packages/28/b2/39676066be7f3430e99ecd2843341f381c17e52f2eb73135a417417a87c9/git-debranch-0.1.6.tar.gz
+[2023-06-18 13:00:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b6/18/9b743935df70ca8c443c1df124b71eabb766cec1738bccaddfefcf4d791a/kfish-99.0.202306172137-py3-none-any.whl
+[2023-06-18 13:00:37] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/95/8f/90c33c71eb6c964e33ee1ed97b7701a879ff4885d4256216f9892ff0ce99/pydatawork-0.0.9.tar.gz
+[2023-06-18 13:00:37] INFO root fetch - processPackages [polyfactory]: Downloading https://files.pythonhosted.org/packages/7d/25/29d0c590e5c0a9d3032b226ec992d5866a0b7d1b89a39ba2c12c92aaf914/polyfactory-2.3.1.tar.gz
+[2023-06-18 13:00:37] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-18 13:00:37] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.0.8.tar.gz tmp/pydatawork-0.0.9.tar.gz --markdown 20230618/p/pydatawork/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 13:00:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c4/ef/b0d1c7d8c53f01b79e30b9e54f3952a85eac9e9faf9b3e0ce17db4faf1e5/kfish-99.0.202306181056-py3-none-any.whl
+[2023-06-18 13:00:37] INFO root fetch - processPackages [git-debranch]: Downloading https://files.pythonhosted.org/packages/f4/03/e75d913e3b5ec6dc8862956aef5e04c70c8c3693e6f7fbd596adaceee9a3/git-debranch-0.1.7.tar.gz
+[2023-06-18 13:00:37] INFO root fetch - processPackages [polyfactory]: executing diffoscope
+[2023-06-18 13:00:37] INFO root fetch - processPackages [polyfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyfactory-2.3.0.tar.gz tmp/polyfactory-2.3.1.tar.gz --markdown 20230618/p/polyfactory/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-18 13:00:37] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-18 13:00:37] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306172137-py3-none-any.whl.zip tmp/kfish-99.0.202306181056-py3-none-any.whl.zip --markdown 20230618/k/kfish/99.0.202306172137-99.0.202306181056/diff.md --exclude *.pyd
+[2023-06-18 13:00:37] INFO root fetch - processPackages [git-debranch]: executing diffoscope
+[2023-06-18 13:00:37] INFO root fetch - processPackages [git-debranch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-debranch-0.1.6.tar.gz tmp/git-debranch-0.1.7.tar.gz --markdown 20230618/g/git-debranch/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-18 13:00:38] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.8.tar.gz]
+[2023-06-18 13:00:38] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.9.tar.gz]
+[2023-06-18 13:00:38] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-18 13:00:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306172137-py3-none-any.whl.zip]
+[2023-06-18 13:00:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306181056-py3-none-any.whl.zip]
+[2023-06-18 13:00:38] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-18 13:00:38] INFO root fetch - processPackages [git-debranch]: Remove: archive file [/home/abi/fetcher/tmp/git-debranch-0.1.6.tar.gz]
+[2023-06-18 13:00:38] INFO root fetch - processPackages [git-debranch]: Remove: archive file [/home/abi/fetcher/tmp/git-debranch-0.1.7.tar.gz]
+[2023-06-18 13:00:38] INFO root fetch - main [MainThread]: End processing [git-debranch]: success
+[2023-06-18 13:00:39] INFO root fetch - processPackages [polyfactory]: Remove: archive file [/home/abi/fetcher/tmp/polyfactory-2.3.0.tar.gz]
+[2023-06-18 13:00:39] INFO root fetch - processPackages [polyfactory]: Remove: archive file [/home/abi/fetcher/tmp/polyfactory-2.3.1.tar.gz]
+[2023-06-18 13:00:39] INFO root fetch - main [MainThread]: End processing [polyfactory]: success
+[2023-06-18 13:00:39] INFO root fetch - main [MainThread]: Store serial: [18549408]
