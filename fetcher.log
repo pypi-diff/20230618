@@ -15331,3 +15331,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-06-18 22:40:47] INFO root fetch - main [MainThread]: End processing [dune-iga] error
 [2023-06-18 22:40:47] INFO root fetch - main [MainThread]: Store serial: [18552758]
+[2023-06-18 22:45:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552758]
+[2023-06-18 22:45:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 22:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scal
+[2023-06-18 22:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyupgrade
+[2023-06-18 22:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dune-iga
+[2023-06-18 22:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zeroconf
+[2023-06-18 22:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dune-iga
+[2023-06-18 22:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spacy-setfit
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: New version: [0.1.8.dev20230618204354] Old Version: [0.1.7.dev20230618203642]
+[2023-06-18 22:45:57] ERROR root fetch - processPackages [spacy-setfit]: Unable to get metadata: No such project 'spacy-setfit'
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: New version: [0.1.8.dev20230618204354] Old Version: [0.1.7.dev20230618203642]
+[2023-06-18 22:45:57] INFO root fetch - processPackages [scal]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-18 22:45:57] INFO root fetch - main [MainThread]: End processing [spacy-setfit] error
+[2023-06-18 22:45:57] INFO root fetch - processPackages [pyupgrade]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/48/f4/28b952c3836c86e1c626a976c93548194f0b94c41c4632457e4c47276354/dune-iga-0.1.7.dev20230618203642.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [zeroconf]: New version: [0.69.0] Old Version: [0.68.1]
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/48/f4/28b952c3836c86e1c626a976c93548194f0b94c41c4632457e4c47276354/dune-iga-0.1.7.dev20230618203642.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/d2/9b/6aa9edc99f8b554a998a6d683b2c02d377d375dd223c5663c3d2ede0973f/zeroconf-0.68.1.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/2f/53/306f86bd927741833780a33d9f3a1ff0731729235d867e87ee85476f610d/pyupgrade-3.6.0.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [scal]: Downloading https://files.pythonhosted.org/packages/cb/e9/36745c57025dedf459ba2f527f8f7be67e2ff18a000d4bd722993d6e5676/scal-2.2.0.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/4c/d5/fde1b4fac197b021f9ef6bbe7339d18c31d075374ad892b31bd8766f4af0/dune-iga-0.1.8.dev20230618204354.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/4c/d5/fde1b4fac197b021f9ef6bbe7339d18c31d075374ad892b31bd8766f4af0/dune-iga-0.1.8.dev20230618204354.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/6d/b3/1288ce4c7069e344cc6825dd896b4c0fe5e7950aff9ea98415275a302d15/zeroconf-0.69.0.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/dc/c8/a3a2f36712a37f8780b7e291d38c28031660ed4be5098d88b17b6de36d02/pyupgrade-3.7.0.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-06-18 22:45:57] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.68.1.tar.gz tmp/zeroconf-0.69.0.tar.gz --markdown 20230618/z/zeroconf/0.68.1-0.69.0/diff.md --exclude *.pyd
+[2023-06-18 22:45:57] INFO root fetch - processPackages [scal]: Downloading https://files.pythonhosted.org/packages/2e/71/708612b025b58e74ab63b13a903a500c205ce197f2c0921d86ca6b9a2418/scal-2.2.1.tar.gz
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: executing diffoscope
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune-iga-0.1.7.dev20230618203642.tar.gz tmp/dune-iga-0.1.8.dev20230618204354.tar.gz --markdown 20230618/d/dune-iga/0.1.7.dev20230618203642-0.1.8.dev20230618204354/diff.md --exclude *.pyd
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: executing diffoscope
+[2023-06-18 22:45:57] INFO root fetch - processPackages [dune-iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune-iga-0.1.7.dev20230618203642.tar.gz tmp/dune-iga-0.1.8.dev20230618204354.tar.gz --markdown 20230618/d/dune-iga/0.1.7.dev20230618203642-0.1.8.dev20230618204354/diff.md --exclude *.pyd
+[2023-06-18 22:45:57] INFO root fetch - processPackages [pyupgrade]: executing diffoscope
+[2023-06-18 22:45:57] INFO root fetch - processPackages [pyupgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyupgrade-3.6.0.tar.gz tmp/pyupgrade-3.7.0.tar.gz --markdown 20230618/p/pyupgrade/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-06-18 22:45:57] INFO root fetch - processPackages [scal]: executing diffoscope
+[2023-06-18 22:45:57] INFO root fetch - processPackages [scal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scal-2.2.0.tar.gz tmp/scal-2.2.1.tar.gz --markdown 20230618/s/scal/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-18 22:45:59] INFO root fetch - processPackages [scal]: Remove: archive file [/home/abi/fetcher/tmp/scal-2.2.0.tar.gz]
+[2023-06-18 22:45:59] INFO root fetch - processPackages [scal]: Remove: archive file [/home/abi/fetcher/tmp/scal-2.2.1.tar.gz]
+[2023-06-18 22:45:59] INFO root fetch - main [MainThread]: End processing [scal]: success
+[2023-06-18 22:45:59] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.68.1.tar.gz]
+[2023-06-18 22:45:59] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.69.0.tar.gz]
+[2023-06-18 22:45:59] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-06-18 22:45:59] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.6.0.tar.gz]
+[2023-06-18 22:45:59] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.7.0.tar.gz]
+[2023-06-18 22:45:59] INFO root fetch - main [MainThread]: End processing [pyupgrade]: success
+[2023-06-18 22:45:59] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.7.dev20230618203642.tar.gz]
+[2023-06-18 22:45:59] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.8.dev20230618204354.tar.gz]
+[2023-06-18 22:45:59] INFO root fetch - main [MainThread]: End processing [dune-iga]: success
+[2023-06-18 22:45:59] INFO root fetch - main [MainThread]: End processing [dune-iga]: success
+[2023-06-18 22:45:59] INFO root fetch - main [MainThread]: Store serial: [18552777]
