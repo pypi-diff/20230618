@@ -5533,3 +5533,44 @@
 [2023-06-18 09:38:24] INFO root fetch - processPackages [stochastic-matching]: Remove: archive file [/home/abi/fetcher/tmp/stochastic_matching-0.2.2.tar.gz]
 [2023-06-18 09:38:24] INFO root fetch - main [MainThread]: End processing [stochastic-matching]: success
 [2023-06-18 09:38:24] INFO root fetch - main [MainThread]: Store serial: [18548603]
+[2023-06-18 09:43:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548603]
+[2023-06-18 09:43:33] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-18 09:48:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548607]
+[2023-06-18 09:48:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2023-06-18 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kube-copilot
+[2023-06-18 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wgd
+[2023-06-18 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spPersist
+[2023-06-18 09:48:38] INFO root fetch - processPackages [spPersist]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-18 09:48:38] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 09:48:38] INFO root fetch - processPackages [wgd]: New version: [2.0.19] Old Version: [2.0.18]
+[2023-06-18 09:48:38] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-18 09:48:39] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/ff/1e/4b0be54ce6fb7c62d19e2122092a089c976ae5b0f96c88bcbc1643f68004/sppersist-1.1.9.tar.gz
+[2023-06-18 09:48:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-18 09:48:39] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/3f/ee/c15770f01b6153d65821e73139719384f5e1f35ea660c2b55c2798015dd5/wgd-2.0.18.tar.gz
+[2023-06-18 09:48:39] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2023-06-18 09:48:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-18 09:48:39] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c6/b9/0d881dbadc1a87d8e160ad4e8257f337788daa05b44440238838585f6615/sppersist-1.2.0.tar.gz
+[2023-06-18 09:48:39] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/8e/b3/5b68cb960d00331b373b0bf96c8e6408f92fc886c4e718a39119a4d9f9a7/wgd-2.0.19.tar.gz
+[2023-06-18 09:48:39] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-18 09:48:39] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230618/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-18 09:48:39] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-18 09:48:39] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.1.9.tar.gz tmp/sppersist-1.2.0.tar.gz --markdown 20230618/s/spPersist/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-18 09:48:39] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2023-06-18 09:48:39] INFO root fetch - processPackages [wgd]: executing diffoscope
+[2023-06-18 09:48:39] INFO root fetch - processPackages [wgd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgd-2.0.18.tar.gz tmp/wgd-2.0.19.tar.gz --markdown 20230618/w/wgd/2.0.18-2.0.19/diff.md --exclude *.pyd
+[2023-06-18 09:48:39] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-06-18 09:48:39] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230618/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 09:48:40] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.9.tar.gz]
+[2023-06-18 09:48:40] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.2.0.tar.gz]
+[2023-06-18 09:48:40] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-18 09:48:40] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2023-06-18 09:48:40] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2023-06-18 09:48:40] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-06-18 09:48:40] INFO root fetch - processPackages [wgd]: Remove: archive file [/home/abi/fetcher/tmp/wgd-2.0.18.tar.gz]
+[2023-06-18 09:48:40] INFO root fetch - processPackages [wgd]: Remove: archive file [/home/abi/fetcher/tmp/wgd-2.0.19.tar.gz]
+[2023-06-18 09:48:40] INFO root fetch - main [MainThread]: End processing [wgd]: success
+[2023-06-18 09:48:49] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-18 09:48:49] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-18 09:48:49] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-18 09:48:49] INFO root fetch - main [MainThread]: Store serial: [18548618]
