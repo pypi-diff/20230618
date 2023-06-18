@@ -4032,3 +4032,91 @@
 [2023-06-18 05:37:55] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.7.0.tar.gz]
 [2023-06-18 05:37:55] INFO root fetch - main [MainThread]: End processing [flask-signing]: success
 [2023-06-18 05:37:55] INFO root fetch - main [MainThread]: Store serial: [18547852]
+[2023-06-18 05:42:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547852]
+[2023-06-18 05:43:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pykoopman
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nombresulibreriai
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansar-encode
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erniechatbotsdk
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asteval
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: getmodelspec
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pykoopman
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sanbin
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyleniumio
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ansar-encode]: New version: [0.1.79] Old Version: [0.1.78]
+[2023-06-18 05:43:04] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.39] Old Version: [1.0.389]
+[2023-06-18 05:43:04] WARNING root fetch - processPackages [nombresulibreriai]: Skipping, unable to determine old version
+[2023-06-18 05:43:04] INFO root fetch - processPackages [nombresulibreriai]: Start processing: ansar-create
+[2023-06-18 05:43:04] INFO root fetch - main [MainThread]: End processing [nombresulibreriai] error
+[2023-06-18 05:43:04] INFO root fetch - processPackages [erniechatbotsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 05:43:04] INFO root fetch - processPackages [asteval]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-18 05:43:04] INFO root fetch - processPackages [pykoopman]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 05:43:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-06-18 05:43:04] INFO root fetch - processPackages [pykoopman]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 05:43:04] WARNING root fetch - processPackages [sanbin]: Skipping, unable to determine old version
+[2023-06-18 05:43:04] INFO root fetch - main [MainThread]: End processing [sanbin] error
+[2023-06-18 05:43:04] INFO root fetch - processPackages [pyleniumio]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ansar-create]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-18 05:43:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-06-18 05:43:04] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/0b/ba/87d1fecb5f39be9310491d1bd1a8655317fc633efc6b29dfc4e561f02606/erniechatbotsdk-0.0.8.tar.gz
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/ce/9d/58e30a71fd417a00a0a8a836361a647a95ab26f58622751de0bdfdf08439/ansar-create-0.1.3.tar.gz
+[2023-06-18 05:43:04] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/ab/1d/a7c212ebcbdfc9b528c6febdf494c51f26bc5de4796d32159ffc9855aebf/getmodelspec-1.0.389.tar.gz
+[2023-06-18 05:43:04] INFO root fetch - processPackages [pykoopman]: Downloading https://files.pythonhosted.org/packages/73/6d/7f761b82420d655ea0f06a5acee1fed091eac72d3d5b25829de16126e5f7/pykoopman-1.0.2.tar.gz
+[2023-06-18 05:43:04] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/13/7b/44942ca645b1bdd1aaed142bd2caff20a65f2b6a97929f43901371b08d7c/ansar-encode-0.1.78.tar.gz
+[2023-06-18 05:43:04] INFO root fetch - processPackages [pykoopman]: Downloading https://files.pythonhosted.org/packages/73/6d/7f761b82420d655ea0f06a5acee1fed091eac72d3d5b25829de16126e5f7/pykoopman-1.0.2.tar.gz
+[2023-06-18 05:43:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-06-18 05:43:04] INFO root fetch - processPackages [erniechatbotsdk]: Downloading https://files.pythonhosted.org/packages/d2/47/9acbb6be835bf604e58c663b9251f83f37a10a32058b6f1171aaa3e6a6aa/erniechatbotsdk-0.0.9.tar.gz
+[2023-06-18 05:43:04] INFO root fetch - processPackages [pyleniumio]: Downloading https://files.pythonhosted.org/packages/7d/83/db645666358063aa5e504f240ef33c6353ea1f2028f3fc7fb51c3b468568/pyleniumio-1.9.7.tar.gz
+[2023-06-18 05:43:04] INFO root fetch - processPackages [asteval]: Downloading https://files.pythonhosted.org/packages/7b/3f/fcc67318fc2ebc0b68804610abf78d3c71629d873a81c696778191a4471f/asteval-0.9.8.tar.gz
+[2023-06-18 05:43:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-06-18 05:43:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230618/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-06-18 05:43:05] INFO root fetch - processPackages [erniechatbotsdk]: executing diffoscope
+[2023-06-18 05:43:05] INFO root fetch - processPackages [erniechatbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniechatbotsdk-0.0.8.tar.gz tmp/erniechatbotsdk-0.0.9.tar.gz --markdown 20230618/e/erniechatbotsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 05:43:05] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/bc/9f/302b7704f6115a42ec331068b600645a3371f70a900d6de3c0087843d15c/ansar-create-0.1.4.tar.gz
+[2023-06-18 05:43:05] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/db/56/ccf6295b32db0dfebe628445d5d11d2648b7bdf0c31ff647d331f758eab6/getmodelspec-1.0.39.tar.gz
+[2023-06-18 05:43:05] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2023-06-18 05:43:05] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-create-0.1.3.tar.gz tmp/ansar-create-0.1.4.tar.gz --markdown 20230618/a/ansar-create/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 05:43:05] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/a2/93/70cfc89d57fcdbc85ba55aea7ea2f95ec52ced54299a1a40dcc48a54edd0/ansar-encode-0.1.79.tar.gz
+[2023-06-18 05:43:05] INFO root fetch - processPackages [pykoopman]: Downloading https://files.pythonhosted.org/packages/9a/48/1e68842e2a73f5b90198cb3e8c38df04a75fbcb70484abdad3ac11b0c9e0/pykoopman-1.0.3.tar.gz
+[2023-06-18 05:43:05] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-18 05:43:05] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.389.tar.gz tmp/getmodelspec-1.0.39.tar.gz --markdown 20230618/g/getmodelspec/1.0.389-1.0.39/diff.md --exclude *.pyd
+[2023-06-18 05:43:05] INFO root fetch - processPackages [pykoopman]: Downloading https://files.pythonhosted.org/packages/9a/48/1e68842e2a73f5b90198cb3e8c38df04a75fbcb70484abdad3ac11b0c9e0/pykoopman-1.0.3.tar.gz
+[2023-06-18 05:43:05] INFO root fetch - processPackages [ansar-encode]: executing diffoscope
+[2023-06-18 05:43:05] INFO root fetch - processPackages [ansar-encode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-encode-0.1.78.tar.gz tmp/ansar-encode-0.1.79.tar.gz --markdown 20230618/a/ansar-encode/0.1.78-0.1.79/diff.md --exclude *.pyd
+[2023-06-18 05:43:05] INFO root fetch - processPackages [asteval]: Downloading https://files.pythonhosted.org/packages/b4/64/58d1ef4d95c1ebe57d21f897a82b74b2670083b993701c8c0a047762ab4a/asteval-0.9.9.tar.gz
+[2023-06-18 05:43:05] INFO root fetch - processPackages [pykoopman]: executing diffoscope
+[2023-06-18 05:43:05] INFO root fetch - processPackages [pykoopman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykoopman-1.0.2.tar.gz tmp/pykoopman-1.0.3.tar.gz --markdown 20230618/p/pykoopman/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 05:43:05] INFO root fetch - processPackages [pykoopman]: executing diffoscope
+[2023-06-18 05:43:05] INFO root fetch - processPackages [pykoopman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykoopman-1.0.2.tar.gz tmp/pykoopman-1.0.3.tar.gz --markdown 20230618/p/pykoopman/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 05:43:05] INFO root fetch - processPackages [asteval]: executing diffoscope
+[2023-06-18 05:43:05] INFO root fetch - processPackages [asteval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asteval-0.9.8.tar.gz tmp/asteval-0.9.9.tar.gz --markdown 20230618/a/asteval/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-18 05:43:05] INFO root fetch - processPackages [pyleniumio]: Downloading https://files.pythonhosted.org/packages/6f/1e/2109ce3b0bbb9bbb766c1b6c86fd888cf24d4fc282ef8c43e2a59ab60e6c/pyleniumio-1.9.8.tar.gz
+[2023-06-18 05:43:05] INFO root fetch - processPackages [pyleniumio]: executing diffoscope
+[2023-06-18 05:43:05] INFO root fetch - processPackages [pyleniumio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyleniumio-1.9.7.tar.gz tmp/pyleniumio-1.9.8.tar.gz --markdown 20230618/p/pyleniumio/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-06-18 05:43:06] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.8.tar.gz]
+[2023-06-18 05:43:06] INFO root fetch - processPackages [erniechatbotsdk]: Remove: archive file [/home/abi/fetcher/tmp/erniechatbotsdk-0.0.9.tar.gz]
+[2023-06-18 05:43:06] INFO root fetch - main [MainThread]: End processing [erniechatbotsdk]: success
+[2023-06-18 05:43:06] INFO root fetch - processPackages [ansar-encode]: Remove: archive file [/home/abi/fetcher/tmp/ansar-encode-0.1.78.tar.gz]
+[2023-06-18 05:43:06] INFO root fetch - processPackages [ansar-encode]: Remove: archive file [/home/abi/fetcher/tmp/ansar-encode-0.1.79.tar.gz]
+[2023-06-18 05:43:06] INFO root fetch - main [MainThread]: End processing [ansar-encode]: success
+[2023-06-18 05:43:07] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.389.tar.gz]
+[2023-06-18 05:43:07] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.39.tar.gz]
+[2023-06-18 05:43:07] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-18 05:43:07] INFO root fetch - processPackages [asteval]: Remove: archive file [/home/abi/fetcher/tmp/asteval-0.9.8.tar.gz]
+[2023-06-18 05:43:07] INFO root fetch - processPackages [asteval]: Remove: archive file [/home/abi/fetcher/tmp/asteval-0.9.9.tar.gz]
+[2023-06-18 05:43:07] INFO root fetch - main [MainThread]: End processing [asteval]: success
+[2023-06-18 05:43:07] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar-create-0.1.3.tar.gz]
+[2023-06-18 05:43:07] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar-create-0.1.4.tar.gz]
+[2023-06-18 05:43:07] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2023-06-18 05:43:07] INFO root fetch - processPackages [pyleniumio]: Remove: archive file [/home/abi/fetcher/tmp/pyleniumio-1.9.7.tar.gz]
+[2023-06-18 05:43:07] INFO root fetch - processPackages [pyleniumio]: Remove: archive file [/home/abi/fetcher/tmp/pyleniumio-1.9.8.tar.gz]
+[2023-06-18 05:43:07] INFO root fetch - main [MainThread]: End processing [pyleniumio]: success
+[2023-06-18 05:43:08] INFO root fetch - processPackages [pykoopman]: Remove: archive file [/home/abi/fetcher/tmp/pykoopman-1.0.2.tar.gz]
+[2023-06-18 05:43:08] INFO root fetch - processPackages [pykoopman]: Remove: archive file [/home/abi/fetcher/tmp/pykoopman-1.0.3.tar.gz]
+[2023-06-18 05:43:08] INFO root fetch - main [MainThread]: End processing [pykoopman]: success
+[2023-06-18 05:43:08] INFO root fetch - main [MainThread]: End processing [pykoopman]: success
+[2023-06-18 05:43:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2023-06-18 05:43:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2023-06-18 05:43:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-06-18 05:43:08] INFO root fetch - main [MainThread]: Store serial: [18547889]
