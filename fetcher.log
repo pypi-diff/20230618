@@ -13118,3 +13118,61 @@ EOFError: EOF read where object expected
 [2023-06-18 19:57:37] INFO root fetch - processPackages [boneIO]: Remove: archive file [/home/abi/fetcher/tmp/boneIO-0.6.3.dev4.tar.gz]
 [2023-06-18 19:57:37] INFO root fetch - main [MainThread]: End processing [boneIO]: success
 [2023-06-18 19:57:37] INFO root fetch - main [MainThread]: Store serial: [18551881]
+[2023-06-18 20:02:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551881]
+[2023-06-18 20:02:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kkyCrawler
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ringgpt
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reedwolf.entities
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skmetpy
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ringgpt
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mizue
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandoc-beamer-arrow
+[2023-06-18 20:02:46] WARNING root fetch - processPackages [reedwolf.entities]: Skipping, unable to determine old version
+[2023-06-18 20:02:46] INFO root fetch - main [MainThread]: End processing [reedwolf.entities] error
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:02:46] INFO root fetch - processPackages [skmetpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 20:02:46] INFO root fetch - processPackages [mizue]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-18 20:02:46] INFO root fetch - processPackages [kkyCrawler]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/28/5a/17a1a16bd2432c53c907680ee3bba9456b4ca22259718d8c179c63ddb718/mizue-0.2.7.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [pandoc-beamer-arrow]: New version: [1.0.0.0] Old Version: [0.1.2]
+[2023-06-18 20:02:46] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/49/33/936f83cfbd988dcbb9eadb92a43cb3dd1240e905f6fb0bc034d15e9bca3d/kkyCrawler-1.0.3.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/80/37/15f17974e2f658feda553ec2f74871ad7a736a4a0ea1c44821be2a5e732f/skmetpy-0.0.8.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:02:46] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/88/b1/096c14ef8f507b76f46bcd9ec8a0e2a1ec3b38cdeedfbf66618c1da38086/mizue-0.2.8.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 20:02:46] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:02:46] INFO root fetch - processPackages [pandoc-beamer-arrow]: Downloading https://files.pythonhosted.org/packages/02/b6/c5f5b996167d0d1c7f7625247e88852b88be2864fb1b07446da0848f6aca/pandoc-beamer-arrow-0.1.2.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/eb/da/56c27786fac3d20b6d0ba6ebc6e1f55959fc939d01090bef1a893d09c0a8/skmetpy-0.0.9.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-18 20:02:46] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.7.tar.gz tmp/mizue-0.2.8.tar.gz --markdown 20230618/m/mizue/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-18 20:02:46] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/5d/cd/0d834dfd0bb3226be02f2f07c9962140dac960eff3284ef6b55599f49f3d/kkyCrawler-1.0.4.tar.gz
+[2023-06-18 20:02:46] INFO root fetch - processPackages [kkyCrawler]: executing diffoscope
+[2023-06-18 20:02:46] INFO root fetch - processPackages [kkyCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkyCrawler-1.0.3.tar.gz tmp/kkyCrawler-1.0.4.tar.gz --markdown 20230618/k/kkyCrawler/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-18 20:02:46] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-18 20:02:46] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.0.8.tar.gz tmp/skmetpy-0.0.9.tar.gz --markdown 20230618/s/skmetpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 20:02:46] INFO root fetch - processPackages [pandoc-beamer-arrow]: Downloading https://files.pythonhosted.org/packages/17/94/1467a0555a6561054b1c4a038b53756adb1a53e5832c5051a90f47d09d8b/pandoc_beamer_arrow-1.0.0.0-py3-none-any.whl
+[2023-06-18 20:02:47] INFO root fetch - processPackages [pandoc-beamer-arrow]: executing diffoscope
+[2023-06-18 20:02:47] INFO root fetch - processPackages [pandoc-beamer-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-beamer-arrow-0.1.2.tar.gz tmp/pandoc_beamer_arrow-1.0.0.0-py3-none-any.whl.zip --markdown 20230618/p/pandoc-beamer-arrow/0.1.2-1.0.0.0/diff.md --exclude *.pyd
+[2023-06-18 20:02:47] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.8.tar.gz]
+[2023-06-18 20:02:47] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.9.tar.gz]
+[2023-06-18 20:02:47] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 20:02:47] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 20:02:47] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-1.0.3.tar.gz]
+[2023-06-18 20:02:47] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-1.0.4.tar.gz]
+[2023-06-18 20:02:47] INFO root fetch - main [MainThread]: End processing [kkyCrawler]: success
+[2023-06-18 20:02:47] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.8.tar.gz]
+[2023-06-18 20:02:47] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.9.tar.gz]
+[2023-06-18 20:02:47] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-18 20:02:47] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.7.tar.gz]
+[2023-06-18 20:02:47] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.8.tar.gz]
+[2023-06-18 20:02:47] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-18 20:02:48] INFO root fetch - processPackages [pandoc-beamer-arrow]: Remove: archive file [/home/abi/fetcher/tmp/pandoc-beamer-arrow-0.1.2.tar.gz]
+[2023-06-18 20:02:48] INFO root fetch - processPackages [pandoc-beamer-arrow]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_beamer_arrow-1.0.0.0-py3-none-any.whl.zip]
+[2023-06-18 20:02:48] INFO root fetch - main [MainThread]: End processing [pandoc-beamer-arrow]: success
+[2023-06-18 20:02:48] INFO root fetch - main [MainThread]: Store serial: [18551902]
