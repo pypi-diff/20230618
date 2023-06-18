@@ -13952,3 +13952,38 @@ EOFError: EOF read where object expected
 [2023-06-18 21:02:53] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-18 21:02:53] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-18 21:02:53] INFO root fetch - main [MainThread]: Store serial: [18552203]
+[2023-06-18 21:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552203]
+[2023-06-18 21:08:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 21:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robyn
+[2023-06-18 21:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polyfactory
+[2023-06-18 21:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GCoCF
+[2023-06-18 21:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ema-workbench
+[2023-06-18 21:08:02] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-18 21:08:02] INFO root fetch - processPackages [GCoCF]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-18 21:08:02] INFO root fetch - processPackages [polyfactory]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-18 21:08:02] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/1d/51/2eb31a2adae9da086e12553bae6d75c4c04de4825186955ad4646214fc0f/gcocf-0.9.98.tar.gz
+[2023-06-18 21:08:02] INFO root fetch - processPackages [polyfactory]: Downloading https://files.pythonhosted.org/packages/7d/25/29d0c590e5c0a9d3032b226ec992d5866a0b7d1b89a39ba2c12c92aaf914/polyfactory-2.3.1.tar.gz
+[2023-06-18 21:08:02] INFO root fetch - processPackages [ema-workbench]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-18 21:08:02] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2023-06-18 21:08:02] INFO root fetch - processPackages [GCoCF]: Downloading https://files.pythonhosted.org/packages/6d/3a/af0ff9c49aefc5b6b5eddc7d51542ad9f6aef52786c6083294a265345f9d/gcocf-0.9.99.tar.gz
+[2023-06-18 21:08:02] INFO root fetch - processPackages [ema-workbench]: Downloading https://files.pythonhosted.org/packages/b2/a6/4e71634b25f809432464819c276b1b2aa5eccd3c2329f315e282a5541389/ema_workbench-2.4.0.tar.gz
+[2023-06-18 21:08:02] INFO root fetch - processPackages [GCoCF]: executing diffoscope
+[2023-06-18 21:08:02] INFO root fetch - processPackages [GCoCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcocf-0.9.98.tar.gz tmp/gcocf-0.9.99.tar.gz --markdown 20230618/G/GCoCF/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-18 21:08:02] INFO root fetch - processPackages [polyfactory]: Downloading https://files.pythonhosted.org/packages/38/c2/2bda0d2ca6768d4804abb1a5ab2f62cc3cc36ca12cd321949fe3712d5068/polyfactory-2.3.2.tar.gz
+[2023-06-18 21:08:02] INFO root fetch - processPackages [polyfactory]: executing diffoscope
+[2023-06-18 21:08:02] INFO root fetch - processPackages [polyfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyfactory-2.3.1.tar.gz tmp/polyfactory-2.3.2.tar.gz --markdown 20230618/p/polyfactory/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-18 21:08:02] WARNING root fetch - processPackages [ema-workbench]: Skipping package: exceeds size limit 24604157>=10485760
+[2023-06-18 21:08:02] INFO root fetch - main [MainThread]: End processing [ema-workbench] error
+[2023-06-18 21:08:02] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2023-06-18 21:08:03] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2023-06-18 21:08:03] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20230618/r/robyn/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 21:08:03] INFO root fetch - processPackages [polyfactory]: Remove: archive file [/home/abi/fetcher/tmp/polyfactory-2.3.1.tar.gz]
+[2023-06-18 21:08:03] INFO root fetch - processPackages [polyfactory]: Remove: archive file [/home/abi/fetcher/tmp/polyfactory-2.3.2.tar.gz]
+[2023-06-18 21:08:03] INFO root fetch - main [MainThread]: End processing [polyfactory]: success
+[2023-06-18 21:08:03] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.98.tar.gz]
+[2023-06-18 21:08:03] INFO root fetch - processPackages [GCoCF]: Remove: archive file [/home/abi/fetcher/tmp/gcocf-0.9.99.tar.gz]
+[2023-06-18 21:08:03] INFO root fetch - main [MainThread]: End processing [GCoCF]: success
+[2023-06-18 21:08:04] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.8.1.tar.gz]
+[2023-06-18 21:08:04] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
+[2023-06-18 21:08:04] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2023-06-18 21:08:04] INFO root fetch - main [MainThread]: Store serial: [18552264]
