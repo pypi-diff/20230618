@@ -2673,3 +2673,67 @@
 [2023-06-18 03:50:58] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1687050451.tar.gz]
 [2023-06-18 03:50:58] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
 [2023-06-18 03:50:58] INFO root fetch - main [MainThread]: Store serial: [18547330]
+[2023-06-18 03:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547330]
+[2023-06-18 03:56:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: info-chunks-to-embeddings
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudflare
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Humre
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: info-chunks-to-embeddings
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-rancher2
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ultralytics
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ifctester
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-06-18 03:56:07] INFO root fetch - processPackages [info-chunks-to-embeddings]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 03:56:07] INFO root fetch - processPackages [Humre]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-18 03:56:07] INFO root fetch - processPackages [info-chunks-to-embeddings]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 03:56:07] INFO root fetch - processPackages [pulumi-rancher2]: New version: [5.1.0a1686980182] Old Version: [5.0.2]
+[2023-06-18 03:56:07] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.5.0a1687050407] Old Version: [5.4.1]
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ifctester]: New version: [0.0.230618] Old Version: [0.0.230523]
+[2023-06-18 03:56:07] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/07/66/81325335322a8cb55d47d839e1fe3f888257c7b7ef409410047bf4f61b4c/pulumi_rancher2-5.0.2.tar.gz
+[2023-06-18 03:56:07] INFO root fetch - processPackages [info-chunks-to-embeddings]: Downloading https://files.pythonhosted.org/packages/08/34/8a21e823dcc80c154ea8c9d48ac1e31b3cc164b8a0433392da1678506520/info-chunks-to-embeddings-1.0.0.tar.gz
+[2023-06-18 03:56:07] INFO root fetch - processPackages [info-chunks-to-embeddings]: Downloading https://files.pythonhosted.org/packages/08/34/8a21e823dcc80c154ea8c9d48ac1e31b3cc164b8a0433392da1678506520/info-chunks-to-embeddings-1.0.0.tar.gz
+[2023-06-18 03:56:07] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/1b/3c/8b6a68e74f88c15405fabbfb0632d79a717d4cfa117bff50dcf1108b8beb/pulumi_cloudflare-5.4.1.tar.gz
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-06-18 03:56:07] INFO root fetch - processPackages [Humre]: Downloading https://files.pythonhosted.org/packages/5a/2e/0282ad5f2f4df6ab06c7ff8ff652b48a0eadbf23cfcbc8ac184334e96cd8/Humre-0.2.0.tar.gz
+[2023-06-18 03:56:07] INFO root fetch - processPackages [ifctester]: Downloading https://files.pythonhosted.org/packages/f6/64/fd8f5eff3b5ed4139f2492f1a09ec76fc84afe6df7f90762c7ba823430e0/ifctester-0.0.230523.tar.gz
+[2023-06-18 03:56:08] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/f8/ba/706a5ceabfb3927500d10076e0ba55ebdfdec51a128a315ee63955456df6/pulumi_rancher2-5.1.0a1686980182.tar.gz
+[2023-06-18 03:56:08] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/04/04/fbb369260394678a1c517c69ada3bca3d1ea52d88a4ae1bdc44d3b6126ab/pulumi_cloudflare-5.5.0a1687050407.tar.gz
+[2023-06-18 03:56:08] INFO root fetch - processPackages [Humre]: Downloading https://files.pythonhosted.org/packages/10/eb/8189421df8b7eded688409bfd5561964abaed60dd4e49c5505fe24eb6fa2/Humre-1.0.0.tar.gz
+[2023-06-18 03:56:08] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2023-06-18 03:56:08] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-5.0.2.tar.gz tmp/pulumi_rancher2-5.1.0a1686980182.tar.gz --markdown 20230618/p/pulumi-rancher2/5.0.2-5.1.0a1686980182/diff.md --exclude *.pyd
+[2023-06-18 03:56:08] INFO root fetch - processPackages [info-chunks-to-embeddings]: Downloading https://files.pythonhosted.org/packages/f2/ac/f5cca3e92f98484b56f4b2aad3a6b8e16e60b7895fa176b0de134e0f3e88/info-chunks-to-embeddings-1.0.1.tar.gz
+[2023-06-18 03:56:08] INFO root fetch - processPackages [info-chunks-to-embeddings]: Downloading https://files.pythonhosted.org/packages/f2/ac/f5cca3e92f98484b56f4b2aad3a6b8e16e60b7895fa176b0de134e0f3e88/info-chunks-to-embeddings-1.0.1.tar.gz
+[2023-06-18 03:56:08] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-06-18 03:56:08] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.4.1.tar.gz tmp/pulumi_cloudflare-5.5.0a1687050407.tar.gz --markdown 20230618/p/pulumi-cloudflare/5.4.1-5.5.0a1687050407/diff.md --exclude *.pyd
+[2023-06-18 03:56:08] INFO root fetch - processPackages [Humre]: executing diffoscope
+[2023-06-18 03:56:08] INFO root fetch - processPackages [Humre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Humre-0.2.0.tar.gz tmp/Humre-1.0.0.tar.gz --markdown 20230618/H/Humre/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-18 03:56:08] INFO root fetch - processPackages [ifctester]: Downloading https://files.pythonhosted.org/packages/6b/1d/2c11ec0f4927cf7846721e80e22502125c57c4541cb704491a16bba8069e/ifctester-0.0.230618.tar.gz
+[2023-06-18 03:56:08] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-06-18 03:56:08] INFO root fetch - processPackages [info-chunks-to-embeddings]: executing diffoscope
+[2023-06-18 03:56:08] INFO root fetch - processPackages [info-chunks-to-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/info-chunks-to-embeddings-1.0.0.tar.gz tmp/info-chunks-to-embeddings-1.0.1.tar.gz --markdown 20230618/i/info-chunks-to-embeddings/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 03:56:08] INFO root fetch - processPackages [info-chunks-to-embeddings]: executing diffoscope
+[2023-06-18 03:56:08] INFO root fetch - processPackages [info-chunks-to-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/info-chunks-to-embeddings-1.0.0.tar.gz tmp/info-chunks-to-embeddings-1.0.1.tar.gz --markdown 20230618/i/info-chunks-to-embeddings/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 03:56:08] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-06-18 03:56:08] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230618/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:56:08] INFO root fetch - processPackages [ifctester]: executing diffoscope
+[2023-06-18 03:56:08] INFO root fetch - processPackages [ifctester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifctester-0.0.230523.tar.gz tmp/ifctester-0.0.230618.tar.gz --markdown 20230618/i/ifctester/0.0.230523-0.0.230618/diff.md --exclude *.pyd
+[2023-06-18 03:56:09] INFO root fetch - processPackages [info-chunks-to-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/info-chunks-to-embeddings-1.0.0.tar.gz]
+[2023-06-18 03:56:09] INFO root fetch - processPackages [info-chunks-to-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/info-chunks-to-embeddings-1.0.1.tar.gz]
+[2023-06-18 03:56:09] INFO root fetch - main [MainThread]: End processing [info-chunks-to-embeddings]: success
+[2023-06-18 03:56:09] INFO root fetch - processPackages [ifctester]: Remove: archive file [/home/abi/fetcher/tmp/ifctester-0.0.230523.tar.gz]
+[2023-06-18 03:56:09] INFO root fetch - processPackages [ifctester]: Remove: archive file [/home/abi/fetcher/tmp/ifctester-0.0.230618.tar.gz]
+[2023-06-18 03:56:09] INFO root fetch - main [MainThread]: End processing [ifctester]: success
+[2023-06-18 03:56:09] INFO root fetch - main [MainThread]: End processing [info-chunks-to-embeddings]: success
+[2023-06-18 03:56:09] INFO root fetch - processPackages [Humre]: Remove: archive file [/home/abi/fetcher/tmp/Humre-0.2.0.tar.gz]
+[2023-06-18 03:56:09] INFO root fetch - processPackages [Humre]: Remove: archive file [/home/abi/fetcher/tmp/Humre-1.0.0.tar.gz]
+[2023-06-18 03:56:09] INFO root fetch - main [MainThread]: End processing [Humre]: success
+[2023-06-18 03:56:10] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.0.2.tar.gz]
+[2023-06-18 03:56:10] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.1.0a1686980182.tar.gz]
+[2023-06-18 03:56:10] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2023-06-18 03:56:10] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.4.1.tar.gz]
+[2023-06-18 03:56:10] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.5.0a1687050407.tar.gz]
+[2023-06-18 03:56:10] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-06-18 03:56:11] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-06-18 03:56:11] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-06-18 03:56:11] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-06-18 03:56:11] INFO root fetch - main [MainThread]: Store serial: [18547356]
