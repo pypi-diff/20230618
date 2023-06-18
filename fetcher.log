@@ -10749,3 +10749,55 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 16:58:17] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-0.11.0.tar.gz]
 [2023-06-18 16:58:17] INFO root fetch - main [MainThread]: End processing [qh3]: success
 [2023-06-18 16:58:17] INFO root fetch - main [MainThread]: Store serial: [18550887]
+[2023-06-18 17:03:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550887]
+[2023-06-18 17:03:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycargoebuild
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecowitt2mqtt
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopyre
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: classattr
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piplet
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autopyre
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lottry
+[2023-06-18 17:03:28] INFO root fetch - processPackages [pycargoebuild]: New version: [0.7] Old Version: [0.6.3]
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ecowitt2mqtt]: New version: [2023.6.1] Old Version: [2023.6.0]
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/7e/a0/f046f19d473b303caf8b187e19fcaf7cfd1f21a24cba6db3a1a9b3a9df19/autopyre-0.0.8.tar.gz
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ecowitt2mqtt]: Downloading https://files.pythonhosted.org/packages/e2/27/4785d0f89bee5dad11b575e174ea63abb942ec702e71b897f65e2eb1e58d/ecowitt2mqtt-2023.6.0.tar.gz
+[2023-06-18 17:03:28] INFO root fetch - processPackages [piplet]: New version: [0.2.0] Old Version: [0.0.1]
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/7e/a0/f046f19d473b303caf8b187e19fcaf7cfd1f21a24cba6db3a1a9b3a9df19/autopyre-0.0.8.tar.gz
+[2023-06-18 17:03:28] WARNING root fetch - processPackages [classattr]: Skipping, unable to determine old version
+[2023-06-18 17:03:28] INFO root fetch - main [MainThread]: End processing [classattr] error
+[2023-06-18 17:03:28] WARNING root fetch - processPackages [lottry]: Skipping, unable to determine old version
+[2023-06-18 17:03:28] INFO root fetch - main [MainThread]: End processing [lottry] error
+[2023-06-18 17:03:28] INFO root fetch - processPackages [pycargoebuild]: Downloading https://files.pythonhosted.org/packages/61/d2/ea7acb49a58ef9f4503a317e28b7cf115018eaef6b57cc41fd6072f0945b/pycargoebuild-0.6.3.tar.gz
+[2023-06-18 17:03:28] INFO root fetch - processPackages [piplet]: Downloading https://files.pythonhosted.org/packages/92/5d/c7c8535f0c0e0b4091be942f0e732dcf673ebd43b6fb70475c322419ab5d/piplet-0.0.1.tar.gz
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/a1/3e/f149a2b4451adb9f1f1d11736cd612d717c93f18c60b306955e4c06f6e22/autopyre-0.0.9.tar.gz
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/a1/3e/f149a2b4451adb9f1f1d11736cd612d717c93f18c60b306955e4c06f6e22/autopyre-0.0.9.tar.gz
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.8.tar.gz tmp/autopyre-0.0.9.tar.gz --markdown 20230618/a/autopyre/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 17:03:28] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.8.tar.gz tmp/autopyre-0.0.9.tar.gz --markdown 20230618/a/autopyre/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ecowitt2mqtt]: Downloading https://files.pythonhosted.org/packages/12/6a/5b79cbc3a037586cc6a07c6b72506bc6db7c2e98c2eadda40d648d15462b/ecowitt2mqtt-2023.6.1.tar.gz
+[2023-06-18 17:03:28] INFO root fetch - processPackages [pycargoebuild]: Downloading https://files.pythonhosted.org/packages/bc/3d/2ad9ddaa07b2726759152c0fc47120d9fbfa56a20934717704d25a0106b8/pycargoebuild-0.7.tar.gz
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ecowitt2mqtt]: executing diffoscope
+[2023-06-18 17:03:28] INFO root fetch - processPackages [ecowitt2mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecowitt2mqtt-2023.6.0.tar.gz tmp/ecowitt2mqtt-2023.6.1.tar.gz --markdown 20230618/e/ecowitt2mqtt/2023.6.0-2023.6.1/diff.md --exclude *.pyd
+[2023-06-18 17:03:28] INFO root fetch - processPackages [pycargoebuild]: executing diffoscope
+[2023-06-18 17:03:28] INFO root fetch - processPackages [pycargoebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycargoebuild-0.6.3.tar.gz tmp/pycargoebuild-0.7.tar.gz --markdown 20230618/p/pycargoebuild/0.6.3-0.7/diff.md --exclude *.pyd
+[2023-06-18 17:03:28] INFO root fetch - processPackages [piplet]: Downloading https://files.pythonhosted.org/packages/f8/64/d5c1883f3de846e31068ec1ee8df32f20bdff9eb19a33fc10dfc96279aa8/piplet-0.2.0.tar.gz
+[2023-06-18 17:03:29] INFO root fetch - processPackages [piplet]: executing diffoscope
+[2023-06-18 17:03:29] INFO root fetch - processPackages [piplet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piplet-0.0.1.tar.gz tmp/piplet-0.2.0.tar.gz --markdown 20230618/p/piplet/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 17:03:29] INFO root fetch - processPackages [ecowitt2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/ecowitt2mqtt-2023.6.0.tar.gz]
+[2023-06-18 17:03:29] INFO root fetch - processPackages [ecowitt2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/ecowitt2mqtt-2023.6.1.tar.gz]
+[2023-06-18 17:03:29] INFO root fetch - main [MainThread]: End processing [ecowitt2mqtt]: success
+[2023-06-18 17:03:29] INFO root fetch - processPackages [piplet]: Remove: archive file [/home/abi/fetcher/tmp/piplet-0.0.1.tar.gz]
+[2023-06-18 17:03:29] INFO root fetch - processPackages [piplet]: Remove: archive file [/home/abi/fetcher/tmp/piplet-0.2.0.tar.gz]
+[2023-06-18 17:03:29] INFO root fetch - main [MainThread]: End processing [piplet]: success
+[2023-06-18 17:03:30] INFO root fetch - processPackages [pycargoebuild]: Remove: archive file [/home/abi/fetcher/tmp/pycargoebuild-0.6.3.tar.gz]
+[2023-06-18 17:03:30] INFO root fetch - processPackages [pycargoebuild]: Remove: archive file [/home/abi/fetcher/tmp/pycargoebuild-0.7.tar.gz]
+[2023-06-18 17:03:30] INFO root fetch - main [MainThread]: End processing [pycargoebuild]: success
+[2023-06-18 17:03:30] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.8.tar.gz]
+[2023-06-18 17:03:30] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.9.tar.gz]
+[2023-06-18 17:03:30] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 17:03:30] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 17:03:30] INFO root fetch - main [MainThread]: Store serial: [18550917]
