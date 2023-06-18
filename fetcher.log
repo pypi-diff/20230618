@@ -13324,3 +13324,87 @@ EOFError: EOF read where object expected
 [2023-06-18 20:13:13] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.9.tar.gz]
 [2023-06-18 20:13:13] INFO root fetch - main [MainThread]: End processing [mizue]: success
 [2023-06-18 20:13:13] INFO root fetch - main [MainThread]: Store serial: [18551971]
+[2023-06-18 20:18:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551971]
+[2023-06-18 20:18:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompton
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ceffyl
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-pypi-security
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kkyCrawler
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ringgpt
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mizue
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: classattr
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tdscha
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gadapt
+[2023-06-18 20:18:22] INFO root fetch - processPackages [test-pypi-security]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 20:18:22] INFO root fetch - processPackages [mizue]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:18:22] INFO root fetch - processPackages [prompton]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 20:18:22] INFO root fetch - processPackages [kkyCrawler]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-18 20:18:22] INFO root fetch - processPackages [tdscha]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-18 20:18:22] INFO root fetch - processPackages [classattr]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-18 20:18:22] INFO root fetch - processPackages [gadapt]: New version: [0.2.19] Old Version: [0.2.18]
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ceffyl]: New version: [1.26] Old Version: [1.25]
+[2023-06-18 20:18:22] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/88/b1/096c14ef8f507b76f46bcd9ec8a0e2a1ec3b38cdeedfbf66618c1da38086/mizue-0.2.8.tar.gz
+[2023-06-18 20:18:22] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 20:18:22] INFO root fetch - processPackages [classattr]: Downloading https://files.pythonhosted.org/packages/e7/41/2a7eb64a815ef4c02ad41157b0f16b3a43a090b332c1fe51a8f00b971e74/classattr-1.0.3.tar.gz
+[2023-06-18 20:18:22] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/5d/cd/0d834dfd0bb3226be02f2f07c9962140dac960eff3284ef6b55599f49f3d/kkyCrawler-1.0.4.tar.gz
+[2023-06-18 20:18:22] INFO root fetch - processPackages [gadapt]: Downloading https://files.pythonhosted.org/packages/b1/fc/ba8a209acceee80bc5672816df05edd89b337cc80f47215f03a1a8b4c653/gadapt-0.2.18.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [test-pypi-security]: Downloading https://files.pythonhosted.org/packages/62/2f/7f2634f59730fb03f6de1c414eb50aaf6cccc7847cc85ef279347b38ab88/test_pypi_security-1.0.0.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/05/f2/6e61406b7a44ea671ff9553bb2a722a967dda7a3ab49fa6f1125e86a4d63/mizue-0.2.9.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [ceffyl]: Downloading https://files.pythonhosted.org/packages/2a/2c/176dfd5d2434056ea12868058324f3cb6164866b2d395b7b42b73178218b/ceffyl-1.25.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/a3/85/3bd618f61630f6f0046832f22972573a02ef642c21afdfb3f2f5c4e6d4c1/prompton-0.0.4.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-18 20:18:23] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.8.tar.gz tmp/mizue-0.2.9.tar.gz --markdown 20230618/m/mizue/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 20:18:23] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 20:18:23] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:18:23] INFO root fetch - processPackages [tdscha]: Downloading https://files.pythonhosted.org/packages/9e/73/55b7328c119388a97f7c4c6136a9ab9a8ad6f8bd1eb0cad7e611c416289a/tdscha-1.0.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [kkyCrawler]: Downloading https://files.pythonhosted.org/packages/31/0f/a99eb82550c2ae2ccc3f6d32ce9386d19b1393ce65364daf25550708bf17/kkyCrawler-1.0.5.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [gadapt]: Downloading https://files.pythonhosted.org/packages/5c/00/a6af43e912d9e1f0786993b1b30186091b20007d5c3e0070a1abf66a1314/gadapt-0.2.19.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [kkyCrawler]: executing diffoscope
+[2023-06-18 20:18:23] INFO root fetch - processPackages [gadapt]: executing diffoscope
+[2023-06-18 20:18:23] INFO root fetch - processPackages [kkyCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkyCrawler-1.0.4.tar.gz tmp/kkyCrawler-1.0.5.tar.gz --markdown 20230618/k/kkyCrawler/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-18 20:18:23] INFO root fetch - processPackages [gadapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gadapt-0.2.18.tar.gz tmp/gadapt-0.2.19.tar.gz --markdown 20230618/g/gadapt/0.2.18-0.2.19/diff.md --exclude *.pyd
+[2023-06-18 20:18:23] INFO root fetch - processPackages [classattr]: Downloading https://files.pythonhosted.org/packages/ca/3b/86fb2c8603cd90cc9157c7f094a68fa919e6b001eb910e18cd0ddb257c67/classattr-1.0.4.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [ceffyl]: Downloading https://files.pythonhosted.org/packages/ef/03/b760eb84b8ac96a85adcd2166c93f1f90f6691121225ab992722f2916f7c/ceffyl-1.26.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [classattr]: executing diffoscope
+[2023-06-18 20:18:23] INFO root fetch - processPackages [classattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classattr-1.0.3.tar.gz tmp/classattr-1.0.4.tar.gz --markdown 20230618/c/classattr/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-18 20:18:23] INFO root fetch - processPackages [test-pypi-security]: Downloading https://files.pythonhosted.org/packages/d5/a6/e5f94c247d78871b6aeedc2b53f727264387e5d4c9b82cfaca7dd492b75f/test_pypi_security-1.0.1.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/e8/5a/d6137724ffcd4e9a38d3049a12f18181a7c9728a3ea768a299fea94cffea/prompton-0.0.5.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [tdscha]: Downloading https://files.pythonhosted.org/packages/43/9e/23089005149f1b95c57b2a4933cccdc39af2db98084d23ba2b851a4489e7/tdscha-1.0.1.tar.gz
+[2023-06-18 20:18:23] INFO root fetch - processPackages [ceffyl]: executing diffoscope
+[2023-06-18 20:18:23] INFO root fetch - processPackages [ceffyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ceffyl-1.25.tar.gz tmp/ceffyl-1.26.tar.gz --markdown 20230618/c/ceffyl/1.25-1.26/diff.md --exclude *.pyd
+[2023-06-18 20:18:23] INFO root fetch - processPackages [test-pypi-security]: executing diffoscope
+[2023-06-18 20:18:23] INFO root fetch - processPackages [test-pypi-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_pypi_security-1.0.0.tar.gz tmp/test_pypi_security-1.0.1.tar.gz --markdown 20230618/t/test-pypi-security/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 20:18:23] INFO root fetch - processPackages [prompton]: executing diffoscope
+[2023-06-18 20:18:23] INFO root fetch - processPackages [prompton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompton-0.0.4.tar.gz tmp/prompton-0.0.5.tar.gz --markdown 20230618/p/prompton/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 20:18:23] INFO root fetch - processPackages [tdscha]: executing diffoscope
+[2023-06-18 20:18:23] INFO root fetch - processPackages [tdscha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdscha-1.0.tar.gz tmp/tdscha-1.0.1.tar.gz --markdown 20230618/t/tdscha/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 20:18:24] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.8.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.9.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 20:18:24] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.8.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.9.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-18 20:18:24] INFO root fetch - processPackages [classattr]: Remove: archive file [/home/abi/fetcher/tmp/classattr-1.0.3.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - processPackages [classattr]: Remove: archive file [/home/abi/fetcher/tmp/classattr-1.0.4.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - main [MainThread]: End processing [classattr]: success
+[2023-06-18 20:18:24] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-1.0.4.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - processPackages [kkyCrawler]: Remove: archive file [/home/abi/fetcher/tmp/kkyCrawler-1.0.5.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - main [MainThread]: End processing [kkyCrawler]: success
+[2023-06-18 20:18:24] INFO root fetch - processPackages [test-pypi-security]: Remove: archive file [/home/abi/fetcher/tmp/test_pypi_security-1.0.0.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - processPackages [test-pypi-security]: Remove: archive file [/home/abi/fetcher/tmp/test_pypi_security-1.0.1.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - main [MainThread]: End processing [test-pypi-security]: success
+[2023-06-18 20:18:24] INFO root fetch - processPackages [gadapt]: Remove: archive file [/home/abi/fetcher/tmp/gadapt-0.2.18.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - processPackages [gadapt]: Remove: archive file [/home/abi/fetcher/tmp/gadapt-0.2.19.tar.gz]
+[2023-06-18 20:18:24] INFO root fetch - main [MainThread]: End processing [gadapt]: success
+[2023-06-18 20:18:25] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.4.tar.gz]
+[2023-06-18 20:18:25] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.5.tar.gz]
+[2023-06-18 20:18:25] INFO root fetch - main [MainThread]: End processing [prompton]: success
+[2023-06-18 20:18:26] INFO root fetch - processPackages [tdscha]: Remove: archive file [/home/abi/fetcher/tmp/tdscha-1.0.tar.gz]
+[2023-06-18 20:18:26] INFO root fetch - processPackages [tdscha]: Remove: archive file [/home/abi/fetcher/tmp/tdscha-1.0.1.tar.gz]
+[2023-06-18 20:18:26] INFO root fetch - main [MainThread]: End processing [tdscha]: success
+[2023-06-18 20:18:26] INFO root fetch - processPackages [ceffyl]: Remove: archive file [/home/abi/fetcher/tmp/ceffyl-1.25.tar.gz]
+[2023-06-18 20:18:26] INFO root fetch - processPackages [ceffyl]: Remove: archive file [/home/abi/fetcher/tmp/ceffyl-1.26.tar.gz]
+[2023-06-18 20:18:26] INFO root fetch - main [MainThread]: End processing [ceffyl]: success
+[2023-06-18 20:18:26] INFO root fetch - main [MainThread]: Store serial: [18551996]
