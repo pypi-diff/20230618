@@ -13257,3 +13257,70 @@ EOFError: EOF read where object expected
 [2023-06-18 20:08:01] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2023-06-18 20:08:01] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-06-18 20:08:01] INFO root fetch - main [MainThread]: Store serial: [18551947]
+[2023-06-18 20:13:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551947]
+[2023-06-18 20:13:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ringgpt
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mizue
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-vomit
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markmoji
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ringgpt
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proga-ex
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: markmodule
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-pypi-security
+[2023-06-18 20:13:11] INFO root fetch - processPackages [mizue]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 20:13:11] WARNING root fetch - processPackages [test-pypi-security]: Skipping, unable to determine old version
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:13:11] INFO root fetch - main [MainThread]: End processing [test-pypi-security] error
+[2023-06-18 20:13:11] INFO root fetch - processPackages [py-vomit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmodule]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 20:13:11] INFO root fetch - processPackages [proga-ex]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmoji]: New version: [1.2] Old Version: [1.1]
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 20:13:11] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/88/b1/096c14ef8f507b76f46bcd9ec8a0e2a1ec3b38cdeedfbf66618c1da38086/mizue-0.2.8.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/32/e0/64c7471dea9235d9348cddd0085d1f07262fc6412303048497d8120cdba7/ringgpt-0.1.8.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [proga-ex]: Downloading https://files.pythonhosted.org/packages/ee/df/b324b65e5480f300d1c1394286c5229c35d7609aa4e2b65277eb322bfa1a/proga_ex-0.0.10.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [py-vomit]: Downloading https://files.pythonhosted.org/packages/e8/05/de3edf7dfeb2fd4dd7baba88c7f10938c72e781fd6e78d6edb604c5891f4/py-vomit-0.1.0.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmodule]: Downloading https://files.pythonhosted.org/packages/1b/b9/20fc819c9bbf0cb04dc2f35d8c01f1514169a71aab6ebbfd0780b71a745a/markmodule-0.1.0.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: Downloading https://files.pythonhosted.org/packages/ba/77/4a2490e089744a1006f4e8d69dc7b13fa1e15810ee7dc28a68972317c8a0/ringgpt-0.1.9.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmoji]: Downloading https://files.pythonhosted.org/packages/71/eb/d1da9683da453a4fd081c5e69f4b31d122cdb762a51fe19cb5a0a2ab2f87/markmoji-1.1.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: executing diffoscope
+[2023-06-18 20:13:11] INFO root fetch - processPackages [ringgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringgpt-0.1.8.tar.gz tmp/ringgpt-0.1.9.tar.gz --markdown 20230618/r/ringgpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 20:13:11] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/05/f2/6e61406b7a44ea671ff9553bb2a722a967dda7a3ab49fa6f1125e86a4d63/mizue-0.2.9.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [py-vomit]: Downloading https://files.pythonhosted.org/packages/3e/43/d0e50eb75b9393ae8c77a33f1562f5b622bbda2d298d74951f7c66533911/py-vomit-0.2.0.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [proga-ex]: Downloading https://files.pythonhosted.org/packages/c4/03/5673bc370556c981eafa6e878e549a2254a69d14eea066007056dc3e2c29/proga_ex-0.0.11.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmodule]: Downloading https://files.pythonhosted.org/packages/63/0f/8666b54a3da49ffd2a0350b37b1c19787bb7571ce59eb0a8fb4af6e2e6bc/markmodule-0.2.0.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [py-vomit]: executing diffoscope
+[2023-06-18 20:13:11] INFO root fetch - processPackages [py-vomit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-vomit-0.1.0.tar.gz tmp/py-vomit-0.2.0.tar.gz --markdown 20230618/p/py-vomit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmoji]: Downloading https://files.pythonhosted.org/packages/ab/3d/f2db4ea6a5240f9ffa6d19415fdc29b8ee761c795474f562b1cd01b46b92/markmoji-1.2.tar.gz
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmodule]: executing diffoscope
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markmodule-0.1.0.tar.gz tmp/markmodule-0.2.0.tar.gz --markdown 20230618/m/markmodule/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 20:13:11] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-18 20:13:11] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.8.tar.gz tmp/mizue-0.2.9.tar.gz --markdown 20230618/m/mizue/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmoji]: executing diffoscope
+[2023-06-18 20:13:11] INFO root fetch - processPackages [markmoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markmoji-1.1.tar.gz tmp/markmoji-1.2.tar.gz --markdown 20230618/m/markmoji/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-18 20:13:11] INFO root fetch - processPackages [proga-ex]: executing diffoscope
+[2023-06-18 20:13:11] INFO root fetch - processPackages [proga-ex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proga_ex-0.0.10.tar.gz tmp/proga_ex-0.0.11.tar.gz --markdown 20230618/p/proga-ex/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-06-18 20:13:12] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.8.tar.gz]
+[2023-06-18 20:13:12] INFO root fetch - processPackages [ringgpt]: Remove: archive file [/home/abi/fetcher/tmp/ringgpt-0.1.9.tar.gz]
+[2023-06-18 20:13:12] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 20:13:12] INFO root fetch - main [MainThread]: End processing [ringgpt]: success
+[2023-06-18 20:13:12] INFO root fetch - processPackages [py-vomit]: Remove: archive file [/home/abi/fetcher/tmp/py-vomit-0.1.0.tar.gz]
+[2023-06-18 20:13:12] INFO root fetch - processPackages [py-vomit]: Remove: archive file [/home/abi/fetcher/tmp/py-vomit-0.2.0.tar.gz]
+[2023-06-18 20:13:12] INFO root fetch - main [MainThread]: End processing [py-vomit]: success
+[2023-06-18 20:13:13] INFO root fetch - processPackages [markmodule]: Remove: archive file [/home/abi/fetcher/tmp/markmodule-0.1.0.tar.gz]
+[2023-06-18 20:13:13] INFO root fetch - processPackages [markmodule]: Remove: archive file [/home/abi/fetcher/tmp/markmodule-0.2.0.tar.gz]
+[2023-06-18 20:13:13] INFO root fetch - main [MainThread]: End processing [markmodule]: success
+[2023-06-18 20:13:13] INFO root fetch - processPackages [markmoji]: Remove: archive file [/home/abi/fetcher/tmp/markmoji-1.1.tar.gz]
+[2023-06-18 20:13:13] INFO root fetch - processPackages [markmoji]: Remove: archive file [/home/abi/fetcher/tmp/markmoji-1.2.tar.gz]
+[2023-06-18 20:13:13] INFO root fetch - main [MainThread]: End processing [markmoji]: success
+[2023-06-18 20:13:13] INFO root fetch - processPackages [proga-ex]: Remove: archive file [/home/abi/fetcher/tmp/proga_ex-0.0.10.tar.gz]
+[2023-06-18 20:13:13] INFO root fetch - processPackages [proga-ex]: Remove: archive file [/home/abi/fetcher/tmp/proga_ex-0.0.11.tar.gz]
+[2023-06-18 20:13:13] INFO root fetch - main [MainThread]: End processing [proga-ex]: success
+[2023-06-18 20:13:13] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.8.tar.gz]
+[2023-06-18 20:13:13] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.9.tar.gz]
+[2023-06-18 20:13:13] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-18 20:13:13] INFO root fetch - main [MainThread]: Store serial: [18551971]
