@@ -10963,3 +10963,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 17:13:57] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230617-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-18 17:13:57] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-06-18 17:13:57] INFO root fetch - main [MainThread]: Store serial: [18550985]
+[2023-06-18 17:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550985]
+[2023-06-18 17:19:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 17:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytools
+[2023-06-18 17:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-nagabus
+[2023-06-18 17:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: classattr
+[2023-06-18 17:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-translation
+[2023-06-18 17:19:06] WARNING root fetch - processPackages [open-translation]: Skipping, unable to determine old version
+[2023-06-18 17:19:06] INFO root fetch - processPackages [nonebot-plugin-nagabus]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-18 17:19:06] INFO root fetch - processPackages [classattr]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 17:19:06] INFO root fetch - main [MainThread]: End processing [open-translation] error
+[2023-06-18 17:19:06] INFO root fetch - processPackages [pytools]: New version: [9] Old Version: [8]
+[2023-06-18 17:19:07] INFO root fetch - processPackages [classattr]: Downloading https://files.pythonhosted.org/packages/6c/92/9692fe6a9e43692219965166c7c1d4c0c0ab3038d973e2d79bcb33be4eb4/classattr-1.0.0.tar.gz
+[2023-06-18 17:19:07] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/14/7e/4043fe9b332f63810847b699a3b07a509e21395498852ae4b50f151b15c8/nonebot_plugin_nagabus-0.2.1.tar.gz
+[2023-06-18 17:19:07] INFO root fetch - processPackages [pytools]: Downloading https://files.pythonhosted.org/packages/5d/96/3820f7161c88127dc6526f8b77ca59e96d5aaad293ef998ff358b9489d69/pytools-8.tar.gz
+[2023-06-18 17:19:07] INFO root fetch - processPackages [classattr]: Downloading https://files.pythonhosted.org/packages/fa/17/27526daf9b3e4c5cc00371cd1dc339144eaf254fa4c3eb62d72a87dcfc1a/classattr-1.0.1.tar.gz
+[2023-06-18 17:19:07] INFO root fetch - processPackages [classattr]: executing diffoscope
+[2023-06-18 17:19:07] INFO root fetch - processPackages [classattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classattr-1.0.0.tar.gz tmp/classattr-1.0.1.tar.gz --markdown 20230618/c/classattr/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 17:19:07] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/06/cf/6cb04e8c5a5005b24b40b422e3c7547c4a652a4ab235d3b43ebcb6fefc31/nonebot_plugin_nagabus-0.2.2.tar.gz
+[2023-06-18 17:19:07] INFO root fetch - processPackages [nonebot-plugin-nagabus]: executing diffoscope
+[2023-06-18 17:19:07] INFO root fetch - processPackages [nonebot-plugin-nagabus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nagabus-0.2.1.tar.gz tmp/nonebot_plugin_nagabus-0.2.2.tar.gz --markdown 20230618/n/nonebot-plugin-nagabus/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-18 17:19:07] INFO root fetch - processPackages [pytools]: Downloading https://files.pythonhosted.org/packages/0c/60/157bb14d7e5e75e9b541d43d02c0a63414d434fa32d4eaf46a00844663f8/pytools-9.tar.gz
+[2023-06-18 17:19:07] INFO root fetch - processPackages [pytools]: executing diffoscope
+[2023-06-18 17:19:07] INFO root fetch - processPackages [pytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytools-8.tar.gz tmp/pytools-9.tar.gz --markdown 20230618/p/pytools/8-9/diff.md --exclude *.pyd
+[2023-06-18 17:19:08] INFO root fetch - processPackages [classattr]: Remove: archive file [/home/abi/fetcher/tmp/classattr-1.0.0.tar.gz]
+[2023-06-18 17:19:08] INFO root fetch - processPackages [classattr]: Remove: archive file [/home/abi/fetcher/tmp/classattr-1.0.1.tar.gz]
+[2023-06-18 17:19:08] INFO root fetch - main [MainThread]: End processing [classattr]: success
+[2023-06-18 17:19:08] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.1.tar.gz]
+[2023-06-18 17:19:08] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.2.tar.gz]
+[2023-06-18 17:19:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nagabus]: success
+[2023-06-18 17:19:08] INFO root fetch - processPackages [pytools]: Remove: archive file [/home/abi/fetcher/tmp/pytools-8.tar.gz]
+[2023-06-18 17:19:08] INFO root fetch - processPackages [pytools]: Remove: archive file [/home/abi/fetcher/tmp/pytools-9.tar.gz]
+[2023-06-18 17:19:08] INFO root fetch - main [MainThread]: End processing [pytools]: success
+[2023-06-18 17:19:08] INFO root fetch - main [MainThread]: Store serial: [18551008]
