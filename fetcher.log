@@ -5167,3 +5167,17 @@
 [2023-06-18 08:35:20] INFO root fetch - processPackages [polyfactory]: Remove: archive file [/home/abi/fetcher/tmp/polyfactory-2.3.0.tar.gz]
 [2023-06-18 08:35:20] INFO root fetch - main [MainThread]: End processing [polyfactory]: success
 [2023-06-18 08:35:20] INFO root fetch - main [MainThread]: Store serial: [18548438]
+[2023-06-18 08:40:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548438]
+[2023-06-18 08:40:29] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-18 08:45:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548445]
+[2023-06-18 08:45:35] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-18 08:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-06-18 08:45:35] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-18 08:45:35] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-18 08:45:35] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-18 08:45:35] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-18 08:45:35] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230618/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 08:45:47] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-18 08:45:47] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-18 08:45:47] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-18 08:45:47] INFO root fetch - main [MainThread]: Store serial: [18548451]
