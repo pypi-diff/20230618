@@ -4582,3 +4582,32 @@
 [2023-06-18 06:52:37] INFO root fetch - main [MainThread]: End processing [PyFixedReps-andnp]: success
 [2023-06-18 06:52:37] INFO root fetch - main [MainThread]: End processing [english-pidgin-dictionary]: success
 [2023-06-18 06:52:37] INFO root fetch - main [MainThread]: Store serial: [18548149]
+[2023-06-18 06:57:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548149]
+[2023-06-18 06:57:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 06:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikGapps
+[2023-06-18 06:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoconf-language-server
+[2023-06-18 06:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: screenshot-ocr
+[2023-06-18 06:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manifast
+[2023-06-18 06:57:46] INFO root fetch - processPackages [NikGapps]: New version: [1.39] Old Version: [1.38]
+[2023-06-18 06:57:46] INFO root fetch - processPackages [autoconf-language-server]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 06:57:46] WARNING root fetch - processPackages [screenshot-ocr]: Skipping, unable to determine old version
+[2023-06-18 06:57:46] INFO root fetch - main [MainThread]: End processing [screenshot-ocr] error
+[2023-06-18 06:57:46] INFO root fetch - processPackages [autoconf-language-server]: Downloading https://files.pythonhosted.org/packages/96/58/badf15fa0fe6a9339d1948751f25a67e28573e30937595e275ac1045e774/autoconf-language-server-0.0.2.tar.gz
+[2023-06-18 06:57:46] INFO root fetch - processPackages [manifast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 06:57:46] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/52/7f/a0a627821ee9f6be232a919bf2ea2bc3694eaabc3c000b5ee734196e9fd9/NikGapps-1.38.tar.gz
+[2023-06-18 06:57:46] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41562567>=10485760
+[2023-06-18 06:57:46] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-18 06:57:46] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/81/64/b9fb5b4730295428c2c14d9aa6a89eba2dc6f59a264f7ee694a6733b622d/manifast-0.0.8.tar.gz
+[2023-06-18 06:57:46] INFO root fetch - processPackages [autoconf-language-server]: Downloading https://files.pythonhosted.org/packages/b1/16/8ca7fb3106b7751ab17165a6bd2ad7055beee41ec127d233e912cd8a50ff/autoconf-language-server-0.0.3.tar.gz
+[2023-06-18 06:57:46] INFO root fetch - processPackages [autoconf-language-server]: executing diffoscope
+[2023-06-18 06:57:46] INFO root fetch - processPackages [autoconf-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-language-server-0.0.2.tar.gz tmp/autoconf-language-server-0.0.3.tar.gz --markdown 20230618/a/autoconf-language-server/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 06:57:47] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/57/ba/b199fd85bb13cb9c3846d1f9b76e0d143d4ef55451056b4cc69a454abf2e/manifast-0.0.9.tar.gz
+[2023-06-18 06:57:47] INFO root fetch - processPackages [manifast]: executing diffoscope
+[2023-06-18 06:57:47] INFO root fetch - processPackages [manifast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifast-0.0.8.tar.gz tmp/manifast-0.0.9.tar.gz --markdown 20230618/m/manifast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 06:57:48] INFO root fetch - processPackages [autoconf-language-server]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-language-server-0.0.2.tar.gz]
+[2023-06-18 06:57:48] INFO root fetch - processPackages [autoconf-language-server]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-language-server-0.0.3.tar.gz]
+[2023-06-18 06:57:48] INFO root fetch - main [MainThread]: End processing [autoconf-language-server]: success
+[2023-06-18 06:57:48] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.8.tar.gz]
+[2023-06-18 06:57:48] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.9.tar.gz]
+[2023-06-18 06:57:48] INFO root fetch - main [MainThread]: End processing [manifast]: success
+[2023-06-18 06:57:48] INFO root fetch - main [MainThread]: Store serial: [18548163]
