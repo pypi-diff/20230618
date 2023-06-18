@@ -5199,3 +5199,20 @@
 [2023-06-18 08:50:58] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.4.tar.gz]
 [2023-06-18 08:50:58] INFO root fetch - main [MainThread]: End processing [bambooai]: success
 [2023-06-18 08:50:58] INFO root fetch - main [MainThread]: Store serial: [18548463]
+[2023-06-18 08:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548463]
+[2023-06-18 08:56:07] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-18 09:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548463]
+[2023-06-18 09:01:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 09:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipebuilder
+[2023-06-18 09:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: classfig
+[2023-06-18 09:01:13] WARNING root fetch - processPackages [pipebuilder]: Skipping, unable to determine old version
+[2023-06-18 09:01:13] INFO root fetch - main [MainThread]: End processing [pipebuilder] error
+[2023-06-18 09:01:13] INFO root fetch - processPackages [classfig]: New version: [0.1.4] Old Version: [0.0.5]
+[2023-06-18 09:01:13] INFO root fetch - processPackages [classfig]: Downloading https://files.pythonhosted.org/packages/53/c2/b30b71a49ded24cc16d27542e3d10f0fe2a029524908646f224a2bc30e9b/classFig-0.0.5.tar.gz
+[2023-06-18 09:01:14] INFO root fetch - processPackages [classfig]: Downloading https://files.pythonhosted.org/packages/32/db/16617db5833c75cc87d3656c84cfec7721e1ba1364cba1208643c973cf10/classfig-0.1.4.tar.gz
+[2023-06-18 09:01:14] INFO root fetch - processPackages [classfig]: executing diffoscope
+[2023-06-18 09:01:14] INFO root fetch - processPackages [classfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classFig-0.0.5.tar.gz tmp/classfig-0.1.4.tar.gz --markdown 20230618/c/classfig/0.0.5-0.1.4/diff.md --exclude *.pyd
+[2023-06-18 09:01:15] INFO root fetch - processPackages [classfig]: Remove: archive file [/home/abi/fetcher/tmp/classFig-0.0.5.tar.gz]
+[2023-06-18 09:01:15] INFO root fetch - processPackages [classfig]: Remove: archive file [/home/abi/fetcher/tmp/classfig-0.1.4.tar.gz]
+[2023-06-18 09:01:15] INFO root fetch - main [MainThread]: End processing [classfig]: success
+[2023-06-18 09:01:15] INFO root fetch - main [MainThread]: Store serial: [18548476]
