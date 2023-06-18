@@ -8350,3 +8350,48 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:13:40] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-06-18 14:13:40] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-06-18 14:13:40] INFO root fetch - main [MainThread]: Store serial: [18549906]
+[2023-06-18 14:18:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549906]
+[2023-06-18 14:18:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 14:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandoc-numbering
+[2023-06-18 14:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-dto
+[2023-06-18 14:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdf2txt
+[2023-06-18 14:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiorobonect
+[2023-06-18 14:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fix-busted-json
+[2023-06-18 14:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynamic-username-generator
+[2023-06-18 14:18:49] INFO root fetch - processPackages [pdf2txt]: New version: [0.7.11] Old Version: [0.7.1]
+[2023-06-18 14:18:49] INFO root fetch - processPackages [aiorobonect]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-18 14:18:49] INFO root fetch - processPackages [openapi-dto]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-18 14:18:49] WARNING root fetch - processPackages [fix-busted-json]: Skipping, unable to determine old version
+[2023-06-18 14:18:49] INFO root fetch - main [MainThread]: End processing [fix-busted-json] error
+[2023-06-18 14:18:49] INFO root fetch - processPackages [pandoc-numbering]: New version: [3.4.0.3] Old Version: [3.4.0.2]
+[2023-06-18 14:18:49] WARNING root fetch - processPackages [dynamic-username-generator]: Skipping, unable to determine old version
+[2023-06-18 14:18:49] INFO root fetch - main [MainThread]: End processing [dynamic-username-generator] error
+[2023-06-18 14:18:49] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/ff/47/449132ad0fbebf4dbbc219631ef1cd8924479129ca0c5055bd37a075dc3f/aiorobonect-0.2.1.tar.gz
+[2023-06-18 14:18:49] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/39/c8/85fd3cfc81f92abb63bad439db4f753a353d1b995d1c59d6e7bae83ad89b/pdf2txt-0.7.1-py3-none-any.whl
+[2023-06-18 14:18:49] INFO root fetch - processPackages [pandoc-numbering]: Downloading https://files.pythonhosted.org/packages/63/da/25e650b9b4e7279a0b321cc1c8c822e06f590c200c136eb20633a61bdd8b/pandoc_numbering-3.4.0.2.tar.gz
+[2023-06-18 14:18:49] INFO root fetch - processPackages [openapi-dto]: Downloading https://files.pythonhosted.org/packages/38/fb/52c4816360936afd6cff3dc9bae57317680c35bf497207c6e65d37c3a929/openapi_dto-0.1.6.tar.gz
+[2023-06-18 14:18:49] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/f0/ca/0e36efedd7e09a02318dc1f9f4af6f5f7c532dd6ddf920f0c0fc749b7a81/aiorobonect-0.2.2.tar.gz
+[2023-06-18 14:18:50] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/7d/50/c877d8161c25c1b81c2bd5d3cb76336ec29e5ab260340146a74d4ea0ca51/pdf2txt-0.7.11-py3-none-any.whl
+[2023-06-18 14:18:50] INFO root fetch - processPackages [pandoc-numbering]: Downloading https://files.pythonhosted.org/packages/6e/ad/96c843fcc4ceed2f36d55ad0c1dd2bd21fedb0a92be4416b180420513d7c/pandoc_numbering-3.4.0.3.tar.gz
+[2023-06-18 14:18:50] INFO root fetch - processPackages [openapi-dto]: Downloading https://files.pythonhosted.org/packages/31/8e/4801b5732d3a69aa34aaa72f431622b6bb163ea8dd9d272349818c817613/openapi_dto-0.1.7.tar.gz
+[2023-06-18 14:18:50] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2023-06-18 14:18:50] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-0.2.1.tar.gz tmp/aiorobonect-0.2.2.tar.gz --markdown 20230618/a/aiorobonect/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-18 14:18:50] INFO root fetch - processPackages [pandoc-numbering]: executing diffoscope
+[2023-06-18 14:18:50] INFO root fetch - processPackages [pandoc-numbering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc_numbering-3.4.0.2.tar.gz tmp/pandoc_numbering-3.4.0.3.tar.gz --markdown 20230618/p/pandoc-numbering/3.4.0.2-3.4.0.3/diff.md --exclude *.pyd
+[2023-06-18 14:18:50] INFO root fetch - processPackages [openapi-dto]: executing diffoscope
+[2023-06-18 14:18:50] INFO root fetch - processPackages [openapi-dto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_dto-0.1.6.tar.gz tmp/openapi_dto-0.1.7.tar.gz --markdown 20230618/o/openapi-dto/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-18 14:18:50] INFO root fetch - processPackages [pdf2txt]: executing diffoscope
+[2023-06-18 14:18:50] INFO root fetch - processPackages [pdf2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf2txt-0.7.1-py3-none-any.whl.zip tmp/pdf2txt-0.7.11-py3-none-any.whl.zip --markdown 20230618/p/pdf2txt/0.7.1-0.7.11/diff.md --exclude *.pyd
+[2023-06-18 14:18:51] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.1.tar.gz]
+[2023-06-18 14:18:51] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-0.2.2.tar.gz]
+[2023-06-18 14:18:51] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2023-06-18 14:18:51] INFO root fetch - processPackages [pandoc-numbering]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_numbering-3.4.0.2.tar.gz]
+[2023-06-18 14:18:51] INFO root fetch - processPackages [pandoc-numbering]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_numbering-3.4.0.3.tar.gz]
+[2023-06-18 14:18:51] INFO root fetch - main [MainThread]: End processing [pandoc-numbering]: success
+[2023-06-18 14:18:51] INFO root fetch - processPackages [openapi-dto]: Remove: archive file [/home/abi/fetcher/tmp/openapi_dto-0.1.6.tar.gz]
+[2023-06-18 14:18:51] INFO root fetch - processPackages [openapi-dto]: Remove: archive file [/home/abi/fetcher/tmp/openapi_dto-0.1.7.tar.gz]
+[2023-06-18 14:18:51] INFO root fetch - main [MainThread]: End processing [openapi-dto]: success
+[2023-06-18 14:18:51] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.1-py3-none-any.whl.zip]
+[2023-06-18 14:18:51] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.11-py3-none-any.whl.zip]
+[2023-06-18 14:18:51] INFO root fetch - main [MainThread]: End processing [pdf2txt]: success
+[2023-06-18 14:18:51] INFO root fetch - main [MainThread]: Store serial: [18549936]
