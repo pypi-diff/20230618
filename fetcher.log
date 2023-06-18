@@ -5774,3 +5774,27 @@
 [2023-06-18 10:15:17] INFO root fetch - processPackages [minecraft-launcher-lib]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-launcher-lib-6.1.tar.gz]
 [2023-06-18 10:15:17] INFO root fetch - main [MainThread]: End processing [minecraft-launcher-lib]: success
 [2023-06-18 10:15:17] INFO root fetch - main [MainThread]: Store serial: [18548697]
+[2023-06-18 10:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548697]
+[2023-06-18 10:20:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecoflow
+[2023-06-18 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arsooo-distributions
+[2023-06-18 10:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anesthetic
+[2023-06-18 10:20:26] INFO root fetch - processPackages [ecoflow]: New version: [0.2] Old Version: [0.1]
+[2023-06-18 10:20:26] WARNING root fetch - processPackages [arsooo-distributions]: Skipping, unable to determine old version
+[2023-06-18 10:20:26] INFO root fetch - main [MainThread]: End processing [arsooo-distributions] error
+[2023-06-18 10:20:26] INFO root fetch - processPackages [anesthetic]: New version: [2.0.0b9] Old Version: [2.0.0b7]
+[2023-06-18 10:20:26] INFO root fetch - processPackages [ecoflow]: Downloading https://files.pythonhosted.org/packages/92/06/f92a996b799690930f80cfcc229f91e8fb8ce711b474ae9e256d04535660/ecoflow-0.1.tar.gz
+[2023-06-18 10:20:27] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/bb/ee/510009a21351f1f3cc40d53f647047eef65a83196f66a74bdcab71213051/anesthetic-2.0.0b7.tar.gz
+[2023-06-18 10:20:27] INFO root fetch - processPackages [ecoflow]: Downloading https://files.pythonhosted.org/packages/e9/1e/415c81bcc11949c59d9816557a7b25d36a2a05802b16d6e27813acd6bc77/ecoflow-0.2.tar.gz
+[2023-06-18 10:20:27] INFO root fetch - processPackages [ecoflow]: executing diffoscope
+[2023-06-18 10:20:27] INFO root fetch - processPackages [ecoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoflow-0.1.tar.gz tmp/ecoflow-0.2.tar.gz --markdown 20230618/e/ecoflow/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-18 10:20:27] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/69/67/acd5153fe2efa969ee04ccb4079ccc1c108090ffab6b45ac362cbe2bf3b2/anesthetic-2.0.0b9.tar.gz
+[2023-06-18 10:20:27] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2023-06-18 10:20:27] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.0.0b7.tar.gz tmp/anesthetic-2.0.0b9.tar.gz --markdown 20230618/a/anesthetic/2.0.0b7-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-18 10:20:28] INFO root fetch - processPackages [ecoflow]: Remove: archive file [/home/abi/fetcher/tmp/ecoflow-0.1.tar.gz]
+[2023-06-18 10:20:28] INFO root fetch - processPackages [ecoflow]: Remove: archive file [/home/abi/fetcher/tmp/ecoflow-0.2.tar.gz]
+[2023-06-18 10:20:28] INFO root fetch - main [MainThread]: End processing [ecoflow]: success
+[2023-06-18 10:20:29] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b7.tar.gz]
+[2023-06-18 10:20:29] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b9.tar.gz]
+[2023-06-18 10:20:30] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2023-06-18 10:20:30] INFO root fetch - main [MainThread]: Store serial: [18548711]
