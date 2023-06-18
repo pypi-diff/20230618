@@ -3589,3 +3589,105 @@
 [2023-06-18 05:00:36] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1687054979.tar.gz]
 [2023-06-18 05:00:36] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
 [2023-06-18 05:00:36] INFO root fetch - main [MainThread]: Store serial: [18547696]
+[2023-06-18 05:05:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547696]
+[2023-06-18 05:05:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-newrelic
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atksh-utils
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-onelogin
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-ecosystem-services
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-mongodbatlas
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CallingGPT
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-f5bigip
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-ecosystem-dependencies
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lite-tools
+[2023-06-18 05:05:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-linode
+[2023-06-18 05:05:45] INFO root fetch - processPackages [atksh-utils]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.0a1687055512] Old Version: [3.9.0a1686635530]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.1a1687055800] Old Version: [0.6.1a1686635983]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.15] Old Version: [202306.0.13]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [CallingGPT]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [CallingGPT]: Downloading https://files.pythonhosted.org/packages/f7/2f/ad5d646823ad7755a4797e26dd5619b502b01308951e850657f6272565da/CallingGPT-0.0.0.2.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/66/65/6b18fc2d2b50ae8cc2d29402ae466594de4ff84b72ab195706f83d427494/atksh-utils-0.1.4.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/ef/7b/cbfdd1364b98c5b97ec1a404eb726d05ffae9e21c09088a75b66f900c21a/pulumi_onelogin-0.6.1a1686635983.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/12/1c/04d5b4f5b8bf5e050519b41974d8b1e8c025bb94610a54cb5e004f753e83/pulumi_mongodbatlas-3.9.0a1686635530.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-linode]: New version: [4.3.0a1687055232] Old Version: [4.3.0a1686591721]
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/a1/c3/adeee2b9c8f0442254b31d6ed9b2296fd3b7ca11480866c569369511063b/data_ecosystem_dependencies-202306.0.13.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/80/30/a8f0c17436ad6bc5580473fb6cbaf5a135b8828a6bdaacc76510bfd52499/pulumi_f5bigip-3.9.0a1654086391.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-06-18 05:05:45] INFO root fetch - processPackages [CallingGPT]: Downloading https://files.pythonhosted.org/packages/f4/7b/9bb79cdbac66f26dc9de30b35d504c7819d4ad0990e26580f0291545b31d/CallingGPT-0.0.0.3.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230618/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-18 05:05:45] INFO root fetch - processPackages [CallingGPT]: executing diffoscope
+[2023-06-18 05:05:45] INFO root fetch - processPackages [CallingGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CallingGPT-0.0.0.2.tar.gz tmp/CallingGPT-0.0.0.3.tar.gz --markdown 20230618/C/CallingGPT/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/39/08/e543bc5ed4ba5f4e503010bb76f9ae2e676102facdb30e7472e3997d7840/pulumi_linode-4.3.0a1686591721.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/68/37/fff2f364d356806a8c2d04234eb58d1ecd74ac120af183b53ef43da2deca/pulumi_onelogin-0.6.1a1687055800.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/7a/79/9ca19f545ae24c0ebd5989a3e92ba77ff70aad36cf5935b32593e1603923/data_ecosystem_dependencies-202306.0.15.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/35/16/e17d0471d768700220cb3fecc045a1ca7396f5209abf6e0b39a0cc63beee/atksh-utils-0.1.5.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-18 05:05:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202306.0.13.tar.gz tmp/data_ecosystem_dependencies-202306.0.15.tar.gz --markdown 20230618/d/data-ecosystem-dependencies/202306.0.13-202306.0.15/diff.md --exclude *.pyd
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/d9/48/9b104ca1340b985069c84fa75b1acc149cc375561d0e98bee7b09b74cb7f/pulumi_f5bigip-3.9.0a1661535806.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-18 05:05:45] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.1.4.tar.gz tmp/atksh-utils-0.1.5.tar.gz --markdown 20230618/a/atksh-utils/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.1a1686635983.tar.gz tmp/pulumi_onelogin-0.6.1a1687055800.tar.gz --markdown 20230618/p/pulumi-onelogin/0.6.1a1686635983-0.6.1a1687055800/diff.md --exclude *.pyd
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230618/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/55/c5/5568b4c0e0ec8e87db2b71ea63f1555f153ea44f6314cd5baadfd9537186/pulumi_mongodbatlas-3.9.0a1687055512.tar.gz
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2023-06-18 05:05:45] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20230618/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/diff.md --exclude *.pyd
+[2023-06-18 05:05:46] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/39/b0/6de55a6af13f68dc882d73fc66a243598039508d7ee5e379ea57895950d9/pulumi_linode-4.3.0a1687055232.tar.gz
+[2023-06-18 05:05:46] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-06-18 05:05:46] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230618/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-06-18 05:05:46] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-06-18 05:05:46] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.0a1686635530.tar.gz tmp/pulumi_mongodbatlas-3.9.0a1687055512.tar.gz --markdown 20230618/p/pulumi-mongodbatlas/3.9.0a1686635530-3.9.0a1687055512/diff.md --exclude *.pyd
+[2023-06-18 05:05:46] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2023-06-18 05:05:46] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.3.0a1686591721.tar.gz tmp/pulumi_linode-4.3.0a1687055232.tar.gz --markdown 20230618/p/pulumi-linode/4.3.0a1686591721-4.3.0a1687055232/diff.md --exclude *.pyd
+[2023-06-18 05:05:47] INFO root fetch - processPackages [CallingGPT]: Remove: archive file [/home/abi/fetcher/tmp/CallingGPT-0.0.0.2.tar.gz]
+[2023-06-18 05:05:47] INFO root fetch - processPackages [CallingGPT]: Remove: archive file [/home/abi/fetcher/tmp/CallingGPT-0.0.0.3.tar.gz]
+[2023-06-18 05:05:47] INFO root fetch - processPackages [CallingGPT]: Start processing: pyleoclim
+[2023-06-18 05:05:47] INFO root fetch - main [MainThread]: End processing [CallingGPT]: success
+[2023-06-18 05:05:47] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.13.tar.gz]
+[2023-06-18 05:05:47] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.15.tar.gz]
+[2023-06-18 05:05:47] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-18 05:05:47] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-18 05:05:47] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-18 05:05:47] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-18 05:05:47] INFO root fetch - processPackages [pyleoclim]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-18 05:05:47] INFO root fetch - processPackages [pyleoclim]: Downloading https://files.pythonhosted.org/packages/77/ff/ebf3b8be5d2df6a94b018148de520c0203983104c1eea6c8ad87ce33d73c/pyleoclim-0.9.0.tar.gz
+[2023-06-18 05:05:47] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.4.tar.gz]
+[2023-06-18 05:05:47] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.5.tar.gz]
+[2023-06-18 05:05:47] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-18 05:05:47] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip]
+[2023-06-18 05:05:47] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
+[2023-06-18 05:05:47] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-06-18 05:05:48] INFO root fetch - processPackages [pyleoclim]: Downloading https://files.pythonhosted.org/packages/03/f2/afd2a7b682ae2f22f23ace8792606a30069d430f850ac67ed67840d4e79f/pyleoclim-0.9.1.tar.gz
+[2023-06-18 05:05:48] INFO root fetch - processPackages [pyleoclim]: executing diffoscope
+[2023-06-18 05:05:48] INFO root fetch - processPackages [pyleoclim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyleoclim-0.9.0.tar.gz tmp/pyleoclim-0.9.1.tar.gz --markdown 20230618/p/pyleoclim/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-18 05:05:49] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz]
+[2023-06-18 05:05:49] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
+[2023-06-18 05:05:49] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2023-06-18 05:05:49] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1686635983.tar.gz]
+[2023-06-18 05:05:49] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1687055800.tar.gz]
+[2023-06-18 05:05:49] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2023-06-18 05:05:49] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1686635530.tar.gz]
+[2023-06-18 05:05:49] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687055512.tar.gz]
+[2023-06-18 05:05:49] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-06-18 05:05:49] INFO root fetch - processPackages [pyleoclim]: Remove: archive file [/home/abi/fetcher/tmp/pyleoclim-0.9.0.tar.gz]
+[2023-06-18 05:05:49] INFO root fetch - processPackages [pyleoclim]: Remove: archive file [/home/abi/fetcher/tmp/pyleoclim-0.9.1.tar.gz]
+[2023-06-18 05:05:49] INFO root fetch - main [MainThread]: End processing [pyleoclim]: success
+[2023-06-18 05:05:50] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2023-06-18 05:05:50] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2023-06-18 05:05:50] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-06-18 05:05:52] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.3.0a1686591721.tar.gz]
+[2023-06-18 05:05:52] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.3.0a1687055232.tar.gz]
+[2023-06-18 05:05:52] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2023-06-18 05:05:52] INFO root fetch - main [MainThread]: Store serial: [18547728]
