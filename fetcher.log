@@ -4384,3 +4384,58 @@
 [2023-06-18 06:25:49] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.3-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-18 06:25:49] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-06-18 06:25:49] INFO root fetch - main [MainThread]: Store serial: [18547998]
+[2023-06-18 06:30:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547998]
+[2023-06-18 06:30:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 06:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acore-server-config
+[2023-06-18 06:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libre-fastapi-jwt
+[2023-06-18 06:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minidevice
+[2023-06-18 06:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acore-server-config
+[2023-06-18 06:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: berlin
+[2023-06-18 06:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypipr
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-18 06:30:59] INFO root fetch - processPackages [libre-fastapi-jwt]: New version: [0.20.3] Old Version: [0.20.2]
+[2023-06-18 06:30:59] INFO root fetch - processPackages [berlin]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-18 06:30:59] INFO root fetch - processPackages [minidevice]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-18 06:30:59] INFO root fetch - processPackages [pypipr]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-18 06:30:59] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/fa/64/6b4d57398248f389ef7f5bc978976e26e930e3ea5796478ba9b78871cf27/libre_fastapi_jwt-0.20.2.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/a8/27/3034a146f30a043e8885985175049ac5b15bf1aa1ac67f9743bf60b9c405/minidevice-2.0.4.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ae/24/905cf263cde01899598343283d490e98c345ba7c17797f5c84b8f5e2a1d4/pypipr-1.0.5.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [berlin]: Downloading https://files.pythonhosted.org/packages/12/f3/e362c9a201bd538cdc00351c41a53f8728dafbf9e4f494e973603682dab4/berlin-0.3.8.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/8b/33/d008b3fe9010606c0726b959b37c4103ea310aad540d918db42e7af97583/acore_server_config-0.2.2.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/8b/33/d008b3fe9010606c0726b959b37c4103ea310aad540d918db42e7af97583/acore_server_config-0.2.2.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/f2/12/851d913c29e8ab3007e39034dab8f840bd64fccac856ef7b44a789d66951/libre_fastapi_jwt-0.20.3.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/70/be/a00bd92824138e6b2fe311d9ea4165275484e421cf77d56c3c01e7222ada/minidevice-2.0.5.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/23/dd/8f977b5771c57b40e6da7358572ab96df1d1e0db4e142b3ad1e8b0599d72/pypipr-1.0.6.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [libre-fastapi-jwt]: executing diffoscope
+[2023-06-18 06:30:59] INFO root fetch - processPackages [libre-fastapi-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libre_fastapi_jwt-0.20.2.tar.gz tmp/libre_fastapi_jwt-0.20.3.tar.gz --markdown 20230618/l/libre-fastapi-jwt/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2023-06-18 06:30:59] INFO root fetch - processPackages [berlin]: Downloading https://files.pythonhosted.org/packages/91/88/416cf2af05a4d3207098e92ad4654519a234102b28c03c208ffb80366a31/berlin-0.3.9-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2023-06-18 06:30:59] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-18 06:30:59] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.5.tar.gz tmp/pypipr-1.0.6.tar.gz --markdown 20230618/p/pypipr/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/57/d0/e477bb58b640465fee0ca7abe8128ac647aa6b49a566bac603e947dd42d0/acore_server_config-0.2.3.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/57/d0/e477bb58b640465fee0ca7abe8128ac647aa6b49a566bac603e947dd42d0/acore_server_config-0.2.3.tar.gz
+[2023-06-18 06:30:59] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-18 06:30:59] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.0.4.tar.gz tmp/minidevice-2.0.5.tar.gz --markdown 20230618/m/minidevice/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: executing diffoscope
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_config-0.2.2.tar.gz tmp/acore_server_config-0.2.3.tar.gz --markdown 20230618/a/acore-server-config/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: executing diffoscope
+[2023-06-18 06:30:59] INFO root fetch - processPackages [acore-server-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_config-0.2.2.tar.gz tmp/acore_server_config-0.2.3.tar.gz --markdown 20230618/a/acore-server-config/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 06:31:00] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.20.2.tar.gz]
+[2023-06-18 06:31:00] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.20.3.tar.gz]
+[2023-06-18 06:31:00] INFO root fetch - main [MainThread]: End processing [libre-fastapi-jwt]: success
+[2023-06-18 06:31:00] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.5.tar.gz]
+[2023-06-18 06:31:00] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.6.tar.gz]
+[2023-06-18 06:31:00] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-18 06:31:00] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.4.tar.gz]
+[2023-06-18 06:31:00] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.5.tar.gz]
+[2023-06-18 06:31:00] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-18 06:31:00] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.2.2.tar.gz]
+[2023-06-18 06:31:00] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.2.3.tar.gz]
+[2023-06-18 06:31:00] INFO root fetch - main [MainThread]: End processing [acore-server-config]: success
+[2023-06-18 06:31:01] INFO root fetch - main [MainThread]: End processing [acore-server-config]: success
+[2023-06-18 06:31:01] INFO root fetch - processPackages [berlin]: executing diffoscope
+[2023-06-18 06:31:01] INFO root fetch - processPackages [berlin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berlin-0.3.8.tar.gz tmp/berlin-0.3.9-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip --markdown 20230618/b/berlin/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-18 06:31:02] INFO root fetch - processPackages [berlin]: Remove: archive file [/home/abi/fetcher/tmp/berlin-0.3.8.tar.gz]
+[2023-06-18 06:31:02] INFO root fetch - processPackages [berlin]: Remove: archive file [/home/abi/fetcher/tmp/berlin-0.3.9-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
+[2023-06-18 06:31:02] INFO root fetch - main [MainThread]: End processing [berlin]: success
+[2023-06-18 06:31:02] INFO root fetch - main [MainThread]: Store serial: [18548054]
