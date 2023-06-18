@@ -5216,3 +5216,33 @@
 [2023-06-18 09:01:15] INFO root fetch - processPackages [classfig]: Remove: archive file [/home/abi/fetcher/tmp/classfig-0.1.4.tar.gz]
 [2023-06-18 09:01:15] INFO root fetch - main [MainThread]: End processing [classfig]: success
 [2023-06-18 09:01:15] INFO root fetch - main [MainThread]: Store serial: [18548476]
+[2023-06-18 09:06:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548476]
+[2023-06-18 09:06:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 09:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2023-06-18 09:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bophono
+[2023-06-18 09:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylibffm
+[2023-06-18 09:06:23] INFO root fetch - processPackages [bophono]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-18 09:06:23] INFO root fetch - processPackages [pylibffm]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-18 09:06:23] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-18 09:06:23] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-18 09:06:24] INFO root fetch - processPackages [bophono]: Downloading https://files.pythonhosted.org/packages/b2/a4/4a67e60c7146b2f501a7bb6d4ec386773a0d0470de60ece54b3d82aefdcb/bophono-0.1.2.tar.gz
+[2023-06-18 09:06:24] INFO root fetch - processPackages [pylibffm]: Downloading https://files.pythonhosted.org/packages/97/d5/d7a044eafd0d01a6bae5b22fe30de0a9423732d00402f5b9470a19118482/pylibffm-0.4.0.tar.gz
+[2023-06-18 09:06:24] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-18 09:06:24] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-18 09:06:24] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230618/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-18 09:06:24] INFO root fetch - processPackages [bophono]: Downloading https://files.pythonhosted.org/packages/d7/98/aa3e2526e84dc59cae2641c463294e14a249976141df364bfe166e77f54d/bophono-0.2.0.tar.gz
+[2023-06-18 09:06:24] INFO root fetch - processPackages [pylibffm]: Downloading https://files.pythonhosted.org/packages/b7/42/352cda1d0769eaa993ca498b9dd80b25c72c27da2af33e25683effae67eb/pylibffm-0.4.1.tar.gz
+[2023-06-18 09:06:24] INFO root fetch - processPackages [bophono]: executing diffoscope
+[2023-06-18 09:06:24] INFO root fetch - processPackages [bophono]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bophono-0.1.2.tar.gz tmp/bophono-0.2.0.tar.gz --markdown 20230618/b/bophono/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 09:06:24] INFO root fetch - processPackages [pylibffm]: executing diffoscope
+[2023-06-18 09:06:24] INFO root fetch - processPackages [pylibffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibffm-0.4.0.tar.gz tmp/pylibffm-0.4.1.tar.gz --markdown 20230618/p/pylibffm/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-18 09:06:25] INFO root fetch - processPackages [bophono]: Remove: archive file [/home/abi/fetcher/tmp/bophono-0.1.2.tar.gz]
+[2023-06-18 09:06:25] INFO root fetch - processPackages [bophono]: Remove: archive file [/home/abi/fetcher/tmp/bophono-0.2.0.tar.gz]
+[2023-06-18 09:06:25] INFO root fetch - main [MainThread]: End processing [bophono]: success
+[2023-06-18 09:06:25] INFO root fetch - processPackages [pylibffm]: Remove: archive file [/home/abi/fetcher/tmp/pylibffm-0.4.0.tar.gz]
+[2023-06-18 09:06:25] INFO root fetch - processPackages [pylibffm]: Remove: archive file [/home/abi/fetcher/tmp/pylibffm-0.4.1.tar.gz]
+[2023-06-18 09:06:25] INFO root fetch - main [MainThread]: End processing [pylibffm]: success
+[2023-06-18 09:06:25] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-18 09:06:25] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-18 09:06:25] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-18 09:06:25] INFO root fetch - main [MainThread]: Store serial: [18548486]
