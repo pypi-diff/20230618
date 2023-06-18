@@ -9702,3 +9702,92 @@ EOFError: EOF read where object expected
 [2023-06-18 15:53:49] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306171350.tar.gz]
 [2023-06-18 15:53:49] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-06-18 15:53:49] INFO root fetch - main [MainThread]: Store serial: [18550451]
+[2023-06-18 15:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550451]
+[2023-06-18 15:58:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lakefs-client
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-bootstrap-modal-forms
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopyre
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scratchattach
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imreg-dft-nw
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deptry
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mbutton
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fbgemm-gpu-nightly
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensordict-nightly
+[2023-06-18 15:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hep-paper-manager
+[2023-06-18 15:58:58] INFO root fetch - processPackages [django-bootstrap-modal-forms]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-18 15:58:58] WARNING root fetch - processPackages [imreg-dft-nw]: Skipping, unable to determine old version
+[2023-06-18 15:58:58] INFO root fetch - processPackages [imreg-dft-nw]: Start processing: AlgoMaster
+[2023-06-18 15:58:58] INFO root fetch - main [MainThread]: End processing [imreg-dft-nw] error
+[2023-06-18 15:58:58] INFO root fetch - processPackages [autopyre]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-18 15:58:59] INFO root fetch - processPackages [scratchattach]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-18 15:58:59] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.6.17] Old Version: [2023.6.16]
+[2023-06-18 15:58:59] INFO root fetch - processPackages [deptry]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-18 15:58:59] INFO root fetch - processPackages [lakefs-client]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-18 15:58:59] WARNING root fetch - processPackages [mbutton]: Skipping, unable to determine old version
+[2023-06-18 15:58:59] INFO root fetch - processPackages [mbutton]: Start processing: shibuya
+[2023-06-18 15:58:59] INFO root fetch - main [MainThread]: End processing [mbutton] error
+[2023-06-18 15:58:59] WARNING root fetch - processPackages [hep-paper-manager]: Skipping, unable to determine old version
+[2023-06-18 15:58:59] INFO root fetch - main [MainThread]: End processing [hep-paper-manager] error
+[2023-06-18 15:58:59] INFO root fetch - processPackages [AlgoMaster]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 15:58:59] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-18 15:58:59] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/f7/d0/5eaa70fdff4e9d9176048876f798b42578c9da953bf9c14b99a254b0bf6e/autopyre-0.0.5.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/ff/30/b32844a10951d90914392dfbcca8636b98e17cce1cde26587f3389a428a0/tensordict_nightly-2023.6.7-py39-none-any.whl
+[2023-06-18 15:58:59] INFO root fetch - processPackages [shibuya]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-18 15:58:59] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/c5/bb/8542923ae8800e3f29c62ec877e8a90f750895f91e36e4db59939024a194/lakefs-client-0.98.0.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [AlgoMaster]: Downloading https://files.pythonhosted.org/packages/5d/7c/f016a154744c41721b48f22474d7760038adb01665db207406562ba01224/AlgoMaster-0.0.2.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [django-bootstrap-modal-forms]: Downloading https://files.pythonhosted.org/packages/c2/a4/2bbb0392e374a90c86fb23ccdd65d9121be2b3ad4d237fc36998e0f57f1f/django-bootstrap-modal-forms-3.0.3.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [deptry]: Downloading https://files.pythonhosted.org/packages/de/fe/b5985f57c830d35d507ddd861e19f7201ddff8b33d08f694fefd4457cabe/deptry-0.8.0.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/37/19/c069269663e06ecd82851a63ef365ed872c3448aa1add09ce4123dc67c51/scratchattach-1.2.4.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/39/c7/ca4bef85da39be0ef3d26ab4a2cab72653e5182a9bcbbbcf712f38992f86/fbgemm_gpu_nightly-2023.6.16-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-18 15:58:59] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/39/f4/a81f434361c103e23a2a4dee883bb30ca7b9f26526ad7913607e5a271158/tensordict_nightly-2023.6.8-py39-none-any.whl
+[2023-06-18 15:58:59] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/e9/07/15fcbebfdc0a92d2e35e81caaae29c3659bdb2d3f6e7df096471b798ff49/autopyre-0.0.6.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-18 15:58:59] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip --markdown 20230618/t/tensordict-nightly/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-18 15:58:59] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 256024530>=10485760
+[2023-06-18 15:58:59] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-06-18 15:58:59] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 15:58:59] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.5.tar.gz tmp/autopyre-0.0.6.tar.gz --markdown 20230618/a/autopyre/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-18 15:58:59] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/b6/14/00db2c90848d599e4f70c512628854b186fdf662e7762054ba0866112e97/shibuya-2023.6.7.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [AlgoMaster]: Downloading https://files.pythonhosted.org/packages/f8/c3/51640731bc69ceb6bf758326a9e966239450f79805cec1d22ebaa1e70302/AlgoMaster-0.0.3.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/06/b6/9695df18efd59d47fb5f45f84fac22aac4480a375435cf7ece5886209600/scratchattach-1.2.5.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [AlgoMaster]: executing diffoscope
+[2023-06-18 15:58:59] INFO root fetch - processPackages [AlgoMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgoMaster-0.0.2.tar.gz tmp/AlgoMaster-0.0.3.tar.gz --markdown 20230618/A/AlgoMaster/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 15:58:59] INFO root fetch - processPackages [django-bootstrap-modal-forms]: Downloading https://files.pythonhosted.org/packages/a0/b1/eb596d3c07e5fed3182623df3c1baddc82ae93677f8377e42c328bd85f33/django-bootstrap-modal-forms-3.0.4.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/fc/59/0329ad02ba104cb0a0ae44e4628d60eddc1222a0826f7a805f1a20bca946/lakefs-client-0.99.0.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [django-bootstrap-modal-forms]: executing diffoscope
+[2023-06-18 15:58:59] INFO root fetch - processPackages [django-bootstrap-modal-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap-modal-forms-3.0.3.tar.gz tmp/django-bootstrap-modal-forms-3.0.4.tar.gz --markdown 20230618/d/django-bootstrap-modal-forms/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-18 15:58:59] INFO root fetch - processPackages [deptry]: Downloading https://files.pythonhosted.org/packages/7d/f1/3a75933ef9d125752e88df7a58ac4c9224bdf9165fe1d886f90e56d45b7f/deptry-0.9.0.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/e6/40/4b864a64d501e1d83a559bb6bb6e458c888311611d1d01f9ec67d9636fef/shibuya-2023.6.8.tar.gz
+[2023-06-18 15:58:59] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-06-18 15:58:59] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.2.4.tar.gz tmp/scratchattach-1.2.5.tar.gz --markdown 20230618/s/scratchattach/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-18 15:58:59] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2023-06-18 15:58:59] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-0.98.0.tar.gz tmp/lakefs-client-0.99.0.tar.gz --markdown 20230618/l/lakefs-client/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-18 15:58:59] INFO root fetch - processPackages [deptry]: executing diffoscope
+[2023-06-18 15:58:59] INFO root fetch - processPackages [deptry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deptry-0.8.0.tar.gz tmp/deptry-0.9.0.tar.gz --markdown 20230618/d/deptry/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 15:58:59] INFO root fetch - processPackages [shibuya]: executing diffoscope
+[2023-06-18 15:58:59] INFO root fetch - processPackages [shibuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shibuya-2023.6.7.tar.gz tmp/shibuya-2023.6.8.tar.gz --markdown 20230618/s/shibuya/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-18 15:59:00] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.5.tar.gz]
+[2023-06-18 15:59:00] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.6.tar.gz]
+[2023-06-18 15:59:00] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 15:59:00] INFO root fetch - processPackages [AlgoMaster]: Remove: archive file [/home/abi/fetcher/tmp/AlgoMaster-0.0.2.tar.gz]
+[2023-06-18 15:59:00] INFO root fetch - processPackages [AlgoMaster]: Remove: archive file [/home/abi/fetcher/tmp/AlgoMaster-0.0.3.tar.gz]
+[2023-06-18 15:59:00] INFO root fetch - main [MainThread]: End processing [AlgoMaster]: success
+[2023-06-18 15:59:01] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.6.7.tar.gz]
+[2023-06-18 15:59:01] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.6.8.tar.gz]
+[2023-06-18 15:59:01] INFO root fetch - main [MainThread]: End processing [shibuya]: success
+[2023-06-18 15:59:01] INFO root fetch - processPackages [deptry]: Remove: archive file [/home/abi/fetcher/tmp/deptry-0.8.0.tar.gz]
+[2023-06-18 15:59:01] INFO root fetch - processPackages [deptry]: Remove: archive file [/home/abi/fetcher/tmp/deptry-0.9.0.tar.gz]
+[2023-06-18 15:59:01] INFO root fetch - main [MainThread]: End processing [deptry]: success
+[2023-06-18 15:59:01] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip]
+[2023-06-18 15:59:01] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-18 15:59:01] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-18 15:59:02] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.4.tar.gz]
+[2023-06-18 15:59:02] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.2.5.tar.gz]
+[2023-06-18 15:59:02] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-06-18 15:59:02] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-0.98.0.tar.gz]
+[2023-06-18 15:59:02] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-0.99.0.tar.gz]
+[2023-06-18 15:59:02] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2023-06-18 15:59:03] INFO root fetch - processPackages [django-bootstrap-modal-forms]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap-modal-forms-3.0.3.tar.gz]
+[2023-06-18 15:59:03] INFO root fetch - processPackages [django-bootstrap-modal-forms]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap-modal-forms-3.0.4.tar.gz]
+[2023-06-18 15:59:03] INFO root fetch - main [MainThread]: End processing [django-bootstrap-modal-forms]: success
+[2023-06-18 15:59:03] INFO root fetch - main [MainThread]: Store serial: [18550499]
