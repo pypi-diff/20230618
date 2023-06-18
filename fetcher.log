@@ -11367,3 +11367,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 17:48:45] INFO root fetch - processPackages [ltchiptool]: Remove: archive file [/home/abi/fetcher/tmp/ltchiptool-4.2.0.tar.gz]
 [2023-06-18 17:48:45] INFO root fetch - main [MainThread]: End processing [ltchiptool]: success
 [2023-06-18 17:48:45] INFO root fetch - main [MainThread]: Store serial: [18551175]
+[2023-06-18 17:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551175]
+[2023-06-18 17:53:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 17:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terminal-typing-tutor
+[2023-06-18 17:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anywidget
+[2023-06-18 17:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopyre
+[2023-06-18 17:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hds-stats
+[2023-06-18 17:53:54] INFO root fetch - processPackages [terminal-typing-tutor]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-18 17:53:54] INFO root fetch - processPackages [anywidget]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-18 17:53:54] INFO root fetch - processPackages [autopyre]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 17:53:54] INFO root fetch - processPackages [hds-stats]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-18 17:53:54] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/7e/a0/f046f19d473b303caf8b187e19fcaf7cfd1f21a24cba6db3a1a9b3a9df19/autopyre-0.0.8.tar.gz
+[2023-06-18 17:53:54] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/27/d3/bf599f5e1f0e6e32ff906ab58929f45e803702cd1cecc5cdbe3830c8f48e/anywidget-0.4.3.tar.gz
+[2023-06-18 17:53:54] INFO root fetch - processPackages [autopyre]: Downloading https://files.pythonhosted.org/packages/a1/3e/f149a2b4451adb9f1f1d11736cd612d717c93f18c60b306955e4c06f6e22/autopyre-0.0.9.tar.gz
+[2023-06-18 17:53:54] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/84/b6/f12a5f7b8f72a98d3368294967ac63c3a677caad6497b10493b8befa7b3b/hds-stats-0.2.0.tar.gz
+[2023-06-18 17:53:54] INFO root fetch - processPackages [terminal-typing-tutor]: Downloading https://files.pythonhosted.org/packages/c1/89/40d936b3621be620146e21679ef4f453d4df794de2dc9e168601a28f16d5/terminal_typing_tutor-0.3.1.tar.gz
+[2023-06-18 17:53:54] INFO root fetch - processPackages [autopyre]: executing diffoscope
+[2023-06-18 17:53:54] INFO root fetch - processPackages [autopyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopyre-0.0.8.tar.gz tmp/autopyre-0.0.9.tar.gz --markdown 20230618/a/autopyre/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 17:53:55] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/fb/e7/f25a1e44c93896a8e0c36bfa5cb16f5c494e9bddbaca95f603913a9a2566/hds-stats-0.2.1.tar.gz
+[2023-06-18 17:53:55] INFO root fetch - processPackages [terminal-typing-tutor]: Downloading https://files.pythonhosted.org/packages/43/cb/7c2bda8ec5657290fc00012667e370e7dd9cae0fdc83933a94874cc85ed4/terminal_typing_tutor-0.4.0.tar.gz
+[2023-06-18 17:53:55] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-06-18 17:53:55] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.2.0.tar.gz tmp/hds-stats-0.2.1.tar.gz --markdown 20230618/h/hds-stats/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-18 17:53:55] INFO root fetch - processPackages [terminal-typing-tutor]: executing diffoscope
+[2023-06-18 17:53:55] INFO root fetch - processPackages [terminal-typing-tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_typing_tutor-0.3.1.tar.gz tmp/terminal_typing_tutor-0.4.0.tar.gz --markdown 20230618/t/terminal-typing-tutor/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-18 17:53:55] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/cf/3d/120800ac9e402f57f9062e25d129c5111928d0461f0451e40f5da7bc4a8d/anywidget-0.5.0.tar.gz
+[2023-06-18 17:53:55] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-06-18 17:53:55] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.4.3.tar.gz tmp/anywidget-0.5.0.tar.gz --markdown 20230618/a/anywidget/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-18 17:53:55] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.8.tar.gz]
+[2023-06-18 17:53:55] INFO root fetch - processPackages [autopyre]: Remove: archive file [/home/abi/fetcher/tmp/autopyre-0.0.9.tar.gz]
+[2023-06-18 17:53:55] INFO root fetch - main [MainThread]: End processing [autopyre]: success
+[2023-06-18 17:53:56] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.2.0.tar.gz]
+[2023-06-18 17:53:56] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.2.1.tar.gz]
+[2023-06-18 17:53:56] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-06-18 17:53:56] INFO root fetch - processPackages [terminal-typing-tutor]: Remove: archive file [/home/abi/fetcher/tmp/terminal_typing_tutor-0.3.1.tar.gz]
+[2023-06-18 17:53:56] INFO root fetch - processPackages [terminal-typing-tutor]: Remove: archive file [/home/abi/fetcher/tmp/terminal_typing_tutor-0.4.0.tar.gz]
+[2023-06-18 17:53:56] INFO root fetch - main [MainThread]: End processing [terminal-typing-tutor]: success
+[2023-06-18 17:54:00] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.4.3.tar.gz]
+[2023-06-18 17:54:00] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.5.0.tar.gz]
+[2023-06-18 17:54:00] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-06-18 17:54:00] INFO root fetch - main [MainThread]: Store serial: [18551187]
