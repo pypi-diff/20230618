@@ -5027,3 +5027,36 @@
 [2023-06-18 08:13:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.9.tar.gz]
 [2023-06-18 08:13:44] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-18 08:13:44] INFO root fetch - main [MainThread]: Store serial: [18548371]
+[2023-06-18 08:18:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548371]
+[2023-06-18 08:18:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ncnn-vulkan
+[2023-06-18 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: authit
+[2023-06-18 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manifast
+[2023-06-18 08:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-06-18 08:18:54] INFO root fetch - processPackages [manifast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 08:18:54] WARNING root fetch - processPackages [authit]: Skipping, unable to determine old version
+[2023-06-18 08:18:54] INFO root fetch - main [MainThread]: End processing [authit] error
+[2023-06-18 08:18:54] INFO root fetch - processPackages [ncnn-vulkan]: New version: [2023.6.18] Old Version: [2022.9.12]
+[2023-06-18 08:18:54] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/81/64/b9fb5b4730295428c2c14d9aa6a89eba2dc6f59a264f7ee694a6733b622d/manifast-0.0.8.tar.gz
+[2023-06-18 08:18:54] INFO root fetch - processPackages [ncnn-vulkan]: Downloading https://files.pythonhosted.org/packages/eb/39/08ef5e5b9d3142dafe91c52e214d9bf744a88bc784d988484cb498c78ff5/ncnn_vulkan-2022.9.12-cp39-cp39-win_amd64.whl
+[2023-06-18 08:18:54] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/57/ba/b199fd85bb13cb9c3846d1f9b76e0d143d4ef55451056b4cc69a454abf2e/manifast-0.0.9.tar.gz
+[2023-06-18 08:18:54] INFO root fetch - processPackages [manifast]: executing diffoscope
+[2023-06-18 08:18:54] INFO root fetch - processPackages [manifast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifast-0.0.8.tar.gz tmp/manifast-0.0.9.tar.gz --markdown 20230618/m/manifast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 08:18:54] INFO root fetch - processPackages [ncnn-vulkan]: Downloading https://files.pythonhosted.org/packages/37/f2/abc20ba1c9508ef614292165c9a1d208f722a1347b0bc9881aefd0e7c185/ncnn_vulkan-2023.6.18-cp39-cp39-win_amd64.whl
+[2023-06-18 08:18:54] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230618] Old Version: [1.6.1.dev20230617]
+[2023-06-18 08:18:54] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/72/e1/d8323c8bc44f29a45a035a8da7e47f8562aadd9665789bc6b09a890babb1/pretext-1.6.1.dev20230617.tar.gz
+[2023-06-18 08:18:54] INFO root fetch - processPackages [ncnn-vulkan]: executing diffoscope
+[2023-06-18 08:18:54] INFO root fetch - processPackages [ncnn-vulkan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncnn_vulkan-2022.9.12-cp39-cp39-win_amd64.whl.zip tmp/ncnn_vulkan-2023.6.18-cp39-cp39-win_amd64.whl.zip --markdown 20230618/n/ncnn-vulkan/2022.9.12-2023.6.18/diff.md --exclude *.pyd
+[2023-06-18 08:18:55] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/11/fa/da68f7649ae637ae225a7204c8e4ef36e8c7291de2035dbac68339be3382/pretext-1.6.1.dev20230618-py3-none-any.whl
+[2023-06-18 08:18:55] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-18 08:18:55] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230617.tar.gz tmp/pretext-1.6.1.dev20230618-py3-none-any.whl.zip --markdown 20230618/p/pretext/1.6.1.dev20230617-1.6.1.dev20230618/diff.md --exclude *.pyd
+[2023-06-18 08:18:55] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.8.tar.gz]
+[2023-06-18 08:18:55] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.9.tar.gz]
+[2023-06-18 08:18:55] INFO root fetch - main [MainThread]: End processing [manifast]: success
+[2023-06-18 08:18:55] INFO root fetch - processPackages [ncnn-vulkan]: Remove: archive file [/home/abi/fetcher/tmp/ncnn_vulkan-2022.9.12-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 08:18:55] INFO root fetch - processPackages [ncnn-vulkan]: Remove: archive file [/home/abi/fetcher/tmp/ncnn_vulkan-2023.6.18-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 08:18:55] INFO root fetch - main [MainThread]: End processing [ncnn-vulkan]: success
+[2023-06-18 08:18:56] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230617.tar.gz]
+[2023-06-18 08:18:56] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230618-py3-none-any.whl.zip]
+[2023-06-18 08:18:56] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-18 08:18:56] INFO root fetch - main [MainThread]: Store serial: [18548391]
