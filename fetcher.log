@@ -6208,3 +6208,78 @@
 [2023-06-18 11:14:15] INFO root fetch - processPackages [bilibili-api-python]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-api-python-9.3.1.tar.gz]
 [2023-06-18 11:14:15] INFO root fetch - main [MainThread]: End processing [bilibili-api-python]: success
 [2023-06-18 11:14:15] INFO root fetch - main [MainThread]: Store serial: [18548901]
+[2023-06-18 11:19:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548901]
+[2023-06-18 11:19:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydatawork
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywalc
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bank-scrapers
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: http3-client
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepcad
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mash-shell
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-06-18 11:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spider-st
+[2023-06-18 11:19:23] WARNING root fetch - processPackages [pywalc]: Skipping, unable to determine old version
+[2023-06-18 11:19:23] INFO root fetch - main [MainThread]: End processing [pywalc] error
+[2023-06-18 11:19:23] WARNING root fetch - processPackages [bank-scrapers]: Skipping, unable to determine old version
+[2023-06-18 11:19:23] INFO root fetch - main [MainThread]: End processing [bank-scrapers] error
+[2023-06-18 11:19:23] INFO root fetch - processPackages [mash-shell]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-18 11:19:23] INFO root fetch - processPackages [pydatawork]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 11:19:23] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-18 11:19:23] WARNING root fetch - processPackages [http3-client]: Skipping, unable to determine old version
+[2023-06-18 11:19:23] INFO root fetch - main [MainThread]: End processing [http3-client] error
+[2023-06-18 11:19:23] INFO root fetch - processPackages [deepcad]: New version: [1.0.0] Old Version: [0.7.0]
+[2023-06-18 11:19:24] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-18 11:19:24] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/72/46/0e28a7f7c675278bab977a505eaaa825f254c09eb85000feaa2c3a261e42/pydatawork-0.0.6.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230618] Old Version: [2.14.0.dev20230617]
+[2023-06-18 11:19:24] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 11:19:24] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/39/e5/5089c8c5df88a75a681b543ed20ff81c7842cd11739abf40df754b620250/mash-shell-0.2.5.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [deepcad]: Downloading https://files.pythonhosted.org/packages/3b/3f/52f9a373c15eb53897376e1cf6b3ec689344bc3d0bf9d18fe3e054b10882/deepcad-0.7.0.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/e8/da/c7945cd06edb030885b621abb205d5a7a51f36bf284ef644ea538be93580/tf_nightly-2.14.0.dev20230617-cp39-cp39-win_amd64.whl
+[2023-06-18 11:19:24] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/e8/9b/321cf1019f60c2f81f640a8194808294a95ab16d9ce2f1c69336a440c14c/pydatawork-0.0.7.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-18 11:19:24] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230618/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-18 11:19:24] INFO root fetch - processPackages [deepcad]: Downloading https://files.pythonhosted.org/packages/ec/98/600968e5ee3d0b5c74a313b6237c50f0f1c4e75f8b45f6893a1ef85eb1ca/deepcad-1.0.0.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-18 11:19:24] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.0.6.tar.gz tmp/pydatawork-0.0.7.tar.gz --markdown 20230618/p/pydatawork/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 11:19:24] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/ac/ee/347f196f9554b286b26ec56cb8a44e1a8ed2941b6ae38e1f0c9b0b7bd0cd/mash-shell-0.2.6.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-18 11:19:24] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230618/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-18 11:19:24] INFO root fetch - processPackages [deepcad]: executing diffoscope
+[2023-06-18 11:19:24] INFO root fetch - processPackages [deepcad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcad-0.7.0.tar.gz tmp/deepcad-1.0.0.tar.gz --markdown 20230618/d/deepcad/0.7.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-18 11:19:24] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/b9/63/5f94de2866e4e0b073956312c1238e7d831c994def08018c42925974427d/tf_nightly-2.14.0.dev20230618-cp39-cp39-win_amd64.whl
+[2023-06-18 11:19:24] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-18 11:19:24] INFO root fetch - processPackages [mash-shell]: executing diffoscope
+[2023-06-18 11:19:24] INFO root fetch - processPackages [mash-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mash-shell-0.2.5.tar.gz tmp/mash-shell-0.2.6.tar.gz --markdown 20230618/m/mash-shell/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-18 11:19:24] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-06-18 11:19:24] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230617-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230618-cp39-cp39-win_amd64.whl.zip --markdown 20230618/t/tf-nightly/2.14.0.dev20230617-2.14.0.dev20230618/diff.md --exclude *.pyd
+[2023-06-18 11:19:25] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-18 11:19:25] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230618/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 11:19:25] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.6.tar.gz]
+[2023-06-18 11:19:25] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.7.tar.gz]
+[2023-06-18 11:19:25] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-18 11:19:25] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-18 11:19:25] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-18 11:19:25] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-18 11:19:25] INFO root fetch - processPackages [deepcad]: Remove: archive file [/home/abi/fetcher/tmp/deepcad-0.7.0.tar.gz]
+[2023-06-18 11:19:25] INFO root fetch - processPackages [deepcad]: Remove: archive file [/home/abi/fetcher/tmp/deepcad-1.0.0.tar.gz]
+[2023-06-18 11:19:25] INFO root fetch - main [MainThread]: End processing [deepcad]: success
+[2023-06-18 11:19:26] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230617-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 11:19:26] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230618-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 11:19:26] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-06-18 11:19:26] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.5.tar.gz]
+[2023-06-18 11:19:26] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.6.tar.gz]
+[2023-06-18 11:19:26] INFO root fetch - main [MainThread]: End processing [mash-shell]: success
+[2023-06-18 11:19:27] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-18 11:19:27] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-18 11:19:27] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-18 11:19:37] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-18 11:19:37] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-18 11:19:37] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-18 11:19:37] INFO root fetch - main [MainThread]: Store serial: [18548948]
