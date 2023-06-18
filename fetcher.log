@@ -7117,3 +7117,36 @@
 [2023-06-18 12:44:57] INFO root fetch - processPackages [ProTaska-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ProTaska-GPT-0.0.9.tar.gz]
 [2023-06-18 12:44:57] INFO root fetch - main [MainThread]: End processing [ProTaska-GPT]: success
 [2023-06-18 12:44:57] INFO root fetch - main [MainThread]: Store serial: [18549370]
+[2023-06-18 12:50:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549370]
+[2023-06-18 12:50:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 12:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdf-divider
+[2023-06-18 12:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crackerjack
+[2023-06-18 12:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TDTNex
+[2023-06-18 12:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: http3-client
+[2023-06-18 12:50:07] INFO root fetch - processPackages [TDTNex]: New version: [0.2.7.3] Old Version: [0.2.7.2]
+[2023-06-18 12:50:07] WARNING root fetch - processPackages [pdf-divider]: Skipping, unable to determine old version
+[2023-06-18 12:50:07] INFO root fetch - main [MainThread]: End processing [pdf-divider] error
+[2023-06-18 12:50:07] INFO root fetch - processPackages [crackerjack]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-18 12:50:07] INFO root fetch - processPackages [http3-client]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-18 12:50:07] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/f6/5e/132d2126c7bf34d4aee1e81820bbf04fa1ff9af11794cc1340524407a9d6/http3_client-1.0.5.tar.gz
+[2023-06-18 12:50:07] INFO root fetch - processPackages [TDTNex]: Downloading https://files.pythonhosted.org/packages/82/9e/a73699ca8230e6afc95c694760906bd445f7a7d1f34570180f4166597f9b/TDTNex-0.2.7.2.tar.gz
+[2023-06-18 12:50:07] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/35/5a/7456cd02d23e709603a386dd6d9fe8a5fb5c3ad4536cba508a5b02a7f824/crackerjack-0.3.1.tar.gz
+[2023-06-18 12:50:07] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/e0/5e/2c11955006aa6b346f3fab297209e0a8701f31a3c82bc83b9f273040aa57/http3_client-1.0.7.tar.gz
+[2023-06-18 12:50:07] INFO root fetch - processPackages [http3-client]: executing diffoscope
+[2023-06-18 12:50:07] INFO root fetch - processPackages [http3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http3_client-1.0.5.tar.gz tmp/http3_client-1.0.7.tar.gz --markdown 20230618/h/http3-client/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 12:50:08] INFO root fetch - processPackages [TDTNex]: Downloading https://files.pythonhosted.org/packages/56/bb/1292bb3c9d9d7103845410f2586f48b58da2c810170eeffc8c1a2b156d36/TDTNex-0.2.7.3.tar.gz
+[2023-06-18 12:50:08] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/67/6d/797e31b9ed17ccb4c2dcb3b3ada37aa2035bcd85f30ab8d1c9bedada5580/crackerjack-0.3.2.tar.gz
+[2023-06-18 12:50:08] INFO root fetch - processPackages [TDTNex]: executing diffoscope
+[2023-06-18 12:50:08] INFO root fetch - processPackages [TDTNex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDTNex-0.2.7.2.tar.gz tmp/TDTNex-0.2.7.3.tar.gz --markdown 20230618/T/TDTNex/0.2.7.2-0.2.7.3/diff.md --exclude *.pyd
+[2023-06-18 12:50:08] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-06-18 12:50:08] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.3.1.tar.gz tmp/crackerjack-0.3.2.tar.gz --markdown 20230618/c/crackerjack/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-18 12:50:08] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.5.tar.gz]
+[2023-06-18 12:50:08] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.7.tar.gz]
+[2023-06-18 12:50:08] INFO root fetch - main [MainThread]: End processing [http3-client]: success
+[2023-06-18 12:50:09] INFO root fetch - processPackages [TDTNex]: Remove: archive file [/home/abi/fetcher/tmp/TDTNex-0.2.7.2.tar.gz]
+[2023-06-18 12:50:09] INFO root fetch - processPackages [TDTNex]: Remove: archive file [/home/abi/fetcher/tmp/TDTNex-0.2.7.3.tar.gz]
+[2023-06-18 12:50:09] INFO root fetch - main [MainThread]: End processing [TDTNex]: success
+[2023-06-18 12:50:09] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.1.tar.gz]
+[2023-06-18 12:50:09] INFO root fetch - processPackages [crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.2.tar.gz]
+[2023-06-18 12:50:09] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-06-18 12:50:09] INFO root fetch - main [MainThread]: Store serial: [18549384]
