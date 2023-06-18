@@ -6514,3 +6514,106 @@
 [2023-06-18 11:45:51] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2023-06-18 11:45:51] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-06-18 11:45:51] INFO root fetch - main [MainThread]: Store serial: [18549078]
+[2023-06-18 11:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549078]
+[2023-06-18 11:50:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmfuncs
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spider-st
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reolink-aio
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dune-iga
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: http3-client
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: http3-client
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnibench-cli
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shapes-recognition
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: joes-giant-toolbox
+[2023-06-18 11:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitopenlib
+[2023-06-18 11:50:59] INFO root fetch - processPackages [http3-client]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [reolink-aio]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [dune-iga]: New version: [0.1.6.dev20230618094642] Old Version: [0.1.6.dev20230616150758]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [shapes-recognition]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [http3-client]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [omnibench-cli]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [joes-giant-toolbox]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [llmfuncs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-06-18 11:50:59] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/11/90/3f4634eb14babd82a1d3330d2e9f660d732c3dc3b14c9945a1e939a7ef08/shapes_recognition-2.1.3.tar.gz
+[2023-06-18 11:50:59] INFO root fetch - processPackages [joes-giant-toolbox]: Downloading https://files.pythonhosted.org/packages/d0/fd/fc49d1924c611e84551020503ac36892a03943631d9d8faf2f3853a0decc/joes_giant_toolbox-0.3.1.tar.gz
+[2023-06-18 11:50:59] INFO root fetch - processPackages [llmfuncs]: Downloading https://files.pythonhosted.org/packages/8b/cc/d69e8ea79a51a6188a7a72d16cd57bb4b32898b6cc807f907ec849162b79/llmfuncs-0.2.2.tar.gz
+[2023-06-18 11:50:59] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/9a/9b/3941802029f96eb48833323b850a1dca807534cb01ec07d6544cdb29e9d5/http3_client-1.0.4.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/9a/9b/3941802029f96eb48833323b850a1dca807534cb01ec07d6544cdb29e9d5/http3_client-1.0.4.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/b9/f8/cae85bae11e2ebc2055b22fd34fe038847c9393ade5853e81083ef9e7403/dune-iga-0.1.6.dev20230616150758.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/16/87/74abe6fbea3de1d8ac2e8e00950a64fc1ddd077a902c6571d578f8881d03/reolink_aio-0.7.0.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [omnibench-cli]: Downloading https://files.pythonhosted.org/packages/cf/9d/6e7c87947c894962a9a8aaf47f6b35361caecc28a9640910796fac0c2ee9/omnibench_cli-1.0.1.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/11/80/a1907c535a615bf77b4234255f929b06a620b4229448c07bd229025dd7bc/shapes_recognition-2.1.4.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [joes-giant-toolbox]: Downloading https://files.pythonhosted.org/packages/ce/65/b775485abb21e1a74b9f1df821043060eec171a300d6da2b0440f58b0d88/joes_giant_toolbox-0.3.2.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230618/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-06-18 11:51:00] INFO root fetch - processPackages [llmfuncs]: Downloading https://files.pythonhosted.org/packages/c7/67/480e53299646f02379e49380df88b450964ebed266bb5fef8b69683ca4e7/llmfuncs-0.2.3.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [llmfuncs]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [llmfuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmfuncs-0.2.2.tar.gz tmp/llmfuncs-0.2.3.tar.gz --markdown 20230618/l/llmfuncs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-18 11:51:00] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.1.3.tar.gz tmp/shapes_recognition-2.1.4.tar.gz --markdown 20230618/s/shapes-recognition/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-18 11:51:00] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/f6/5e/132d2126c7bf34d4aee1e81820bbf04fa1ff9af11794cc1340524407a9d6/http3_client-1.0.5.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/f6/5e/132d2126c7bf34d4aee1e81820bbf04fa1ff9af11794cc1340524407a9d6/http3_client-1.0.5.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [omnibench-cli]: Downloading https://files.pythonhosted.org/packages/b9/62/9c085324bd4b02266e0131777ea0a02ea76603af0d04558d7c4bddd50cd7/omnibench_cli-1.0.2.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/41/48/6d2fb33bbd3933de5c31813be50af35ea0826ddde7d55676f4e913492509/reolink_aio-0.7.1.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [joes-giant-toolbox]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [joes-giant-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joes_giant_toolbox-0.3.1.tar.gz tmp/joes_giant_toolbox-0.3.2.tar.gz --markdown 20230618/j/joes-giant-toolbox/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-18 11:51:00] INFO root fetch - processPackages [dune-iga]: Downloading https://files.pythonhosted.org/packages/e4/2b/ed6a05a1c4ab4833712cb2bb87f69c99fe9f5963e1464a64a00d8be4e151/dune-iga-0.1.6.dev20230618094642.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [reolink-aio]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [reolink-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reolink_aio-0.7.0.tar.gz tmp/reolink_aio-0.7.1.tar.gz --markdown 20230618/r/reolink-aio/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-18 11:51:00] INFO root fetch - processPackages [http3-client]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [http3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http3_client-1.0.4.tar.gz tmp/http3_client-1.0.5.tar.gz --markdown 20230618/h/http3-client/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-18 11:51:00] INFO root fetch - processPackages [http3-client]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [http3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http3_client-1.0.4.tar.gz tmp/http3_client-1.0.5.tar.gz --markdown 20230618/h/http3-client/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-18 11:51:00] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-18 11:51:00] INFO root fetch - processPackages [omnibench-cli]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [omnibench-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnibench_cli-1.0.1.tar.gz tmp/omnibench_cli-1.0.2.tar.gz --markdown 20230618/o/omnibench-cli/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-18 11:51:00] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230618/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 11:51:00] INFO root fetch - processPackages [dune-iga]: executing diffoscope
+[2023-06-18 11:51:00] INFO root fetch - processPackages [dune-iga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune-iga-0.1.6.dev20230616150758.tar.gz tmp/dune-iga-0.1.6.dev20230618094642.tar.gz --markdown 20230618/d/dune-iga/0.1.6.dev20230616150758-0.1.6.dev20230618094642/diff.md --exclude *.pyd
+[2023-06-18 11:51:01] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.3.tar.gz]
+[2023-06-18 11:51:01] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.1.4.tar.gz]
+[2023-06-18 11:51:01] INFO root fetch - processPackages [shapes-recognition]: Start processing: napari-brainways
+[2023-06-18 11:51:01] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-18 11:51:01] INFO root fetch - processPackages [llmfuncs]: Remove: archive file [/home/abi/fetcher/tmp/llmfuncs-0.2.2.tar.gz]
+[2023-06-18 11:51:01] INFO root fetch - processPackages [llmfuncs]: Remove: archive file [/home/abi/fetcher/tmp/llmfuncs-0.2.3.tar.gz]
+[2023-06-18 11:51:01] INFO root fetch - processPackages [llmfuncs]: Start processing: sumformer2
+[2023-06-18 11:51:01] INFO root fetch - main [MainThread]: End processing [llmfuncs]: success
+[2023-06-18 11:51:01] INFO root fetch - processPackages [napari-brainways]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2023-06-18 11:51:01] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.4.tar.gz]
+[2023-06-18 11:51:01] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.5.tar.gz]
+[2023-06-18 11:51:01] INFO root fetch - main [MainThread]: End processing [http3-client]: success
+[2023-06-18 11:51:01] WARNING root fetch - processPackages [sumformer2]: Skipping, unable to determine old version
+[2023-06-18 11:51:01] INFO root fetch - main [MainThread]: End processing [sumformer2] error
+[2023-06-18 11:51:01] INFO root fetch - main [MainThread]: End processing [http3-client]: success
+[2023-06-18 11:51:02] INFO root fetch - processPackages [napari-brainways]: Downloading https://files.pythonhosted.org/packages/82/00/2231a8553c3bc624f00ee6fe639670cba109cc5f850b4a4638dfad5440c9/napari_brainways-0.1.6.tar.gz
+[2023-06-18 11:51:02] INFO root fetch - processPackages [omnibench-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnibench_cli-1.0.1.tar.gz]
+[2023-06-18 11:51:02] INFO root fetch - processPackages [omnibench-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnibench_cli-1.0.2.tar.gz]
+[2023-06-18 11:51:02] INFO root fetch - main [MainThread]: End processing [omnibench-cli]: success
+[2023-06-18 11:51:02] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-06-18 11:51:02] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-06-18 11:51:02] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-06-18 11:51:02] INFO root fetch - processPackages [napari-brainways]: Downloading https://files.pythonhosted.org/packages/ff/bb/afbac5b96e13c9192c47fc1820ca527c9fb6c7ab42ca9e7569c0365ea5c3/napari_brainways-0.1.6.1.tar.gz
+[2023-06-18 11:51:02] INFO root fetch - processPackages [napari-brainways]: executing diffoscope
+[2023-06-18 11:51:02] INFO root fetch - processPackages [napari-brainways]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_brainways-0.1.6.tar.gz tmp/napari_brainways-0.1.6.1.tar.gz --markdown 20230618/n/napari-brainways/0.1.6-0.1.6.1/diff.md --exclude *.pyd
+[2023-06-18 11:51:02] INFO root fetch - processPackages [reolink-aio]: Remove: archive file [/home/abi/fetcher/tmp/reolink_aio-0.7.0.tar.gz]
+[2023-06-18 11:51:02] INFO root fetch - processPackages [reolink-aio]: Remove: archive file [/home/abi/fetcher/tmp/reolink_aio-0.7.1.tar.gz]
+[2023-06-18 11:51:02] INFO root fetch - main [MainThread]: End processing [reolink-aio]: success
+[2023-06-18 11:51:03] INFO root fetch - processPackages [joes-giant-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/joes_giant_toolbox-0.3.1.tar.gz]
+[2023-06-18 11:51:03] INFO root fetch - processPackages [joes-giant-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/joes_giant_toolbox-0.3.2.tar.gz]
+[2023-06-18 11:51:03] INFO root fetch - main [MainThread]: End processing [joes-giant-toolbox]: success
+[2023-06-18 11:51:03] INFO root fetch - processPackages [napari-brainways]: Remove: archive file [/home/abi/fetcher/tmp/napari_brainways-0.1.6.tar.gz]
+[2023-06-18 11:51:03] INFO root fetch - processPackages [napari-brainways]: Remove: archive file [/home/abi/fetcher/tmp/napari_brainways-0.1.6.1.tar.gz]
+[2023-06-18 11:51:03] INFO root fetch - main [MainThread]: End processing [napari-brainways]: success
+[2023-06-18 11:51:04] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.6.dev20230616150758.tar.gz]
+[2023-06-18 11:51:04] INFO root fetch - processPackages [dune-iga]: Remove: archive file [/home/abi/fetcher/tmp/dune-iga-0.1.6.dev20230618094642.tar.gz]
+[2023-06-18 11:51:04] INFO root fetch - main [MainThread]: End processing [dune-iga]: success
+[2023-06-18 11:51:12] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-18 11:51:12] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-18 11:51:12] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-18 11:51:12] INFO root fetch - main [MainThread]: Store serial: [18549122]
