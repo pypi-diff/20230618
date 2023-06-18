@@ -3766,3 +3766,60 @@
 [2023-06-18 05:11:05] INFO root fetch - processPackages [pykoopman]: Remove: archive file [/home/abi/fetcher/tmp/pykoopman-1.0.1.tar.gz]
 [2023-06-18 05:11:05] INFO root fetch - main [MainThread]: End processing [pykoopman]: success
 [2023-06-18 05:11:05] INFO root fetch - main [MainThread]: Store serial: [18547752]
+[2023-06-18 05:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547752]
+[2023-06-18 05:16:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-slack
+[2023-06-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-postgresql
+[2023-06-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdf-docx-pic
+[2023-06-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-rabbitmq
+[2023-06-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GANDLF
+[2023-06-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-signalfx
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1687056162] Old Version: [3.4.0a1686760354]
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1687056260] Old Version: [3.9.0a1686636221]
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.3a1687056426] Old Version: [0.4.3a1686637478]
+[2023-06-18 05:16:14] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230618] Old Version: [0.0.17.dev20230617]
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pdf-docx-pic]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-06-18 05:16:14] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/3d/76/abc6d29a64bfbf6926dd0f0d4a5a8f7561e3d4fc01fb8f86770d55da481b/GANDLF-0.0.17.dev20230617.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/bb/4e/9eedf62fc288a4d2bb7f4a0fdd8324d58777f8e8fa243514c84fdfd6e231/pulumi_slack-0.4.3a1686637478.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a1/6a/a10fe635ef4ec9f80836b6eeb69148a87a827d65aa7b6162c43125fb1ec9/pulumi_postgresql-3.9.0a1686636221.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/01/f3/cdd07e325ae0c582e184863344a40637f8609554e378079734e3af920caa/pdf-docx-pic-3.1.0.zip
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/ac/5f/1a4044965158b80d802215afe385b6ff3bc531b329237e88cbd6101ea2d7/pulumi_rabbitmq-3.4.0a1686760354.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/7e/61/ade4c59b6ce7c16df044d071b13218024e861c7693bfa058bbc2391d3850/pulumi_signalfx-5.9.0a1678129624.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/c6/46/7658377bd4c669df1c0a294ba1258b014ec4c10ab1be407ddf9dd9c5dd0d/GANDLF-0.0.17.dev20230618.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/91/7b/fffc76543ccaa67c9143e22776b339bb9cecf982b491961e05994da4d853/pulumi_postgresql-3.9.0a1687056260.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/1b/e0/b8e38a760e0dbe988eaa6e759ae15bf49ed466f37e0c8752178c2b895294/pdf-docx-pic-3.1.1.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/b7/d2/59c85b4fc8fee36dc8b5b163bd77d823c8274f79f1f0f456e88a5c90d9cc/pulumi_slack-0.4.3a1687056426.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf-docx-pic-3.1.0.zip tmp/pdf-docx-pic-3.1.1.tar.gz --markdown 20230618/p/pdf-docx-pic/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/de/fa/3f3b9230a1ef9eea16d4715b365d7651076d7530dc754902f930cb2a83cc/pulumi_signalfx-5.9.0a1678179334.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/26/5b/5edb59f2e49028ea924a8bca6a3886dd919b9cc2684e870c7bca78d254d8/pulumi_rabbitmq-3.4.0a1687056162.tar.gz
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1686636221.tar.gz tmp/pulumi_postgresql-3.9.0a1687056260.tar.gz --markdown 20230618/p/pulumi-postgresql/3.9.0a1686636221-3.9.0a1687056260/diff.md --exclude *.pyd
+[2023-06-18 05:16:14] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-18 05:16:14] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230617.tar.gz tmp/GANDLF-0.0.17.dev20230618.tar.gz --markdown 20230618/G/GANDLF/0.0.17.dev20230617-0.0.17.dev20230618/diff.md --exclude *.pyd
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230618/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2023-06-18 05:16:14] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.3a1686637478.tar.gz tmp/pulumi_slack-0.4.3a1687056426.tar.gz --markdown 20230618/p/pulumi-slack/0.4.3a1686637478-0.4.3a1687056426/diff.md --exclude *.pyd
+[2023-06-18 05:16:15] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-06-18 05:16:15] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1686760354.tar.gz tmp/pulumi_rabbitmq-3.4.0a1687056162.tar.gz --markdown 20230618/p/pulumi-rabbitmq/3.4.0a1686760354-3.4.0a1687056162/diff.md --exclude *.pyd
+[2023-06-18 05:16:15] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.0.zip]
+[2023-06-18 05:16:15] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.1.tar.gz]
+[2023-06-18 05:16:15] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-18 05:16:16] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1686637478.tar.gz]
+[2023-06-18 05:16:16] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1687056426.tar.gz]
+[2023-06-18 05:16:16] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2023-06-18 05:16:17] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1686636221.tar.gz]
+[2023-06-18 05:16:17] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1687056260.tar.gz]
+[2023-06-18 05:16:17] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-06-18 05:16:18] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz]
+[2023-06-18 05:16:18] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz]
+[2023-06-18 05:16:18] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-06-18 05:16:19] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230617.tar.gz]
+[2023-06-18 05:16:19] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230618.tar.gz]
+[2023-06-18 05:16:19] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-18 05:17:09] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1686760354.tar.gz]
+[2023-06-18 05:17:09] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1687056162.tar.gz]
+[2023-06-18 05:17:09] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-06-18 05:17:09] INFO root fetch - main [MainThread]: Store serial: [18547766]
