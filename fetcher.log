@@ -3017,3 +3017,92 @@
 [2023-06-18 04:27:48] INFO root fetch - processPackages [themoviedb]: Remove: archive file [/home/abi/fetcher/tmp/themoviedb-0.4.0.tar.gz]
 [2023-06-18 04:27:48] INFO root fetch - main [MainThread]: End processing [themoviedb]: success
 [2023-06-18 04:27:48] INFO root fetch - main [MainThread]: Store serial: [18547503]
+[2023-06-18 04:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547503]
+[2023-06-18 04:32:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pykoopman
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sora-sdk
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-oci
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-auth0
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo10-addon-shopinvader-product-variant-selector
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sweetrpg-library-objects
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spPersist
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mipac
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-shopinvader-product-variant-selector
+[2023-06-18 04:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: monai-weekly
+[2023-06-18 04:32:56] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-06-18 04:32:56] INFO root fetch - processPackages [pykoopman]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-18 04:32:56] INFO root fetch - processPackages [pulumi-oci]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 04:32:57] INFO root fetch - processPackages [mipac]: New version: [0.4.99] Old Version: [0.4.3]
+[2023-06-18 04:32:57] INFO root fetch - processPackages [odoo10-addon-shopinvader-product-variant-selector]: New version: [10.0.1.0.0.99.dev11] Old Version: [10.0.1.0.0.99.dev10]
+[2023-06-18 04:32:57] INFO root fetch - processPackages [spPersist]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-18 04:32:57] INFO root fetch - processPackages [sora-sdk]: New version: [2023.1.0.dev7] Old Version: [2023.1.0.dev6]
+[2023-06-18 04:32:57] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-06-18 04:32:57] INFO root fetch - processPackages [odoo12-addon-shopinvader-product-variant-selector]: New version: [12.0.1.0.0.99.dev6] Old Version: [12.0.1.0.0.99.dev5]
+[2023-06-18 04:32:57] INFO root fetch - processPackages [monai-weekly]: New version: [1.3.dev2325] Old Version: [1.3.dev2324]
+[2023-06-18 04:32:57] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/a5/3a/95b17ee40917a378bfc1f0aa8aef8c669c40014c320135b85eaf85e9142f/sppersist-1.1.7.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pykoopman]: Downloading https://files.pythonhosted.org/packages/bd/55/bef03725682306450e0852aecd27767deed09f955dd747f46a8078c9486a/pykoopman-0.2.0.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [mipac]: Downloading https://files.pythonhosted.org/packages/4b/e7/2722d076634015920fbbe2526bbae1c269b357a075bbce4e1990f7d14f46/mipac-0.4.3.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [odoo10-addon-shopinvader-product-variant-selector]: Downloading https://files.pythonhosted.org/packages/45/fa/b3bd6f6157280902b941bc28a0d1d6169fc079b6921d9591226b18429fb4/odoo10_addon_shopinvader_product_variant_selector-10.0.1.0.0.99.dev10-py2-none-any.whl
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/74/31/33b17b31d205d8da53a1ffccda068da282d3595412005d64320d2cc96b74/pulumi_oci-1.0.0.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/cf/e4/9c271e656a30612e30e58fa7ff45fd89859f8635e3534b15767997985fbf/sora_sdk-2023.1.0.dev6.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [odoo12-addon-shopinvader-product-variant-selector]: Downloading https://files.pythonhosted.org/packages/81/12/b0b221505721f3018c64513aa0b9c008b8cecf8a86f49bbf0f372e5d2611/odoo12_addon_shopinvader_product_variant_selector-12.0.1.0.0.99.dev5-py3-none-any.whl
+[2023-06-18 04:32:57] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11006894>=10485760
+[2023-06-18 04:32:57] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-18 04:32:57] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/2b/17/f95bc70ef6dfcc72c218b73a7d1a0f2d1f702d0aa1c80b102601ff41fbe8/monai-weekly-1.3.dev2324.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-06-18 04:32:57] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230618/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-06-18 04:32:57] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/78/a5/33bd60f0b42d77ae7f5fa3471ba78aa1ee3a669267daf5e996c571962960/sppersist-1.1.8.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [odoo10-addon-shopinvader-product-variant-selector]: Downloading https://files.pythonhosted.org/packages/97/f1/12fc4043c9ead0d96c1db2913714c3cacf2753af45ae1386226ca8727d65/odoo10_addon_shopinvader_product_variant_selector-10.0.1.0.0.99.dev11-py2-none-any.whl
+[2023-06-18 04:32:57] INFO root fetch - processPackages [mipac]: Downloading https://files.pythonhosted.org/packages/d9/5c/f58cf71874ed67bea515cb2119eff203e1b29c0b314678cef98814f2d28a/mipac-0.4.99.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-18 04:32:57] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-1.1.7.tar.gz tmp/sppersist-1.1.8.tar.gz --markdown 20230618/s/spPersist/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pykoopman]: Downloading https://files.pythonhosted.org/packages/aa/88/40984b25eeab4c159242fadfc5d0de6f9da32c7e9a96a948016521686fe0/pykoopman-1.0.0.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [mipac]: executing diffoscope
+[2023-06-18 04:32:57] INFO root fetch - processPackages [mipac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mipac-0.4.3.tar.gz tmp/mipac-0.4.99.tar.gz --markdown 20230618/m/mipac/0.4.3-0.4.99/diff.md --exclude *.pyd
+[2023-06-18 04:32:57] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/fc/38/553f22929d030be8ef0299458be142724a69d25ed934dabbec15548689f3/monai-weekly-1.3.dev2325.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [odoo12-addon-shopinvader-product-variant-selector]: Downloading https://files.pythonhosted.org/packages/bc/e7/f53269df7d4887f260d091e81461d3635848caa1f17226804cd05b8a1da0/odoo12_addon_shopinvader_product_variant_selector-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/26/6b/a9e0567abaedc55cfaab8f8e5da6532419ab0f10073e82fb5a6b2534d725/pulumi_oci-1.0.1.tar.gz
+[2023-06-18 04:32:57] INFO root fetch - processPackages [odoo10-addon-shopinvader-product-variant-selector]: executing diffoscope
+[2023-06-18 04:32:57] INFO root fetch - processPackages [odoo10-addon-shopinvader-product-variant-selector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_shopinvader_product_variant_selector-10.0.1.0.0.99.dev10-py2-none-any.whl.zip tmp/odoo10_addon_shopinvader_product_variant_selector-10.0.1.0.0.99.dev11-py2-none-any.whl.zip --markdown 20230618/o/odoo10-addon-shopinvader-product-variant-selector/10.0.1.0.0.99.dev10-10.0.1.0.0.99.dev11/diff.md --exclude *.pyd
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230618/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pykoopman]: executing diffoscope
+[2023-06-18 04:32:57] INFO root fetch - processPackages [pykoopman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykoopman-0.2.0.tar.gz tmp/pykoopman-1.0.0.tar.gz --markdown 20230618/p/pykoopman/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-18 04:32:58] INFO root fetch - processPackages [odoo12-addon-shopinvader-product-variant-selector]: executing diffoscope
+[2023-06-18 04:32:58] INFO root fetch - processPackages [odoo12-addon-shopinvader-product-variant-selector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_shopinvader_product_variant_selector-12.0.1.0.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_shopinvader_product_variant_selector-12.0.1.0.0.99.dev6-py3-none-any.whl.zip --markdown 20230618/o/odoo12-addon-shopinvader-product-variant-selector/12.0.1.0.0.99.dev5-12.0.1.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-06-18 04:32:58] INFO root fetch - processPackages [monai-weekly]: executing diffoscope
+[2023-06-18 04:32:58] INFO root fetch - processPackages [monai-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-weekly-1.3.dev2324.tar.gz tmp/monai-weekly-1.3.dev2325.tar.gz --markdown 20230618/m/monai-weekly/1.3.dev2324-1.3.dev2325/diff.md --exclude *.pyd
+[2023-06-18 04:32:58] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-06-18 04:32:58] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.0.0.tar.gz tmp/pulumi_oci-1.0.1.tar.gz --markdown 20230618/p/pulumi-oci/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 04:32:58] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.7.tar.gz]
+[2023-06-18 04:32:58] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-1.1.8.tar.gz]
+[2023-06-18 04:32:58] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-18 04:32:59] INFO root fetch - processPackages [odoo10-addon-shopinvader-product-variant-selector]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_shopinvader_product_variant_selector-10.0.1.0.0.99.dev10-py2-none-any.whl.zip]
+[2023-06-18 04:32:59] INFO root fetch - processPackages [odoo10-addon-shopinvader-product-variant-selector]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_shopinvader_product_variant_selector-10.0.1.0.0.99.dev11-py2-none-any.whl.zip]
+[2023-06-18 04:32:59] INFO root fetch - main [MainThread]: End processing [odoo10-addon-shopinvader-product-variant-selector]: success
+[2023-06-18 04:32:59] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-06-18 04:32:59] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-06-18 04:32:59] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-06-18 04:32:59] INFO root fetch - processPackages [odoo12-addon-shopinvader-product-variant-selector]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_shopinvader_product_variant_selector-12.0.1.0.0.99.dev5-py3-none-any.whl.zip]
+[2023-06-18 04:32:59] INFO root fetch - processPackages [odoo12-addon-shopinvader-product-variant-selector]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_shopinvader_product_variant_selector-12.0.1.0.0.99.dev6-py3-none-any.whl.zip]
+[2023-06-18 04:32:59] INFO root fetch - main [MainThread]: End processing [odoo12-addon-shopinvader-product-variant-selector]: success
+[2023-06-18 04:32:59] INFO root fetch - processPackages [pykoopman]: Remove: archive file [/home/abi/fetcher/tmp/pykoopman-0.2.0.tar.gz]
+[2023-06-18 04:32:59] INFO root fetch - processPackages [pykoopman]: Remove: archive file [/home/abi/fetcher/tmp/pykoopman-1.0.0.tar.gz]
+[2023-06-18 04:32:59] INFO root fetch - main [MainThread]: End processing [pykoopman]: success
+[2023-06-18 04:32:59] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1651588791.tar.gz]
+[2023-06-18 04:32:59] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1653604814.tar.gz]
+[2023-06-18 04:32:59] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-06-18 04:33:00] INFO root fetch - processPackages [mipac]: Remove: archive file [/home/abi/fetcher/tmp/mipac-0.4.3.tar.gz]
+[2023-06-18 04:33:00] INFO root fetch - processPackages [mipac]: Remove: archive file [/home/abi/fetcher/tmp/mipac-0.4.99.tar.gz]
+[2023-06-18 04:33:00] INFO root fetch - main [MainThread]: End processing [mipac]: success
+[2023-06-18 04:33:11] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2324.tar.gz]
+[2023-06-18 04:33:11] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2325.tar.gz]
+[2023-06-18 04:33:11] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
+[2023-06-18 04:33:50] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.0.0.tar.gz]
+[2023-06-18 04:33:50] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.0.1.tar.gz]
+[2023-06-18 04:33:50] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-06-18 04:33:50] INFO root fetch - main [MainThread]: Store serial: [18547541]
