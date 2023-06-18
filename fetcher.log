@@ -9923,3 +9923,108 @@ EOFError: EOF read where object expected
 [2023-06-18 16:09:35] INFO root fetch - processPackages [brownian-stock]: Remove: archive file [/home/abi/fetcher/tmp/brownian-stock-0.0.9.tar.gz]
 [2023-06-18 16:09:35] INFO root fetch - main [MainThread]: End processing [brownian-stock]: success
 [2023-06-18 16:09:35] INFO root fetch - main [MainThread]: Store serial: [18550619]
+[2023-06-18 16:14:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550619]
+[2023-06-18 16:14:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readthis
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: theme-material-darcula
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc-dwh-streaming-pkg
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wizwad
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastFET
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bank-scrapers
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TrimLog
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: texto-transformer
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dal-python
+[2023-06-18 16:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boardgen
+[2023-06-18 16:14:48] INFO root fetch - processPackages [readthis]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 16:14:48] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-18 16:14:48] INFO root fetch - processPackages [fastFET]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-18 16:14:48] INFO root fetch - processPackages [boardgen]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-06-18 16:14:48] INFO root fetch - processPackages [bank-scrapers]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-18 16:14:48] INFO root fetch - processPackages [theme-material-darcula]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-18 16:14:48] WARNING root fetch - processPackages [texto-transformer]: Skipping, unable to determine old version
+[2023-06-18 16:14:48] INFO root fetch - processPackages [TrimLog]: New version: [0.8.0.1] Old Version: [0.8.0]
+[2023-06-18 16:14:48] INFO root fetch - processPackages [texto-transformer]: Start processing: findPlate
+[2023-06-18 16:14:48] INFO root fetch - main [MainThread]: End processing [texto-transformer] error
+[2023-06-18 16:14:48] INFO root fetch - processPackages [wizwad]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-18 16:14:48] INFO root fetch - processPackages [dal-python]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-18 16:14:48] INFO root fetch - processPackages [findPlate]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-18 16:14:48] INFO root fetch - processPackages [TrimLog]: Downloading https://files.pythonhosted.org/packages/98/6d/d1c5b696853d2a42b85aa6b6712de016f547e19f1b409ae424b32b8db903/TrimLog-0.8.0.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [boardgen]: Downloading https://files.pythonhosted.org/packages/b1/83/4f8ba948e33509639c252930aaedb1a24edb5f420a6cdad8ba111988bd82/boardgen-0.7.3.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: Downloading https://files.pythonhosted.org/packages/7e/fa/b47823eba2477bc5d5834407a978eeca65155ff1bb27410df637ced76faa/cc_dwh_streaming_pkg-1.0.0.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/5a/5d/3e8bea1ca7d5db1609a16c4bf06b81f87f1a75811d75027f4a6eab6e2769/readthis-0.0.3.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/c5/ae/0a2d8a19ef8e962bc4f811d182f03534638038c97bf090ed6789f5354be8/dal_python-0.3.0-cp39-none-any.whl
+[2023-06-18 16:14:48] INFO root fetch - processPackages [theme-material-darcula]: Downloading https://files.pythonhosted.org/packages/c5/8f/fd250e2ba5a01c806c88bc1694aabd613bb5cd99b764dc95a1f966bb1de1/theme-material-darcula-1.0.4.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [wizwad]: Downloading https://files.pythonhosted.org/packages/ba/24/6ad03fd1be976f9b3450301b75422a2210e400fdb338b9eae460548d8c58/wizwad-0.4.0.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [bank-scrapers]: Downloading https://files.pythonhosted.org/packages/47/9f/87b825200d66a74ad89d290a953aeb6a78804588be3fea23ea5ec15b5f03/bank_scrapers-1.0.2.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [findPlate]: Downloading https://files.pythonhosted.org/packages/6a/2e/d39f83c1c7f85e0855db022e6b991d9979b89fa4d4adc62f0b7b4e162c74/findPlate-2.0.0.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [TrimLog]: Downloading https://files.pythonhosted.org/packages/d6/f9/334a0d15e28f641ad2db6151370977dc0ae504a8650738f4719af35fdf9f/TrimLog-0.8.0.1.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [fastFET]: Downloading https://files.pythonhosted.org/packages/01/c3/5d02a79deef8f4adc67f0cc25be421f75881ca71f73b09dd0727c5468111/fastFET-0.0.5.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [boardgen]: Downloading https://files.pythonhosted.org/packages/ce/db/934ef95169ef0d3fadf033c98a2dc5bca4fc908fb3ae556427981083616d/boardgen-0.8.0.tar.gz
+[2023-06-18 16:14:48] INFO root fetch - processPackages [TrimLog]: executing diffoscope
+[2023-06-18 16:14:48] INFO root fetch - processPackages [TrimLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrimLog-0.8.0.tar.gz tmp/TrimLog-0.8.0.1.tar.gz --markdown 20230618/T/TrimLog/0.8.0-0.8.0.1/diff.md --exclude *.pyd
+[2023-06-18 16:14:49] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/f3/5a/12b545d129790c3cc6227bc738776cc9d26d58bfa384aa4c05c54d924359/readthis-0.0.4.tar.gz
+[2023-06-18 16:14:49] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: Downloading https://files.pythonhosted.org/packages/c5/91/d9da00034e99d094dd7b7ce4044e2c4944cd7ea5843a7df2b0cbe814d8aa/cc_dwh_streaming_pkg-1.0.1.tar.gz
+[2023-06-18 16:14:49] INFO root fetch - processPackages [boardgen]: executing diffoscope
+[2023-06-18 16:14:49] INFO root fetch - processPackages [boardgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boardgen-0.7.3.tar.gz tmp/boardgen-0.8.0.tar.gz --markdown 20230618/b/boardgen/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-06-18 16:14:49] INFO root fetch - processPackages [readthis]: executing diffoscope
+[2023-06-18 16:14:49] INFO root fetch - processPackages [readthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readthis-0.0.3.tar.gz tmp/readthis-0.0.4.tar.gz --markdown 20230618/r/readthis/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 16:14:49] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/77/d8/9b7a821441a7de22295f941fe643f06f100e962daf54294059974d31b6ed/dal_python-0.3.1-cp39-cp39-win_amd64.whl
+[2023-06-18 16:14:49] INFO root fetch - processPackages [wizwad]: Downloading https://files.pythonhosted.org/packages/ee/c7/b8813855896c1682e32794682bbff3ffa2eb746f03186bb511dcf48b6693/wizwad-0.4.1.tar.gz
+[2023-06-18 16:14:49] INFO root fetch - processPackages [theme-material-darcula]: Downloading https://files.pythonhosted.org/packages/0b/c0/c274551f621c72c0be3dbc33f1393b83736a39f5c1ee3b21437d8f54ce9a/theme-material-darcula-1.0.5.tar.gz
+[2023-06-18 16:14:49] INFO root fetch - processPackages [dal-python]: executing diffoscope
+[2023-06-18 16:14:49] INFO root fetch - processPackages [dal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dal_python-0.3.0-cp39-none-any.whl.zip tmp/dal_python-0.3.1-cp39-cp39-win_amd64.whl.zip --markdown 20230618/d/dal-python/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-18 16:14:49] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: executing diffoscope
+[2023-06-18 16:14:49] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_dwh_streaming_pkg-1.0.0.tar.gz tmp/cc_dwh_streaming_pkg-1.0.1.tar.gz --markdown 20230618/c/cc-dwh-streaming-pkg/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-18 16:14:49] INFO root fetch - processPackages [bank-scrapers]: Downloading https://files.pythonhosted.org/packages/21/01/db4df234f723a783b0435a9c6b00b326283b9f9344bbb1d2ff8fae016cda/bank_scrapers-1.0.3.tar.gz
+[2023-06-18 16:14:49] INFO root fetch - processPackages [findPlate]: Downloading https://files.pythonhosted.org/packages/1f/a0/9c595c6054812cdeb8ae3d8dcaec5ee3c7803df34343e26819dab4defe53/findPlate-2.0.1.tar.gz
+[2023-06-18 16:14:49] INFO root fetch - processPackages [fastFET]: Downloading https://files.pythonhosted.org/packages/f7/6d/e206917136287d4057aa7a36c6e01661f7aa113581c54a3e73bbd7e6531b/fastFET-0.0.6.tar.gz
+[2023-06-18 16:14:49] INFO root fetch - processPackages [bank-scrapers]: executing diffoscope
+[2023-06-18 16:14:49] INFO root fetch - processPackages [bank-scrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bank_scrapers-1.0.2.tar.gz tmp/bank_scrapers-1.0.3.tar.gz --markdown 20230618/b/bank-scrapers/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-18 16:14:49] INFO root fetch - processPackages [wizwad]: executing diffoscope
+[2023-06-18 16:14:49] INFO root fetch - processPackages [wizwad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizwad-0.4.0.tar.gz tmp/wizwad-0.4.1.tar.gz --markdown 20230618/w/wizwad/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-18 16:14:49] INFO root fetch - processPackages [findPlate]: executing diffoscope
+[2023-06-18 16:14:49] INFO root fetch - processPackages [findPlate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findPlate-2.0.0.tar.gz tmp/findPlate-2.0.1.tar.gz --markdown 20230618/f/findPlate/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-18 16:14:49] INFO root fetch - processPackages [theme-material-darcula]: executing diffoscope
+[2023-06-18 16:14:49] INFO root fetch - processPackages [theme-material-darcula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theme-material-darcula-1.0.4.tar.gz tmp/theme-material-darcula-1.0.5.tar.gz --markdown 20230618/t/theme-material-darcula/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-18 16:14:49] INFO root fetch - processPackages [fastFET]: executing diffoscope
+[2023-06-18 16:14:49] INFO root fetch - processPackages [fastFET]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastFET-0.0.5.tar.gz tmp/fastFET-0.0.6.tar.gz --markdown 20230618/f/fastFET/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-18 16:14:50] INFO root fetch - processPackages [TrimLog]: Remove: archive file [/home/abi/fetcher/tmp/TrimLog-0.8.0.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - processPackages [TrimLog]: Remove: archive file [/home/abi/fetcher/tmp/TrimLog-0.8.0.1.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - processPackages [TrimLog]: Start processing: honkairail
+[2023-06-18 16:14:50] INFO root fetch - main [MainThread]: End processing [TrimLog]: success
+[2023-06-18 16:14:50] INFO root fetch - processPackages [honkairail]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-18 16:14:50] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/8e/a9/761413a5136d0dac4465b34b9155f36f007992e9ca11beac1c71e08718d2/honkairail-1.0.6.tar.gz
+[2023-06-18 16:14:50] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: Remove: archive file [/home/abi/fetcher/tmp/cc_dwh_streaming_pkg-1.0.0.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - processPackages [cc-dwh-streaming-pkg]: Remove: archive file [/home/abi/fetcher/tmp/cc_dwh_streaming_pkg-1.0.1.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - main [MainThread]: End processing [cc-dwh-streaming-pkg]: success
+[2023-06-18 16:14:50] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.3.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.4.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - main [MainThread]: End processing [readthis]: success
+[2023-06-18 16:14:50] INFO root fetch - processPackages [wizwad]: Remove: archive file [/home/abi/fetcher/tmp/wizwad-0.4.0.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - processPackages [wizwad]: Remove: archive file [/home/abi/fetcher/tmp/wizwad-0.4.1.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - main [MainThread]: End processing [wizwad]: success
+[2023-06-18 16:14:50] INFO root fetch - processPackages [findPlate]: Remove: archive file [/home/abi/fetcher/tmp/findPlate-2.0.0.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - processPackages [findPlate]: Remove: archive file [/home/abi/fetcher/tmp/findPlate-2.0.1.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - main [MainThread]: End processing [findPlate]: success
+[2023-06-18 16:14:50] INFO root fetch - processPackages [boardgen]: Remove: archive file [/home/abi/fetcher/tmp/boardgen-0.7.3.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - processPackages [boardgen]: Remove: archive file [/home/abi/fetcher/tmp/boardgen-0.8.0.tar.gz]
+[2023-06-18 16:14:50] INFO root fetch - main [MainThread]: End processing [boardgen]: success
+[2023-06-18 16:14:50] INFO root fetch - processPackages [honkairail]: Downloading https://files.pythonhosted.org/packages/19/24/1f7f0783ff3d864f9c9e98e86d92b8a6ada5f2699585fd5d9a01c85c083d/honkairail-1.0.7.tar.gz
+[2023-06-18 16:14:50] INFO root fetch - processPackages [honkairail]: executing diffoscope
+[2023-06-18 16:14:50] INFO root fetch - processPackages [honkairail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkairail-1.0.6.tar.gz tmp/honkairail-1.0.7.tar.gz --markdown 20230618/h/honkairail/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-18 16:14:51] INFO root fetch - processPackages [bank-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/bank_scrapers-1.0.2.tar.gz]
+[2023-06-18 16:14:51] INFO root fetch - processPackages [bank-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/bank_scrapers-1.0.3.tar.gz]
+[2023-06-18 16:14:51] INFO root fetch - main [MainThread]: End processing [bank-scrapers]: success
+[2023-06-18 16:14:51] INFO root fetch - processPackages [fastFET]: Remove: archive file [/home/abi/fetcher/tmp/fastFET-0.0.5.tar.gz]
+[2023-06-18 16:14:51] INFO root fetch - processPackages [fastFET]: Remove: archive file [/home/abi/fetcher/tmp/fastFET-0.0.6.tar.gz]
+[2023-06-18 16:14:51] INFO root fetch - main [MainThread]: End processing [fastFET]: success
+[2023-06-18 16:14:51] INFO root fetch - processPackages [theme-material-darcula]: Remove: archive file [/home/abi/fetcher/tmp/theme-material-darcula-1.0.4.tar.gz]
+[2023-06-18 16:14:51] INFO root fetch - processPackages [theme-material-darcula]: Remove: archive file [/home/abi/fetcher/tmp/theme-material-darcula-1.0.5.tar.gz]
+[2023-06-18 16:14:51] INFO root fetch - main [MainThread]: End processing [theme-material-darcula]: success
+[2023-06-18 16:14:51] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.3.0-cp39-none-any.whl.zip]
+[2023-06-18 16:14:51] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.3.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 16:14:51] INFO root fetch - main [MainThread]: End processing [dal-python]: success
+[2023-06-18 16:14:52] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.6.tar.gz]
+[2023-06-18 16:14:52] INFO root fetch - processPackages [honkairail]: Remove: archive file [/home/abi/fetcher/tmp/honkairail-1.0.7.tar.gz]
+[2023-06-18 16:14:52] INFO root fetch - main [MainThread]: End processing [honkairail]: success
+[2023-06-18 16:14:52] INFO root fetch - main [MainThread]: Store serial: [18550652]
