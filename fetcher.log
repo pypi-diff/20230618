@@ -3286,3 +3286,99 @@
 [2023-06-18 04:44:26] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2325-py3-none-any.whl.zip]
 [2023-06-18 04:44:26] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
 [2023-06-18 04:44:26] INFO root fetch - main [MainThread]: Store serial: [18547591]
+[2023-06-18 04:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547591]
+[2023-06-18 04:49:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsfeatures
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nombre-su-libreria
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-equinix-metal
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boringavatars
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-dnsimple
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdevpy
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Bigsansar
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rstms-tq
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-gitlab
+[2023-06-18 04:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iam-actions
+[2023-06-18 04:49:41] INFO root fetch - processPackages [tsfeatures]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-18 04:49:41] INFO root fetch - processPackages [sdevpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 04:49:41] WARNING root fetch - processPackages [nombre-su-libreria]: Skipping, unable to determine old version
+[2023-06-18 04:49:41] INFO root fetch - processPackages [nombre-su-libreria]: Start processing: ipcs
+[2023-06-18 04:49:41] INFO root fetch - main [MainThread]: End processing [nombre-su-libreria] error
+[2023-06-18 04:49:41] INFO root fetch - processPackages [boringavatars]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-18 04:49:41] INFO root fetch - processPackages [rstms-tq]: New version: [0.1.9] Old Version: [0.1.11]
+[2023-06-18 04:49:41] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1687054482] Old Version: [3.5.0a1686634067]
+[2023-06-18 04:49:41] INFO root fetch - processPackages [pulumi-equinix-metal]: New version: [3.3.0a1687054660] Old Version: [3.3.0a1686634581]
+[2023-06-18 04:49:42] INFO root fetch - processPackages [Bigsansar]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.1.0a1687054842] Old Version: [6.1.0a1686635005]
+[2023-06-18 04:49:42] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230618] Old Version: [1.2.20230617]
+[2023-06-18 04:49:42] INFO root fetch - processPackages [ipcs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 04:49:42] INFO root fetch - processPackages [rstms-tq]: Downloading https://files.pythonhosted.org/packages/a3/9c/ac572c84ed411801daed16dc0a220589fee6d40ab31a78a9789c38caca4d/rstms_tq-0.1.11.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/bc/7e/a47e5699949a0be744af9e867fe18f007b442d8538a0b48e5bd91a1a189f/sdevpy-0.0.1.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/38/29/4586a9f9b9e083e0cfdbfc0c610c7e55df79f7171d06f72ccee9df4e9b6b/pulumi_equinix_metal-3.3.0a1686634581.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/96/c9/1e062e66676b87084910afcd8954753c3811eda6787aa6ce49adeaa2fa70/pulumi_dnsimple-3.5.0a1686634067.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/a0/80/3f18d63423590030e76176cb5fa859302c44758910a145a8d656cb6e7fb7/pulumi_gitlab-6.1.0a1686635005.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/b5/81/15580b4eb8941329ffb30e2d129756e78aa54047ece993ea99fd10c7a8f2/Bigsansar-1.7.1.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/86/a2/fd80560546220cc39542c08ab8c1ae104c65ead896b0443a2028982d9edb/iam_actions-1.2.20230617.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [tsfeatures]: Downloading https://files.pythonhosted.org/packages/9a/c7/98f8aa7bf1e0078fb82a26ece9688c995bd7aeb5d46cdc6b7c294febe510/tsfeatures-0.4.0.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [boringavatars]: Downloading https://files.pythonhosted.org/packages/ef/c0/9287291c5b4389e36a42c3fcffa861001cabb36b006daf1cd26c7d87423c/boringavatars-1.0.1.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [ipcs]: Downloading https://files.pythonhosted.org/packages/9d/f3/db382503f426d8e5c3f32e0170a058336bf7cd99629d4525a7a639ef3f68/ipcs-0.1.4.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/e4/79/4ec4b58f159c1e61a3a00ace9ee2e86c6ac2b99b5d9397bf0e2e30538588/pulumi_dnsimple-3.5.0a1687054482.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/de/30/f2abe9a68b490cc9f3355f55c53cbd4b33e1a8734668cd9fa8a4265e18aa/iam_actions-1.2.20230618.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/da/80/fc991d25aac25ef79cb164f685586626ae10951f3f3baafaf596e39a3206/Bigsansar-1.7.2.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/69/78/0df4c0d116bb6fba49265e69c5084472d3dd50bb13c509d0179141e8d42f/sdevpy-0.0.2.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [rstms-tq]: Downloading https://files.pythonhosted.org/packages/61/bd/d320beb34176aad2343050448990a01e18de06f7be4d679d479263125cd8/rstms-tq-0.1.9.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-18 04:49:42] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.7.1.tar.gz tmp/Bigsansar-1.7.2.tar.gz --markdown 20230618/B/Bigsansar/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-18 04:49:42] INFO root fetch - processPackages [sdevpy]: executing diffoscope
+[2023-06-18 04:49:42] INFO root fetch - processPackages [sdevpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdevpy-0.0.1.tar.gz tmp/sdevpy-0.0.2.tar.gz --markdown 20230618/s/sdevpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/56/ef/34a9b779281d18db5897b2ca01c836ee8c9983a0a2432c3f7b018b0006cb/pulumi_equinix_metal-3.3.0a1687054660.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [boringavatars]: Downloading https://files.pythonhosted.org/packages/35/19/beb1ab75413637d6210edab3f75ee3b45ca190b26a776d3d31bd71320b55/boringavatars-1.0.2.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1686634067.tar.gz tmp/pulumi_dnsimple-3.5.0a1687054482.tar.gz --markdown 20230618/p/pulumi-dnsimple/3.5.0a1686634067-3.5.0a1687054482/diff.md --exclude *.pyd
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/37/c7/b888b4a1a406ea6d81679fe18ec9679bcf7679a20743c2531ac8218d0b00/pulumi_gitlab-6.1.0a1687054842.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [boringavatars]: executing diffoscope
+[2023-06-18 04:49:42] INFO root fetch - processPackages [boringavatars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boringavatars-1.0.1.tar.gz tmp/boringavatars-1.0.2.tar.gz --markdown 20230618/b/boringavatars/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-18 04:49:42] INFO root fetch - processPackages [tsfeatures]: Downloading https://files.pythonhosted.org/packages/fc/a3/7cb71f06337e32caf9449fd88df9cedee49ea3ee279593cb3efac88256c5/tsfeatures-0.4.1.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-18 04:49:42] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230617.tar.gz tmp/iam_actions-1.2.20230618.tar.gz --markdown 20230618/i/iam-actions/1.2.20230617-1.2.20230618/diff.md --exclude *.pyd
+[2023-06-18 04:49:42] INFO root fetch - processPackages [rstms-tq]: executing diffoscope
+[2023-06-18 04:49:42] INFO root fetch - processPackages [rstms-tq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_tq-0.1.11.tar.gz tmp/rstms-tq-0.1.9.tar.gz --markdown 20230618/r/rstms-tq/0.1.11-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 04:49:42] INFO root fetch - processPackages [tsfeatures]: executing diffoscope
+[2023-06-18 04:49:42] INFO root fetch - processPackages [tsfeatures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsfeatures-0.4.0.tar.gz tmp/tsfeatures-0.4.1.tar.gz --markdown 20230618/t/tsfeatures/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-18 04:49:42] INFO root fetch - processPackages [ipcs]: Downloading https://files.pythonhosted.org/packages/ce/af/ad5aa30fc25c245d4a0357e06568ad2d8697f795b840d9197f680dc3d679/ipcs-0.1.5.tar.gz
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-equinix-metal]: executing diffoscope
+[2023-06-18 04:49:42] INFO root fetch - processPackages [pulumi-equinix-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_equinix_metal-3.3.0a1686634581.tar.gz tmp/pulumi_equinix_metal-3.3.0a1687054660.tar.gz --markdown 20230618/p/pulumi-equinix-metal/3.3.0a1686634581-3.3.0a1687054660/diff.md --exclude *.pyd
+[2023-06-18 04:49:43] INFO root fetch - processPackages [ipcs]: executing diffoscope
+[2023-06-18 04:49:43] INFO root fetch - processPackages [ipcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipcs-0.1.4.tar.gz tmp/ipcs-0.1.5.tar.gz --markdown 20230618/i/ipcs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 04:49:43] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-06-18 04:49:43] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.1.0a1686635005.tar.gz tmp/pulumi_gitlab-6.1.0a1687054842.tar.gz --markdown 20230618/p/pulumi-gitlab/6.1.0a1686635005-6.1.0a1687054842/diff.md --exclude *.pyd
+[2023-06-18 04:49:44] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1686634067.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1687054482.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2023-06-18 04:49:44] INFO root fetch - processPackages [rstms-tq]: Remove: archive file [/home/abi/fetcher/tmp/rstms_tq-0.1.11.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - processPackages [rstms-tq]: Remove: archive file [/home/abi/fetcher/tmp/rstms-tq-0.1.9.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - main [MainThread]: End processing [rstms-tq]: success
+[2023-06-18 04:49:44] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.1.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.0.2.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
+[2023-06-18 04:49:44] INFO root fetch - processPackages [ipcs]: Remove: archive file [/home/abi/fetcher/tmp/ipcs-0.1.4.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - processPackages [ipcs]: Remove: archive file [/home/abi/fetcher/tmp/ipcs-0.1.5.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - main [MainThread]: End processing [ipcs]: success
+[2023-06-18 04:49:44] INFO root fetch - processPackages [boringavatars]: Remove: archive file [/home/abi/fetcher/tmp/boringavatars-1.0.1.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - processPackages [boringavatars]: Remove: archive file [/home/abi/fetcher/tmp/boringavatars-1.0.2.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - main [MainThread]: End processing [boringavatars]: success
+[2023-06-18 04:49:44] INFO root fetch - processPackages [pulumi-equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix_metal-3.3.0a1686634581.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - processPackages [pulumi-equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix_metal-3.3.0a1687054660.tar.gz]
+[2023-06-18 04:49:44] INFO root fetch - main [MainThread]: End processing [pulumi-equinix-metal]: success
+[2023-06-18 04:49:45] INFO root fetch - processPackages [tsfeatures]: Remove: archive file [/home/abi/fetcher/tmp/tsfeatures-0.4.0.tar.gz]
+[2023-06-18 04:49:45] INFO root fetch - processPackages [tsfeatures]: Remove: archive file [/home/abi/fetcher/tmp/tsfeatures-0.4.1.tar.gz]
+[2023-06-18 04:49:45] INFO root fetch - main [MainThread]: End processing [tsfeatures]: success
+[2023-06-18 04:49:45] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.1.tar.gz]
+[2023-06-18 04:49:45] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.2.tar.gz]
+[2023-06-18 04:49:45] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-18 04:49:45] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1686635005.tar.gz]
+[2023-06-18 04:49:45] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1687054842.tar.gz]
+[2023-06-18 04:49:45] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-06-18 04:49:47] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230617.tar.gz]
+[2023-06-18 04:49:47] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230618.tar.gz]
+[2023-06-18 04:49:47] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-18 04:49:47] INFO root fetch - main [MainThread]: Store serial: [18547623]
