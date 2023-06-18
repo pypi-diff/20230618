@@ -5618,3 +5618,21 @@
 [2023-06-18 09:54:20] INFO root fetch - processPackages [flute-alc]: Remove: archive file [/home/abi/fetcher/tmp/flute_alc-1.0.1-cp310-cp310-manylinux_2_34_x86_64.whl.zip]
 [2023-06-18 09:54:20] INFO root fetch - main [MainThread]: End processing [flute-alc]: success
 [2023-06-18 09:54:20] INFO root fetch - main [MainThread]: Store serial: [18548635]
+[2023-06-18 09:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548635]
+[2023-06-18 09:59:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ModernButton1.py
+[2023-06-18 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dependency1338
+[2023-06-18 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdsfactory
+[2023-06-18 09:59:33] WARNING root fetch - processPackages [ModernButton1.py]: Skipping, unable to determine old version
+[2023-06-18 09:59:33] INFO root fetch - main [MainThread]: End processing [ModernButton1.py] error
+[2023-06-18 09:59:33] WARNING root fetch - processPackages [dependency1338]: Skipping, unable to determine old version
+[2023-06-18 09:59:33] INFO root fetch - main [MainThread]: End processing [dependency1338] error
+[2023-06-18 09:59:33] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-18 09:59:34] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-18 09:59:34] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-18 09:59:34] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-18 09:59:34] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230618/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-18 09:59:42] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-18 09:59:42] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-18 09:59:42] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-18 09:59:42] INFO root fetch - main [MainThread]: Store serial: [18548650]
