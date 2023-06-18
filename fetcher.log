@@ -6409,3 +6409,81 @@
 [2023-06-18 11:35:25] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
 [2023-06-18 11:35:25] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
 [2023-06-18 11:35:25] INFO root fetch - main [MainThread]: Store serial: [18549019]
+[2023-06-18 11:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549019]
+[2023-06-18 11:40:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edustudio
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ephemetoot
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chat-box-streamlit
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdf-docx-pic
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydatawork
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shark-ser
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: betfair-parser
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CKAstroTools
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omnibench-cli
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: http3-client
+[2023-06-18 11:40:34] INFO root fetch - processPackages [ephemetoot]: New version: [3.2.0] Old Version: [3.1.4]
+[2023-06-18 11:40:34] INFO root fetch - processPackages [pdf-docx-pic]: New version: [3.1.1.2023.6.18.17.33.46] Old Version: [3.1.1.2023.6.18.14.43.46]
+[2023-06-18 11:40:34] WARNING root fetch - processPackages [omnibench-cli]: Skipping, unable to determine old version
+[2023-06-18 11:40:34] INFO root fetch - processPackages [omnibench-cli]: Start processing: mlexhibit
+[2023-06-18 11:40:34] INFO root fetch - main [MainThread]: End processing [omnibench-cli] error
+[2023-06-18 11:40:34] WARNING root fetch - processPackages [edustudio]: Skipping, unable to determine old version
+[2023-06-18 11:40:34] INFO root fetch - main [MainThread]: End processing [edustudio] error
+[2023-06-18 11:40:34] INFO root fetch - processPackages [CKAstroTools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-18 11:40:34] INFO root fetch - processPackages [chat-box-streamlit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-18 11:40:34] WARNING root fetch - processPackages [shark-ser]: Skipping, unable to determine old version
+[2023-06-18 11:40:34] INFO root fetch - main [MainThread]: End processing [shark-ser] error
+[2023-06-18 11:40:34] INFO root fetch - processPackages [betfair-parser]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-18 11:40:34] INFO root fetch - processPackages [http3-client]: New version: [1.0.0.1] Old Version: [1.0.0]
+[2023-06-18 11:40:34] WARNING root fetch - processPackages [mlexhibit]: Skipping, unable to determine old version
+[2023-06-18 11:40:34] INFO root fetch - main [MainThread]: End processing [mlexhibit] error
+[2023-06-18 11:40:34] INFO root fetch - processPackages [pydatawork]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-18 11:40:35] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/e8/9b/321cf1019f60c2f81f640a8194808294a95ab16d9ce2f1c69336a440c14c/pydatawork-0.0.7.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [CKAstroTools]: Downloading https://files.pythonhosted.org/packages/21/f3/99b3f276319c35622ea69f98adcc2a5f39171b657bf1fa12fd01b8cad63f/CKAstroTools-0.0.1.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/21/78/22a49fdccf4e2dbc2d3930edb1351244048ca7d2cc28a6d980f85b06f3dc/pdf-docx-pic-3.1.1.2023.6.18.14.43.46.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/ea/2e/b87b9f7d92714d4d567dccd0b1ce1b62b922b3281c57543d6ee9bf23ca27/chat-box-streamlit-0.0.3.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [ephemetoot]: Downloading https://files.pythonhosted.org/packages/f0/7b/3ab24cce4240b470df63123adf3b2ae00c073acb46865e11be446acc0645/ephemetoot-3.1.4.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/3b/bf/b7e291d5249c207e9e375e745fd6dab1173058999932f87146afd69ad295/betfair_parser-0.4.0.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/2a/8d/bd0f2681bd476f88ab2d3a9f2073f0dfd4cc688f1cec2484c090ecd98036/http3_client-1.0.0.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/25/73/d4b67f332199b5f86df5f67fad359808b4dbbd30e74373192e486446e33f/pydatawork-0.0.8.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [CKAstroTools]: Downloading https://files.pythonhosted.org/packages/98/87/b98f72c00ee82d73275a61b1ed869a40a4b2026494804b385ce3403804f5/CKAstroTools-0.0.2.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [pdf-docx-pic]: Downloading https://files.pythonhosted.org/packages/15/9e/07eb717f3a1c70a44990ea84b3a504ee0d1bfda77da9c79e21b0df39df9b/pdf-docx-pic-3.1.1.2023.6.18.17.33.46.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-18 11:40:35] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.0.7.tar.gz tmp/pydatawork-0.0.8.tar.gz --markdown 20230618/p/pydatawork/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-18 11:40:35] INFO root fetch - processPackages [http3-client]: Downloading https://files.pythonhosted.org/packages/c4/da/6f44013dfc411244804d8a94fa5e0d1e0006124c8402818933738b9ea37c/http3_client-1.0.0.1.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [CKAstroTools]: executing diffoscope
+[2023-06-18 11:40:35] INFO root fetch - processPackages [CKAstroTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CKAstroTools-0.0.1.tar.gz tmp/CKAstroTools-0.0.2.tar.gz --markdown 20230618/C/CKAstroTools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-18 11:40:35] INFO root fetch - processPackages [pdf-docx-pic]: executing diffoscope
+[2023-06-18 11:40:35] INFO root fetch - processPackages [pdf-docx-pic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf-docx-pic-3.1.1.2023.6.18.14.43.46.tar.gz tmp/pdf-docx-pic-3.1.1.2023.6.18.17.33.46.tar.gz --markdown 20230618/p/pdf-docx-pic/3.1.1.2023.6.18.14.43.46-3.1.1.2023.6.18.17.33.46/diff.md --exclude *.pyd
+[2023-06-18 11:40:35] INFO root fetch - processPackages [http3-client]: executing diffoscope
+[2023-06-18 11:40:35] INFO root fetch - processPackages [http3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http3_client-1.0.0.tar.gz tmp/http3_client-1.0.0.1.tar.gz --markdown 20230618/h/http3-client/1.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-06-18 11:40:35] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/6c/bc/8c03082d9a47ec37e2af6a1240a2be477fab56e25f58b1db52b2cd440e84/chat-box-streamlit-0.0.4.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [ephemetoot]: Downloading https://files.pythonhosted.org/packages/92/a1/a29f114a1a8f548ac78d85ba8105217480c413661659934975f008690b4d/ephemetoot-3.2.0.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [chat-box-streamlit]: executing diffoscope
+[2023-06-18 11:40:35] INFO root fetch - processPackages [chat-box-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-box-streamlit-0.0.3.tar.gz tmp/chat-box-streamlit-0.0.4.tar.gz --markdown 20230618/c/chat-box-streamlit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-18 11:40:35] INFO root fetch - processPackages [ephemetoot]: executing diffoscope
+[2023-06-18 11:40:35] INFO root fetch - processPackages [ephemetoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephemetoot-3.1.4.tar.gz tmp/ephemetoot-3.2.0.tar.gz --markdown 20230618/e/ephemetoot/3.1.4-3.2.0/diff.md --exclude *.pyd
+[2023-06-18 11:40:35] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/2a/3e/d03751b91a7b6d48d28374df6213e4aafad589e78f14c7bf47fe7f4c7708/betfair_parser-0.4.1.tar.gz
+[2023-06-18 11:40:35] INFO root fetch - processPackages [betfair-parser]: executing diffoscope
+[2023-06-18 11:40:35] INFO root fetch - processPackages [betfair-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfair_parser-0.4.0.tar.gz tmp/betfair_parser-0.4.1.tar.gz --markdown 20230618/b/betfair-parser/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-18 11:40:36] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.0.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - processPackages [http3-client]: Remove: archive file [/home/abi/fetcher/tmp/http3_client-1.0.0.1.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - main [MainThread]: End processing [http3-client]: success
+[2023-06-18 11:40:36] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.7.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.0.8.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-18 11:40:36] INFO root fetch - processPackages [CKAstroTools]: Remove: archive file [/home/abi/fetcher/tmp/CKAstroTools-0.0.1.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - processPackages [CKAstroTools]: Remove: archive file [/home/abi/fetcher/tmp/CKAstroTools-0.0.2.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - main [MainThread]: End processing [CKAstroTools]: success
+[2023-06-18 11:40:36] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.1.2023.6.18.14.43.46.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - processPackages [pdf-docx-pic]: Remove: archive file [/home/abi/fetcher/tmp/pdf-docx-pic-3.1.1.2023.6.18.17.33.46.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - main [MainThread]: End processing [pdf-docx-pic]: success
+[2023-06-18 11:40:36] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.3.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.4.tar.gz]
+[2023-06-18 11:40:36] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit]: success
+[2023-06-18 11:40:37] INFO root fetch - processPackages [ephemetoot]: Remove: archive file [/home/abi/fetcher/tmp/ephemetoot-3.1.4.tar.gz]
+[2023-06-18 11:40:37] INFO root fetch - processPackages [ephemetoot]: Remove: archive file [/home/abi/fetcher/tmp/ephemetoot-3.2.0.tar.gz]
+[2023-06-18 11:40:37] INFO root fetch - main [MainThread]: End processing [ephemetoot]: success
+[2023-06-18 11:40:38] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.4.0.tar.gz]
+[2023-06-18 11:40:38] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.4.1.tar.gz]
+[2023-06-18 11:40:38] INFO root fetch - main [MainThread]: End processing [betfair-parser]: success
+[2023-06-18 11:40:38] INFO root fetch - main [MainThread]: Store serial: [18549061]
