@@ -14307,3 +14307,60 @@ EOFError: EOF read where object expected
 [2023-06-18 21:34:31] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.7.tar.gz]
 [2023-06-18 21:34:31] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
 [2023-06-18 21:34:31] INFO root fetch - main [MainThread]: Store serial: [18552378]
+[2023-06-18 21:39:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552378]
+[2023-06-18 21:39:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 21:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isubrip
+[2023-06-18 21:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bokeh
+[2023-06-18 21:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sarcgraph
+[2023-06-18 21:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cruiz
+[2023-06-18 21:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: podval
+[2023-06-18 21:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crankshaft
+[2023-06-18 21:39:40] INFO root fetch - processPackages [isubrip]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-18 21:39:40] INFO root fetch - processPackages [cruiz]: New version: [1.4.0a1] Old Version: [1.3.2b1]
+[2023-06-18 21:39:40] INFO root fetch - processPackages [podval]: New version: [3.9] Old Version: [3.8]
+[2023-06-18 21:39:40] INFO root fetch - processPackages [sarcgraph]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-06-18 21:39:40] INFO root fetch - processPackages [bokeh]: New version: [3.2.0rc3] Old Version: [3.2.0rc2]
+[2023-06-18 21:39:40] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/df/a1/ae2a96304d5728497fdc642239fdb157101db8d29751b7878645d266155d/podval-3.8.tar.gz
+[2023-06-18 21:39:40] INFO root fetch - processPackages [sarcgraph]: Downloading https://files.pythonhosted.org/packages/8b/8c/497630cc0964b68f39ca48755c5c1398d7f9911370c1be50e11db30101bb/sarcgraph-0.1.1.tar.gz
+[2023-06-18 21:39:40] INFO root fetch - processPackages [crankshaft]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-18 21:39:41] INFO root fetch - processPackages [cruiz]: Downloading https://files.pythonhosted.org/packages/21/ca/2a2957da1c88f2ad279c5620db7fe2bd882ad0046bb2f8f58f64a69d3786/cruiz-1.3.2b1.tar.gz
+[2023-06-18 21:39:41] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/7c/b7/2dcee03024fd9de34e01e9104f50a9d482e6a769d6697dcea2a5100a0e04/podval-3.9.tar.gz
+[2023-06-18 21:39:41] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/57/e5/367d27cf02a58e5c24f7eb6b38b622f0de44530f411e86fd39d6c2a0d573/bokeh-3.2.0rc2.tar.gz
+[2023-06-18 21:39:41] INFO root fetch - processPackages [podval]: executing diffoscope
+[2023-06-18 21:39:41] INFO root fetch - processPackages [podval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podval-3.8.tar.gz tmp/podval-3.9.tar.gz --markdown 20230618/p/podval/3.8-3.9/diff.md --exclude *.pyd
+[2023-06-18 21:39:41] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/28/fe/250dd14fd8b2bd37b31c372325a871cb4cbf813c1dc56d86e9646c25a925/crankshaft-0.3.3.tar.gz
+[2023-06-18 21:39:41] INFO root fetch - processPackages [sarcgraph]: Downloading https://files.pythonhosted.org/packages/19/18/90e6e70f9c78e87c7a64c9c14711ef37f79397494db7f190765ee4a7195b/sarcgraph-0.2.1.tar.gz
+[2023-06-18 21:39:41] INFO root fetch - processPackages [cruiz]: Downloading https://files.pythonhosted.org/packages/60/fe/3b0b7cf947cecfdc7b410dd6ec841958f68b3e5c3fb1ccff1be4a88d0dc9/cruiz-1.4.0a1.tar.gz
+[2023-06-18 21:39:41] INFO root fetch - processPackages [sarcgraph]: executing diffoscope
+[2023-06-18 21:39:41] INFO root fetch - processPackages [sarcgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarcgraph-0.1.1.tar.gz tmp/sarcgraph-0.2.1.tar.gz --markdown 20230618/s/sarcgraph/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-18 21:39:41] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/b1/2e/7b59079701a81944f7e244bed36d3cf6841222ca04d2300a4a217cc12fc8/bokeh-3.2.0rc3.tar.gz
+[2023-06-18 21:39:41] INFO root fetch - processPackages [cruiz]: executing diffoscope
+[2023-06-18 21:39:41] INFO root fetch - processPackages [cruiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cruiz-1.3.2b1.tar.gz tmp/cruiz-1.4.0a1.tar.gz --markdown 20230618/c/cruiz/1.3.2b1-1.4.0a1/diff.md --exclude *.pyd
+[2023-06-18 21:39:41] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/4d/9d/2f70739b532cc427da5b6d5c53d3b1acb64d3a870bc7e2045a4273a84314/crankshaft-0.3.4.tar.gz
+[2023-06-18 21:39:41] INFO root fetch - processPackages [crankshaft]: executing diffoscope
+[2023-06-18 21:39:41] INFO root fetch - processPackages [crankshaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crankshaft-0.3.3.tar.gz tmp/crankshaft-0.3.4.tar.gz --markdown 20230618/c/crankshaft/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-18 21:39:41] INFO root fetch - processPackages [isubrip]: Downloading https://files.pythonhosted.org/packages/d6/d0/0f8df2838f9927081d8678d30535f27418b92b2b3ebc6dce53bbeffbe4b7/isubrip-2.4.2.tar.gz
+[2023-06-18 21:39:42] INFO root fetch - processPackages [isubrip]: Downloading https://files.pythonhosted.org/packages/8a/24/8fb74591be87582330d2ba040419d57a7febea13fc153b1ae39391b3c39e/isubrip-2.4.3.tar.gz
+[2023-06-18 21:39:42] INFO root fetch - processPackages [isubrip]: executing diffoscope
+[2023-06-18 21:39:42] INFO root fetch - processPackages [isubrip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isubrip-2.4.2.tar.gz tmp/isubrip-2.4.3.tar.gz --markdown 20230618/i/isubrip/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-06-18 21:39:42] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.8.tar.gz]
+[2023-06-18 21:39:42] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.9.tar.gz]
+[2023-06-18 21:39:42] INFO root fetch - main [MainThread]: End processing [podval]: success
+[2023-06-18 21:39:42] INFO root fetch - processPackages [bokeh]: executing diffoscope
+[2023-06-18 21:39:42] INFO root fetch - processPackages [bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokeh-3.2.0rc2.tar.gz tmp/bokeh-3.2.0rc3.tar.gz --markdown 20230618/b/bokeh/3.2.0rc2-3.2.0rc3/diff.md --exclude *.pyd
+[2023-06-18 21:39:42] INFO root fetch - processPackages [sarcgraph]: Remove: archive file [/home/abi/fetcher/tmp/sarcgraph-0.1.1.tar.gz]
+[2023-06-18 21:39:42] INFO root fetch - processPackages [sarcgraph]: Remove: archive file [/home/abi/fetcher/tmp/sarcgraph-0.2.1.tar.gz]
+[2023-06-18 21:39:42] INFO root fetch - main [MainThread]: End processing [sarcgraph]: success
+[2023-06-18 21:39:42] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.3.3.tar.gz]
+[2023-06-18 21:39:42] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.3.4.tar.gz]
+[2023-06-18 21:39:42] INFO root fetch - main [MainThread]: End processing [crankshaft]: success
+[2023-06-18 21:39:43] INFO root fetch - processPackages [isubrip]: Remove: archive file [/home/abi/fetcher/tmp/isubrip-2.4.2.tar.gz]
+[2023-06-18 21:39:43] INFO root fetch - processPackages [isubrip]: Remove: archive file [/home/abi/fetcher/tmp/isubrip-2.4.3.tar.gz]
+[2023-06-18 21:39:43] INFO root fetch - main [MainThread]: End processing [isubrip]: success
+[2023-06-18 21:39:44] INFO root fetch - processPackages [cruiz]: Remove: archive file [/home/abi/fetcher/tmp/cruiz-1.3.2b1.tar.gz]
+[2023-06-18 21:39:44] INFO root fetch - processPackages [cruiz]: Remove: archive file [/home/abi/fetcher/tmp/cruiz-1.4.0a1.tar.gz]
+[2023-06-18 21:39:44] INFO root fetch - main [MainThread]: End processing [cruiz]: success
+[2023-06-18 21:40:46] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.2.0rc2.tar.gz]
+[2023-06-18 21:40:46] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.2.0rc3.tar.gz]
+[2023-06-18 21:40:46] INFO root fetch - main [MainThread]: End processing [bokeh]: success
+[2023-06-18 21:40:46] INFO root fetch - main [MainThread]: Store serial: [18552395]
