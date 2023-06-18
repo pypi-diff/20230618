@@ -9881,3 +9881,45 @@ EOFError: EOF read where object expected
 [2023-06-18 16:04:24] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
 [2023-06-18 16:04:24] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-06-18 16:04:24] INFO root fetch - main [MainThread]: Store serial: [18550605]
+[2023-06-18 16:09:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550605]
+[2023-06-18 16:09:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 16:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight
+[2023-06-18 16:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brownian-stock
+[2023-06-18 16:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycep-parser
+[2023-06-18 16:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-cpp-python
+[2023-06-18 16:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findPlate
+[2023-06-18 16:09:33] INFO root fetch - processPackages [brownian-stock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 16:09:33] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 16:09:33] WARNING root fetch - processPackages [findPlate]: Skipping, unable to determine old version
+[2023-06-18 16:09:33] INFO root fetch - main [MainThread]: End processing [findPlate] error
+[2023-06-18 16:09:33] INFO root fetch - processPackages [pycep-parser]: New version: [0.4.1a0] Old Version: [0.4.0]
+[2023-06-18 16:09:33] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b7] Old Version: [3.5.0.1b6]
+[2023-06-18 16:09:33] INFO root fetch - processPackages [pycep-parser]: Downloading https://files.pythonhosted.org/packages/96/43/991d77d299ae73479a39ef1b3ac6739d130d35234935da86141af19f359b/pycep_parser-0.4.0.tar.gz
+[2023-06-18 16:09:33] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-06-18 16:09:33] INFO root fetch - processPackages [brownian-stock]: Downloading https://files.pythonhosted.org/packages/d8/67/4049f8084f938122e742c3e1f2f5fb7e8efd3c1b47e49af735f97299c1ac/brownian-stock-0.0.8.tar.gz
+[2023-06-18 16:09:33] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/47/72/7f0ad5e76055c5ddb3931f55e51e6cb729896cb1d115200933d5969d9963/foursight-3.5.0.1b6.tar.gz
+[2023-06-18 16:09:34] INFO root fetch - processPackages [pycep-parser]: Downloading https://files.pythonhosted.org/packages/56/f6/cf340ab11f07d4089566c971739daeff4c28794493bd571cb2fda13a19a7/pycep_parser-0.4.1a0.tar.gz
+[2023-06-18 16:09:34] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e3/da/681fe2629ec015ccf83f710f4559e0e91009d261b6e080df122b48329768/foursight-3.5.0.1b7.tar.gz
+[2023-06-18 16:09:34] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-06-18 16:09:34] INFO root fetch - processPackages [pycep-parser]: executing diffoscope
+[2023-06-18 16:09:34] INFO root fetch - processPackages [pycep-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycep_parser-0.4.0.tar.gz tmp/pycep_parser-0.4.1a0.tar.gz --markdown 20230618/p/pycep-parser/0.4.0-0.4.1a0/diff.md --exclude *.pyd
+[2023-06-18 16:09:34] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-18 16:09:34] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.1b6.tar.gz tmp/foursight-3.5.0.1b7.tar.gz --markdown 20230618/f/foursight/3.5.0.1b6-3.5.0.1b7/diff.md --exclude *.pyd
+[2023-06-18 16:09:34] INFO root fetch - processPackages [brownian-stock]: Downloading https://files.pythonhosted.org/packages/a4/be/28c35d6cf73fe659cfedf1b64e95cb463d8dc9f28ef922ff0f59cc3718e2/brownian-stock-0.0.9.tar.gz
+[2023-06-18 16:09:34] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-06-18 16:09:34] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230618/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 16:09:34] INFO root fetch - processPackages [brownian-stock]: executing diffoscope
+[2023-06-18 16:09:34] INFO root fetch - processPackages [brownian-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brownian-stock-0.0.8.tar.gz tmp/brownian-stock-0.0.9.tar.gz --markdown 20230618/b/brownian-stock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 16:09:35] INFO root fetch - processPackages [pycep-parser]: Remove: archive file [/home/abi/fetcher/tmp/pycep_parser-0.4.0.tar.gz]
+[2023-06-18 16:09:35] INFO root fetch - processPackages [pycep-parser]: Remove: archive file [/home/abi/fetcher/tmp/pycep_parser-0.4.1a0.tar.gz]
+[2023-06-18 16:09:35] INFO root fetch - main [MainThread]: End processing [pycep-parser]: success
+[2023-06-18 16:09:35] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b6.tar.gz]
+[2023-06-18 16:09:35] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b7.tar.gz]
+[2023-06-18 16:09:35] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-18 16:09:35] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.8.tar.gz]
+[2023-06-18 16:09:35] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
+[2023-06-18 16:09:35] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-06-18 16:09:35] INFO root fetch - processPackages [brownian-stock]: Remove: archive file [/home/abi/fetcher/tmp/brownian-stock-0.0.8.tar.gz]
+[2023-06-18 16:09:35] INFO root fetch - processPackages [brownian-stock]: Remove: archive file [/home/abi/fetcher/tmp/brownian-stock-0.0.9.tar.gz]
+[2023-06-18 16:09:35] INFO root fetch - main [MainThread]: End processing [brownian-stock]: success
+[2023-06-18 16:09:35] INFO root fetch - main [MainThread]: Store serial: [18550619]
