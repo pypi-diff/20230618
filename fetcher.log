@@ -2119,3 +2119,184 @@
 [2023-06-18 03:28:00] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev15.tar.gz]
 [2023-06-18 03:28:00] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-06-18 03:28:00] INFO root fetch - main [MainThread]: Store serial: [18546993]
+[2023-06-18 03:33:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546993]
+[2023-06-18 03:33:09] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aifunc
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvc-data
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-cloudamqp
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-fastly
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-okta
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aifunc
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rebnf
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wcpan-drive-cli
+[2023-06-18 03:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-civo
+[2023-06-18 03:33:09] INFO root fetch - processPackages [rebnf]: New version: [0.7] Old Version: [0.6]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [aifunc]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1687050451] Old Version: [2.4.0a1686784153]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.2.0a1687050452] Old Version: [8.1.0a1686825094]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [pulumi-okta]: New version: [4.1.0a1687050417] Old Version: [4.1.0a1686776307]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [aifunc]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [wcpan-drive-cli]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [dvc-data]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-18 03:33:09] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/49/92/d6c8f855ad97e1796c30e05ae4d59cf6ff07770c8612fed355b98fe7f00d/aifunc-0.5.7.tar.gz
+[2023-06-18 03:33:09] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/49/92/d6c8f855ad97e1796c30e05ae4d59cf6ff07770c8612fed355b98fe7f00d/aifunc-0.5.7.tar.gz
+[2023-06-18 03:33:09] INFO root fetch - processPackages [wcpan-drive-cli]: Downloading https://files.pythonhosted.org/packages/6d/bf/a3bd845a3a51a2c53b1f0fbf88888f8003384bbfa32c0cd06f998471f226/wcpan_drive_cli-2.3.3.tar.gz
+[2023-06-18 03:33:09] INFO root fetch - processPackages [rebnf]: Downloading https://files.pythonhosted.org/packages/52/7b/6d636832c53d6d5fd572c920398ca993d3440bdf24b0456c8285293c22f6/rebnf-0.6.tar.gz
+[2023-06-18 03:33:09] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/d6/86/98fe47f3f680f968407db4255a11827803acf7c49f3e170fa19b15428729/pulumi_okta-4.1.0a1686776307.tar.gz
+[2023-06-18 03:33:09] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/11/4e/2705a2dde34da0e27f53d6f8cbc3e559b5db035912c91a834c4365426669/pulumi_fastly-8.1.0a1686825094.tar.gz
+[2023-06-18 03:33:09] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/52/05/526fea1baaafe2c122a403a372f4b47315d49bd6873f822a750bb7c7d87d/pulumi_civo-2.4.0a1686784153.tar.gz
+[2023-06-18 03:33:09] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2023-06-18 03:33:09] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-18 03:33:09] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/6c/29/bd50e2bf56dcf99bb26fc4fed6d4cd8e63b5b632ae12cab2959fd68d7a4f/dvc-data-2.0.1.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/06/b1/5859c7456145cdda8f0d06d7a3edfc5bd256ad92af8e9c5ac1ac4204c347/aifunc-0.5.8.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/06/b1/5859c7456145cdda8f0d06d7a3edfc5bd256ad92af8e9c5ac1ac4204c347/aifunc-0.5.8.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [wcpan-drive-cli]: Downloading https://files.pythonhosted.org/packages/30/03/3f014405c88972809453d6c6ee23ac0d3255536c711b8c6f8a8c58924c77/wcpan_drive_cli-2.3.4.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [rebnf]: Downloading https://files.pythonhosted.org/packages/dc/c8/77d622f6a04608b26af8255afb5b461281cb2cbad2bf0d6a5f9ba29708da/rebnf-0.7.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.5.7.tar.gz tmp/aifunc-0.5.8.tar.gz --markdown 20230618/a/aifunc/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/45/57/3096ffc9b3225ef65b1b68d0681b85f3cfa95fe195656eeeafdca41de3ae/pulumi_okta-4.1.0a1687050417.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.5.7.tar.gz tmp/aifunc-0.5.8.tar.gz --markdown 20230618/a/aifunc/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/61/ed/1875eecee3608d6abfcd81502e76d79ab5246f09eae1bc474e17870c75d2/pulumi_fastly-8.2.0a1687050452.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/b8/af/b6f58f09d8cf79ecfc1ed4b60c5a41cfe5285a8f3a9e1b1c146078b30606/pulumi_civo-2.4.0a1687050451.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [rebnf]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [rebnf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebnf-0.6.tar.gz tmp/rebnf-0.7.tar.gz --markdown 20230618/r/rebnf/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-18 03:33:10] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/98/78/173aad642aafc77dfd72d42611d955e02d77a88af66d9abe07a99e303f0d/dvc-data-2.0.2.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.1.0a1686776307.tar.gz tmp/pulumi_okta-4.1.0a1687050417.tar.gz --markdown 20230618/p/pulumi-okta/4.1.0a1686776307-4.1.0a1687050417/diff.md --exclude *.pyd
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1686784153.tar.gz tmp/pulumi_civo-2.4.0a1687050451.tar.gz --markdown 20230618/p/pulumi-civo/2.4.0a1686784153-2.4.0a1687050451/diff.md --exclude *.pyd
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [wcpan-drive-cli]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20230618/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-18 03:33:10] INFO root fetch - processPackages [wcpan-drive-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcpan_drive_cli-2.3.3.tar.gz tmp/wcpan_drive_cli-2.3.4.tar.gz --markdown 20230618/w/wcpan-drive-cli/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-06-18 03:33:10] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-18 03:33:10] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-2.0.1.tar.gz tmp/dvc-data-2.0.2.tar.gz --markdown 20230618/d/dvc-data/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.1.0a1686825094.tar.gz tmp/pulumi_fastly-8.2.0a1687050452.tar.gz --markdown 20230618/p/pulumi-fastly/8.1.0a1686825094-8.2.0a1687050452/diff.md --exclude *.pyd
+[2023-06-18 03:33:10] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-18 03:33:10] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230618/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-18 03:33:11] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.5.7.tar.gz]
+[2023-06-18 03:33:11] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.5.8.tar.gz]
+[2023-06-18 03:33:11] INFO root fetch - processPackages [aifunc]: Start processing: pulumi-cloudflare
+[2023-06-18 03:33:11] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-18 03:33:11] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.5.0a1687050407] Old Version: [5.4.0a1686761772]
+[2023-06-18 03:33:11] INFO root fetch - processPackages [aifunc]: Start processing: berlin
+[2023-06-18 03:33:11] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-18 03:33:11] INFO root fetch - processPackages [berlin]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-18 03:33:11] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/8e/4b/0dfc19ddf183c15d2cc22eb5549afd284e81ba9ba8a0de5e38f7c6f8b6a6/pulumi_cloudflare-5.4.0a1686761772.tar.gz
+[2023-06-18 03:33:11] INFO root fetch - processPackages [rebnf]: Remove: archive file [/home/abi/fetcher/tmp/rebnf-0.6.tar.gz]
+[2023-06-18 03:33:11] INFO root fetch - processPackages [rebnf]: Remove: archive file [/home/abi/fetcher/tmp/rebnf-0.7.tar.gz]
+[2023-06-18 03:33:11] INFO root fetch - processPackages [rebnf]: Start processing: sweetrpg-web-core
+[2023-06-18 03:33:11] INFO root fetch - main [MainThread]: End processing [rebnf]: success
+[2023-06-18 03:33:11] INFO root fetch - processPackages [berlin]: Downloading https://files.pythonhosted.org/packages/35/28/e2c1faacd4319754125aee32ed18d7e803766cb5c7670a953358d4c40c3b/berlin-0.3.7.tar.gz
+[2023-06-18 03:33:12] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:33:12] INFO root fetch - processPackages [wcpan-drive-cli]: Remove: archive file [/home/abi/fetcher/tmp/wcpan_drive_cli-2.3.3.tar.gz]
+[2023-06-18 03:33:12] INFO root fetch - processPackages [wcpan-drive-cli]: Remove: archive file [/home/abi/fetcher/tmp/wcpan_drive_cli-2.3.4.tar.gz]
+[2023-06-18 03:33:12] INFO root fetch - processPackages [wcpan-drive-cli]: Start processing: pulumi-spotinst
+[2023-06-18 03:33:12] INFO root fetch - main [MainThread]: End processing [wcpan-drive-cli]: success
+[2023-06-18 03:33:12] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-06-18 03:33:12] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-06-18 03:33:12] INFO root fetch - processPackages [berlin]: Downloading https://files.pythonhosted.org/packages/12/f3/e362c9a201bd538cdc00351c41a53f8728dafbf9e4f494e973603682dab4/berlin-0.3.8.tar.gz
+[2023-06-18 03:33:12] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/04/04/fbb369260394678a1c517c69ada3bca3d1ea52d88a4ae1bdc44d3b6126ab/pulumi_cloudflare-5.5.0a1687050407.tar.gz
+[2023-06-18 03:33:12] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-06-18 03:33:12] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-06-18 03:33:12] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-06-18 03:33:12] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.4.0a1686761772.tar.gz tmp/pulumi_cloudflare-5.5.0a1687050407.tar.gz --markdown 20230618/p/pulumi-cloudflare/5.4.0a1686761772-5.5.0a1687050407/diff.md --exclude *.pyd
+[2023-06-18 03:33:12] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-06-18 03:33:12] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230618/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:33:12] INFO root fetch - processPackages [berlin]: executing diffoscope
+[2023-06-18 03:33:12] INFO root fetch - processPackages [berlin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berlin-0.3.7.tar.gz tmp/berlin-0.3.8.tar.gz --markdown 20230618/b/berlin/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-18 03:33:12] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-06-18 03:33:12] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-06-18 03:33:12] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230618/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-06-18 03:33:13] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.1.0a1686776307.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.1.0a1687050417.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [pulumi-okta]: Start processing: mizue
+[2023-06-18 03:33:13] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-06-18 03:33:13] INFO root fetch - processPackages [mizue]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/8c/ab/720a57bb11a441f060c3983fd6d7e0a15d03fb1f529d93c5796c0c5ba7b9/mizue-0.2.0.tar.gz
+[2023-06-18 03:33:13] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/8e/17/55ae0bc1cc2f0664ae3e14aa2b9e68b6726121859c5369a33d5fe41a1c89/mizue-0.2.1.tar.gz
+[2023-06-18 03:33:13] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [pulumi-cloudamqp]: Start processing: autophot
+[2023-06-18 03:33:13] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2023-06-18 03:33:13] INFO root fetch - processPackages [autophot]: New version: [0.9.0] Old Version: [0.10.0]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-18 03:33:13] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.2.0.tar.gz tmp/mizue-0.2.1.tar.gz --markdown 20230618/m/mizue/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-18 03:33:13] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [sweetrpg-web-core]: Start processing: sweetrpg-api-core
+[2023-06-18 03:33:13] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-06-18 03:33:13] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [berlin]: Remove: archive file [/home/abi/fetcher/tmp/berlin-0.3.7.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [berlin]: Remove: archive file [/home/abi/fetcher/tmp/berlin-0.3.8.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [berlin]: Start processing: wcpan-drive-cli
+[2023-06-18 03:33:13] INFO root fetch - main [MainThread]: End processing [berlin]: success
+[2023-06-18 03:33:13] INFO root fetch - processPackages [wcpan-drive-cli]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-06-18 03:33:13] INFO root fetch - processPackages [autophot]: Downloading https://files.pythonhosted.org/packages/7e/25/d0b524c88e1b57248656bcd33f795259c4facca1fe0286ece5507794cf6a/autophot-0.10.0-py2.py3-none-any.whl
+[2023-06-18 03:33:13] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1686784153.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1687050451.tar.gz]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [pulumi-civo]: Start processing: cdk-lambda-subminute
+[2023-06-18 03:33:13] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-06-18 03:33:13] INFO root fetch - processPackages [wcpan-drive-cli]: Downloading https://files.pythonhosted.org/packages/6d/bf/a3bd845a3a51a2c53b1f0fbf88888f8003384bbfa32c0cd06f998471f226/wcpan_drive_cli-2.3.3.tar.gz
+[2023-06-18 03:33:13] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-18 03:33:13] INFO root fetch - processPackages [wcpan-drive-cli]: Downloading https://files.pythonhosted.org/packages/30/03/3f014405c88972809453d6c6ee23ac0d3255536c711b8c6f8a8c58924c77/wcpan_drive_cli-2.3.4.tar.gz
+[2023-06-18 03:33:14] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-06-18 03:33:14] INFO root fetch - processPackages [wcpan-drive-cli]: executing diffoscope
+[2023-06-18 03:33:14] INFO root fetch - processPackages [wcpan-drive-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcpan_drive_cli-2.3.3.tar.gz tmp/wcpan_drive_cli-2.3.4.tar.gz --markdown 20230618/w/wcpan-drive-cli/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-06-18 03:33:14] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-18 03:33:14] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-18 03:33:14] INFO root fetch - processPackages [cdk-sops-secrets]: Start processing: pystorz
+[2023-06-18 03:33:14] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-18 03:33:14] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.0.1.tar.gz]
+[2023-06-18 03:33:14] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.0.2.tar.gz]
+[2023-06-18 03:33:14] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-06-18 03:33:14] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.1.0a1686825094.tar.gz]
+[2023-06-18 03:33:14] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1687050452.tar.gz]
+[2023-06-18 03:33:14] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-06-18 03:33:14] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-06-18 03:33:14] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230618/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:33:14] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-18 03:33:14] INFO root fetch - processPackages [autophot]: Downloading https://files.pythonhosted.org/packages/fd/0e/679afe0e53a88bf10ea3290e434f0e59a5e85787cca74ca023f0c46dd62a/autophot-0.9.0-py2.py3-none-any.whl
+[2023-06-18 03:33:14] INFO root fetch - processPackages [pystorz]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-18 03:33:14] INFO root fetch - processPackages [autophot]: executing diffoscope
+[2023-06-18 03:33:14] INFO root fetch - processPackages [autophot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autophot-0.10.0-py2.py3-none-any.whl.zip tmp/autophot-0.9.0-py2.py3-none-any.whl.zip --markdown 20230618/a/autophot/0.10.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-18 03:33:14] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/f0/7a/580159166a3cfb00b7773b392d6fa93666e82db6ea2a81cbaba9e2ce99a4/pystorz-0.3.4.tar.gz
+[2023-06-18 03:33:14] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-18 03:33:14] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-18 03:33:14] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230618/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-18 03:33:14] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.4.0a1686761772.tar.gz]
+[2023-06-18 03:33:14] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.5.0a1687050407.tar.gz]
+[2023-06-18 03:33:14] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-06-18 03:33:14] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/27/4b/e97b428e79bfbc9b57eac2e24cf7f44258a26bdbbfad31f78f7487bfc4da/pystorz-0.3.5.tar.gz
+[2023-06-18 03:33:14] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-06-18 03:33:14] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.3.4.tar.gz tmp/pystorz-0.3.5.tar.gz --markdown 20230618/p/pystorz/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-18 03:33:15] INFO root fetch - processPackages [wcpan-drive-cli]: Remove: archive file [/home/abi/fetcher/tmp/wcpan_drive_cli-2.3.3.tar.gz]
+[2023-06-18 03:33:15] INFO root fetch - processPackages [wcpan-drive-cli]: Remove: archive file [/home/abi/fetcher/tmp/wcpan_drive_cli-2.3.4.tar.gz]
+[2023-06-18 03:33:15] INFO root fetch - main [MainThread]: End processing [wcpan-drive-cli]: success
+[2023-06-18 03:33:15] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-06-18 03:33:15] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-06-18 03:33:15] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-06-18 03:33:15] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.0.tar.gz]
+[2023-06-18 03:33:15] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.2.1.tar.gz]
+[2023-06-18 03:33:15] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-18 03:33:16] INFO root fetch - processPackages [autophot]: Remove: archive file [/home/abi/fetcher/tmp/autophot-0.10.0-py2.py3-none-any.whl.zip]
+[2023-06-18 03:33:16] INFO root fetch - processPackages [autophot]: Remove: archive file [/home/abi/fetcher/tmp/autophot-0.9.0-py2.py3-none-any.whl.zip]
+[2023-06-18 03:33:16] INFO root fetch - main [MainThread]: End processing [autophot]: success
+[2023-06-18 03:33:16] INFO root fetch - processPackages [pystorz]: Remove: archive file [/home/abi/fetcher/tmp/pystorz-0.3.4.tar.gz]
+[2023-06-18 03:33:16] INFO root fetch - processPackages [pystorz]: Remove: archive file [/home/abi/fetcher/tmp/pystorz-0.3.5.tar.gz]
+[2023-06-18 03:33:16] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-06-18 03:33:16] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-18 03:33:16] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-18 03:33:16] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-18 03:33:17] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2023-06-18 03:33:17] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2023-06-18 03:33:17] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-06-18 03:33:17] INFO root fetch - main [MainThread]: Store serial: [18547107]
