@@ -11062,3 +11062,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 17:24:19] INFO root fetch - processPackages [monggregate]: Remove: archive file [/home/abi/fetcher/tmp/monggregate-0.9.2.tar.gz]
 [2023-06-18 17:24:19] INFO root fetch - main [MainThread]: End processing [monggregate]: success
 [2023-06-18 17:24:19] INFO root fetch - main [MainThread]: Store serial: [18551031]
+[2023-06-18 17:29:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18551031]
+[2023-06-18 17:29:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-18 17:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydatawork
+[2023-06-18 17:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3d
+[2023-06-18 17:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: articolare
+[2023-06-18 17:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfra-nightly
+[2023-06-18 17:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sciform
+[2023-06-18 17:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib-dzne-auto-interface
+[2023-06-18 17:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-06-18 17:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intezer-sdk
+[2023-06-18 17:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skmetpy
+[2023-06-18 17:29:28] INFO root fetch - processPackages [py3d]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-18 17:29:28] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-06-18 17:29:28] WARNING root fetch - processPackages [articolare]: Skipping, unable to determine old version
+[2023-06-18 17:29:28] INFO root fetch - main [MainThread]: End processing [articolare] error
+[2023-06-18 17:29:28] INFO root fetch - processPackages [pydatawork]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-18 17:29:28] INFO root fetch - processPackages [lib-dzne-auto-interface]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-18 17:29:28] INFO root fetch - processPackages [skmetpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 17:29:28] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-18 17:29:28] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230618.15.27.979390] Old Version: [20230617.9.10.534908]
+[2023-06-18 17:29:28] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-06-18 17:29:28] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/71/ae/ca3e6e0d3854924fb784deed298643a9f7d4cf7212573d656beb290c35d5/skmetpy-0.0.6.tar.gz
+[2023-06-18 17:29:28] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.0.dev20230614132209] Old Version: [0.6.0.dev20230526101115]
+[2023-06-18 17:29:28] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-18 17:29:28] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/1f/05/17a780461c6d40ff69e77f3dcc06b7bfda556f73c36c843153930228f94b/pydatawork-0.1.5.tar.gz
+[2023-06-18 17:29:29] INFO root fetch - processPackages [skmetpy]: Downloading https://files.pythonhosted.org/packages/a4/07/4c520669f88967ab4e9b51c8f556054badb8441e3fc08cb53ba5612e2f8f/skmetpy-0.0.7.tar.gz
+[2023-06-18 17:29:29] INFO root fetch - processPackages [lib-dzne-auto-interface]: Downloading https://files.pythonhosted.org/packages/99/34/fd0849ee3485cbfed230691fcb99c8467eb8b0b4f9e02e9649356873882c/lib-dzne-auto-interface-0.2.3.tar.gz
+[2023-06-18 17:29:29] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/6f/47/fbf3dc397841cebfe6a9a2180d061e653d122fe0b642dd6376c87b1162e2/py3d-0.1.4.tar.gz
+[2023-06-18 17:29:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/5d/566e11749d8df4dc63281da0f7ab0b0601140b5da65f1dfbc0901deb3360/certora-cli-alpha-master-20230617.9.10.534908.tar.gz
+[2023-06-18 17:29:29] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-06-18 17:29:29] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-18 17:29:29] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37053070>=10485760
+[2023-06-18 17:29:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-18 17:29:29] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/bf/fb/eb43e5a565035c3989092d45a25fe152282d5248a2d7b655626a39bbc012/tfra_nightly-0.6.0.dev20230526101115-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-18 17:29:29] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-06-18 17:29:29] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230618/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-06-18 17:29:29] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-18 17:29:29] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230618/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-18 17:29:29] INFO root fetch - processPackages [skmetpy]: executing diffoscope
+[2023-06-18 17:29:29] INFO root fetch - processPackages [skmetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skmetpy-0.0.6.tar.gz tmp/skmetpy-0.0.7.tar.gz --markdown 20230618/s/skmetpy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 17:29:29] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/21/ee/2b84cdd4788bc17aa4af5341a6f2b09dff768cd119edfe538f6e8283e8d4/pydatawork-0.1.6.tar.gz
+[2023-06-18 17:29:29] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-18 17:29:29] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.5.tar.gz tmp/pydatawork-0.1.6.tar.gz --markdown 20230618/p/pydatawork/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-18 17:29:29] INFO root fetch - processPackages [lib-dzne-auto-interface]: Downloading https://files.pythonhosted.org/packages/3b/d7/8f25211326deea497886d385767d1737dbae401677154e709f63e12c0ae2/lib-dzne-auto-interface-0.3.0.tar.gz
+[2023-06-18 17:29:29] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/ef/6f/cc7732444b5418a90d78f7e44396a7de84309bfaf68755acadea4df25b40/py3d-0.1.5.tar.gz
+[2023-06-18 17:29:29] INFO root fetch - processPackages [lib-dzne-auto-interface]: executing diffoscope
+[2023-06-18 17:29:29] INFO root fetch - processPackages [lib-dzne-auto-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-dzne-auto-interface-0.2.3.tar.gz tmp/lib-dzne-auto-interface-0.3.0.tar.gz --markdown 20230618/l/lib-dzne-auto-interface/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-18 17:29:29] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-06-18 17:29:29] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.1.4.tar.gz tmp/py3d-0.1.5.tar.gz --markdown 20230618/p/py3d/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-18 17:29:30] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/90/81/40d677e36db58b5a66b4d3ffacc0b50c3231be7a64059fa615cbb97c9acf/tfra_nightly-0.6.0.dev20230614132209-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-18 17:29:30] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.6.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - processPackages [skmetpy]: Remove: archive file [/home/abi/fetcher/tmp/skmetpy-0.0.7.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - main [MainThread]: End processing [skmetpy]: success
+[2023-06-18 17:29:30] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.5.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.6.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-18 17:29:30] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2023-06-18 17:29:30] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2023-06-18 17:29:30] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-06-18 17:29:30] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.4.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.5.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-06-18 17:29:30] INFO root fetch - processPackages [lib-dzne-auto-interface]: Remove: archive file [/home/abi/fetcher/tmp/lib-dzne-auto-interface-0.2.3.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - processPackages [lib-dzne-auto-interface]: Remove: archive file [/home/abi/fetcher/tmp/lib-dzne-auto-interface-0.3.0.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - main [MainThread]: End processing [lib-dzne-auto-interface]: success
+[2023-06-18 17:29:30] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-18 17:29:30] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-18 17:29:31] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2023-06-18 17:29:31] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.0.dev20230526101115-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/tfra_nightly-0.6.0.dev20230614132209-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230618/t/tfra-nightly/0.6.0.dev20230526101115-0.6.0.dev20230614132209/diff.md --exclude *.pyd
+[2023-06-18 17:32:31] ERROR root fetch - processPackages [tfra-nightly]: Timeout during execution of pkgdiff
+[2023-06-18 17:32:31] INFO root fetch - main [MainThread]: End processing [tfra-nightly] error
+[2023-06-18 17:32:31] INFO root fetch - main [MainThread]: Store serial: [18551072]
