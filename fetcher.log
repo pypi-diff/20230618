@@ -10151,3 +10151,33 @@ EOFError: EOF read where object expected
 [2023-06-18 16:25:22] INFO root fetch - processPackages [ap-features]: Remove: archive file [/home/abi/fetcher/tmp/ap_features-2023.4.0.tar.gz]
 [2023-06-18 16:25:22] INFO root fetch - main [MainThread]: End processing [ap-features]: success
 [2023-06-18 16:25:22] INFO root fetch - main [MainThread]: Store serial: [18550700]
+[2023-06-18 16:30:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18550700]
+[2023-06-18 16:30:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 16:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: souJpg-comm
+[2023-06-18 16:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notctyparser
+[2023-06-18 16:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycotools
+[2023-06-18 16:30:31] INFO root fetch - processPackages [notctyparser]: New version: [23.6.4] Old Version: [23.6.3]
+[2023-06-18 16:30:31] INFO root fetch - processPackages [souJpg-comm]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-18 16:30:31] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-06-18 16:30:31] INFO root fetch - processPackages [notctyparser]: Downloading https://files.pythonhosted.org/packages/e5/74/5d7558e5be564e1d84a6e586056f463513a957c46685311c7752475ba7cd/notctyparser-23.6.3.tar.gz
+[2023-06-18 16:30:31] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/54/ac/cb29756edba3c0427683427d265959475005a5b86480b4be757a6c7f2d14/souJpg-comm-1.0.7.tar.gz
+[2023-06-18 16:30:31] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-06-18 16:30:32] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/4b/97/831707f8881ae07086493e0306d2f1fa3c0e6bbcbbc1470e7f8ded494b16/souJpg_comm-1.0.8-py3-none-any.whl
+[2023-06-18 16:30:32] INFO root fetch - processPackages [notctyparser]: Downloading https://files.pythonhosted.org/packages/7f/9e/361aac53d8706d410390aff41dd54826895a529ec7af97c44862c502fff5/notctyparser-23.6.4.tar.gz
+[2023-06-18 16:30:32] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-06-18 16:30:32] INFO root fetch - processPackages [souJpg-comm]: executing diffoscope
+[2023-06-18 16:30:32] INFO root fetch - processPackages [souJpg-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souJpg-comm-1.0.7.tar.gz tmp/souJpg_comm-1.0.8-py3-none-any.whl.zip --markdown 20230618/s/souJpg-comm/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-18 16:30:32] INFO root fetch - processPackages [notctyparser]: executing diffoscope
+[2023-06-18 16:30:32] INFO root fetch - processPackages [notctyparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notctyparser-23.6.3.tar.gz tmp/notctyparser-23.6.4.tar.gz --markdown 20230618/n/notctyparser/23.6.3-23.6.4/diff.md --exclude *.pyd
+[2023-06-18 16:30:32] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-06-18 16:30:32] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230618/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-06-18 16:30:33] INFO root fetch - processPackages [souJpg-comm]: Remove: archive file [/home/abi/fetcher/tmp/souJpg-comm-1.0.7.tar.gz]
+[2023-06-18 16:30:33] INFO root fetch - processPackages [souJpg-comm]: Remove: archive file [/home/abi/fetcher/tmp/souJpg_comm-1.0.8-py3-none-any.whl.zip]
+[2023-06-18 16:30:33] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
+[2023-06-18 16:30:33] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-06-18 16:30:33] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-06-18 16:30:33] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-06-18 16:31:26] INFO root fetch - processPackages [notctyparser]: Remove: archive file [/home/abi/fetcher/tmp/notctyparser-23.6.3.tar.gz]
+[2023-06-18 16:31:26] INFO root fetch - processPackages [notctyparser]: Remove: archive file [/home/abi/fetcher/tmp/notctyparser-23.6.4.tar.gz]
+[2023-06-18 16:31:26] INFO root fetch - main [MainThread]: End processing [notctyparser]: success
+[2023-06-18 16:31:26] INFO root fetch - main [MainThread]: Store serial: [18550708]
