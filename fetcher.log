@@ -6187,3 +6187,24 @@
 [2023-06-18 11:09:03] INFO root fetch - processPackages [aqme]: Remove: archive file [/home/abi/fetcher/tmp/aqme-1.5.1.tar.gz]
 [2023-06-18 11:09:03] INFO root fetch - main [MainThread]: End processing [aqme]: success
 [2023-06-18 11:09:03] INFO root fetch - main [MainThread]: Store serial: [18548891]
+[2023-06-18 11:14:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548891]
+[2023-06-18 11:14:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 11:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bilibili-api-python
+[2023-06-18 11:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypoolstation
+[2023-06-18 11:14:12] INFO root fetch - processPackages [pypoolstation]: New version: [0.5.1] Old Version: [0.4.9]
+[2023-06-18 11:14:12] INFO root fetch - processPackages [bilibili-api-python]: New version: [9.3.1] Old Version: [9.3.0]
+[2023-06-18 11:14:13] INFO root fetch - processPackages [pypoolstation]: Downloading https://files.pythonhosted.org/packages/6d/c8/adef75973305ce36db69caabb1544567dae3c43a559c3ecf50132f361e11/PyPoolstation-0.4.9.tar.gz
+[2023-06-18 11:14:13] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/9b/6f/75134e680907dfeb54d18a424acea23668915105b48d0818cd2ea3a871c4/bilibili-api-python-9.3.0.tar.gz
+[2023-06-18 11:14:13] INFO root fetch - processPackages [pypoolstation]: Downloading https://files.pythonhosted.org/packages/6a/80/e9eb4ec57fc8b8be0d48e53e1139b12659fa9c90cc5a878f3d1667ffcf16/pypoolstation-0.5.1.tar.gz
+[2023-06-18 11:14:13] INFO root fetch - processPackages [pypoolstation]: executing diffoscope
+[2023-06-18 11:14:13] INFO root fetch - processPackages [pypoolstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPoolstation-0.4.9.tar.gz tmp/pypoolstation-0.5.1.tar.gz --markdown 20230618/p/pypoolstation/0.4.9-0.5.1/diff.md --exclude *.pyd
+[2023-06-18 11:14:13] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/f7/75/9cefa953040943e97416ee886cdcf25f91aaf4cd46c2beb8648b84e60415/bilibili-api-python-9.3.1.tar.gz
+[2023-06-18 11:14:13] INFO root fetch - processPackages [bilibili-api-python]: executing diffoscope
+[2023-06-18 11:14:13] INFO root fetch - processPackages [bilibili-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-api-python-9.3.0.tar.gz tmp/bilibili-api-python-9.3.1.tar.gz --markdown 20230618/b/bilibili-api-python/9.3.0-9.3.1/diff.md --exclude *.pyd
+[2023-06-18 11:14:14] INFO root fetch - processPackages [pypoolstation]: Remove: archive file [/home/abi/fetcher/tmp/PyPoolstation-0.4.9.tar.gz]
+[2023-06-18 11:14:14] INFO root fetch - processPackages [pypoolstation]: Remove: archive file [/home/abi/fetcher/tmp/pypoolstation-0.5.1.tar.gz]
+[2023-06-18 11:14:14] INFO root fetch - main [MainThread]: End processing [pypoolstation]: success
+[2023-06-18 11:14:15] INFO root fetch - processPackages [bilibili-api-python]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-api-python-9.3.0.tar.gz]
+[2023-06-18 11:14:15] INFO root fetch - processPackages [bilibili-api-python]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-api-python-9.3.1.tar.gz]
+[2023-06-18 11:14:15] INFO root fetch - main [MainThread]: End processing [bilibili-api-python]: success
+[2023-06-18 11:14:15] INFO root fetch - main [MainThread]: Store serial: [18548901]
