@@ -1730,3 +1730,69 @@
 [2023-06-18 02:43:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
 [2023-06-18 02:43:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-06-18 02:43:01] INFO root fetch - main [MainThread]: Store serial: [18546852]
+[2023-06-18 02:48:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18546852]
+[2023-06-18 02:48:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-18 02:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2023-06-18 02:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-18 02:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vaultpass
+[2023-06-18 02:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kultimate
+[2023-06-18 02:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfds-nightly
+[2023-06-18 02:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: de-dip-bundestag
+[2023-06-18 02:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubric-nightly
+[2023-06-18 02:48:09] INFO root fetch - processPackages [kultimate]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 02:48:09] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-18 02:48:09] INFO root fetch - processPackages [vaultpass]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-18 02:48:09] INFO root fetch - processPackages [de-dip-bundestag]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 02:48:09] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-18 02:48:09] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-18 02:48:09] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306170044] Old Version: [4.9.2.dev202306160045]
+[2023-06-18 02:48:09] INFO root fetch - processPackages [vaultpass]: Downloading https://files.pythonhosted.org/packages/42/e7/e4b349b54306a3c25438bbb0038a7b708fa5b3dc73b060b177eee3d6b675/vaultpass-1.0.8.tar.gz
+[2023-06-18 02:48:09] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/c7/17/5b3daceedb4168c2c3e68fc1a87023efc1133946d90f58c7b32f8bf82d79/kultimate-0.2.8.tar.gz
+[2023-06-18 02:48:09] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-18 02:48:09] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/e7/1e/c66a8704a0e1f11dde012df65d00809d7a68066a44c7db76c3a6577c16b7/tfds-nightly-4.9.2.dev202306160045.tar.gz
+[2023-06-18 02:48:09] INFO root fetch - processPackages [de-dip-bundestag]: Downloading https://files.pythonhosted.org/packages/5c/cd/64d3b1349e70bf51acd3a55054a579b1e78e3d5e68390bd6a46b27bef7f2/de-dip-bundestag-0.1.0.tar.gz
+[2023-06-18 02:48:09] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-18 02:48:10] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-18 02:48:10] INFO root fetch - processPackages [kultimate]: Downloading https://files.pythonhosted.org/packages/74/94/0ab4025411af492391784e863e1aba51e7c0ea7abd7c0bf52d41af7c6079/kultimate-0.2.9.tar.gz
+[2023-06-18 02:48:10] INFO root fetch - processPackages [vaultpass]: Downloading https://files.pythonhosted.org/packages/f9/66/66bcfdb1ec80241674b02c22b6d88025d631c57ef9f8327bc418d9b83b93/vaultpass-1.0.9.tar.gz
+[2023-06-18 02:48:10] INFO root fetch - processPackages [kultimate]: executing diffoscope
+[2023-06-18 02:48:10] INFO root fetch - processPackages [kultimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kultimate-0.2.8.tar.gz tmp/kultimate-0.2.9.tar.gz --markdown 20230618/k/kultimate/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 02:48:10] INFO root fetch - processPackages [vaultpass]: executing diffoscope
+[2023-06-18 02:48:10] INFO root fetch - processPackages [vaultpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaultpass-1.0.8.tar.gz tmp/vaultpass-1.0.9.tar.gz --markdown 20230618/v/vaultpass/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-18 02:48:10] INFO root fetch - processPackages [de-dip-bundestag]: Downloading https://files.pythonhosted.org/packages/eb/68/ab4243ca1a5c162f703240bc6c1aa6ee6d2762c7aa45a6e913c0e59c1c9a/de_dip_bundestag-0.1.1.tar.gz
+[2023-06-18 02:48:10] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-18 02:48:10] INFO root fetch - processPackages [de-dip-bundestag]: executing diffoscope
+[2023-06-18 02:48:10] INFO root fetch - processPackages [de-dip-bundestag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/de-dip-bundestag-0.1.0.tar.gz tmp/de_dip_bundestag-0.1.1.tar.gz --markdown 20230618/d/de-dip-bundestag/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 02:48:10] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-18 02:48:10] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230618/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-18 02:48:10] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-18 02:48:10] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-18 02:48:10] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230618/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-18 02:48:10] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/55/c9/70912fd105fc8e222c36f3cbd1579cbf8f39d094b464a4ce76578280ee14/tfds-nightly-4.9.2.dev202306170044.tar.gz
+[2023-06-18 02:48:10] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-18 02:48:10] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306160045.tar.gz tmp/tfds-nightly-4.9.2.dev202306170044.tar.gz --markdown 20230618/t/tfds-nightly/4.9.2.dev202306160045-4.9.2.dev202306170044/diff.md --exclude *.pyd
+[2023-06-18 02:48:11] INFO root fetch - processPackages [vaultpass]: Remove: archive file [/home/abi/fetcher/tmp/vaultpass-1.0.8.tar.gz]
+[2023-06-18 02:48:11] INFO root fetch - processPackages [vaultpass]: Remove: archive file [/home/abi/fetcher/tmp/vaultpass-1.0.9.tar.gz]
+[2023-06-18 02:48:11] INFO root fetch - main [MainThread]: End processing [vaultpass]: success
+[2023-06-18 02:48:11] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-18 02:48:11] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-18 02:48:11] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-18 02:48:11] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-18 02:48:11] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-18 02:48:11] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-18 02:48:11] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-18 02:48:12] INFO root fetch - processPackages [de-dip-bundestag]: Remove: archive file [/home/abi/fetcher/tmp/de-dip-bundestag-0.1.0.tar.gz]
+[2023-06-18 02:48:12] INFO root fetch - processPackages [de-dip-bundestag]: Remove: archive file [/home/abi/fetcher/tmp/de_dip_bundestag-0.1.1.tar.gz]
+[2023-06-18 02:48:12] INFO root fetch - main [MainThread]: End processing [de-dip-bundestag]: success
+[2023-06-18 02:48:12] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-18 02:48:12] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230618/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-18 02:48:14] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-18 02:48:14] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-18 02:48:14] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-18 02:48:23] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306160045.tar.gz]
+[2023-06-18 02:48:23] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306170044.tar.gz]
+[2023-06-18 02:48:23] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-18 02:49:01] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.8.tar.gz]
+[2023-06-18 02:49:01] INFO root fetch - processPackages [kultimate]: Remove: archive file [/home/abi/fetcher/tmp/kultimate-0.2.9.tar.gz]
+[2023-06-18 02:49:01] INFO root fetch - main [MainThread]: End processing [kultimate]: success
+[2023-06-18 02:49:01] INFO root fetch - main [MainThread]: Store serial: [18546873]
