@@ -5246,3 +5246,15 @@
 [2023-06-18 09:06:25] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2023-06-18 09:06:25] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-06-18 09:06:25] INFO root fetch - main [MainThread]: Store serial: [18548486]
+[2023-06-18 09:11:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548486]
+[2023-06-18 09:11:35] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-18 09:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: callbackin
+[2023-06-18 09:11:35] INFO root fetch - processPackages [callbackin]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-18 09:11:35] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/4b/aa/d820f03d817320a17ef87af48d9fd4aaa585ac7915f90154dc6265135364/callbackin-0.5.0.tar.gz
+[2023-06-18 09:11:35] INFO root fetch - processPackages [callbackin]: Downloading https://files.pythonhosted.org/packages/0b/63/28bb8af805f17008db16a22d782ff1096e4a0992756651c6841e22fd3280/callbackin-0.6.0.tar.gz
+[2023-06-18 09:11:35] INFO root fetch - processPackages [callbackin]: executing diffoscope
+[2023-06-18 09:11:35] INFO root fetch - processPackages [callbackin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callbackin-0.5.0.tar.gz tmp/callbackin-0.6.0.tar.gz --markdown 20230618/c/callbackin/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-18 09:11:36] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.5.0.tar.gz]
+[2023-06-18 09:11:36] INFO root fetch - processPackages [callbackin]: Remove: archive file [/home/abi/fetcher/tmp/callbackin-0.6.0.tar.gz]
+[2023-06-18 09:11:36] INFO root fetch - main [MainThread]: End processing [callbackin]: success
+[2023-06-18 09:11:36] INFO root fetch - main [MainThread]: Store serial: [18548492]
