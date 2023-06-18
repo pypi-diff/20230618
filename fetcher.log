@@ -15526,3 +15526,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-18 22:56:27] INFO root fetch - processPackages [pyumldiagrams]: Remove: archive file [/home/abi/fetcher/tmp/pyumldiagrams-2.40.0.tar.gz]
 [2023-06-18 22:56:27] INFO root fetch - main [MainThread]: End processing [pyumldiagrams]: success
 [2023-06-18 22:56:27] INFO root fetch - main [MainThread]: Store serial: [18552887]
+[2023-06-18 23:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552887]
+[2023-06-18 23:01:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 23:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdman
+[2023-06-18 23:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: powermolegui
+[2023-06-18 23:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitmopy
+[2023-06-18 23:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psbs
+[2023-06-18 23:01:37] WARNING root fetch - processPackages [mdman]: Skipping, unable to determine old version
+[2023-06-18 23:01:37] INFO root fetch - main [MainThread]: End processing [mdman] error
+[2023-06-18 23:01:37] INFO root fetch - processPackages [powermolegui]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-18 23:01:37] INFO root fetch - processPackages [psbs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-18 23:01:37] INFO root fetch - processPackages [gitmopy]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-18 23:01:37] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/27/73/f65861c27de12d5ba4161d58dc9f4cad2cd10a3e5c1fe038735ea8548e5a/gitmopy-0.3.1.tar.gz
+[2023-06-18 23:01:37] INFO root fetch - processPackages [psbs]: Downloading https://files.pythonhosted.org/packages/4b/fc/0ded2c3c37522e38a82497b4f740b9f0d482eb7af0627937045df31b78e6/psbs-0.1.0.tar.gz
+[2023-06-18 23:01:37] INFO root fetch - processPackages [powermolegui]: executing diffoscope
+[2023-06-18 23:01:37] INFO root fetch - processPackages [powermolegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powermolegui-0.2.7.tar.gz tmp/powermolegui-0.2.9.tar.gz --markdown 20230618/p/powermolegui/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 23:01:37] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/fd/9e/dd814b0fb83859c92e5de4451e0403d661b2e390912004a8ad266c39a003/gitmopy-0.3.2.tar.gz
+[2023-06-18 23:01:37] INFO root fetch - processPackages [psbs]: Downloading https://files.pythonhosted.org/packages/29/09/5990125c3593beb24a5ca9e991ccb2ef3e01e6fb2dd3987dfed581152c84/psbs-0.1.1.tar.gz
+[2023-06-18 23:01:37] INFO root fetch - processPackages [gitmopy]: executing diffoscope
+[2023-06-18 23:01:37] INFO root fetch - processPackages [gitmopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitmopy-0.3.1.tar.gz tmp/gitmopy-0.3.2.tar.gz --markdown 20230618/g/gitmopy/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-18 23:01:37] INFO root fetch - processPackages [psbs]: executing diffoscope
+[2023-06-18 23:01:37] INFO root fetch - processPackages [psbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psbs-0.1.0.tar.gz tmp/psbs-0.1.1.tar.gz --markdown 20230618/p/psbs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-18 23:01:38] ERROR root fetch - processPackages [powermolegui]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-18 23:01:38] INFO root fetch - main [MainThread]: End processing [powermolegui] error
+[2023-06-18 23:01:38] INFO root fetch - processPackages [psbs]: Remove: archive file [/home/abi/fetcher/tmp/psbs-0.1.0.tar.gz]
+[2023-06-18 23:01:38] INFO root fetch - processPackages [psbs]: Remove: archive file [/home/abi/fetcher/tmp/psbs-0.1.1.tar.gz]
+[2023-06-18 23:01:38] INFO root fetch - main [MainThread]: End processing [psbs]: success
+[2023-06-18 23:01:39] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.3.1.tar.gz]
+[2023-06-18 23:01:39] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.3.2.tar.gz]
+[2023-06-18 23:01:39] INFO root fetch - main [MainThread]: End processing [gitmopy]: success
+[2023-06-18 23:01:39] INFO root fetch - main [MainThread]: Store serial: [18552901]
