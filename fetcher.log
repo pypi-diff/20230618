@@ -3823,3 +3823,69 @@
 [2023-06-18 05:17:09] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1687056162.tar.gz]
 [2023-06-18 05:17:09] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
 [2023-06-18 05:17:09] INFO root fetch - main [MainThread]: Store serial: [18547766]
+[2023-06-18 05:22:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547766]
+[2023-06-18 05:22:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-18 05:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: design-kgex
+[2023-06-18 05:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-sumologic
+[2023-06-18 05:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-venafi
+[2023-06-18 05:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-splunk
+[2023-06-18 05:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nrh-lotr
+[2023-06-18 05:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-keycloak
+[2023-06-18 05:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-tailscale
+[2023-06-18 05:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sanbin
+[2023-06-18 05:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-vsphere
+[2023-06-18 05:22:17] WARNING root fetch - processPackages [design-kgex]: Skipping, unable to determine old version
+[2023-06-18 05:22:17] INFO root fetch - main [MainThread]: End processing [design-kgex] error
+[2023-06-18 05:22:17] WARNING root fetch - processPackages [sanbin]: Skipping, unable to determine old version
+[2023-06-18 05:22:17] INFO root fetch - main [MainThread]: End processing [sanbin] error
+[2023-06-18 05:22:17] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.6.0a1687057183] Old Version: [1.6.0a1686638812]
+[2023-06-18 05:22:17] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.6.0a1687057203] Old Version: [4.6.0a1686638681]
+[2023-06-18 05:22:17] WARNING root fetch - processPackages [nrh-lotr]: Skipping, unable to determine old version
+[2023-06-18 05:22:17] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-06-18 05:22:17] INFO root fetch - main [MainThread]: End processing [nrh-lotr] error
+[2023-06-18 05:22:17] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-06-18 05:22:17] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1687056751] Old Version: [1.3.0a1686637827]
+[2023-06-18 05:22:17] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.3.0a1687055253] Old Version: [5.3.0a1686914060]
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/e0/1d/9d6db021e6bc6a49e243cc25ed686acf72eae8b500508b9ccffa4bd4a921/pulumi_venafi-1.6.0a1686638812.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/d6/8f/7438e05deabf650277f743169ed1972d841be51f27b31d45e79c054087d8/pulumi_keycloak-5.3.0a1686914060.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/9c/40/f16ee43e27b819ab0d88357e0ede89c7dfbf97c17f8a207366634493a8be/pulumi_vsphere-4.6.0a1686638681.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/fa/b7/79d7933da98eb2161c322f1199d672c08edc725713b0ede15aa4fe1ad37c/pulumi_splunk-1.3.0a1686637827.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/14/e7/c853ba77ebdc4f9df7c53ebb454024ec146b1e6c5a7fee3ceff58914cf52/pulumi_keycloak-5.3.0a1687055253.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/08/bb/90fa8a12ff47cc8e1e7363e3f427f299ad1b65c06e4b7251a48e9228330c/pulumi_vsphere-4.6.0a1687057203.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/83/d9/cc52489d66537fba3a97fd52a7da47413d10abdfdc39f2d0738030101ff3/pulumi_venafi-1.6.0a1687057183.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230618/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/df/af/6ce59b7c2b16430059194f12915ea6e00f78750767ba049754c4cfbfe6a1/pulumi_splunk-1.3.0a1687056751.tar.gz
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.6.0a1686638681.tar.gz tmp/pulumi_vsphere-4.6.0a1687057203.tar.gz --markdown 20230618/p/pulumi-vsphere/4.6.0a1686638681-4.6.0a1687057203/diff.md --exclude *.pyd
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.3.0a1686914060.tar.gz tmp/pulumi_keycloak-5.3.0a1687055253.tar.gz --markdown 20230618/p/pulumi-keycloak/5.3.0a1686914060-5.3.0a1687055253/diff.md --exclude *.pyd
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.6.0a1686638812.tar.gz tmp/pulumi_venafi-1.6.0a1687057183.tar.gz --markdown 20230618/p/pulumi-venafi/1.6.0a1686638812-1.6.0a1687057183/diff.md --exclude *.pyd
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1686637827.tar.gz tmp/pulumi_splunk-1.3.0a1687056751.tar.gz --markdown 20230618/p/pulumi-splunk/1.3.0a1686637827-1.3.0a1687056751/diff.md --exclude *.pyd
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-06-18 05:22:18] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230618/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-06-18 05:22:19] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-06-18 05:22:19] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-06-18 05:22:19] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-06-18 05:22:19] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1686638812.tar.gz]
+[2023-06-18 05:22:19] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1687057183.tar.gz]
+[2023-06-18 05:22:19] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2023-06-18 05:22:20] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1686637827.tar.gz]
+[2023-06-18 05:22:20] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1687056751.tar.gz]
+[2023-06-18 05:22:20] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-06-18 05:22:20] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1686638681.tar.gz]
+[2023-06-18 05:22:20] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1687057203.tar.gz]
+[2023-06-18 05:22:20] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2023-06-18 05:22:20] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1686914060.tar.gz]
+[2023-06-18 05:22:20] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1687055253.tar.gz]
+[2023-06-18 05:22:20] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-06-18 05:22:20] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2023-06-18 05:22:20] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2023-06-18 05:22:20] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-06-18 05:22:20] INFO root fetch - main [MainThread]: Store serial: [18547794]
