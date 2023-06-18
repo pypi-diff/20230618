@@ -2987,3 +2987,33 @@
 [2023-06-18 04:22:36] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-06-18 04:22:36] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-06-18 04:22:36] INFO root fetch - main [MainThread]: Store serial: [18547494]
+[2023-06-18 04:27:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547494]
+[2023-06-18 04:27:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-18 04:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: themoviedb
+[2023-06-18 04:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodide-build
+[2023-06-18 04:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyodide-py
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-build]: New version: [0.23.3] Old Version: [0.23.2]
+[2023-06-18 04:27:46] INFO root fetch - processPackages [themoviedb]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-py]: New version: [0.23.3] Old Version: [0.23.2]
+[2023-06-18 04:27:46] INFO root fetch - processPackages [themoviedb]: Downloading https://files.pythonhosted.org/packages/df/82/e75bcc9c4234857e77bb3c505e11ec203d584e3dfce6937a80fda7ce9ef6/themoviedb-0.3.5.tar.gz
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-build]: Downloading https://files.pythonhosted.org/packages/17/d9/e69c8d39339f2a72006d01424dfa62f13164c55bcdc19ae2c93caf1c6761/pyodide-build-0.23.2.tar.gz
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-py]: Downloading https://files.pythonhosted.org/packages/98/74/d2562af74ae28a70f335897af7b18eca7c4a3ce276f983770b5fb6a00263/pyodide-py-0.23.2.tar.gz
+[2023-06-18 04:27:46] INFO root fetch - processPackages [themoviedb]: Downloading https://files.pythonhosted.org/packages/f7/07/396eabaf62eaa3d09e0ec28a486a295278a38c165bce2c9424a396b3e234/themoviedb-0.4.0.tar.gz
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-build]: Downloading https://files.pythonhosted.org/packages/13/82/f1f28abcf98aad8c5d14032074a70c335b201d428eae38ece35ad8b805d9/pyodide-build-0.23.3.tar.gz
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-py]: Downloading https://files.pythonhosted.org/packages/ea/68/80a751dd3af9d64ae83efc03afcce73cd5f43c0f9b5a80ad38924d3ec014/pyodide-py-0.23.3.tar.gz
+[2023-06-18 04:27:46] INFO root fetch - processPackages [themoviedb]: executing diffoscope
+[2023-06-18 04:27:46] INFO root fetch - processPackages [themoviedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/themoviedb-0.3.5.tar.gz tmp/themoviedb-0.4.0.tar.gz --markdown 20230618/t/themoviedb/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-build]: executing diffoscope
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide-build-0.23.2.tar.gz tmp/pyodide-build-0.23.3.tar.gz --markdown 20230618/p/pyodide-build/0.23.2-0.23.3/diff.md --exclude *.pyd
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-py]: executing diffoscope
+[2023-06-18 04:27:46] INFO root fetch - processPackages [pyodide-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide-py-0.23.2.tar.gz tmp/pyodide-py-0.23.3.tar.gz --markdown 20230618/p/pyodide-py/0.23.2-0.23.3/diff.md --exclude *.pyd
+[2023-06-18 04:27:48] INFO root fetch - processPackages [pyodide-py]: Remove: archive file [/home/abi/fetcher/tmp/pyodide-py-0.23.2.tar.gz]
+[2023-06-18 04:27:48] INFO root fetch - processPackages [pyodide-py]: Remove: archive file [/home/abi/fetcher/tmp/pyodide-py-0.23.3.tar.gz]
+[2023-06-18 04:27:48] INFO root fetch - main [MainThread]: End processing [pyodide-py]: success
+[2023-06-18 04:27:48] INFO root fetch - processPackages [pyodide-build]: Remove: archive file [/home/abi/fetcher/tmp/pyodide-build-0.23.2.tar.gz]
+[2023-06-18 04:27:48] INFO root fetch - processPackages [pyodide-build]: Remove: archive file [/home/abi/fetcher/tmp/pyodide-build-0.23.3.tar.gz]
+[2023-06-18 04:27:48] INFO root fetch - main [MainThread]: End processing [pyodide-build]: success
+[2023-06-18 04:27:48] INFO root fetch - processPackages [themoviedb]: Remove: archive file [/home/abi/fetcher/tmp/themoviedb-0.3.5.tar.gz]
+[2023-06-18 04:27:48] INFO root fetch - processPackages [themoviedb]: Remove: archive file [/home/abi/fetcher/tmp/themoviedb-0.4.0.tar.gz]
+[2023-06-18 04:27:48] INFO root fetch - main [MainThread]: End processing [themoviedb]: success
+[2023-06-18 04:27:48] INFO root fetch - main [MainThread]: Store serial: [18547503]
