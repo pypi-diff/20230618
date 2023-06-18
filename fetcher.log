@@ -4611,3 +4611,51 @@
 [2023-06-18 06:57:48] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.9.tar.gz]
 [2023-06-18 06:57:48] INFO root fetch - main [MainThread]: End processing [manifast]: success
 [2023-06-18 06:57:48] INFO root fetch - main [MainThread]: Store serial: [18548163]
+[2023-06-18 07:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548163]
+[2023-06-18 07:02:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-18 07:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manifast
+[2023-06-18 07:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-restricted-qty
+[2023-06-18 07:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: english-pidgin-dictionary
+[2023-06-18 07:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aviatrix-discovery
+[2023-06-18 07:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aviatrix-migration
+[2023-06-18 07:02:57] INFO root fetch - processPackages [english-pidgin-dictionary]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-18 07:02:57] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: New version: [14.0.1.1.2.dev6] Old Version: [14.0.1.1.2.dev5]
+[2023-06-18 07:02:57] INFO root fetch - processPackages [manifast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 07:02:57] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 07:02:57] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-18 07:02:57] INFO root fetch - processPackages [english-pidgin-dictionary]: Downloading https://files.pythonhosted.org/packages/7d/f3/2b54745c0e33477e44c2e4e3e5d22e30fcccda82e8e704e6429575928c7c/english-pidgin-dictionary-0.0.5.tar.gz
+[2023-06-18 07:02:57] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: Downloading https://files.pythonhosted.org/packages/b7/7f/721973d89d68b239e7fb4188c1701f2ee444048d584235400c260be92f2b/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev5-py3-none-any.whl
+[2023-06-18 07:02:57] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/81/64/b9fb5b4730295428c2c14d9aa6a89eba2dc6f59a264f7ee694a6733b622d/manifast-0.0.8.tar.gz
+[2023-06-18 07:02:57] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/eb/5d/5d815901fd246f869c11597b89b558431d2380b03e96cfe1b922fb7f69b8/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl
+[2023-06-18 07:02:57] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/21/c0/ad0ada02f772026372950703ae1a0caa68d0dea582f9995503a07f9663ca/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl
+[2023-06-18 07:02:57] INFO root fetch - processPackages [english-pidgin-dictionary]: Downloading https://files.pythonhosted.org/packages/07/57/0948b9576825e9748b3df0ef3f7391e4f33095e5053bfcf5b097f84a9c79/english-pidgin-dictionary-0.0.6.tar.gz
+[2023-06-18 07:02:57] INFO root fetch - processPackages [english-pidgin-dictionary]: executing diffoscope
+[2023-06-18 07:02:57] INFO root fetch - processPackages [english-pidgin-dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/english-pidgin-dictionary-0.0.5.tar.gz tmp/english-pidgin-dictionary-0.0.6.tar.gz --markdown 20230618/e/english-pidgin-dictionary/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-18 07:02:57] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/57/ba/b199fd85bb13cb9c3846d1f9b76e0d143d4ef55451056b4cc69a454abf2e/manifast-0.0.9.tar.gz
+[2023-06-18 07:02:57] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/18/ef/7d0c0938fbb6fab82da833245ac82adaa5314e519d3506c2a7972a598fe5/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl
+[2023-06-18 07:02:58] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: Downloading https://files.pythonhosted.org/packages/a5/75/5c38409df1093a809bfc88709be4fe8a4fa53ea2ac068f8e434b39c6e095/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev6-py3-none-any.whl
+[2023-06-18 07:02:58] INFO root fetch - processPackages [manifast]: executing diffoscope
+[2023-06-18 07:02:58] INFO root fetch - processPackages [manifast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifast-0.0.8.tar.gz tmp/manifast-0.0.9.tar.gz --markdown 20230618/m/manifast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 07:02:58] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: executing diffoscope
+[2023-06-18 07:02:58] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev6-py3-none-any.whl.zip --markdown 20230618/o/odoo14-addon-sale-restricted-qty/14.0.1.1.2.dev5-14.0.1.1.2.dev6/diff.md --exclude *.pyd
+[2023-06-18 07:02:58] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2023-06-18 07:02:58] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230618/a/aviatrix-discovery/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 07:02:58] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/d0/4d/d0fe16c903b7e89479e55158323464d5451705d11c44dbb079ae8034f3a5/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl
+[2023-06-18 07:02:58] INFO root fetch - processPackages [english-pidgin-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/english-pidgin-dictionary-0.0.5.tar.gz]
+[2023-06-18 07:02:58] INFO root fetch - processPackages [english-pidgin-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/english-pidgin-dictionary-0.0.6.tar.gz]
+[2023-06-18 07:02:58] INFO root fetch - main [MainThread]: End processing [english-pidgin-dictionary]: success
+[2023-06-18 07:02:59] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2023-06-18 07:02:59] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230618/a/aviatrix-migration/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-18 07:02:59] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.8.tar.gz]
+[2023-06-18 07:02:59] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.9.tar.gz]
+[2023-06-18 07:02:59] INFO root fetch - main [MainThread]: End processing [manifast]: success
+[2023-06-18 07:02:59] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 07:02:59] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 07:02:59] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2023-06-18 07:02:59] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev5-py3-none-any.whl.zip]
+[2023-06-18 07:02:59] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev6-py3-none-any.whl.zip]
+[2023-06-18 07:02:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-restricted-qty]: success
+[2023-06-18 07:03:00] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 07:03:00] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-18 07:03:00] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2023-06-18 07:03:00] INFO root fetch - main [MainThread]: Store serial: [18548211]
