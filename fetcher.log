@@ -4537,3 +4537,48 @@
 [2023-06-18 06:47:27] INFO root fetch - processPackages [vertex-protocol]: Remove: archive file [/home/abi/fetcher/tmp/vertex_protocol-1.1.1.tar.gz]
 [2023-06-18 06:47:27] INFO root fetch - main [MainThread]: End processing [vertex-protocol]: success
 [2023-06-18 06:47:27] INFO root fetch - main [MainThread]: Store serial: [18548130]
+[2023-06-18 06:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548130]
+[2023-06-18 06:52:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-18 06:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: english-pidgin-dictionary
+[2023-06-18 06:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyFixedReps-andnp
+[2023-06-18 06:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumy
+[2023-06-18 06:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atksh-utils
+[2023-06-18 06:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: english-pidgin-dictionary
+[2023-06-18 06:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NikGapps
+[2023-06-18 06:52:35] INFO root fetch - processPackages [atksh-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-18 06:52:35] INFO root fetch - processPackages [english-pidgin-dictionary]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 06:52:35] WARNING root fetch - processPackages [lumy]: Skipping, unable to determine old version
+[2023-06-18 06:52:35] INFO root fetch - main [MainThread]: End processing [lumy] error
+[2023-06-18 06:52:35] INFO root fetch - processPackages [PyFixedReps-andnp]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-18 06:52:35] INFO root fetch - processPackages [english-pidgin-dictionary]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 06:52:36] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/35/16/e17d0471d768700220cb3fecc045a1ca7396f5209abf6e0b39a0cc63beee/atksh-utils-0.1.5.tar.gz
+[2023-06-18 06:52:36] INFO root fetch - processPackages [english-pidgin-dictionary]: Downloading https://files.pythonhosted.org/packages/b4/a9/a89743156107cfdad116951418707c09ad100ad7c7935f1ff3fcd2f330ec/english-pidgin-dictionary-0.0.4.tar.gz
+[2023-06-18 06:52:36] INFO root fetch - processPackages [english-pidgin-dictionary]: Downloading https://files.pythonhosted.org/packages/b4/a9/a89743156107cfdad116951418707c09ad100ad7c7935f1ff3fcd2f330ec/english-pidgin-dictionary-0.0.4.tar.gz
+[2023-06-18 06:52:36] INFO root fetch - processPackages [PyFixedReps-andnp]: Downloading https://files.pythonhosted.org/packages/c9/9b/3e7de47aac7de2c4d71cd55624e6b0de014f479be37276c180752b21e2e7/PyFixedReps-andnp-4.0.1.tar.gz
+[2023-06-18 06:52:36] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/bf/ff/5244af117fffc289be16c3d57d701b2ee4f8691c68ab43f7bd678df7f0aa/atksh-utils-0.1.6.tar.gz
+[2023-06-18 06:52:36] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-06-18 06:52:36] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.1.5.tar.gz tmp/atksh-utils-0.1.6.tar.gz --markdown 20230618/a/atksh-utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-18 06:52:36] INFO root fetch - processPackages [NikGapps]: New version: [1.39] Old Version: [1.38]
+[2023-06-18 06:52:36] INFO root fetch - processPackages [PyFixedReps-andnp]: Downloading https://files.pythonhosted.org/packages/1a/37/e87e78e00148cd8ef24dd881ee6113e68b0bb9ff9d80e251fa463d71e6b0/PyFixedReps-andnp-4.0.2.tar.gz
+[2023-06-18 06:52:36] INFO root fetch - processPackages [english-pidgin-dictionary]: Downloading https://files.pythonhosted.org/packages/7d/f3/2b54745c0e33477e44c2e4e3e5d22e30fcccda82e8e704e6429575928c7c/english-pidgin-dictionary-0.0.5.tar.gz
+[2023-06-18 06:52:36] INFO root fetch - processPackages [english-pidgin-dictionary]: Downloading https://files.pythonhosted.org/packages/7d/f3/2b54745c0e33477e44c2e4e3e5d22e30fcccda82e8e704e6429575928c7c/english-pidgin-dictionary-0.0.5.tar.gz
+[2023-06-18 06:52:36] INFO root fetch - processPackages [english-pidgin-dictionary]: executing diffoscope
+[2023-06-18 06:52:36] INFO root fetch - processPackages [english-pidgin-dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/english-pidgin-dictionary-0.0.4.tar.gz tmp/english-pidgin-dictionary-0.0.5.tar.gz --markdown 20230618/e/english-pidgin-dictionary/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 06:52:36] INFO root fetch - processPackages [english-pidgin-dictionary]: executing diffoscope
+[2023-06-18 06:52:36] INFO root fetch - processPackages [english-pidgin-dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/english-pidgin-dictionary-0.0.4.tar.gz tmp/english-pidgin-dictionary-0.0.5.tar.gz --markdown 20230618/e/english-pidgin-dictionary/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 06:52:36] INFO root fetch - processPackages [PyFixedReps-andnp]: executing diffoscope
+[2023-06-18 06:52:36] INFO root fetch - processPackages [PyFixedReps-andnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFixedReps-andnp-4.0.1.tar.gz tmp/PyFixedReps-andnp-4.0.2.tar.gz --markdown 20230618/P/PyFixedReps-andnp/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-18 06:52:36] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/52/7f/a0a627821ee9f6be232a919bf2ea2bc3694eaabc3c000b5ee734196e9fd9/NikGapps-1.38.tar.gz
+[2023-06-18 06:52:36] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41562567>=10485760
+[2023-06-18 06:52:36] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-18 06:52:37] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.5.tar.gz]
+[2023-06-18 06:52:37] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.1.6.tar.gz]
+[2023-06-18 06:52:37] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-06-18 06:52:37] INFO root fetch - processPackages [english-pidgin-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/english-pidgin-dictionary-0.0.4.tar.gz]
+[2023-06-18 06:52:37] INFO root fetch - processPackages [english-pidgin-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/english-pidgin-dictionary-0.0.5.tar.gz]
+[2023-06-18 06:52:37] INFO root fetch - main [MainThread]: End processing [english-pidgin-dictionary]: success
+[2023-06-18 06:52:37] INFO root fetch - processPackages [PyFixedReps-andnp]: Remove: archive file [/home/abi/fetcher/tmp/PyFixedReps-andnp-4.0.1.tar.gz]
+[2023-06-18 06:52:37] INFO root fetch - processPackages [PyFixedReps-andnp]: Remove: archive file [/home/abi/fetcher/tmp/PyFixedReps-andnp-4.0.2.tar.gz]
+[2023-06-18 06:52:37] INFO root fetch - main [MainThread]: End processing [PyFixedReps-andnp]: success
+[2023-06-18 06:52:37] INFO root fetch - main [MainThread]: End processing [english-pidgin-dictionary]: success
+[2023-06-18 06:52:37] INFO root fetch - main [MainThread]: Store serial: [18548149]
