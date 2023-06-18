@@ -4280,3 +4280,36 @@
 [2023-06-18 06:04:21] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230616.tar.gz]
 [2023-06-18 06:04:21] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-06-18 06:04:21] INFO root fetch - main [MainThread]: Store serial: [18547956]
+[2023-06-18 06:09:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18547956]
+[2023-06-18 06:09:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-18 06:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vaultpass
+[2023-06-18 06:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getmodelspec
+[2023-06-18 06:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libre-fastapi-jwt
+[2023-06-18 06:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlalchemy-celery-beat
+[2023-06-18 06:09:30] INFO root fetch - processPackages [vaultpass]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-18 06:09:30] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-18 06:09:30] INFO root fetch - processPackages [libre-fastapi-jwt]: New version: [0.20.2] Old Version: [0.20.1]
+[2023-06-18 06:09:30] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-18 06:09:30] INFO root fetch - processPackages [sqlalchemy-celery-beat]: New version: [0.5.0] Old Version: [0.4.7]
+[2023-06-18 06:09:30] INFO root fetch - processPackages [vaultpass]: Downloading https://files.pythonhosted.org/packages/42/e7/e4b349b54306a3c25438bbb0038a7b708fa5b3dc73b060b177eee3d6b675/vaultpass-1.0.8.tar.gz
+[2023-06-18 06:09:30] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/8f/d0/a23ff55e6ad865849865c9d9a3930fb6c845adf5bbe901ee1ac1ac569974/libre_fastapi_jwt-0.20.1.tar.gz
+[2023-06-18 06:09:30] INFO root fetch - processPackages [vaultpass]: Downloading https://files.pythonhosted.org/packages/f9/66/66bcfdb1ec80241674b02c22b6d88025d631c57ef9f8327bc418d9b83b93/vaultpass-1.0.9.tar.gz
+[2023-06-18 06:09:30] INFO root fetch - processPackages [vaultpass]: executing diffoscope
+[2023-06-18 06:09:30] INFO root fetch - processPackages [vaultpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaultpass-1.0.8.tar.gz tmp/vaultpass-1.0.9.tar.gz --markdown 20230618/v/vaultpass/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-18 06:09:30] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/fa/64/6b4d57398248f389ef7f5bc978976e26e930e3ea5796478ba9b78871cf27/libre_fastapi_jwt-0.20.2.tar.gz
+[2023-06-18 06:09:30] INFO root fetch - processPackages [libre-fastapi-jwt]: executing diffoscope
+[2023-06-18 06:09:30] INFO root fetch - processPackages [libre-fastapi-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libre_fastapi_jwt-0.20.1.tar.gz tmp/libre_fastapi_jwt-0.20.2.tar.gz --markdown 20230618/l/libre-fastapi-jwt/0.20.1-0.20.2/diff.md --exclude *.pyd
+[2023-06-18 06:09:31] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/87/14/d9359261c9ed7567d536cc6823978ceeb0070426e7b85276dcc763c99fc2/sqlalchemy_celery_beat-0.4.7.tar.gz
+[2023-06-18 06:09:31] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/8b/5d/902dd289cc310d1581855d1fd23cb8dcc97ebb416ea0a7fb56917f09812c/sqlalchemy_celery_beat-0.5.0.tar.gz
+[2023-06-18 06:09:31] INFO root fetch - processPackages [sqlalchemy-celery-beat]: executing diffoscope
+[2023-06-18 06:09:31] INFO root fetch - processPackages [sqlalchemy-celery-beat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_celery_beat-0.4.7.tar.gz tmp/sqlalchemy_celery_beat-0.5.0.tar.gz --markdown 20230618/s/sqlalchemy-celery-beat/0.4.7-0.5.0/diff.md --exclude *.pyd
+[2023-06-18 06:09:31] INFO root fetch - processPackages [vaultpass]: Remove: archive file [/home/abi/fetcher/tmp/vaultpass-1.0.8.tar.gz]
+[2023-06-18 06:09:31] INFO root fetch - processPackages [vaultpass]: Remove: archive file [/home/abi/fetcher/tmp/vaultpass-1.0.9.tar.gz]
+[2023-06-18 06:09:31] INFO root fetch - main [MainThread]: End processing [vaultpass]: success
+[2023-06-18 06:09:31] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.20.1.tar.gz]
+[2023-06-18 06:09:31] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.20.2.tar.gz]
+[2023-06-18 06:09:31] INFO root fetch - main [MainThread]: End processing [libre-fastapi-jwt]: success
+[2023-06-18 06:09:32] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.4.7.tar.gz]
+[2023-06-18 06:09:32] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.5.0.tar.gz]
+[2023-06-18 06:09:32] INFO root fetch - main [MainThread]: End processing [sqlalchemy-celery-beat]: success
+[2023-06-18 06:09:32] INFO root fetch - main [MainThread]: Store serial: [18547971]
