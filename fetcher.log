@@ -4904,3 +4904,24 @@
 [2023-06-18 07:47:35] WARNING root fetch - processPackages [pulumi-auto-deploy]: Skipping, unable to determine old version
 [2023-06-18 07:47:35] INFO root fetch - main [MainThread]: End processing [pulumi-auto-deploy] error
 [2023-06-18 07:47:35] INFO root fetch - main [MainThread]: Store serial: [18548315]
+[2023-06-18 07:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18548315]
+[2023-06-18 07:52:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-18 07:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: propeller-design-tools
+[2023-06-18 07:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manifast
+[2023-06-18 07:52:43] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-18 07:52:43] INFO root fetch - processPackages [manifast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 07:52:44] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/92/89/34976e1dd7819d6b27a985afd6c040e907d291d796977883050a21a6c662/propeller_design_tools-0.4.2.tar.gz
+[2023-06-18 07:52:44] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/81/64/b9fb5b4730295428c2c14d9aa6a89eba2dc6f59a264f7ee694a6733b622d/manifast-0.0.8.tar.gz
+[2023-06-18 07:52:44] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/50/f4/4313d5ca24ec1041e6501ffbcb778ad92b25b131950f42f8becfbe90e000/propeller_design_tools-0.4.3.tar.gz
+[2023-06-18 07:52:44] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/57/ba/b199fd85bb13cb9c3846d1f9b76e0d143d4ef55451056b4cc69a454abf2e/manifast-0.0.9.tar.gz
+[2023-06-18 07:52:44] INFO root fetch - processPackages [manifast]: executing diffoscope
+[2023-06-18 07:52:44] INFO root fetch - processPackages [manifast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifast-0.0.8.tar.gz tmp/manifast-0.0.9.tar.gz --markdown 20230618/m/manifast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 07:52:45] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-18 07:52:45] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.4.2.tar.gz tmp/propeller_design_tools-0.4.3.tar.gz --markdown 20230618/p/propeller-design-tools/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-18 07:52:45] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.8.tar.gz]
+[2023-06-18 07:52:45] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.9.tar.gz]
+[2023-06-18 07:52:45] INFO root fetch - main [MainThread]: End processing [manifast]: success
+[2023-06-18 07:52:47] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.2.tar.gz]
+[2023-06-18 07:52:47] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.3.tar.gz]
+[2023-06-18 07:52:47] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-18 07:52:47] INFO root fetch - main [MainThread]: Store serial: [18548325]
