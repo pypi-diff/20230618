@@ -14945,3 +14945,105 @@ EOFError: EOF read where object expected
 [2023-06-18 22:23:47] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.9.tar.gz]
 [2023-06-18 22:23:47] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
 [2023-06-18 22:23:47] INFO root fetch - main [MainThread]: Store serial: [18552645]
+[2023-06-18 22:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18552645]
+[2023-06-18 22:28:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: microsoft-kiota-serialization-text
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ShellGenius
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fichub-cli
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ninja-crud
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LbAPCommon
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HarmonyDecoder
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Simba-UW-tf-dev
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: osism
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: model-composer
+[2023-06-18 22:28:57] INFO root fetch - processPackages [django-ninja-crud]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [fichub-cli]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ShellGenius]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [policyengine-us]: New version: [0.335.1] Old Version: [0.335.0]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [microsoft-kiota-serialization-text]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [HarmonyDecoder]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [LbAPCommon]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.63.3] Old Version: [1.63.2]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ShellGenius]: Downloading https://files.pythonhosted.org/packages/b3/e3/76ed8ce04801f6c609cfa4a8a17e085a8d3ad017a10203cce763dde03231/shellgenius-0.1.8.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [HarmonyDecoder]: Downloading https://files.pythonhosted.org/packages/29/59/9a1f29ba4b029b37d57debf71b1080ceb79415a7c3ea14b1150f11e5319a/HarmonyDecoder-1.0.7.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/19/5f/9b3bc5668cb86b406db7b79fba6a07e1498d0157f0e4807593d384a3400e/LbAPCommon-0.9.4.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/d5/64/63deebaeb945be4d38c52197f676ef3c8a8f937aaed4a1bb524d7d878f50/Simba-UW-tf-dev-1.63.2.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [model-composer]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [osism]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ShellGenius]: Downloading https://files.pythonhosted.org/packages/28/f9/9dfafb0e79d535cf50aa9338c5d0ce295b7ce7e5b9e4b56982d1847f3a45/shellgenius-0.1.9.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/17/6f/0e942e056546c0c56e39e3c5736461253c9bcb2bbb2a744ffe5f23660164/policyengine-us-0.335.0.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [django-ninja-crud]: Downloading https://files.pythonhosted.org/packages/08/64/4cdfcddc84fae75e413fa419cc178be6c50ce2eab282ad76cb400b63774b/django_ninja_crud-0.1.1.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [fichub-cli]: Downloading https://files.pythonhosted.org/packages/75/de/2e7ee8b02956223237249d7d5c2ab882cfb9f0237485e112fba2d3fdf5fd/fichub-cli-0.9.1.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ShellGenius]: executing diffoscope
+[2023-06-18 22:28:57] INFO root fetch - processPackages [ShellGenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellgenius-0.1.8.tar.gz tmp/shellgenius-0.1.9.tar.gz --markdown 20230618/S/ShellGenius/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-18 22:28:57] INFO root fetch - processPackages [microsoft-kiota-serialization-text]: Downloading https://files.pythonhosted.org/packages/fb/35/3790a67341385ecd39f9e78c387b68a9a8ccfee04b8c214bde123ec45cd6/microsoft-kiota-serialization-text-0.2.0.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [model-composer]: Downloading https://files.pythonhosted.org/packages/33/6f/644ab64b76a9004d9da2b633c3c68a97bae011e0fc6d554f79c4d3c8676d/model_composer-0.1.0.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [HarmonyDecoder]: Downloading https://files.pythonhosted.org/packages/22/0b/940cfaa2382598f4daebd038acb3d26a127166137285983aef3e5d890b87/HarmonyDecoder-1.0.8.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/d9/e4/97288db572dab148de08d6921483c28336f8657f5955abf4742e87d99ce1/osism-0.9.7.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/79/e6/05e208b57f7ea8314bff4c4d92a0ebdb2b99c7941ec5fa82a5e543963c9a/Simba-UW-tf-dev-1.63.3.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [HarmonyDecoder]: executing diffoscope
+[2023-06-18 22:28:57] INFO root fetch - processPackages [HarmonyDecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HarmonyDecoder-1.0.7.tar.gz tmp/HarmonyDecoder-1.0.8.tar.gz --markdown 20230618/H/HarmonyDecoder/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-18 22:28:57] INFO root fetch - processPackages [django-ninja-crud]: Downloading https://files.pythonhosted.org/packages/ac/94/3c8db96f72f97aea9f917bd74a02633d68d732a7cb6f5b66974d78ef2571/django_ninja_crud-0.1.2.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/4a/67/3f67e1bf17a0af9f8269526452542c81441931862db309eb86f5450f84f5/LbAPCommon-0.9.5.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [django-ninja-crud]: executing diffoscope
+[2023-06-18 22:28:57] INFO root fetch - processPackages [django-ninja-crud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ninja_crud-0.1.1.tar.gz tmp/django_ninja_crud-0.1.2.tar.gz --markdown 20230618/d/django-ninja-crud/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-18 22:28:57] INFO root fetch - processPackages [fichub-cli]: Downloading https://files.pythonhosted.org/packages/f2/80/44646cacde63b0d088ca8ae973a13d64d538bdc1218834079886eb91aacb/fichub-cli-0.9.2.tar.gz
+[2023-06-18 22:28:57] INFO root fetch - processPackages [LbAPCommon]: executing diffoscope
+[2023-06-18 22:28:57] INFO root fetch - processPackages [LbAPCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbAPCommon-0.9.4.tar.gz tmp/LbAPCommon-0.9.5.tar.gz --markdown 20230618/L/LbAPCommon/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-18 22:28:57] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e1/ab/303da686a69a98dc9d6f63e720fa1fbc3a266aada670a6a9ed964683f989/policyengine-us-0.335.1.tar.gz
+[2023-06-18 22:28:58] INFO root fetch - processPackages [microsoft-kiota-serialization-text]: Downloading https://files.pythonhosted.org/packages/8b/4b/49be1fff97ef568b6d1aa65423adc26085cf450ac9cf34963f4631dbba3c/microsoft_kiota_serialization_text-0.2.1.tar.gz
+[2023-06-18 22:28:58] INFO root fetch - processPackages [fichub-cli]: executing diffoscope
+[2023-06-18 22:28:58] INFO root fetch - processPackages [fichub-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fichub-cli-0.9.1.tar.gz tmp/fichub-cli-0.9.2.tar.gz --markdown 20230618/f/fichub-cli/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-18 22:28:58] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/f7/c9/7fabbdb50265b5306f0b31470c421517d434bda5f7f3f41fe3fcd98acac0/osism-0.9.8.tar.gz
+[2023-06-18 22:28:58] INFO root fetch - processPackages [microsoft-kiota-serialization-text]: executing diffoscope
+[2023-06-18 22:28:58] INFO root fetch - processPackages [microsoft-kiota-serialization-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microsoft-kiota-serialization-text-0.2.0.tar.gz tmp/microsoft_kiota_serialization_text-0.2.1.tar.gz --markdown 20230618/m/microsoft-kiota-serialization-text/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-18 22:28:58] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-18 22:28:58] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.335.0.tar.gz tmp/policyengine-us-0.335.1.tar.gz --markdown 20230618/p/policyengine-us/0.335.0-0.335.1/diff.md --exclude *.pyd
+[2023-06-18 22:28:58] INFO root fetch - processPackages [model-composer]: Downloading https://files.pythonhosted.org/packages/b3/ad/feba69dcf9bcf2efb603380a1d6e7c7c25a600c3cfa6d3543031a6a48d66/model_composer-0.2.0-py3-none-any.whl
+[2023-06-18 22:28:58] INFO root fetch - processPackages [osism]: executing diffoscope
+[2023-06-18 22:28:58] INFO root fetch - processPackages [osism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osism-0.9.7.tar.gz tmp/osism-0.9.8.tar.gz --markdown 20230618/o/osism/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-18 22:28:58] INFO root fetch - processPackages [model-composer]: executing diffoscope
+[2023-06-18 22:28:58] INFO root fetch - processPackages [model-composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_composer-0.1.0.tar.gz tmp/model_composer-0.2.0-py3-none-any.whl.zip --markdown 20230618/m/model-composer/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-18 22:28:58] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-06-18 22:28:58] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.63.2.tar.gz tmp/Simba-UW-tf-dev-1.63.3.tar.gz --markdown 20230618/S/Simba-UW-tf-dev/1.63.2-1.63.3/diff.md --exclude *.pyd
+[2023-06-18 22:28:59] INFO root fetch - processPackages [ShellGenius]: Remove: archive file [/home/abi/fetcher/tmp/shellgenius-0.1.8.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - processPackages [ShellGenius]: Remove: archive file [/home/abi/fetcher/tmp/shellgenius-0.1.9.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - processPackages [ShellGenius]: Start processing: gardena-bluetooth
+[2023-06-18 22:28:59] INFO root fetch - main [MainThread]: End processing [ShellGenius]: success
+[2023-06-18 22:28:59] INFO root fetch - processPackages [microsoft-kiota-serialization-text]: Remove: archive file [/home/abi/fetcher/tmp/microsoft-kiota-serialization-text-0.2.0.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - processPackages [microsoft-kiota-serialization-text]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_serialization_text-0.2.1.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-serialization-text]: success
+[2023-06-18 22:28:59] INFO root fetch - processPackages [gardena-bluetooth]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-18 22:28:59] INFO root fetch - processPackages [fichub-cli]: Remove: archive file [/home/abi/fetcher/tmp/fichub-cli-0.9.1.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - processPackages [fichub-cli]: Remove: archive file [/home/abi/fetcher/tmp/fichub-cli-0.9.2.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - main [MainThread]: End processing [fichub-cli]: success
+[2023-06-18 22:28:59] INFO root fetch - processPackages [gardena-bluetooth]: Downloading https://files.pythonhosted.org/packages/e6/9a/094357aeaf745d8040e807e6f89edb3981105fca1b2264fea317a77b458a/gardena_bluetooth-0.3.0.tar.gz
+[2023-06-18 22:28:59] INFO root fetch - processPackages [model-composer]: Remove: archive file [/home/abi/fetcher/tmp/model_composer-0.1.0.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - processPackages [model-composer]: Remove: archive file [/home/abi/fetcher/tmp/model_composer-0.2.0-py3-none-any.whl.zip]
+[2023-06-18 22:28:59] INFO root fetch - main [MainThread]: End processing [model-composer]: success
+[2023-06-18 22:28:59] INFO root fetch - processPackages [django-ninja-crud]: Remove: archive file [/home/abi/fetcher/tmp/django_ninja_crud-0.1.1.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - processPackages [django-ninja-crud]: Remove: archive file [/home/abi/fetcher/tmp/django_ninja_crud-0.1.2.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - main [MainThread]: End processing [django-ninja-crud]: success
+[2023-06-18 22:28:59] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.4.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.5.tar.gz]
+[2023-06-18 22:28:59] INFO root fetch - main [MainThread]: End processing [LbAPCommon]: success
+[2023-06-18 22:28:59] INFO root fetch - processPackages [gardena-bluetooth]: Downloading https://files.pythonhosted.org/packages/42/97/8995dcb551968a1de0b6cb9e55890ec26c9b58b114f3d59c48053f240c0e/gardena_bluetooth-0.3.1.tar.gz
+[2023-06-18 22:28:59] INFO root fetch - processPackages [gardena-bluetooth]: executing diffoscope
+[2023-06-18 22:28:59] INFO root fetch - processPackages [gardena-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardena_bluetooth-0.3.0.tar.gz tmp/gardena_bluetooth-0.3.1.tar.gz --markdown 20230618/g/gardena-bluetooth/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-18 22:29:00] INFO root fetch - processPackages [HarmonyDecoder]: Remove: archive file [/home/abi/fetcher/tmp/HarmonyDecoder-1.0.7.tar.gz]
+[2023-06-18 22:29:00] INFO root fetch - processPackages [HarmonyDecoder]: Remove: archive file [/home/abi/fetcher/tmp/HarmonyDecoder-1.0.8.tar.gz]
+[2023-06-18 22:29:00] INFO root fetch - main [MainThread]: End processing [HarmonyDecoder]: success
+[2023-06-18 22:29:01] INFO root fetch - processPackages [gardena-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/gardena_bluetooth-0.3.0.tar.gz]
+[2023-06-18 22:29:01] INFO root fetch - processPackages [gardena-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/gardena_bluetooth-0.3.1.tar.gz]
+[2023-06-18 22:29:01] INFO root fetch - main [MainThread]: End processing [gardena-bluetooth]: success
+[2023-06-18 22:29:01] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.7.tar.gz]
+[2023-06-18 22:29:01] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.8.tar.gz]
+[2023-06-18 22:29:01] INFO root fetch - main [MainThread]: End processing [osism]: success
+[2023-06-18 22:29:04] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.63.2.tar.gz]
+[2023-06-18 22:29:04] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.63.3.tar.gz]
+[2023-06-18 22:29:04] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-06-18 22:30:18] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.335.0.tar.gz]
+[2023-06-18 22:30:18] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.335.1.tar.gz]
+[2023-06-18 22:30:18] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-18 22:30:18] INFO root fetch - main [MainThread]: Store serial: [18552680]
