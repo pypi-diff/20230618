@@ -8207,3 +8207,122 @@ AssertionError: tmp/sweatDB-2.0.6.tar.gz does not exist
 [2023-06-18 14:03:08] INFO root fetch - processPackages [HAP-python]: Remove: archive file [/home/abi/fetcher/tmp/HAP-python-4.7.0.tar.gz]
 [2023-06-18 14:03:08] INFO root fetch - main [MainThread]: End processing [HAP-python]: success
 [2023-06-18 14:03:08] INFO root fetch - main [MainThread]: Store serial: [18549838]
+[2023-06-18 14:08:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18549838]
+[2023-06-18 14:08:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-18 14:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homelab-node-red-backup
+[2023-06-18 14:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HAP-python
+[2023-06-18 14:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos-spark2
+[2023-06-18 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-spark2
+[2023-06-18 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datawise
+[2023-06-18 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-ultralytics-plugin
+[2023-06-18 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: user-management-api
+[2023-06-18 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdf2txt
+[2023-06-18 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: http3clientpy
+[2023-06-18 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rapidocr-web
+[2023-06-18 14:08:18] INFO root fetch - processPackages [HAP-python]: New version: [4.7.0] Old Version: [4.6.0]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 14:08:18] WARNING root fetch - processPackages [homelab-node-red-backup]: Skipping, unable to determine old version
+[2023-06-18 14:08:18] INFO root fetch - processPackages [homelab-node-red-backup]: Start processing: pdf2txt
+[2023-06-18 14:08:18] INFO root fetch - main [MainThread]: End processing [homelab-node-red-backup] error
+[2023-06-18 14:08:18] WARNING root fetch - processPackages [http3clientpy]: Skipping, unable to determine old version
+[2023-06-18 14:08:18] INFO root fetch - processPackages [http3clientpy]: Start processing: rapidocr-api
+[2023-06-18 14:08:18] INFO root fetch - main [MainThread]: End processing [http3clientpy] error
+[2023-06-18 14:08:18] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [datawise]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230618] Old Version: [2.4.0b20230617]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/29/d0/fa2f02750b3f36ef2ce674e8fb933b5074a4dbdeaf6dee8572d14e60c689/mkdocs-ultralytics-plugin-0.0.8.tar.gz
+[2023-06-18 14:08:18] WARNING root fetch - processPackages [user-management-api]: Skipping, unable to determine old version
+[2023-06-18 14:08:18] INFO root fetch - processPackages [user-management-api]: Start processing: rapidocr-onnxruntime
+[2023-06-18 14:08:18] INFO root fetch - main [MainThread]: End processing [user-management-api] error
+[2023-06-18 14:08:18] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/0f/58/1599f3aee7c58772eba289cc4ea75c2f207b1f1e6419d7d6e75fc8be10c5/datawise-0.0.4.tar.gz
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-web]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [HAP-python]: Downloading https://files.pythonhosted.org/packages/4c/ad/7722bbedc4631768b159b8ef79bc35d1bffc5cc3ea29b79feb1952c34a93/HAP-python-4.6.0.tar.gz
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-onnxruntime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/80/11/e0830740d34b0c245b1997ed3c752710950e78d5c1dfe4db3e485fa375b0/bigdl_chronos_spark2-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/02/d2/58726f0cfc257b6675663e31774e04a78b48b6f9aed77e9a950e821abfe3/bigdl_spark2-2.4.0b20230617-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/66/9c/fb76f0b057d2c3900d050deb54a26f0b7f696ccb966cba5c942baf32b602/pdf2txt-0.7.8-py3-none-any.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/66/9c/fb76f0b057d2c3900d050deb54a26f0b7f696ccb966cba5c942baf32b602/pdf2txt-0.7.8-py3-none-any.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-web]: Downloading https://files.pythonhosted.org/packages/21/e6/d27b2d0d8d00e00686d2187053e2aaaf35887145bff054f10c23cf18691d/rapidocr_web-0.1.6-py3-none-any.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-api]: Downloading https://files.pythonhosted.org/packages/fd/b1/9dfd651e345f3d92cf1fa9f9d1adc95a58521e5b2df42574f11f1335b80f/rapidocr_api-0.0.2-py3-none-any.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/3f/59/0ab7cebaf152c6d2c1d19e6257ebf0306ed93310ec2d2ad715df2d1ec855/mkdocs-ultralytics-plugin-0.0.9.tar.gz
+[2023-06-18 14:08:18] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/df/37/6653685dac14f2d6a2703356f3bdb4f86450806a63598dd2ea9c51fbf6a3/datawise-0.0.5.tar.gz
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-onnxruntime]: Downloading https://files.pythonhosted.org/packages/69/da/333dc321825b1da48c8e2760e58d9b64d7431cec083e89fa719102b99dba/rapidocr_onnxruntime-1.2.8-py3-none-any.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/50/42/0f92d2e78a4579daa659eba9843293d82022f08d5b382e8255c3599bde83/bigdl_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/8d/a1/e3dffba8e437c2a009fff6018ab69eab97528d5f90fc183c30c6d922822d/pdf2txt-0.7.9-py3-none-any.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-06-18 14:08:18] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.8.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz --markdown 20230618/m/mkdocs-ultralytics-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-18 14:08:18] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-18 14:08:18] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.4.tar.gz tmp/datawise-0.0.5.tar.gz --markdown 20230618/d/datawise/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/c2/9c/cf9c5d3e5276ba197f6bc236da7938a9fa52922cb276a05dc1fe644ffbc6/bigdl_chronos_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [HAP-python]: Downloading https://files.pythonhosted.org/packages/99/51/a2481651ee9fc3a25059b12ec215a16e2689cd7dc332a038b89d837c5179/HAP-python-4.7.0.tar.gz
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: Downloading https://files.pythonhosted.org/packages/8d/a1/e3dffba8e437c2a009fff6018ab69eab97528d5f90fc183c30c6d922822d/pdf2txt-0.7.9-py3-none-any.whl
+[2023-06-18 14:08:18] WARNING root fetch - processPackages [rapidocr-onnxruntime]: Skipping package: exceeds size limit 12326258>=10485760
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-onnxruntime]: Start processing: rapidocr-openvino
+[2023-06-18 14:08:18] INFO root fetch - main [MainThread]: End processing [rapidocr-onnxruntime] error
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-api]: Downloading https://files.pythonhosted.org/packages/2f/8f/080eb4f701810f7fd36a9215fea4280f878bb88629718153b05740587063/rapidocr_api-0.0.3-py3-none-any.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-web]: Downloading https://files.pythonhosted.org/packages/47/41/69a5ca1e8b5ad91cd9c47bfca8cee64f3817b57e3b9f50556295799be628/rapidocr_web-0.1.7-py3-none-any.whl
+[2023-06-18 14:08:18] INFO root fetch - processPackages [HAP-python]: executing diffoscope
+[2023-06-18 14:08:18] INFO root fetch - processPackages [HAP-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HAP-python-4.6.0.tar.gz tmp/HAP-python-4.7.0.tar.gz --markdown 20230618/H/HAP-python/4.6.0-4.7.0/diff.md --exclude *.pyd
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-openvino]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: executing diffoscope
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf2txt-0.7.8-py3-none-any.whl.zip tmp/pdf2txt-0.7.9-py3-none-any.whl.zip --markdown 20230618/p/pdf2txt/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-api]: executing diffoscope
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidocr_api-0.0.2-py3-none-any.whl.zip tmp/rapidocr_api-0.0.3-py3-none-any.whl.zip --markdown 20230618/r/rapidocr-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: executing diffoscope
+[2023-06-18 14:08:18] INFO root fetch - processPackages [pdf2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf2txt-0.7.8-py3-none-any.whl.zip tmp/pdf2txt-0.7.9-py3-none-any.whl.zip --markdown 20230618/p/pdf2txt/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip --markdown 20230618/b/bigdl-chronos-spark2/2.4.0b20230617-2.4.0b20230618/diff.md --exclude *.pyd
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-18 14:08:18] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip --markdown 20230618/b/bigdl-spark2/2.4.0b20230617-2.4.0b20230618/diff.md --exclude *.pyd
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-web]: executing diffoscope
+[2023-06-18 14:08:18] INFO root fetch - processPackages [rapidocr-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidocr_web-0.1.6-py3-none-any.whl.zip tmp/rapidocr_web-0.1.7-py3-none-any.whl.zip --markdown 20230618/r/rapidocr-web/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-18 14:08:19] INFO root fetch - processPackages [rapidocr-openvino]: Downloading https://files.pythonhosted.org/packages/84/b4/d898eebf016a6f875cb116ae4c6cd5e7e9931fb2508a6d6960f44d3ef2ff/rapidocr_openvino-1.2.8-py3-none-any.whl
+[2023-06-18 14:08:19] WARNING root fetch - processPackages [rapidocr-openvino]: Skipping package: exceeds size limit 12342232>=10485760
+[2023-06-18 14:08:19] INFO root fetch - processPackages [rapidocr-openvino]: Start processing: pytedea
+[2023-06-18 14:08:19] INFO root fetch - main [MainThread]: End processing [rapidocr-openvino] error
+[2023-06-18 14:08:19] INFO root fetch - processPackages [pytedea]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-18 14:08:19] INFO root fetch - processPackages [pytedea]: Downloading https://files.pythonhosted.org/packages/b2/14/06cc6c88f994afc4365486e96a2adea0e0758e7185811c9a5023eadb2340/pytedea-0.0.6.tar.gz
+[2023-06-18 14:08:19] INFO root fetch - processPackages [pytedea]: Downloading https://files.pythonhosted.org/packages/83/0a/741d77d4605b31cdbc92cd07b03ebfd14fa083b31663cd4c2fc1bc3859b6/pytedea-0.0.7.tar.gz
+[2023-06-18 14:08:19] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.4.tar.gz]
+[2023-06-18 14:08:19] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.5.tar.gz]
+[2023-06-18 14:08:19] INFO root fetch - processPackages [datawise]: Start processing: litie
+[2023-06-18 14:08:19] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-18 14:08:19] INFO root fetch - processPackages [pytedea]: executing diffoscope
+[2023-06-18 14:08:19] INFO root fetch - processPackages [pytedea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytedea-0.0.6.tar.gz tmp/pytedea-0.0.7.tar.gz --markdown 20230618/p/pytedea/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-18 14:08:19] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ultralytics-plugin-0.0.8.tar.gz]
+[2023-06-18 14:08:19] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz]
+[2023-06-18 14:08:19] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-06-18 14:08:20] INFO root fetch - processPackages [litie]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-18 14:08:20] INFO root fetch - processPackages [litie]: Downloading https://files.pythonhosted.org/packages/39/00/fadf2788d5b6f6a09d5dc80dc93a20e62be274da9ac25e87fbd5e01ac7ff/litie-0.0.2-py3-none-any.whl
+[2023-06-18 14:08:20] INFO root fetch - processPackages [rapidocr-api]: Remove: archive file [/home/abi/fetcher/tmp/rapidocr_api-0.0.2-py3-none-any.whl.zip]
+[2023-06-18 14:08:20] INFO root fetch - processPackages [rapidocr-api]: Remove: archive file [/home/abi/fetcher/tmp/rapidocr_api-0.0.3-py3-none-any.whl.zip]
+[2023-06-18 14:08:20] INFO root fetch - main [MainThread]: End processing [rapidocr-api]: success
+[2023-06-18 14:08:20] INFO root fetch - processPackages [litie]: Downloading https://files.pythonhosted.org/packages/87/a5/63030bb9bf2820142e412a7aac822e3927c8f8b71f86b74fad7e36ca9817/litie-0.0.3.tar.gz
+[2023-06-18 14:08:20] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:08:20] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:08:20] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-18 14:08:20] INFO root fetch - processPackages [HAP-python]: Remove: archive file [/home/abi/fetcher/tmp/HAP-python-4.6.0.tar.gz]
+[2023-06-18 14:08:20] INFO root fetch - processPackages [HAP-python]: Remove: archive file [/home/abi/fetcher/tmp/HAP-python-4.7.0.tar.gz]
+[2023-06-18 14:08:20] INFO root fetch - main [MainThread]: End processing [HAP-python]: success
+[2023-06-18 14:08:20] INFO root fetch - processPackages [rapidocr-web]: Remove: archive file [/home/abi/fetcher/tmp/rapidocr_web-0.1.6-py3-none-any.whl.zip]
+[2023-06-18 14:08:20] INFO root fetch - processPackages [rapidocr-web]: Remove: archive file [/home/abi/fetcher/tmp/rapidocr_web-0.1.7-py3-none-any.whl.zip]
+[2023-06-18 14:08:20] INFO root fetch - main [MainThread]: End processing [rapidocr-web]: success
+[2023-06-18 14:08:20] INFO root fetch - processPackages [litie]: executing diffoscope
+[2023-06-18 14:08:20] INFO root fetch - processPackages [litie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230618:/home/abi/fetcher/20230618:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litie-0.0.2-py3-none-any.whl.zip tmp/litie-0.0.3.tar.gz --markdown 20230618/l/litie/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-18 14:08:20] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.8-py3-none-any.whl.zip]
+[2023-06-18 14:08:20] INFO root fetch - processPackages [pdf2txt]: Remove: archive file [/home/abi/fetcher/tmp/pdf2txt-0.7.9-py3-none-any.whl.zip]
+[2023-06-18 14:08:20] INFO root fetch - main [MainThread]: End processing [pdf2txt]: success
+[2023-06-18 14:08:21] INFO root fetch - main [MainThread]: End processing [pdf2txt]: success
+[2023-06-18 14:08:21] INFO root fetch - processPackages [pytedea]: Remove: archive file [/home/abi/fetcher/tmp/pytedea-0.0.6.tar.gz]
+[2023-06-18 14:08:21] INFO root fetch - processPackages [pytedea]: Remove: archive file [/home/abi/fetcher/tmp/pytedea-0.0.7.tar.gz]
+[2023-06-18 14:08:21] INFO root fetch - main [MainThread]: End processing [pytedea]: success
+[2023-06-18 14:08:21] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230617-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:08:21] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230618-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-18 14:08:21] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-18 14:08:21] INFO root fetch - processPackages [litie]: Remove: archive file [/home/abi/fetcher/tmp/litie-0.0.2-py3-none-any.whl.zip]
+[2023-06-18 14:08:21] INFO root fetch - processPackages [litie]: Remove: archive file [/home/abi/fetcher/tmp/litie-0.0.3.tar.gz]
+[2023-06-18 14:08:21] INFO root fetch - main [MainThread]: End processing [litie]: success
+[2023-06-18 14:08:21] INFO root fetch - main [MainThread]: Store serial: [18549888]
